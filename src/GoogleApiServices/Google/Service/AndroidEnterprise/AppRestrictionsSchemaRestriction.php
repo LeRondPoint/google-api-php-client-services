@@ -18,13 +18,13 @@
 class Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestriction extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'nestedRestriction';
-  protected $defaultValueType = 'Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestrictionRestrictionValue';
+  protected $defaultValueType = '\GoogleApiServices\Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestrictionRestrictionValue';
   protected $defaultValueDataType = '';
   public $description;
   public $entry;
   public $entryValue;
   public $key;
-  protected $nestedRestrictionType = 'Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestriction';
+  protected $nestedRestrictionType = '\GoogleApiServices\Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestriction';
   protected $nestedRestrictionDataType = 'array';
   public $restrictionType;
   public $title;

@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_ListPopulationClause extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'terms';
-  protected $termsType = 'Google_Service_Dfareporting_ListPopulationTerm';
+  protected $termsType = '\GoogleApiServices\Google_Service_Dfareporting_ListPopulationTerm';
   protected $termsDataType = 'array';
 
   public function setTerms($terms)

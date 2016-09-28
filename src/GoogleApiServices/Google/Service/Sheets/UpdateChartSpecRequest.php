@@ -18,7 +18,7 @@
 class Google_Service_Sheets_UpdateChartSpecRequest extends \GoogleApi\Google_Model
 {
   public $chartId;
-  protected $specType = 'Google_Service_Sheets_ChartSpec';
+  protected $specType = '\GoogleApiServices\Google_Service_Sheets_ChartSpec';
   protected $specDataType = '';
 
   public function setChartId($chartId)

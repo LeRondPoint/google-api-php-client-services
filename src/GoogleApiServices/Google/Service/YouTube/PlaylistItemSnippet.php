@@ -23,9 +23,9 @@ class Google_Service_YouTube_PlaylistItemSnippet extends \GoogleApi\Google_Model
   public $playlistId;
   public $position;
   public $publishedAt;
-  protected $resourceIdType = 'Google_Service_YouTube_ResourceId';
+  protected $resourceIdType = '\GoogleApiServices\Google_Service_YouTube_ResourceId';
   protected $resourceIdDataType = '';
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

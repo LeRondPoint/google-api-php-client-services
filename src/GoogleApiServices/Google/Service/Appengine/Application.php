@@ -23,7 +23,7 @@ class Google_Service_Appengine_Application extends \GoogleApi\Google_Collection
   public $defaultBucket;
   public $defaultCookieExpiration;
   public $defaultHostname;
-  protected $dispatchRulesType = 'Google_Service_Appengine_UrlDispatchRule';
+  protected $dispatchRulesType = '\GoogleApiServices\Google_Service_Appengine_UrlDispatchRule';
   protected $dispatchRulesDataType = 'array';
   public $id;
   public $locationId;

@@ -18,7 +18,7 @@
 class Google_Service_Fitness_DataType extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'field';
-  protected $fieldType = 'Google_Service_Fitness_DataTypeField';
+  protected $fieldType = '\GoogleApiServices\Google_Service_Fitness_DataTypeField';
   protected $fieldDataType = 'array';
   public $name;
 

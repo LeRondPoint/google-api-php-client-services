@@ -19,7 +19,7 @@ class Google_Service_Classroom_ListTeachersResponse extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'teachers';
   public $nextPageToken;
-  protected $teachersType = 'Google_Service_Classroom_Teacher';
+  protected $teachersType = '\GoogleApiServices\Google_Service_Classroom_Teacher';
   protected $teachersDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_ImagesUploadResponse extends \GoogleApi\Google_Model
 {
-  protected $imageType = 'Google_Service_AndroidPublisher_Image';
+  protected $imageType = '\GoogleApiServices\Google_Service_AndroidPublisher_Image';
   protected $imageDataType = '';
 
   public function setImage(Google_Service_AndroidPublisher_Image $image)

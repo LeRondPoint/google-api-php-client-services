@@ -17,7 +17,7 @@
 
 class Google_Service_Books_DictlayerdataDictWordsSensesSynonyms extends \GoogleApi\Google_Model
 {
-  protected $sourceType = 'Google_Service_Books_DictlayerdataDictWordsSensesSynonymsSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSensesSynonymsSource';
   protected $sourceDataType = '';
   public $text;
 

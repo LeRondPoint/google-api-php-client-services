@@ -17,9 +17,9 @@
 
 class Google_Service_Dataflow_SourceOperationResponse extends \GoogleApi\Google_Model
 {
-  protected $getMetadataType = 'Google_Service_Dataflow_SourceGetMetadataResponse';
+  protected $getMetadataType = '\GoogleApiServices\Google_Service_Dataflow_SourceGetMetadataResponse';
   protected $getMetadataDataType = '';
-  protected $splitType = 'Google_Service_Dataflow_SourceSplitResponse';
+  protected $splitType = '\GoogleApiServices\Google_Service_Dataflow_SourceSplitResponse';
   protected $splitDataType = '';
 
   public function setGetMetadata(Google_Service_Dataflow_SourceGetMetadataResponse $getMetadata)

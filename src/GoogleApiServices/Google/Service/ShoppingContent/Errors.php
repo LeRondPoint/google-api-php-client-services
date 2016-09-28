@@ -19,7 +19,7 @@ class Google_Service_ShoppingContent_Errors extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
   public $code;
-  protected $errorsType = 'Google_Service_ShoppingContent_Error';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_Error';
   protected $errorsDataType = 'array';
   public $message;
 

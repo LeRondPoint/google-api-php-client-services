@@ -18,10 +18,10 @@
 class Google_Service_CloudDebugger_Variable extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'members';
-  protected $membersType = 'Google_Service_CloudDebugger_Variable';
+  protected $membersType = '\GoogleApiServices\Google_Service_CloudDebugger_Variable';
   protected $membersDataType = 'array';
   public $name;
-  protected $statusType = 'Google_Service_CloudDebugger_StatusMessage';
+  protected $statusType = '\GoogleApiServices\Google_Service_CloudDebugger_StatusMessage';
   protected $statusDataType = '';
   public $type;
   public $value;

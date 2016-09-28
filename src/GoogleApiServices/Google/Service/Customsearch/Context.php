@@ -18,7 +18,7 @@
 class Google_Service_Customsearch_Context extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'facets';
-  protected $facetsType = 'Google_Service_Customsearch_ContextFacets';
+  protected $facetsType = '\GoogleApiServices\Google_Service_Customsearch_ContextFacets';
   protected $facetsDataType = 'array';
   public $title;
 

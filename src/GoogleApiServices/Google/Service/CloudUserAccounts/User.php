@@ -25,7 +25,7 @@ class Google_Service_CloudUserAccounts_User extends \GoogleApi\Google_Collection
   public $kind;
   public $name;
   public $owner;
-  protected $publicKeysType = 'Google_Service_CloudUserAccounts_PublicKey';
+  protected $publicKeysType = '\GoogleApiServices\Google_Service_CloudUserAccounts_PublicKey';
   protected $publicKeysDataType = 'array';
   public $selfLink;
 

@@ -18,20 +18,20 @@
 class Google_Service_Dataflow_ParallelInstruction extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'outputs';
-  protected $flattenType = 'Google_Service_Dataflow_FlattenInstruction';
+  protected $flattenType = '\GoogleApiServices\Google_Service_Dataflow_FlattenInstruction';
   protected $flattenDataType = '';
   public $name;
   public $originalName;
-  protected $outputsType = 'Google_Service_Dataflow_InstructionOutput';
+  protected $outputsType = '\GoogleApiServices\Google_Service_Dataflow_InstructionOutput';
   protected $outputsDataType = 'array';
-  protected $parDoType = 'Google_Service_Dataflow_ParDoInstruction';
+  protected $parDoType = '\GoogleApiServices\Google_Service_Dataflow_ParDoInstruction';
   protected $parDoDataType = '';
-  protected $partialGroupByKeyType = 'Google_Service_Dataflow_PartialGroupByKeyInstruction';
+  protected $partialGroupByKeyType = '\GoogleApiServices\Google_Service_Dataflow_PartialGroupByKeyInstruction';
   protected $partialGroupByKeyDataType = '';
-  protected $readType = 'Google_Service_Dataflow_ReadInstruction';
+  protected $readType = '\GoogleApiServices\Google_Service_Dataflow_ReadInstruction';
   protected $readDataType = '';
   public $systemName;
-  protected $writeType = 'Google_Service_Dataflow_WriteInstruction';
+  protected $writeType = '\GoogleApiServices\Google_Service_Dataflow_WriteInstruction';
   protected $writeDataType = '';
 
   public function setFlatten(Google_Service_Dataflow_FlattenInstruction $flatten)

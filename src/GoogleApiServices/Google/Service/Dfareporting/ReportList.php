@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_ReportList extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Dfareporting_Report';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Dfareporting_Report';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

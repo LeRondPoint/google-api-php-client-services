@@ -17,10 +17,10 @@
 
 class Google_Service_ShoppingContent_AccounttaxCustomBatchResponseEntry extends \GoogleApi\Google_Model
 {
-  protected $accountTaxType = 'Google_Service_ShoppingContent_AccountTax';
+  protected $accountTaxType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountTax';
   protected $accountTaxDataType = '';
   public $batchId;
-  protected $errorsType = 'Google_Service_ShoppingContent_Errors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_Errors';
   protected $errorsDataType = '';
   public $kind;
 

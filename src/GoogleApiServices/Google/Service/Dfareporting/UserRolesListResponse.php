@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_UserRolesListResponse extends \GoogleApi\Googl
   protected $collection_key = 'userRoles';
   public $kind;
   public $nextPageToken;
-  protected $userRolesType = 'Google_Service_Dfareporting_UserRole';
+  protected $userRolesType = '\GoogleApiServices\Google_Service_Dfareporting_UserRole';
   protected $userRolesDataType = 'array';
 
   public function setKind($kind)

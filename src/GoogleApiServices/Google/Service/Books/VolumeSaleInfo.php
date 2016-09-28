@@ -21,12 +21,12 @@ class Google_Service_Books_VolumeSaleInfo extends \GoogleApi\Google_Collection
   public $buyLink;
   public $country;
   public $isEbook;
-  protected $listPriceType = 'Google_Service_Books_VolumeSaleInfoListPrice';
+  protected $listPriceType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfoListPrice';
   protected $listPriceDataType = '';
-  protected $offersType = 'Google_Service_Books_VolumeSaleInfoOffers';
+  protected $offersType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfoOffers';
   protected $offersDataType = 'array';
   public $onSaleDate;
-  protected $retailPriceType = 'Google_Service_Books_VolumeSaleInfoRetailPrice';
+  protected $retailPriceType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfoRetailPrice';
   protected $retailPriceDataType = '';
   public $saleability;
 

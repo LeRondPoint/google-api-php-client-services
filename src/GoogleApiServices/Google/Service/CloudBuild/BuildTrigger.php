@@ -17,14 +17,14 @@
 
 class Google_Service_CloudBuild_BuildTrigger extends \GoogleApi\Google_Model
 {
-  protected $buildType = 'Google_Service_CloudBuild_Build';
+  protected $buildType = '\GoogleApiServices\Google_Service_CloudBuild_Build';
   protected $buildDataType = '';
   public $createTime;
   public $description;
   public $disabled;
   public $filename;
   public $id;
-  protected $triggerTemplateType = 'Google_Service_CloudBuild_RepoSource';
+  protected $triggerTemplateType = '\GoogleApiServices\Google_Service_CloudBuild_RepoSource';
   protected $triggerTemplateDataType = '';
 
   public function setBuild(Google_Service_CloudBuild_Build $build)

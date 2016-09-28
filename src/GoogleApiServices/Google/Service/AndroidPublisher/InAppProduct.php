@@ -18,15 +18,15 @@
 class Google_Service_AndroidPublisher_InAppProduct extends \GoogleApi\Google_Model
 {
   public $defaultLanguage;
-  protected $defaultPriceType = 'Google_Service_AndroidPublisher_Price';
+  protected $defaultPriceType = '\GoogleApiServices\Google_Service_AndroidPublisher_Price';
   protected $defaultPriceDataType = '';
-  protected $listingsType = 'Google_Service_AndroidPublisher_InAppProductListing';
+  protected $listingsType = '\GoogleApiServices\Google_Service_AndroidPublisher_InAppProductListing';
   protected $listingsDataType = 'map';
   public $packageName;
-  protected $pricesType = 'Google_Service_AndroidPublisher_Price';
+  protected $pricesType = '\GoogleApiServices\Google_Service_AndroidPublisher_Price';
   protected $pricesDataType = 'map';
   public $purchaseType;
-  protected $seasonType = 'Google_Service_AndroidPublisher_Season';
+  protected $seasonType = '\GoogleApiServices\Google_Service_AndroidPublisher_Season';
   protected $seasonDataType = '';
   public $sku;
   public $status;

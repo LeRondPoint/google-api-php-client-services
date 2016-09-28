@@ -18,7 +18,7 @@
 class Google_Service_YouTubeReporting_ListJobsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'jobs';
-  protected $jobsType = 'Google_Service_YouTubeReporting_Job';
+  protected $jobsType = '\GoogleApiServices\Google_Service_YouTubeReporting_Job';
   protected $jobsDataType = 'array';
   public $nextPageToken;
 

@@ -17,9 +17,9 @@
 
 class Google_Service_AnalyticsReporting_Report extends \GoogleApi\Google_Model
 {
-  protected $columnHeaderType = 'Google_Service_AnalyticsReporting_ColumnHeader';
+  protected $columnHeaderType = '\GoogleApiServices\Google_Service_AnalyticsReporting_ColumnHeader';
   protected $columnHeaderDataType = '';
-  protected $dataType = 'Google_Service_AnalyticsReporting_ReportData';
+  protected $dataType = '\GoogleApiServices\Google_Service_AnalyticsReporting_ReportData';
   protected $dataDataType = '';
   public $nextPageToken;
 

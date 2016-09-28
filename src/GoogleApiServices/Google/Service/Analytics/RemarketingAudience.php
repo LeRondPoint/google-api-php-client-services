@@ -19,7 +19,7 @@ class Google_Service_Analytics_RemarketingAudience extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'linkedViews';
   public $accountId;
-  protected $audienceDefinitionType = 'Google_Service_Analytics_RemarketingAudienceAudienceDefinition';
+  protected $audienceDefinitionType = '\GoogleApiServices\Google_Service_Analytics_RemarketingAudienceAudienceDefinition';
   protected $audienceDefinitionDataType = '';
   public $audienceType;
   public $created;
@@ -27,11 +27,11 @@ class Google_Service_Analytics_RemarketingAudience extends \GoogleApi\Google_Col
   public $id;
   public $internalWebPropertyId;
   public $kind;
-  protected $linkedAdAccountsType = 'Google_Service_Analytics_LinkedForeignAccount';
+  protected $linkedAdAccountsType = '\GoogleApiServices\Google_Service_Analytics_LinkedForeignAccount';
   protected $linkedAdAccountsDataType = 'array';
   public $linkedViews;
   public $name;
-  protected $stateBasedAudienceDefinitionType = 'Google_Service_Analytics_RemarketingAudienceStateBasedAudienceDefinition';
+  protected $stateBasedAudienceDefinitionType = '\GoogleApiServices\Google_Service_Analytics_RemarketingAudienceStateBasedAudienceDefinition';
   protected $stateBasedAudienceDefinitionDataType = '';
   public $updated;
   public $webPropertyId;

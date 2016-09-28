@@ -18,16 +18,16 @@
 class Google_Service_YouTube_VideoContentDetails extends \GoogleApi\Google_Model
 {
   public $caption;
-  protected $contentRatingType = 'Google_Service_YouTube_ContentRating';
+  protected $contentRatingType = '\GoogleApiServices\Google_Service_YouTube_ContentRating';
   protected $contentRatingDataType = '';
-  protected $countryRestrictionType = 'Google_Service_YouTube_AccessPolicy';
+  protected $countryRestrictionType = '\GoogleApiServices\Google_Service_YouTube_AccessPolicy';
   protected $countryRestrictionDataType = '';
   public $definition;
   public $dimension;
   public $duration;
   public $licensedContent;
   public $projection;
-  protected $regionRestrictionType = 'Google_Service_YouTube_VideoContentDetailsRegionRestriction';
+  protected $regionRestrictionType = '\GoogleApiServices\Google_Service_YouTube_VideoContentDetailsRegionRestriction';
   protected $regionRestrictionDataType = '';
 
   public function setCaption($caption)

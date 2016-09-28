@@ -20,7 +20,7 @@ class Google_Service_YouTube_ThumbnailSetResponse extends \GoogleApi\Google_Coll
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $itemsDataType = 'array';
   public $kind;
   public $visitorId;

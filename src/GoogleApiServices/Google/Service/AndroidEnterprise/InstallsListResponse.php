@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_InstallsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'install';
-  protected $installType = 'Google_Service_AndroidEnterprise_Install';
+  protected $installType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Install';
   protected $installDataType = 'array';
   public $kind;
 

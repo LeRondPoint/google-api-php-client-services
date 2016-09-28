@@ -19,7 +19,7 @@ class Google_Service_ServiceRegistry_OperationWarnings extends \GoogleApi\Google
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_ServiceRegistry_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_ServiceRegistry_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

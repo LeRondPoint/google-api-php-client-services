@@ -19,23 +19,23 @@ class Google_Service_Dfareporting_TargetingTemplate extends \GoogleApi\Google_Mo
 {
   public $accountId;
   public $advertiserId;
-  protected $advertiserIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $advertiserIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $advertiserIdDimensionValueDataType = '';
-  protected $dayPartTargetingType = 'Google_Service_Dfareporting_DayPartTargeting';
+  protected $dayPartTargetingType = '\GoogleApiServices\Google_Service_Dfareporting_DayPartTargeting';
   protected $dayPartTargetingDataType = '';
-  protected $geoTargetingType = 'Google_Service_Dfareporting_GeoTargeting';
+  protected $geoTargetingType = '\GoogleApiServices\Google_Service_Dfareporting_GeoTargeting';
   protected $geoTargetingDataType = '';
   public $id;
-  protected $keyValueTargetingExpressionType = 'Google_Service_Dfareporting_KeyValueTargetingExpression';
+  protected $keyValueTargetingExpressionType = '\GoogleApiServices\Google_Service_Dfareporting_KeyValueTargetingExpression';
   protected $keyValueTargetingExpressionDataType = '';
   public $kind;
-  protected $languageTargetingType = 'Google_Service_Dfareporting_LanguageTargeting';
+  protected $languageTargetingType = '\GoogleApiServices\Google_Service_Dfareporting_LanguageTargeting';
   protected $languageTargetingDataType = '';
-  protected $listTargetingExpressionType = 'Google_Service_Dfareporting_ListTargetingExpression';
+  protected $listTargetingExpressionType = '\GoogleApiServices\Google_Service_Dfareporting_ListTargetingExpression';
   protected $listTargetingExpressionDataType = '';
   public $name;
   public $subaccountId;
-  protected $technologyTargetingType = 'Google_Service_Dfareporting_TechnologyTargeting';
+  protected $technologyTargetingType = '\GoogleApiServices\Google_Service_Dfareporting_TechnologyTargeting';
   protected $technologyTargetingDataType = '';
 
   public function setAccountId($accountId)

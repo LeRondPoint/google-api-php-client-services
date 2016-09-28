@@ -19,7 +19,7 @@ class Google_Service_AndroidPublisher_ApkListingsListResponse extends \GoogleApi
 {
   protected $collection_key = 'listings';
   public $kind;
-  protected $listingsType = 'Google_Service_AndroidPublisher_ApkListing';
+  protected $listingsType = '\GoogleApiServices\Google_Service_AndroidPublisher_ApkListing';
   protected $listingsDataType = 'array';
 
   public function setKind($kind)

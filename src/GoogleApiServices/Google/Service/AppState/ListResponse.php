@@ -18,7 +18,7 @@
 class Google_Service_AppState_ListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_AppState_GetResponse';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AppState_GetResponse';
   protected $itemsDataType = 'array';
   public $kind;
   public $maximumKeyCount;

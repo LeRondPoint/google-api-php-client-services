@@ -20,7 +20,7 @@ class Google_Service_Genomics_MergeVariantsRequest extends \GoogleApi\Google_Col
   protected $collection_key = 'variants';
   public $infoMergeConfig;
   public $variantSetId;
-  protected $variantsType = 'Google_Service_Genomics_Variant';
+  protected $variantsType = '\GoogleApiServices\Google_Service_Genomics_Variant';
   protected $variantsDataType = 'array';
 
   public function setInfoMergeConfig($infoMergeConfig)

@@ -18,7 +18,7 @@
 class Google_Service_Pubsub_ReceivedMessage extends \GoogleApi\Google_Model
 {
   public $ackId;
-  protected $messageType = 'Google_Service_Pubsub_PubsubMessage';
+  protected $messageType = '\GoogleApiServices\Google_Service_Pubsub_PubsubMessage';
   protected $messageDataType = '';
 
   public function setAckId($ackId)

@@ -18,7 +18,7 @@
 class Google_Service_CloudDebugger_ListDebuggeesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'debuggees';
-  protected $debuggeesType = 'Google_Service_CloudDebugger_Debuggee';
+  protected $debuggeesType = '\GoogleApiServices\Google_Service_CloudDebugger_Debuggee';
   protected $debuggeesDataType = 'array';
 
   public function setDebuggees($debuggees)

@@ -18,34 +18,34 @@
 class Google_Service_Storage_Bucket extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'defaultObjectAcl';
-  protected $aclType = 'Google_Service_Storage_BucketAccessControl';
+  protected $aclType = '\GoogleApiServices\Google_Service_Storage_BucketAccessControl';
   protected $aclDataType = 'array';
-  protected $corsType = 'Google_Service_Storage_BucketCors';
+  protected $corsType = '\GoogleApiServices\Google_Service_Storage_BucketCors';
   protected $corsDataType = 'array';
-  protected $defaultObjectAclType = 'Google_Service_Storage_ObjectAccessControl';
+  protected $defaultObjectAclType = '\GoogleApiServices\Google_Service_Storage_ObjectAccessControl';
   protected $defaultObjectAclDataType = 'array';
-  protected $encryptionType = 'Google_Service_Storage_BucketEncryption';
+  protected $encryptionType = '\GoogleApiServices\Google_Service_Storage_BucketEncryption';
   protected $encryptionDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $lifecycleType = 'Google_Service_Storage_BucketLifecycle';
+  protected $lifecycleType = '\GoogleApiServices\Google_Service_Storage_BucketLifecycle';
   protected $lifecycleDataType = '';
   public $location;
-  protected $loggingType = 'Google_Service_Storage_BucketLogging';
+  protected $loggingType = '\GoogleApiServices\Google_Service_Storage_BucketLogging';
   protected $loggingDataType = '';
   public $metageneration;
   public $name;
-  protected $ownerType = 'Google_Service_Storage_BucketOwner';
+  protected $ownerType = '\GoogleApiServices\Google_Service_Storage_BucketOwner';
   protected $ownerDataType = '';
   public $projectNumber;
   public $selfLink;
   public $storageClass;
   public $timeCreated;
   public $updated;
-  protected $versioningType = 'Google_Service_Storage_BucketVersioning';
+  protected $versioningType = '\GoogleApiServices\Google_Service_Storage_BucketVersioning';
   protected $versioningDataType = '';
-  protected $websiteType = 'Google_Service_Storage_BucketWebsite';
+  protected $websiteType = '\GoogleApiServices\Google_Service_Storage_BucketWebsite';
   protected $websiteDataType = '';
 
   public function setAcl($acl)

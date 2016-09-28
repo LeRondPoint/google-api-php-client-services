@@ -17,14 +17,14 @@
 
 class Google_Service_Books_AnnotationCurrentVersionRanges extends \GoogleApi\Google_Model
 {
-  protected $cfiRangeType = 'Google_Service_Books_BooksAnnotationsRange';
+  protected $cfiRangeType = '\GoogleApiServices\Google_Service_Books_BooksAnnotationsRange';
   protected $cfiRangeDataType = '';
   public $contentVersion;
-  protected $gbImageRangeType = 'Google_Service_Books_BooksAnnotationsRange';
+  protected $gbImageRangeType = '\GoogleApiServices\Google_Service_Books_BooksAnnotationsRange';
   protected $gbImageRangeDataType = '';
-  protected $gbTextRangeType = 'Google_Service_Books_BooksAnnotationsRange';
+  protected $gbTextRangeType = '\GoogleApiServices\Google_Service_Books_BooksAnnotationsRange';
   protected $gbTextRangeDataType = '';
-  protected $imageCfiRangeType = 'Google_Service_Books_BooksAnnotationsRange';
+  protected $imageCfiRangeType = '\GoogleApiServices\Google_Service_Books_BooksAnnotationsRange';
   protected $imageCfiRangeDataType = '';
 
   public function setCfiRange(Google_Service_Books_BooksAnnotationsRange $cfiRange)

@@ -18,7 +18,7 @@
 class Google_Service_Autoscaler_Zone extends \GoogleApi\Google_Model
 {
   public $creationTimestamp;
-  protected $deprecatedType = 'Google_Service_Autoscaler_DeprecationStatus';
+  protected $deprecatedType = '\GoogleApiServices\Google_Service_Autoscaler_DeprecationStatus';
   protected $deprecatedDataType = '';
   public $description;
   public $id;

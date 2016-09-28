@@ -19,7 +19,7 @@ class Google_Service_Compute_MachineTypesScopedListWarning extends \GoogleApi\Go
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_MachineTypesScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_MachineTypesScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

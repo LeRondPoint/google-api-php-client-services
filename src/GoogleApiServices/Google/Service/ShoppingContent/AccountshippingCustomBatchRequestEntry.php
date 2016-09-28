@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_AccountshippingCustomBatchRequestEntry extends \GoogleApi\Google_Model
 {
   public $accountId;
-  protected $accountShippingType = 'Google_Service_ShoppingContent_AccountShipping';
+  protected $accountShippingType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShipping';
   protected $accountShippingDataType = '';
   public $batchId;
   public $merchantId;

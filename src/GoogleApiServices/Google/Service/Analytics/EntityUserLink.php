@@ -17,14 +17,14 @@
 
 class Google_Service_Analytics_EntityUserLink extends \GoogleApi\Google_Model
 {
-  protected $entityType = 'Google_Service_Analytics_EntityUserLinkEntity';
+  protected $entityType = '\GoogleApiServices\Google_Service_Analytics_EntityUserLinkEntity';
   protected $entityDataType = '';
   public $id;
   public $kind;
-  protected $permissionsType = 'Google_Service_Analytics_EntityUserLinkPermissions';
+  protected $permissionsType = '\GoogleApiServices\Google_Service_Analytics_EntityUserLinkPermissions';
   protected $permissionsDataType = '';
   public $selfLink;
-  protected $userRefType = 'Google_Service_Analytics_UserRef';
+  protected $userRefType = '\GoogleApiServices\Google_Service_Analytics_UserRef';
   protected $userRefDataType = '';
 
   public function setEntity(Google_Service_Analytics_EntityUserLinkEntity $entity)

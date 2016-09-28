@@ -19,7 +19,7 @@ class Google_Service_ShoppingContent_OrdersCustomBatchRequestEntryShipLineItems 
 {
   protected $collection_key = 'lineItems';
   public $carrier;
-  protected $lineItemsType = 'Google_Service_ShoppingContent_OrderShipmentLineItemShipment';
+  protected $lineItemsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderShipmentLineItemShipment';
   protected $lineItemsDataType = 'array';
   public $shipmentId;
   public $trackingId;

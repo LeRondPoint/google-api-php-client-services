@@ -29,7 +29,7 @@ class Google_Service_Games_Quest extends \GoogleApi\Google_Collection
   public $isDefaultIconUrl;
   public $kind;
   public $lastUpdatedTimestampMillis;
-  protected $milestonesType = 'Google_Service_Games_QuestMilestone';
+  protected $milestonesType = '\GoogleApiServices\Google_Service_Games_QuestMilestone';
   protected $milestonesDataType = 'array';
   public $name;
   public $notifyTimestampMillis;

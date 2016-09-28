@@ -19,7 +19,7 @@ class Google_Service_CloudSpeechAPI_ListOperationsResponse extends \GoogleApi\Go
 {
   protected $collection_key = 'operations';
   public $nextPageToken;
-  protected $operationsType = 'Google_Service_CloudSpeechAPI_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_CloudSpeechAPI_Operation';
   protected $operationsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

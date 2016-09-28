@@ -18,7 +18,7 @@
 class Google_Service_Pubsub_PullResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'receivedMessages';
-  protected $receivedMessagesType = 'Google_Service_Pubsub_ReceivedMessage';
+  protected $receivedMessagesType = '\GoogleApiServices\Google_Service_Pubsub_ReceivedMessage';
   protected $receivedMessagesDataType = 'array';
 
   public function setReceivedMessages($receivedMessages)

@@ -17,18 +17,18 @@
 
 class Google_Service_AndroidEnterprise_Notification extends \GoogleApi\Google_Model
 {
-  protected $appRestrictionsSchemaChangeEventType = 'Google_Service_AndroidEnterprise_AppRestrictionsSchemaChangeEvent';
+  protected $appRestrictionsSchemaChangeEventType = '\GoogleApiServices\Google_Service_AndroidEnterprise_AppRestrictionsSchemaChangeEvent';
   protected $appRestrictionsSchemaChangeEventDataType = '';
-  protected $appUpdateEventType = 'Google_Service_AndroidEnterprise_AppUpdateEvent';
+  protected $appUpdateEventType = '\GoogleApiServices\Google_Service_AndroidEnterprise_AppUpdateEvent';
   protected $appUpdateEventDataType = '';
   public $enterpriseId;
-  protected $installFailureEventType = 'Google_Service_AndroidEnterprise_InstallFailureEvent';
+  protected $installFailureEventType = '\GoogleApiServices\Google_Service_AndroidEnterprise_InstallFailureEvent';
   protected $installFailureEventDataType = '';
-  protected $newPermissionsEventType = 'Google_Service_AndroidEnterprise_NewPermissionsEvent';
+  protected $newPermissionsEventType = '\GoogleApiServices\Google_Service_AndroidEnterprise_NewPermissionsEvent';
   protected $newPermissionsEventDataType = '';
-  protected $productApprovalEventType = 'Google_Service_AndroidEnterprise_ProductApprovalEvent';
+  protected $productApprovalEventType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ProductApprovalEvent';
   protected $productApprovalEventDataType = '';
-  protected $productAvailabilityChangeEventType = 'Google_Service_AndroidEnterprise_ProductAvailabilityChangeEvent';
+  protected $productAvailabilityChangeEventType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ProductAvailabilityChangeEvent';
   protected $productAvailabilityChangeEventDataType = '';
   public $timestampMillis;
 

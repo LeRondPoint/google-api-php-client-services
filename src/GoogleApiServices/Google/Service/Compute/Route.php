@@ -33,7 +33,7 @@ class Google_Service_Compute_Route extends \GoogleApi\Google_Collection
   public $priority;
   public $selfLink;
   public $tags;
-  protected $warningsType = 'Google_Service_Compute_RouteWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_Compute_RouteWarnings';
   protected $warningsDataType = 'array';
 
   public function setCreationTimestamp($creationTimestamp)

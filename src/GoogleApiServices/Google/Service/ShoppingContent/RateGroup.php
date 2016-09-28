@@ -19,13 +19,13 @@ class Google_Service_ShoppingContent_RateGroup extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'subtables';
   public $applicableShippingLabels;
-  protected $carrierRatesType = 'Google_Service_ShoppingContent_CarrierRate';
+  protected $carrierRatesType = '\GoogleApiServices\Google_Service_ShoppingContent_CarrierRate';
   protected $carrierRatesDataType = 'array';
-  protected $mainTableType = 'Google_Service_ShoppingContent_Table';
+  protected $mainTableType = '\GoogleApiServices\Google_Service_ShoppingContent_Table';
   protected $mainTableDataType = '';
-  protected $singleValueType = 'Google_Service_ShoppingContent_Value';
+  protected $singleValueType = '\GoogleApiServices\Google_Service_ShoppingContent_Value';
   protected $singleValueDataType = '';
-  protected $subtablesType = 'Google_Service_ShoppingContent_Table';
+  protected $subtablesType = '\GoogleApiServices\Google_Service_ShoppingContent_Table';
   protected $subtablesDataType = 'array';
 
   public function setApplicableShippingLabels($applicableShippingLabels)

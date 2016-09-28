@@ -19,7 +19,7 @@ class Google_Service_Compute_TargetVpnGatewaysScopedListWarning extends \GoogleA
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_TargetVpnGatewaysScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_TargetVpnGatewaysScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

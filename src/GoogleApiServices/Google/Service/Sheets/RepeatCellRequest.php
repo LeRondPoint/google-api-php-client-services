@@ -17,10 +17,10 @@
 
 class Google_Service_Sheets_RepeatCellRequest extends \GoogleApi\Google_Model
 {
-  protected $cellType = 'Google_Service_Sheets_CellData';
+  protected $cellType = '\GoogleApiServices\Google_Service_Sheets_CellData';
   protected $cellDataType = '';
   public $fields;
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
 
   public function setCell(Google_Service_Sheets_CellData $cell)

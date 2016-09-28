@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_DimensionValueRequest extends \GoogleApi\Googl
   protected $collection_key = 'filters';
   public $dimensionName;
   public $endDate;
-  protected $filtersType = 'Google_Service_Dfareporting_DimensionFilter';
+  protected $filtersType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionFilter';
   protected $filtersDataType = 'array';
   public $kind;
   public $startDate;

@@ -21,7 +21,7 @@ class Google_Service_YouTube_VideoProcessingDetails extends \GoogleApi\Google_Mo
   public $fileDetailsAvailability;
   public $processingFailureReason;
   public $processingIssuesAvailability;
-  protected $processingProgressType = 'Google_Service_YouTube_VideoProcessingDetailsProcessingProgress';
+  protected $processingProgressType = '\GoogleApiServices\Google_Service_YouTube_VideoProcessingDetailsProcessingProgress';
   protected $processingProgressDataType = '';
   public $processingStatus;
   public $tagSuggestionsAvailability;

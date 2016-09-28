@@ -22,7 +22,7 @@ class Google_Service_ConsumerSurveys_SurveyQuestion extends \GoogleApi\Google_Co
   public $answers;
   public $hasOther;
   public $highValueLabel;
-  protected $imagesType = 'Google_Service_ConsumerSurveys_SurveyQuestionImage';
+  protected $imagesType = '\GoogleApiServices\Google_Service_ConsumerSurveys_SurveyQuestionImage';
   protected $imagesDataType = 'array';
   public $lastAnswerPositionPinned;
   public $lowValueLabel;

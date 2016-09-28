@@ -24,7 +24,7 @@ class Google_Service_Partners_Lead extends \GoogleApi\Google_Collection
   public $givenName;
   public $gpsMotivations;
   public $id;
-  protected $minMonthlyBudgetType = 'Google_Service_Partners_Money';
+  protected $minMonthlyBudgetType = '\GoogleApiServices\Google_Service_Partners_Money';
   protected $minMonthlyBudgetDataType = '';
   public $phoneNumber;
   public $type;

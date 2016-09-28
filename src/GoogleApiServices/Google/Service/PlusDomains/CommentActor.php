@@ -17,14 +17,14 @@
 
 class Google_Service_PlusDomains_CommentActor extends \GoogleApi\Google_Model
 {
-  protected $clientSpecificActorInfoType = 'Google_Service_PlusDomains_CommentActorClientSpecificActorInfo';
+  protected $clientSpecificActorInfoType = '\GoogleApiServices\Google_Service_PlusDomains_CommentActorClientSpecificActorInfo';
   protected $clientSpecificActorInfoDataType = '';
   public $displayName;
   public $id;
-  protected $imageType = 'Google_Service_PlusDomains_CommentActorImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_PlusDomains_CommentActorImage';
   protected $imageDataType = '';
   public $url;
-  protected $verificationType = 'Google_Service_PlusDomains_CommentActorVerification';
+  protected $verificationType = '\GoogleApiServices\Google_Service_PlusDomains_CommentActorVerification';
   protected $verificationDataType = '';
 
   public function setClientSpecificActorInfo(Google_Service_PlusDomains_CommentActorClientSpecificActorInfo $clientSpecificActorInfo)

@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_Conversion extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'encryptedUserIdCandidates';
   public $childDirectedTreatment;
-  protected $customVariablesType = 'Google_Service_Dfareporting_CustomFloodlightVariable';
+  protected $customVariablesType = '\GoogleApiServices\Google_Service_Dfareporting_CustomFloodlightVariable';
   protected $customVariablesDataType = 'array';
   public $encryptedUserId;
   public $encryptedUserIdCandidates;

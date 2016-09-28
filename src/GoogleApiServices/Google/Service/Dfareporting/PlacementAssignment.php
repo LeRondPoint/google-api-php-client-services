@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_PlacementAssignment extends \GoogleApi\Google_
 {
   public $active;
   public $placementId;
-  protected $placementIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $placementIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $placementIdDimensionValueDataType = '';
   public $sslRequired;
 

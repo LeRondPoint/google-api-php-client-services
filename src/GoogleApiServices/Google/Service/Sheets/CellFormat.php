@@ -17,18 +17,18 @@
 
 class Google_Service_Sheets_CellFormat extends \GoogleApi\Google_Model
 {
-  protected $backgroundColorType = 'Google_Service_Sheets_Color';
+  protected $backgroundColorType = '\GoogleApiServices\Google_Service_Sheets_Color';
   protected $backgroundColorDataType = '';
-  protected $bordersType = 'Google_Service_Sheets_Borders';
+  protected $bordersType = '\GoogleApiServices\Google_Service_Sheets_Borders';
   protected $bordersDataType = '';
   public $horizontalAlignment;
   public $hyperlinkDisplayType;
-  protected $numberFormatType = 'Google_Service_Sheets_NumberFormat';
+  protected $numberFormatType = '\GoogleApiServices\Google_Service_Sheets_NumberFormat';
   protected $numberFormatDataType = '';
-  protected $paddingType = 'Google_Service_Sheets_Padding';
+  protected $paddingType = '\GoogleApiServices\Google_Service_Sheets_Padding';
   protected $paddingDataType = '';
   public $textDirection;
-  protected $textFormatType = 'Google_Service_Sheets_TextFormat';
+  protected $textFormatType = '\GoogleApiServices\Google_Service_Sheets_TextFormat';
   protected $textFormatDataType = '';
   public $verticalAlignment;
   public $wrapStrategy;

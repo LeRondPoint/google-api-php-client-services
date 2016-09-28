@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_DeleteConditionalFormatRuleResponse extends \GoogleApi\Google_Model
 {
-  protected $ruleType = 'Google_Service_Sheets_ConditionalFormatRule';
+  protected $ruleType = '\GoogleApiServices\Google_Service_Sheets_ConditionalFormatRule';
   protected $ruleDataType = '';
 
   public function setRule(Google_Service_Sheets_ConditionalFormatRule $rule)

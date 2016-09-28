@@ -18,7 +18,7 @@
 class Google_Service_Sheets_FilterCriteria extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'hiddenValues';
-  protected $conditionType = 'Google_Service_Sheets_BooleanCondition';
+  protected $conditionType = '\GoogleApiServices\Google_Service_Sheets_BooleanCondition';
   protected $conditionDataType = '';
   public $hiddenValues;
 

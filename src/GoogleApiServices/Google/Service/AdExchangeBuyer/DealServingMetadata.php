@@ -17,7 +17,7 @@
 
 class Google_Service_AdExchangeBuyer_DealServingMetadata extends \GoogleApi\Google_Model
 {
-  protected $dealPauseStatusType = 'Google_Service_AdExchangeBuyer_DealServingMetadataDealPauseStatus';
+  protected $dealPauseStatusType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealServingMetadataDealPauseStatus';
   protected $dealPauseStatusDataType = '';
 
   public function setDealPauseStatus(Google_Service_AdExchangeBuyer_DealServingMetadataDealPauseStatus $dealPauseStatus)

@@ -19,7 +19,7 @@ class Google_Service_Resourceviews_OperationWarnings extends \GoogleApi\Google_C
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Resourceviews_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Resourceviews_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

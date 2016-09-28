@@ -19,7 +19,7 @@ class Google_Service_Licensing_LicenseAssignmentList extends \GoogleApi\Google_C
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Licensing_LicenseAssignment';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Licensing_LicenseAssignment';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,11 +18,11 @@
 class Google_Service_ShoppingContent_AccountShippingShippingServiceCostRule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'children';
-  protected $calculationMethodType = 'Google_Service_ShoppingContent_AccountShippingShippingServiceCalculationMethod';
+  protected $calculationMethodType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingShippingServiceCalculationMethod';
   protected $calculationMethodDataType = '';
-  protected $childrenType = 'Google_Service_ShoppingContent_AccountShippingShippingServiceCostRule';
+  protected $childrenType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingShippingServiceCostRule';
   protected $childrenDataType = 'array';
-  protected $conditionType = 'Google_Service_ShoppingContent_AccountShippingCondition';
+  protected $conditionType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingCondition';
   protected $conditionDataType = '';
 
   public function setCalculationMethod(Google_Service_ShoppingContent_AccountShippingShippingServiceCalculationMethod $calculationMethod)

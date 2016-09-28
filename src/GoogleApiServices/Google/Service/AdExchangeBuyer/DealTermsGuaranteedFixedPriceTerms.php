@@ -18,9 +18,9 @@
 class Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTerms extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'fixedPrices';
-  protected $billingInfoType = 'Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTermsBillingInfo';
+  protected $billingInfoType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTermsBillingInfo';
   protected $billingInfoDataType = '';
-  protected $fixedPricesType = 'Google_Service_AdExchangeBuyer_PricePerBuyer';
+  protected $fixedPricesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PricePerBuyer';
   protected $fixedPricesDataType = 'array';
   public $guaranteedImpressions;
   public $guaranteedLooks;

@@ -18,9 +18,9 @@
 class Google_Service_Compute_TargetPoolsScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'targetPools';
-  protected $targetPoolsType = 'Google_Service_Compute_TargetPool';
+  protected $targetPoolsType = '\GoogleApiServices\Google_Service_Compute_TargetPool';
   protected $targetPoolsDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_TargetPoolsScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_TargetPoolsScopedListWarning';
   protected $warningDataType = '';
 
   public function setTargetPools($targetPools)

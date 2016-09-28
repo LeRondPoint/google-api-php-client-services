@@ -18,13 +18,13 @@
 class Google_Service_ShoppingContent_Headers extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'weights';
-  protected $locationsType = 'Google_Service_ShoppingContent_LocationIdSet';
+  protected $locationsType = '\GoogleApiServices\Google_Service_ShoppingContent_LocationIdSet';
   protected $locationsDataType = 'array';
   public $numberOfItems;
   public $postalCodeGroupNames;
-  protected $pricesType = 'Google_Service_ShoppingContent_Price';
+  protected $pricesType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $pricesDataType = 'array';
-  protected $weightsType = 'Google_Service_ShoppingContent_Weight';
+  protected $weightsType = '\GoogleApiServices\Google_Service_ShoppingContent_Weight';
   protected $weightsDataType = 'array';
 
   public function setLocations($locations)

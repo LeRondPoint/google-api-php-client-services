@@ -26,7 +26,7 @@ class Google_Service_QPXExpress_SliceInput extends \GoogleApi\Google_Collection
   public $maxStops;
   public $origin;
   public $permittedCarrier;
-  protected $permittedDepartureTimeType = 'Google_Service_QPXExpress_TimeOfDayRange';
+  protected $permittedDepartureTimeType = '\GoogleApiServices\Google_Service_QPXExpress_TimeOfDayRange';
   protected $permittedDepartureTimeDataType = '';
   public $preferredCabin;
   public $prohibitedCarrier;

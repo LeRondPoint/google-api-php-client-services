@@ -19,7 +19,7 @@ class Google_Service_Sheets_BooleanCondition extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'values';
   public $type;
-  protected $valuesType = 'Google_Service_Sheets_ConditionValue';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Sheets_ConditionValue';
   protected $valuesDataType = 'array';
 
   public function setType($type)

@@ -18,7 +18,7 @@
 class Google_Service_CloudRuntimeConfig_ListConfigsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'configs';
-  protected $configsType = 'Google_Service_CloudRuntimeConfig_RuntimeConfig';
+  protected $configsType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeConfig';
   protected $configsDataType = 'array';
   public $nextPageToken;
 

@@ -19,7 +19,7 @@ class Google_Service_Games_AchievementUpdateMultipleResponse extends \GoogleApi\
 {
   protected $collection_key = 'updatedAchievements';
   public $kind;
-  protected $updatedAchievementsType = 'Google_Service_Games_AchievementUpdateResponse';
+  protected $updatedAchievementsType = '\GoogleApiServices\Google_Service_Games_AchievementUpdateResponse';
   protected $updatedAchievementsDataType = 'array';
 
   public function setKind($kind)

@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListTriggersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'triggers';
-  protected $triggersType = 'Google_Service_TagManager_Trigger';
+  protected $triggersType = '\GoogleApiServices\Google_Service_TagManager_Trigger';
   protected $triggersDataType = 'array';
 
   public function setTriggers($triggers)

@@ -20,7 +20,7 @@ class Google_Service_Dns_Project extends \GoogleApi\Google_Model
   public $id;
   public $kind;
   public $number;
-  protected $quotaType = 'Google_Service_Dns_Quota';
+  protected $quotaType = '\GoogleApiServices\Google_Service_Dns_Quota';
   protected $quotaDataType = '';
 
   public function setId($id)

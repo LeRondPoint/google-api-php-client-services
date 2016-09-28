@@ -22,20 +22,20 @@ class Google_Service_Manager_ReplicaPoolParamsV1Beta1 extends \GoogleApi\Google_
   public $baseInstanceName;
   public $canIpForward;
   public $description;
-  protected $disksToAttachType = 'Google_Service_Manager_ExistingDisk';
+  protected $disksToAttachType = '\GoogleApiServices\Google_Service_Manager_ExistingDisk';
   protected $disksToAttachDataType = 'array';
-  protected $disksToCreateType = 'Google_Service_Manager_NewDisk';
+  protected $disksToCreateType = '\GoogleApiServices\Google_Service_Manager_NewDisk';
   protected $disksToCreateDataType = 'array';
   public $initAction;
   public $machineType;
-  protected $metadataType = 'Google_Service_Manager_Metadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_Manager_Metadata';
   protected $metadataDataType = '';
-  protected $networkInterfacesType = 'Google_Service_Manager_NetworkInterface';
+  protected $networkInterfacesType = '\GoogleApiServices\Google_Service_Manager_NetworkInterface';
   protected $networkInterfacesDataType = 'array';
   public $onHostMaintenance;
-  protected $serviceAccountsType = 'Google_Service_Manager_ServiceAccount';
+  protected $serviceAccountsType = '\GoogleApiServices\Google_Service_Manager_ServiceAccount';
   protected $serviceAccountsDataType = 'array';
-  protected $tagsType = 'Google_Service_Manager_Tag';
+  protected $tagsType = '\GoogleApiServices\Google_Service_Manager_Tag';
   protected $tagsDataType = '';
   public $zone;
 

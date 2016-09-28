@@ -21,7 +21,7 @@ class Google_Service_CloudResourceManager_Project extends \GoogleApi\Google_Mode
   public $labels;
   public $lifecycleState;
   public $name;
-  protected $parentType = 'Google_Service_CloudResourceManager_ResourceId';
+  protected $parentType = '\GoogleApiServices\Google_Service_CloudResourceManager_ResourceId';
   protected $parentDataType = '';
   public $projectId;
   public $projectNumber;

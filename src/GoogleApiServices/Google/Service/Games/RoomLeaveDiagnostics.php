@@ -24,7 +24,7 @@ class Google_Service_Games_RoomLeaveDiagnostics extends \GoogleApi\Google_Collec
   public $kind;
   public $networkOperatorCode;
   public $networkOperatorName;
-  protected $peerSessionType = 'Google_Service_Games_PeerSessionDiagnostics';
+  protected $peerSessionType = '\GoogleApiServices\Google_Service_Games_PeerSessionDiagnostics';
   protected $peerSessionDataType = 'array';
   public $socketsUsed;
 

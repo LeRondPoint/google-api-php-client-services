@@ -18,7 +18,7 @@
 class Google_Service_Proximitybeacon_GetInfoForObservedBeaconsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'beacons';
-  protected $beaconsType = 'Google_Service_Proximitybeacon_BeaconInfo';
+  protected $beaconsType = '\GoogleApiServices\Google_Service_Proximitybeacon_BeaconInfo';
   protected $beaconsDataType = 'array';
 
   public function setBeacons($beacons)

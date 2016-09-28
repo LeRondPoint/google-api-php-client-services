@@ -20,7 +20,7 @@ class Google_Service_GamesConfiguration_GamesNumberFormatConfiguration extends \
   public $currencyCode;
   public $numDecimalPlaces;
   public $numberFormatType;
-  protected $suffixType = 'Google_Service_GamesConfiguration_GamesNumberAffixConfiguration';
+  protected $suffixType = '\GoogleApiServices\Google_Service_GamesConfiguration_GamesNumberAffixConfiguration';
   protected $suffixDataType = '';
 
   public function setCurrencyCode($currencyCode)

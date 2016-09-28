@@ -18,7 +18,7 @@
 class Google_Service_TagManager_Condition extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'parameter';
-  protected $parameterType = 'Google_Service_TagManager_Parameter';
+  protected $parameterType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $parameterDataType = 'array';
   public $type;
 

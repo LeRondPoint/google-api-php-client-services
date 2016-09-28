@@ -18,7 +18,7 @@
 class Google_Service_Playmoviespartner_ListExperienceLocalesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'experienceLocales';
-  protected $experienceLocalesType = 'Google_Service_Playmoviespartner_ExperienceLocale';
+  protected $experienceLocalesType = '\GoogleApiServices\Google_Service_Playmoviespartner_ExperienceLocale';
   protected $experienceLocalesDataType = 'array';
   public $nextPageToken;
 

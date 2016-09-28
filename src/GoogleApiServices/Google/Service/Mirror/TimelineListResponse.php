@@ -18,7 +18,7 @@
 class Google_Service_Mirror_TimelineListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Mirror_TimelineItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Mirror_TimelineItem';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -17,7 +17,7 @@
 
 class Google_Service_Compute_UrlMapsValidateResponse extends \GoogleApi\Google_Model
 {
-  protected $resultType = 'Google_Service_Compute_UrlMapValidationResult';
+  protected $resultType = '\GoogleApiServices\Google_Service_Compute_UrlMapValidationResult';
   protected $resultDataType = '';
 
   public function setResult(Google_Service_Compute_UrlMapValidationResult $result)

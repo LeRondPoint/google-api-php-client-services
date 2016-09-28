@@ -18,12 +18,12 @@
 class Google_Service_ConsumerSurveys_MobileAppPanelsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'resources';
-  protected $pageInfoType = 'Google_Service_ConsumerSurveys_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_ConsumerSurveys_PageInfo';
   protected $pageInfoDataType = '';
   public $requestId;
-  protected $resourcesType = 'Google_Service_ConsumerSurveys_MobileAppPanel';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ConsumerSurveys_MobileAppPanel';
   protected $resourcesDataType = 'array';
-  protected $tokenPaginationType = 'Google_Service_ConsumerSurveys_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_ConsumerSurveys_TokenPagination';
   protected $tokenPaginationDataType = '';
 
   public function setPageInfo(Google_Service_ConsumerSurveys_PageInfo $pageInfo)

@@ -18,13 +18,13 @@
 class Google_Service_Monitoring_Type extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'options';
-  protected $fieldsType = 'Google_Service_Monitoring_Field';
+  protected $fieldsType = '\GoogleApiServices\Google_Service_Monitoring_Field';
   protected $fieldsDataType = 'array';
   public $name;
   public $oneofs;
-  protected $optionsType = 'Google_Service_Monitoring_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_Monitoring_Option';
   protected $optionsDataType = 'array';
-  protected $sourceContextType = 'Google_Service_Monitoring_SourceContext';
+  protected $sourceContextType = '\GoogleApiServices\Google_Service_Monitoring_SourceContext';
   protected $sourceContextDataType = '';
   public $syntax;
 

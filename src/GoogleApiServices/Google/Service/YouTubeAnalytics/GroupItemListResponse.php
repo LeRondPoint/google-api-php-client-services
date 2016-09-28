@@ -19,7 +19,7 @@ class Google_Service_YouTubeAnalytics_GroupItemListResponse extends \GoogleApi\G
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_YouTubeAnalytics_GroupItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_GroupItem';
   protected $itemsDataType = 'array';
   public $kind;
 

@@ -19,7 +19,7 @@ class Google_Service_Books_Series extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'series';
   public $kind;
-  protected $seriesType = 'Google_Service_Books_SeriesSeries';
+  protected $seriesType = '\GoogleApiServices\Google_Service_Books_SeriesSeries';
   protected $seriesDataType = 'array';
 
   public function setKind($kind)

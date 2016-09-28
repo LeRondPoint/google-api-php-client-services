@@ -17,10 +17,10 @@
 
 class Google_Service_People_Event extends \GoogleApi\Google_Model
 {
-  protected $dateType = 'Google_Service_People_Date';
+  protected $dateType = '\GoogleApiServices\Google_Service_People_Date';
   protected $dateDataType = '';
   public $formattedType;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $type;
 

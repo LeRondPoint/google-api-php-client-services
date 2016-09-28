@@ -17,16 +17,16 @@
 
 class Google_Service_Dfareporting_CompatibleFields extends \GoogleApi\Google_Model
 {
-  protected $crossDimensionReachReportCompatibleFieldsType = 'Google_Service_Dfareporting_CrossDimensionReachReportCompatibleFields';
+  protected $crossDimensionReachReportCompatibleFieldsType = '\GoogleApiServices\Google_Service_Dfareporting_CrossDimensionReachReportCompatibleFields';
   protected $crossDimensionReachReportCompatibleFieldsDataType = '';
-  protected $floodlightReportCompatibleFieldsType = 'Google_Service_Dfareporting_FloodlightReportCompatibleFields';
+  protected $floodlightReportCompatibleFieldsType = '\GoogleApiServices\Google_Service_Dfareporting_FloodlightReportCompatibleFields';
   protected $floodlightReportCompatibleFieldsDataType = '';
   public $kind;
-  protected $pathToConversionReportCompatibleFieldsType = 'Google_Service_Dfareporting_PathToConversionReportCompatibleFields';
+  protected $pathToConversionReportCompatibleFieldsType = '\GoogleApiServices\Google_Service_Dfareporting_PathToConversionReportCompatibleFields';
   protected $pathToConversionReportCompatibleFieldsDataType = '';
-  protected $reachReportCompatibleFieldsType = 'Google_Service_Dfareporting_ReachReportCompatibleFields';
+  protected $reachReportCompatibleFieldsType = '\GoogleApiServices\Google_Service_Dfareporting_ReachReportCompatibleFields';
   protected $reachReportCompatibleFieldsDataType = '';
-  protected $reportCompatibleFieldsType = 'Google_Service_Dfareporting_ReportCompatibleFields';
+  protected $reportCompatibleFieldsType = '\GoogleApiServices\Google_Service_Dfareporting_ReportCompatibleFields';
   protected $reportCompatibleFieldsDataType = '';
 
   public function setCrossDimensionReachReportCompatibleFields(Google_Service_Dfareporting_CrossDimensionReachReportCompatibleFields $crossDimensionReachReportCompatibleFields)

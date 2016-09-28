@@ -18,13 +18,13 @@
 class Google_Service_YouTube_ChannelBrandingSettings extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'hints';
-  protected $channelType = 'Google_Service_YouTube_ChannelSettings';
+  protected $channelType = '\GoogleApiServices\Google_Service_YouTube_ChannelSettings';
   protected $channelDataType = '';
-  protected $hintsType = 'Google_Service_YouTube_PropertyValue';
+  protected $hintsType = '\GoogleApiServices\Google_Service_YouTube_PropertyValue';
   protected $hintsDataType = 'array';
-  protected $imageType = 'Google_Service_YouTube_ImageSettings';
+  protected $imageType = '\GoogleApiServices\Google_Service_YouTube_ImageSettings';
   protected $imageDataType = '';
-  protected $watchType = 'Google_Service_YouTube_WatchSettings';
+  protected $watchType = '\GoogleApiServices\Google_Service_YouTube_WatchSettings';
   protected $watchDataType = '';
 
   public function setChannel(Google_Service_YouTube_ChannelSettings $channel)

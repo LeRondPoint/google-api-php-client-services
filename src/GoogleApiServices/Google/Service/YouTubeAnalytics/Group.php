@@ -17,12 +17,12 @@
 
 class Google_Service_YouTubeAnalytics_Group extends \GoogleApi\Google_Model
 {
-  protected $contentDetailsType = 'Google_Service_YouTubeAnalytics_GroupContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_GroupContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTubeAnalytics_GroupSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_GroupSnippet';
   protected $snippetDataType = '';
 
   public function setContentDetails(Google_Service_YouTubeAnalytics_GroupContentDetails $contentDetails)

@@ -17,7 +17,7 @@
 
 class Google_Service_CloudBuild_BuildOperationMetadata extends \GoogleApi\Google_Model
 {
-  protected $buildType = 'Google_Service_CloudBuild_Build';
+  protected $buildType = '\GoogleApiServices\Google_Service_CloudBuild_Build';
   protected $buildDataType = '';
 
   public function setBuild(Google_Service_CloudBuild_Build $build)

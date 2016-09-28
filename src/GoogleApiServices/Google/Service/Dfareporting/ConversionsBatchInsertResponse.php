@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_ConversionsBatchInsertResponse extends \Google
   protected $collection_key = 'status';
   public $hasFailures;
   public $kind;
-  protected $statusType = 'Google_Service_Dfareporting_ConversionStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_Dfareporting_ConversionStatus';
   protected $statusDataType = 'array';
 
   public function setHasFailures($hasFailures)

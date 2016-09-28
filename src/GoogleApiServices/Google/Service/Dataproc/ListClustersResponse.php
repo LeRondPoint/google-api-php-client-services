@@ -18,7 +18,7 @@
 class Google_Service_Dataproc_ListClustersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'clusters';
-  protected $clustersType = 'Google_Service_Dataproc_Cluster';
+  protected $clustersType = '\GoogleApiServices\Google_Service_Dataproc_Cluster';
   protected $clustersDataType = 'array';
   public $nextPageToken;
 

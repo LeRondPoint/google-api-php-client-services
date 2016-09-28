@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_ProductCustomGroup extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'attributes';
-  protected $attributesType = 'Google_Service_ShoppingContent_ProductCustomAttribute';
+  protected $attributesType = '\GoogleApiServices\Google_Service_ShoppingContent_ProductCustomAttribute';
   protected $attributesDataType = 'array';
   public $name;
 

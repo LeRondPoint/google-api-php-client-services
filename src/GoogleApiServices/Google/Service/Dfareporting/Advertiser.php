@@ -23,10 +23,10 @@ class Google_Service_Dfareporting_Advertiser extends \GoogleApi\Google_Model
   public $defaultClickThroughEventTagId;
   public $defaultEmail;
   public $floodlightConfigurationId;
-  protected $floodlightConfigurationIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $floodlightConfigurationIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $floodlightConfigurationIdDimensionValueDataType = '';
   public $id;
-  protected $idDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $idDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $idDimensionValueDataType = '';
   public $kind;
   public $name;

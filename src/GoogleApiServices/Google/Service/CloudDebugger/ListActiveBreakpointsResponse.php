@@ -18,7 +18,7 @@
 class Google_Service_CloudDebugger_ListActiveBreakpointsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'breakpoints';
-  protected $breakpointsType = 'Google_Service_CloudDebugger_Breakpoint';
+  protected $breakpointsType = '\GoogleApiServices\Google_Service_CloudDebugger_Breakpoint';
   protected $breakpointsDataType = 'array';
   public $nextWaitToken;
   public $waitExpired;

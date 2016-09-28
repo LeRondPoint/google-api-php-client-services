@@ -20,7 +20,7 @@ class Google_Service_Games_LeaderboardEntry extends \GoogleApi\Google_Model
   public $formattedScore;
   public $formattedScoreRank;
   public $kind;
-  protected $playerType = 'Google_Service_Games_Player';
+  protected $playerType = '\GoogleApiServices\Google_Service_Games_Player';
   protected $playerDataType = '';
   public $scoreRank;
   public $scoreTag;

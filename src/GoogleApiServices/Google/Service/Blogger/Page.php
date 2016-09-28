@@ -17,9 +17,9 @@
 
 class Google_Service_Blogger_Page extends \GoogleApi\Google_Model
 {
-  protected $authorType = 'Google_Service_Blogger_PageAuthor';
+  protected $authorType = '\GoogleApiServices\Google_Service_Blogger_PageAuthor';
   protected $authorDataType = '';
-  protected $blogType = 'Google_Service_Blogger_PageBlog';
+  protected $blogType = '\GoogleApiServices\Google_Service_Blogger_PageBlog';
   protected $blogDataType = '';
   public $content;
   public $etag;

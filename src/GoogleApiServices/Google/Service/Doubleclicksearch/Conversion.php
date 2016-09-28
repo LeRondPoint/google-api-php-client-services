@@ -32,9 +32,9 @@ class Google_Service_Doubleclicksearch_Conversion extends \GoogleApi\Google_Coll
   public $countMillis;
   public $criterionId;
   public $currencyCode;
-  protected $customDimensionType = 'Google_Service_Doubleclicksearch_CustomDimension';
+  protected $customDimensionType = '\GoogleApiServices\Google_Service_Doubleclicksearch_CustomDimension';
   protected $customDimensionDataType = 'array';
-  protected $customMetricType = 'Google_Service_Doubleclicksearch_CustomMetric';
+  protected $customMetricType = '\GoogleApiServices\Google_Service_Doubleclicksearch_CustomMetric';
   protected $customMetricDataType = 'array';
   public $deviceType;
   public $dsConversionId;

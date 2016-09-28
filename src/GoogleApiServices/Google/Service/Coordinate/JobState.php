@@ -19,12 +19,12 @@ class Google_Service_Coordinate_JobState extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'note';
   public $assignee;
-  protected $customFieldsType = 'Google_Service_Coordinate_CustomFields';
+  protected $customFieldsType = '\GoogleApiServices\Google_Service_Coordinate_CustomFields';
   protected $customFieldsDataType = '';
   public $customerName;
   public $customerPhoneNumber;
   public $kind;
-  protected $locationType = 'Google_Service_Coordinate_Location';
+  protected $locationType = '\GoogleApiServices\Google_Service_Coordinate_Location';
   protected $locationDataType = '';
   public $note;
   public $progress;

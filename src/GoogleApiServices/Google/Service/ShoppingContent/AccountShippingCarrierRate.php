@@ -19,7 +19,7 @@ class Google_Service_ShoppingContent_AccountShippingCarrierRate extends \GoogleA
 {
   public $carrier;
   public $carrierService;
-  protected $modifierFlatRateType = 'Google_Service_ShoppingContent_Price';
+  protected $modifierFlatRateType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $modifierFlatRateDataType = '';
   public $modifierPercent;
   public $name;

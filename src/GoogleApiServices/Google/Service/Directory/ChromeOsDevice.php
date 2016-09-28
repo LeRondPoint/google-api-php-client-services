@@ -18,7 +18,7 @@
 class Google_Service_Directory_ChromeOsDevice extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'recentUsers';
-  protected $activeTimeRangesType = 'Google_Service_Directory_ChromeOsDeviceActiveTimeRanges';
+  protected $activeTimeRangesType = '\GoogleApiServices\Google_Service_Directory_ChromeOsDeviceActiveTimeRanges';
   protected $activeTimeRangesDataType = 'array';
   public $annotatedAssetId;
   public $annotatedLocation;
@@ -39,7 +39,7 @@ class Google_Service_Directory_ChromeOsDevice extends \GoogleApi\Google_Collecti
   public $orgUnitPath;
   public $osVersion;
   public $platformVersion;
-  protected $recentUsersType = 'Google_Service_Directory_ChromeOsDeviceRecentUsers';
+  protected $recentUsersType = '\GoogleApiServices\Google_Service_Directory_ChromeOsDeviceRecentUsers';
   protected $recentUsersDataType = 'array';
   public $serialNumber;
   public $status;

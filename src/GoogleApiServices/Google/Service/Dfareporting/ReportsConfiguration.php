@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_ReportsConfiguration extends \GoogleApi\Google_Model
 {
   public $exposureToConversionEnabled;
-  protected $lookbackConfigurationType = 'Google_Service_Dfareporting_LookbackConfiguration';
+  protected $lookbackConfigurationType = '\GoogleApiServices\Google_Service_Dfareporting_LookbackConfiguration';
   protected $lookbackConfigurationDataType = '';
   public $reportGenerationTimeZoneId;
 

@@ -18,7 +18,7 @@
 class Google_Service_Container_ListClustersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'missingZones';
-  protected $clustersType = 'Google_Service_Container_Cluster';
+  protected $clustersType = '\GoogleApiServices\Google_Service_Container_Cluster';
   protected $clustersDataType = 'array';
   public $missingZones;
 

@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_AccountshippingCustomBatchRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entries';
-  protected $entriesType = 'Google_Service_ShoppingContent_AccountshippingCustomBatchRequestEntry';
+  protected $entriesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountshippingCustomBatchRequestEntry';
   protected $entriesDataType = 'array';
 
   public function setEntries($entries)

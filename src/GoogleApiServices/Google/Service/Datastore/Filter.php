@@ -17,9 +17,9 @@
 
 class Google_Service_Datastore_Filter extends \GoogleApi\Google_Model
 {
-  protected $compositeFilterType = 'Google_Service_Datastore_CompositeFilter';
+  protected $compositeFilterType = '\GoogleApiServices\Google_Service_Datastore_CompositeFilter';
   protected $compositeFilterDataType = '';
-  protected $propertyFilterType = 'Google_Service_Datastore_PropertyFilter';
+  protected $propertyFilterType = '\GoogleApiServices\Google_Service_Datastore_PropertyFilter';
   protected $propertyFilterDataType = '';
 
   public function setCompositeFilter(Google_Service_Datastore_CompositeFilter $compositeFilter)

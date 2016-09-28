@@ -17,7 +17,7 @@
 
 class Google_Service_Books_DictlayerdataDictWordsDerivatives extends \GoogleApi\Google_Model
 {
-  protected $sourceType = 'Google_Service_Books_DictlayerdataDictWordsDerivativesSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsDerivativesSource';
   protected $sourceDataType = '';
   public $text;
 

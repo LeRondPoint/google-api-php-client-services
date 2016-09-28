@@ -19,7 +19,7 @@ class Google_Service_Pubsub_ListSubscriptionsResponse extends \GoogleApi\Google_
 {
   protected $collection_key = 'subscriptions';
   public $nextPageToken;
-  protected $subscriptionsType = 'Google_Service_Pubsub_Subscription';
+  protected $subscriptionsType = '\GoogleApiServices\Google_Service_Pubsub_Subscription';
   protected $subscriptionsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

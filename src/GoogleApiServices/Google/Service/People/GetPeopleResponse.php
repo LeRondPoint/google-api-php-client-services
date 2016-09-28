@@ -18,7 +18,7 @@
 class Google_Service_People_GetPeopleResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'responses';
-  protected $responsesType = 'Google_Service_People_PersonResponse';
+  protected $responsesType = '\GoogleApiServices\Google_Service_People_PersonResponse';
   protected $responsesDataType = 'array';
 
   public function setResponses($responses)

@@ -19,7 +19,7 @@ class Google_Service_CloudBuild_Results extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'images';
   public $buildStepImages;
-  protected $imagesType = 'Google_Service_CloudBuild_BuiltImage';
+  protected $imagesType = '\GoogleApiServices\Google_Service_CloudBuild_BuiltImage';
   protected $imagesDataType = 'array';
 
   public function setBuildStepImages($buildStepImages)

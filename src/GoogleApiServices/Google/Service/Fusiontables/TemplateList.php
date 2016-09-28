@@ -18,7 +18,7 @@
 class Google_Service_Fusiontables_TemplateList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Fusiontables_Template';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Fusiontables_Template';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_CustomError extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'types';
-  protected $rulesType = 'Google_Service_ServiceManagement_CustomErrorRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_CustomErrorRule';
   protected $rulesDataType = 'array';
   public $types;
 

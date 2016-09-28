@@ -17,7 +17,7 @@
 
 class Google_Service_Dataflow_SeqMapTaskOutputInfo extends \GoogleApi\Google_Model
 {
-  protected $sinkType = 'Google_Service_Dataflow_Sink';
+  protected $sinkType = '\GoogleApiServices\Google_Service_Dataflow_Sink';
   protected $sinkDataType = '';
   public $tag;
 

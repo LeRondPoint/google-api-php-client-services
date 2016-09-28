@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_Http extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $rulesType = 'Google_Service_ServiceManagement_HttpRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_HttpRule';
   protected $rulesDataType = 'array';
 
   public function setRules($rules)

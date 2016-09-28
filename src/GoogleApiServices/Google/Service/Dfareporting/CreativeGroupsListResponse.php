@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CreativeGroupsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'creativeGroups';
-  protected $creativeGroupsType = 'Google_Service_Dfareporting_CreativeGroup';
+  protected $creativeGroupsType = '\GoogleApiServices\Google_Service_Dfareporting_CreativeGroup';
   protected $creativeGroupsDataType = 'array';
   public $kind;
   public $nextPageToken;

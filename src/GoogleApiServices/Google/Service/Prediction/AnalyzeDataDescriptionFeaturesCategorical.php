@@ -19,7 +19,7 @@ class Google_Service_Prediction_AnalyzeDataDescriptionFeaturesCategorical extend
 {
   protected $collection_key = 'values';
   public $count;
-  protected $valuesType = 'Google_Service_Prediction_AnalyzeDataDescriptionFeaturesCategoricalValues';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionFeaturesCategoricalValues';
   protected $valuesDataType = 'array';
 
   public function setCount($count)

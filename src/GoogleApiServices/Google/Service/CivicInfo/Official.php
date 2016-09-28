@@ -18,9 +18,9 @@
 class Google_Service_CivicInfo_Official extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'urls';
-  protected $addressType = 'Google_Service_CivicInfo_SimpleAddressType';
+  protected $addressType = '\GoogleApiServices\Google_Service_CivicInfo_SimpleAddressType';
   protected $addressDataType = 'array';
-  protected $channelsType = 'Google_Service_CivicInfo_Channel';
+  protected $channelsType = '\GoogleApiServices\Google_Service_CivicInfo_Channel';
   protected $channelsDataType = 'array';
   public $emails;
   public $name;

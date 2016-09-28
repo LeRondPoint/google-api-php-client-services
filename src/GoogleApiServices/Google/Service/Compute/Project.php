@@ -18,7 +18,7 @@
 class Google_Service_Compute_Project extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'quotas';
-  protected $commonInstanceMetadataType = 'Google_Service_Compute_Metadata';
+  protected $commonInstanceMetadataType = '\GoogleApiServices\Google_Service_Compute_Metadata';
   protected $commonInstanceMetadataDataType = '';
   public $creationTimestamp;
   public $defaultServiceAccount;
@@ -27,10 +27,10 @@ class Google_Service_Compute_Project extends \GoogleApi\Google_Collection
   public $id;
   public $kind;
   public $name;
-  protected $quotasType = 'Google_Service_Compute_Quota';
+  protected $quotasType = '\GoogleApiServices\Google_Service_Compute_Quota';
   protected $quotasDataType = 'array';
   public $selfLink;
-  protected $usageExportLocationType = 'Google_Service_Compute_UsageExportLocation';
+  protected $usageExportLocationType = '\GoogleApiServices\Google_Service_Compute_UsageExportLocation';
   protected $usageExportLocationDataType = '';
 
   public function setCommonInstanceMetadata(Google_Service_Compute_Metadata $commonInstanceMetadata)

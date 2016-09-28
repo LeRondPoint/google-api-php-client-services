@@ -18,14 +18,14 @@
 class Google_Service_Urlshortener_AnalyticsSnapshot extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'referrers';
-  protected $browsersType = 'Google_Service_Urlshortener_StringCount';
+  protected $browsersType = '\GoogleApiServices\Google_Service_Urlshortener_StringCount';
   protected $browsersDataType = 'array';
-  protected $countriesType = 'Google_Service_Urlshortener_StringCount';
+  protected $countriesType = '\GoogleApiServices\Google_Service_Urlshortener_StringCount';
   protected $countriesDataType = 'array';
   public $longUrlClicks;
-  protected $platformsType = 'Google_Service_Urlshortener_StringCount';
+  protected $platformsType = '\GoogleApiServices\Google_Service_Urlshortener_StringCount';
   protected $platformsDataType = 'array';
-  protected $referrersType = 'Google_Service_Urlshortener_StringCount';
+  protected $referrersType = '\GoogleApiServices\Google_Service_Urlshortener_StringCount';
   protected $referrersDataType = 'array';
   public $shortUrlClicks;
 

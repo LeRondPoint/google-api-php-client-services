@@ -19,11 +19,11 @@ class Google_Service_QPXExpress_TripOptionsRequest extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'slice';
   public $maxPrice;
-  protected $passengersType = 'Google_Service_QPXExpress_PassengerCounts';
+  protected $passengersType = '\GoogleApiServices\Google_Service_QPXExpress_PassengerCounts';
   protected $passengersDataType = '';
   public $refundable;
   public $saleCountry;
-  protected $sliceType = 'Google_Service_QPXExpress_SliceInput';
+  protected $sliceType = '\GoogleApiServices\Google_Service_QPXExpress_SliceInput';
   protected $sliceDataType = 'array';
   public $solutions;
   public $ticketingCountry;

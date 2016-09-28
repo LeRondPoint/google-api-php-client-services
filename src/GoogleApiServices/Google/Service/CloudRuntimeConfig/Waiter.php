@@ -19,12 +19,12 @@ class Google_Service_CloudRuntimeConfig_Waiter extends \GoogleApi\Google_Model
 {
   public $createTime;
   public $done;
-  protected $errorType = 'Google_Service_CloudRuntimeConfig_Status';
+  protected $errorType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_Status';
   protected $errorDataType = '';
-  protected $failureType = 'Google_Service_CloudRuntimeConfig_EndCondition';
+  protected $failureType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_EndCondition';
   protected $failureDataType = '';
   public $name;
-  protected $successType = 'Google_Service_CloudRuntimeConfig_EndCondition';
+  protected $successType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_EndCondition';
   protected $successDataType = '';
   public $timeout;
 

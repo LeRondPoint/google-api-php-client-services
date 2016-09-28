@@ -20,10 +20,10 @@ class Google_Service_QPXExpress_TripOption extends \GoogleApi\Google_Collection
   protected $collection_key = 'slice';
   public $id;
   public $kind;
-  protected $pricingType = 'Google_Service_QPXExpress_PricingInfo';
+  protected $pricingType = '\GoogleApiServices\Google_Service_QPXExpress_PricingInfo';
   protected $pricingDataType = 'array';
   public $saleTotal;
-  protected $sliceType = 'Google_Service_QPXExpress_SliceInfo';
+  protected $sliceType = '\GoogleApiServices\Google_Service_QPXExpress_SliceInfo';
   protected $sliceDataType = 'array';
 
   public function setId($id)

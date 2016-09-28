@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_SubaccountsListResponse extends \GoogleApi\Goo
   protected $collection_key = 'subaccounts';
   public $kind;
   public $nextPageToken;
-  protected $subaccountsType = 'Google_Service_Dfareporting_Subaccount';
+  protected $subaccountsType = '\GoogleApiServices\Google_Service_Dfareporting_Subaccount';
   protected $subaccountsDataType = 'array';
 
   public function setKind($kind)

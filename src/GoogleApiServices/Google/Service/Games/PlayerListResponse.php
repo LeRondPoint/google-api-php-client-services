@@ -18,7 +18,7 @@
 class Google_Service_Games_PlayerListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Games_Player';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Games_Player';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

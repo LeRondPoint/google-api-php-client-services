@@ -19,7 +19,7 @@ class Google_Service_AdSense_AdUnits extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdSense_AdUnit';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdSense_AdUnit';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

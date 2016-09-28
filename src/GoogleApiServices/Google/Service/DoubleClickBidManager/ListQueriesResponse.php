@@ -19,7 +19,7 @@ class Google_Service_DoubleClickBidManager_ListQueriesResponse extends \GoogleAp
 {
   protected $collection_key = 'queries';
   public $kind;
-  protected $queriesType = 'Google_Service_DoubleClickBidManager_Query';
+  protected $queriesType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_Query';
   protected $queriesDataType = 'array';
 
   public function setKind($kind)

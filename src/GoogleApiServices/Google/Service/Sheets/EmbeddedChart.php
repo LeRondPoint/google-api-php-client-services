@@ -18,9 +18,9 @@
 class Google_Service_Sheets_EmbeddedChart extends \GoogleApi\Google_Model
 {
   public $chartId;
-  protected $positionType = 'Google_Service_Sheets_EmbeddedObjectPosition';
+  protected $positionType = '\GoogleApiServices\Google_Service_Sheets_EmbeddedObjectPosition';
   protected $positionDataType = '';
-  protected $specType = 'Google_Service_Sheets_ChartSpec';
+  protected $specType = '\GoogleApiServices\Google_Service_Sheets_ChartSpec';
   protected $specDataType = '';
 
   public function setChartId($chartId)

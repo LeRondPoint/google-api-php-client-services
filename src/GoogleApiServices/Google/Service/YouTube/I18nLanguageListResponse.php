@@ -20,7 +20,7 @@ class Google_Service_YouTube_I18nLanguageListResponse extends \GoogleApi\Google_
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_I18nLanguage';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_I18nLanguage';
   protected $itemsDataType = 'array';
   public $kind;
   public $visitorId;

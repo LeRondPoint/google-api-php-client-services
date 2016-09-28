@@ -27,11 +27,11 @@ class Google_Service_ShoppingContent_TestOrderLineItemProduct extends \GoogleApi
   public $itemGroupId;
   public $mpn;
   public $offerId;
-  protected $priceType = 'Google_Service_ShoppingContent_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $priceDataType = '';
   public $targetCountry;
   public $title;
-  protected $variantAttributesType = 'Google_Service_ShoppingContent_OrderLineItemProductVariantAttribute';
+  protected $variantAttributesType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemProductVariantAttribute';
   protected $variantAttributesDataType = 'array';
 
   public function setBrand($brand)

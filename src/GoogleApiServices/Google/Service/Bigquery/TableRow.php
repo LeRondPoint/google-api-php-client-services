@@ -18,7 +18,7 @@
 class Google_Service_Bigquery_TableRow extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'f';
-  protected $fType = 'Google_Service_Bigquery_TableCell';
+  protected $fType = '\GoogleApiServices\Google_Service_Bigquery_TableCell';
   protected $fDataType = 'array';
 
   public function setF($f)

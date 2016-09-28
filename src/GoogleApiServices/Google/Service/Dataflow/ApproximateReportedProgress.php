@@ -17,12 +17,12 @@
 
 class Google_Service_Dataflow_ApproximateReportedProgress extends \GoogleApi\Google_Model
 {
-  protected $consumedParallelismType = 'Google_Service_Dataflow_ReportedParallelism';
+  protected $consumedParallelismType = '\GoogleApiServices\Google_Service_Dataflow_ReportedParallelism';
   protected $consumedParallelismDataType = '';
   public $fractionConsumed;
-  protected $positionType = 'Google_Service_Dataflow_Position';
+  protected $positionType = '\GoogleApiServices\Google_Service_Dataflow_Position';
   protected $positionDataType = '';
-  protected $remainingParallelismType = 'Google_Service_Dataflow_ReportedParallelism';
+  protected $remainingParallelismType = '\GoogleApiServices\Google_Service_Dataflow_ReportedParallelism';
   protected $remainingParallelismDataType = '';
 
   public function setConsumedParallelism(Google_Service_Dataflow_ReportedParallelism $consumedParallelism)

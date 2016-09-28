@@ -18,9 +18,9 @@
 class Google_Service_Dfareporting_ConversionStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $conversionType = 'Google_Service_Dfareporting_Conversion';
+  protected $conversionType = '\GoogleApiServices\Google_Service_Dfareporting_Conversion';
   protected $conversionDataType = '';
-  protected $errorsType = 'Google_Service_Dfareporting_ConversionError';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Dfareporting_ConversionError';
   protected $errorsDataType = 'array';
   public $kind;
 

@@ -17,7 +17,7 @@
 
 class Google_Service_Vision_Landmark extends \GoogleApi\Google_Model
 {
-  protected $positionType = 'Google_Service_Vision_Position';
+  protected $positionType = '\GoogleApiServices\Google_Service_Vision_Position';
   protected $positionDataType = '';
   public $type;
 

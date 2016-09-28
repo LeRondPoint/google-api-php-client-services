@@ -18,12 +18,12 @@
 class Google_Service_Reports_Activity extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'events';
-  protected $actorType = 'Google_Service_Reports_ActivityActor';
+  protected $actorType = '\GoogleApiServices\Google_Service_Reports_ActivityActor';
   protected $actorDataType = '';
   public $etag;
-  protected $eventsType = 'Google_Service_Reports_ActivityEvents';
+  protected $eventsType = '\GoogleApiServices\Google_Service_Reports_ActivityEvents';
   protected $eventsDataType = 'array';
-  protected $idType = 'Google_Service_Reports_ActivityId';
+  protected $idType = '\GoogleApiServices\Google_Service_Reports_ActivityId';
   protected $idDataType = '';
   public $ipAddress;
   public $kind;

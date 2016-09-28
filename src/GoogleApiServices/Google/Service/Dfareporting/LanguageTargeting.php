@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_LanguageTargeting extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'languages';
-  protected $languagesType = 'Google_Service_Dfareporting_Language';
+  protected $languagesType = '\GoogleApiServices\Google_Service_Dfareporting_Language';
   protected $languagesDataType = 'array';
 
   public function setLanguages($languages)

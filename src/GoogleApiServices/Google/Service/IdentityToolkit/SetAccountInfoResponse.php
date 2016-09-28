@@ -27,7 +27,7 @@ class Google_Service_IdentityToolkit_SetAccountInfoResponse extends \GoogleApi\G
   public $newEmail;
   public $passwordHash;
   public $photoUrl;
-  protected $providerUserInfoType = 'Google_Service_IdentityToolkit_SetAccountInfoResponseProviderUserInfo';
+  protected $providerUserInfoType = '\GoogleApiServices\Google_Service_IdentityToolkit_SetAccountInfoResponseProviderUserInfo';
   protected $providerUserInfoDataType = 'array';
   public $refreshToken;
 

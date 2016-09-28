@@ -28,18 +28,18 @@ class Google_Service_TagManager_Tag extends \GoogleApi\Google_Collection
   public $liveOnly;
   public $name;
   public $notes;
-  protected $parameterType = 'Google_Service_TagManager_Parameter';
+  protected $parameterType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $parameterDataType = 'array';
   public $parentFolderId;
-  protected $priorityType = 'Google_Service_TagManager_Parameter';
+  protected $priorityType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $priorityDataType = '';
   public $scheduleEndMs;
   public $scheduleStartMs;
-  protected $setupTagType = 'Google_Service_TagManager_SetupTag';
+  protected $setupTagType = '\GoogleApiServices\Google_Service_TagManager_SetupTag';
   protected $setupTagDataType = 'array';
   public $tagFiringOption;
   public $tagId;
-  protected $teardownTagType = 'Google_Service_TagManager_TeardownTag';
+  protected $teardownTagType = '\GoogleApiServices\Google_Service_TagManager_TeardownTag';
   protected $teardownTagDataType = 'array';
   public $type;
 

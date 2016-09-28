@@ -21,15 +21,15 @@ class Google_Service_Bigquery_JobStatistics2 extends \GoogleApi\Google_Collectio
   public $billingTier;
   public $cacheHit;
   public $numDmlAffectedRows;
-  protected $queryPlanType = 'Google_Service_Bigquery_ExplainQueryStage';
+  protected $queryPlanType = '\GoogleApiServices\Google_Service_Bigquery_ExplainQueryStage';
   protected $queryPlanDataType = 'array';
-  protected $referencedTablesType = 'Google_Service_Bigquery_TableReference';
+  protected $referencedTablesType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $referencedTablesDataType = 'array';
-  protected $schemaType = 'Google_Service_Bigquery_TableSchema';
+  protected $schemaType = '\GoogleApiServices\Google_Service_Bigquery_TableSchema';
   protected $schemaDataType = '';
   public $totalBytesBilled;
   public $totalBytesProcessed;
-  protected $undeclaredQueryParametersType = 'Google_Service_Bigquery_QueryParameter';
+  protected $undeclaredQueryParametersType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameter';
   protected $undeclaredQueryParametersDataType = 'array';
 
   public function setBillingTier($billingTier)

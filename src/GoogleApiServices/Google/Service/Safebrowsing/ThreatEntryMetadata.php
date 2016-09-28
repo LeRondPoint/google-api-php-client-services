@@ -18,7 +18,7 @@
 class Google_Service_Safebrowsing_ThreatEntryMetadata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entries';
-  protected $entriesType = 'Google_Service_Safebrowsing_MetadataEntry';
+  protected $entriesType = '\GoogleApiServices\Google_Service_Safebrowsing_MetadataEntry';
   protected $entriesDataType = 'array';
 
   public function setEntries($entries)

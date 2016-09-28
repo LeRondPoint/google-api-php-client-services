@@ -17,27 +17,27 @@
 
 class Google_Service_Sheets_Response extends \GoogleApi\Google_Model
 {
-  protected $addChartType = 'Google_Service_Sheets_AddChartResponse';
+  protected $addChartType = '\GoogleApiServices\Google_Service_Sheets_AddChartResponse';
   protected $addChartDataType = '';
-  protected $addFilterViewType = 'Google_Service_Sheets_AddFilterViewResponse';
+  protected $addFilterViewType = '\GoogleApiServices\Google_Service_Sheets_AddFilterViewResponse';
   protected $addFilterViewDataType = '';
-  protected $addNamedRangeType = 'Google_Service_Sheets_AddNamedRangeResponse';
+  protected $addNamedRangeType = '\GoogleApiServices\Google_Service_Sheets_AddNamedRangeResponse';
   protected $addNamedRangeDataType = '';
-  protected $addProtectedRangeType = 'Google_Service_Sheets_AddProtectedRangeResponse';
+  protected $addProtectedRangeType = '\GoogleApiServices\Google_Service_Sheets_AddProtectedRangeResponse';
   protected $addProtectedRangeDataType = '';
-  protected $addSheetType = 'Google_Service_Sheets_AddSheetResponse';
+  protected $addSheetType = '\GoogleApiServices\Google_Service_Sheets_AddSheetResponse';
   protected $addSheetDataType = '';
-  protected $deleteConditionalFormatRuleType = 'Google_Service_Sheets_DeleteConditionalFormatRuleResponse';
+  protected $deleteConditionalFormatRuleType = '\GoogleApiServices\Google_Service_Sheets_DeleteConditionalFormatRuleResponse';
   protected $deleteConditionalFormatRuleDataType = '';
-  protected $duplicateFilterViewType = 'Google_Service_Sheets_DuplicateFilterViewResponse';
+  protected $duplicateFilterViewType = '\GoogleApiServices\Google_Service_Sheets_DuplicateFilterViewResponse';
   protected $duplicateFilterViewDataType = '';
-  protected $duplicateSheetType = 'Google_Service_Sheets_DuplicateSheetResponse';
+  protected $duplicateSheetType = '\GoogleApiServices\Google_Service_Sheets_DuplicateSheetResponse';
   protected $duplicateSheetDataType = '';
-  protected $findReplaceType = 'Google_Service_Sheets_FindReplaceResponse';
+  protected $findReplaceType = '\GoogleApiServices\Google_Service_Sheets_FindReplaceResponse';
   protected $findReplaceDataType = '';
-  protected $updateConditionalFormatRuleType = 'Google_Service_Sheets_UpdateConditionalFormatRuleResponse';
+  protected $updateConditionalFormatRuleType = '\GoogleApiServices\Google_Service_Sheets_UpdateConditionalFormatRuleResponse';
   protected $updateConditionalFormatRuleDataType = '';
-  protected $updateEmbeddedObjectPositionType = 'Google_Service_Sheets_UpdateEmbeddedObjectPositionResponse';
+  protected $updateEmbeddedObjectPositionType = '\GoogleApiServices\Google_Service_Sheets_UpdateEmbeddedObjectPositionResponse';
   protected $updateEmbeddedObjectPositionDataType = '';
 
   public function setAddChart(Google_Service_Sheets_AddChartResponse $addChart)

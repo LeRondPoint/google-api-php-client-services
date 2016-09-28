@@ -18,7 +18,7 @@
 class Google_Service_Fusiontables_StyleFunctionGradient extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'colors';
-  protected $colorsType = 'Google_Service_Fusiontables_StyleFunctionGradientColors';
+  protected $colorsType = '\GoogleApiServices\Google_Service_Fusiontables_StyleFunctionGradientColors';
   protected $colorsDataType = 'array';
   public $max;
   public $min;

@@ -17,16 +17,16 @@
 
 class Google_Service_FirebaseDynamicLinksAPI_DynamicLinkInfo extends \GoogleApi\Google_Model
 {
-  protected $analyticsInfoType = 'Google_Service_FirebaseDynamicLinksAPI_AnalyticsInfo';
+  protected $analyticsInfoType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_AnalyticsInfo';
   protected $analyticsInfoDataType = '';
-  protected $androidInfoType = 'Google_Service_FirebaseDynamicLinksAPI_AndroidInfo';
+  protected $androidInfoType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_AndroidInfo';
   protected $androidInfoDataType = '';
   public $dynamicLinkDomain;
-  protected $iosInfoType = 'Google_Service_FirebaseDynamicLinksAPI_IosInfo';
+  protected $iosInfoType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_IosInfo';
   protected $iosInfoDataType = '';
   public $isAd;
   public $link;
-  protected $socialMetaTagInfoType = 'Google_Service_FirebaseDynamicLinksAPI_SocialMetaTagInfo';
+  protected $socialMetaTagInfoType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_SocialMetaTagInfo';
   protected $socialMetaTagInfoDataType = '';
 
   public function setAnalyticsInfo(Google_Service_FirebaseDynamicLinksAPI_AnalyticsInfo $analyticsInfo)

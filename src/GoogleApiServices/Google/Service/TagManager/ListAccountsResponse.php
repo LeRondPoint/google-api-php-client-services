@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListAccountsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accounts';
-  protected $accountsType = 'Google_Service_TagManager_Account';
+  protected $accountsType = '\GoogleApiServices\Google_Service_TagManager_Account';
   protected $accountsDataType = 'array';
 
   public function setAccounts($accounts)

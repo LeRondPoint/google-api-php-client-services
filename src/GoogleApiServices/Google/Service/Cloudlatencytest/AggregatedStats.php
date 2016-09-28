@@ -18,7 +18,7 @@
 class Google_Service_Cloudlatencytest_AggregatedStats extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'stats';
-  protected $statsType = 'Google_Service_Cloudlatencytest_Stats';
+  protected $statsType = '\GoogleApiServices\Google_Service_Cloudlatencytest_Stats';
   protected $statsDataType = 'array';
 
   public function setStats($stats)

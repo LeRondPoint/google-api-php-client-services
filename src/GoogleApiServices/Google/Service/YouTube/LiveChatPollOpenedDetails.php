@@ -19,7 +19,7 @@ class Google_Service_YouTube_LiveChatPollOpenedDetails extends \GoogleApi\Google
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_YouTube_LiveChatPollItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatPollItem';
   protected $itemsDataType = 'array';
   public $prompt;
 

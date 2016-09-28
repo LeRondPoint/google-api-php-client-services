@@ -20,7 +20,7 @@ class Google_Service_DoubleClickBidManager_ReportMetadata extends \GoogleApi\Goo
   public $googleCloudStoragePath;
   public $reportDataEndTimeMs;
   public $reportDataStartTimeMs;
-  protected $statusType = 'Google_Service_DoubleClickBidManager_ReportStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_ReportStatus';
   protected $statusDataType = '';
 
   public function setGoogleCloudStoragePath($googleCloudStoragePath)

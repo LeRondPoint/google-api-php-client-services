@@ -18,7 +18,7 @@
 class Google_Service_Vision_Image extends \GoogleApi\Google_Model
 {
   public $content;
-  protected $sourceType = 'Google_Service_Vision_ImageSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Vision_ImageSource';
   protected $sourceDataType = '';
 
   public function setContent($content)

@@ -18,12 +18,12 @@
 class Google_Service_SQLAdmin_ExportContext extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'databases';
-  protected $csvExportOptionsType = 'Google_Service_SQLAdmin_ExportContextCsvExportOptions';
+  protected $csvExportOptionsType = '\GoogleApiServices\Google_Service_SQLAdmin_ExportContextCsvExportOptions';
   protected $csvExportOptionsDataType = '';
   public $databases;
   public $fileType;
   public $kind;
-  protected $sqlExportOptionsType = 'Google_Service_SQLAdmin_ExportContextSqlExportOptions';
+  protected $sqlExportOptionsType = '\GoogleApiServices\Google_Service_SQLAdmin_ExportContextSqlExportOptions';
   protected $sqlExportOptionsDataType = '';
   public $uri;
 

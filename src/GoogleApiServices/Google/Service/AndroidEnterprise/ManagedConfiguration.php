@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_ManagedConfiguration extends \GoogleApi\G
 {
   protected $collection_key = 'managedProperty';
   public $kind;
-  protected $managedPropertyType = 'Google_Service_AndroidEnterprise_ManagedProperty';
+  protected $managedPropertyType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedProperty';
   protected $managedPropertyDataType = 'array';
   public $productId;
 

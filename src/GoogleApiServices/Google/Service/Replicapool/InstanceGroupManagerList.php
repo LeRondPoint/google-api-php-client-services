@@ -19,7 +19,7 @@ class Google_Service_Replicapool_InstanceGroupManagerList extends \GoogleApi\Goo
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Replicapool_InstanceGroupManager';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Replicapool_InstanceGroupManager';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

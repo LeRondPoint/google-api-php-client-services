@@ -19,7 +19,7 @@ class Google_Service_AnalyticsReporting_ReportRow extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'metrics';
   public $dimensions;
-  protected $metricsType = 'Google_Service_AnalyticsReporting_DateRangeValues';
+  protected $metricsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DateRangeValues';
   protected $metricsDataType = 'array';
 
   public function setDimensions($dimensions)

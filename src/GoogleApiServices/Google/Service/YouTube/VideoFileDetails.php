@@ -18,7 +18,7 @@
 class Google_Service_YouTube_VideoFileDetails extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'videoStreams';
-  protected $audioStreamsType = 'Google_Service_YouTube_VideoFileDetailsAudioStream';
+  protected $audioStreamsType = '\GoogleApiServices\Google_Service_YouTube_VideoFileDetailsAudioStream';
   protected $audioStreamsDataType = 'array';
   public $bitrateBps;
   public $container;
@@ -27,9 +27,9 @@ class Google_Service_YouTube_VideoFileDetails extends \GoogleApi\Google_Collecti
   public $fileName;
   public $fileSize;
   public $fileType;
-  protected $recordingLocationType = 'Google_Service_YouTube_GeoPoint';
+  protected $recordingLocationType = '\GoogleApiServices\Google_Service_YouTube_GeoPoint';
   protected $recordingLocationDataType = '';
-  protected $videoStreamsType = 'Google_Service_YouTube_VideoFileDetailsVideoStream';
+  protected $videoStreamsType = '\GoogleApiServices\Google_Service_YouTube_VideoFileDetailsVideoStream';
   protected $videoStreamsDataType = 'array';
 
   public function setAudioStreams($audioStreams)

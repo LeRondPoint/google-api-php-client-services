@@ -17,9 +17,9 @@
 
 class Google_Service_Plus_PersonCover extends \GoogleApi\Google_Model
 {
-  protected $coverInfoType = 'Google_Service_Plus_PersonCoverCoverInfo';
+  protected $coverInfoType = '\GoogleApiServices\Google_Service_Plus_PersonCoverCoverInfo';
   protected $coverInfoDataType = '';
-  protected $coverPhotoType = 'Google_Service_Plus_PersonCoverCoverPhoto';
+  protected $coverPhotoType = '\GoogleApiServices\Google_Service_Plus_PersonCoverCoverPhoto';
   protected $coverPhotoDataType = '';
   public $layout;
 

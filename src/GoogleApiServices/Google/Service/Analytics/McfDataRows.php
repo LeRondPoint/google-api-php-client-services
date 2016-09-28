@@ -18,7 +18,7 @@
 class Google_Service_Analytics_McfDataRows extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'conversionPathValue';
-  protected $conversionPathValueType = 'Google_Service_Analytics_McfDataRowsConversionPathValue';
+  protected $conversionPathValueType = '\GoogleApiServices\Google_Service_Analytics_McfDataRowsConversionPathValue';
   protected $conversionPathValueDataType = 'array';
   public $primitiveValue;
 

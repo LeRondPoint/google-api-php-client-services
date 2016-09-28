@@ -20,7 +20,7 @@ class Google_Service_Fitness_Value extends \GoogleApi\Google_Collection
   protected $collection_key = 'mapVal';
   public $fpVal;
   public $intVal;
-  protected $mapValType = 'Google_Service_Fitness_ValueMapValEntry';
+  protected $mapValType = '\GoogleApiServices\Google_Service_Fitness_ValueMapValEntry';
   protected $mapValDataType = 'array';
   public $stringVal;
 

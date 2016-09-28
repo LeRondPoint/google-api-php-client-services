@@ -18,9 +18,9 @@
 class Google_Service_ServiceManagement_GenerateConfigReportResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'diagnostics';
-  protected $changeReportsType = 'Google_Service_ServiceManagement_ChangeReport';
+  protected $changeReportsType = '\GoogleApiServices\Google_Service_ServiceManagement_ChangeReport';
   protected $changeReportsDataType = 'array';
-  protected $diagnosticsType = 'Google_Service_ServiceManagement_Diagnostic';
+  protected $diagnosticsType = '\GoogleApiServices\Google_Service_ServiceManagement_Diagnostic';
   protected $diagnosticsDataType = 'array';
   public $id;
   public $serviceName;

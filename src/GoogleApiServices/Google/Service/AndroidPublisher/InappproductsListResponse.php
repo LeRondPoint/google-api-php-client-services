@@ -18,12 +18,12 @@
 class Google_Service_AndroidPublisher_InappproductsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'inappproduct';
-  protected $inappproductType = 'Google_Service_AndroidPublisher_InAppProduct';
+  protected $inappproductType = '\GoogleApiServices\Google_Service_AndroidPublisher_InAppProduct';
   protected $inappproductDataType = 'array';
   public $kind;
-  protected $pageInfoType = 'Google_Service_AndroidPublisher_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_AndroidPublisher_PageInfo';
   protected $pageInfoDataType = '';
-  protected $tokenPaginationType = 'Google_Service_AndroidPublisher_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_AndroidPublisher_TokenPagination';
   protected $tokenPaginationDataType = '';
 
   public function setInappproduct($inappproduct)

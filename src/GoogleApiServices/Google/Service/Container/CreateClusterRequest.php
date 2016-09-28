@@ -17,7 +17,7 @@
 
 class Google_Service_Container_CreateClusterRequest extends \GoogleApi\Google_Model
 {
-  protected $clusterType = 'Google_Service_Container_Cluster';
+  protected $clusterType = '\GoogleApiServices\Google_Service_Container_Cluster';
   protected $clusterDataType = '';
 
   public function setCluster(Google_Service_Container_Cluster $cluster)

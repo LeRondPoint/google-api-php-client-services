@@ -19,7 +19,7 @@ class Google_Service_Container_ListOperationsResponse extends \GoogleApi\Google_
 {
   protected $collection_key = 'operations';
   public $missingZones;
-  protected $operationsType = 'Google_Service_Container_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_Container_Operation';
   protected $operationsDataType = 'array';
 
   public function setMissingZones($missingZones)

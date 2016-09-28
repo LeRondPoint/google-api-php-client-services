@@ -18,18 +18,18 @@
 class Google_Service_Datastore_Query extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'projection';
-  protected $distinctOnType = 'Google_Service_Datastore_PropertyReference';
+  protected $distinctOnType = '\GoogleApiServices\Google_Service_Datastore_PropertyReference';
   protected $distinctOnDataType = 'array';
   public $endCursor;
-  protected $filterType = 'Google_Service_Datastore_Filter';
+  protected $filterType = '\GoogleApiServices\Google_Service_Datastore_Filter';
   protected $filterDataType = '';
-  protected $kindType = 'Google_Service_Datastore_KindExpression';
+  protected $kindType = '\GoogleApiServices\Google_Service_Datastore_KindExpression';
   protected $kindDataType = 'array';
   public $limit;
   public $offset;
-  protected $orderType = 'Google_Service_Datastore_PropertyOrder';
+  protected $orderType = '\GoogleApiServices\Google_Service_Datastore_PropertyOrder';
   protected $orderDataType = 'array';
-  protected $projectionType = 'Google_Service_Datastore_Projection';
+  protected $projectionType = '\GoogleApiServices\Google_Service_Datastore_Projection';
   protected $projectionDataType = 'array';
   public $startCursor;
 

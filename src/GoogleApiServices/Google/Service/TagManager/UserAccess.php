@@ -18,10 +18,10 @@
 class Google_Service_TagManager_UserAccess extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'containerAccess';
-  protected $accountAccessType = 'Google_Service_TagManager_AccountAccess';
+  protected $accountAccessType = '\GoogleApiServices\Google_Service_TagManager_AccountAccess';
   protected $accountAccessDataType = '';
   public $accountId;
-  protected $containerAccessType = 'Google_Service_TagManager_ContainerAccess';
+  protected $containerAccessType = '\GoogleApiServices\Google_Service_TagManager_ContainerAccess';
   protected $containerAccessDataType = 'array';
   public $emailAddress;
   public $permissionId;

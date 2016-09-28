@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_TextFormatRun extends \GoogleApi\Google_Model
 {
-  protected $formatType = 'Google_Service_Sheets_TextFormat';
+  protected $formatType = '\GoogleApiServices\Google_Service_Sheets_TextFormat';
   protected $formatDataType = '';
   public $startIndex;
 

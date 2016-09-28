@@ -22,11 +22,11 @@ class Google_Service_YouTube_PlaylistSnippet extends \GoogleApi\Google_Collectio
   public $channelTitle;
   public $defaultLanguage;
   public $description;
-  protected $localizedType = 'Google_Service_YouTube_PlaylistLocalization';
+  protected $localizedType = '\GoogleApiServices\Google_Service_YouTube_PlaylistLocalization';
   protected $localizedDataType = '';
   public $publishedAt;
   public $tags;
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

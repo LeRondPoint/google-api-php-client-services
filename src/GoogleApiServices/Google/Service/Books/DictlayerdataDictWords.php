@@ -18,13 +18,13 @@
 class Google_Service_Books_DictlayerdataDictWords extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'senses';
-  protected $derivativesType = 'Google_Service_Books_DictlayerdataDictWordsDerivatives';
+  protected $derivativesType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsDerivatives';
   protected $derivativesDataType = 'array';
-  protected $examplesType = 'Google_Service_Books_DictlayerdataDictWordsExamples';
+  protected $examplesType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsExamples';
   protected $examplesDataType = 'array';
-  protected $sensesType = 'Google_Service_Books_DictlayerdataDictWordsSenses';
+  protected $sensesType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSenses';
   protected $sensesDataType = 'array';
-  protected $sourceType = 'Google_Service_Books_DictlayerdataDictWordsSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSource';
   protected $sourceDataType = '';
 
   public function setDerivatives($derivatives)

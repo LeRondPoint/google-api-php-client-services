@@ -21,7 +21,7 @@ class Google_Service_Genomics_OperationMetadata extends \GoogleApi\Google_Collec
   public $clientId;
   public $createTime;
   public $endTime;
-  protected $eventsType = 'Google_Service_Genomics_OperationEvent';
+  protected $eventsType = '\GoogleApiServices\Google_Service_Genomics_OperationEvent';
   protected $eventsDataType = 'array';
   public $projectId;
   public $request;

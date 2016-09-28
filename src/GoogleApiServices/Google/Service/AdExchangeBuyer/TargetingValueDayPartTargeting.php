@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_TargetingValueDayPartTargeting extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dayParts';
-  protected $dayPartsType = 'Google_Service_AdExchangeBuyer_TargetingValueDayPartTargetingDayPart';
+  protected $dayPartsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_TargetingValueDayPartTargetingDayPart';
   protected $dayPartsDataType = 'array';
   public $timeZoneType;
 

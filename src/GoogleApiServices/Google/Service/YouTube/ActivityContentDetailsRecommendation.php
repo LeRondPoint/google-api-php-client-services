@@ -18,9 +18,9 @@
 class Google_Service_YouTube_ActivityContentDetailsRecommendation extends \GoogleApi\Google_Model
 {
   public $reason;
-  protected $resourceIdType = 'Google_Service_YouTube_ResourceId';
+  protected $resourceIdType = '\GoogleApiServices\Google_Service_YouTube_ResourceId';
   protected $resourceIdDataType = '';
-  protected $seedResourceIdType = 'Google_Service_YouTube_ResourceId';
+  protected $seedResourceIdType = '\GoogleApiServices\Google_Service_YouTube_ResourceId';
   protected $seedResourceIdDataType = '';
 
   public function setReason($reason)

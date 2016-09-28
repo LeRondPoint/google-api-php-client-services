@@ -18,9 +18,9 @@
 class Google_Service_AndroidPublisher_InappproductsBatchRequestEntry extends \GoogleApi\Google_Model
 {
   public $batchId;
-  protected $inappproductsinsertrequestType = 'Google_Service_AndroidPublisher_InappproductsInsertRequest';
+  protected $inappproductsinsertrequestType = '\GoogleApiServices\Google_Service_AndroidPublisher_InappproductsInsertRequest';
   protected $inappproductsinsertrequestDataType = '';
-  protected $inappproductsupdaterequestType = 'Google_Service_AndroidPublisher_InappproductsUpdateRequest';
+  protected $inappproductsupdaterequestType = '\GoogleApiServices\Google_Service_AndroidPublisher_InappproductsUpdateRequest';
   protected $inappproductsupdaterequestDataType = '';
   public $methodName;
 

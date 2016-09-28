@@ -20,7 +20,7 @@ class Google_Service_Monitoring_MonitoredResourceDescriptor extends \GoogleApi\G
   protected $collection_key = 'labels';
   public $description;
   public $displayName;
-  protected $labelsType = 'Google_Service_Monitoring_LabelDescriptor';
+  protected $labelsType = '\GoogleApiServices\Google_Service_Monitoring_LabelDescriptor';
   protected $labelsDataType = 'array';
   public $name;
   public $type;

@@ -18,12 +18,12 @@
 class Google_Service_ShoppingContent_OrderLineItem extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'returns';
-  protected $cancellationsType = 'Google_Service_ShoppingContent_OrderCancellation';
+  protected $cancellationsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderCancellation';
   protected $cancellationsDataType = 'array';
   public $id;
-  protected $priceType = 'Google_Service_ShoppingContent_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $priceDataType = '';
-  protected $productType = 'Google_Service_ShoppingContent_OrderLineItemProduct';
+  protected $productType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemProduct';
   protected $productDataType = '';
   public $quantityCanceled;
   public $quantityDelivered;
@@ -31,13 +31,13 @@ class Google_Service_ShoppingContent_OrderLineItem extends \GoogleApi\Google_Col
   public $quantityPending;
   public $quantityReturned;
   public $quantityShipped;
-  protected $returnInfoType = 'Google_Service_ShoppingContent_OrderLineItemReturnInfo';
+  protected $returnInfoType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemReturnInfo';
   protected $returnInfoDataType = '';
-  protected $returnsType = 'Google_Service_ShoppingContent_OrderReturn';
+  protected $returnsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderReturn';
   protected $returnsDataType = 'array';
-  protected $shippingDetailsType = 'Google_Service_ShoppingContent_OrderLineItemShippingDetails';
+  protected $shippingDetailsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemShippingDetails';
   protected $shippingDetailsDataType = '';
-  protected $taxType = 'Google_Service_ShoppingContent_Price';
+  protected $taxType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $taxDataType = '';
 
   public function setCancellations($cancellations)

@@ -18,12 +18,12 @@
 class Google_Service_Dfareporting_ReportCrossDimensionReachCriteria extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'overlapMetricNames';
-  protected $breakdownType = 'Google_Service_Dfareporting_SortedDimension';
+  protected $breakdownType = '\GoogleApiServices\Google_Service_Dfareporting_SortedDimension';
   protected $breakdownDataType = 'array';
-  protected $dateRangeType = 'Google_Service_Dfareporting_DateRange';
+  protected $dateRangeType = '\GoogleApiServices\Google_Service_Dfareporting_DateRange';
   protected $dateRangeDataType = '';
   public $dimension;
-  protected $dimensionFiltersType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $dimensionFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $dimensionFiltersDataType = 'array';
   public $metricNames;
   public $overlapMetricNames;

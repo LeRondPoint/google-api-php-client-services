@@ -18,9 +18,9 @@
 class Google_Service_Analytics_EntityAdWordsLink extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'profileIds';
-  protected $adWordsAccountsType = 'Google_Service_Analytics_AdWordsAccount';
+  protected $adWordsAccountsType = '\GoogleApiServices\Google_Service_Analytics_AdWordsAccount';
   protected $adWordsAccountsDataType = 'array';
-  protected $entityType = 'Google_Service_Analytics_EntityAdWordsLinkEntity';
+  protected $entityType = '\GoogleApiServices\Google_Service_Analytics_EntityAdWordsLinkEntity';
   protected $entityDataType = '';
   public $id;
   public $kind;

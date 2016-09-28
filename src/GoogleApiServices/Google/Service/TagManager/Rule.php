@@ -19,7 +19,7 @@ class Google_Service_TagManager_Rule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'condition';
   public $accountId;
-  protected $conditionType = 'Google_Service_TagManager_Condition';
+  protected $conditionType = '\GoogleApiServices\Google_Service_TagManager_Condition';
   protected $conditionDataType = 'array';
   public $containerId;
   public $fingerprint;

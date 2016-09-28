@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_DealTermsNonGuaranteedFixedPriceTerms extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'fixedPrices';
-  protected $fixedPricesType = 'Google_Service_AdExchangeBuyer_PricePerBuyer';
+  protected $fixedPricesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PricePerBuyer';
   protected $fixedPricesDataType = 'array';
 
   public function setFixedPrices($fixedPrices)

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_GetOrderNotesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'notes';
-  protected $notesType = 'Google_Service_AdExchangeBuyer_MarketplaceNote';
+  protected $notesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_MarketplaceNote';
   protected $notesDataType = 'array';
 
   public function setNotes($notes)

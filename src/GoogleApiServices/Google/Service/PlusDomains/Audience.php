@@ -18,7 +18,7 @@
 class Google_Service_PlusDomains_Audience extends \GoogleApi\Google_Model
 {
   public $etag;
-  protected $itemType = 'Google_Service_PlusDomains_PlusDomainsAclentryResource';
+  protected $itemType = '\GoogleApiServices\Google_Service_PlusDomains_PlusDomainsAclentryResource';
   protected $itemDataType = '';
   public $kind;
   public $memberCount;

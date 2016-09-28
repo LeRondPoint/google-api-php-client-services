@@ -18,7 +18,7 @@
 class Google_Service_PlayMovies_ListAvailsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'avails';
-  protected $availsType = 'Google_Service_PlayMovies_Avail';
+  protected $availsType = '\GoogleApiServices\Google_Service_PlayMovies_Avail';
   protected $availsDataType = 'array';
   public $nextPageToken;
   public $totalSize;

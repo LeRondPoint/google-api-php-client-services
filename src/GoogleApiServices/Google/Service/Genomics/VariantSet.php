@@ -21,10 +21,10 @@ class Google_Service_Genomics_VariantSet extends \GoogleApi\Google_Collection
   public $datasetId;
   public $description;
   public $id;
-  protected $metadataType = 'Google_Service_Genomics_VariantSetMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_Genomics_VariantSetMetadata';
   protected $metadataDataType = 'array';
   public $name;
-  protected $referenceBoundsType = 'Google_Service_Genomics_ReferenceBound';
+  protected $referenceBoundsType = '\GoogleApiServices\Google_Service_Genomics_ReferenceBound';
   protected $referenceBoundsDataType = 'array';
   public $referenceSetId;
 

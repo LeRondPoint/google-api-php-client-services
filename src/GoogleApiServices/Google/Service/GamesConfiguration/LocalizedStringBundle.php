@@ -19,7 +19,7 @@ class Google_Service_GamesConfiguration_LocalizedStringBundle extends \GoogleApi
 {
   protected $collection_key = 'translations';
   public $kind;
-  protected $translationsType = 'Google_Service_GamesConfiguration_LocalizedString';
+  protected $translationsType = '\GoogleApiServices\Google_Service_GamesConfiguration_LocalizedString';
   protected $translationsDataType = 'array';
 
   public function setKind($kind)

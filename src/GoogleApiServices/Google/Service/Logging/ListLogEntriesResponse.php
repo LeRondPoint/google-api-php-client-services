@@ -18,10 +18,10 @@
 class Google_Service_Logging_ListLogEntriesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entries';
-  protected $entriesType = 'Google_Service_Logging_LogEntry';
+  protected $entriesType = '\GoogleApiServices\Google_Service_Logging_LogEntry';
   protected $entriesDataType = 'array';
   public $nextPageToken;
-  protected $projectIdErrorsType = 'Google_Service_Logging_Status';
+  protected $projectIdErrorsType = '\GoogleApiServices\Google_Service_Logging_Status';
   protected $projectIdErrorsDataType = 'map';
 
   public function setEntries($entries)

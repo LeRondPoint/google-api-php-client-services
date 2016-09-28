@@ -19,7 +19,7 @@ class Google_Service_ServiceManagement_Usage extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'rules';
   public $requirements;
-  protected $rulesType = 'Google_Service_ServiceManagement_UsageRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_UsageRule';
   protected $rulesDataType = 'array';
 
   public function setRequirements($requirements)

@@ -20,15 +20,15 @@ class Google_Service_Vision_FaceAnnotation extends \GoogleApi\Google_Collection
   protected $collection_key = 'landmarks';
   public $angerLikelihood;
   public $blurredLikelihood;
-  protected $boundingPolyType = 'Google_Service_Vision_BoundingPoly';
+  protected $boundingPolyType = '\GoogleApiServices\Google_Service_Vision_BoundingPoly';
   protected $boundingPolyDataType = '';
   public $detectionConfidence;
-  protected $fdBoundingPolyType = 'Google_Service_Vision_BoundingPoly';
+  protected $fdBoundingPolyType = '\GoogleApiServices\Google_Service_Vision_BoundingPoly';
   protected $fdBoundingPolyDataType = '';
   public $headwearLikelihood;
   public $joyLikelihood;
   public $landmarkingConfidence;
-  protected $landmarksType = 'Google_Service_Vision_Landmark';
+  protected $landmarksType = '\GoogleApiServices\Google_Service_Vision_Landmark';
   protected $landmarksDataType = 'array';
   public $panAngle;
   public $rollAngle;

@@ -19,7 +19,7 @@ class Google_Service_Playmoviespartner_ListOrdersResponse extends \GoogleApi\Goo
 {
   protected $collection_key = 'orders';
   public $nextPageToken;
-  protected $ordersType = 'Google_Service_Playmoviespartner_Order';
+  protected $ordersType = '\GoogleApiServices\Google_Service_Playmoviespartner_Order';
   protected $ordersDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

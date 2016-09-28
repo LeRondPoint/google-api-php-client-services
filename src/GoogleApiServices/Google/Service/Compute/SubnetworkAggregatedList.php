@@ -18,7 +18,7 @@
 class Google_Service_Compute_SubnetworkAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_SubnetworksScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_SubnetworksScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

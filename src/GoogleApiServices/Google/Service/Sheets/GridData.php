@@ -18,11 +18,11 @@
 class Google_Service_Sheets_GridData extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rowMetadata';
-  protected $columnMetadataType = 'Google_Service_Sheets_DimensionProperties';
+  protected $columnMetadataType = '\GoogleApiServices\Google_Service_Sheets_DimensionProperties';
   protected $columnMetadataDataType = 'array';
-  protected $rowDataType = 'Google_Service_Sheets_RowData';
+  protected $rowDataType = '\GoogleApiServices\Google_Service_Sheets_RowData';
   protected $rowDataDataType = 'array';
-  protected $rowMetadataType = 'Google_Service_Sheets_DimensionProperties';
+  protected $rowMetadataType = '\GoogleApiServices\Google_Service_Sheets_DimensionProperties';
   protected $rowMetadataDataType = 'array';
   public $startColumn;
   public $startRow;

@@ -19,7 +19,7 @@ class Google_Service_AdExchangeBuyer_MarketplaceLabel extends \GoogleApi\Google_
 {
   public $accountId;
   public $createTimeMs;
-  protected $deprecatedMarketplaceDealPartyType = 'Google_Service_AdExchangeBuyer_MarketplaceDealParty';
+  protected $deprecatedMarketplaceDealPartyType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_MarketplaceDealParty';
   protected $deprecatedMarketplaceDealPartyDataType = '';
   public $label;
 

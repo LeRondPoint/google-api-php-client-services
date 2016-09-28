@@ -19,7 +19,7 @@ class Google_Service_Reports_UsageReportsWarnings extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Reports_UsageReportsWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Reports_UsageReportsWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

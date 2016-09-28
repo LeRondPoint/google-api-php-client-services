@@ -17,7 +17,7 @@
 
 class Google_Service_Manager_ReplicaPoolParams extends \GoogleApi\Google_Model
 {
-  protected $v1beta1Type = 'Google_Service_Manager_ReplicaPoolParamsV1Beta1';
+  protected $v1beta1Type = '\GoogleApiServices\Google_Service_Manager_ReplicaPoolParamsV1Beta1';
   protected $v1beta1DataType = '';
 
   public function setV1beta1(Google_Service_Manager_ReplicaPoolParamsV1Beta1 $v1beta1)

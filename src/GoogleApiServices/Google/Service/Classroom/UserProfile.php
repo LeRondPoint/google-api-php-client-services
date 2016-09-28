@@ -20,9 +20,9 @@ class Google_Service_Classroom_UserProfile extends \GoogleApi\Google_Collection
   protected $collection_key = 'permissions';
   public $emailAddress;
   public $id;
-  protected $nameType = 'Google_Service_Classroom_Name';
+  protected $nameType = '\GoogleApiServices\Google_Service_Classroom_Name';
   protected $nameDataType = '';
-  protected $permissionsType = 'Google_Service_Classroom_GlobalPermission';
+  protected $permissionsType = '\GoogleApiServices\Google_Service_Classroom_GlobalPermission';
   protected $permissionsDataType = 'array';
   public $photoUrl;
 

@@ -18,7 +18,7 @@
 class Google_Service_Books_Annotationsdata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Books_Annotationdata';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Books_Annotationdata';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

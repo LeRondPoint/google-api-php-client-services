@@ -23,23 +23,23 @@ class Google_Service_Dataflow_WorkItem extends \GoogleApi\Google_Collection
   public $initialReportIndex;
   public $jobId;
   public $leaseExpireTime;
-  protected $mapTaskType = 'Google_Service_Dataflow_MapTask';
+  protected $mapTaskType = '\GoogleApiServices\Google_Service_Dataflow_MapTask';
   protected $mapTaskDataType = '';
-  protected $packagesType = 'Google_Service_Dataflow_Package';
+  protected $packagesType = '\GoogleApiServices\Google_Service_Dataflow_Package';
   protected $packagesDataType = 'array';
   public $projectId;
   public $reportStatusInterval;
-  protected $seqMapTaskType = 'Google_Service_Dataflow_SeqMapTask';
+  protected $seqMapTaskType = '\GoogleApiServices\Google_Service_Dataflow_SeqMapTask';
   protected $seqMapTaskDataType = '';
-  protected $shellTaskType = 'Google_Service_Dataflow_ShellTask';
+  protected $shellTaskType = '\GoogleApiServices\Google_Service_Dataflow_ShellTask';
   protected $shellTaskDataType = '';
-  protected $sourceOperationTaskType = 'Google_Service_Dataflow_SourceOperationRequest';
+  protected $sourceOperationTaskType = '\GoogleApiServices\Google_Service_Dataflow_SourceOperationRequest';
   protected $sourceOperationTaskDataType = '';
-  protected $streamingComputationTaskType = 'Google_Service_Dataflow_StreamingComputationTask';
+  protected $streamingComputationTaskType = '\GoogleApiServices\Google_Service_Dataflow_StreamingComputationTask';
   protected $streamingComputationTaskDataType = '';
-  protected $streamingConfigTaskType = 'Google_Service_Dataflow_StreamingConfigTask';
+  protected $streamingConfigTaskType = '\GoogleApiServices\Google_Service_Dataflow_StreamingConfigTask';
   protected $streamingConfigTaskDataType = '';
-  protected $streamingSetupTaskType = 'Google_Service_Dataflow_StreamingSetupTask';
+  protected $streamingSetupTaskType = '\GoogleApiServices\Google_Service_Dataflow_StreamingSetupTask';
   protected $streamingSetupTaskDataType = '';
 
   public function setConfiguration($configuration)

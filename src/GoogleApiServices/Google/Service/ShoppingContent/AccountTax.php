@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_AccountTax extends \GoogleApi\Google_Collec
   protected $collection_key = 'rules';
   public $accountId;
   public $kind;
-  protected $rulesType = 'Google_Service_ShoppingContent_AccountTaxTaxRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountTaxTaxRule';
   protected $rulesDataType = 'array';
 
   public function setAccountId($accountId)

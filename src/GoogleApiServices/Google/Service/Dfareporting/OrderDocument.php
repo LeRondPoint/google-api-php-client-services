@@ -23,7 +23,7 @@ class Google_Service_Dfareporting_OrderDocument extends \GoogleApi\Google_Collec
   public $amendedOrderDocumentId;
   public $approvedByUserProfileIds;
   public $cancelled;
-  protected $createdInfoType = 'Google_Service_Dfareporting_LastModifiedInfo';
+  protected $createdInfoType = '\GoogleApiServices\Google_Service_Dfareporting_LastModifiedInfo';
   protected $createdInfoDataType = '';
   public $effectiveDate;
   public $id;

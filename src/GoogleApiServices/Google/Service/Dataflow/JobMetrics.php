@@ -19,7 +19,7 @@ class Google_Service_Dataflow_JobMetrics extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metrics';
   public $metricTime;
-  protected $metricsType = 'Google_Service_Dataflow_MetricUpdate';
+  protected $metricsType = '\GoogleApiServices\Google_Service_Dataflow_MetricUpdate';
   protected $metricsDataType = 'array';
 
   public function setMetricTime($metricTime)

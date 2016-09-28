@@ -17,38 +17,38 @@
 
 class Google_Service_YouTube_Video extends \GoogleApi\Google_Model
 {
-  protected $ageGatingType = 'Google_Service_YouTube_VideoAgeGating';
+  protected $ageGatingType = '\GoogleApiServices\Google_Service_YouTube_VideoAgeGating';
   protected $ageGatingDataType = '';
-  protected $contentDetailsType = 'Google_Service_YouTube_VideoContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
-  protected $fileDetailsType = 'Google_Service_YouTube_VideoFileDetails';
+  protected $fileDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoFileDetails';
   protected $fileDetailsDataType = '';
   public $id;
   public $kind;
-  protected $liveStreamingDetailsType = 'Google_Service_YouTube_VideoLiveStreamingDetails';
+  protected $liveStreamingDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoLiveStreamingDetails';
   protected $liveStreamingDetailsDataType = '';
-  protected $localizationsType = 'Google_Service_YouTube_VideoLocalization';
+  protected $localizationsType = '\GoogleApiServices\Google_Service_YouTube_VideoLocalization';
   protected $localizationsDataType = 'map';
-  protected $monetizationDetailsType = 'Google_Service_YouTube_VideoMonetizationDetails';
+  protected $monetizationDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoMonetizationDetails';
   protected $monetizationDetailsDataType = '';
-  protected $playerType = 'Google_Service_YouTube_VideoPlayer';
+  protected $playerType = '\GoogleApiServices\Google_Service_YouTube_VideoPlayer';
   protected $playerDataType = '';
-  protected $processingDetailsType = 'Google_Service_YouTube_VideoProcessingDetails';
+  protected $processingDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoProcessingDetails';
   protected $processingDetailsDataType = '';
-  protected $projectDetailsType = 'Google_Service_YouTube_VideoProjectDetails';
+  protected $projectDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoProjectDetails';
   protected $projectDetailsDataType = '';
-  protected $recordingDetailsType = 'Google_Service_YouTube_VideoRecordingDetails';
+  protected $recordingDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoRecordingDetails';
   protected $recordingDetailsDataType = '';
-  protected $snippetType = 'Google_Service_YouTube_VideoSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_VideoSnippet';
   protected $snippetDataType = '';
-  protected $statisticsType = 'Google_Service_YouTube_VideoStatistics';
+  protected $statisticsType = '\GoogleApiServices\Google_Service_YouTube_VideoStatistics';
   protected $statisticsDataType = '';
-  protected $statusType = 'Google_Service_YouTube_VideoStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_YouTube_VideoStatus';
   protected $statusDataType = '';
-  protected $suggestionsType = 'Google_Service_YouTube_VideoSuggestions';
+  protected $suggestionsType = '\GoogleApiServices\Google_Service_YouTube_VideoSuggestions';
   protected $suggestionsDataType = '';
-  protected $topicDetailsType = 'Google_Service_YouTube_VideoTopicDetails';
+  protected $topicDetailsType = '\GoogleApiServices\Google_Service_YouTube_VideoTopicDetails';
   protected $topicDetailsDataType = '';
 
   public function setAgeGating(Google_Service_YouTube_VideoAgeGating $ageGating)

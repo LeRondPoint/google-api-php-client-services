@@ -18,13 +18,13 @@
 class Google_Service_Analytics_RealtimeData extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $columnHeadersType = 'Google_Service_Analytics_RealtimeDataColumnHeaders';
+  protected $columnHeadersType = '\GoogleApiServices\Google_Service_Analytics_RealtimeDataColumnHeaders';
   protected $columnHeadersDataType = 'array';
   public $id;
   public $kind;
-  protected $profileInfoType = 'Google_Service_Analytics_RealtimeDataProfileInfo';
+  protected $profileInfoType = '\GoogleApiServices\Google_Service_Analytics_RealtimeDataProfileInfo';
   protected $profileInfoDataType = '';
-  protected $queryType = 'Google_Service_Analytics_RealtimeDataQuery';
+  protected $queryType = '\GoogleApiServices\Google_Service_Analytics_RealtimeDataQuery';
   protected $queryDataType = '';
   public $rows;
   public $selfLink;

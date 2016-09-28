@@ -18,9 +18,9 @@
 class Google_Service_Compute_InstanceGroupsScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instanceGroups';
-  protected $instanceGroupsType = 'Google_Service_Compute_InstanceGroup';
+  protected $instanceGroupsType = '\GoogleApiServices\Google_Service_Compute_InstanceGroup';
   protected $instanceGroupsDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_InstanceGroupsScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_InstanceGroupsScopedListWarning';
   protected $warningDataType = '';
 
   public function setInstanceGroups($instanceGroups)

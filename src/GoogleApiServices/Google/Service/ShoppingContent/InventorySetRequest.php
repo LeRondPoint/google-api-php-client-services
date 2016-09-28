@@ -18,14 +18,14 @@
 class Google_Service_ShoppingContent_InventorySetRequest extends \GoogleApi\Google_Model
 {
   public $availability;
-  protected $installmentType = 'Google_Service_ShoppingContent_Installment';
+  protected $installmentType = '\GoogleApiServices\Google_Service_ShoppingContent_Installment';
   protected $installmentDataType = '';
-  protected $loyaltyPointsType = 'Google_Service_ShoppingContent_LoyaltyPoints';
+  protected $loyaltyPointsType = '\GoogleApiServices\Google_Service_ShoppingContent_LoyaltyPoints';
   protected $loyaltyPointsDataType = '';
-  protected $priceType = 'Google_Service_ShoppingContent_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $priceDataType = '';
   public $quantity;
-  protected $salePriceType = 'Google_Service_ShoppingContent_Price';
+  protected $salePriceType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $salePriceDataType = '';
   public $salePriceEffectiveDate;
   public $sellOnGoogleQuantity;

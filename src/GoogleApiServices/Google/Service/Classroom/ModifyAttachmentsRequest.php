@@ -18,7 +18,7 @@
 class Google_Service_Classroom_ModifyAttachmentsRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'addAttachments';
-  protected $addAttachmentsType = 'Google_Service_Classroom_Attachment';
+  protected $addAttachmentsType = '\GoogleApiServices\Google_Service_Classroom_Attachment';
   protected $addAttachmentsDataType = 'array';
 
   public function setAddAttachments($addAttachments)

@@ -18,7 +18,7 @@
 class Google_Service_Sheets_BatchUpdateSpreadsheetRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'requests';
-  protected $requestsType = 'Google_Service_Sheets_Request';
+  protected $requestsType = '\GoogleApiServices\Google_Service_Sheets_Request';
   protected $requestsDataType = 'array';
 
   public function setRequests($requests)

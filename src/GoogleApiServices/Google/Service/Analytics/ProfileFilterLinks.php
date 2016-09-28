@@ -18,7 +18,7 @@
 class Google_Service_Analytics_ProfileFilterLinks extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Analytics_ProfileFilterLink';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Analytics_ProfileFilterLink';
   protected $itemsDataType = 'array';
   public $itemsPerPage;
   public $kind;

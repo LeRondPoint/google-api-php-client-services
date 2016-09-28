@@ -19,25 +19,25 @@ class Google_Service_TagManager_ContainerVersion extends \GoogleApi\Google_Colle
 {
   protected $collection_key = 'variable';
   public $accountId;
-  protected $containerType = 'Google_Service_TagManager_Container';
+  protected $containerType = '\GoogleApiServices\Google_Service_TagManager_Container';
   protected $containerDataType = '';
   public $containerId;
   public $containerVersionId;
   public $deleted;
   public $fingerprint;
-  protected $folderType = 'Google_Service_TagManager_Folder';
+  protected $folderType = '\GoogleApiServices\Google_Service_TagManager_Folder';
   protected $folderDataType = 'array';
-  protected $macroType = 'Google_Service_TagManager_Macro';
+  protected $macroType = '\GoogleApiServices\Google_Service_TagManager_Macro';
   protected $macroDataType = 'array';
   public $name;
   public $notes;
-  protected $ruleType = 'Google_Service_TagManager_Rule';
+  protected $ruleType = '\GoogleApiServices\Google_Service_TagManager_Rule';
   protected $ruleDataType = 'array';
-  protected $tagType = 'Google_Service_TagManager_Tag';
+  protected $tagType = '\GoogleApiServices\Google_Service_TagManager_Tag';
   protected $tagDataType = 'array';
-  protected $triggerType = 'Google_Service_TagManager_Trigger';
+  protected $triggerType = '\GoogleApiServices\Google_Service_TagManager_Trigger';
   protected $triggerDataType = 'array';
-  protected $variableType = 'Google_Service_TagManager_Variable';
+  protected $variableType = '\GoogleApiServices\Google_Service_TagManager_Variable';
   protected $variableDataType = 'array';
 
   public function setAccountId($accountId)

@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListLabelsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'labels';
-  protected $labelsType = 'Google_Service_Gmail_Label';
+  protected $labelsType = '\GoogleApiServices\Google_Service_Gmail_Label';
   protected $labelsDataType = 'array';
 
   public function setLabels($labels)

@@ -18,7 +18,7 @@
 class Google_Service_ToolResults_ListExecutionsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'executions';
-  protected $executionsType = 'Google_Service_ToolResults_Execution';
+  protected $executionsType = '\GoogleApiServices\Google_Service_ToolResults_Execution';
   protected $executionsDataType = 'array';
   public $nextPageToken;
 

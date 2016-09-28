@@ -18,15 +18,15 @@
 class Google_Service_Dfareporting_Report extends \GoogleApi\Google_Model
 {
   public $accountId;
-  protected $criteriaType = 'Google_Service_Dfareporting_ReportCriteria';
+  protected $criteriaType = '\GoogleApiServices\Google_Service_Dfareporting_ReportCriteria';
   protected $criteriaDataType = '';
-  protected $crossDimensionReachCriteriaType = 'Google_Service_Dfareporting_ReportCrossDimensionReachCriteria';
+  protected $crossDimensionReachCriteriaType = '\GoogleApiServices\Google_Service_Dfareporting_ReportCrossDimensionReachCriteria';
   protected $crossDimensionReachCriteriaDataType = '';
-  protected $deliveryType = 'Google_Service_Dfareporting_ReportDelivery';
+  protected $deliveryType = '\GoogleApiServices\Google_Service_Dfareporting_ReportDelivery';
   protected $deliveryDataType = '';
   public $etag;
   public $fileName;
-  protected $floodlightCriteriaType = 'Google_Service_Dfareporting_ReportFloodlightCriteria';
+  protected $floodlightCriteriaType = '\GoogleApiServices\Google_Service_Dfareporting_ReportFloodlightCriteria';
   protected $floodlightCriteriaDataType = '';
   public $format;
   public $id;
@@ -34,11 +34,11 @@ class Google_Service_Dfareporting_Report extends \GoogleApi\Google_Model
   public $lastModifiedTime;
   public $name;
   public $ownerProfileId;
-  protected $pathToConversionCriteriaType = 'Google_Service_Dfareporting_ReportPathToConversionCriteria';
+  protected $pathToConversionCriteriaType = '\GoogleApiServices\Google_Service_Dfareporting_ReportPathToConversionCriteria';
   protected $pathToConversionCriteriaDataType = '';
-  protected $reachCriteriaType = 'Google_Service_Dfareporting_ReportReachCriteria';
+  protected $reachCriteriaType = '\GoogleApiServices\Google_Service_Dfareporting_ReportReachCriteria';
   protected $reachCriteriaDataType = '';
-  protected $scheduleType = 'Google_Service_Dfareporting_ReportSchedule';
+  protected $scheduleType = '\GoogleApiServices\Google_Service_Dfareporting_ReportSchedule';
   protected $scheduleDataType = '';
   public $subAccountId;
   public $type;

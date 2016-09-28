@@ -25,7 +25,7 @@ class Google_Service_YouTube_LiveBroadcastContentDetails extends \GoogleApi\Goog
   public $enableDvr;
   public $enableEmbed;
   public $enableLowLatency;
-  protected $monitorStreamType = 'Google_Service_YouTube_MonitorStreamInfo';
+  protected $monitorStreamType = '\GoogleApiServices\Google_Service_YouTube_MonitorStreamInfo';
   protected $monitorStreamDataType = '';
   public $projection;
   public $recordFromStart;

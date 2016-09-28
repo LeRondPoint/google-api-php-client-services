@@ -18,7 +18,7 @@
 class Google_Service_Webmasters_SitemapsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sitemap';
-  protected $sitemapType = 'Google_Service_Webmasters_WmxSitemap';
+  protected $sitemapType = '\GoogleApiServices\Google_Service_Webmasters_WmxSitemap';
   protected $sitemapDataType = 'array';
 
   public function setSitemap($sitemap)

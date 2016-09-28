@@ -19,7 +19,7 @@ class Google_Service_Calendar_CalendarList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Calendar_CalendarListEntry';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Calendar_CalendarListEntry';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

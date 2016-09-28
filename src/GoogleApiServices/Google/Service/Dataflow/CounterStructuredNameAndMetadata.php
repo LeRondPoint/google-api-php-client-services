@@ -17,9 +17,9 @@
 
 class Google_Service_Dataflow_CounterStructuredNameAndMetadata extends \GoogleApi\Google_Model
 {
-  protected $metadataType = 'Google_Service_Dataflow_CounterMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_Dataflow_CounterMetadata';
   protected $metadataDataType = '';
-  protected $nameType = 'Google_Service_Dataflow_CounterStructuredName';
+  protected $nameType = '\GoogleApiServices\Google_Service_Dataflow_CounterStructuredName';
   protected $nameDataType = '';
 
   public function setMetadata(Google_Service_Dataflow_CounterMetadata $metadata)

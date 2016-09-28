@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_StoreLayoutPagesListResponse extends \Goo
 {
   protected $collection_key = 'page';
   public $kind;
-  protected $pageType = 'Google_Service_AndroidEnterprise_StorePage';
+  protected $pageType = '\GoogleApiServices\Google_Service_AndroidEnterprise_StorePage';
   protected $pageDataType = 'array';
 
   public function setKind($kind)

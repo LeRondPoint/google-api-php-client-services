@@ -19,7 +19,7 @@ class Google_Service_Genomics_SearchVariantsResponse extends \GoogleApi\Google_C
 {
   protected $collection_key = 'variants';
   public $nextPageToken;
-  protected $variantsType = 'Google_Service_Genomics_Variant';
+  protected $variantsType = '\GoogleApiServices\Google_Service_Genomics_Variant';
   protected $variantsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

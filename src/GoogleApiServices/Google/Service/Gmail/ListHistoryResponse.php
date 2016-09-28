@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListHistoryResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'history';
-  protected $historyType = 'Google_Service_Gmail_History';
+  protected $historyType = '\GoogleApiServices\Google_Service_Gmail_History';
   protected $historyDataType = 'array';
   public $historyId;
   public $nextPageToken;

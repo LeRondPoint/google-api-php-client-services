@@ -18,7 +18,7 @@
 class Google_Service_Spectrum_DeviceCapabilities extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'frequencyRanges';
-  protected $frequencyRangesType = 'Google_Service_Spectrum_FrequencyRange';
+  protected $frequencyRangesType = '\GoogleApiServices\Google_Service_Spectrum_FrequencyRange';
   protected $frequencyRangesDataType = 'array';
 
   public function setFrequencyRanges($frequencyRanges)

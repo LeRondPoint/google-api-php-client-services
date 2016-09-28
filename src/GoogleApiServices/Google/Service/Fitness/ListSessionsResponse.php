@@ -18,11 +18,11 @@
 class Google_Service_Fitness_ListSessionsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'session';
-  protected $deletedSessionType = 'Google_Service_Fitness_Session';
+  protected $deletedSessionType = '\GoogleApiServices\Google_Service_Fitness_Session';
   protected $deletedSessionDataType = 'array';
   public $hasMoreData;
   public $nextPageToken;
-  protected $sessionType = 'Google_Service_Fitness_Session';
+  protected $sessionType = '\GoogleApiServices\Google_Service_Fitness_Session';
   protected $sessionDataType = 'array';
 
   public function setDeletedSession($deletedSession)

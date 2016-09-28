@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_DeleteDimensionRequest extends \GoogleApi\Google_Model
 {
-  protected $rangeType = 'Google_Service_Sheets_DimensionRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_DimensionRange';
   protected $rangeDataType = '';
 
   public function setRange(Google_Service_Sheets_DimensionRange $range)

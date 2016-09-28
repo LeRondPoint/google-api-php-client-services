@@ -20,16 +20,16 @@ class Google_Service_CloudDebugger_Debuggee extends \GoogleApi\Google_Collection
   protected $collection_key = 'sourceContexts';
   public $agentVersion;
   public $description;
-  protected $extSourceContextsType = 'Google_Service_CloudDebugger_ExtendedSourceContext';
+  protected $extSourceContextsType = '\GoogleApiServices\Google_Service_CloudDebugger_ExtendedSourceContext';
   protected $extSourceContextsDataType = 'array';
   public $id;
   public $isDisabled;
   public $isInactive;
   public $labels;
   public $project;
-  protected $sourceContextsType = 'Google_Service_CloudDebugger_SourceContext';
+  protected $sourceContextsType = '\GoogleApiServices\Google_Service_CloudDebugger_SourceContext';
   protected $sourceContextsDataType = 'array';
-  protected $statusType = 'Google_Service_CloudDebugger_StatusMessage';
+  protected $statusType = '\GoogleApiServices\Google_Service_CloudDebugger_StatusMessage';
   protected $statusDataType = '';
   public $uniquifier;
 

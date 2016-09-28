@@ -18,7 +18,7 @@
 class Google_Service_Compute_OperationAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_OperationsScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_OperationsScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

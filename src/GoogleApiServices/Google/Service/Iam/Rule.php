@@ -19,11 +19,11 @@ class Google_Service_Iam_Rule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'permissions';
   public $action;
-  protected $conditionsType = 'Google_Service_Iam_Condition';
+  protected $conditionsType = '\GoogleApiServices\Google_Service_Iam_Condition';
   protected $conditionsDataType = 'array';
   public $description;
   public $in;
-  protected $logConfigType = 'Google_Service_Iam_LogConfig';
+  protected $logConfigType = '\GoogleApiServices\Google_Service_Iam_LogConfig';
   protected $logConfigDataType = 'array';
   public $notIn;
   public $permissions;

@@ -19,14 +19,14 @@ class Google_Service_Books_VolumeAccessInfo extends \GoogleApi\Google_Model
 {
   public $accessViewStatus;
   public $country;
-  protected $downloadAccessType = 'Google_Service_Books_DownloadAccessRestriction';
+  protected $downloadAccessType = '\GoogleApiServices\Google_Service_Books_DownloadAccessRestriction';
   protected $downloadAccessDataType = '';
   public $driveImportedContentLink;
   public $embeddable;
-  protected $epubType = 'Google_Service_Books_VolumeAccessInfoEpub';
+  protected $epubType = '\GoogleApiServices\Google_Service_Books_VolumeAccessInfoEpub';
   protected $epubDataType = '';
   public $explicitOfflineLicenseManagement;
-  protected $pdfType = 'Google_Service_Books_VolumeAccessInfoPdf';
+  protected $pdfType = '\GoogleApiServices\Google_Service_Books_VolumeAccessInfoPdf';
   protected $pdfDataType = '';
   public $publicDomain;
   public $quoteSharingAllowed;

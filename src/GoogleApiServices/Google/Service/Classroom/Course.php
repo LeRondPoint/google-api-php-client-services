@@ -20,7 +20,7 @@ class Google_Service_Classroom_Course extends \GoogleApi\Google_Collection
   protected $collection_key = 'courseMaterialSets';
   public $alternateLink;
   public $courseGroupEmail;
-  protected $courseMaterialSetsType = 'Google_Service_Classroom_CourseMaterialSet';
+  protected $courseMaterialSetsType = '\GoogleApiServices\Google_Service_Classroom_CourseMaterialSet';
   protected $courseMaterialSetsDataType = 'array';
   public $courseState;
   public $creationTime;
@@ -32,7 +32,7 @@ class Google_Service_Classroom_Course extends \GoogleApi\Google_Collection
   public $ownerId;
   public $room;
   public $section;
-  protected $teacherFolderType = 'Google_Service_Classroom_DriveFolder';
+  protected $teacherFolderType = '\GoogleApiServices\Google_Service_Classroom_DriveFolder';
   protected $teacherFolderDataType = '';
   public $teacherGroupEmail;
   public $updateTime;

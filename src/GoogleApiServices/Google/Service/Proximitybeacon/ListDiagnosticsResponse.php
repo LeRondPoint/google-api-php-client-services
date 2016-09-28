@@ -18,7 +18,7 @@
 class Google_Service_Proximitybeacon_ListDiagnosticsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'diagnostics';
-  protected $diagnosticsType = 'Google_Service_Proximitybeacon_Diagnostics';
+  protected $diagnosticsType = '\GoogleApiServices\Google_Service_Proximitybeacon_Diagnostics';
   protected $diagnosticsDataType = 'array';
   public $nextPageToken;
 

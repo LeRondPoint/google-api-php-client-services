@@ -21,13 +21,13 @@ class Google_Service_Books_DiscoveryclustersClusters extends \GoogleApi\Google_C
   protected $internal_gapi_mappings = array(
         "bannerWithContentContainer" => "banner_with_content_container",
   );
-  protected $bannerWithContentContainerType = 'Google_Service_Books_DiscoveryclustersClustersBannerWithContentContainer';
+  protected $bannerWithContentContainerType = '\GoogleApiServices\Google_Service_Books_DiscoveryclustersClustersBannerWithContentContainer';
   protected $bannerWithContentContainerDataType = '';
   public $subTitle;
   public $title;
   public $totalVolumes;
   public $uid;
-  protected $volumesType = 'Google_Service_Books_Volume';
+  protected $volumesType = '\GoogleApiServices\Google_Service_Books_Volume';
   protected $volumesDataType = 'array';
 
   public function setBannerWithContentContainer(Google_Service_Books_DiscoveryclustersClustersBannerWithContentContainer $bannerWithContentContainer)

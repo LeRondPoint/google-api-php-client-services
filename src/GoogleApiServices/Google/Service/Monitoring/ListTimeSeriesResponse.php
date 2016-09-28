@@ -19,7 +19,7 @@ class Google_Service_Monitoring_ListTimeSeriesResponse extends \GoogleApi\Google
 {
   protected $collection_key = 'timeSeries';
   public $nextPageToken;
-  protected $timeSeriesType = 'Google_Service_Monitoring_TimeSeries';
+  protected $timeSeriesType = '\GoogleApiServices\Google_Service_Monitoring_TimeSeries';
   protected $timeSeriesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

@@ -18,7 +18,7 @@
 class Google_Service_DeploymentManager_ResourceUpdateError extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorsType = 'Google_Service_DeploymentManager_ResourceUpdateErrorErrors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_DeploymentManager_ResourceUpdateErrorErrors';
   protected $errorsDataType = 'array';
 
   public function setErrors($errors)

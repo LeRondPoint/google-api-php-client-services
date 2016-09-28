@@ -19,7 +19,7 @@ class Google_Service_ServiceRegistry_OperationsListResponse extends \GoogleApi\G
 {
   protected $collection_key = 'operations';
   public $nextPageToken;
-  protected $operationsType = 'Google_Service_ServiceRegistry_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_ServiceRegistry_Operation';
   protected $operationsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

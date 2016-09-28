@@ -19,7 +19,7 @@ class Google_Service_Compute_Metadata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $fingerprint;
-  protected $itemsType = 'Google_Service_Compute_MetadataItems';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_MetadataItems';
   protected $itemsDataType = 'array';
   public $kind;
 

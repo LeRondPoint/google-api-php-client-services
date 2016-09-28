@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_ApproximateSplitRequest extends \GoogleApi\Google_Model
 {
   public $fractionConsumed;
-  protected $positionType = 'Google_Service_Dataflow_Position';
+  protected $positionType = '\GoogleApiServices\Google_Service_Dataflow_Position';
   protected $positionDataType = '';
 
   public function setFractionConsumed($fractionConsumed)

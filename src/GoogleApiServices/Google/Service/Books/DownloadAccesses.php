@@ -18,7 +18,7 @@
 class Google_Service_Books_DownloadAccesses extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'downloadAccessList';
-  protected $downloadAccessListType = 'Google_Service_Books_DownloadAccessRestriction';
+  protected $downloadAccessListType = '\GoogleApiServices\Google_Service_Books_DownloadAccessRestriction';
   protected $downloadAccessListDataType = 'array';
   public $kind;
 

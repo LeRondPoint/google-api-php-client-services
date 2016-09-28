@@ -18,7 +18,7 @@
 class Google_Service_Dns_ChangesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'changes';
-  protected $changesType = 'Google_Service_Dns_Change';
+  protected $changesType = '\GoogleApiServices\Google_Service_Dns_Change';
   protected $changesDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,7 +18,7 @@
 class Google_Service_Storage_Objects extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'prefixes';
-  protected $itemsType = 'Google_Service_Storage_StorageObject';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Storage_StorageObject';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

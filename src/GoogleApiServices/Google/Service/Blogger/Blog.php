@@ -21,12 +21,12 @@ class Google_Service_Blogger_Blog extends \GoogleApi\Google_Model
   public $description;
   public $id;
   public $kind;
-  protected $localeType = 'Google_Service_Blogger_BlogLocale';
+  protected $localeType = '\GoogleApiServices\Google_Service_Blogger_BlogLocale';
   protected $localeDataType = '';
   public $name;
-  protected $pagesType = 'Google_Service_Blogger_BlogPages';
+  protected $pagesType = '\GoogleApiServices\Google_Service_Blogger_BlogPages';
   protected $pagesDataType = '';
-  protected $postsType = 'Google_Service_Blogger_BlogPosts';
+  protected $postsType = '\GoogleApiServices\Google_Service_Blogger_BlogPosts';
   protected $postsDataType = '';
   public $published;
   public $selfLink;

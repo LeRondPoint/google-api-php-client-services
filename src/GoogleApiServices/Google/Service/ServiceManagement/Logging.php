@@ -18,9 +18,9 @@
 class Google_Service_ServiceManagement_Logging extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'producerDestinations';
-  protected $consumerDestinationsType = 'Google_Service_ServiceManagement_LoggingDestination';
+  protected $consumerDestinationsType = '\GoogleApiServices\Google_Service_ServiceManagement_LoggingDestination';
   protected $consumerDestinationsDataType = 'array';
-  protected $producerDestinationsType = 'Google_Service_ServiceManagement_LoggingDestination';
+  protected $producerDestinationsType = '\GoogleApiServices\Google_Service_ServiceManagement_LoggingDestination';
   protected $producerDestinationsDataType = 'array';
 
   public function setConsumerDestinations($consumerDestinations)

@@ -18,10 +18,10 @@
 class Google_Service_Partners_ListCompaniesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'companies';
-  protected $companiesType = 'Google_Service_Partners_Company';
+  protected $companiesType = '\GoogleApiServices\Google_Service_Partners_Company';
   protected $companiesDataType = 'array';
   public $nextPageToken;
-  protected $responseMetadataType = 'Google_Service_Partners_ResponseMetadata';
+  protected $responseMetadataType = '\GoogleApiServices\Google_Service_Partners_ResponseMetadata';
   protected $responseMetadataDataType = '';
 
   public function setCompanies($companies)

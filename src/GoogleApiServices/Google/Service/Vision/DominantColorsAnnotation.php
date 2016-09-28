@@ -18,7 +18,7 @@
 class Google_Service_Vision_DominantColorsAnnotation extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'colors';
-  protected $colorsType = 'Google_Service_Vision_ColorInfo';
+  protected $colorsType = '\GoogleApiServices\Google_Service_Vision_ColorInfo';
   protected $colorsDataType = 'array';
 
   public function setColors($colors)

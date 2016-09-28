@@ -18,7 +18,7 @@
 class Google_Service_CloudSpeechAPI_Operation extends \GoogleApi\Google_Model
 {
   public $done;
-  protected $errorType = 'Google_Service_CloudSpeechAPI_Status';
+  protected $errorType = '\GoogleApiServices\Google_Service_CloudSpeechAPI_Status';
   protected $errorDataType = '';
   public $metadata;
   public $name;

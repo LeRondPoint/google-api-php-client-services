@@ -19,7 +19,7 @@ class Google_Service_YouTube_LiveChatUserBannedMessageDetails extends \GoogleApi
 {
   public $banDurationSeconds;
   public $banType;
-  protected $bannedUserDetailsType = 'Google_Service_YouTube_ChannelProfileDetails';
+  protected $bannedUserDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelProfileDetails';
   protected $bannedUserDetailsDataType = '';
 
   public function setBanDurationSeconds($banDurationSeconds)

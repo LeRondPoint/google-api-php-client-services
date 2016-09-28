@@ -26,7 +26,7 @@ class Google_Service_ServiceRegistry_Endpoint extends \GoogleApi\Google_Model
   public $port;
   public $selfLink;
   public $state;
-  protected $visibilityType = 'Google_Service_ServiceRegistry_EndpointEndpointVisibility';
+  protected $visibilityType = '\GoogleApiServices\Google_Service_ServiceRegistry_EndpointEndpointVisibility';
   protected $visibilityDataType = '';
 
   public function setAddress($address)

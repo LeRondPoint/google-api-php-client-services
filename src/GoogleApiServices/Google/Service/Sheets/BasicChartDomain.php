@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_BasicChartDomain extends \GoogleApi\Google_Model
 {
-  protected $domainType = 'Google_Service_Sheets_ChartData';
+  protected $domainType = '\GoogleApiServices\Google_Service_Sheets_ChartData';
   protected $domainDataType = '';
 
   public function setDomain(Google_Service_Sheets_ChartData $domain)

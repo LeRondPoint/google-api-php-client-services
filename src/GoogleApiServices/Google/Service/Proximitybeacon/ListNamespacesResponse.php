@@ -18,7 +18,7 @@
 class Google_Service_Proximitybeacon_ListNamespacesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'namespaces';
-  protected $namespacesType = 'Google_Service_Proximitybeacon_ProximitybeaconNamespace';
+  protected $namespacesType = '\GoogleApiServices\Google_Service_Proximitybeacon_ProximitybeaconNamespace';
   protected $namespacesDataType = 'array';
 
   public function setNamespaces($namespaces)

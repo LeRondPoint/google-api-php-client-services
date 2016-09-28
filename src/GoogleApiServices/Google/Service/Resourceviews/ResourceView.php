@@ -20,12 +20,12 @@ class Google_Service_Resourceviews_ResourceView extends \GoogleApi\Google_Collec
   protected $collection_key = 'resources';
   public $creationTimestamp;
   public $description;
-  protected $endpointsType = 'Google_Service_Resourceviews_ServiceEndpoint';
+  protected $endpointsType = '\GoogleApiServices\Google_Service_Resourceviews_ServiceEndpoint';
   protected $endpointsDataType = 'array';
   public $fingerprint;
   public $id;
   public $kind;
-  protected $labelsType = 'Google_Service_Resourceviews_Label';
+  protected $labelsType = '\GoogleApiServices\Google_Service_Resourceviews_Label';
   protected $labelsDataType = 'array';
   public $name;
   public $network;

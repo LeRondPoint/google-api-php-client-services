@@ -17,13 +17,13 @@
 
 class Google_Service_Dataflow_SourceFork extends \GoogleApi\Google_Model
 {
-  protected $primaryType = 'Google_Service_Dataflow_SourceSplitShard';
+  protected $primaryType = '\GoogleApiServices\Google_Service_Dataflow_SourceSplitShard';
   protected $primaryDataType = '';
-  protected $primarySourceType = 'Google_Service_Dataflow_DerivedSource';
+  protected $primarySourceType = '\GoogleApiServices\Google_Service_Dataflow_DerivedSource';
   protected $primarySourceDataType = '';
-  protected $residualType = 'Google_Service_Dataflow_SourceSplitShard';
+  protected $residualType = '\GoogleApiServices\Google_Service_Dataflow_SourceSplitShard';
   protected $residualDataType = '';
-  protected $residualSourceType = 'Google_Service_Dataflow_DerivedSource';
+  protected $residualSourceType = '\GoogleApiServices\Google_Service_Dataflow_DerivedSource';
   protected $residualSourceDataType = '';
 
   public function setPrimary(Google_Service_Dataflow_SourceSplitShard $primary)

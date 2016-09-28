@@ -17,15 +17,15 @@
 
 class Google_Service_YouTube_ThumbnailDetails extends \GoogleApi\Google_Model
 {
-  protected $defaultType = 'Google_Service_YouTube_Thumbnail';
+  protected $defaultType = '\GoogleApiServices\Google_Service_YouTube_Thumbnail';
   protected $defaultDataType = '';
-  protected $highType = 'Google_Service_YouTube_Thumbnail';
+  protected $highType = '\GoogleApiServices\Google_Service_YouTube_Thumbnail';
   protected $highDataType = '';
-  protected $maxresType = 'Google_Service_YouTube_Thumbnail';
+  protected $maxresType = '\GoogleApiServices\Google_Service_YouTube_Thumbnail';
   protected $maxresDataType = '';
-  protected $mediumType = 'Google_Service_YouTube_Thumbnail';
+  protected $mediumType = '\GoogleApiServices\Google_Service_YouTube_Thumbnail';
   protected $mediumDataType = '';
-  protected $standardType = 'Google_Service_YouTube_Thumbnail';
+  protected $standardType = '\GoogleApiServices\Google_Service_YouTube_Thumbnail';
   protected $standardDataType = '';
 
   public function setDefault(Google_Service_YouTube_Thumbnail $default)

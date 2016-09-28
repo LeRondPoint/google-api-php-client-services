@@ -18,7 +18,7 @@
 class Google_Service_DataTransfer_ApplicationsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'applications';
-  protected $applicationsType = 'Google_Service_DataTransfer_Application';
+  protected $applicationsType = '\GoogleApiServices\Google_Service_DataTransfer_Application';
   protected $applicationsDataType = 'array';
   public $etag;
   public $kind;

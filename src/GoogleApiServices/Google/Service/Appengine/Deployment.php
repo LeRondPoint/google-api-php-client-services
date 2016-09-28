@@ -17,11 +17,11 @@
 
 class Google_Service_Appengine_Deployment extends \GoogleApi\Google_Model
 {
-  protected $containerType = 'Google_Service_Appengine_ContainerInfo';
+  protected $containerType = '\GoogleApiServices\Google_Service_Appengine_ContainerInfo';
   protected $containerDataType = '';
-  protected $filesType = 'Google_Service_Appengine_FileInfo';
+  protected $filesType = '\GoogleApiServices\Google_Service_Appengine_FileInfo';
   protected $filesDataType = 'map';
-  protected $zipType = 'Google_Service_Appengine_ZipInfo';
+  protected $zipType = '\GoogleApiServices\Google_Service_Appengine_ZipInfo';
   protected $zipDataType = '';
 
   public function setContainer(Google_Service_Appengine_ContainerInfo $container)

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_Account extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'bidderLocation';
-  protected $bidderLocationType = 'Google_Service_AdExchangeBuyer_AccountBidderLocation';
+  protected $bidderLocationType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_AccountBidderLocation';
   protected $bidderLocationDataType = 'array';
   public $cookieMatchingNid;
   public $cookieMatchingUrl;

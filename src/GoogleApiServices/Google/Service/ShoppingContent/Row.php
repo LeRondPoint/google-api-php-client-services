@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_Row extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'cells';
-  protected $cellsType = 'Google_Service_ShoppingContent_Value';
+  protected $cellsType = '\GoogleApiServices\Google_Service_ShoppingContent_Value';
   protected $cellsDataType = 'array';
 
   public function setCells($cells)

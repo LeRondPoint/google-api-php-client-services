@@ -19,7 +19,7 @@ class Google_Service_AdExchangeSeller_CustomChannels extends \GoogleApi\Google_C
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdExchangeSeller_CustomChannel';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeSeller_CustomChannel';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

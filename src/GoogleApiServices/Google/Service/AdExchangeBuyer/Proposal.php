@@ -18,13 +18,13 @@
 class Google_Service_AdExchangeBuyer_Proposal extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sellerContacts';
-  protected $billedBuyerType = 'Google_Service_AdExchangeBuyer_Buyer';
+  protected $billedBuyerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Buyer';
   protected $billedBuyerDataType = '';
-  protected $buyerType = 'Google_Service_AdExchangeBuyer_Buyer';
+  protected $buyerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Buyer';
   protected $buyerDataType = '';
-  protected $buyerContactsType = 'Google_Service_AdExchangeBuyer_ContactInformation';
+  protected $buyerContactsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_ContactInformation';
   protected $buyerContactsDataType = 'array';
-  protected $buyerPrivateDataType = 'Google_Service_AdExchangeBuyer_PrivateData';
+  protected $buyerPrivateDataType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PrivateData';
   protected $buyerPrivateDataDataType = '';
   public $hasBuyerSignedOff;
   public $hasSellerSignedOff;
@@ -32,7 +32,7 @@ class Google_Service_AdExchangeBuyer_Proposal extends \GoogleApi\Google_Collecti
   public $isRenegotiating;
   public $isSetupComplete;
   public $kind;
-  protected $labelsType = 'Google_Service_AdExchangeBuyer_MarketplaceLabel';
+  protected $labelsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_MarketplaceLabel';
   protected $labelsDataType = 'array';
   public $lastUpdaterOrCommentorRole;
   public $name;
@@ -43,9 +43,9 @@ class Google_Service_AdExchangeBuyer_Proposal extends \GoogleApi\Google_Collecti
   public $proposalState;
   public $revisionNumber;
   public $revisionTimeMs;
-  protected $sellerType = 'Google_Service_AdExchangeBuyer_Seller';
+  protected $sellerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Seller';
   protected $sellerDataType = '';
-  protected $sellerContactsType = 'Google_Service_AdExchangeBuyer_ContactInformation';
+  protected $sellerContactsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_ContactInformation';
   protected $sellerContactsDataType = 'array';
 
   public function setBilledBuyer(Google_Service_AdExchangeBuyer_Buyer $billedBuyer)

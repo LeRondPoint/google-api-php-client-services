@@ -20,7 +20,7 @@ class Google_Service_Compute_UrlMapValidationResult extends \GoogleApi\Google_Co
   protected $collection_key = 'testFailures';
   public $loadErrors;
   public $loadSucceeded;
-  protected $testFailuresType = 'Google_Service_Compute_TestFailure';
+  protected $testFailuresType = '\GoogleApiServices\Google_Service_Compute_TestFailure';
   protected $testFailuresDataType = 'array';
   public $testPassed;
 

@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CampaignsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'campaigns';
-  protected $campaignsType = 'Google_Service_Dfareporting_Campaign';
+  protected $campaignsType = '\GoogleApiServices\Google_Service_Dfareporting_Campaign';
   protected $campaignsDataType = 'array';
   public $kind;
   public $nextPageToken;

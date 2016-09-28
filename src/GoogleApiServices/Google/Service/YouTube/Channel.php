@@ -17,30 +17,30 @@
 
 class Google_Service_YouTube_Channel extends \GoogleApi\Google_Model
 {
-  protected $auditDetailsType = 'Google_Service_YouTube_ChannelAuditDetails';
+  protected $auditDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelAuditDetails';
   protected $auditDetailsDataType = '';
-  protected $brandingSettingsType = 'Google_Service_YouTube_ChannelBrandingSettings';
+  protected $brandingSettingsType = '\GoogleApiServices\Google_Service_YouTube_ChannelBrandingSettings';
   protected $brandingSettingsDataType = '';
-  protected $contentDetailsType = 'Google_Service_YouTube_ChannelContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelContentDetails';
   protected $contentDetailsDataType = '';
-  protected $contentOwnerDetailsType = 'Google_Service_YouTube_ChannelContentOwnerDetails';
+  protected $contentOwnerDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelContentOwnerDetails';
   protected $contentOwnerDetailsDataType = '';
-  protected $conversionPingsType = 'Google_Service_YouTube_ChannelConversionPings';
+  protected $conversionPingsType = '\GoogleApiServices\Google_Service_YouTube_ChannelConversionPings';
   protected $conversionPingsDataType = '';
   public $etag;
   public $id;
-  protected $invideoPromotionType = 'Google_Service_YouTube_InvideoPromotion';
+  protected $invideoPromotionType = '\GoogleApiServices\Google_Service_YouTube_InvideoPromotion';
   protected $invideoPromotionDataType = '';
   public $kind;
-  protected $localizationsType = 'Google_Service_YouTube_ChannelLocalization';
+  protected $localizationsType = '\GoogleApiServices\Google_Service_YouTube_ChannelLocalization';
   protected $localizationsDataType = 'map';
-  protected $snippetType = 'Google_Service_YouTube_ChannelSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_ChannelSnippet';
   protected $snippetDataType = '';
-  protected $statisticsType = 'Google_Service_YouTube_ChannelStatistics';
+  protected $statisticsType = '\GoogleApiServices\Google_Service_YouTube_ChannelStatistics';
   protected $statisticsDataType = '';
-  protected $statusType = 'Google_Service_YouTube_ChannelStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_YouTube_ChannelStatus';
   protected $statusDataType = '';
-  protected $topicDetailsType = 'Google_Service_YouTube_ChannelTopicDetails';
+  protected $topicDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelTopicDetails';
   protected $topicDetailsDataType = '';
 
   public function setAuditDetails(Google_Service_YouTube_ChannelAuditDetails $auditDetails)

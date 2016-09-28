@@ -19,16 +19,16 @@ class Google_Service_AdExchangeBuyer_CreativeNativeAd extends \GoogleApi\Google_
 {
   protected $collection_key = 'impressionTrackingUrl';
   public $advertiser;
-  protected $appIconType = 'Google_Service_AdExchangeBuyer_CreativeNativeAdAppIcon';
+  protected $appIconType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeNativeAdAppIcon';
   protected $appIconDataType = '';
   public $body;
   public $callToAction;
   public $clickTrackingUrl;
   public $headline;
-  protected $imageType = 'Google_Service_AdExchangeBuyer_CreativeNativeAdImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeNativeAdImage';
   protected $imageDataType = '';
   public $impressionTrackingUrl;
-  protected $logoType = 'Google_Service_AdExchangeBuyer_CreativeNativeAdLogo';
+  protected $logoType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeNativeAdLogo';
   protected $logoDataType = '';
   public $price;
   public $starRating;

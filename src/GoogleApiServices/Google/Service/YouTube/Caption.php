@@ -20,7 +20,7 @@ class Google_Service_YouTube_Caption extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_CaptionSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_CaptionSnippet';
   protected $snippetDataType = '';
 
   public function setEtag($etag)

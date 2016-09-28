@@ -18,7 +18,7 @@
 class Google_Service_Datastore_MutationResult extends \GoogleApi\Google_Model
 {
   public $conflictDetected;
-  protected $keyType = 'Google_Service_Datastore_Key';
+  protected $keyType = '\GoogleApiServices\Google_Service_Datastore_Key';
   protected $keyDataType = '';
   public $version;
 

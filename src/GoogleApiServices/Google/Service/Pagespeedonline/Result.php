@@ -18,20 +18,20 @@
 class Google_Service_Pagespeedonline_Result extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'invalidRules';
-  protected $formattedResultsType = 'Google_Service_Pagespeedonline_ResultFormattedResults';
+  protected $formattedResultsType = '\GoogleApiServices\Google_Service_Pagespeedonline_ResultFormattedResults';
   protected $formattedResultsDataType = '';
   public $id;
   public $invalidRules;
   public $kind;
-  protected $pageStatsType = 'Google_Service_Pagespeedonline_ResultPageStats';
+  protected $pageStatsType = '\GoogleApiServices\Google_Service_Pagespeedonline_ResultPageStats';
   protected $pageStatsDataType = '';
   public $responseCode;
-  protected $ruleGroupsType = 'Google_Service_Pagespeedonline_ResultRuleGroupsElement';
+  protected $ruleGroupsType = '\GoogleApiServices\Google_Service_Pagespeedonline_ResultRuleGroupsElement';
   protected $ruleGroupsDataType = 'map';
-  protected $screenshotType = 'Google_Service_Pagespeedonline_PagespeedApiImageV2';
+  protected $screenshotType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiImageV2';
   protected $screenshotDataType = '';
   public $title;
-  protected $versionType = 'Google_Service_Pagespeedonline_ResultVersion';
+  protected $versionType = '\GoogleApiServices\Google_Service_Pagespeedonline_ResultVersion';
   protected $versionDataType = '';
 
   public function setFormattedResults(Google_Service_Pagespeedonline_ResultFormattedResults $formattedResults)

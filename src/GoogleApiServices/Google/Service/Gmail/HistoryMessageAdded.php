@@ -17,7 +17,7 @@
 
 class Google_Service_Gmail_HistoryMessageAdded extends \GoogleApi\Google_Model
 {
-  protected $messageType = 'Google_Service_Gmail_Message';
+  protected $messageType = '\GoogleApiServices\Google_Service_Gmail_Message';
   protected $messageDataType = '';
 
   public function setMessage(Google_Service_Gmail_Message $message)

@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_ReviewReplyResult extends \GoogleApi\Google_Model
 {
-  protected $lastEditedType = 'Google_Service_AndroidPublisher_Timestamp';
+  protected $lastEditedType = '\GoogleApiServices\Google_Service_AndroidPublisher_Timestamp';
   protected $lastEditedDataType = '';
   public $replyText;
 

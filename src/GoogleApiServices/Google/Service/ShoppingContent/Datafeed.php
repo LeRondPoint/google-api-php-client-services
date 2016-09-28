@@ -21,10 +21,10 @@ class Google_Service_ShoppingContent_Datafeed extends \GoogleApi\Google_Collecti
   public $attributeLanguage;
   public $contentLanguage;
   public $contentType;
-  protected $fetchScheduleType = 'Google_Service_ShoppingContent_DatafeedFetchSchedule';
+  protected $fetchScheduleType = '\GoogleApiServices\Google_Service_ShoppingContent_DatafeedFetchSchedule';
   protected $fetchScheduleDataType = '';
   public $fileName;
-  protected $formatType = 'Google_Service_ShoppingContent_DatafeedFormat';
+  protected $formatType = '\GoogleApiServices\Google_Service_ShoppingContent_DatafeedFormat';
   protected $formatDataType = '';
   public $id;
   public $intendedDestinations;

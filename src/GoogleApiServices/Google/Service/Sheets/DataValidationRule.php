@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_DataValidationRule extends \GoogleApi\Google_Model
 {
-  protected $conditionType = 'Google_Service_Sheets_BooleanCondition';
+  protected $conditionType = '\GoogleApiServices\Google_Service_Sheets_BooleanCondition';
   protected $conditionDataType = '';
   public $inputMessage;
   public $showCustomUi;

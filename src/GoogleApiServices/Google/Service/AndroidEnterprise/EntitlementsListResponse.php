@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_EntitlementsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entitlement';
-  protected $entitlementType = 'Google_Service_AndroidEnterprise_Entitlement';
+  protected $entitlementType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Entitlement';
   protected $entitlementDataType = 'array';
   public $kind;
 

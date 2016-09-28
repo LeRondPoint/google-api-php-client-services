@@ -18,17 +18,17 @@
 class Google_Service_Spectrum_PawsGetSpectrumBatchResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'geoSpectrumSchedules';
-  protected $databaseChangeType = 'Google_Service_Spectrum_DbUpdateSpec';
+  protected $databaseChangeType = '\GoogleApiServices\Google_Service_Spectrum_DbUpdateSpec';
   protected $databaseChangeDataType = '';
-  protected $deviceDescType = 'Google_Service_Spectrum_DeviceDescriptor';
+  protected $deviceDescType = '\GoogleApiServices\Google_Service_Spectrum_DeviceDescriptor';
   protected $deviceDescDataType = '';
-  protected $geoSpectrumSchedulesType = 'Google_Service_Spectrum_GeoSpectrumSchedule';
+  protected $geoSpectrumSchedulesType = '\GoogleApiServices\Google_Service_Spectrum_GeoSpectrumSchedule';
   protected $geoSpectrumSchedulesDataType = 'array';
   public $kind;
   public $maxContiguousBwHz;
   public $maxTotalBwHz;
   public $needsSpectrumReport;
-  protected $rulesetInfoType = 'Google_Service_Spectrum_RulesetInfo';
+  protected $rulesetInfoType = '\GoogleApiServices\Google_Service_Spectrum_RulesetInfo';
   protected $rulesetInfoDataType = '';
   public $timestamp;
   public $type;

@@ -19,7 +19,7 @@ class Google_Service_FirebaseRulesAPI_ListReleasesResponse extends \GoogleApi\Go
 {
   protected $collection_key = 'releases';
   public $nextPageToken;
-  protected $releasesType = 'Google_Service_FirebaseRulesAPI_Release';
+  protected $releasesType = '\GoogleApiServices\Google_Service_FirebaseRulesAPI_Release';
   protected $releasesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

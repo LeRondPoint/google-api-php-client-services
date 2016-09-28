@@ -18,14 +18,14 @@
 class Google_Service_ServiceManagement_Api extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'options';
-  protected $methodsType = 'Google_Service_ServiceManagement_Method';
+  protected $methodsType = '\GoogleApiServices\Google_Service_ServiceManagement_Method';
   protected $methodsDataType = 'array';
-  protected $mixinsType = 'Google_Service_ServiceManagement_Mixin';
+  protected $mixinsType = '\GoogleApiServices\Google_Service_ServiceManagement_Mixin';
   protected $mixinsDataType = 'array';
   public $name;
-  protected $optionsType = 'Google_Service_ServiceManagement_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_ServiceManagement_Option';
   protected $optionsDataType = 'array';
-  protected $sourceContextType = 'Google_Service_ServiceManagement_SourceContext';
+  protected $sourceContextType = '\GoogleApiServices\Google_Service_ServiceManagement_SourceContext';
   protected $sourceContextDataType = '';
   public $syntax;
   public $version;

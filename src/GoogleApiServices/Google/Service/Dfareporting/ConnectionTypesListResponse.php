@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_ConnectionTypesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'connectionTypes';
-  protected $connectionTypesType = 'Google_Service_Dfareporting_ConnectionType';
+  protected $connectionTypesType = '\GoogleApiServices\Google_Service_Dfareporting_ConnectionType';
   protected $connectionTypesDataType = 'array';
   public $kind;
 

@@ -18,7 +18,7 @@
 class Google_Service_Gmail_Draft extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $messageType = 'Google_Service_Gmail_Message';
+  protected $messageType = '\GoogleApiServices\Google_Service_Gmail_Message';
   protected $messageDataType = '';
 
   public function setId($id)

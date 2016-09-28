@@ -18,7 +18,7 @@
 class Google_Service_SiteVerification_SiteVerificationWebResourceListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_SiteVerification_SiteVerificationWebResourceResource';
+  protected $itemsType = '\GoogleApiServices\Google_Service_SiteVerification_SiteVerificationWebResourceResource';
   protected $itemsDataType = 'array';
 
   public function setItems($items)

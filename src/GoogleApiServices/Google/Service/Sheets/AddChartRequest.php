@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_AddChartRequest extends \GoogleApi\Google_Model
 {
-  protected $chartType = 'Google_Service_Sheets_EmbeddedChart';
+  protected $chartType = '\GoogleApiServices\Google_Service_Sheets_EmbeddedChart';
   protected $chartDataType = '';
 
   public function setChart(Google_Service_Sheets_EmbeddedChart $chart)

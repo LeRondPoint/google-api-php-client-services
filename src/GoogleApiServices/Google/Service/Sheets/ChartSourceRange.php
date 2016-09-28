@@ -18,7 +18,7 @@
 class Google_Service_Sheets_ChartSourceRange extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sources';
-  protected $sourcesType = 'Google_Service_Sheets_GridRange';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $sourcesDataType = 'array';
 
   public function setSources($sources)

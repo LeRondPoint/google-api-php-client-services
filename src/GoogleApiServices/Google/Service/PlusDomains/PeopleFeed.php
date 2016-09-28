@@ -19,7 +19,7 @@ class Google_Service_PlusDomains_PeopleFeed extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_PlusDomains_Person';
+  protected $itemsType = '\GoogleApiServices\Google_Service_PlusDomains_Person';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

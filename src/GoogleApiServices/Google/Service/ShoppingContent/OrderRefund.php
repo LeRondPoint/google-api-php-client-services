@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_OrderRefund extends \GoogleApi\Google_Model
 {
   public $actor;
-  protected $amountType = 'Google_Service_ShoppingContent_Price';
+  protected $amountType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $amountDataType = '';
   public $creationDate;
   public $reason;

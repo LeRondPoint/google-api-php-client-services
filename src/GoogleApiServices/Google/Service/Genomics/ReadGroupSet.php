@@ -23,7 +23,7 @@ class Google_Service_Genomics_ReadGroupSet extends \GoogleApi\Google_Collection
   public $id;
   public $info;
   public $name;
-  protected $readGroupsType = 'Google_Service_Genomics_ReadGroup';
+  protected $readGroupsType = '\GoogleApiServices\Google_Service_Genomics_ReadGroup';
   protected $readGroupsDataType = 'array';
   public $referenceSetId;
 

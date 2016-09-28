@@ -18,7 +18,7 @@
 class Google_Service_Genomics_StreamVariantsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'variants';
-  protected $variantsType = 'Google_Service_Genomics_Variant';
+  protected $variantsType = '\GoogleApiServices\Google_Service_Genomics_Variant';
   protected $variantsDataType = 'array';
 
   public function setVariants($variants)

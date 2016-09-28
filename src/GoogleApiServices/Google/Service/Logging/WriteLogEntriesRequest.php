@@ -18,12 +18,12 @@
 class Google_Service_Logging_WriteLogEntriesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entries';
-  protected $entriesType = 'Google_Service_Logging_LogEntry';
+  protected $entriesType = '\GoogleApiServices\Google_Service_Logging_LogEntry';
   protected $entriesDataType = 'array';
   public $labels;
   public $logName;
   public $partialSuccess;
-  protected $resourceType = 'Google_Service_Logging_MonitoredResource';
+  protected $resourceType = '\GoogleApiServices\Google_Service_Logging_MonitoredResource';
   protected $resourceDataType = '';
 
   public function setEntries($entries)

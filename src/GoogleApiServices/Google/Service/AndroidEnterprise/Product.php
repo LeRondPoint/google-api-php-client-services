@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_Product extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'appVersion';
-  protected $appVersionType = 'Google_Service_AndroidEnterprise_AppVersion';
+  protected $appVersionType = '\GoogleApiServices\Google_Service_AndroidEnterprise_AppVersion';
   protected $appVersionDataType = 'array';
   public $authorName;
   public $detailsUrl;

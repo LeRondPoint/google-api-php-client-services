@@ -21,9 +21,9 @@ class Google_Service_Pagespeedonline_ResultFormattedResultsRuleResultsElement ex
   public $groups;
   public $localizedRuleName;
   public $ruleImpact;
-  protected $summaryType = 'Google_Service_Pagespeedonline_PagespeedApiFormatStringV2';
+  protected $summaryType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiFormatStringV2';
   protected $summaryDataType = '';
-  protected $urlBlocksType = 'Google_Service_Pagespeedonline_ResultFormattedResultsRuleResultsElementUrlBlocks';
+  protected $urlBlocksType = '\GoogleApiServices\Google_Service_Pagespeedonline_ResultFormattedResultsRuleResultsElementUrlBlocks';
   protected $urlBlocksDataType = 'array';
 
   public function setGroups($groups)

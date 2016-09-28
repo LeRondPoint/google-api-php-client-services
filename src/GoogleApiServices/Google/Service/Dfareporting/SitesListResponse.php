@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_SitesListResponse extends \GoogleApi\Google_Co
   protected $collection_key = 'sites';
   public $kind;
   public $nextPageToken;
-  protected $sitesType = 'Google_Service_Dfareporting_Site';
+  protected $sitesType = '\GoogleApiServices\Google_Service_Dfareporting_Site';
   protected $sitesDataType = 'array';
 
   public function setKind($kind)

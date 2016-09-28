@@ -18,9 +18,9 @@
 class Google_Service_AnalyticsReporting_MetricHeader extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'pivotHeaders';
-  protected $metricHeaderEntriesType = 'Google_Service_AnalyticsReporting_MetricHeaderEntry';
+  protected $metricHeaderEntriesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_MetricHeaderEntry';
   protected $metricHeaderEntriesDataType = 'array';
-  protected $pivotHeadersType = 'Google_Service_AnalyticsReporting_PivotHeader';
+  protected $pivotHeadersType = '\GoogleApiServices\Google_Service_AnalyticsReporting_PivotHeader';
   protected $pivotHeadersDataType = 'array';
 
   public function setMetricHeaderEntries($metricHeaderEntries)

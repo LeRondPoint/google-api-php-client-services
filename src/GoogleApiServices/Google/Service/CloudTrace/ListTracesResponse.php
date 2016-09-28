@@ -19,7 +19,7 @@ class Google_Service_CloudTrace_ListTracesResponse extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'traces';
   public $nextPageToken;
-  protected $tracesType = 'Google_Service_CloudTrace_Trace';
+  protected $tracesType = '\GoogleApiServices\Google_Service_CloudTrace_Trace';
   protected $tracesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

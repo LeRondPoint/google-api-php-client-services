@@ -19,7 +19,7 @@ class Google_Service_CloudTrace_Trace extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'spans';
   public $projectId;
-  protected $spansType = 'Google_Service_CloudTrace_TraceSpan';
+  protected $spansType = '\GoogleApiServices\Google_Service_CloudTrace_TraceSpan';
   protected $spansDataType = 'array';
   public $traceId;
 

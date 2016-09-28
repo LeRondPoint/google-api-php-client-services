@@ -18,7 +18,7 @@
 class Google_Service_Manager_NetworkInterface extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accessConfigs';
-  protected $accessConfigsType = 'Google_Service_Manager_AccessConfig';
+  protected $accessConfigsType = '\GoogleApiServices\Google_Service_Manager_AccessConfig';
   protected $accessConfigsDataType = 'array';
   public $name;
   public $network;

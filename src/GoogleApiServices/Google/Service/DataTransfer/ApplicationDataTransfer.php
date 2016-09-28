@@ -19,7 +19,7 @@ class Google_Service_DataTransfer_ApplicationDataTransfer extends \GoogleApi\Goo
 {
   protected $collection_key = 'applicationTransferParams';
   public $applicationId;
-  protected $applicationTransferParamsType = 'Google_Service_DataTransfer_ApplicationTransferParam';
+  protected $applicationTransferParamsType = '\GoogleApiServices\Google_Service_DataTransfer_ApplicationTransferParam';
   protected $applicationTransferParamsDataType = 'array';
   public $applicationTransferStatus;
 

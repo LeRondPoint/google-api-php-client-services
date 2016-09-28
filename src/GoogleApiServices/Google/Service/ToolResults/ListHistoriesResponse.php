@@ -18,7 +18,7 @@
 class Google_Service_ToolResults_ListHistoriesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'histories';
-  protected $historiesType = 'Google_Service_ToolResults_History';
+  protected $historiesType = '\GoogleApiServices\Google_Service_ToolResults_History';
   protected $historiesDataType = 'array';
   public $nextPageToken;
 

@@ -18,7 +18,7 @@
 class Google_Service_Games_QuestListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Games_Quest';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Games_Quest';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

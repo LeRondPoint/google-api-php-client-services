@@ -18,16 +18,16 @@
 class Google_Service_ServiceManagement_HttpRule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'additionalBindings';
-  protected $additionalBindingsType = 'Google_Service_ServiceManagement_HttpRule';
+  protected $additionalBindingsType = '\GoogleApiServices\Google_Service_ServiceManagement_HttpRule';
   protected $additionalBindingsDataType = 'array';
   public $body;
-  protected $customType = 'Google_Service_ServiceManagement_CustomHttpPattern';
+  protected $customType = '\GoogleApiServices\Google_Service_ServiceManagement_CustomHttpPattern';
   protected $customDataType = '';
   public $delete;
   public $get;
-  protected $mediaDownloadType = 'Google_Service_ServiceManagement_MediaDownload';
+  protected $mediaDownloadType = '\GoogleApiServices\Google_Service_ServiceManagement_MediaDownload';
   protected $mediaDownloadDataType = '';
-  protected $mediaUploadType = 'Google_Service_ServiceManagement_MediaUpload';
+  protected $mediaUploadType = '\GoogleApiServices\Google_Service_ServiceManagement_MediaUpload';
   protected $mediaUploadDataType = '';
   public $patch;
   public $post;

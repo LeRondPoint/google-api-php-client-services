@@ -25,7 +25,7 @@ class Google_Service_Webmasters_UrlCrawlErrorsSample extends \GoogleApi\Google_M
   public $lastCrawled;
   public $pageUrl;
   public $responseCode;
-  protected $urlDetailsType = 'Google_Service_Webmasters_UrlSampleDetails';
+  protected $urlDetailsType = '\GoogleApiServices\Google_Service_Webmasters_UrlSampleDetails';
   protected $urlDetailsDataType = '';
 
   public function setFirstDetected($firstDetected)

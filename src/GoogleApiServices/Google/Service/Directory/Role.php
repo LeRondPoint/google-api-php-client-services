@@ -25,7 +25,7 @@ class Google_Service_Directory_Role extends \GoogleApi\Google_Collection
   public $roleDescription;
   public $roleId;
   public $roleName;
-  protected $rolePrivilegesType = 'Google_Service_Directory_RoleRolePrivileges';
+  protected $rolePrivilegesType = '\GoogleApiServices\Google_Service_Directory_RoleRolePrivileges';
   protected $rolePrivilegesDataType = 'array';
 
   public function setEtag($etag)

@@ -18,7 +18,7 @@
 class Google_Service_Mirror_Contact extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sharingFeatures';
-  protected $acceptCommandsType = 'Google_Service_Mirror_Command';
+  protected $acceptCommandsType = '\GoogleApiServices\Google_Service_Mirror_Command';
   protected $acceptCommandsDataType = 'array';
   public $acceptTypes;
   public $displayName;

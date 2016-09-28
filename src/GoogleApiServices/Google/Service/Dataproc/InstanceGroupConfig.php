@@ -18,13 +18,13 @@
 class Google_Service_Dataproc_InstanceGroupConfig extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instanceNames';
-  protected $diskConfigType = 'Google_Service_Dataproc_DiskConfig';
+  protected $diskConfigType = '\GoogleApiServices\Google_Service_Dataproc_DiskConfig';
   protected $diskConfigDataType = '';
   public $imageUri;
   public $instanceNames;
   public $isPreemptible;
   public $machineTypeUri;
-  protected $managedGroupConfigType = 'Google_Service_Dataproc_ManagedGroupConfig';
+  protected $managedGroupConfigType = '\GoogleApiServices\Google_Service_Dataproc_ManagedGroupConfig';
   protected $managedGroupConfigDataType = '';
   public $numInstances;
 

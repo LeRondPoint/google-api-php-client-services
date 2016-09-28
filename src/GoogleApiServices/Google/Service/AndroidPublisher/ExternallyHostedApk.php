@@ -30,7 +30,7 @@ class Google_Service_AndroidPublisher_ExternallyHostedApk extends \GoogleApi\Goo
   public $nativeCodes;
   public $packageName;
   public $usesFeatures;
-  protected $usesPermissionsType = 'Google_Service_AndroidPublisher_ExternallyHostedApkUsesPermission';
+  protected $usesPermissionsType = '\GoogleApiServices\Google_Service_AndroidPublisher_ExternallyHostedApkUsesPermission';
   protected $usesPermissionsDataType = 'array';
   public $versionCode;
   public $versionName;

@@ -18,14 +18,14 @@
 class Google_Service_DoubleClickBidManager_Query extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $metadataType = 'Google_Service_DoubleClickBidManager_QueryMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_QueryMetadata';
   protected $metadataDataType = '';
-  protected $paramsType = 'Google_Service_DoubleClickBidManager_Parameters';
+  protected $paramsType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_Parameters';
   protected $paramsDataType = '';
   public $queryId;
   public $reportDataEndTimeMs;
   public $reportDataStartTimeMs;
-  protected $scheduleType = 'Google_Service_DoubleClickBidManager_QuerySchedule';
+  protected $scheduleType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_QuerySchedule';
   protected $scheduleDataType = '';
   public $timezoneCode;
 

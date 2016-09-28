@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_TargetingTemplatesListResponse extends \Google
   protected $collection_key = 'targetingTemplates';
   public $kind;
   public $nextPageToken;
-  protected $targetingTemplatesType = 'Google_Service_Dfareporting_TargetingTemplate';
+  protected $targetingTemplatesType = '\GoogleApiServices\Google_Service_Dfareporting_TargetingTemplate';
   protected $targetingTemplatesDataType = 'array';
 
   public function setKind($kind)

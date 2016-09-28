@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeSeller_Metadata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_AdExchangeSeller_ReportingMetadataEntry';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeSeller_ReportingMetadataEntry';
   protected $itemsDataType = 'array';
   public $kind;
 

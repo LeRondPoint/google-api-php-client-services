@@ -19,11 +19,11 @@ class Google_Service_Monitoring_Distribution extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'bucketCounts';
   public $bucketCounts;
-  protected $bucketOptionsType = 'Google_Service_Monitoring_BucketOptions';
+  protected $bucketOptionsType = '\GoogleApiServices\Google_Service_Monitoring_BucketOptions';
   protected $bucketOptionsDataType = '';
   public $count;
   public $mean;
-  protected $rangeType = 'Google_Service_Monitoring_Range';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Monitoring_Range';
   protected $rangeDataType = '';
   public $sumOfSquaredDeviation;
 

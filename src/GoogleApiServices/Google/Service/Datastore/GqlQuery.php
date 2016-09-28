@@ -19,9 +19,9 @@ class Google_Service_Datastore_GqlQuery extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'positionalBindings';
   public $allowLiterals;
-  protected $namedBindingsType = 'Google_Service_Datastore_GqlQueryParameter';
+  protected $namedBindingsType = '\GoogleApiServices\Google_Service_Datastore_GqlQueryParameter';
   protected $namedBindingsDataType = 'map';
-  protected $positionalBindingsType = 'Google_Service_Datastore_GqlQueryParameter';
+  protected $positionalBindingsType = '\GoogleApiServices\Google_Service_Datastore_GqlQueryParameter';
   protected $positionalBindingsDataType = 'array';
   public $queryString;
 

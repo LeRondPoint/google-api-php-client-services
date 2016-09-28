@@ -18,10 +18,10 @@
 class Google_Service_Fusiontables_StyleFunction extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'buckets';
-  protected $bucketsType = 'Google_Service_Fusiontables_Bucket';
+  protected $bucketsType = '\GoogleApiServices\Google_Service_Fusiontables_Bucket';
   protected $bucketsDataType = 'array';
   public $columnName;
-  protected $gradientType = 'Google_Service_Fusiontables_StyleFunctionGradient';
+  protected $gradientType = '\GoogleApiServices\Google_Service_Fusiontables_StyleFunctionGradient';
   protected $gradientDataType = '';
   public $kind;
 

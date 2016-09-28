@@ -20,7 +20,7 @@ class Google_Service_Games_MetagameConfig extends \GoogleApi\Google_Collection
   protected $collection_key = 'playerLevels';
   public $currentVersion;
   public $kind;
-  protected $playerLevelsType = 'Google_Service_Games_PlayerLevel';
+  protected $playerLevelsType = '\GoogleApiServices\Google_Service_Games_PlayerLevel';
   protected $playerLevelsDataType = 'array';
 
   public function setCurrentVersion($currentVersion)

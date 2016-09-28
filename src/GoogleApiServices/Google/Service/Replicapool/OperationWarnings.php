@@ -19,7 +19,7 @@ class Google_Service_Replicapool_OperationWarnings extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Replicapool_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Replicapool_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

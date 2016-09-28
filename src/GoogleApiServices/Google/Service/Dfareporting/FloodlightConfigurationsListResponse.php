@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_FloodlightConfigurationsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'floodlightConfigurations';
-  protected $floodlightConfigurationsType = 'Google_Service_Dfareporting_FloodlightConfiguration';
+  protected $floodlightConfigurationsType = '\GoogleApiServices\Google_Service_Dfareporting_FloodlightConfiguration';
   protected $floodlightConfigurationsDataType = 'array';
   public $kind;
 

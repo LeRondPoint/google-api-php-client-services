@@ -34,7 +34,7 @@ class Google_Service_Dfareporting_Account extends \GoogleApi\Google_Collection
   public $maximumImageSize;
   public $name;
   public $nielsenOcrEnabled;
-  protected $reportsConfigurationType = 'Google_Service_Dfareporting_ReportsConfiguration';
+  protected $reportsConfigurationType = '\GoogleApiServices\Google_Service_Dfareporting_ReportsConfiguration';
   protected $reportsConfigurationDataType = '';
   public $shareReportsWithTwitter;
   public $teaserSizeLimit;

@@ -18,7 +18,7 @@
 class Google_Service_Dataproc_Operation extends \GoogleApi\Google_Model
 {
   public $done;
-  protected $errorType = 'Google_Service_Dataproc_Status';
+  protected $errorType = '\GoogleApiServices\Google_Service_Dataproc_Status';
   protected $errorDataType = '';
   public $metadata;
   public $name;

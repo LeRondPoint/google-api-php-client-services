@@ -19,9 +19,9 @@ class Google_Service_Dfareporting_AccountUserProfile extends \GoogleApi\Google_M
 {
   public $accountId;
   public $active;
-  protected $advertiserFilterType = 'Google_Service_Dfareporting_ObjectFilter';
+  protected $advertiserFilterType = '\GoogleApiServices\Google_Service_Dfareporting_ObjectFilter';
   protected $advertiserFilterDataType = '';
-  protected $campaignFilterType = 'Google_Service_Dfareporting_ObjectFilter';
+  protected $campaignFilterType = '\GoogleApiServices\Google_Service_Dfareporting_ObjectFilter';
   protected $campaignFilterDataType = '';
   public $comments;
   public $email;
@@ -29,12 +29,12 @@ class Google_Service_Dfareporting_AccountUserProfile extends \GoogleApi\Google_M
   public $kind;
   public $locale;
   public $name;
-  protected $siteFilterType = 'Google_Service_Dfareporting_ObjectFilter';
+  protected $siteFilterType = '\GoogleApiServices\Google_Service_Dfareporting_ObjectFilter';
   protected $siteFilterDataType = '';
   public $subaccountId;
   public $traffickerType;
   public $userAccessType;
-  protected $userRoleFilterType = 'Google_Service_Dfareporting_ObjectFilter';
+  protected $userRoleFilterType = '\GoogleApiServices\Google_Service_Dfareporting_ObjectFilter';
   protected $userRoleFilterDataType = '';
   public $userRoleId;
 

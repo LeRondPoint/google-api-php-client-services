@@ -18,11 +18,11 @@
 class Google_Service_AndroidPublisher_ReviewsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'reviews';
-  protected $pageInfoType = 'Google_Service_AndroidPublisher_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_AndroidPublisher_PageInfo';
   protected $pageInfoDataType = '';
-  protected $reviewsType = 'Google_Service_AndroidPublisher_Review';
+  protected $reviewsType = '\GoogleApiServices\Google_Service_AndroidPublisher_Review';
   protected $reviewsDataType = 'array';
-  protected $tokenPaginationType = 'Google_Service_AndroidPublisher_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_AndroidPublisher_TokenPagination';
   protected $tokenPaginationDataType = '';
 
   public function setPageInfo(Google_Service_AndroidPublisher_PageInfo $pageInfo)

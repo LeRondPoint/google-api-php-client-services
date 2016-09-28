@@ -18,7 +18,7 @@
 class Google_Service_Sheets_AddConditionalFormatRuleRequest extends \GoogleApi\Google_Model
 {
   public $index;
-  protected $ruleType = 'Google_Service_Sheets_ConditionalFormatRule';
+  protected $ruleType = '\GoogleApiServices\Google_Service_Sheets_ConditionalFormatRule';
   protected $ruleDataType = '';
 
   public function setIndex($index)

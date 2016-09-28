@@ -20,9 +20,9 @@ class Google_Service_Blogger_BlogUserInfo extends \GoogleApi\Google_Model
   protected $internal_gapi_mappings = array(
         "blogUserInfo" => "blog_user_info",
   );
-  protected $blogType = 'Google_Service_Blogger_Blog';
+  protected $blogType = '\GoogleApiServices\Google_Service_Blogger_Blog';
   protected $blogDataType = '';
-  protected $blogUserInfoType = 'Google_Service_Blogger_BlogPerUserInfo';
+  protected $blogUserInfoType = '\GoogleApiServices\Google_Service_Blogger_BlogPerUserInfo';
   protected $blogUserInfoDataType = '';
   public $kind;
 

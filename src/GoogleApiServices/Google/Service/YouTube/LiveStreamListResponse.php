@@ -20,14 +20,14 @@ class Google_Service_YouTube_LiveStreamListResponse extends \GoogleApi\Google_Co
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_LiveStream';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_LiveStream';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;
-  protected $pageInfoType = 'Google_Service_YouTube_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_YouTube_PageInfo';
   protected $pageInfoDataType = '';
   public $prevPageToken;
-  protected $tokenPaginationType = 'Google_Service_YouTube_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_YouTube_TokenPagination';
   protected $tokenPaginationDataType = '';
   public $visitorId;
 

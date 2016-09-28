@@ -19,7 +19,7 @@ class Google_Service_Spectrum_SpectrumMessage extends \GoogleApi\Google_Collecti
 {
   protected $collection_key = 'frequencyRanges';
   public $bandwidth;
-  protected $frequencyRangesType = 'Google_Service_Spectrum_FrequencyRange';
+  protected $frequencyRangesType = '\GoogleApiServices\Google_Service_Spectrum_FrequencyRange';
   protected $frequencyRangesDataType = 'array';
 
   public function setBandwidth($bandwidth)

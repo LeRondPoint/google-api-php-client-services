@@ -20,7 +20,7 @@ class Google_Service_YouTube_VideoAbuseReportReason extends \GoogleApi\Google_Mo
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_VideoAbuseReportReasonSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_VideoAbuseReportReasonSnippet';
   protected $snippetDataType = '';
 
   public function setEtag($etag)

@@ -18,13 +18,13 @@
 class Google_Service_Blogger_User extends \GoogleApi\Google_Model
 {
   public $about;
-  protected $blogsType = 'Google_Service_Blogger_UserBlogs';
+  protected $blogsType = '\GoogleApiServices\Google_Service_Blogger_UserBlogs';
   protected $blogsDataType = '';
   public $created;
   public $displayName;
   public $id;
   public $kind;
-  protected $localeType = 'Google_Service_Blogger_UserLocale';
+  protected $localeType = '\GoogleApiServices\Google_Service_Blogger_UserLocale';
   protected $localeDataType = '';
   public $selfLink;
   public $url;

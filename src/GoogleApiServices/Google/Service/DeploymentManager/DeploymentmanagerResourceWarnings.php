@@ -19,7 +19,7 @@ class Google_Service_DeploymentManager_DeploymentmanagerResourceWarnings extends
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_DeploymentManager_DeploymentmanagerResourceWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_DeploymentManager_DeploymentmanagerResourceWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

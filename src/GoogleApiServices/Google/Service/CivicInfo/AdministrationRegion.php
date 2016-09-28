@@ -21,13 +21,13 @@ class Google_Service_CivicInfo_AdministrationRegion extends \GoogleApi\Google_Co
   protected $internal_gapi_mappings = array(
         "localJurisdiction" => "local_jurisdiction",
   );
-  protected $electionAdministrationBodyType = 'Google_Service_CivicInfo_AdministrativeBody';
+  protected $electionAdministrationBodyType = '\GoogleApiServices\Google_Service_CivicInfo_AdministrativeBody';
   protected $electionAdministrationBodyDataType = '';
   public $id;
-  protected $localJurisdictionType = 'Google_Service_CivicInfo_AdministrationRegion';
+  protected $localJurisdictionType = '\GoogleApiServices\Google_Service_CivicInfo_AdministrationRegion';
   protected $localJurisdictionDataType = '';
   public $name;
-  protected $sourcesType = 'Google_Service_CivicInfo_Source';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_CivicInfo_Source';
   protected $sourcesDataType = 'array';
 
   public function setElectionAdministrationBody(Google_Service_CivicInfo_AdministrativeBody $electionAdministrationBody)

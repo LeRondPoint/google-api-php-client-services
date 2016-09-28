@@ -25,7 +25,7 @@ class Google_Service_Monitoring_Field extends \GoogleApi\Google_Collection
   public $name;
   public $number;
   public $oneofIndex;
-  protected $optionsType = 'Google_Service_Monitoring_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_Monitoring_Option';
   protected $optionsDataType = 'array';
   public $packed;
   public $typeUrl;

@@ -18,7 +18,7 @@
 class Google_Service_Partners_CertificationStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'examStatuses';
-  protected $examStatusesType = 'Google_Service_Partners_CertificationExamStatus';
+  protected $examStatusesType = '\GoogleApiServices\Google_Service_Partners_CertificationExamStatus';
   protected $examStatusesDataType = 'array';
   public $isCertified;
   public $type;

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_CreativesList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_AdExchangeBuyer_Creative';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Creative';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

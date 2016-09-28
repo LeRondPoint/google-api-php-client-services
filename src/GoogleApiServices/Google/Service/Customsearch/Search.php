@@ -18,20 +18,20 @@
 class Google_Service_Customsearch_Search extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'promotions';
-  protected $contextType = 'Google_Service_Customsearch_Context';
+  protected $contextType = '\GoogleApiServices\Google_Service_Customsearch_Context';
   protected $contextDataType = '';
-  protected $itemsType = 'Google_Service_Customsearch_Result';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Customsearch_Result';
   protected $itemsDataType = 'array';
   public $kind;
-  protected $promotionsType = 'Google_Service_Customsearch_Promotion';
+  protected $promotionsType = '\GoogleApiServices\Google_Service_Customsearch_Promotion';
   protected $promotionsDataType = 'array';
-  protected $queriesType = 'Google_Service_Customsearch_Query';
+  protected $queriesType = '\GoogleApiServices\Google_Service_Customsearch_Query';
   protected $queriesDataType = 'map';
-  protected $searchInformationType = 'Google_Service_Customsearch_SearchSearchInformation';
+  protected $searchInformationType = '\GoogleApiServices\Google_Service_Customsearch_SearchSearchInformation';
   protected $searchInformationDataType = '';
-  protected $spellingType = 'Google_Service_Customsearch_SearchSpelling';
+  protected $spellingType = '\GoogleApiServices\Google_Service_Customsearch_SearchSpelling';
   protected $spellingDataType = '';
-  protected $urlType = 'Google_Service_Customsearch_SearchUrl';
+  protected $urlType = '\GoogleApiServices\Google_Service_Customsearch_SearchUrl';
   protected $urlDataType = '';
 
   public function setContext(Google_Service_Customsearch_Context $context)

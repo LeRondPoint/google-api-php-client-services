@@ -19,16 +19,16 @@ class Google_Service_Bigquery_ExternalDataConfiguration extends \GoogleApi\Googl
 {
   protected $collection_key = 'sourceUris';
   public $autodetect;
-  protected $bigtableOptionsType = 'Google_Service_Bigquery_BigtableOptions';
+  protected $bigtableOptionsType = '\GoogleApiServices\Google_Service_Bigquery_BigtableOptions';
   protected $bigtableOptionsDataType = '';
   public $compression;
-  protected $csvOptionsType = 'Google_Service_Bigquery_CsvOptions';
+  protected $csvOptionsType = '\GoogleApiServices\Google_Service_Bigquery_CsvOptions';
   protected $csvOptionsDataType = '';
-  protected $googleSheetsOptionsType = 'Google_Service_Bigquery_GoogleSheetsOptions';
+  protected $googleSheetsOptionsType = '\GoogleApiServices\Google_Service_Bigquery_GoogleSheetsOptions';
   protected $googleSheetsOptionsDataType = '';
   public $ignoreUnknownValues;
   public $maxBadRecords;
-  protected $schemaType = 'Google_Service_Bigquery_TableSchema';
+  protected $schemaType = '\GoogleApiServices\Google_Service_Bigquery_TableSchema';
   protected $schemaDataType = '';
   public $sourceFormat;
   public $sourceUris;

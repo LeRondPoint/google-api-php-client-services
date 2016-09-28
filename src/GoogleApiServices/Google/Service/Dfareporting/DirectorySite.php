@@ -19,20 +19,20 @@ class Google_Service_Dfareporting_DirectorySite extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'interstitialTagFormats';
   public $active;
-  protected $contactAssignmentsType = 'Google_Service_Dfareporting_DirectorySiteContactAssignment';
+  protected $contactAssignmentsType = '\GoogleApiServices\Google_Service_Dfareporting_DirectorySiteContactAssignment';
   protected $contactAssignmentsDataType = 'array';
   public $countryId;
   public $currencyId;
   public $description;
   public $id;
-  protected $idDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $idDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $idDimensionValueDataType = '';
   public $inpageTagFormats;
   public $interstitialTagFormats;
   public $kind;
   public $name;
   public $parentId;
-  protected $settingsType = 'Google_Service_Dfareporting_DirectorySiteSettings';
+  protected $settingsType = '\GoogleApiServices\Google_Service_Dfareporting_DirectorySiteSettings';
   protected $settingsDataType = '';
   public $url;
 

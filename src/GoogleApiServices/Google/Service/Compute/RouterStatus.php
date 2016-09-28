@@ -18,9 +18,9 @@
 class Google_Service_Compute_RouterStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'bgpPeerStatus';
-  protected $bestRoutesType = 'Google_Service_Compute_Route';
+  protected $bestRoutesType = '\GoogleApiServices\Google_Service_Compute_Route';
   protected $bestRoutesDataType = 'array';
-  protected $bgpPeerStatusType = 'Google_Service_Compute_RouterStatusBgpPeerStatus';
+  protected $bgpPeerStatusType = '\GoogleApiServices\Google_Service_Compute_RouterStatusBgpPeerStatus';
   protected $bgpPeerStatusDataType = 'array';
   public $network;
 

@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_OrderLineItemShippingDetails extends \GoogleApi\Google_Model
 {
   public $deliverByDate;
-  protected $methodType = 'Google_Service_ShoppingContent_OrderLineItemShippingDetailsMethod';
+  protected $methodType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemShippingDetailsMethod';
   protected $methodDataType = '';
   public $shipByDate;
 

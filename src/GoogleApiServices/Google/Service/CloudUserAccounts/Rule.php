@@ -19,11 +19,11 @@ class Google_Service_CloudUserAccounts_Rule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'permissions';
   public $action;
-  protected $conditionsType = 'Google_Service_CloudUserAccounts_Condition';
+  protected $conditionsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_Condition';
   protected $conditionsDataType = 'array';
   public $description;
   public $ins;
-  protected $logConfigsType = 'Google_Service_CloudUserAccounts_LogConfig';
+  protected $logConfigsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_LogConfig';
   protected $logConfigsDataType = 'array';
   public $notIns;
   public $permissions;

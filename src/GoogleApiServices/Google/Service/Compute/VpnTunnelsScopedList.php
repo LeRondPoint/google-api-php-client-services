@@ -18,9 +18,9 @@
 class Google_Service_Compute_VpnTunnelsScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'vpnTunnels';
-  protected $vpnTunnelsType = 'Google_Service_Compute_VpnTunnel';
+  protected $vpnTunnelsType = '\GoogleApiServices\Google_Service_Compute_VpnTunnel';
   protected $vpnTunnelsDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_VpnTunnelsScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_VpnTunnelsScopedListWarning';
   protected $warningDataType = '';
 
   public function setVpnTunnels($vpnTunnels)

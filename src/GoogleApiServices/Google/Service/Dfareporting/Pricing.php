@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_Pricing extends \GoogleApi\Google_Collection
   protected $collection_key = 'flights';
   public $capCostType;
   public $endDate;
-  protected $flightsType = 'Google_Service_Dfareporting_Flight';
+  protected $flightsType = '\GoogleApiServices\Google_Service_Dfareporting_Flight';
   protected $flightsDataType = 'array';
   public $groupType;
   public $pricingType;

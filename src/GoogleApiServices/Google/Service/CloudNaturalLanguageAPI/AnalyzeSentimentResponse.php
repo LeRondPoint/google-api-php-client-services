@@ -17,7 +17,7 @@
 
 class Google_Service_CloudNaturalLanguageAPI_AnalyzeSentimentResponse extends \GoogleApi\Google_Model
 {
-  protected $documentSentimentType = 'Google_Service_CloudNaturalLanguageAPI_Sentiment';
+  protected $documentSentimentType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Sentiment';
   protected $documentSentimentDataType = '';
   public $language;
 

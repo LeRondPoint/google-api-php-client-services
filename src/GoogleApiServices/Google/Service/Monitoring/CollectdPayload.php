@@ -19,14 +19,14 @@ class Google_Service_Monitoring_CollectdPayload extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'values';
   public $endTime;
-  protected $metadataType = 'Google_Service_Monitoring_TypedValue';
+  protected $metadataType = '\GoogleApiServices\Google_Service_Monitoring_TypedValue';
   protected $metadataDataType = 'map';
   public $plugin;
   public $pluginInstance;
   public $startTime;
   public $type;
   public $typeInstance;
-  protected $valuesType = 'Google_Service_Monitoring_CollectdValue';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Monitoring_CollectdValue';
   protected $valuesDataType = 'array';
 
   public function setEndTime($endTime)

@@ -17,14 +17,14 @@
 
 class Google_Service_Spectrum_Vcard extends \GoogleApi\Google_Model
 {
-  protected $adrType = 'Google_Service_Spectrum_VcardAddress';
+  protected $adrType = '\GoogleApiServices\Google_Service_Spectrum_VcardAddress';
   protected $adrDataType = '';
-  protected $emailType = 'Google_Service_Spectrum_VcardTypedText';
+  protected $emailType = '\GoogleApiServices\Google_Service_Spectrum_VcardTypedText';
   protected $emailDataType = '';
   public $fn;
-  protected $orgType = 'Google_Service_Spectrum_VcardTypedText';
+  protected $orgType = '\GoogleApiServices\Google_Service_Spectrum_VcardTypedText';
   protected $orgDataType = '';
-  protected $telType = 'Google_Service_Spectrum_VcardTelephone';
+  protected $telType = '\GoogleApiServices\Google_Service_Spectrum_VcardTelephone';
   protected $telDataType = '';
 
   public function setAdr(Google_Service_Spectrum_VcardAddress $adr)

@@ -19,7 +19,7 @@ class Google_Service_Compute_DiskTypesScopedListWarning extends \GoogleApi\Googl
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_DiskTypesScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_DiskTypesScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

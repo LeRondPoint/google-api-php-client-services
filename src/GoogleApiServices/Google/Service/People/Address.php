@@ -23,7 +23,7 @@ class Google_Service_People_Address extends \GoogleApi\Google_Model
   public $extendedAddress;
   public $formattedType;
   public $formattedValue;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $poBox;
   public $postalCode;

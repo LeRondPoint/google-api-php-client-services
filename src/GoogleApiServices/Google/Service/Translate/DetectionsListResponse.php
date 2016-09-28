@@ -18,7 +18,7 @@
 class Google_Service_Translate_DetectionsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'detections';
-  protected $detectionsType = 'Google_Service_Translate_DetectionsResourceItems';
+  protected $detectionsType = '\GoogleApiServices\Google_Service_Translate_DetectionsResourceItems';
   protected $detectionsDataType = 'array';
 
   public function setDetections($detections)

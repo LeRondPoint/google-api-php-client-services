@@ -19,11 +19,11 @@ class Google_Service_ServiceManagement_Rule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'permissions';
   public $action;
-  protected $conditionsType = 'Google_Service_ServiceManagement_Condition';
+  protected $conditionsType = '\GoogleApiServices\Google_Service_ServiceManagement_Condition';
   protected $conditionsDataType = 'array';
   public $description;
   public $in;
-  protected $logConfigType = 'Google_Service_ServiceManagement_LogConfig';
+  protected $logConfigType = '\GoogleApiServices\Google_Service_ServiceManagement_LogConfig';
   protected $logConfigDataType = 'array';
   public $notIn;
   public $permissions;

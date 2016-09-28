@@ -19,13 +19,13 @@ class Google_Service_Compute_Region extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'zones';
   public $creationTimestamp;
-  protected $deprecatedType = 'Google_Service_Compute_DeprecationStatus';
+  protected $deprecatedType = '\GoogleApiServices\Google_Service_Compute_DeprecationStatus';
   protected $deprecatedDataType = '';
   public $description;
   public $id;
   public $kind;
   public $name;
-  protected $quotasType = 'Google_Service_Compute_Quota';
+  protected $quotasType = '\GoogleApiServices\Google_Service_Compute_Quota';
   protected $quotasDataType = 'array';
   public $selfLink;
   public $status;

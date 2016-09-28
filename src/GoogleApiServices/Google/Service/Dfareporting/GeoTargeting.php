@@ -18,16 +18,16 @@
 class Google_Service_Dfareporting_GeoTargeting extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'regions';
-  protected $citiesType = 'Google_Service_Dfareporting_City';
+  protected $citiesType = '\GoogleApiServices\Google_Service_Dfareporting_City';
   protected $citiesDataType = 'array';
-  protected $countriesType = 'Google_Service_Dfareporting_Country';
+  protected $countriesType = '\GoogleApiServices\Google_Service_Dfareporting_Country';
   protected $countriesDataType = 'array';
   public $excludeCountries;
-  protected $metrosType = 'Google_Service_Dfareporting_Metro';
+  protected $metrosType = '\GoogleApiServices\Google_Service_Dfareporting_Metro';
   protected $metrosDataType = 'array';
-  protected $postalCodesType = 'Google_Service_Dfareporting_PostalCode';
+  protected $postalCodesType = '\GoogleApiServices\Google_Service_Dfareporting_PostalCode';
   protected $postalCodesDataType = 'array';
-  protected $regionsType = 'Google_Service_Dfareporting_Region';
+  protected $regionsType = '\GoogleApiServices\Google_Service_Dfareporting_Region';
   protected $regionsDataType = 'array';
 
   public function setCities($cities)

@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_MapTask extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instructions';
-  protected $instructionsType = 'Google_Service_Dataflow_ParallelInstruction';
+  protected $instructionsType = '\GoogleApiServices\Google_Service_Dataflow_ParallelInstruction';
   protected $instructionsDataType = 'array';
   public $stageName;
   public $systemName;

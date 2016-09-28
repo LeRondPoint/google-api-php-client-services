@@ -18,12 +18,12 @@
 class Google_Service_Doubleclicksearch_Report extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $filesType = 'Google_Service_Doubleclicksearch_ReportFiles';
+  protected $filesType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportFiles';
   protected $filesDataType = 'array';
   public $id;
   public $isReportReady;
   public $kind;
-  protected $requestType = 'Google_Service_Doubleclicksearch_ReportRequest';
+  protected $requestType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportRequest';
   protected $requestDataType = '';
   public $rowCount;
   public $rows;

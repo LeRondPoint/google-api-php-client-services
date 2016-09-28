@@ -18,9 +18,9 @@
 class Google_Service_Dns_Change extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'deletions';
-  protected $additionsType = 'Google_Service_Dns_ResourceRecordSet';
+  protected $additionsType = '\GoogleApiServices\Google_Service_Dns_ResourceRecordSet';
   protected $additionsDataType = 'array';
-  protected $deletionsType = 'Google_Service_Dns_ResourceRecordSet';
+  protected $deletionsType = '\GoogleApiServices\Google_Service_Dns_ResourceRecordSet';
   protected $deletionsDataType = 'array';
   public $id;
   public $kind;

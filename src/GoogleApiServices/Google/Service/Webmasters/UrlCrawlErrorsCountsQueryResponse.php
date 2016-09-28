@@ -18,7 +18,7 @@
 class Google_Service_Webmasters_UrlCrawlErrorsCountsQueryResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'countPerTypes';
-  protected $countPerTypesType = 'Google_Service_Webmasters_UrlCrawlErrorCountsPerType';
+  protected $countPerTypesType = '\GoogleApiServices\Google_Service_Webmasters_UrlCrawlErrorCountsPerType';
   protected $countPerTypesDataType = 'array';
 
   public function setCountPerTypes($countPerTypes)

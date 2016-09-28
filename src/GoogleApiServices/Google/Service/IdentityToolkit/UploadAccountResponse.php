@@ -18,7 +18,7 @@
 class Google_Service_IdentityToolkit_UploadAccountResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'error';
-  protected $errorType = 'Google_Service_IdentityToolkit_UploadAccountResponseError';
+  protected $errorType = '\GoogleApiServices\Google_Service_IdentityToolkit_UploadAccountResponseError';
   protected $errorDataType = 'array';
   public $kind;
 

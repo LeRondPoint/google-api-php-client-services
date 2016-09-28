@@ -18,7 +18,7 @@
 class Google_Service_Monitoring_ListGroupMembersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'members';
-  protected $membersType = 'Google_Service_Monitoring_MonitoredResource';
+  protected $membersType = '\GoogleApiServices\Google_Service_Monitoring_MonitoredResource';
   protected $membersDataType = 'array';
   public $nextPageToken;
   public $totalSize;

@@ -19,7 +19,7 @@ class Google_Service_Compute_DiskType extends \GoogleApi\Google_Model
 {
   public $creationTimestamp;
   public $defaultDiskSizeGb;
-  protected $deprecatedType = 'Google_Service_Compute_DeprecationStatus';
+  protected $deprecatedType = '\GoogleApiServices\Google_Service_Compute_DeprecationStatus';
   protected $deprecatedDataType = '';
   public $description;
   public $id;

@@ -17,7 +17,7 @@
 
 class Google_Service_Manager_ExistingDisk extends \GoogleApi\Google_Model
 {
-  protected $attachmentType = 'Google_Service_Manager_DiskAttachment';
+  protected $attachmentType = '\GoogleApiServices\Google_Service_Manager_DiskAttachment';
   protected $attachmentDataType = '';
   public $source;
 

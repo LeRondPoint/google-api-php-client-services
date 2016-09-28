@@ -17,10 +17,10 @@
 
 class Google_Service_Partners_CreateLeadResponse extends \GoogleApi\Google_Model
 {
-  protected $leadType = 'Google_Service_Partners_Lead';
+  protected $leadType = '\GoogleApiServices\Google_Service_Partners_Lead';
   protected $leadDataType = '';
   public $recaptchaStatus;
-  protected $responseMetadataType = 'Google_Service_Partners_ResponseMetadata';
+  protected $responseMetadataType = '\GoogleApiServices\Google_Service_Partners_ResponseMetadata';
   protected $responseMetadataDataType = '';
 
   public function setLead(Google_Service_Partners_Lead $lead)

@@ -17,11 +17,11 @@
 
 class Google_Service_CloudBuild_SourceProvenance extends \GoogleApi\Google_Model
 {
-  protected $fileHashesType = 'Google_Service_CloudBuild_FileHashes';
+  protected $fileHashesType = '\GoogleApiServices\Google_Service_CloudBuild_FileHashes';
   protected $fileHashesDataType = 'map';
-  protected $resolvedRepoSourceType = 'Google_Service_CloudBuild_RepoSource';
+  protected $resolvedRepoSourceType = '\GoogleApiServices\Google_Service_CloudBuild_RepoSource';
   protected $resolvedRepoSourceDataType = '';
-  protected $resolvedStorageSourceType = 'Google_Service_CloudBuild_StorageSource';
+  protected $resolvedStorageSourceType = '\GoogleApiServices\Google_Service_CloudBuild_StorageSource';
   protected $resolvedStorageSourceDataType = '';
 
   public function setFileHashes($fileHashes)

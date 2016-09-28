@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_OperatingSystemsListResponse extends \GoogleAp
 {
   protected $collection_key = 'operatingSystems';
   public $kind;
-  protected $operatingSystemsType = 'Google_Service_Dfareporting_OperatingSystem';
+  protected $operatingSystemsType = '\GoogleApiServices\Google_Service_Dfareporting_OperatingSystem';
   protected $operatingSystemsDataType = 'array';
 
   public function setKind($kind)

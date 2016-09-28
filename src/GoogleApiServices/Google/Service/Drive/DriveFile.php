@@ -19,9 +19,9 @@ class Google_Service_Drive_DriveFile extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'spaces';
   public $appProperties;
-  protected $capabilitiesType = 'Google_Service_Drive_DriveFileCapabilities';
+  protected $capabilitiesType = '\GoogleApiServices\Google_Service_Drive_DriveFileCapabilities';
   protected $capabilitiesDataType = '';
-  protected $contentHintsType = 'Google_Service_Drive_DriveFileContentHints';
+  protected $contentHintsType = '\GoogleApiServices\Google_Service_Drive_DriveFileContentHints';
   protected $contentHintsDataType = '';
   public $createdTime;
   public $description;
@@ -32,11 +32,11 @@ class Google_Service_Drive_DriveFile extends \GoogleApi\Google_Collection
   public $headRevisionId;
   public $iconLink;
   public $id;
-  protected $imageMediaMetadataType = 'Google_Service_Drive_DriveFileImageMediaMetadata';
+  protected $imageMediaMetadataType = '\GoogleApiServices\Google_Service_Drive_DriveFileImageMediaMetadata';
   protected $imageMediaMetadataDataType = '';
   public $isAppAuthorized;
   public $kind;
-  protected $lastModifyingUserType = 'Google_Service_Drive_User';
+  protected $lastModifyingUserType = '\GoogleApiServices\Google_Service_Drive_User';
   protected $lastModifyingUserDataType = '';
   public $md5Checksum;
   public $mimeType;
@@ -45,16 +45,16 @@ class Google_Service_Drive_DriveFile extends \GoogleApi\Google_Collection
   public $name;
   public $originalFilename;
   public $ownedByMe;
-  protected $ownersType = 'Google_Service_Drive_User';
+  protected $ownersType = '\GoogleApiServices\Google_Service_Drive_User';
   protected $ownersDataType = 'array';
   public $parents;
-  protected $permissionsType = 'Google_Service_Drive_Permission';
+  protected $permissionsType = '\GoogleApiServices\Google_Service_Drive_Permission';
   protected $permissionsDataType = 'array';
   public $properties;
   public $quotaBytesUsed;
   public $shared;
   public $sharedWithMeTime;
-  protected $sharingUserType = 'Google_Service_Drive_User';
+  protected $sharingUserType = '\GoogleApiServices\Google_Service_Drive_User';
   protected $sharingUserDataType = '';
   public $size;
   public $spaces;
@@ -62,7 +62,7 @@ class Google_Service_Drive_DriveFile extends \GoogleApi\Google_Collection
   public $thumbnailLink;
   public $trashed;
   public $version;
-  protected $videoMediaMetadataType = 'Google_Service_Drive_DriveFileVideoMediaMetadata';
+  protected $videoMediaMetadataType = '\GoogleApiServices\Google_Service_Drive_DriveFileVideoMediaMetadata';
   protected $videoMediaMetadataDataType = '';
   public $viewedByMe;
   public $viewedByMeTime;

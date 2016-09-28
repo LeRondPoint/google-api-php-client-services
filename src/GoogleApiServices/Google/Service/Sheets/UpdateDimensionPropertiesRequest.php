@@ -18,9 +18,9 @@
 class Google_Service_Sheets_UpdateDimensionPropertiesRequest extends \GoogleApi\Google_Model
 {
   public $fields;
-  protected $propertiesType = 'Google_Service_Sheets_DimensionProperties';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Sheets_DimensionProperties';
   protected $propertiesDataType = '';
-  protected $rangeType = 'Google_Service_Sheets_DimensionRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_DimensionRange';
   protected $rangeDataType = '';
 
   public function setFields($fields)

@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListFiltersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filter';
-  protected $filterType = 'Google_Service_Gmail_Filter';
+  protected $filterType = '\GoogleApiServices\Google_Service_Gmail_Filter';
   protected $filterDataType = 'array';
 
   public function setFilter($filter)

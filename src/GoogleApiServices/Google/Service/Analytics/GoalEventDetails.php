@@ -18,7 +18,7 @@
 class Google_Service_Analytics_GoalEventDetails extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'eventConditions';
-  protected $eventConditionsType = 'Google_Service_Analytics_GoalEventDetailsEventConditions';
+  protected $eventConditionsType = '\GoogleApiServices\Google_Service_Analytics_GoalEventDetailsEventConditions';
   protected $eventConditionsDataType = 'array';
   public $useEventValue;
 

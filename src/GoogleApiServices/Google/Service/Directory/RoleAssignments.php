@@ -19,7 +19,7 @@ class Google_Service_Directory_RoleAssignments extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Directory_RoleAssignment';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Directory_RoleAssignment';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,7 +18,7 @@
 class Google_Service_Monitoring_ListGroupsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'group';
-  protected $groupType = 'Google_Service_Monitoring_Group';
+  protected $groupType = '\GoogleApiServices\Google_Service_Monitoring_Group';
   protected $groupDataType = 'array';
   public $nextPageToken;
 

@@ -20,17 +20,17 @@ class Google_Service_PlusDomains_ActivityObjectAttachments extends \GoogleApi\Go
   protected $collection_key = 'thumbnails';
   public $content;
   public $displayName;
-  protected $embedType = 'Google_Service_PlusDomains_ActivityObjectAttachmentsEmbed';
+  protected $embedType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectAttachmentsEmbed';
   protected $embedDataType = '';
-  protected $fullImageType = 'Google_Service_PlusDomains_ActivityObjectAttachmentsFullImage';
+  protected $fullImageType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectAttachmentsFullImage';
   protected $fullImageDataType = '';
   public $id;
-  protected $imageType = 'Google_Service_PlusDomains_ActivityObjectAttachmentsImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectAttachmentsImage';
   protected $imageDataType = '';
   public $objectType;
-  protected $previewThumbnailsType = 'Google_Service_PlusDomains_ActivityObjectAttachmentsPreviewThumbnails';
+  protected $previewThumbnailsType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectAttachmentsPreviewThumbnails';
   protected $previewThumbnailsDataType = 'array';
-  protected $thumbnailsType = 'Google_Service_PlusDomains_ActivityObjectAttachmentsThumbnails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectAttachmentsThumbnails';
   protected $thumbnailsDataType = 'array';
   public $url;
 

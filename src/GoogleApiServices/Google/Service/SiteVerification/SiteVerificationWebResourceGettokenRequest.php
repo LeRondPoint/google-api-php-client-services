@@ -17,7 +17,7 @@
 
 class Google_Service_SiteVerification_SiteVerificationWebResourceGettokenRequest extends \GoogleApi\Google_Model
 {
-  protected $siteType = 'Google_Service_SiteVerification_SiteVerificationWebResourceGettokenRequestSite';
+  protected $siteType = '\GoogleApiServices\Google_Service_SiteVerification_SiteVerificationWebResourceGettokenRequestSite';
   protected $siteDataType = '';
   public $verificationMethod;
 

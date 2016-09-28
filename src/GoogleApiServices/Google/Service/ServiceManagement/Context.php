@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_Context extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $rulesType = 'Google_Service_ServiceManagement_ContextRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_ContextRule';
   protected $rulesDataType = 'array';
 
   public function setRules($rules)

@@ -24,7 +24,7 @@ class Google_Service_Directory_SchemaFieldSpec extends \GoogleApi\Google_Model
   public $indexed;
   public $kind;
   public $multiValued;
-  protected $numericIndexingSpecType = 'Google_Service_Directory_SchemaFieldSpecNumericIndexingSpec';
+  protected $numericIndexingSpecType = '\GoogleApiServices\Google_Service_Directory_SchemaFieldSpecNumericIndexingSpec';
   protected $numericIndexingSpecDataType = '';
   public $readAccessType;
 

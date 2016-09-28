@@ -17,7 +17,7 @@
 
 class Google_Service_Compute_RoutersPreviewResponse extends \GoogleApi\Google_Model
 {
-  protected $resourceType = 'Google_Service_Compute_Router';
+  protected $resourceType = '\GoogleApiServices\Google_Service_Compute_Router';
   protected $resourceDataType = '';
 
   public function setResource(Google_Service_Compute_Router $resource)

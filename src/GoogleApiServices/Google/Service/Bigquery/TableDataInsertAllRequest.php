@@ -20,7 +20,7 @@ class Google_Service_Bigquery_TableDataInsertAllRequest extends \GoogleApi\Googl
   protected $collection_key = 'rows';
   public $ignoreUnknownValues;
   public $kind;
-  protected $rowsType = 'Google_Service_Bigquery_TableDataInsertAllRequestRows';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Bigquery_TableDataInsertAllRequestRows';
   protected $rowsDataType = 'array';
   public $skipInvalidRows;
   public $templateSuffix;

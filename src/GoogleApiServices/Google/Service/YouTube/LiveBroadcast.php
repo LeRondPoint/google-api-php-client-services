@@ -17,18 +17,18 @@
 
 class Google_Service_YouTube_LiveBroadcast extends \GoogleApi\Google_Model
 {
-  protected $contentDetailsType = 'Google_Service_YouTube_LiveBroadcastContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_LiveBroadcastSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastSnippet';
   protected $snippetDataType = '';
-  protected $statisticsType = 'Google_Service_YouTube_LiveBroadcastStatistics';
+  protected $statisticsType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastStatistics';
   protected $statisticsDataType = '';
-  protected $statusType = 'Google_Service_YouTube_LiveBroadcastStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastStatus';
   protected $statusDataType = '';
-  protected $topicDetailsType = 'Google_Service_YouTube_LiveBroadcastTopicDetails';
+  protected $topicDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastTopicDetails';
   protected $topicDetailsDataType = '';
 
   public function setContentDetails(Google_Service_YouTube_LiveBroadcastContentDetails $contentDetails)

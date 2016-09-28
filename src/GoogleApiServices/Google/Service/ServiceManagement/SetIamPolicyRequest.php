@@ -17,7 +17,7 @@
 
 class Google_Service_ServiceManagement_SetIamPolicyRequest extends \GoogleApi\Google_Model
 {
-  protected $policyType = 'Google_Service_ServiceManagement_Policy';
+  protected $policyType = '\GoogleApiServices\Google_Service_ServiceManagement_Policy';
   protected $policyDataType = '';
 
   public function setPolicy(Google_Service_ServiceManagement_Policy $policy)

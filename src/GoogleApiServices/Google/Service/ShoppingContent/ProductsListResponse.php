@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_ProductsListResponse extends \GoogleApi\Goo
   protected $collection_key = 'resources';
   public $kind;
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_ShoppingContent_Product';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ShoppingContent_Product';
   protected $resourcesDataType = 'array';
 
   public function setKind($kind)

@@ -19,7 +19,7 @@ class Google_Service_Genomics_SearchReadGroupSetsResponse extends \GoogleApi\Goo
 {
   protected $collection_key = 'readGroupSets';
   public $nextPageToken;
-  protected $readGroupSetsType = 'Google_Service_Genomics_ReadGroupSet';
+  protected $readGroupSetsType = '\GoogleApiServices\Google_Service_Genomics_ReadGroupSet';
   protected $readGroupSetsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

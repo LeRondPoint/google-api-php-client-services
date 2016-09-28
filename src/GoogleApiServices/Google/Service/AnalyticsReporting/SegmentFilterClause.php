@@ -17,9 +17,9 @@
 
 class Google_Service_AnalyticsReporting_SegmentFilterClause extends \GoogleApi\Google_Model
 {
-  protected $dimensionFilterType = 'Google_Service_AnalyticsReporting_SegmentDimensionFilter';
+  protected $dimensionFilterType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SegmentDimensionFilter';
   protected $dimensionFilterDataType = '';
-  protected $metricFilterType = 'Google_Service_AnalyticsReporting_SegmentMetricFilter';
+  protected $metricFilterType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SegmentMetricFilter';
   protected $metricFilterDataType = '';
   public $not;
 

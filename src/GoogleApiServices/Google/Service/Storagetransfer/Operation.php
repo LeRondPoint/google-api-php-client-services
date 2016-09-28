@@ -18,7 +18,7 @@
 class Google_Service_Storagetransfer_Operation extends \GoogleApi\Google_Model
 {
   public $done;
-  protected $errorType = 'Google_Service_Storagetransfer_Status';
+  protected $errorType = '\GoogleApiServices\Google_Service_Storagetransfer_Status';
   protected $errorDataType = '';
   public $metadata;
   public $name;

@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_IntegerList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'elements';
-  protected $elementsType = 'Google_Service_Dataflow_SplitInt64';
+  protected $elementsType = '\GoogleApiServices\Google_Service_Dataflow_SplitInt64';
   protected $elementsDataType = 'array';
 
   public function setElements($elements)

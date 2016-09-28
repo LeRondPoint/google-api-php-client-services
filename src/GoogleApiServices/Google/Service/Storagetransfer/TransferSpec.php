@@ -17,17 +17,17 @@
 
 class Google_Service_Storagetransfer_TransferSpec extends \GoogleApi\Google_Model
 {
-  protected $awsS3DataSourceType = 'Google_Service_Storagetransfer_AwsS3Data';
+  protected $awsS3DataSourceType = '\GoogleApiServices\Google_Service_Storagetransfer_AwsS3Data';
   protected $awsS3DataSourceDataType = '';
-  protected $gcsDataSinkType = 'Google_Service_Storagetransfer_GcsData';
+  protected $gcsDataSinkType = '\GoogleApiServices\Google_Service_Storagetransfer_GcsData';
   protected $gcsDataSinkDataType = '';
-  protected $gcsDataSourceType = 'Google_Service_Storagetransfer_GcsData';
+  protected $gcsDataSourceType = '\GoogleApiServices\Google_Service_Storagetransfer_GcsData';
   protected $gcsDataSourceDataType = '';
-  protected $httpDataSourceType = 'Google_Service_Storagetransfer_HttpData';
+  protected $httpDataSourceType = '\GoogleApiServices\Google_Service_Storagetransfer_HttpData';
   protected $httpDataSourceDataType = '';
-  protected $objectConditionsType = 'Google_Service_Storagetransfer_ObjectConditions';
+  protected $objectConditionsType = '\GoogleApiServices\Google_Service_Storagetransfer_ObjectConditions';
   protected $objectConditionsDataType = '';
-  protected $transferOptionsType = 'Google_Service_Storagetransfer_TransferOptions';
+  protected $transferOptionsType = '\GoogleApiServices\Google_Service_Storagetransfer_TransferOptions';
   protected $transferOptionsDataType = '';
 
   public function setAwsS3DataSource(Google_Service_Storagetransfer_AwsS3Data $awsS3DataSource)

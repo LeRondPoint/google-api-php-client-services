@@ -20,10 +20,10 @@ class Google_Service_Books_Annotation extends \GoogleApi\Google_Collection
   protected $collection_key = 'pageIds';
   public $afterSelectedText;
   public $beforeSelectedText;
-  protected $clientVersionRangesType = 'Google_Service_Books_AnnotationClientVersionRanges';
+  protected $clientVersionRangesType = '\GoogleApiServices\Google_Service_Books_AnnotationClientVersionRanges';
   protected $clientVersionRangesDataType = '';
   public $created;
-  protected $currentVersionRangesType = 'Google_Service_Books_AnnotationCurrentVersionRanges';
+  protected $currentVersionRangesType = '\GoogleApiServices\Google_Service_Books_AnnotationCurrentVersionRanges';
   protected $currentVersionRangesDataType = '';
   public $data;
   public $deleted;
@@ -31,7 +31,7 @@ class Google_Service_Books_Annotation extends \GoogleApi\Google_Collection
   public $id;
   public $kind;
   public $layerId;
-  protected $layerSummaryType = 'Google_Service_Books_AnnotationLayerSummary';
+  protected $layerSummaryType = '\GoogleApiServices\Google_Service_Books_AnnotationLayerSummary';
   protected $layerSummaryDataType = '';
   public $pageIds;
   public $selectedText;

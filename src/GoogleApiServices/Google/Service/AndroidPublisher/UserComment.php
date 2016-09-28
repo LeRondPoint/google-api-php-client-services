@@ -21,7 +21,7 @@ class Google_Service_AndroidPublisher_UserComment extends \GoogleApi\Google_Mode
   public $appVersionCode;
   public $appVersionName;
   public $device;
-  protected $lastModifiedType = 'Google_Service_AndroidPublisher_Timestamp';
+  protected $lastModifiedType = '\GoogleApiServices\Google_Service_AndroidPublisher_Timestamp';
   protected $lastModifiedDataType = '';
   public $reviewerLanguage;
   public $starRating;

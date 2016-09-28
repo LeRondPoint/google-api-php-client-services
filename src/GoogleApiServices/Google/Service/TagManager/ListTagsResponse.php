@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListTagsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'tags';
-  protected $tagsType = 'Google_Service_TagManager_Tag';
+  protected $tagsType = '\GoogleApiServices\Google_Service_TagManager_Tag';
   protected $tagsDataType = 'array';
 
   public function setTags($tags)

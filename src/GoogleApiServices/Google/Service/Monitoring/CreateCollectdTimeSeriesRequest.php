@@ -18,10 +18,10 @@
 class Google_Service_Monitoring_CreateCollectdTimeSeriesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'collectdPayloads';
-  protected $collectdPayloadsType = 'Google_Service_Monitoring_CollectdPayload';
+  protected $collectdPayloadsType = '\GoogleApiServices\Google_Service_Monitoring_CollectdPayload';
   protected $collectdPayloadsDataType = 'array';
   public $collectdVersion;
-  protected $resourceType = 'Google_Service_Monitoring_MonitoredResource';
+  protected $resourceType = '\GoogleApiServices\Google_Service_Monitoring_MonitoredResource';
   protected $resourceDataType = '';
 
   public function setCollectdPayloads($collectdPayloads)

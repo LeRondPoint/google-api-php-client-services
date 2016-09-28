@@ -18,9 +18,9 @@
 class Google_Service_DeploymentManager_TargetConfiguration extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'imports';
-  protected $configType = 'Google_Service_DeploymentManager_ConfigFile';
+  protected $configType = '\GoogleApiServices\Google_Service_DeploymentManager_ConfigFile';
   protected $configDataType = '';
-  protected $importsType = 'Google_Service_DeploymentManager_ImportFile';
+  protected $importsType = '\GoogleApiServices\Google_Service_DeploymentManager_ImportFile';
   protected $importsDataType = 'array';
 
   public function setConfig(Google_Service_DeploymentManager_ConfigFile $config)

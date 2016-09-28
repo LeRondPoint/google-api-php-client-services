@@ -19,7 +19,7 @@ class Google_Service_Analytics_Profile extends \GoogleApi\Google_Model
 {
   public $accountId;
   public $botFilteringEnabled;
-  protected $childLinkType = 'Google_Service_Analytics_ProfileChildLink';
+  protected $childLinkType = '\GoogleApiServices\Google_Service_Analytics_ProfileChildLink';
   protected $childLinkDataType = '';
   public $created;
   public $currency;
@@ -31,9 +31,9 @@ class Google_Service_Analytics_Profile extends \GoogleApi\Google_Model
   public $internalWebPropertyId;
   public $kind;
   public $name;
-  protected $parentLinkType = 'Google_Service_Analytics_ProfileParentLink';
+  protected $parentLinkType = '\GoogleApiServices\Google_Service_Analytics_ProfileParentLink';
   protected $parentLinkDataType = '';
-  protected $permissionsType = 'Google_Service_Analytics_ProfilePermissions';
+  protected $permissionsType = '\GoogleApiServices\Google_Service_Analytics_ProfilePermissions';
   protected $permissionsDataType = '';
   public $selfLink;
   public $siteSearchCategoryParameters;

@@ -17,14 +17,14 @@
 
 class Google_Service_Bigquery_JobConfiguration extends \GoogleApi\Google_Model
 {
-  protected $copyType = 'Google_Service_Bigquery_JobConfigurationTableCopy';
+  protected $copyType = '\GoogleApiServices\Google_Service_Bigquery_JobConfigurationTableCopy';
   protected $copyDataType = '';
   public $dryRun;
-  protected $extractType = 'Google_Service_Bigquery_JobConfigurationExtract';
+  protected $extractType = '\GoogleApiServices\Google_Service_Bigquery_JobConfigurationExtract';
   protected $extractDataType = '';
-  protected $loadType = 'Google_Service_Bigquery_JobConfigurationLoad';
+  protected $loadType = '\GoogleApiServices\Google_Service_Bigquery_JobConfigurationLoad';
   protected $loadDataType = '';
-  protected $queryType = 'Google_Service_Bigquery_JobConfigurationQuery';
+  protected $queryType = '\GoogleApiServices\Google_Service_Bigquery_JobConfigurationQuery';
   protected $queryDataType = '';
 
   public function setCopy(Google_Service_Bigquery_JobConfigurationTableCopy $copy)

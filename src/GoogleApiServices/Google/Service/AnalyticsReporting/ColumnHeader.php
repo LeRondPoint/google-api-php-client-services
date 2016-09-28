@@ -19,7 +19,7 @@ class Google_Service_AnalyticsReporting_ColumnHeader extends \GoogleApi\Google_C
 {
   protected $collection_key = 'dimensions';
   public $dimensions;
-  protected $metricHeaderType = 'Google_Service_AnalyticsReporting_MetricHeader';
+  protected $metricHeaderType = '\GoogleApiServices\Google_Service_AnalyticsReporting_MetricHeader';
   protected $metricHeaderDataType = '';
 
   public function setDimensions($dimensions)

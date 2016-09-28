@@ -21,9 +21,9 @@ class Google_Service_Sheets_PivotGroup extends \GoogleApi\Google_Collection
   public $showTotals;
   public $sortOrder;
   public $sourceColumnOffset;
-  protected $valueBucketType = 'Google_Service_Sheets_PivotGroupSortValueBucket';
+  protected $valueBucketType = '\GoogleApiServices\Google_Service_Sheets_PivotGroupSortValueBucket';
   protected $valueBucketDataType = '';
-  protected $valueMetadataType = 'Google_Service_Sheets_PivotGroupValueMetadata';
+  protected $valueMetadataType = '\GoogleApiServices\Google_Service_Sheets_PivotGroupValueMetadata';
   protected $valueMetadataDataType = 'array';
 
   public function setShowTotals($showTotals)

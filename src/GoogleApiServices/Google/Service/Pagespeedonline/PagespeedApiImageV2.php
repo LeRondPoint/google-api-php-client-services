@@ -25,7 +25,7 @@ class Google_Service_Pagespeedonline_PagespeedApiImageV2 extends \GoogleApi\Goog
   public $height;
   public $key;
   public $mimeType;
-  protected $pageRectType = 'Google_Service_Pagespeedonline_PagespeedApiImageV2PageRect';
+  protected $pageRectType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiImageV2PageRect';
   protected $pageRectDataType = '';
   public $width;
 

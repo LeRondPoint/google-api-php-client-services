@@ -18,7 +18,7 @@
 class Google_Service_Monitoring_ListMetricDescriptorsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metricDescriptors';
-  protected $metricDescriptorsType = 'Google_Service_Monitoring_MetricDescriptor';
+  protected $metricDescriptorsType = '\GoogleApiServices\Google_Service_Monitoring_MetricDescriptor';
   protected $metricDescriptorsDataType = 'array';
   public $nextPageToken;
 

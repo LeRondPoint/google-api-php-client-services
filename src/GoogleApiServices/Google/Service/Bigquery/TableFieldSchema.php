@@ -19,7 +19,7 @@ class Google_Service_Bigquery_TableFieldSchema extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'fields';
   public $description;
-  protected $fieldsType = 'Google_Service_Bigquery_TableFieldSchema';
+  protected $fieldsType = '\GoogleApiServices\Google_Service_Bigquery_TableFieldSchema';
   protected $fieldsDataType = 'array';
   public $mode;
   public $name;

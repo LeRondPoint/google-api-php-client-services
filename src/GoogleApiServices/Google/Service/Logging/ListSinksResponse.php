@@ -19,7 +19,7 @@ class Google_Service_Logging_ListSinksResponse extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'sinks';
   public $nextPageToken;
-  protected $sinksType = 'Google_Service_Logging_LogSink';
+  protected $sinksType = '\GoogleApiServices\Google_Service_Logging_LogSink';
   protected $sinksDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

@@ -18,14 +18,14 @@
 class Google_Service_CivicInfo_RepresentativeInfoResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'officials';
-  protected $divisionsType = 'Google_Service_CivicInfo_GeographicDivision';
+  protected $divisionsType = '\GoogleApiServices\Google_Service_CivicInfo_GeographicDivision';
   protected $divisionsDataType = 'map';
   public $kind;
-  protected $normalizedInputType = 'Google_Service_CivicInfo_SimpleAddressType';
+  protected $normalizedInputType = '\GoogleApiServices\Google_Service_CivicInfo_SimpleAddressType';
   protected $normalizedInputDataType = '';
-  protected $officesType = 'Google_Service_CivicInfo_Office';
+  protected $officesType = '\GoogleApiServices\Google_Service_CivicInfo_Office';
   protected $officesDataType = 'array';
-  protected $officialsType = 'Google_Service_CivicInfo_Official';
+  protected $officialsType = '\GoogleApiServices\Google_Service_CivicInfo_Official';
   protected $officialsDataType = 'array';
 
   public function setDivisions($divisions)

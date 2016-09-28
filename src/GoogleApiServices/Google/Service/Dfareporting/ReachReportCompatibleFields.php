@@ -18,16 +18,16 @@
 class Google_Service_Dfareporting_ReachReportCompatibleFields extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'reachByFrequencyMetrics';
-  protected $dimensionFiltersType = 'Google_Service_Dfareporting_Dimension';
+  protected $dimensionFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $dimensionFiltersDataType = 'array';
-  protected $dimensionsType = 'Google_Service_Dfareporting_Dimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $dimensionsDataType = 'array';
   public $kind;
-  protected $metricsType = 'Google_Service_Dfareporting_Metric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $metricsDataType = 'array';
-  protected $pivotedActivityMetricsType = 'Google_Service_Dfareporting_Metric';
+  protected $pivotedActivityMetricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $pivotedActivityMetricsDataType = 'array';
-  protected $reachByFrequencyMetricsType = 'Google_Service_Dfareporting_Metric';
+  protected $reachByFrequencyMetricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $reachByFrequencyMetricsDataType = 'array';
 
   public function setDimensionFilters($dimensionFilters)

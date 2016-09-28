@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_ManagedPropertyBundle extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'managedProperty';
-  protected $managedPropertyType = 'Google_Service_AndroidEnterprise_ManagedProperty';
+  protected $managedPropertyType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedProperty';
   protected $managedPropertyDataType = 'array';
 
   public function setManagedProperty($managedProperty)

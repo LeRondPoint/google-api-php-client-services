@@ -18,10 +18,10 @@
 class Google_Service_Sheets_UpdateConditionalFormatRuleResponse extends \GoogleApi\Google_Model
 {
   public $newIndex;
-  protected $newRuleType = 'Google_Service_Sheets_ConditionalFormatRule';
+  protected $newRuleType = '\GoogleApiServices\Google_Service_Sheets_ConditionalFormatRule';
   protected $newRuleDataType = '';
   public $oldIndex;
-  protected $oldRuleType = 'Google_Service_Sheets_ConditionalFormatRule';
+  protected $oldRuleType = '\GoogleApiServices\Google_Service_Sheets_ConditionalFormatRule';
   protected $oldRuleDataType = '';
 
   public function setNewIndex($newIndex)

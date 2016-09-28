@@ -23,7 +23,7 @@ class Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyCreateAuthUriReq
   public $clientId;
   public $context;
   public $continueUri;
-  protected $customParameterType = 'Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyCreateAuthUriRequestCustomParameter';
+  protected $customParameterType = '\GoogleApiServices\Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyCreateAuthUriRequestCustomParameter';
   protected $customParameterDataType = 'array';
   public $hostedDomain;
   public $identifier;

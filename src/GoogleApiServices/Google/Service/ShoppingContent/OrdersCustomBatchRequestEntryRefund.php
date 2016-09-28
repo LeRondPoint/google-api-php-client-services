@@ -17,7 +17,7 @@
 
 class Google_Service_ShoppingContent_OrdersCustomBatchRequestEntryRefund extends \GoogleApi\Google_Model
 {
-  protected $amountType = 'Google_Service_ShoppingContent_Price';
+  protected $amountType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $amountDataType = '';
   public $reason;
   public $reasonText;

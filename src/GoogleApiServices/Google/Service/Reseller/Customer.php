@@ -23,7 +23,7 @@ class Google_Service_Reseller_Customer extends \GoogleApi\Google_Model
   public $customerId;
   public $kind;
   public $phoneNumber;
-  protected $postalAddressType = 'Google_Service_Reseller_Address';
+  protected $postalAddressType = '\GoogleApiServices\Google_Service_Reseller_Address';
   protected $postalAddressDataType = '';
   public $resourceUiUrl;
 

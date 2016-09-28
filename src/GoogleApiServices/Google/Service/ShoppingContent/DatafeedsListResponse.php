@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_DatafeedsListResponse extends \GoogleApi\Go
   protected $collection_key = 'resources';
   public $kind;
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_ShoppingContent_Datafeed';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ShoppingContent_Datafeed';
   protected $resourcesDataType = 'array';
 
   public function setKind($kind)

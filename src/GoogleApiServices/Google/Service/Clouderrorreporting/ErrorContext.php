@@ -17,9 +17,9 @@
 
 class Google_Service_Clouderrorreporting_ErrorContext extends \GoogleApi\Google_Model
 {
-  protected $httpRequestType = 'Google_Service_Clouderrorreporting_HttpRequestContext';
+  protected $httpRequestType = '\GoogleApiServices\Google_Service_Clouderrorreporting_HttpRequestContext';
   protected $httpRequestDataType = '';
-  protected $reportLocationType = 'Google_Service_Clouderrorreporting_SourceLocation';
+  protected $reportLocationType = '\GoogleApiServices\Google_Service_Clouderrorreporting_SourceLocation';
   protected $reportLocationDataType = '';
   public $user;
 

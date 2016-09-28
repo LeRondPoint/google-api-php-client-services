@@ -22,7 +22,7 @@ class Google_Service_Dataproc_HadoopJob extends \GoogleApi\Google_Collection
   public $args;
   public $fileUris;
   public $jarFileUris;
-  protected $loggingConfigType = 'Google_Service_Dataproc_LoggingConfig';
+  protected $loggingConfigType = '\GoogleApiServices\Google_Service_Dataproc_LoggingConfig';
   protected $loggingConfigDataType = '';
   public $mainClass;
   public $mainJarFileUri;

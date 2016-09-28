@@ -19,7 +19,7 @@ class Google_Service_Drive_Comment extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'replies';
   public $anchor;
-  protected $authorType = 'Google_Service_Drive_User';
+  protected $authorType = '\GoogleApiServices\Google_Service_Drive_User';
   protected $authorDataType = '';
   public $content;
   public $createdTime;
@@ -28,9 +28,9 @@ class Google_Service_Drive_Comment extends \GoogleApi\Google_Collection
   public $id;
   public $kind;
   public $modifiedTime;
-  protected $quotedFileContentType = 'Google_Service_Drive_CommentQuotedFileContent';
+  protected $quotedFileContentType = '\GoogleApiServices\Google_Service_Drive_CommentQuotedFileContent';
   protected $quotedFileContentDataType = '';
-  protected $repliesType = 'Google_Service_Drive_Reply';
+  protected $repliesType = '\GoogleApiServices\Google_Service_Drive_Reply';
   protected $repliesDataType = 'array';
   public $resolved;
 

@@ -18,12 +18,12 @@
 class Google_Service_Dataflow_PartialGroupByKeyInstruction extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sideInputs';
-  protected $inputType = 'Google_Service_Dataflow_InstructionInput';
+  protected $inputType = '\GoogleApiServices\Google_Service_Dataflow_InstructionInput';
   protected $inputDataType = '';
   public $inputElementCodec;
   public $originalCombineValuesInputStoreName;
   public $originalCombineValuesStepName;
-  protected $sideInputsType = 'Google_Service_Dataflow_SideInputInfo';
+  protected $sideInputsType = '\GoogleApiServices\Google_Service_Dataflow_SideInputInfo';
   protected $sideInputsDataType = 'array';
   public $valueCombiningFn;
 

@@ -18,28 +18,28 @@
 class Google_Service_ToolResults_Step extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'labels';
-  protected $completionTimeType = 'Google_Service_ToolResults_Timestamp';
+  protected $completionTimeType = '\GoogleApiServices\Google_Service_ToolResults_Timestamp';
   protected $completionTimeDataType = '';
-  protected $creationTimeType = 'Google_Service_ToolResults_Timestamp';
+  protected $creationTimeType = '\GoogleApiServices\Google_Service_ToolResults_Timestamp';
   protected $creationTimeDataType = '';
   public $description;
-  protected $deviceUsageDurationType = 'Google_Service_ToolResults_Duration';
+  protected $deviceUsageDurationType = '\GoogleApiServices\Google_Service_ToolResults_Duration';
   protected $deviceUsageDurationDataType = '';
-  protected $dimensionValueType = 'Google_Service_ToolResults_StepDimensionValueEntry';
+  protected $dimensionValueType = '\GoogleApiServices\Google_Service_ToolResults_StepDimensionValueEntry';
   protected $dimensionValueDataType = 'array';
   public $hasImages;
-  protected $labelsType = 'Google_Service_ToolResults_StepLabelsEntry';
+  protected $labelsType = '\GoogleApiServices\Google_Service_ToolResults_StepLabelsEntry';
   protected $labelsDataType = 'array';
   public $name;
-  protected $outcomeType = 'Google_Service_ToolResults_Outcome';
+  protected $outcomeType = '\GoogleApiServices\Google_Service_ToolResults_Outcome';
   protected $outcomeDataType = '';
-  protected $runDurationType = 'Google_Service_ToolResults_Duration';
+  protected $runDurationType = '\GoogleApiServices\Google_Service_ToolResults_Duration';
   protected $runDurationDataType = '';
   public $state;
   public $stepId;
-  protected $testExecutionStepType = 'Google_Service_ToolResults_TestExecutionStep';
+  protected $testExecutionStepType = '\GoogleApiServices\Google_Service_ToolResults_TestExecutionStep';
   protected $testExecutionStepDataType = '';
-  protected $toolExecutionStepType = 'Google_Service_ToolResults_ToolExecutionStep';
+  protected $toolExecutionStepType = '\GoogleApiServices\Google_Service_ToolResults_ToolExecutionStep';
   protected $toolExecutionStepDataType = '';
 
   public function setCompletionTime(Google_Service_ToolResults_Timestamp $completionTime)

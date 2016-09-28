@@ -19,9 +19,9 @@ class Google_Service_ShoppingContent_ProductStatus extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'destinationStatuses';
   public $creationDate;
-  protected $dataQualityIssuesType = 'Google_Service_ShoppingContent_ProductStatusDataQualityIssue';
+  protected $dataQualityIssuesType = '\GoogleApiServices\Google_Service_ShoppingContent_ProductStatusDataQualityIssue';
   protected $dataQualityIssuesDataType = 'array';
-  protected $destinationStatusesType = 'Google_Service_ShoppingContent_ProductStatusDestinationStatus';
+  protected $destinationStatusesType = '\GoogleApiServices\Google_Service_ShoppingContent_ProductStatusDestinationStatus';
   protected $destinationStatusesDataType = 'array';
   public $googleExpirationDate;
   public $kind;

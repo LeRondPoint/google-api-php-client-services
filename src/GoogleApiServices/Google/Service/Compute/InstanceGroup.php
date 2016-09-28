@@ -24,7 +24,7 @@ class Google_Service_Compute_InstanceGroup extends \GoogleApi\Google_Collection
   public $id;
   public $kind;
   public $name;
-  protected $namedPortsType = 'Google_Service_Compute_NamedPort';
+  protected $namedPortsType = '\GoogleApiServices\Google_Service_Compute_NamedPort';
   protected $namedPortsDataType = 'array';
   public $network;
   public $selfLink;

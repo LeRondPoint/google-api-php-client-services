@@ -20,7 +20,7 @@ class Google_Service_ServiceManagement_Page extends \GoogleApi\Google_Collection
   protected $collection_key = 'subpages';
   public $content;
   public $name;
-  protected $subpagesType = 'Google_Service_ServiceManagement_Page';
+  protected $subpagesType = '\GoogleApiServices\Google_Service_ServiceManagement_Page';
   protected $subpagesDataType = 'array';
 
   public function setContent($content)

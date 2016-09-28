@@ -19,7 +19,7 @@ class Google_Service_PlusDomains_AudiencesFeed extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_PlusDomains_Audience';
+  protected $itemsType = '\GoogleApiServices\Google_Service_PlusDomains_Audience';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_Apk extends \GoogleApi\Google_Model
 {
-  protected $binaryType = 'Google_Service_AndroidPublisher_ApkBinary';
+  protected $binaryType = '\GoogleApiServices\Google_Service_AndroidPublisher_ApkBinary';
   protected $binaryDataType = '';
   public $versionCode;
 

@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_SystemParameterRule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'parameters';
-  protected $parametersType = 'Google_Service_ServiceManagement_SystemParameter';
+  protected $parametersType = '\GoogleApiServices\Google_Service_ServiceManagement_SystemParameter';
   protected $parametersDataType = 'array';
   public $selector;
 

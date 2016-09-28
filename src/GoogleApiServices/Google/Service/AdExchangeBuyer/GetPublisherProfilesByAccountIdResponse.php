@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_GetPublisherProfilesByAccountIdResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'profiles';
-  protected $profilesType = 'Google_Service_AdExchangeBuyer_PublisherProfileApiProto';
+  protected $profilesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PublisherProfileApiProto';
   protected $profilesDataType = 'array';
 
   public function setProfiles($profiles)

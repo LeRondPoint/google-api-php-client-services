@@ -19,7 +19,7 @@ class Google_Service_Genomics_ClinicalCondition extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'names';
   public $conceptId;
-  protected $externalIdsType = 'Google_Service_Genomics_ExternalId';
+  protected $externalIdsType = '\GoogleApiServices\Google_Service_Genomics_ExternalId';
   protected $externalIdsDataType = 'array';
   public $names;
   public $omimId;

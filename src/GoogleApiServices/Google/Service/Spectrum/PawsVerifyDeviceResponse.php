@@ -18,9 +18,9 @@
 class Google_Service_Spectrum_PawsVerifyDeviceResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'deviceValidities';
-  protected $databaseChangeType = 'Google_Service_Spectrum_DbUpdateSpec';
+  protected $databaseChangeType = '\GoogleApiServices\Google_Service_Spectrum_DbUpdateSpec';
   protected $databaseChangeDataType = '';
-  protected $deviceValiditiesType = 'Google_Service_Spectrum_DeviceValidity';
+  protected $deviceValiditiesType = '\GoogleApiServices\Google_Service_Spectrum_DeviceValidity';
   protected $deviceValiditiesDataType = 'array';
   public $kind;
   public $type;

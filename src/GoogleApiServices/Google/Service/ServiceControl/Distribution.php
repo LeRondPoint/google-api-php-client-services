@@ -20,11 +20,11 @@ class Google_Service_ServiceControl_Distribution extends \GoogleApi\Google_Colle
   protected $collection_key = 'bucketCounts';
   public $bucketCounts;
   public $count;
-  protected $explicitBucketsType = 'Google_Service_ServiceControl_ExplicitBuckets';
+  protected $explicitBucketsType = '\GoogleApiServices\Google_Service_ServiceControl_ExplicitBuckets';
   protected $explicitBucketsDataType = '';
-  protected $exponentialBucketsType = 'Google_Service_ServiceControl_ExponentialBuckets';
+  protected $exponentialBucketsType = '\GoogleApiServices\Google_Service_ServiceControl_ExponentialBuckets';
   protected $exponentialBucketsDataType = '';
-  protected $linearBucketsType = 'Google_Service_ServiceControl_LinearBuckets';
+  protected $linearBucketsType = '\GoogleApiServices\Google_Service_ServiceControl_LinearBuckets';
   protected $linearBucketsDataType = '';
   public $maximum;
   public $mean;

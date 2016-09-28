@@ -19,10 +19,10 @@ class Google_Service_Dfareporting_FloodlightActivityPublisherDynamicTag extends 
 {
   public $clickThrough;
   public $directorySiteId;
-  protected $dynamicTagType = 'Google_Service_Dfareporting_FloodlightActivityDynamicTag';
+  protected $dynamicTagType = '\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivityDynamicTag';
   protected $dynamicTagDataType = '';
   public $siteId;
-  protected $siteIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $siteIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $siteIdDimensionValueDataType = '';
   public $viewThrough;
 

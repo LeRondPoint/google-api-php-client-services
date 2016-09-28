@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_SendWorkerMessagesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'workerMessageResponses';
-  protected $workerMessageResponsesType = 'Google_Service_Dataflow_WorkerMessageResponse';
+  protected $workerMessageResponsesType = '\GoogleApiServices\Google_Service_Dataflow_WorkerMessageResponse';
   protected $workerMessageResponsesDataType = 'array';
 
   public function setWorkerMessageResponses($workerMessageResponses)

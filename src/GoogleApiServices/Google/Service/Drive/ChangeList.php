@@ -18,7 +18,7 @@
 class Google_Service_Drive_ChangeList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'changes';
-  protected $changesType = 'Google_Service_Drive_Change';
+  protected $changesType = '\GoogleApiServices\Google_Service_Drive_Change';
   protected $changesDataType = 'array';
   public $kind;
   public $newStartPageToken;

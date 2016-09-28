@@ -19,7 +19,7 @@ class Google_Service_DeploymentManager_ResourcesListResponse extends \GoogleApi\
 {
   protected $collection_key = 'resources';
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_DeploymentManager_DeploymentmanagerResource';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_DeploymentManager_DeploymentmanagerResource';
   protected $resourcesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

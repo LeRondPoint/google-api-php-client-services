@@ -17,7 +17,7 @@
 
 class Google_Service_Drive_Change extends \GoogleApi\Google_Model
 {
-  protected $fileType = 'Google_Service_Drive_DriveFile';
+  protected $fileType = '\GoogleApiServices\Google_Service_Drive_DriveFile';
   protected $fileDataType = '';
   public $fileId;
   public $kind;

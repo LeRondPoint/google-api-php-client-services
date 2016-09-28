@@ -26,7 +26,7 @@ class Google_Service_YouTube_LiveBroadcastSnippet extends \GoogleApi\Google_Mode
   public $publishedAt;
   public $scheduledEndTime;
   public $scheduledStartTime;
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

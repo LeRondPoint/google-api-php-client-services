@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_AccountsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accounts';
-  protected $accountsType = 'Google_Service_Dfareporting_Account';
+  protected $accountsType = '\GoogleApiServices\Google_Service_Dfareporting_Account';
   protected $accountsDataType = 'array';
   public $kind;
   public $nextPageToken;

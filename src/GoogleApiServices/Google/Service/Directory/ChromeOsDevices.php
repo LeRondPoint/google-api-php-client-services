@@ -18,7 +18,7 @@
 class Google_Service_Directory_ChromeOsDevices extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'chromeosdevices';
-  protected $chromeosdevicesType = 'Google_Service_Directory_ChromeOsDevice';
+  protected $chromeosdevicesType = '\GoogleApiServices\Google_Service_Directory_ChromeOsDevice';
   protected $chromeosdevicesDataType = 'array';
   public $etag;
   public $kind;

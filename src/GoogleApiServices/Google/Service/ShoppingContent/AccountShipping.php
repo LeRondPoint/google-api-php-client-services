@@ -19,14 +19,14 @@ class Google_Service_ShoppingContent_AccountShipping extends \GoogleApi\Google_C
 {
   protected $collection_key = 'services';
   public $accountId;
-  protected $carrierRatesType = 'Google_Service_ShoppingContent_AccountShippingCarrierRate';
+  protected $carrierRatesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingCarrierRate';
   protected $carrierRatesDataType = 'array';
   public $kind;
-  protected $locationGroupsType = 'Google_Service_ShoppingContent_AccountShippingLocationGroup';
+  protected $locationGroupsType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingLocationGroup';
   protected $locationGroupsDataType = 'array';
-  protected $rateTablesType = 'Google_Service_ShoppingContent_AccountShippingRateTable';
+  protected $rateTablesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingRateTable';
   protected $rateTablesDataType = 'array';
-  protected $servicesType = 'Google_Service_ShoppingContent_AccountShippingShippingService';
+  protected $servicesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingShippingService';
   protected $servicesDataType = 'array';
 
   public function setAccountId($accountId)

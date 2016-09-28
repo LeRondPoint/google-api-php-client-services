@@ -20,9 +20,9 @@ class Google_Service_Games_PeerSessionDiagnostics extends \GoogleApi\Google_Mode
   public $connectedTimestampMillis;
   public $kind;
   public $participantId;
-  protected $reliableChannelType = 'Google_Service_Games_PeerChannelDiagnostics';
+  protected $reliableChannelType = '\GoogleApiServices\Google_Service_Games_PeerChannelDiagnostics';
   protected $reliableChannelDataType = '';
-  protected $unreliableChannelType = 'Google_Service_Games_PeerChannelDiagnostics';
+  protected $unreliableChannelType = '\GoogleApiServices\Google_Service_Games_PeerChannelDiagnostics';
   protected $unreliableChannelDataType = '';
 
   public function setConnectedTimestampMillis($connectedTimestampMillis)

@@ -17,7 +17,7 @@
 
 class Google_Service_ShoppingContent_OrderDeliveryDetails extends \GoogleApi\Google_Model
 {
-  protected $addressType = 'Google_Service_ShoppingContent_OrderAddress';
+  protected $addressType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderAddress';
   protected $addressDataType = '';
   public $phoneNumber;
 

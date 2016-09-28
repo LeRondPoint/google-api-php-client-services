@@ -18,7 +18,7 @@
 class Google_Service_Sheets_UpdateSheetPropertiesRequest extends \GoogleApi\Google_Model
 {
   public $fields;
-  protected $propertiesType = 'Google_Service_Sheets_SheetProperties';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Sheets_SheetProperties';
   protected $propertiesDataType = '';
 
   public function setFields($fields)

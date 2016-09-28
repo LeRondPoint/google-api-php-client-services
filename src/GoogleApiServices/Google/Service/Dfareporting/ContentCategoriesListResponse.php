@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_ContentCategoriesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'contentCategories';
-  protected $contentCategoriesType = 'Google_Service_Dfareporting_ContentCategory';
+  protected $contentCategoriesType = '\GoogleApiServices\Google_Service_Dfareporting_ContentCategory';
   protected $contentCategoriesDataType = 'array';
   public $kind;
   public $nextPageToken;

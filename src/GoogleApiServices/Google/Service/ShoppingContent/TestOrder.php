@@ -18,19 +18,19 @@
 class Google_Service_ShoppingContent_TestOrder extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'promotions';
-  protected $customerType = 'Google_Service_ShoppingContent_TestOrderCustomer';
+  protected $customerType = '\GoogleApiServices\Google_Service_ShoppingContent_TestOrderCustomer';
   protected $customerDataType = '';
   public $kind;
-  protected $lineItemsType = 'Google_Service_ShoppingContent_TestOrderLineItem';
+  protected $lineItemsType = '\GoogleApiServices\Google_Service_ShoppingContent_TestOrderLineItem';
   protected $lineItemsDataType = 'array';
-  protected $paymentMethodType = 'Google_Service_ShoppingContent_TestOrderPaymentMethod';
+  protected $paymentMethodType = '\GoogleApiServices\Google_Service_ShoppingContent_TestOrderPaymentMethod';
   protected $paymentMethodDataType = '';
   public $predefinedDeliveryAddress;
-  protected $promotionsType = 'Google_Service_ShoppingContent_OrderPromotion';
+  protected $promotionsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderPromotion';
   protected $promotionsDataType = 'array';
-  protected $shippingCostType = 'Google_Service_ShoppingContent_Price';
+  protected $shippingCostType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $shippingCostDataType = '';
-  protected $shippingCostTaxType = 'Google_Service_ShoppingContent_Price';
+  protected $shippingCostTaxType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $shippingCostTaxDataType = '';
   public $shippingOption;
 

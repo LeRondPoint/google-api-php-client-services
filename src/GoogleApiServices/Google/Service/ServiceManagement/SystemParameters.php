@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_SystemParameters extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $rulesType = 'Google_Service_ServiceManagement_SystemParameterRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_SystemParameterRule';
   protected $rulesDataType = 'array';
 
   public function setRules($rules)

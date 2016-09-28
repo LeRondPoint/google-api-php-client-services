@@ -18,10 +18,10 @@
 class Google_Service_Dataflow_SeqMapTask extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'outputInfos';
-  protected $inputsType = 'Google_Service_Dataflow_SideInputInfo';
+  protected $inputsType = '\GoogleApiServices\Google_Service_Dataflow_SideInputInfo';
   protected $inputsDataType = 'array';
   public $name;
-  protected $outputInfosType = 'Google_Service_Dataflow_SeqMapTaskOutputInfo';
+  protected $outputInfosType = '\GoogleApiServices\Google_Service_Dataflow_SeqMapTaskOutputInfo';
   protected $outputInfosDataType = 'array';
   public $stageName;
   public $systemName;

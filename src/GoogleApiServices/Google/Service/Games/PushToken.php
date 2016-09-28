@@ -18,7 +18,7 @@
 class Google_Service_Games_PushToken extends \GoogleApi\Google_Model
 {
   public $clientRevision;
-  protected $idType = 'Google_Service_Games_PushTokenId';
+  protected $idType = '\GoogleApiServices\Google_Service_Games_PushTokenId';
   protected $idDataType = '';
   public $kind;
   public $language;

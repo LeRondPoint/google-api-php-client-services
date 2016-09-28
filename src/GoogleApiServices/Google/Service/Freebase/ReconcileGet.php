@@ -18,13 +18,13 @@
 class Google_Service_Freebase_ReconcileGet extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'warning';
-  protected $candidateType = 'Google_Service_Freebase_ReconcileCandidate';
+  protected $candidateType = '\GoogleApiServices\Google_Service_Freebase_ReconcileCandidate';
   protected $candidateDataType = 'array';
-  protected $costsType = 'Google_Service_Freebase_ReconcileGetCosts';
+  protected $costsType = '\GoogleApiServices\Google_Service_Freebase_ReconcileGetCosts';
   protected $costsDataType = '';
-  protected $matchType = 'Google_Service_Freebase_ReconcileCandidate';
+  protected $matchType = '\GoogleApiServices\Google_Service_Freebase_ReconcileCandidate';
   protected $matchDataType = '';
-  protected $warningType = 'Google_Service_Freebase_ReconcileGetWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Freebase_ReconcileGetWarning';
   protected $warningDataType = 'array';
 
   public function setCandidate($candidate)

@@ -18,7 +18,7 @@
 class Google_Service_Appengine_ListLocationsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'locations';
-  protected $locationsType = 'Google_Service_Appengine_Location';
+  protected $locationsType = '\GoogleApiServices\Google_Service_Appengine_Location';
   protected $locationsDataType = 'array';
   public $nextPageToken;
 

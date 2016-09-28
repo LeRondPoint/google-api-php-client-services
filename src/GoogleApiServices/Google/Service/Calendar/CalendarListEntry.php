@@ -21,7 +21,7 @@ class Google_Service_Calendar_CalendarListEntry extends \GoogleApi\Google_Collec
   public $accessRole;
   public $backgroundColor;
   public $colorId;
-  protected $defaultRemindersType = 'Google_Service_Calendar_EventReminder';
+  protected $defaultRemindersType = '\GoogleApiServices\Google_Service_Calendar_EventReminder';
   protected $defaultRemindersDataType = 'array';
   public $deleted;
   public $description;
@@ -31,7 +31,7 @@ class Google_Service_Calendar_CalendarListEntry extends \GoogleApi\Google_Collec
   public $id;
   public $kind;
   public $location;
-  protected $notificationSettingsType = 'Google_Service_Calendar_CalendarListEntryNotificationSettings';
+  protected $notificationSettingsType = '\GoogleApiServices\Google_Service_Calendar_CalendarListEntryNotificationSettings';
   protected $notificationSettingsDataType = '';
   public $primary;
   public $selected;

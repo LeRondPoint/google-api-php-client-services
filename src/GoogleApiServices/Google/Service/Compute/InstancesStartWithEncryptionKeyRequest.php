@@ -18,7 +18,7 @@
 class Google_Service_Compute_InstancesStartWithEncryptionKeyRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'disks';
-  protected $disksType = 'Google_Service_Compute_CustomerEncryptionKeyProtectedDisk';
+  protected $disksType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKeyProtectedDisk';
   protected $disksDataType = 'array';
 
   public function setDisks($disks)

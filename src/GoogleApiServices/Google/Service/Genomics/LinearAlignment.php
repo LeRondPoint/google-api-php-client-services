@@ -18,10 +18,10 @@
 class Google_Service_Genomics_LinearAlignment extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'cigar';
-  protected $cigarType = 'Google_Service_Genomics_CigarUnit';
+  protected $cigarType = '\GoogleApiServices\Google_Service_Genomics_CigarUnit';
   protected $cigarDataType = 'array';
   public $mappingQuality;
-  protected $positionType = 'Google_Service_Genomics_Position';
+  protected $positionType = '\GoogleApiServices\Google_Service_Genomics_Position';
   protected $positionDataType = '';
 
   public function setCigar($cigar)

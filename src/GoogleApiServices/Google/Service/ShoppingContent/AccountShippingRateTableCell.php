@@ -17,9 +17,9 @@
 
 class Google_Service_ShoppingContent_AccountShippingRateTableCell extends \GoogleApi\Google_Model
 {
-  protected $conditionType = 'Google_Service_ShoppingContent_AccountShippingCondition';
+  protected $conditionType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingCondition';
   protected $conditionDataType = '';
-  protected $rateType = 'Google_Service_ShoppingContent_Price';
+  protected $rateType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $rateDataType = '';
 
   public function setCondition(Google_Service_ShoppingContent_AccountShippingCondition $condition)

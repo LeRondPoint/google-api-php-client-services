@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_Enterprise extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'administrator';
-  protected $administratorType = 'Google_Service_AndroidEnterprise_Administrator';
+  protected $administratorType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Administrator';
   protected $administratorDataType = 'array';
   public $id;
   public $kind;

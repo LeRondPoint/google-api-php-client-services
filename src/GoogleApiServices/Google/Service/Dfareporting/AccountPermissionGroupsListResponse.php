@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_AccountPermissionGroupsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accountPermissionGroups';
-  protected $accountPermissionGroupsType = 'Google_Service_Dfareporting_AccountPermissionGroup';
+  protected $accountPermissionGroupsType = '\GoogleApiServices\Google_Service_Dfareporting_AccountPermissionGroup';
   protected $accountPermissionGroupsDataType = 'array';
   public $kind;
 

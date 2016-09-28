@@ -18,9 +18,9 @@
 class Google_Service_Books_Usersettings extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $notesExportType = 'Google_Service_Books_UsersettingsNotesExport';
+  protected $notesExportType = '\GoogleApiServices\Google_Service_Books_UsersettingsNotesExport';
   protected $notesExportDataType = '';
-  protected $notificationType = 'Google_Service_Books_UsersettingsNotification';
+  protected $notificationType = '\GoogleApiServices\Google_Service_Books_UsersettingsNotification';
   protected $notificationDataType = '';
 
   public function setKind($kind)

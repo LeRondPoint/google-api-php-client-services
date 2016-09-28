@@ -19,7 +19,7 @@ class Google_Service_CloudUserAccounts_UserList extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_CloudUserAccounts_User';
+  protected $itemsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_User';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

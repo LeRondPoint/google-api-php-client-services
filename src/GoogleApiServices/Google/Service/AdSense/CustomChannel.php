@@ -21,7 +21,7 @@ class Google_Service_AdSense_CustomChannel extends \GoogleApi\Google_Model
   public $id;
   public $kind;
   public $name;
-  protected $targetingInfoType = 'Google_Service_AdSense_CustomChannelTargetingInfo';
+  protected $targetingInfoType = '\GoogleApiServices\Google_Service_AdSense_CustomChannelTargetingInfo';
   protected $targetingInfoDataType = '';
 
   public function setCode($code)

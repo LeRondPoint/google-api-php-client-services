@@ -19,7 +19,7 @@ class Google_Service_Dataflow_StreamingSetupTask extends \GoogleApi\Google_Model
 {
   public $drain;
   public $receiveWorkPort;
-  protected $streamingComputationTopologyType = 'Google_Service_Dataflow_TopologyConfig';
+  protected $streamingComputationTopologyType = '\GoogleApiServices\Google_Service_Dataflow_TopologyConfig';
   protected $streamingComputationTopologyDataType = '';
   public $workerHarnessPort;
 

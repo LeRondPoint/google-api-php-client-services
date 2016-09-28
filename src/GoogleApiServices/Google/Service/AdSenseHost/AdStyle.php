@@ -17,10 +17,10 @@
 
 class Google_Service_AdSenseHost_AdStyle extends \GoogleApi\Google_Model
 {
-  protected $colorsType = 'Google_Service_AdSenseHost_AdStyleColors';
+  protected $colorsType = '\GoogleApiServices\Google_Service_AdSenseHost_AdStyleColors';
   protected $colorsDataType = '';
   public $corners;
-  protected $fontType = 'Google_Service_AdSenseHost_AdStyleFont';
+  protected $fontType = '\GoogleApiServices\Google_Service_AdSenseHost_AdStyleFont';
   protected $fontDataType = '';
   public $kind;
 

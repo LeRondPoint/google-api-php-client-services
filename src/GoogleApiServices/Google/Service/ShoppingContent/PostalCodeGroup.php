@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_PostalCodeGroup extends \GoogleApi\Google_C
   protected $collection_key = 'postalCodeRanges';
   public $country;
   public $name;
-  protected $postalCodeRangesType = 'Google_Service_ShoppingContent_PostalCodeRange';
+  protected $postalCodeRangesType = '\GoogleApiServices\Google_Service_ShoppingContent_PostalCodeRange';
   protected $postalCodeRangesDataType = 'array';
 
   public function setCountry($country)

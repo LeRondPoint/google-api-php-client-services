@@ -17,7 +17,7 @@
 
 class Google_Service_SQLAdmin_CloneContext extends \GoogleApi\Google_Model
 {
-  protected $binLogCoordinatesType = 'Google_Service_SQLAdmin_BinLogCoordinates';
+  protected $binLogCoordinatesType = '\GoogleApiServices\Google_Service_SQLAdmin_BinLogCoordinates';
   protected $binLogCoordinatesDataType = '';
   public $destinationInstanceName;
   public $kind;

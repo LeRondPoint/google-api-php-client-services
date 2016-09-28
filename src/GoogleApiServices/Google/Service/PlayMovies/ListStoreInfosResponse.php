@@ -19,7 +19,7 @@ class Google_Service_PlayMovies_ListStoreInfosResponse extends \GoogleApi\Google
 {
   protected $collection_key = 'storeInfos';
   public $nextPageToken;
-  protected $storeInfosType = 'Google_Service_PlayMovies_StoreInfo';
+  protected $storeInfosType = '\GoogleApiServices\Google_Service_PlayMovies_StoreInfo';
   protected $storeInfosDataType = 'array';
   public $totalSize;
 

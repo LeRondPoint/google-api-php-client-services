@@ -19,7 +19,7 @@ class Google_Service_GamesManagement_AchievementResetAllResponse extends \Google
 {
   protected $collection_key = 'results';
   public $kind;
-  protected $resultsType = 'Google_Service_GamesManagement_AchievementResetResponse';
+  protected $resultsType = '\GoogleApiServices\Google_Service_GamesManagement_AchievementResetResponse';
   protected $resultsDataType = 'array';
 
   public function setKind($kind)

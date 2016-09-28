@@ -22,15 +22,15 @@ class Google_Service_Compute_UrlMap extends \GoogleApi\Google_Collection
   public $defaultService;
   public $description;
   public $fingerprint;
-  protected $hostRulesType = 'Google_Service_Compute_HostRule';
+  protected $hostRulesType = '\GoogleApiServices\Google_Service_Compute_HostRule';
   protected $hostRulesDataType = 'array';
   public $id;
   public $kind;
   public $name;
-  protected $pathMatchersType = 'Google_Service_Compute_PathMatcher';
+  protected $pathMatchersType = '\GoogleApiServices\Google_Service_Compute_PathMatcher';
   protected $pathMatchersDataType = 'array';
   public $selfLink;
-  protected $testsType = 'Google_Service_Compute_UrlMapTest';
+  protected $testsType = '\GoogleApiServices\Google_Service_Compute_UrlMapTest';
   protected $testsDataType = 'array';
 
   public function setCreationTimestamp($creationTimestamp)

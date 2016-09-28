@@ -18,7 +18,7 @@
 class Google_Service_GamesConfiguration_LeaderboardConfigurationListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_GamesConfiguration_LeaderboardConfiguration';
+  protected $itemsType = '\GoogleApiServices\Google_Service_GamesConfiguration_LeaderboardConfiguration';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

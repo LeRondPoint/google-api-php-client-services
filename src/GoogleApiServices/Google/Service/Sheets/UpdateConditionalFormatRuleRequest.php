@@ -19,7 +19,7 @@ class Google_Service_Sheets_UpdateConditionalFormatRuleRequest extends \GoogleAp
 {
   public $index;
   public $newIndex;
-  protected $ruleType = 'Google_Service_Sheets_ConditionalFormatRule';
+  protected $ruleType = '\GoogleApiServices\Google_Service_Sheets_ConditionalFormatRule';
   protected $ruleDataType = '';
   public $sheetId;
 

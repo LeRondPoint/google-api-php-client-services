@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_LandingPagesListResponse extends \GoogleApi\Go
 {
   protected $collection_key = 'landingPages';
   public $kind;
-  protected $landingPagesType = 'Google_Service_Dfareporting_LandingPage';
+  protected $landingPagesType = '\GoogleApiServices\Google_Service_Dfareporting_LandingPage';
   protected $landingPagesDataType = 'array';
 
   public function setKind($kind)

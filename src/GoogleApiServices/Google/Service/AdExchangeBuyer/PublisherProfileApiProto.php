@@ -35,11 +35,11 @@ class Google_Service_AdExchangeBuyer_PublisherProfileApiProto extends \GoogleApi
   public $programmaticContact;
   public $publisherDomains;
   public $publisherProfileId;
-  protected $publisherProvidedForecastType = 'Google_Service_AdExchangeBuyer_PublisherProvidedForecast';
+  protected $publisherProvidedForecastType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PublisherProvidedForecast';
   protected $publisherProvidedForecastDataType = '';
   public $rateCardInfoLink;
   public $samplePageLink;
-  protected $sellerType = 'Google_Service_AdExchangeBuyer_Seller';
+  protected $sellerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Seller';
   protected $sellerDataType = '';
   public $state;
   public $topHeadlines;

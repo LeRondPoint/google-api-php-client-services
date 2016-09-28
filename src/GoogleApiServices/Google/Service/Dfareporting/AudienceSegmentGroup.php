@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_AudienceSegmentGroup extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'audienceSegments';
-  protected $audienceSegmentsType = 'Google_Service_Dfareporting_AudienceSegment';
+  protected $audienceSegmentsType = '\GoogleApiServices\Google_Service_Dfareporting_AudienceSegment';
   protected $audienceSegmentsDataType = 'array';
   public $id;
   public $name;

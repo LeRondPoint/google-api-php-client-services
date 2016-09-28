@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_PostalCodesListResponse extends \GoogleApi\Goo
 {
   protected $collection_key = 'postalCodes';
   public $kind;
-  protected $postalCodesType = 'Google_Service_Dfareporting_PostalCode';
+  protected $postalCodesType = '\GoogleApiServices\Google_Service_Dfareporting_PostalCode';
   protected $postalCodesDataType = 'array';
 
   public function setKind($kind)

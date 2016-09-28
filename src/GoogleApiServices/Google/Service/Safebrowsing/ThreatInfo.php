@@ -19,7 +19,7 @@ class Google_Service_Safebrowsing_ThreatInfo extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'threatTypes';
   public $platformTypes;
-  protected $threatEntriesType = 'Google_Service_Safebrowsing_ThreatEntry';
+  protected $threatEntriesType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatEntry';
   protected $threatEntriesDataType = 'array';
   public $threatEntryTypes;
   public $threatTypes;

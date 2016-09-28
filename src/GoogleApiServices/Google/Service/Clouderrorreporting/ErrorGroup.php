@@ -20,7 +20,7 @@ class Google_Service_Clouderrorreporting_ErrorGroup extends \GoogleApi\Google_Co
   protected $collection_key = 'trackingIssues';
   public $groupId;
   public $name;
-  protected $trackingIssuesType = 'Google_Service_Clouderrorreporting_TrackingIssue';
+  protected $trackingIssuesType = '\GoogleApiServices\Google_Service_Clouderrorreporting_TrackingIssue';
   protected $trackingIssuesDataType = 'array';
 
   public function setGroupId($groupId)

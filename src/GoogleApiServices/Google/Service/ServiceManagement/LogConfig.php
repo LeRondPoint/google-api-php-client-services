@@ -17,11 +17,11 @@
 
 class Google_Service_ServiceManagement_LogConfig extends \GoogleApi\Google_Model
 {
-  protected $cloudAuditType = 'Google_Service_ServiceManagement_CloudAuditOptions';
+  protected $cloudAuditType = '\GoogleApiServices\Google_Service_ServiceManagement_CloudAuditOptions';
   protected $cloudAuditDataType = '';
-  protected $counterType = 'Google_Service_ServiceManagement_CounterOptions';
+  protected $counterType = '\GoogleApiServices\Google_Service_ServiceManagement_CounterOptions';
   protected $counterDataType = '';
-  protected $dataAccessType = 'Google_Service_ServiceManagement_DataAccessOptions';
+  protected $dataAccessType = '\GoogleApiServices\Google_Service_ServiceManagement_DataAccessOptions';
   protected $dataAccessDataType = '';
 
   public function setCloudAudit(Google_Service_ServiceManagement_CloudAuditOptions $cloudAudit)

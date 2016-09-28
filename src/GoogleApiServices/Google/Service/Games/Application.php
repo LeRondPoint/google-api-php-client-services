@@ -23,15 +23,15 @@ class Google_Service_Games_Application extends \GoogleApi\Google_Collection
         "leaderboardCount" => "leaderboard_count",
   );
   public $achievementCount;
-  protected $assetsType = 'Google_Service_Games_ImageAsset';
+  protected $assetsType = '\GoogleApiServices\Google_Service_Games_ImageAsset';
   protected $assetsDataType = 'array';
   public $author;
-  protected $categoryType = 'Google_Service_Games_ApplicationCategory';
+  protected $categoryType = '\GoogleApiServices\Google_Service_Games_ApplicationCategory';
   protected $categoryDataType = '';
   public $description;
   public $enabledFeatures;
   public $id;
-  protected $instancesType = 'Google_Service_Games_Instance';
+  protected $instancesType = '\GoogleApiServices\Google_Service_Games_Instance';
   protected $instancesDataType = 'array';
   public $kind;
   public $lastUpdatedTimestamp;

@@ -17,11 +17,11 @@
 
 class Google_Service_Sheets_GradientRule extends \GoogleApi\Google_Model
 {
-  protected $maxpointType = 'Google_Service_Sheets_InterpolationPoint';
+  protected $maxpointType = '\GoogleApiServices\Google_Service_Sheets_InterpolationPoint';
   protected $maxpointDataType = '';
-  protected $midpointType = 'Google_Service_Sheets_InterpolationPoint';
+  protected $midpointType = '\GoogleApiServices\Google_Service_Sheets_InterpolationPoint';
   protected $midpointDataType = '';
-  protected $minpointType = 'Google_Service_Sheets_InterpolationPoint';
+  protected $minpointType = '\GoogleApiServices\Google_Service_Sheets_InterpolationPoint';
   protected $minpointDataType = '';
 
   public function setMaxpoint(Google_Service_Sheets_InterpolationPoint $maxpoint)

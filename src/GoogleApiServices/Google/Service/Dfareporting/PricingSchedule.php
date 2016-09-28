@@ -23,7 +23,7 @@ class Google_Service_Dfareporting_PricingSchedule extends \GoogleApi\Google_Coll
   public $endDate;
   public $flighted;
   public $floodlightActivityId;
-  protected $pricingPeriodsType = 'Google_Service_Dfareporting_PricingSchedulePricingPeriod';
+  protected $pricingPeriodsType = '\GoogleApiServices\Google_Service_Dfareporting_PricingSchedulePricingPeriod';
   protected $pricingPeriodsDataType = 'array';
   public $pricingType;
   public $startDate;

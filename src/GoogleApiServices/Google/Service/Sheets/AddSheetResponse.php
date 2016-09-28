@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_AddSheetResponse extends \GoogleApi\Google_Model
 {
-  protected $propertiesType = 'Google_Service_Sheets_SheetProperties';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Sheets_SheetProperties';
   protected $propertiesDataType = '';
 
   public function setProperties(Google_Service_Sheets_SheetProperties $properties)

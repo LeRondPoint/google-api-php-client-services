@@ -19,7 +19,7 @@ class Google_Service_Games_QuestMilestone extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'criteria';
   public $completionRewardData;
-  protected $criteriaType = 'Google_Service_Games_QuestCriterion';
+  protected $criteriaType = '\GoogleApiServices\Google_Service_Games_QuestCriterion';
   protected $criteriaDataType = 'array';
   public $id;
   public $kind;

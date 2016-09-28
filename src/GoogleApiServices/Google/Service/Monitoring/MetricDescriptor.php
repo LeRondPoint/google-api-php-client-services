@@ -20,7 +20,7 @@ class Google_Service_Monitoring_MetricDescriptor extends \GoogleApi\Google_Colle
   protected $collection_key = 'labels';
   public $description;
   public $displayName;
-  protected $labelsType = 'Google_Service_Monitoring_LabelDescriptor';
+  protected $labelsType = '\GoogleApiServices\Google_Service_Monitoring_LabelDescriptor';
   protected $labelsDataType = 'array';
   public $metricKind;
   public $name;

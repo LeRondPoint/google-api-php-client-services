@@ -18,7 +18,7 @@
 class Google_Service_Compute_DiskAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_DisksScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_DisksScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

@@ -18,16 +18,16 @@
 class Google_Service_Plus_Comment extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'inReplyTo';
-  protected $actorType = 'Google_Service_Plus_CommentActor';
+  protected $actorType = '\GoogleApiServices\Google_Service_Plus_CommentActor';
   protected $actorDataType = '';
   public $etag;
   public $id;
-  protected $inReplyToType = 'Google_Service_Plus_CommentInReplyTo';
+  protected $inReplyToType = '\GoogleApiServices\Google_Service_Plus_CommentInReplyTo';
   protected $inReplyToDataType = 'array';
   public $kind;
-  protected $objectType = 'Google_Service_Plus_CommentObject';
+  protected $objectType = '\GoogleApiServices\Google_Service_Plus_CommentObject';
   protected $objectDataType = '';
-  protected $plusonersType = 'Google_Service_Plus_CommentPlusoners';
+  protected $plusonersType = '\GoogleApiServices\Google_Service_Plus_CommentPlusoners';
   protected $plusonersDataType = '';
   public $published;
   public $selfLink;

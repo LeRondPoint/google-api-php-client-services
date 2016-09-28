@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_InventoryCustomBatchRequestEntry extends \GoogleApi\Google_Model
 {
   public $batchId;
-  protected $inventoryType = 'Google_Service_ShoppingContent_Inventory';
+  protected $inventoryType = '\GoogleApiServices\Google_Service_ShoppingContent_Inventory';
   protected $inventoryDataType = '';
   public $merchantId;
   public $productId;

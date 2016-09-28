@@ -18,7 +18,7 @@
 class Google_Service_Replicapoolupdater_InstanceUpdateError extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorsType = 'Google_Service_Replicapoolupdater_InstanceUpdateErrorErrors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Replicapoolupdater_InstanceUpdateErrorErrors';
   protected $errorsDataType = 'array';
 
   public function setErrors($errors)

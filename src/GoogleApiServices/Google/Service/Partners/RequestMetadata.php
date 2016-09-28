@@ -21,9 +21,9 @@ class Google_Service_Partners_RequestMetadata extends \GoogleApi\Google_Collecti
   public $experimentIds;
   public $locale;
   public $partnersSessionId;
-  protected $trafficSourceType = 'Google_Service_Partners_TrafficSource';
+  protected $trafficSourceType = '\GoogleApiServices\Google_Service_Partners_TrafficSource';
   protected $trafficSourceDataType = '';
-  protected $userOverridesType = 'Google_Service_Partners_UserOverrides';
+  protected $userOverridesType = '\GoogleApiServices\Google_Service_Partners_UserOverrides';
   protected $userOverridesDataType = '';
 
   public function setExperimentIds($experimentIds)

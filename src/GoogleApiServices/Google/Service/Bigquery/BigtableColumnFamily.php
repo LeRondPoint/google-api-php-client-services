@@ -18,7 +18,7 @@
 class Google_Service_Bigquery_BigtableColumnFamily extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'columns';
-  protected $columnsType = 'Google_Service_Bigquery_BigtableColumn';
+  protected $columnsType = '\GoogleApiServices\Google_Service_Bigquery_BigtableColumn';
   protected $columnsDataType = 'array';
   public $encoding;
   public $familyId;

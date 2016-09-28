@@ -19,7 +19,7 @@ class Google_Service_Compute_ImageList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_Image';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_Image';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

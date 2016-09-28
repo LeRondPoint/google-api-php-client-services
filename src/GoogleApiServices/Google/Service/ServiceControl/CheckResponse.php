@@ -18,7 +18,7 @@
 class Google_Service_ServiceControl_CheckResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'checkErrors';
-  protected $checkErrorsType = 'Google_Service_ServiceControl_CheckError';
+  protected $checkErrorsType = '\GoogleApiServices\Google_Service_ServiceControl_CheckError';
   protected $checkErrorsDataType = 'array';
   public $operationId;
   public $serviceConfigId;

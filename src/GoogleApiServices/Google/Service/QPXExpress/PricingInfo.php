@@ -19,21 +19,21 @@ class Google_Service_QPXExpress_PricingInfo extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'tax';
   public $baseFareTotal;
-  protected $fareType = 'Google_Service_QPXExpress_FareInfo';
+  protected $fareType = '\GoogleApiServices\Google_Service_QPXExpress_FareInfo';
   protected $fareDataType = 'array';
   public $fareCalculation;
   public $kind;
   public $latestTicketingTime;
-  protected $passengersType = 'Google_Service_QPXExpress_PassengerCounts';
+  protected $passengersType = '\GoogleApiServices\Google_Service_QPXExpress_PassengerCounts';
   protected $passengersDataType = '';
   public $ptc;
   public $refundable;
   public $saleFareTotal;
   public $saleTaxTotal;
   public $saleTotal;
-  protected $segmentPricingType = 'Google_Service_QPXExpress_SegmentPricing';
+  protected $segmentPricingType = '\GoogleApiServices\Google_Service_QPXExpress_SegmentPricing';
   protected $segmentPricingDataType = 'array';
-  protected $taxType = 'Google_Service_QPXExpress_TaxInfo';
+  protected $taxType = '\GoogleApiServices\Google_Service_QPXExpress_TaxInfo';
   protected $taxDataType = 'array';
 
   public function setBaseFareTotal($baseFareTotal)

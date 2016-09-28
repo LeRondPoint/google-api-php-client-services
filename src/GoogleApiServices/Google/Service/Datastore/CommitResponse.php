@@ -19,7 +19,7 @@ class Google_Service_Datastore_CommitResponse extends \GoogleApi\Google_Collecti
 {
   protected $collection_key = 'mutationResults';
   public $indexUpdates;
-  protected $mutationResultsType = 'Google_Service_Datastore_MutationResult';
+  protected $mutationResultsType = '\GoogleApiServices\Google_Service_Datastore_MutationResult';
   protected $mutationResultsDataType = 'array';
 
   public function setIndexUpdates($indexUpdates)

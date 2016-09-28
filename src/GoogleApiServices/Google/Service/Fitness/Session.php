@@ -19,7 +19,7 @@ class Google_Service_Fitness_Session extends \GoogleApi\Google_Model
 {
   public $activeTimeMillis;
   public $activityType;
-  protected $applicationType = 'Google_Service_Fitness_Application';
+  protected $applicationType = '\GoogleApiServices\Google_Service_Fitness_Application';
   protected $applicationDataType = '';
   public $description;
   public $endTimeMillis;

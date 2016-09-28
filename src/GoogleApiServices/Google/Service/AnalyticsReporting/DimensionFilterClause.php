@@ -18,7 +18,7 @@
 class Google_Service_AnalyticsReporting_DimensionFilterClause extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filters';
-  protected $filtersType = 'Google_Service_AnalyticsReporting_DimensionFilter';
+  protected $filtersType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DimensionFilter';
   protected $filtersDataType = 'array';
   public $operator;
 

@@ -18,9 +18,9 @@
 class Google_Service_Datastore_LookupRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'keys';
-  protected $keysType = 'Google_Service_Datastore_Key';
+  protected $keysType = '\GoogleApiServices\Google_Service_Datastore_Key';
   protected $keysDataType = 'array';
-  protected $readOptionsType = 'Google_Service_Datastore_ReadOptions';
+  protected $readOptionsType = '\GoogleApiServices\Google_Service_Datastore_ReadOptions';
   protected $readOptionsDataType = '';
 
   public function setKeys($keys)

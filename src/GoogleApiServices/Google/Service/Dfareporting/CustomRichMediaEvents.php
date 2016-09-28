@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CustomRichMediaEvents extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filteredEventIds';
-  protected $filteredEventIdsType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $filteredEventIdsType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $filteredEventIdsDataType = 'array';
   public $kind;
 

@@ -17,7 +17,7 @@
 
 class Google_Service_ServiceManagement_SubmitConfigSourceResponse extends \GoogleApi\Google_Model
 {
-  protected $serviceConfigType = 'Google_Service_ServiceManagement_Service';
+  protected $serviceConfigType = '\GoogleApiServices\Google_Service_ServiceManagement_Service';
   protected $serviceConfigDataType = '';
 
   public function setServiceConfig(Google_Service_ServiceManagement_Service $serviceConfig)

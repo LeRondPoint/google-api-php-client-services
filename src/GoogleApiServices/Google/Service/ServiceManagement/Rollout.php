@@ -19,12 +19,12 @@ class Google_Service_ServiceManagement_Rollout extends \GoogleApi\Google_Model
 {
   public $createTime;
   public $createdBy;
-  protected $deleteServiceStrategyType = 'Google_Service_ServiceManagement_DeleteServiceStrategy';
+  protected $deleteServiceStrategyType = '\GoogleApiServices\Google_Service_ServiceManagement_DeleteServiceStrategy';
   protected $deleteServiceStrategyDataType = '';
   public $rolloutId;
   public $serviceName;
   public $status;
-  protected $trafficPercentStrategyType = 'Google_Service_ServiceManagement_TrafficPercentStrategy';
+  protected $trafficPercentStrategyType = '\GoogleApiServices\Google_Service_ServiceManagement_TrafficPercentStrategy';
   protected $trafficPercentStrategyDataType = '';
 
   public function setCreateTime($createTime)

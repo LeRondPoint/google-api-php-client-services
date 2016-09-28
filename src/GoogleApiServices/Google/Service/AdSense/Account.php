@@ -26,7 +26,7 @@ class Google_Service_AdSense_Account extends \GoogleApi\Google_Collection
   public $kind;
   public $name;
   public $premium;
-  protected $subAccountsType = 'Google_Service_AdSense_Account';
+  protected $subAccountsType = '\GoogleApiServices\Google_Service_AdSense_Account';
   protected $subAccountsDataType = 'array';
   public $timezone;
 

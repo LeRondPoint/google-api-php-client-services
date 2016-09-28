@@ -17,7 +17,7 @@
 
 class Google_Service_CloudDebugger_UpdateActiveBreakpointRequest extends \GoogleApi\Google_Model
 {
-  protected $breakpointType = 'Google_Service_CloudDebugger_Breakpoint';
+  protected $breakpointType = '\GoogleApiServices\Google_Service_CloudDebugger_Breakpoint';
   protected $breakpointDataType = '';
 
   public function setBreakpoint(Google_Service_CloudDebugger_Breakpoint $breakpoint)

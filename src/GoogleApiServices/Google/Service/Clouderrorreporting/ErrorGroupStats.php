@@ -18,18 +18,18 @@
 class Google_Service_Clouderrorreporting_ErrorGroupStats extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'timedCounts';
-  protected $affectedServicesType = 'Google_Service_Clouderrorreporting_ServiceContext';
+  protected $affectedServicesType = '\GoogleApiServices\Google_Service_Clouderrorreporting_ServiceContext';
   protected $affectedServicesDataType = 'array';
   public $affectedUsersCount;
   public $count;
   public $firstSeenTime;
-  protected $groupType = 'Google_Service_Clouderrorreporting_ErrorGroup';
+  protected $groupType = '\GoogleApiServices\Google_Service_Clouderrorreporting_ErrorGroup';
   protected $groupDataType = '';
   public $lastSeenTime;
   public $numAffectedServices;
-  protected $representativeType = 'Google_Service_Clouderrorreporting_ErrorEvent';
+  protected $representativeType = '\GoogleApiServices\Google_Service_Clouderrorreporting_ErrorEvent';
   protected $representativeDataType = '';
-  protected $timedCountsType = 'Google_Service_Clouderrorreporting_TimedCount';
+  protected $timedCountsType = '\GoogleApiServices\Google_Service_Clouderrorreporting_TimedCount';
   protected $timedCountsDataType = 'array';
 
   public function setAffectedServices($affectedServices)

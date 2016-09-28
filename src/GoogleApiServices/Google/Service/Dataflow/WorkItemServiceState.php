@@ -20,15 +20,15 @@ class Google_Service_Dataflow_WorkItemServiceState extends \GoogleApi\Google_Col
   protected $collection_key = 'metricShortId';
   public $harnessData;
   public $leaseExpireTime;
-  protected $metricShortIdType = 'Google_Service_Dataflow_MetricShortId';
+  protected $metricShortIdType = '\GoogleApiServices\Google_Service_Dataflow_MetricShortId';
   protected $metricShortIdDataType = 'array';
   public $nextReportIndex;
   public $reportStatusInterval;
-  protected $splitRequestType = 'Google_Service_Dataflow_ApproximateSplitRequest';
+  protected $splitRequestType = '\GoogleApiServices\Google_Service_Dataflow_ApproximateSplitRequest';
   protected $splitRequestDataType = '';
-  protected $suggestedStopPointType = 'Google_Service_Dataflow_ApproximateProgress';
+  protected $suggestedStopPointType = '\GoogleApiServices\Google_Service_Dataflow_ApproximateProgress';
   protected $suggestedStopPointDataType = '';
-  protected $suggestedStopPositionType = 'Google_Service_Dataflow_Position';
+  protected $suggestedStopPositionType = '\GoogleApiServices\Google_Service_Dataflow_Position';
   protected $suggestedStopPositionDataType = '';
 
   public function setHarnessData($harnessData)

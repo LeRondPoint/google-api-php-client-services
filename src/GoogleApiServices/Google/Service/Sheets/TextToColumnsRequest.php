@@ -19,7 +19,7 @@ class Google_Service_Sheets_TextToColumnsRequest extends \GoogleApi\Google_Model
 {
   public $delimiter;
   public $delimiterType;
-  protected $sourceType = 'Google_Service_Sheets_GridRange';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $sourceDataType = '';
 
   public function setDelimiter($delimiter)

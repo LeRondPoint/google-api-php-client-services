@@ -19,7 +19,7 @@ class Google_Service_Dataflow_StreamingComputationConfig extends \GoogleApi\Goog
 {
   protected $collection_key = 'instructions';
   public $computationId;
-  protected $instructionsType = 'Google_Service_Dataflow_ParallelInstruction';
+  protected $instructionsType = '\GoogleApiServices\Google_Service_Dataflow_ParallelInstruction';
   protected $instructionsDataType = 'array';
   public $stageName;
   public $systemName;

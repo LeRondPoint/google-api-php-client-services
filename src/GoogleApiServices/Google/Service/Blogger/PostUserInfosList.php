@@ -18,7 +18,7 @@
 class Google_Service_Blogger_PostUserInfosList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Blogger_PostUserInfo';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Blogger_PostUserInfo';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

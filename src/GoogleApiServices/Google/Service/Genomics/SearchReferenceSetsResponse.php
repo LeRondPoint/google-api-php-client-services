@@ -19,7 +19,7 @@ class Google_Service_Genomics_SearchReferenceSetsResponse extends \GoogleApi\Goo
 {
   protected $collection_key = 'referenceSets';
   public $nextPageToken;
-  protected $referenceSetsType = 'Google_Service_Genomics_ReferenceSet';
+  protected $referenceSetsType = '\GoogleApiServices\Google_Service_Genomics_ReferenceSet';
   protected $referenceSetsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

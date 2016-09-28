@@ -18,7 +18,7 @@
 class Google_Service_Books_VolumeseriesinfoVolumeSeries extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'issue';
-  protected $issueType = 'Google_Service_Books_VolumeseriesinfoVolumeSeriesIssue';
+  protected $issueType = '\GoogleApiServices\Google_Service_Books_VolumeseriesinfoVolumeSeriesIssue';
   protected $issueDataType = 'array';
   public $orderNumber;
   public $seriesBookType;

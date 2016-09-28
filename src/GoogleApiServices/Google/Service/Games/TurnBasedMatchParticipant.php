@@ -18,11 +18,11 @@
 class Google_Service_Games_TurnBasedMatchParticipant extends \GoogleApi\Google_Model
 {
   public $autoMatched;
-  protected $autoMatchedPlayerType = 'Google_Service_Games_AnonymousPlayer';
+  protected $autoMatchedPlayerType = '\GoogleApiServices\Google_Service_Games_AnonymousPlayer';
   protected $autoMatchedPlayerDataType = '';
   public $id;
   public $kind;
-  protected $playerType = 'Google_Service_Games_Player';
+  protected $playerType = '\GoogleApiServices\Google_Service_Games_Player';
   protected $playerDataType = '';
   public $status;
 

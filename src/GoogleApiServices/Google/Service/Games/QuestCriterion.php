@@ -17,12 +17,12 @@
 
 class Google_Service_Games_QuestCriterion extends \GoogleApi\Google_Model
 {
-  protected $completionContributionType = 'Google_Service_Games_QuestContribution';
+  protected $completionContributionType = '\GoogleApiServices\Google_Service_Games_QuestContribution';
   protected $completionContributionDataType = '';
-  protected $currentContributionType = 'Google_Service_Games_QuestContribution';
+  protected $currentContributionType = '\GoogleApiServices\Google_Service_Games_QuestContribution';
   protected $currentContributionDataType = '';
   public $eventId;
-  protected $initialPlayerProgressType = 'Google_Service_Games_QuestContribution';
+  protected $initialPlayerProgressType = '\GoogleApiServices\Google_Service_Games_QuestContribution';
   protected $initialPlayerProgressDataType = '';
   public $kind;
 

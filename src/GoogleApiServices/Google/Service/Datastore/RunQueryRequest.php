@@ -17,13 +17,13 @@
 
 class Google_Service_Datastore_RunQueryRequest extends \GoogleApi\Google_Model
 {
-  protected $gqlQueryType = 'Google_Service_Datastore_GqlQuery';
+  protected $gqlQueryType = '\GoogleApiServices\Google_Service_Datastore_GqlQuery';
   protected $gqlQueryDataType = '';
-  protected $partitionIdType = 'Google_Service_Datastore_PartitionId';
+  protected $partitionIdType = '\GoogleApiServices\Google_Service_Datastore_PartitionId';
   protected $partitionIdDataType = '';
-  protected $queryType = 'Google_Service_Datastore_Query';
+  protected $queryType = '\GoogleApiServices\Google_Service_Datastore_Query';
   protected $queryDataType = '';
-  protected $readOptionsType = 'Google_Service_Datastore_ReadOptions';
+  protected $readOptionsType = '\GoogleApiServices\Google_Service_Datastore_ReadOptions';
   protected $readOptionsDataType = '';
 
   public function setGqlQuery(Google_Service_Datastore_GqlQuery $gqlQuery)

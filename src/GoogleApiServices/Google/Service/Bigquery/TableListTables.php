@@ -20,7 +20,7 @@ class Google_Service_Bigquery_TableListTables extends \GoogleApi\Google_Model
   public $friendlyName;
   public $id;
   public $kind;
-  protected $tableReferenceType = 'Google_Service_Bigquery_TableReference';
+  protected $tableReferenceType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $tableReferenceDataType = '';
   public $type;
 

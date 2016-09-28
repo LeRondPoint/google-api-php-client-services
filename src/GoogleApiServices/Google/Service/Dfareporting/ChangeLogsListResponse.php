@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_ChangeLogsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'changeLogs';
-  protected $changeLogsType = 'Google_Service_Dfareporting_ChangeLog';
+  protected $changeLogsType = '\GoogleApiServices\Google_Service_Dfareporting_ChangeLog';
   protected $changeLogsDataType = 'array';
   public $kind;
   public $nextPageToken;

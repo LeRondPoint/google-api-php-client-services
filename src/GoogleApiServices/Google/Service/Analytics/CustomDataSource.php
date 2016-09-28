@@ -19,7 +19,7 @@ class Google_Service_Analytics_CustomDataSource extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'profilesLinked';
   public $accountId;
-  protected $childLinkType = 'Google_Service_Analytics_CustomDataSourceChildLink';
+  protected $childLinkType = '\GoogleApiServices\Google_Service_Analytics_CustomDataSourceChildLink';
   protected $childLinkDataType = '';
   public $created;
   public $description;
@@ -27,7 +27,7 @@ class Google_Service_Analytics_CustomDataSource extends \GoogleApi\Google_Collec
   public $importBehavior;
   public $kind;
   public $name;
-  protected $parentLinkType = 'Google_Service_Analytics_CustomDataSourceParentLink';
+  protected $parentLinkType = '\GoogleApiServices\Google_Service_Analytics_CustomDataSourceParentLink';
   protected $parentLinkDataType = '';
   public $profilesLinked;
   public $selfLink;

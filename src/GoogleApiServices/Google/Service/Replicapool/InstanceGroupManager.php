@@ -18,7 +18,7 @@
 class Google_Service_Replicapool_InstanceGroupManager extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'targetPools';
-  protected $autoHealingPoliciesType = 'Google_Service_Replicapool_ReplicaPoolAutoHealingPolicy';
+  protected $autoHealingPoliciesType = '\GoogleApiServices\Google_Service_Replicapool_ReplicaPoolAutoHealingPolicy';
   protected $autoHealingPoliciesDataType = 'array';
   public $baseInstanceName;
   public $creationTimestamp;

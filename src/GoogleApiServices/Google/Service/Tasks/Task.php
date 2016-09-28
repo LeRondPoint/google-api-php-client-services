@@ -25,7 +25,7 @@ class Google_Service_Tasks_Task extends \GoogleApi\Google_Collection
   public $hidden;
   public $id;
   public $kind;
-  protected $linksType = 'Google_Service_Tasks_TaskLinks';
+  protected $linksType = '\GoogleApiServices\Google_Service_Tasks_TaskLinks';
   protected $linksDataType = 'array';
   public $notes;
   public $parent;

@@ -17,10 +17,10 @@
 
 class Google_Service_Manager_Template extends \GoogleApi\Google_Model
 {
-  protected $actionsType = 'Google_Service_Manager_Action';
+  protected $actionsType = '\GoogleApiServices\Google_Service_Manager_Action';
   protected $actionsDataType = 'map';
   public $description;
-  protected $modulesType = 'Google_Service_Manager_Module';
+  protected $modulesType = '\GoogleApiServices\Google_Service_Manager_Module';
   protected $modulesDataType = 'map';
   public $name;
 

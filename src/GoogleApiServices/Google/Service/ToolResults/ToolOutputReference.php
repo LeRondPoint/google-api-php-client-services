@@ -17,11 +17,11 @@
 
 class Google_Service_ToolResults_ToolOutputReference extends \GoogleApi\Google_Model
 {
-  protected $creationTimeType = 'Google_Service_ToolResults_Timestamp';
+  protected $creationTimeType = '\GoogleApiServices\Google_Service_ToolResults_Timestamp';
   protected $creationTimeDataType = '';
-  protected $outputType = 'Google_Service_ToolResults_FileReference';
+  protected $outputType = '\GoogleApiServices\Google_Service_ToolResults_FileReference';
   protected $outputDataType = '';
-  protected $testCaseType = 'Google_Service_ToolResults_TestCaseReference';
+  protected $testCaseType = '\GoogleApiServices\Google_Service_ToolResults_TestCaseReference';
   protected $testCaseDataType = '';
 
   public function setCreationTime(Google_Service_ToolResults_Timestamp $creationTime)

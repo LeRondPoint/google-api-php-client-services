@@ -17,7 +17,7 @@
 
 class Google_Service_CloudNaturalLanguageAPI_AnalyzeEntitiesRequest extends \GoogleApi\Google_Model
 {
-  protected $documentType = 'Google_Service_CloudNaturalLanguageAPI_Document';
+  protected $documentType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Document';
   protected $documentDataType = '';
   public $encodingType;
 

@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_NotificationSet extends \GoogleApi\Google
 {
   protected $collection_key = 'notification';
   public $kind;
-  protected $notificationType = 'Google_Service_AndroidEnterprise_Notification';
+  protected $notificationType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Notification';
   protected $notificationDataType = 'array';
   public $notificationSetId;
 

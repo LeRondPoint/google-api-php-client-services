@@ -18,7 +18,7 @@
 class Google_Service_Replicapoolupdater_RollingUpdateError extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorsType = 'Google_Service_Replicapoolupdater_RollingUpdateErrorErrors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Replicapoolupdater_RollingUpdateErrorErrors';
   protected $errorsDataType = 'array';
 
   public function setErrors($errors)

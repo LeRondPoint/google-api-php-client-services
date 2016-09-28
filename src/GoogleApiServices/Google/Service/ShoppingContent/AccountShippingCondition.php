@@ -20,12 +20,12 @@ class Google_Service_ShoppingContent_AccountShippingCondition extends \GoogleApi
   public $deliveryLocationGroup;
   public $deliveryLocationId;
   public $deliveryPostalCode;
-  protected $deliveryPostalCodeRangeType = 'Google_Service_ShoppingContent_AccountShippingPostalCodeRange';
+  protected $deliveryPostalCodeRangeType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingPostalCodeRange';
   protected $deliveryPostalCodeRangeDataType = '';
-  protected $priceMaxType = 'Google_Service_ShoppingContent_Price';
+  protected $priceMaxType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $priceMaxDataType = '';
   public $shippingLabel;
-  protected $weightMaxType = 'Google_Service_ShoppingContent_Weight';
+  protected $weightMaxType = '\GoogleApiServices\Google_Service_ShoppingContent_Weight';
   protected $weightMaxDataType = '';
 
   public function setDeliveryLocationGroup($deliveryLocationGroup)

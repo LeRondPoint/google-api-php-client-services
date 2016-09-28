@@ -19,7 +19,7 @@ class Google_Service_Compute_MachineTypeList extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_MachineType';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_MachineType';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

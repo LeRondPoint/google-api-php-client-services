@@ -21,7 +21,7 @@ class Google_Service_Analytics_GoalUrlDestinationDetails extends \GoogleApi\Goog
   public $caseSensitive;
   public $firstStepRequired;
   public $matchType;
-  protected $stepsType = 'Google_Service_Analytics_GoalUrlDestinationDetailsSteps';
+  protected $stepsType = '\GoogleApiServices\Google_Service_Analytics_GoalUrlDestinationDetailsSteps';
   protected $stepsDataType = 'array';
   public $url;
 

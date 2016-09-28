@@ -22,9 +22,9 @@ class Google_Service_Dataflow_Job extends \GoogleApi\Google_Collection
   public $createTime;
   public $currentState;
   public $currentStateTime;
-  protected $environmentType = 'Google_Service_Dataflow_Environment';
+  protected $environmentType = '\GoogleApiServices\Google_Service_Dataflow_Environment';
   protected $environmentDataType = '';
-  protected $executionInfoType = 'Google_Service_Dataflow_JobExecutionInfo';
+  protected $executionInfoType = '\GoogleApiServices\Google_Service_Dataflow_JobExecutionInfo';
   protected $executionInfoDataType = '';
   public $id;
   public $labels;
@@ -33,7 +33,7 @@ class Google_Service_Dataflow_Job extends \GoogleApi\Google_Collection
   public $replaceJobId;
   public $replacedByJobId;
   public $requestedState;
-  protected $stepsType = 'Google_Service_Dataflow_Step';
+  protected $stepsType = '\GoogleApiServices\Google_Service_Dataflow_Step';
   protected $stepsDataType = 'array';
   public $tempFiles;
   public $transformNameMapping;

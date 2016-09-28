@@ -24,7 +24,7 @@ class Google_Service_Prediction_Insert extends \GoogleApi\Google_Collection
   public $storageDataLocation;
   public $storagePMMLLocation;
   public $storagePMMLModelLocation;
-  protected $trainingInstancesType = 'Google_Service_Prediction_InsertTrainingInstances';
+  protected $trainingInstancesType = '\GoogleApiServices\Google_Service_Prediction_InsertTrainingInstances';
   protected $trainingInstancesDataType = 'array';
   public $utility;
 

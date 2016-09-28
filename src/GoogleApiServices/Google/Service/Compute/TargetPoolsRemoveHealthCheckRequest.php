@@ -18,7 +18,7 @@
 class Google_Service_Compute_TargetPoolsRemoveHealthCheckRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'healthChecks';
-  protected $healthChecksType = 'Google_Service_Compute_HealthCheckReference';
+  protected $healthChecksType = '\GoogleApiServices\Google_Service_Compute_HealthCheckReference';
   protected $healthChecksDataType = 'array';
 
   public function setHealthChecks($healthChecks)

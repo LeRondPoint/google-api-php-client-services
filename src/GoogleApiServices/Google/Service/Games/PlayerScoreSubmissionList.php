@@ -19,7 +19,7 @@ class Google_Service_Games_PlayerScoreSubmissionList extends \GoogleApi\Google_C
 {
   protected $collection_key = 'scores';
   public $kind;
-  protected $scoresType = 'Google_Service_Games_ScoreSubmission';
+  protected $scoresType = '\GoogleApiServices\Google_Service_Games_ScoreSubmission';
   protected $scoresDataType = 'array';
 
   public function setKind($kind)

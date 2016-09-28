@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_DeveloperComment extends \GoogleApi\Google_Model
 {
-  protected $lastModifiedType = 'Google_Service_AndroidPublisher_Timestamp';
+  protected $lastModifiedType = '\GoogleApiServices\Google_Service_AndroidPublisher_Timestamp';
   protected $lastModifiedDataType = '';
   public $text;
 

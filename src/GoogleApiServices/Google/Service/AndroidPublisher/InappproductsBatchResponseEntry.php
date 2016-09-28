@@ -18,9 +18,9 @@
 class Google_Service_AndroidPublisher_InappproductsBatchResponseEntry extends \GoogleApi\Google_Model
 {
   public $batchId;
-  protected $inappproductsinsertresponseType = 'Google_Service_AndroidPublisher_InappproductsInsertResponse';
+  protected $inappproductsinsertresponseType = '\GoogleApiServices\Google_Service_AndroidPublisher_InappproductsInsertResponse';
   protected $inappproductsinsertresponseDataType = '';
-  protected $inappproductsupdateresponseType = 'Google_Service_AndroidPublisher_InappproductsUpdateResponse';
+  protected $inappproductsupdateresponseType = '\GoogleApiServices\Google_Service_AndroidPublisher_InappproductsUpdateResponse';
   protected $inappproductsupdateresponseDataType = '';
 
   public function setBatchId($batchId)

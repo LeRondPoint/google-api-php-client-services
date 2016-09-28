@@ -18,13 +18,13 @@
 class Google_Service_Datastore_Mutation extends \GoogleApi\Google_Model
 {
   public $baseVersion;
-  protected $deleteType = 'Google_Service_Datastore_Key';
+  protected $deleteType = '\GoogleApiServices\Google_Service_Datastore_Key';
   protected $deleteDataType = '';
-  protected $insertType = 'Google_Service_Datastore_Entity';
+  protected $insertType = '\GoogleApiServices\Google_Service_Datastore_Entity';
   protected $insertDataType = '';
-  protected $updateType = 'Google_Service_Datastore_Entity';
+  protected $updateType = '\GoogleApiServices\Google_Service_Datastore_Entity';
   protected $updateDataType = '';
-  protected $upsertType = 'Google_Service_Datastore_Entity';
+  protected $upsertType = '\GoogleApiServices\Google_Service_Datastore_Entity';
   protected $upsertDataType = '';
 
   public function setBaseVersion($baseVersion)

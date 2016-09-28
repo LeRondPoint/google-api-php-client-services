@@ -19,7 +19,7 @@ class Google_Service_ServiceManagement_ListServiceRolloutsResponse extends \Goog
 {
   protected $collection_key = 'rollouts';
   public $nextPageToken;
-  protected $rolloutsType = 'Google_Service_ServiceManagement_Rollout';
+  protected $rolloutsType = '\GoogleApiServices\Google_Service_ServiceManagement_Rollout';
   protected $rolloutsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

@@ -18,9 +18,9 @@
 class Google_Service_AdExchangeBuyer_PricePerBuyer extends \GoogleApi\Google_Model
 {
   public $auctionTier;
-  protected $buyerType = 'Google_Service_AdExchangeBuyer_Buyer';
+  protected $buyerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Buyer';
   protected $buyerDataType = '';
-  protected $priceType = 'Google_Service_AdExchangeBuyer_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Price';
   protected $priceDataType = '';
 
   public function setAuctionTier($auctionTier)

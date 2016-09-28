@@ -18,9 +18,9 @@
 class Google_Service_Games_TurnBasedMatchRematch extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $previousMatchType = 'Google_Service_Games_TurnBasedMatch';
+  protected $previousMatchType = '\GoogleApiServices\Google_Service_Games_TurnBasedMatch';
   protected $previousMatchDataType = '';
-  protected $rematchType = 'Google_Service_Games_TurnBasedMatch';
+  protected $rematchType = '\GoogleApiServices\Google_Service_Games_TurnBasedMatch';
   protected $rematchDataType = '';
 
   public function setKind($kind)

@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_AdvertisersListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'advertisers';
-  protected $advertisersType = 'Google_Service_Dfareporting_Advertiser';
+  protected $advertisersType = '\GoogleApiServices\Google_Service_Dfareporting_Advertiser';
   protected $advertisersDataType = 'array';
   public $kind;
   public $nextPageToken;

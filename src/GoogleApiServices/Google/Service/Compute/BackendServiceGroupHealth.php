@@ -18,7 +18,7 @@
 class Google_Service_Compute_BackendServiceGroupHealth extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'healthStatus';
-  protected $healthStatusType = 'Google_Service_Compute_HealthStatus';
+  protected $healthStatusType = '\GoogleApiServices\Google_Service_Compute_HealthStatus';
   protected $healthStatusDataType = 'array';
   public $kind;
 

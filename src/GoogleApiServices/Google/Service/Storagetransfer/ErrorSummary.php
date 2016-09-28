@@ -20,7 +20,7 @@ class Google_Service_Storagetransfer_ErrorSummary extends \GoogleApi\Google_Coll
   protected $collection_key = 'errorLogEntries';
   public $errorCode;
   public $errorCount;
-  protected $errorLogEntriesType = 'Google_Service_Storagetransfer_ErrorLogEntry';
+  protected $errorLogEntriesType = '\GoogleApiServices\Google_Service_Storagetransfer_ErrorLogEntry';
   protected $errorLogEntriesDataType = 'array';
 
   public function setErrorCode($errorCode)

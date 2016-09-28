@@ -18,9 +18,9 @@
 class Google_Service_Dataflow_TopologyConfig extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dataDiskAssignments';
-  protected $computationsType = 'Google_Service_Dataflow_ComputationTopology';
+  protected $computationsType = '\GoogleApiServices\Google_Service_Dataflow_ComputationTopology';
   protected $computationsDataType = 'array';
-  protected $dataDiskAssignmentsType = 'Google_Service_Dataflow_DataDiskAssignment';
+  protected $dataDiskAssignmentsType = '\GoogleApiServices\Google_Service_Dataflow_DataDiskAssignment';
   protected $dataDiskAssignmentsDataType = 'array';
   public $forwardingKeyBits;
   public $persistentStateVersion;

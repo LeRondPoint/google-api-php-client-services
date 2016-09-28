@@ -18,7 +18,7 @@
 class Google_Service_Games_RoomList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Games_Room';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Games_Room';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

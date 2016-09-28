@@ -18,12 +18,12 @@
 class Google_Service_Mirror_TimelineItem extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'recipients';
-  protected $attachmentsType = 'Google_Service_Mirror_Attachment';
+  protected $attachmentsType = '\GoogleApiServices\Google_Service_Mirror_Attachment';
   protected $attachmentsDataType = 'array';
   public $bundleId;
   public $canonicalUrl;
   public $created;
-  protected $creatorType = 'Google_Service_Mirror_Contact';
+  protected $creatorType = '\GoogleApiServices\Google_Service_Mirror_Contact';
   protected $creatorDataType = '';
   public $displayTime;
   public $etag;
@@ -34,14 +34,14 @@ class Google_Service_Mirror_TimelineItem extends \GoogleApi\Google_Collection
   public $isDeleted;
   public $isPinned;
   public $kind;
-  protected $locationType = 'Google_Service_Mirror_Location';
+  protected $locationType = '\GoogleApiServices\Google_Service_Mirror_Location';
   protected $locationDataType = '';
-  protected $menuItemsType = 'Google_Service_Mirror_MenuItem';
+  protected $menuItemsType = '\GoogleApiServices\Google_Service_Mirror_MenuItem';
   protected $menuItemsDataType = 'array';
-  protected $notificationType = 'Google_Service_Mirror_NotificationConfig';
+  protected $notificationType = '\GoogleApiServices\Google_Service_Mirror_NotificationConfig';
   protected $notificationDataType = '';
   public $pinScore;
-  protected $recipientsType = 'Google_Service_Mirror_Contact';
+  protected $recipientsType = '\GoogleApiServices\Google_Service_Mirror_Contact';
   protected $recipientsDataType = 'array';
   public $selfLink;
   public $sourceItemId;

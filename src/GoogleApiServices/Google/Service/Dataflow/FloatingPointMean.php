@@ -17,7 +17,7 @@
 
 class Google_Service_Dataflow_FloatingPointMean extends \GoogleApi\Google_Model
 {
-  protected $countType = 'Google_Service_Dataflow_SplitInt64';
+  protected $countType = '\GoogleApiServices\Google_Service_Dataflow_SplitInt64';
   protected $countDataType = '';
   public $sum;
 

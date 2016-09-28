@@ -18,22 +18,22 @@
 class Google_Service_Sheets_CellData extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'textFormatRuns';
-  protected $dataValidationType = 'Google_Service_Sheets_DataValidationRule';
+  protected $dataValidationType = '\GoogleApiServices\Google_Service_Sheets_DataValidationRule';
   protected $dataValidationDataType = '';
-  protected $effectiveFormatType = 'Google_Service_Sheets_CellFormat';
+  protected $effectiveFormatType = '\GoogleApiServices\Google_Service_Sheets_CellFormat';
   protected $effectiveFormatDataType = '';
-  protected $effectiveValueType = 'Google_Service_Sheets_ExtendedValue';
+  protected $effectiveValueType = '\GoogleApiServices\Google_Service_Sheets_ExtendedValue';
   protected $effectiveValueDataType = '';
   public $formattedValue;
   public $hyperlink;
   public $note;
-  protected $pivotTableType = 'Google_Service_Sheets_PivotTable';
+  protected $pivotTableType = '\GoogleApiServices\Google_Service_Sheets_PivotTable';
   protected $pivotTableDataType = '';
-  protected $textFormatRunsType = 'Google_Service_Sheets_TextFormatRun';
+  protected $textFormatRunsType = '\GoogleApiServices\Google_Service_Sheets_TextFormatRun';
   protected $textFormatRunsDataType = 'array';
-  protected $userEnteredFormatType = 'Google_Service_Sheets_CellFormat';
+  protected $userEnteredFormatType = '\GoogleApiServices\Google_Service_Sheets_CellFormat';
   protected $userEnteredFormatDataType = '';
-  protected $userEnteredValueType = 'Google_Service_Sheets_ExtendedValue';
+  protected $userEnteredValueType = '\GoogleApiServices\Google_Service_Sheets_ExtendedValue';
   protected $userEnteredValueDataType = '';
 
   public function setDataValidation(Google_Service_Sheets_DataValidationRule $dataValidation)

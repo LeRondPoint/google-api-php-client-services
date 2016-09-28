@@ -19,14 +19,14 @@ class Google_Service_ShoppingContent_Account extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'users';
   public $adultContent;
-  protected $adwordsLinksType = 'Google_Service_ShoppingContent_AccountAdwordsLink';
+  protected $adwordsLinksType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountAdwordsLink';
   protected $adwordsLinksDataType = 'array';
   public $id;
   public $kind;
   public $name;
   public $reviewsUrl;
   public $sellerId;
-  protected $usersType = 'Google_Service_ShoppingContent_AccountUser';
+  protected $usersType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountUser';
   protected $usersDataType = 'array';
   public $websiteUrl;
 

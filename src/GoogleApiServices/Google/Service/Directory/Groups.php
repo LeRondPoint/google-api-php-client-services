@@ -19,7 +19,7 @@ class Google_Service_Directory_Groups extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'groups';
   public $etag;
-  protected $groupsType = 'Google_Service_Directory_Group';
+  protected $groupsType = '\GoogleApiServices\Google_Service_Directory_Group';
   protected $groupsDataType = 'array';
   public $kind;
   public $nextPageToken;

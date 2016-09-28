@@ -18,7 +18,7 @@
 class Google_Service_Sheets_BatchUpdateSpreadsheetResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'replies';
-  protected $repliesType = 'Google_Service_Sheets_Response';
+  protected $repliesType = '\GoogleApiServices\Google_Service_Sheets_Response';
   protected $repliesDataType = 'array';
   public $spreadsheetId;
 

@@ -18,7 +18,7 @@
 class Google_Service_Fitness_ListDataSourcesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dataSource';
-  protected $dataSourceType = 'Google_Service_Fitness_DataSource';
+  protected $dataSourceType = '\GoogleApiServices\Google_Service_Fitness_DataSource';
   protected $dataSourceDataType = 'array';
 
   public function setDataSource($dataSource)

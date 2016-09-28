@@ -19,7 +19,7 @@ class Google_Service_YouTube_SubscriptionSubscriberSnippet extends \GoogleApi\Go
 {
   public $channelId;
   public $description;
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

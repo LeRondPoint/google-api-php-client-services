@@ -21,7 +21,7 @@ class Google_Service_AndroidEnterprise_StorePage extends \GoogleApi\Google_Colle
   public $id;
   public $kind;
   public $link;
-  protected $nameType = 'Google_Service_AndroidEnterprise_LocalizedText';
+  protected $nameType = '\GoogleApiServices\Google_Service_AndroidEnterprise_LocalizedText';
   protected $nameDataType = 'array';
 
   public function setId($id)

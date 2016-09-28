@@ -19,7 +19,7 @@ class Google_Service_Compute_OperationWarnings extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

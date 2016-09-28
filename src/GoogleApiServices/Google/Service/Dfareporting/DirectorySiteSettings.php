@@ -22,7 +22,7 @@ class Google_Service_Dfareporting_DirectorySiteSettings extends \GoogleApi\Googl
         "instreamVideoPlacementAccepted" => "instream_video_placement_accepted",
   );
   public $activeViewOptOut;
-  protected $dfpSettingsType = 'Google_Service_Dfareporting_DfpSettings';
+  protected $dfpSettingsType = '\GoogleApiServices\Google_Service_Dfareporting_DfpSettings';
   protected $dfpSettingsDataType = '';
   public $instreamVideoPlacementAccepted;
   public $interstitialPlacementAccepted;

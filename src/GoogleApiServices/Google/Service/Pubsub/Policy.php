@@ -18,7 +18,7 @@
 class Google_Service_Pubsub_Policy extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'bindings';
-  protected $bindingsType = 'Google_Service_Pubsub_Binding';
+  protected $bindingsType = '\GoogleApiServices\Google_Service_Pubsub_Binding';
   protected $bindingsDataType = 'array';
   public $etag;
   public $version;

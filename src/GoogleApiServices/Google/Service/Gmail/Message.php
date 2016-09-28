@@ -22,7 +22,7 @@ class Google_Service_Gmail_Message extends \GoogleApi\Google_Collection
   public $id;
   public $internalDate;
   public $labelIds;
-  protected $payloadType = 'Google_Service_Gmail_MessagePart';
+  protected $payloadType = '\GoogleApiServices\Google_Service_Gmail_MessagePart';
   protected $payloadDataType = '';
   public $raw;
   public $sizeEstimate;

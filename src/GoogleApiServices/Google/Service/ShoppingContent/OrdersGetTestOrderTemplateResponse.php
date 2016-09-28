@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_OrdersGetTestOrderTemplateResponse extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $templateType = 'Google_Service_ShoppingContent_TestOrder';
+  protected $templateType = '\GoogleApiServices\Google_Service_ShoppingContent_TestOrder';
   protected $templateDataType = '';
 
   public function setKind($kind)

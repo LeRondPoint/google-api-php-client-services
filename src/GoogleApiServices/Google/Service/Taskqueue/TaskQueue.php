@@ -17,12 +17,12 @@
 
 class Google_Service_Taskqueue_TaskQueue extends \GoogleApi\Google_Model
 {
-  protected $aclType = 'Google_Service_Taskqueue_TaskQueueAcl';
+  protected $aclType = '\GoogleApiServices\Google_Service_Taskqueue_TaskQueueAcl';
   protected $aclDataType = '';
   public $id;
   public $kind;
   public $maxLeases;
-  protected $statsType = 'Google_Service_Taskqueue_TaskQueueStats';
+  protected $statsType = '\GoogleApiServices\Google_Service_Taskqueue_TaskQueueStats';
   protected $statsDataType = '';
 
   public function setAcl(Google_Service_Taskqueue_TaskQueueAcl $acl)

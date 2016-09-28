@@ -21,7 +21,7 @@ class Google_Service_Dfareporting_ReportDelivery extends \GoogleApi\Google_Colle
   public $emailOwner;
   public $emailOwnerDeliveryType;
   public $message;
-  protected $recipientsType = 'Google_Service_Dfareporting_Recipient';
+  protected $recipientsType = '\GoogleApiServices\Google_Service_Dfareporting_Recipient';
   protected $recipientsDataType = 'array';
 
   public function setEmailOwner($emailOwner)

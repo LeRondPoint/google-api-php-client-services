@@ -20,28 +20,28 @@ class Google_Service_Dfareporting_FloodlightConfiguration extends \GoogleApi\Goo
   protected $collection_key = 'userDefinedVariableConfigurations';
   public $accountId;
   public $advertiserId;
-  protected $advertiserIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $advertiserIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $advertiserIdDimensionValueDataType = '';
   public $analyticsDataSharingEnabled;
   public $exposureToConversionEnabled;
   public $firstDayOfWeek;
   public $id;
-  protected $idDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $idDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $idDimensionValueDataType = '';
   public $inAppAttributionTrackingEnabled;
   public $kind;
-  protected $lookbackConfigurationType = 'Google_Service_Dfareporting_LookbackConfiguration';
+  protected $lookbackConfigurationType = '\GoogleApiServices\Google_Service_Dfareporting_LookbackConfiguration';
   protected $lookbackConfigurationDataType = '';
   public $naturalSearchConversionAttributionOption;
-  protected $omnitureSettingsType = 'Google_Service_Dfareporting_OmnitureSettings';
+  protected $omnitureSettingsType = '\GoogleApiServices\Google_Service_Dfareporting_OmnitureSettings';
   protected $omnitureSettingsDataType = '';
   public $standardVariableTypes;
   public $subaccountId;
-  protected $tagSettingsType = 'Google_Service_Dfareporting_TagSettings';
+  protected $tagSettingsType = '\GoogleApiServices\Google_Service_Dfareporting_TagSettings';
   protected $tagSettingsDataType = '';
-  protected $thirdPartyAuthenticationTokensType = 'Google_Service_Dfareporting_ThirdPartyAuthenticationToken';
+  protected $thirdPartyAuthenticationTokensType = '\GoogleApiServices\Google_Service_Dfareporting_ThirdPartyAuthenticationToken';
   protected $thirdPartyAuthenticationTokensDataType = 'array';
-  protected $userDefinedVariableConfigurationsType = 'Google_Service_Dfareporting_UserDefinedVariableConfiguration';
+  protected $userDefinedVariableConfigurationsType = '\GoogleApiServices\Google_Service_Dfareporting_UserDefinedVariableConfiguration';
   protected $userDefinedVariableConfigurationsDataType = 'array';
 
   public function setAccountId($accountId)

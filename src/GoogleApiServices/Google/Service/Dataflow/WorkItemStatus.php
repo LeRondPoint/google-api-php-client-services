@@ -19,25 +19,25 @@ class Google_Service_Dataflow_WorkItemStatus extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'metricUpdates';
   public $completed;
-  protected $counterUpdatesType = 'Google_Service_Dataflow_CounterUpdate';
+  protected $counterUpdatesType = '\GoogleApiServices\Google_Service_Dataflow_CounterUpdate';
   protected $counterUpdatesDataType = 'array';
-  protected $dynamicSourceSplitType = 'Google_Service_Dataflow_DynamicSourceSplit';
+  protected $dynamicSourceSplitType = '\GoogleApiServices\Google_Service_Dataflow_DynamicSourceSplit';
   protected $dynamicSourceSplitDataType = '';
-  protected $errorsType = 'Google_Service_Dataflow_Status';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Dataflow_Status';
   protected $errorsDataType = 'array';
-  protected $metricUpdatesType = 'Google_Service_Dataflow_MetricUpdate';
+  protected $metricUpdatesType = '\GoogleApiServices\Google_Service_Dataflow_MetricUpdate';
   protected $metricUpdatesDataType = 'array';
-  protected $progressType = 'Google_Service_Dataflow_ApproximateProgress';
+  protected $progressType = '\GoogleApiServices\Google_Service_Dataflow_ApproximateProgress';
   protected $progressDataType = '';
   public $reportIndex;
-  protected $reportedProgressType = 'Google_Service_Dataflow_ApproximateReportedProgress';
+  protected $reportedProgressType = '\GoogleApiServices\Google_Service_Dataflow_ApproximateReportedProgress';
   protected $reportedProgressDataType = '';
   public $requestedLeaseDuration;
-  protected $sourceForkType = 'Google_Service_Dataflow_SourceFork';
+  protected $sourceForkType = '\GoogleApiServices\Google_Service_Dataflow_SourceFork';
   protected $sourceForkDataType = '';
-  protected $sourceOperationResponseType = 'Google_Service_Dataflow_SourceOperationResponse';
+  protected $sourceOperationResponseType = '\GoogleApiServices\Google_Service_Dataflow_SourceOperationResponse';
   protected $sourceOperationResponseDataType = '';
-  protected $stopPositionType = 'Google_Service_Dataflow_Position';
+  protected $stopPositionType = '\GoogleApiServices\Google_Service_Dataflow_Position';
   protected $stopPositionDataType = '';
   public $workItemId;
 

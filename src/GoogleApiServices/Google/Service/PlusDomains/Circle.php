@@ -22,7 +22,7 @@ class Google_Service_PlusDomains_Circle extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $peopleType = 'Google_Service_PlusDomains_CirclePeople';
+  protected $peopleType = '\GoogleApiServices\Google_Service_PlusDomains_CirclePeople';
   protected $peopleDataType = '';
   public $selfLink;
 

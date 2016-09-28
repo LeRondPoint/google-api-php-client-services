@@ -18,7 +18,7 @@
 class Google_Service_Sheets_RowData extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'values';
-  protected $valuesType = 'Google_Service_Sheets_CellData';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Sheets_CellData';
   protected $valuesDataType = 'array';
 
   public function setValues($values)

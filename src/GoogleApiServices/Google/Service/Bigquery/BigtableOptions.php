@@ -18,7 +18,7 @@
 class Google_Service_Bigquery_BigtableOptions extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'columnFamilies';
-  protected $columnFamiliesType = 'Google_Service_Bigquery_BigtableColumnFamily';
+  protected $columnFamiliesType = '\GoogleApiServices\Google_Service_Bigquery_BigtableColumnFamily';
   protected $columnFamiliesDataType = 'array';
   public $ignoreUnspecifiedColumnFamilies;
   public $readRowkeyAsString;

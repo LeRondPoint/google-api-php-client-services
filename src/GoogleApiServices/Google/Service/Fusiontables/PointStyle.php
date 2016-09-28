@@ -18,7 +18,7 @@
 class Google_Service_Fusiontables_PointStyle extends \GoogleApi\Google_Model
 {
   public $iconName;
-  protected $iconStylerType = 'Google_Service_Fusiontables_StyleFunction';
+  protected $iconStylerType = '\GoogleApiServices\Google_Service_Fusiontables_StyleFunction';
   protected $iconStylerDataType = '';
 
   public function setIconName($iconName)

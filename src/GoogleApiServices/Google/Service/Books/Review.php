@@ -17,14 +17,14 @@
 
 class Google_Service_Books_Review extends \GoogleApi\Google_Model
 {
-  protected $authorType = 'Google_Service_Books_ReviewAuthor';
+  protected $authorType = '\GoogleApiServices\Google_Service_Books_ReviewAuthor';
   protected $authorDataType = '';
   public $content;
   public $date;
   public $fullTextUrl;
   public $kind;
   public $rating;
-  protected $sourceType = 'Google_Service_Books_ReviewSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Books_ReviewSource';
   protected $sourceDataType = '';
   public $title;
   public $type;

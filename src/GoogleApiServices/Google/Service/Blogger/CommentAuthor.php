@@ -19,7 +19,7 @@ class Google_Service_Blogger_CommentAuthor extends \GoogleApi\Google_Model
 {
   public $displayName;
   public $id;
-  protected $imageType = 'Google_Service_Blogger_CommentAuthorImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_Blogger_CommentAuthorImage';
   protected $imageDataType = '';
   public $url;
 

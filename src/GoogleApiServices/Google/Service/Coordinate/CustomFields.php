@@ -18,7 +18,7 @@
 class Google_Service_Coordinate_CustomFields extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'customField';
-  protected $customFieldType = 'Google_Service_Coordinate_CustomField';
+  protected $customFieldType = '\GoogleApiServices\Google_Service_Coordinate_CustomField';
   protected $customFieldDataType = 'array';
   public $kind;
 

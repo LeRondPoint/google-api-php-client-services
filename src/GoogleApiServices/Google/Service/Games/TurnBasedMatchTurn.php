@@ -18,12 +18,12 @@
 class Google_Service_Games_TurnBasedMatchTurn extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'results';
-  protected $dataType = 'Google_Service_Games_TurnBasedMatchDataRequest';
+  protected $dataType = '\GoogleApiServices\Google_Service_Games_TurnBasedMatchDataRequest';
   protected $dataDataType = '';
   public $kind;
   public $matchVersion;
   public $pendingParticipantId;
-  protected $resultsType = 'Google_Service_Games_ParticipantResult';
+  protected $resultsType = '\GoogleApiServices\Google_Service_Games_ParticipantResult';
   protected $resultsDataType = 'array';
 
   public function setData(Google_Service_Games_TurnBasedMatchDataRequest $data)

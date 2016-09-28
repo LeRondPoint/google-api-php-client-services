@@ -18,7 +18,7 @@
 class Google_Service_CloudSpeechAPI_SyncRecognizeResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'results';
-  protected $resultsType = 'Google_Service_CloudSpeechAPI_SpeechRecognitionResult';
+  protected $resultsType = '\GoogleApiServices\Google_Service_CloudSpeechAPI_SpeechRecognitionResult';
   protected $resultsDataType = 'array';
 
   public function setResults($results)

@@ -18,9 +18,9 @@
 class Google_Service_Analytics_GaDataDataTable extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $colsType = 'Google_Service_Analytics_GaDataDataTableCols';
+  protected $colsType = '\GoogleApiServices\Google_Service_Analytics_GaDataDataTableCols';
   protected $colsDataType = 'array';
-  protected $rowsType = 'Google_Service_Analytics_GaDataDataTableRows';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Analytics_GaDataDataTableRows';
   protected $rowsDataType = 'array';
 
   public function setCols($cols)

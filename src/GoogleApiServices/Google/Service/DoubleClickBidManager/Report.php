@@ -17,11 +17,11 @@
 
 class Google_Service_DoubleClickBidManager_Report extends \GoogleApi\Google_Model
 {
-  protected $keyType = 'Google_Service_DoubleClickBidManager_ReportKey';
+  protected $keyType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_ReportKey';
   protected $keyDataType = '';
-  protected $metadataType = 'Google_Service_DoubleClickBidManager_ReportMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_ReportMetadata';
   protected $metadataDataType = '';
-  protected $paramsType = 'Google_Service_DoubleClickBidManager_Parameters';
+  protected $paramsType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_Parameters';
   protected $paramsDataType = '';
 
   public function setKey(Google_Service_DoubleClickBidManager_ReportKey $key)

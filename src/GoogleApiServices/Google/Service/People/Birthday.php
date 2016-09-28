@@ -17,9 +17,9 @@
 
 class Google_Service_People_Birthday extends \GoogleApi\Google_Model
 {
-  protected $dateType = 'Google_Service_People_Date';
+  protected $dateType = '\GoogleApiServices\Google_Service_People_Date';
   protected $dateDataType = '';
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $text;
 

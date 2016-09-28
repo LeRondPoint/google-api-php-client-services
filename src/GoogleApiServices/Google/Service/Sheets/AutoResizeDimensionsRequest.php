@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_AutoResizeDimensionsRequest extends \GoogleApi\Google_Model
 {
-  protected $dimensionsType = 'Google_Service_Sheets_DimensionRange';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_Sheets_DimensionRange';
   protected $dimensionsDataType = '';
 
   public function setDimensions(Google_Service_Sheets_DimensionRange $dimensions)

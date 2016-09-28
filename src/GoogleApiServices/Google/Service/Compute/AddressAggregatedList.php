@@ -18,7 +18,7 @@
 class Google_Service_Compute_AddressAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_AddressesScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_AddressesScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

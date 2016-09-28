@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_DuplicateFilterViewResponse extends \GoogleApi\Google_Model
 {
-  protected $filterType = 'Google_Service_Sheets_FilterView';
+  protected $filterType = '\GoogleApiServices\Google_Service_Sheets_FilterView';
   protected $filterDataType = '';
 
   public function setFilter(Google_Service_Sheets_FilterView $filter)

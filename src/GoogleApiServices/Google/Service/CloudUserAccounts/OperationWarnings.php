@@ -19,7 +19,7 @@ class Google_Service_CloudUserAccounts_OperationWarnings extends \GoogleApi\Goog
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_CloudUserAccounts_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_CloudUserAccounts_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

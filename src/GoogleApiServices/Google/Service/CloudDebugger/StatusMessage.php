@@ -17,7 +17,7 @@
 
 class Google_Service_CloudDebugger_StatusMessage extends \GoogleApi\Google_Model
 {
-  protected $descriptionType = 'Google_Service_CloudDebugger_FormatMessage';
+  protected $descriptionType = '\GoogleApiServices\Google_Service_CloudDebugger_FormatMessage';
   protected $descriptionDataType = '';
   public $isError;
   public $refersTo;

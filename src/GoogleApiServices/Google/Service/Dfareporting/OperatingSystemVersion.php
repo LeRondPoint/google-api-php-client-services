@@ -22,7 +22,7 @@ class Google_Service_Dfareporting_OperatingSystemVersion extends \GoogleApi\Goog
   public $majorVersion;
   public $minorVersion;
   public $name;
-  protected $operatingSystemType = 'Google_Service_Dfareporting_OperatingSystem';
+  protected $operatingSystemType = '\GoogleApiServices\Google_Service_Dfareporting_OperatingSystem';
   protected $operatingSystemDataType = '';
 
   public function setId($id)

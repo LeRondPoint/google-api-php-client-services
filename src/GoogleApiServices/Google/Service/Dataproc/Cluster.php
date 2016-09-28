@@ -20,12 +20,12 @@ class Google_Service_Dataproc_Cluster extends \GoogleApi\Google_Collection
   protected $collection_key = 'statusHistory';
   public $clusterName;
   public $clusterUuid;
-  protected $configType = 'Google_Service_Dataproc_ClusterConfig';
+  protected $configType = '\GoogleApiServices\Google_Service_Dataproc_ClusterConfig';
   protected $configDataType = '';
   public $projectId;
-  protected $statusType = 'Google_Service_Dataproc_ClusterStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_Dataproc_ClusterStatus';
   protected $statusDataType = '';
-  protected $statusHistoryType = 'Google_Service_Dataproc_ClusterStatus';
+  protected $statusHistoryType = '\GoogleApiServices\Google_Service_Dataproc_ClusterStatus';
   protected $statusHistoryDataType = 'array';
 
   public function setClusterName($clusterName)

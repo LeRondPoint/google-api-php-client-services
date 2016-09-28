@@ -19,7 +19,7 @@ class Google_Service_AdExchangeBuyerII_ListClientUsersResponse extends \GoogleAp
 {
   protected $collection_key = 'users';
   public $nextPageToken;
-  protected $usersType = 'Google_Service_AdExchangeBuyerII_ClientUser';
+  protected $usersType = '\GoogleApiServices\Google_Service_AdExchangeBuyerII_ClientUser';
   protected $usersDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

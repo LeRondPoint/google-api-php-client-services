@@ -18,17 +18,17 @@
 class Google_Service_Dfareporting_TechnologyTargeting extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'platformTypes';
-  protected $browsersType = 'Google_Service_Dfareporting_Browser';
+  protected $browsersType = '\GoogleApiServices\Google_Service_Dfareporting_Browser';
   protected $browsersDataType = 'array';
-  protected $connectionTypesType = 'Google_Service_Dfareporting_ConnectionType';
+  protected $connectionTypesType = '\GoogleApiServices\Google_Service_Dfareporting_ConnectionType';
   protected $connectionTypesDataType = 'array';
-  protected $mobileCarriersType = 'Google_Service_Dfareporting_MobileCarrier';
+  protected $mobileCarriersType = '\GoogleApiServices\Google_Service_Dfareporting_MobileCarrier';
   protected $mobileCarriersDataType = 'array';
-  protected $operatingSystemVersionsType = 'Google_Service_Dfareporting_OperatingSystemVersion';
+  protected $operatingSystemVersionsType = '\GoogleApiServices\Google_Service_Dfareporting_OperatingSystemVersion';
   protected $operatingSystemVersionsDataType = 'array';
-  protected $operatingSystemsType = 'Google_Service_Dfareporting_OperatingSystem';
+  protected $operatingSystemsType = '\GoogleApiServices\Google_Service_Dfareporting_OperatingSystem';
   protected $operatingSystemsDataType = 'array';
-  protected $platformTypesType = 'Google_Service_Dfareporting_PlatformType';
+  protected $platformTypesType = '\GoogleApiServices\Google_Service_Dfareporting_PlatformType';
   protected $platformTypesDataType = 'array';
 
   public function setBrowsers($browsers)

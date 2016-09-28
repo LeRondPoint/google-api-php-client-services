@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_OrderPromotion extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'benefits';
-  protected $benefitsType = 'Google_Service_ShoppingContent_OrderPromotionBenefit';
+  protected $benefitsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderPromotionBenefit';
   protected $benefitsDataType = 'array';
   public $effectiveDates;
   public $genericRedemptionCode;

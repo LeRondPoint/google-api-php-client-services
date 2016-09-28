@@ -20,7 +20,7 @@ class Google_Service_Prediction_Insert2 extends \GoogleApi\Google_Model
   public $created;
   public $id;
   public $kind;
-  protected $modelInfoType = 'Google_Service_Prediction_Insert2ModelInfo';
+  protected $modelInfoType = '\GoogleApiServices\Google_Service_Prediction_Insert2ModelInfo';
   protected $modelInfoDataType = '';
   public $modelType;
   public $selfLink;

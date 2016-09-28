@@ -21,7 +21,7 @@ class Google_Service_Books_Volumeannotation extends \GoogleApi\Google_Collection
   public $annotationDataId;
   public $annotationDataLink;
   public $annotationType;
-  protected $contentRangesType = 'Google_Service_Books_VolumeannotationContentRanges';
+  protected $contentRangesType = '\GoogleApiServices\Google_Service_Books_VolumeannotationContentRanges';
   protected $contentRangesDataType = '';
   public $data;
   public $deleted;

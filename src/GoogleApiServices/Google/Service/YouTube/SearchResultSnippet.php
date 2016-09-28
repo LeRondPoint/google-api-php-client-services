@@ -22,7 +22,7 @@ class Google_Service_YouTube_SearchResultSnippet extends \GoogleApi\Google_Model
   public $description;
   public $liveBroadcastContent;
   public $publishedAt;
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

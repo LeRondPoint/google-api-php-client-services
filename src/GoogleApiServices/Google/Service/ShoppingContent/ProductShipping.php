@@ -21,7 +21,7 @@ class Google_Service_ShoppingContent_ProductShipping extends \GoogleApi\Google_M
   public $locationGroupName;
   public $locationId;
   public $postalCode;
-  protected $priceType = 'Google_Service_ShoppingContent_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $priceDataType = '';
   public $region;
   public $service;

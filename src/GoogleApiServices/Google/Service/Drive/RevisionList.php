@@ -19,7 +19,7 @@ class Google_Service_Drive_RevisionList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'revisions';
   public $kind;
-  protected $revisionsType = 'Google_Service_Drive_Revision';
+  protected $revisionsType = '\GoogleApiServices\Google_Service_Drive_Revision';
   protected $revisionsDataType = 'array';
 
   public function setKind($kind)

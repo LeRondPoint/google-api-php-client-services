@@ -20,7 +20,7 @@ class Google_Service_Compute_Disk extends \GoogleApi\Google_Collection
   protected $collection_key = 'users';
   public $creationTimestamp;
   public $description;
-  protected $diskEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $diskEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $diskEncryptionKeyDataType = '';
   public $id;
   public $kind;
@@ -32,11 +32,11 @@ class Google_Service_Compute_Disk extends \GoogleApi\Google_Collection
   public $selfLink;
   public $sizeGb;
   public $sourceImage;
-  protected $sourceImageEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $sourceImageEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $sourceImageEncryptionKeyDataType = '';
   public $sourceImageId;
   public $sourceSnapshot;
-  protected $sourceSnapshotEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $sourceSnapshotEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $sourceSnapshotEncryptionKeyDataType = '';
   public $sourceSnapshotId;
   public $status;

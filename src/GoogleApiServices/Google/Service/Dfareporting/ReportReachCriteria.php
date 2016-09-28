@@ -18,15 +18,15 @@
 class Google_Service_Dfareporting_ReportReachCriteria extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'reachByFrequencyMetricNames';
-  protected $activitiesType = 'Google_Service_Dfareporting_Activities';
+  protected $activitiesType = '\GoogleApiServices\Google_Service_Dfareporting_Activities';
   protected $activitiesDataType = '';
-  protected $customRichMediaEventsType = 'Google_Service_Dfareporting_CustomRichMediaEvents';
+  protected $customRichMediaEventsType = '\GoogleApiServices\Google_Service_Dfareporting_CustomRichMediaEvents';
   protected $customRichMediaEventsDataType = '';
-  protected $dateRangeType = 'Google_Service_Dfareporting_DateRange';
+  protected $dateRangeType = '\GoogleApiServices\Google_Service_Dfareporting_DateRange';
   protected $dateRangeDataType = '';
-  protected $dimensionFiltersType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $dimensionFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $dimensionFiltersDataType = 'array';
-  protected $dimensionsType = 'Google_Service_Dfareporting_SortedDimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_SortedDimension';
   protected $dimensionsDataType = 'array';
   public $enableAllDimensionCombinations;
   public $metricNames;

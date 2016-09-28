@@ -18,7 +18,7 @@
 class Google_Service_People_PersonResponse extends \GoogleApi\Google_Model
 {
   public $httpStatusCode;
-  protected $personType = 'Google_Service_People_Person';
+  protected $personType = '\GoogleApiServices\Google_Service_People_Person';
   protected $personDataType = '';
   public $requestedResourceName;
 

@@ -25,10 +25,10 @@ class Google_Service_Customsearch_Result extends \GoogleApi\Google_Collection
   public $htmlFormattedUrl;
   public $htmlSnippet;
   public $htmlTitle;
-  protected $imageType = 'Google_Service_Customsearch_ResultImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_Customsearch_ResultImage';
   protected $imageDataType = '';
   public $kind;
-  protected $labelsType = 'Google_Service_Customsearch_ResultLabels';
+  protected $labelsType = '\GoogleApiServices\Google_Service_Customsearch_ResultLabels';
   protected $labelsDataType = 'array';
   public $link;
   public $mime;

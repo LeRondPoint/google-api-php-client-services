@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_MobileCarriersListResponse extends \GoogleApi\
 {
   protected $collection_key = 'mobileCarriers';
   public $kind;
-  protected $mobileCarriersType = 'Google_Service_Dfareporting_MobileCarrier';
+  protected $mobileCarriersType = '\GoogleApiServices\Google_Service_Dfareporting_MobileCarrier';
   protected $mobileCarriersDataType = 'array';
 
   public function setKind($kind)

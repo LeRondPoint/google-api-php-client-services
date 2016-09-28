@@ -21,23 +21,23 @@ class Google_Service_CloudDebugger_Breakpoint extends \GoogleApi\Google_Collecti
   public $action;
   public $condition;
   public $createTime;
-  protected $evaluatedExpressionsType = 'Google_Service_CloudDebugger_Variable';
+  protected $evaluatedExpressionsType = '\GoogleApiServices\Google_Service_CloudDebugger_Variable';
   protected $evaluatedExpressionsDataType = 'array';
   public $expressions;
   public $finalTime;
   public $id;
   public $isFinalState;
   public $labels;
-  protected $locationType = 'Google_Service_CloudDebugger_SourceLocation';
+  protected $locationType = '\GoogleApiServices\Google_Service_CloudDebugger_SourceLocation';
   protected $locationDataType = '';
   public $logLevel;
   public $logMessageFormat;
-  protected $stackFramesType = 'Google_Service_CloudDebugger_StackFrame';
+  protected $stackFramesType = '\GoogleApiServices\Google_Service_CloudDebugger_StackFrame';
   protected $stackFramesDataType = 'array';
-  protected $statusType = 'Google_Service_CloudDebugger_StatusMessage';
+  protected $statusType = '\GoogleApiServices\Google_Service_CloudDebugger_StatusMessage';
   protected $statusDataType = '';
   public $userEmail;
-  protected $variableTableType = 'Google_Service_CloudDebugger_Variable';
+  protected $variableTableType = '\GoogleApiServices\Google_Service_CloudDebugger_Variable';
   protected $variableTableDataType = 'array';
 
   public function setAction($action)

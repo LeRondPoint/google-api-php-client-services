@@ -19,7 +19,7 @@ class Google_Service_YouTube_ChannelSectionSnippet extends \GoogleApi\Google_Mod
 {
   public $channelId;
   public $defaultLanguage;
-  protected $localizedType = 'Google_Service_YouTube_ChannelSectionLocalization';
+  protected $localizedType = '\GoogleApiServices\Google_Service_YouTube_ChannelSectionLocalization';
   protected $localizedDataType = '';
   public $position;
   public $style;

@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_ProjectsListResponse extends \GoogleApi\Google
   protected $collection_key = 'projects';
   public $kind;
   public $nextPageToken;
-  protected $projectsType = 'Google_Service_Dfareporting_Project';
+  protected $projectsType = '\GoogleApiServices\Google_Service_Dfareporting_Project';
   protected $projectsDataType = 'array';
 
   public function setKind($kind)

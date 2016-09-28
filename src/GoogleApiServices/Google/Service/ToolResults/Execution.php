@@ -17,12 +17,12 @@
 
 class Google_Service_ToolResults_Execution extends \GoogleApi\Google_Model
 {
-  protected $completionTimeType = 'Google_Service_ToolResults_Timestamp';
+  protected $completionTimeType = '\GoogleApiServices\Google_Service_ToolResults_Timestamp';
   protected $completionTimeDataType = '';
-  protected $creationTimeType = 'Google_Service_ToolResults_Timestamp';
+  protected $creationTimeType = '\GoogleApiServices\Google_Service_ToolResults_Timestamp';
   protected $creationTimeDataType = '';
   public $executionId;
-  protected $outcomeType = 'Google_Service_ToolResults_Outcome';
+  protected $outcomeType = '\GoogleApiServices\Google_Service_ToolResults_Outcome';
   protected $outcomeDataType = '';
   public $state;
   public $testExecutionMatrixId;

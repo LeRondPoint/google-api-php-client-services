@@ -18,7 +18,7 @@
 class Google_Service_FirebaseRulesAPI_Source extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'files';
-  protected $filesType = 'Google_Service_FirebaseRulesAPI_FirebaserulesFile';
+  protected $filesType = '\GoogleApiServices\Google_Service_FirebaseRulesAPI_FirebaserulesFile';
   protected $filesDataType = 'array';
 
   public function setFiles($files)

@@ -23,7 +23,7 @@ class Google_Service_YouTube_FanFundingEventSnippet extends \GoogleApi\Google_Mo
   public $createdAt;
   public $currency;
   public $displayString;
-  protected $supporterDetailsType = 'Google_Service_YouTube_ChannelProfileDetails';
+  protected $supporterDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelProfileDetails';
   protected $supporterDetailsDataType = '';
 
   public function setAmountMicros($amountMicros)

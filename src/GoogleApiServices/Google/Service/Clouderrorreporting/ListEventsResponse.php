@@ -18,7 +18,7 @@
 class Google_Service_Clouderrorreporting_ListEventsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errorEvents';
-  protected $errorEventsType = 'Google_Service_Clouderrorreporting_ErrorEvent';
+  protected $errorEventsType = '\GoogleApiServices\Google_Service_Clouderrorreporting_ErrorEvent';
   protected $errorEventsDataType = 'array';
   public $nextPageToken;
 

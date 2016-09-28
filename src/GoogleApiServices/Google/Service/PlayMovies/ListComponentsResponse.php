@@ -18,7 +18,7 @@
 class Google_Service_PlayMovies_ListComponentsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'components';
-  protected $componentsType = 'Google_Service_PlayMovies_Component';
+  protected $componentsType = '\GoogleApiServices\Google_Service_PlayMovies_Component';
   protected $componentsDataType = 'array';
   public $nextPageToken;
   public $totalSize;

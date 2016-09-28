@@ -18,7 +18,7 @@
 class Google_Service_Compute_MachineTypeAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_MachineTypesScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_MachineTypesScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

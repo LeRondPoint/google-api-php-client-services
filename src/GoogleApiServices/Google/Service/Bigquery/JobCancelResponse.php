@@ -17,7 +17,7 @@
 
 class Google_Service_Bigquery_JobCancelResponse extends \GoogleApi\Google_Model
 {
-  protected $jobType = 'Google_Service_Bigquery_Job';
+  protected $jobType = '\GoogleApiServices\Google_Service_Bigquery_Job';
   protected $jobDataType = '';
   public $kind;
 

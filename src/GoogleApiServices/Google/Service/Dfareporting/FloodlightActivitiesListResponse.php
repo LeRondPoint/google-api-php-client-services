@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_FloodlightActivitiesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'floodlightActivities';
-  protected $floodlightActivitiesType = 'Google_Service_Dfareporting_FloodlightActivity';
+  protected $floodlightActivitiesType = '\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivity';
   protected $floodlightActivitiesDataType = 'array';
   public $kind;
   public $nextPageToken;

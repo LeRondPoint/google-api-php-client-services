@@ -18,7 +18,7 @@
 class Google_Service_Genomics_CoverageBucket extends \GoogleApi\Google_Model
 {
   public $meanCoverage;
-  protected $rangeType = 'Google_Service_Genomics_Range';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Genomics_Range';
   protected $rangeDataType = '';
 
   public function setMeanCoverage($meanCoverage)

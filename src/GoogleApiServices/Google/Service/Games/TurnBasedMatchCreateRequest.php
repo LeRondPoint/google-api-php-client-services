@@ -18,7 +18,7 @@
 class Google_Service_Games_TurnBasedMatchCreateRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'invitedPlayerIds';
-  protected $autoMatchingCriteriaType = 'Google_Service_Games_TurnBasedAutoMatchingCriteria';
+  protected $autoMatchingCriteriaType = '\GoogleApiServices\Google_Service_Games_TurnBasedAutoMatchingCriteria';
   protected $autoMatchingCriteriaDataType = '';
   public $invitedPlayerIds;
   public $kind;

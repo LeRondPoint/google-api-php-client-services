@@ -19,7 +19,7 @@ class Google_Service_Games_RoomP2PStatuses extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'updates';
   public $kind;
-  protected $updatesType = 'Google_Service_Games_RoomP2PStatus';
+  protected $updatesType = '\GoogleApiServices\Google_Service_Games_RoomP2PStatus';
   protected $updatesDataType = 'array';
 
   public function setKind($kind)

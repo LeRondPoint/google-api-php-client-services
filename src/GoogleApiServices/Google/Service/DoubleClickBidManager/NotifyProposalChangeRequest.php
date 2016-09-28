@@ -21,7 +21,7 @@ class Google_Service_DoubleClickBidManager_NotifyProposalChangeRequest extends \
   public $action;
   public $href;
   public $id;
-  protected $notesType = 'Google_Service_DoubleClickBidManager_Note';
+  protected $notesType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_Note';
   protected $notesDataType = 'array';
   public $token;
 

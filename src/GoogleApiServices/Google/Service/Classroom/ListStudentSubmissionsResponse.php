@@ -19,7 +19,7 @@ class Google_Service_Classroom_ListStudentSubmissionsResponse extends \GoogleApi
 {
   protected $collection_key = 'studentSubmissions';
   public $nextPageToken;
-  protected $studentSubmissionsType = 'Google_Service_Classroom_StudentSubmission';
+  protected $studentSubmissionsType = '\GoogleApiServices\Google_Service_Classroom_StudentSubmission';
   protected $studentSubmissionsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

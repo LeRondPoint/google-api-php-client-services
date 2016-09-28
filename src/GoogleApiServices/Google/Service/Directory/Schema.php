@@ -19,7 +19,7 @@ class Google_Service_Directory_Schema extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'fields';
   public $etag;
-  protected $fieldsType = 'Google_Service_Directory_SchemaFieldSpec';
+  protected $fieldsType = '\GoogleApiServices\Google_Service_Directory_SchemaFieldSpec';
   protected $fieldsDataType = 'array';
   public $kind;
   public $schemaId;

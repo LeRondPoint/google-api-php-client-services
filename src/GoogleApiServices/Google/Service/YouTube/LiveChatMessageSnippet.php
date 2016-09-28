@@ -19,27 +19,27 @@ class Google_Service_YouTube_LiveChatMessageSnippet extends \GoogleApi\Google_Mo
 {
   public $authorChannelId;
   public $displayMessage;
-  protected $fanFundingEventDetailsType = 'Google_Service_YouTube_LiveChatFanFundingEventDetails';
+  protected $fanFundingEventDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatFanFundingEventDetails';
   protected $fanFundingEventDetailsDataType = '';
   public $hasDisplayContent;
   public $liveChatId;
-  protected $messageDeletedDetailsType = 'Google_Service_YouTube_LiveChatMessageDeletedDetails';
+  protected $messageDeletedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatMessageDeletedDetails';
   protected $messageDeletedDetailsDataType = '';
-  protected $messageRetractedDetailsType = 'Google_Service_YouTube_LiveChatMessageRetractedDetails';
+  protected $messageRetractedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatMessageRetractedDetails';
   protected $messageRetractedDetailsDataType = '';
-  protected $pollClosedDetailsType = 'Google_Service_YouTube_LiveChatPollClosedDetails';
+  protected $pollClosedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatPollClosedDetails';
   protected $pollClosedDetailsDataType = '';
-  protected $pollEditedDetailsType = 'Google_Service_YouTube_LiveChatPollEditedDetails';
+  protected $pollEditedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatPollEditedDetails';
   protected $pollEditedDetailsDataType = '';
-  protected $pollOpenedDetailsType = 'Google_Service_YouTube_LiveChatPollOpenedDetails';
+  protected $pollOpenedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatPollOpenedDetails';
   protected $pollOpenedDetailsDataType = '';
-  protected $pollVotedDetailsType = 'Google_Service_YouTube_LiveChatPollVotedDetails';
+  protected $pollVotedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatPollVotedDetails';
   protected $pollVotedDetailsDataType = '';
   public $publishedAt;
-  protected $textMessageDetailsType = 'Google_Service_YouTube_LiveChatTextMessageDetails';
+  protected $textMessageDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatTextMessageDetails';
   protected $textMessageDetailsDataType = '';
   public $type;
-  protected $userBannedDetailsType = 'Google_Service_YouTube_LiveChatUserBannedMessageDetails';
+  protected $userBannedDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatUserBannedMessageDetails';
   protected $userBannedDetailsDataType = '';
 
   public function setAuthorChannelId($authorChannelId)

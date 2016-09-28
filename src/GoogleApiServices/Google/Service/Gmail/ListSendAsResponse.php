@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListSendAsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sendAs';
-  protected $sendAsType = 'Google_Service_Gmail_SendAs';
+  protected $sendAsType = '\GoogleApiServices\Google_Service_Gmail_SendAs';
   protected $sendAsDataType = 'array';
 
   public function setSendAs($sendAs)

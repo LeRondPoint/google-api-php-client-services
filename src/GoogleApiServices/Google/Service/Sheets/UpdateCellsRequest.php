@@ -19,11 +19,11 @@ class Google_Service_Sheets_UpdateCellsRequest extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'rows';
   public $fields;
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
-  protected $rowsType = 'Google_Service_Sheets_RowData';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Sheets_RowData';
   protected $rowsDataType = 'array';
-  protected $startType = 'Google_Service_Sheets_GridCoordinate';
+  protected $startType = '\GoogleApiServices\Google_Service_Sheets_GridCoordinate';
   protected $startDataType = '';
 
   public function setFields($fields)

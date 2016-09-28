@@ -19,7 +19,7 @@ class Google_Service_AdExchangeBuyer_CreativeFilteringReasons extends \GoogleApi
 {
   protected $collection_key = 'reasons';
   public $date;
-  protected $reasonsType = 'Google_Service_AdExchangeBuyer_CreativeFilteringReasonsReasons';
+  protected $reasonsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeFilteringReasonsReasons';
   protected $reasonsDataType = 'array';
 
   public function setDate($date)

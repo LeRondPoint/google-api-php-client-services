@@ -18,7 +18,7 @@
 class Google_Service_Storage_BucketLifecycle extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rule';
-  protected $ruleType = 'Google_Service_Storage_BucketLifecycleRule';
+  protected $ruleType = '\GoogleApiServices\Google_Service_Storage_BucketLifecycleRule';
   protected $ruleDataType = 'array';
 
   public function setRule($rule)

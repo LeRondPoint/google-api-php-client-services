@@ -20,7 +20,7 @@ class Google_Service_SQLAdmin_BackupRun extends \GoogleApi\Google_Model
   public $description;
   public $endTime;
   public $enqueuedTime;
-  protected $errorType = 'Google_Service_SQLAdmin_OperationError';
+  protected $errorType = '\GoogleApiServices\Google_Service_SQLAdmin_OperationError';
   protected $errorDataType = '';
   public $id;
   public $instance;

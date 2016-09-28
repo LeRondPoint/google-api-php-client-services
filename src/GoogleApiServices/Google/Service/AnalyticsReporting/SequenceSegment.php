@@ -19,7 +19,7 @@ class Google_Service_AnalyticsReporting_SequenceSegment extends \GoogleApi\Googl
 {
   protected $collection_key = 'segmentSequenceSteps';
   public $firstStepShouldMatchFirstHit;
-  protected $segmentSequenceStepsType = 'Google_Service_AnalyticsReporting_SegmentSequenceStep';
+  protected $segmentSequenceStepsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SegmentSequenceStep';
   protected $segmentSequenceStepsDataType = 'array';
 
   public function setFirstStepShouldMatchFirstHit($firstStepShouldMatchFirstHit)

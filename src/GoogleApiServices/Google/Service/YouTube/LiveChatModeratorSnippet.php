@@ -18,7 +18,7 @@
 class Google_Service_YouTube_LiveChatModeratorSnippet extends \GoogleApi\Google_Model
 {
   public $liveChatId;
-  protected $moderatorDetailsType = 'Google_Service_YouTube_ChannelProfileDetails';
+  protected $moderatorDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelProfileDetails';
   protected $moderatorDetailsDataType = '';
 
   public function setLiveChatId($liveChatId)

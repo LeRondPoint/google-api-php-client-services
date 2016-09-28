@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_CollectionsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'collection';
-  protected $collectionType = 'Google_Service_AndroidEnterprise_Collection';
+  protected $collectionType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Collection';
   protected $collectionDataType = 'array';
   public $kind;
 

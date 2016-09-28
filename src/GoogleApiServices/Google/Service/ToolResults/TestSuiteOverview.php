@@ -22,7 +22,7 @@ class Google_Service_ToolResults_TestSuiteOverview extends \GoogleApi\Google_Mod
   public $name;
   public $skippedCount;
   public $totalCount;
-  protected $xmlSourceType = 'Google_Service_ToolResults_FileReference';
+  protected $xmlSourceType = '\GoogleApiServices\Google_Service_ToolResults_FileReference';
   protected $xmlSourceDataType = '';
 
   public function setErrorCount($errorCount)

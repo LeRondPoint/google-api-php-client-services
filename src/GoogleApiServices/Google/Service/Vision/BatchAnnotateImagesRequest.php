@@ -18,7 +18,7 @@
 class Google_Service_Vision_BatchAnnotateImagesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'requests';
-  protected $requestsType = 'Google_Service_Vision_AnnotateImageRequest';
+  protected $requestsType = '\GoogleApiServices\Google_Service_Vision_AnnotateImageRequest';
   protected $requestsDataType = 'array';
 
   public function setRequests($requests)

@@ -18,11 +18,11 @@
 class Google_Service_TagManager_FolderEntities extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'variable';
-  protected $tagType = 'Google_Service_TagManager_Tag';
+  protected $tagType = '\GoogleApiServices\Google_Service_TagManager_Tag';
   protected $tagDataType = 'array';
-  protected $triggerType = 'Google_Service_TagManager_Trigger';
+  protected $triggerType = '\GoogleApiServices\Google_Service_TagManager_Trigger';
   protected $triggerDataType = 'array';
-  protected $variableType = 'Google_Service_TagManager_Variable';
+  protected $variableType = '\GoogleApiServices\Google_Service_TagManager_Variable';
   protected $variableDataType = 'array';
 
   public function setTag($tag)

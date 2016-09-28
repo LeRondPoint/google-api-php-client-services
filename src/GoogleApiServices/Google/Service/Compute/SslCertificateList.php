@@ -19,7 +19,7 @@ class Google_Service_Compute_SslCertificateList extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_SslCertificate';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_SslCertificate';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

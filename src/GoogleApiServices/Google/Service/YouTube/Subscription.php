@@ -17,14 +17,14 @@
 
 class Google_Service_YouTube_Subscription extends \GoogleApi\Google_Model
 {
-  protected $contentDetailsType = 'Google_Service_YouTube_SubscriptionContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_SubscriptionContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_SubscriptionSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_SubscriptionSnippet';
   protected $snippetDataType = '';
-  protected $subscriberSnippetType = 'Google_Service_YouTube_SubscriptionSubscriberSnippet';
+  protected $subscriberSnippetType = '\GoogleApiServices\Google_Service_YouTube_SubscriptionSubscriberSnippet';
   protected $subscriberSnippetDataType = '';
 
   public function setContentDetails(Google_Service_YouTube_SubscriptionContentDetails $contentDetails)

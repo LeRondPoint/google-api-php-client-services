@@ -18,13 +18,13 @@
 class Google_Service_AdSenseHost_AdUnit extends \GoogleApi\Google_Model
 {
   public $code;
-  protected $contentAdsSettingsType = 'Google_Service_AdSenseHost_AdUnitContentAdsSettings';
+  protected $contentAdsSettingsType = '\GoogleApiServices\Google_Service_AdSenseHost_AdUnitContentAdsSettings';
   protected $contentAdsSettingsDataType = '';
-  protected $customStyleType = 'Google_Service_AdSenseHost_AdStyle';
+  protected $customStyleType = '\GoogleApiServices\Google_Service_AdSenseHost_AdStyle';
   protected $customStyleDataType = '';
   public $id;
   public $kind;
-  protected $mobileContentAdsSettingsType = 'Google_Service_AdSenseHost_AdUnitMobileContentAdsSettings';
+  protected $mobileContentAdsSettingsType = '\GoogleApiServices\Google_Service_AdSenseHost_AdUnitMobileContentAdsSettings';
   protected $mobileContentAdsSettingsDataType = '';
   public $name;
   public $status;

@@ -18,11 +18,11 @@
 class Google_Service_CloudMonitoring_PointDistribution extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'buckets';
-  protected $bucketsType = 'Google_Service_CloudMonitoring_PointDistributionBucket';
+  protected $bucketsType = '\GoogleApiServices\Google_Service_CloudMonitoring_PointDistributionBucket';
   protected $bucketsDataType = 'array';
-  protected $overflowBucketType = 'Google_Service_CloudMonitoring_PointDistributionOverflowBucket';
+  protected $overflowBucketType = '\GoogleApiServices\Google_Service_CloudMonitoring_PointDistributionOverflowBucket';
   protected $overflowBucketDataType = '';
-  protected $underflowBucketType = 'Google_Service_CloudMonitoring_PointDistributionUnderflowBucket';
+  protected $underflowBucketType = '\GoogleApiServices\Google_Service_CloudMonitoring_PointDistributionUnderflowBucket';
   protected $underflowBucketDataType = '';
 
   public function setBuckets($buckets)

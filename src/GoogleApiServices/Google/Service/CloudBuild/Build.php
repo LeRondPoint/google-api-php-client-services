@@ -24,19 +24,19 @@ class Google_Service_CloudBuild_Build extends \GoogleApi\Google_Collection
   public $images;
   public $logUrl;
   public $logsBucket;
-  protected $optionsType = 'Google_Service_CloudBuild_BuildOptions';
+  protected $optionsType = '\GoogleApiServices\Google_Service_CloudBuild_BuildOptions';
   protected $optionsDataType = '';
   public $projectId;
-  protected $resultsType = 'Google_Service_CloudBuild_Results';
+  protected $resultsType = '\GoogleApiServices\Google_Service_CloudBuild_Results';
   protected $resultsDataType = '';
-  protected $sourceType = 'Google_Service_CloudBuild_Source';
+  protected $sourceType = '\GoogleApiServices\Google_Service_CloudBuild_Source';
   protected $sourceDataType = '';
-  protected $sourceProvenanceType = 'Google_Service_CloudBuild_SourceProvenance';
+  protected $sourceProvenanceType = '\GoogleApiServices\Google_Service_CloudBuild_SourceProvenance';
   protected $sourceProvenanceDataType = '';
   public $startTime;
   public $status;
   public $statusDetail;
-  protected $stepsType = 'Google_Service_CloudBuild_BuildStep';
+  protected $stepsType = '\GoogleApiServices\Google_Service_CloudBuild_BuildStep';
   protected $stepsDataType = 'array';
   public $timeout;
 

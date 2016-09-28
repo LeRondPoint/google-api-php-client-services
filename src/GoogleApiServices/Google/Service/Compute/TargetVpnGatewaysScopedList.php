@@ -18,9 +18,9 @@
 class Google_Service_Compute_TargetVpnGatewaysScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'targetVpnGateways';
-  protected $targetVpnGatewaysType = 'Google_Service_Compute_TargetVpnGateway';
+  protected $targetVpnGatewaysType = '\GoogleApiServices\Google_Service_Compute_TargetVpnGateway';
   protected $targetVpnGatewaysDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_TargetVpnGatewaysScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_TargetVpnGatewaysScopedListWarning';
   protected $warningDataType = '';
 
   public function setTargetVpnGateways($targetVpnGateways)

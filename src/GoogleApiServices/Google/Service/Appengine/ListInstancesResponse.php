@@ -18,7 +18,7 @@
 class Google_Service_Appengine_ListInstancesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instances';
-  protected $instancesType = 'Google_Service_Appengine_Instance';
+  protected $instancesType = '\GoogleApiServices\Google_Service_Appengine_Instance';
   protected $instancesDataType = 'array';
   public $nextPageToken;
 

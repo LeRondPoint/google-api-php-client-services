@@ -20,7 +20,7 @@ class Google_Service_SiteVerification_SiteVerificationWebResourceResource extend
   protected $collection_key = 'owners';
   public $id;
   public $owners;
-  protected $siteType = 'Google_Service_SiteVerification_SiteVerificationWebResourceResourceSite';
+  protected $siteType = '\GoogleApiServices\Google_Service_SiteVerification_SiteVerificationWebResourceResourceSite';
   protected $siteDataType = '';
 
   public function setId($id)

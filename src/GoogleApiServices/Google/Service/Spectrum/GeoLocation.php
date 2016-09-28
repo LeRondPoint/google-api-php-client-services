@@ -18,9 +18,9 @@
 class Google_Service_Spectrum_GeoLocation extends \GoogleApi\Google_Model
 {
   public $confidence;
-  protected $pointType = 'Google_Service_Spectrum_GeoLocationEllipse';
+  protected $pointType = '\GoogleApiServices\Google_Service_Spectrum_GeoLocationEllipse';
   protected $pointDataType = '';
-  protected $regionType = 'Google_Service_Spectrum_GeoLocationPolygon';
+  protected $regionType = '\GoogleApiServices\Google_Service_Spectrum_GeoLocationPolygon';
   protected $regionDataType = '';
 
   public function setConfidence($confidence)

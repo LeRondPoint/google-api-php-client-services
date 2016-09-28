@@ -18,9 +18,9 @@
 class Google_Service_Classroom_Student extends \GoogleApi\Google_Model
 {
   public $courseId;
-  protected $profileType = 'Google_Service_Classroom_UserProfile';
+  protected $profileType = '\GoogleApiServices\Google_Service_Classroom_UserProfile';
   protected $profileDataType = '';
-  protected $studentWorkFolderType = 'Google_Service_Classroom_DriveFolder';
+  protected $studentWorkFolderType = '\GoogleApiServices\Google_Service_Classroom_DriveFolder';
   protected $studentWorkFolderDataType = '';
   public $userId;
 

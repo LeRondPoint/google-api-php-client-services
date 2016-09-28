@@ -18,21 +18,21 @@
 class Google_Service_PlusDomains_ActivityObject extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'attachments';
-  protected $actorType = 'Google_Service_PlusDomains_ActivityObjectActor';
+  protected $actorType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectActor';
   protected $actorDataType = '';
-  protected $attachmentsType = 'Google_Service_PlusDomains_ActivityObjectAttachments';
+  protected $attachmentsType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectAttachments';
   protected $attachmentsDataType = 'array';
   public $content;
   public $id;
   public $objectType;
   public $originalContent;
-  protected $plusonersType = 'Google_Service_PlusDomains_ActivityObjectPlusoners';
+  protected $plusonersType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectPlusoners';
   protected $plusonersDataType = '';
-  protected $repliesType = 'Google_Service_PlusDomains_ActivityObjectReplies';
+  protected $repliesType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectReplies';
   protected $repliesDataType = '';
-  protected $resharersType = 'Google_Service_PlusDomains_ActivityObjectResharers';
+  protected $resharersType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectResharers';
   protected $resharersDataType = '';
-  protected $statusForViewerType = 'Google_Service_PlusDomains_ActivityObjectStatusForViewer';
+  protected $statusForViewerType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObjectStatusForViewer';
   protected $statusForViewerDataType = '';
   public $url;
 

@@ -25,11 +25,11 @@ class Google_Service_YouTube_VideoSnippet extends \GoogleApi\Google_Collection
   public $defaultLanguage;
   public $description;
   public $liveBroadcastContent;
-  protected $localizedType = 'Google_Service_YouTube_VideoLocalization';
+  protected $localizedType = '\GoogleApiServices\Google_Service_YouTube_VideoLocalization';
   protected $localizedDataType = '';
   public $publishedAt;
   public $tags;
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

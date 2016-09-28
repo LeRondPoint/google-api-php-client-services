@@ -19,7 +19,7 @@ class Google_Service_Proximitybeacon_GetInfoForObservedBeaconsRequest extends \G
 {
   protected $collection_key = 'observations';
   public $namespacedTypes;
-  protected $observationsType = 'Google_Service_Proximitybeacon_Observation';
+  protected $observationsType = '\GoogleApiServices\Google_Service_Proximitybeacon_Observation';
   protected $observationsDataType = 'array';
 
   public function setNamespacedTypes($namespacedTypes)

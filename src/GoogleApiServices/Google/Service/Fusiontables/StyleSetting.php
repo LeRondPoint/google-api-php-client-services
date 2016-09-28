@@ -18,12 +18,12 @@
 class Google_Service_Fusiontables_StyleSetting extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $markerOptionsType = 'Google_Service_Fusiontables_PointStyle';
+  protected $markerOptionsType = '\GoogleApiServices\Google_Service_Fusiontables_PointStyle';
   protected $markerOptionsDataType = '';
   public $name;
-  protected $polygonOptionsType = 'Google_Service_Fusiontables_PolygonStyle';
+  protected $polygonOptionsType = '\GoogleApiServices\Google_Service_Fusiontables_PolygonStyle';
   protected $polygonOptionsDataType = '';
-  protected $polylineOptionsType = 'Google_Service_Fusiontables_LineStyle';
+  protected $polylineOptionsType = '\GoogleApiServices\Google_Service_Fusiontables_LineStyle';
   protected $polylineOptionsDataType = '';
   public $styleId;
   public $tableId;

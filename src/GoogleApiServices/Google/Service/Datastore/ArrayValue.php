@@ -18,7 +18,7 @@
 class Google_Service_Datastore_ArrayValue extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'values';
-  protected $valuesType = 'Google_Service_Datastore_Value';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Datastore_Value';
   protected $valuesDataType = 'array';
 
   public function setValues($values)

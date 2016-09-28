@@ -22,9 +22,9 @@ class Google_Service_Dataproc_ClusterOperationMetadata extends \GoogleApi\Google
   public $clusterUuid;
   public $description;
   public $operationType;
-  protected $statusType = 'Google_Service_Dataproc_ClusterOperationStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_Dataproc_ClusterOperationStatus';
   protected $statusDataType = '';
-  protected $statusHistoryType = 'Google_Service_Dataproc_ClusterOperationStatus';
+  protected $statusHistoryType = '\GoogleApiServices\Google_Service_Dataproc_ClusterOperationStatus';
   protected $statusHistoryDataType = 'array';
 
   public function setClusterName($clusterName)

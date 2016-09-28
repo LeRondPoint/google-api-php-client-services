@@ -19,11 +19,11 @@ class Google_Service_Bigquery_JobConfigurationTableCopy extends \GoogleApi\Googl
 {
   protected $collection_key = 'sourceTables';
   public $createDisposition;
-  protected $destinationTableType = 'Google_Service_Bigquery_TableReference';
+  protected $destinationTableType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $destinationTableDataType = '';
-  protected $sourceTableType = 'Google_Service_Bigquery_TableReference';
+  protected $sourceTableType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $sourceTableDataType = '';
-  protected $sourceTablesType = 'Google_Service_Bigquery_TableReference';
+  protected $sourceTablesType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $sourceTablesDataType = 'array';
   public $writeDisposition;
 

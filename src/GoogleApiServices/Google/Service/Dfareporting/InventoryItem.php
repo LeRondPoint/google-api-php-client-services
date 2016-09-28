@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_InventoryItem extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'adSlots';
   public $accountId;
-  protected $adSlotsType = 'Google_Service_Dfareporting_AdSlot';
+  protected $adSlotsType = '\GoogleApiServices\Google_Service_Dfareporting_AdSlot';
   protected $adSlotsDataType = 'array';
   public $advertiserId;
   public $contentCategoryId;
@@ -28,13 +28,13 @@ class Google_Service_Dfareporting_InventoryItem extends \GoogleApi\Google_Collec
   public $id;
   public $inPlan;
   public $kind;
-  protected $lastModifiedInfoType = 'Google_Service_Dfareporting_LastModifiedInfo';
+  protected $lastModifiedInfoType = '\GoogleApiServices\Google_Service_Dfareporting_LastModifiedInfo';
   protected $lastModifiedInfoDataType = '';
   public $name;
   public $negotiationChannelId;
   public $orderId;
   public $placementStrategyId;
-  protected $pricingType = 'Google_Service_Dfareporting_Pricing';
+  protected $pricingType = '\GoogleApiServices\Google_Service_Dfareporting_Pricing';
   protected $pricingDataType = '';
   public $projectId;
   public $rfpId;

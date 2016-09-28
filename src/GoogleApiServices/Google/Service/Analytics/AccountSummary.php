@@ -22,7 +22,7 @@ class Google_Service_Analytics_AccountSummary extends \GoogleApi\Google_Collecti
   public $kind;
   public $name;
   public $starred;
-  protected $webPropertiesType = 'Google_Service_Analytics_WebPropertySummary';
+  protected $webPropertiesType = '\GoogleApiServices\Google_Service_Analytics_WebPropertySummary';
   protected $webPropertiesDataType = 'array';
 
   public function setId($id)

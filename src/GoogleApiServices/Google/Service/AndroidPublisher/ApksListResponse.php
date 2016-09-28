@@ -18,7 +18,7 @@
 class Google_Service_AndroidPublisher_ApksListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'apks';
-  protected $apksType = 'Google_Service_AndroidPublisher_Apk';
+  protected $apksType = '\GoogleApiServices\Google_Service_AndroidPublisher_Apk';
   protected $apksDataType = 'array';
   public $kind;
 

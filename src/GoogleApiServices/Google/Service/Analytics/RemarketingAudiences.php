@@ -18,7 +18,7 @@
 class Google_Service_Analytics_RemarketingAudiences extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Analytics_RemarketingAudience';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Analytics_RemarketingAudience';
   protected $itemsDataType = 'array';
   public $itemsPerPage;
   public $kind;

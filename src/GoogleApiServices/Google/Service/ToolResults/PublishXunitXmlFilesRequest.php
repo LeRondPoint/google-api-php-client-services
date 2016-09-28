@@ -18,7 +18,7 @@
 class Google_Service_ToolResults_PublishXunitXmlFilesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'xunitXmlFiles';
-  protected $xunitXmlFilesType = 'Google_Service_ToolResults_FileReference';
+  protected $xunitXmlFilesType = '\GoogleApiServices\Google_Service_ToolResults_FileReference';
   protected $xunitXmlFilesDataType = 'array';
 
   public function setXunitXmlFiles($xunitXmlFiles)

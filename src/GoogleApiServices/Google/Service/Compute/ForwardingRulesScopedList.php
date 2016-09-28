@@ -18,9 +18,9 @@
 class Google_Service_Compute_ForwardingRulesScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'forwardingRules';
-  protected $forwardingRulesType = 'Google_Service_Compute_ForwardingRule';
+  protected $forwardingRulesType = '\GoogleApiServices\Google_Service_Compute_ForwardingRule';
   protected $forwardingRulesDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_ForwardingRulesScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_ForwardingRulesScopedListWarning';
   protected $warningDataType = '';
 
   public function setForwardingRules($forwardingRules)

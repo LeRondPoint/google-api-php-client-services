@@ -18,7 +18,7 @@
 class Google_Service_Fitness_BucketByTime extends \GoogleApi\Google_Model
 {
   public $durationMillis;
-  protected $periodType = 'Google_Service_Fitness_BucketByTimePeriod';
+  protected $periodType = '\GoogleApiServices\Google_Service_Fitness_BucketByTimePeriod';
   protected $periodDataType = '';
 
   public function setDurationMillis($durationMillis)

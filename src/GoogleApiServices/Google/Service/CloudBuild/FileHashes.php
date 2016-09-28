@@ -18,7 +18,7 @@
 class Google_Service_CloudBuild_FileHashes extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'fileHash';
-  protected $fileHashType = 'Google_Service_CloudBuild_Hash';
+  protected $fileHashType = '\GoogleApiServices\Google_Service_CloudBuild_Hash';
   protected $fileHashDataType = 'array';
 
   public function setFileHash($fileHash)

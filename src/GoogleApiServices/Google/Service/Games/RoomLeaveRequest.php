@@ -18,7 +18,7 @@
 class Google_Service_Games_RoomLeaveRequest extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $leaveDiagnosticsType = 'Google_Service_Games_RoomLeaveDiagnostics';
+  protected $leaveDiagnosticsType = '\GoogleApiServices\Google_Service_Games_RoomLeaveDiagnostics';
   protected $leaveDiagnosticsDataType = '';
   public $reason;
 

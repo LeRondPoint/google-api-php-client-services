@@ -31,7 +31,7 @@ class Google_Service_Analytics_Experiment extends \GoogleApi\Google_Collection
   public $name;
   public $objectiveMetric;
   public $optimizationType;
-  protected $parentLinkType = 'Google_Service_Analytics_ExperimentParentLink';
+  protected $parentLinkType = '\GoogleApiServices\Google_Service_Analytics_ExperimentParentLink';
   protected $parentLinkDataType = '';
   public $profileId;
   public $reasonExperimentEnded;
@@ -43,7 +43,7 @@ class Google_Service_Analytics_Experiment extends \GoogleApi\Google_Collection
   public $status;
   public $trafficCoverage;
   public $updated;
-  protected $variationsType = 'Google_Service_Analytics_ExperimentVariations';
+  protected $variationsType = '\GoogleApiServices\Google_Service_Analytics_ExperimentVariations';
   protected $variationsDataType = 'array';
   public $webPropertyId;
   public $winnerConfidenceLevel;

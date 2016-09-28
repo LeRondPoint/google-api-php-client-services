@@ -23,7 +23,7 @@ class Google_Service_Speech_RecognitionConfig extends \GoogleApi\Google_Model
   public $maxAlternatives;
   public $profanityFilter;
   public $sampleRate;
-  protected $speechContextType = 'Google_Service_Speech_SpeechContext';
+  protected $speechContextType = '\GoogleApiServices\Google_Service_Speech_SpeechContext';
   protected $speechContextDataType = '';
 
   public function setAudioChannels($audioChannels)

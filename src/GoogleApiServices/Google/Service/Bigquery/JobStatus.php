@@ -18,9 +18,9 @@
 class Google_Service_Bigquery_JobStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorResultType = 'Google_Service_Bigquery_ErrorProto';
+  protected $errorResultType = '\GoogleApiServices\Google_Service_Bigquery_ErrorProto';
   protected $errorResultDataType = '';
-  protected $errorsType = 'Google_Service_Bigquery_ErrorProto';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Bigquery_ErrorProto';
   protected $errorsDataType = 'array';
   public $state;
 

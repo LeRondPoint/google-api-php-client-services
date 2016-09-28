@@ -18,11 +18,11 @@
 class Google_Service_AndroidPublisher_EntitlementsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'resources';
-  protected $pageInfoType = 'Google_Service_AndroidPublisher_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_AndroidPublisher_PageInfo';
   protected $pageInfoDataType = '';
-  protected $resourcesType = 'Google_Service_AndroidPublisher_Entitlement';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_AndroidPublisher_Entitlement';
   protected $resourcesDataType = 'array';
-  protected $tokenPaginationType = 'Google_Service_AndroidPublisher_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_AndroidPublisher_TokenPagination';
   protected $tokenPaginationDataType = '';
 
   public function setPageInfo(Google_Service_AndroidPublisher_PageInfo $pageInfo)

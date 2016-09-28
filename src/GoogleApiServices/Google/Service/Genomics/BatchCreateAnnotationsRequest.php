@@ -18,7 +18,7 @@
 class Google_Service_Genomics_BatchCreateAnnotationsRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'annotations';
-  protected $annotationsType = 'Google_Service_Genomics_Annotation';
+  protected $annotationsType = '\GoogleApiServices\Google_Service_Genomics_Annotation';
   protected $annotationsDataType = 'array';
   public $requestId;
 

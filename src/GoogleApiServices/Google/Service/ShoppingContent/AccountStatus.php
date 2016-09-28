@@ -19,7 +19,7 @@ class Google_Service_ShoppingContent_AccountStatus extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'dataQualityIssues';
   public $accountId;
-  protected $dataQualityIssuesType = 'Google_Service_ShoppingContent_AccountStatusDataQualityIssue';
+  protected $dataQualityIssuesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountStatusDataQualityIssue';
   protected $dataQualityIssuesDataType = 'array';
   public $kind;
 

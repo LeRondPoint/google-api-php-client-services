@@ -19,7 +19,7 @@ class Google_Service_Appengine_ListServicesResponse extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'services';
   public $nextPageToken;
-  protected $servicesType = 'Google_Service_Appengine_Service';
+  protected $servicesType = '\GoogleApiServices\Google_Service_Appengine_Service';
   protected $servicesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

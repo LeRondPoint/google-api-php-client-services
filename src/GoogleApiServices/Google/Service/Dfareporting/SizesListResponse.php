@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_SizesListResponse extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'sizes';
   public $kind;
-  protected $sizesType = 'Google_Service_Dfareporting_Size';
+  protected $sizesType = '\GoogleApiServices\Google_Service_Dfareporting_Size';
   protected $sizesDataType = 'array';
 
   public function setKind($kind)

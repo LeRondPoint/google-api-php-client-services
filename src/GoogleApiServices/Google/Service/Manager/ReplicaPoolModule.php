@@ -18,11 +18,11 @@
 class Google_Service_Manager_ReplicaPoolModule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'healthChecks';
-  protected $envVariablesType = 'Google_Service_Manager_EnvVariable';
+  protected $envVariablesType = '\GoogleApiServices\Google_Service_Manager_EnvVariable';
   protected $envVariablesDataType = 'map';
   public $healthChecks;
   public $numReplicas;
-  protected $replicaPoolParamsType = 'Google_Service_Manager_ReplicaPoolParams';
+  protected $replicaPoolParamsType = '\GoogleApiServices\Google_Service_Manager_ReplicaPoolParams';
   protected $replicaPoolParamsDataType = '';
   public $resourceView;
 

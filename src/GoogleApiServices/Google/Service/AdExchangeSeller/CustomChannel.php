@@ -21,7 +21,7 @@ class Google_Service_AdExchangeSeller_CustomChannel extends \GoogleApi\Google_Mo
   public $id;
   public $kind;
   public $name;
-  protected $targetingInfoType = 'Google_Service_AdExchangeSeller_CustomChannelTargetingInfo';
+  protected $targetingInfoType = '\GoogleApiServices\Google_Service_AdExchangeSeller_CustomChannelTargetingInfo';
   protected $targetingInfoDataType = '';
 
   public function setCode($code)

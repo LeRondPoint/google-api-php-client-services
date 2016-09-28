@@ -17,12 +17,12 @@
 
 class Google_Service_ToolResults_Image extends \GoogleApi\Google_Model
 {
-  protected $errorType = 'Google_Service_ToolResults_Status';
+  protected $errorType = '\GoogleApiServices\Google_Service_ToolResults_Status';
   protected $errorDataType = '';
-  protected $sourceImageType = 'Google_Service_ToolResults_ToolOutputReference';
+  protected $sourceImageType = '\GoogleApiServices\Google_Service_ToolResults_ToolOutputReference';
   protected $sourceImageDataType = '';
   public $stepId;
-  protected $thumbnailType = 'Google_Service_ToolResults_Thumbnail';
+  protected $thumbnailType = '\GoogleApiServices\Google_Service_ToolResults_Thumbnail';
   protected $thumbnailDataType = '';
 
   public function setError(Google_Service_ToolResults_Status $error)

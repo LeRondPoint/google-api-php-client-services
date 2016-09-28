@@ -17,11 +17,11 @@
 
 class Google_Service_Partners_CreateLeadRequest extends \GoogleApi\Google_Model
 {
-  protected $leadType = 'Google_Service_Partners_Lead';
+  protected $leadType = '\GoogleApiServices\Google_Service_Partners_Lead';
   protected $leadDataType = '';
-  protected $recaptchaChallengeType = 'Google_Service_Partners_RecaptchaChallenge';
+  protected $recaptchaChallengeType = '\GoogleApiServices\Google_Service_Partners_RecaptchaChallenge';
   protected $recaptchaChallengeDataType = '';
-  protected $requestMetadataType = 'Google_Service_Partners_RequestMetadata';
+  protected $requestMetadataType = '\GoogleApiServices\Google_Service_Partners_RequestMetadata';
   protected $requestMetadataDataType = '';
 
   public function setLead(Google_Service_Partners_Lead $lead)

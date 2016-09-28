@@ -20,7 +20,7 @@ class Google_Service_YouTube_ActivityContentDetailsSocial extends \GoogleApi\Goo
   public $author;
   public $imageUrl;
   public $referenceUrl;
-  protected $resourceIdType = 'Google_Service_YouTube_ResourceId';
+  protected $resourceIdType = '\GoogleApiServices\Google_Service_YouTube_ResourceId';
   protected $resourceIdDataType = '';
   public $type;
 

@@ -17,7 +17,7 @@
 
 class Google_Service_Bigquery_DatasetListDatasets extends \GoogleApi\Google_Model
 {
-  protected $datasetReferenceType = 'Google_Service_Bigquery_DatasetReference';
+  protected $datasetReferenceType = '\GoogleApiServices\Google_Service_Bigquery_DatasetReference';
   protected $datasetReferenceDataType = '';
   public $friendlyName;
   public $id;

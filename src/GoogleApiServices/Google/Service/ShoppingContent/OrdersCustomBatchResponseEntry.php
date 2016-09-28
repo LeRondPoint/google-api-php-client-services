@@ -18,11 +18,11 @@
 class Google_Service_ShoppingContent_OrdersCustomBatchResponseEntry extends \GoogleApi\Google_Model
 {
   public $batchId;
-  protected $errorsType = 'Google_Service_ShoppingContent_Errors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_Errors';
   protected $errorsDataType = '';
   public $executionStatus;
   public $kind;
-  protected $orderType = 'Google_Service_ShoppingContent_Order';
+  protected $orderType = '\GoogleApiServices\Google_Service_ShoppingContent_Order';
   protected $orderDataType = '';
 
   public function setBatchId($batchId)

@@ -18,14 +18,14 @@
 class Google_Service_Books_GeolayerdataGeo extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'boundary';
-  protected $boundaryType = 'Google_Service_Books_GeolayerdataGeoBoundary';
+  protected $boundaryType = '\GoogleApiServices\Google_Service_Books_GeolayerdataGeoBoundary';
   protected $boundaryDataType = 'array';
   public $cachePolicy;
   public $countryCode;
   public $latitude;
   public $longitude;
   public $mapType;
-  protected $viewportType = 'Google_Service_Books_GeolayerdataGeoViewport';
+  protected $viewportType = '\GoogleApiServices\Google_Service_Books_GeolayerdataGeoViewport';
   protected $viewportDataType = '';
   public $zoom;
 

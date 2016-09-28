@@ -17,7 +17,7 @@
 
 class Google_Service_Spectrum_DeviceValidity extends \GoogleApi\Google_Model
 {
-  protected $deviceDescType = 'Google_Service_Spectrum_DeviceDescriptor';
+  protected $deviceDescType = '\GoogleApiServices\Google_Service_Spectrum_DeviceDescriptor';
   protected $deviceDescDataType = '';
   public $isValid;
   public $reason;

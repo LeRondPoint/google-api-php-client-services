@@ -20,7 +20,7 @@ class Google_Service_YouTube_CommentThreadSnippet extends \GoogleApi\Google_Mode
   public $canReply;
   public $channelId;
   public $isPublic;
-  protected $topLevelCommentType = 'Google_Service_YouTube_Comment';
+  protected $topLevelCommentType = '\GoogleApiServices\Google_Service_YouTube_Comment';
   protected $topLevelCommentDataType = '';
   public $totalReplyCount;
   public $videoId;

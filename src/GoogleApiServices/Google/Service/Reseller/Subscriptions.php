@@ -20,7 +20,7 @@ class Google_Service_Reseller_Subscriptions extends \GoogleApi\Google_Collection
   protected $collection_key = 'subscriptions';
   public $kind;
   public $nextPageToken;
-  protected $subscriptionsType = 'Google_Service_Reseller_Subscription';
+  protected $subscriptionsType = '\GoogleApiServices\Google_Service_Reseller_Subscription';
   protected $subscriptionsDataType = 'array';
 
   public function setKind($kind)

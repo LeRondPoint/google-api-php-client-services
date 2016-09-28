@@ -18,7 +18,7 @@
 class Google_Service_Coordinate_JobChange extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $stateType = 'Google_Service_Coordinate_JobState';
+  protected $stateType = '\GoogleApiServices\Google_Service_Coordinate_JobState';
   protected $stateDataType = '';
   public $timestamp;
 

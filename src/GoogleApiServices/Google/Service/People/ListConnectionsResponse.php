@@ -18,7 +18,7 @@
 class Google_Service_People_ListConnectionsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'connections';
-  protected $connectionsType = 'Google_Service_People_Person';
+  protected $connectionsType = '\GoogleApiServices\Google_Service_People_Person';
   protected $connectionsDataType = 'array';
   public $nextPageToken;
   public $nextSyncToken;

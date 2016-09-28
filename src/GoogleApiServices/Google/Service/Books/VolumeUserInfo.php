@@ -19,10 +19,10 @@ class Google_Service_Books_VolumeUserInfo extends \GoogleApi\Google_Model
 {
   public $acquiredTime;
   public $acquisitionType;
-  protected $copyType = 'Google_Service_Books_VolumeUserInfoCopy';
+  protected $copyType = '\GoogleApiServices\Google_Service_Books_VolumeUserInfoCopy';
   protected $copyDataType = '';
   public $entitlementType;
-  protected $familySharingType = 'Google_Service_Books_VolumeUserInfoFamilySharing';
+  protected $familySharingType = '\GoogleApiServices\Google_Service_Books_VolumeUserInfoFamilySharing';
   protected $familySharingDataType = '';
   public $isFamilySharedFromUser;
   public $isFamilySharedToUser;
@@ -32,15 +32,15 @@ class Google_Service_Books_VolumeUserInfo extends \GoogleApi\Google_Model
   public $isPreordered;
   public $isPurchased;
   public $isUploaded;
-  protected $readingPositionType = 'Google_Service_Books_ReadingPosition';
+  protected $readingPositionType = '\GoogleApiServices\Google_Service_Books_ReadingPosition';
   protected $readingPositionDataType = '';
-  protected $rentalPeriodType = 'Google_Service_Books_VolumeUserInfoRentalPeriod';
+  protected $rentalPeriodType = '\GoogleApiServices\Google_Service_Books_VolumeUserInfoRentalPeriod';
   protected $rentalPeriodDataType = '';
   public $rentalState;
-  protected $reviewType = 'Google_Service_Books_Review';
+  protected $reviewType = '\GoogleApiServices\Google_Service_Books_Review';
   protected $reviewDataType = '';
   public $updated;
-  protected $userUploadedVolumeInfoType = 'Google_Service_Books_VolumeUserInfoUserUploadedVolumeInfo';
+  protected $userUploadedVolumeInfoType = '\GoogleApiServices\Google_Service_Books_VolumeUserInfoUserUploadedVolumeInfo';
   protected $userUploadedVolumeInfoDataType = '';
 
   public function setAcquiredTime($acquiredTime)

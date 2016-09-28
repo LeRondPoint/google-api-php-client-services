@@ -18,7 +18,7 @@
 class Google_Service_DeploymentManager_DeploymentUpdate extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'labels';
-  protected $labelsType = 'Google_Service_DeploymentManager_DeploymentUpdateLabelEntry';
+  protected $labelsType = '\GoogleApiServices\Google_Service_DeploymentManager_DeploymentUpdateLabelEntry';
   protected $labelsDataType = 'array';
   public $manifest;
 

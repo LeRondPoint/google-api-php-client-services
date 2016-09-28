@@ -18,16 +18,16 @@
 class Google_Service_QPXExpress_Data extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'tax';
-  protected $aircraftType = 'Google_Service_QPXExpress_AircraftData';
+  protected $aircraftType = '\GoogleApiServices\Google_Service_QPXExpress_AircraftData';
   protected $aircraftDataType = 'array';
-  protected $airportType = 'Google_Service_QPXExpress_AirportData';
+  protected $airportType = '\GoogleApiServices\Google_Service_QPXExpress_AirportData';
   protected $airportDataType = 'array';
-  protected $carrierType = 'Google_Service_QPXExpress_CarrierData';
+  protected $carrierType = '\GoogleApiServices\Google_Service_QPXExpress_CarrierData';
   protected $carrierDataType = 'array';
-  protected $cityType = 'Google_Service_QPXExpress_CityData';
+  protected $cityType = '\GoogleApiServices\Google_Service_QPXExpress_CityData';
   protected $cityDataType = 'array';
   public $kind;
-  protected $taxType = 'Google_Service_QPXExpress_TaxData';
+  protected $taxType = '\GoogleApiServices\Google_Service_QPXExpress_TaxData';
   protected $taxDataType = 'array';
 
   public function setAircraft($aircraft)

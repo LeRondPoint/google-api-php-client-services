@@ -19,7 +19,7 @@ class Google_Service_Logging_ListMonitoredResourceDescriptorsResponse extends \G
 {
   protected $collection_key = 'resourceDescriptors';
   public $nextPageToken;
-  protected $resourceDescriptorsType = 'Google_Service_Logging_MonitoredResourceDescriptor';
+  protected $resourceDescriptorsType = '\GoogleApiServices\Google_Service_Logging_MonitoredResourceDescriptor';
   protected $resourceDescriptorsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

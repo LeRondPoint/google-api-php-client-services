@@ -17,9 +17,9 @@
 
 class Google_Service_AdExchangeBuyer_DealTermsRubiconNonGuaranteedTerms extends \GoogleApi\Google_Model
 {
-  protected $priorityPriceType = 'Google_Service_AdExchangeBuyer_Price';
+  protected $priorityPriceType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Price';
   protected $priorityPriceDataType = '';
-  protected $standardPriceType = 'Google_Service_AdExchangeBuyer_Price';
+  protected $standardPriceType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Price';
   protected $standardPriceDataType = '';
 
   public function setPriorityPrice(Google_Service_AdExchangeBuyer_Price $priorityPrice)

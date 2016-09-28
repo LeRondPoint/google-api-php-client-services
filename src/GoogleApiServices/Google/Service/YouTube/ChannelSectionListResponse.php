@@ -20,7 +20,7 @@ class Google_Service_YouTube_ChannelSectionListResponse extends \GoogleApi\Googl
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_ChannelSection';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_ChannelSection';
   protected $itemsDataType = 'array';
   public $kind;
   public $visitorId;

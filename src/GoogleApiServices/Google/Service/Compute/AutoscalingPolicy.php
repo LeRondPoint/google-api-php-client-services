@@ -19,11 +19,11 @@ class Google_Service_Compute_AutoscalingPolicy extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'customMetricUtilizations';
   public $coolDownPeriodSec;
-  protected $cpuUtilizationType = 'Google_Service_Compute_AutoscalingPolicyCpuUtilization';
+  protected $cpuUtilizationType = '\GoogleApiServices\Google_Service_Compute_AutoscalingPolicyCpuUtilization';
   protected $cpuUtilizationDataType = '';
-  protected $customMetricUtilizationsType = 'Google_Service_Compute_AutoscalingPolicyCustomMetricUtilization';
+  protected $customMetricUtilizationsType = '\GoogleApiServices\Google_Service_Compute_AutoscalingPolicyCustomMetricUtilization';
   protected $customMetricUtilizationsDataType = 'array';
-  protected $loadBalancingUtilizationType = 'Google_Service_Compute_AutoscalingPolicyLoadBalancingUtilization';
+  protected $loadBalancingUtilizationType = '\GoogleApiServices\Google_Service_Compute_AutoscalingPolicyLoadBalancingUtilization';
   protected $loadBalancingUtilizationDataType = '';
   public $maxNumReplicas;
   public $minNumReplicas;

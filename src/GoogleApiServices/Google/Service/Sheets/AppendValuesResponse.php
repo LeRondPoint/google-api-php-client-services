@@ -19,7 +19,7 @@ class Google_Service_Sheets_AppendValuesResponse extends \GoogleApi\Google_Model
 {
   public $spreadsheetId;
   public $tableRange;
-  protected $updatesType = 'Google_Service_Sheets_UpdateValuesResponse';
+  protected $updatesType = '\GoogleApiServices\Google_Service_Sheets_UpdateValuesResponse';
   protected $updatesDataType = '';
 
   public function setSpreadsheetId($spreadsheetId)

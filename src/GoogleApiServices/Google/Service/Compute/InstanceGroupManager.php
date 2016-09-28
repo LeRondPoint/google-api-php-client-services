@@ -20,7 +20,7 @@ class Google_Service_Compute_InstanceGroupManager extends \GoogleApi\Google_Coll
   protected $collection_key = 'targetPools';
   public $baseInstanceName;
   public $creationTimestamp;
-  protected $currentActionsType = 'Google_Service_Compute_InstanceGroupManagerActionsSummary';
+  protected $currentActionsType = '\GoogleApiServices\Google_Service_Compute_InstanceGroupManagerActionsSummary';
   protected $currentActionsDataType = '';
   public $description;
   public $fingerprint;
@@ -29,7 +29,7 @@ class Google_Service_Compute_InstanceGroupManager extends \GoogleApi\Google_Coll
   public $instanceTemplate;
   public $kind;
   public $name;
-  protected $namedPortsType = 'Google_Service_Compute_NamedPort';
+  protected $namedPortsType = '\GoogleApiServices\Google_Service_Compute_NamedPort';
   protected $namedPortsDataType = 'array';
   public $selfLink;
   public $targetPools;

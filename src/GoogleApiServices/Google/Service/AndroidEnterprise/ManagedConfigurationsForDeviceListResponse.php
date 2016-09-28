@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_ManagedConfigurationsForDeviceListRespons
 {
   protected $collection_key = 'managedConfigurationForDevice';
   public $kind;
-  protected $managedConfigurationForDeviceType = 'Google_Service_AndroidEnterprise_ManagedConfiguration';
+  protected $managedConfigurationForDeviceType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration';
   protected $managedConfigurationForDeviceDataType = 'array';
 
   public function setKind($kind)

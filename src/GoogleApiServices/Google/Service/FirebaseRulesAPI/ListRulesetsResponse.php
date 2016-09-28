@@ -19,7 +19,7 @@ class Google_Service_FirebaseRulesAPI_ListRulesetsResponse extends \GoogleApi\Go
 {
   protected $collection_key = 'rulesets';
   public $nextPageToken;
-  protected $rulesetsType = 'Google_Service_FirebaseRulesAPI_Ruleset';
+  protected $rulesetsType = '\GoogleApiServices\Google_Service_FirebaseRulesAPI_Ruleset';
   protected $rulesetsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

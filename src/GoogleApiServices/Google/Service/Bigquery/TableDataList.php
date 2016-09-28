@@ -21,7 +21,7 @@ class Google_Service_Bigquery_TableDataList extends \GoogleApi\Google_Collection
   public $etag;
   public $kind;
   public $pageToken;
-  protected $rowsType = 'Google_Service_Bigquery_TableRow';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Bigquery_TableRow';
   protected $rowsDataType = 'array';
   public $totalRows;
 

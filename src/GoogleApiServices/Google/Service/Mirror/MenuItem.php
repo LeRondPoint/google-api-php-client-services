@@ -26,7 +26,7 @@ class Google_Service_Mirror_MenuItem extends \GoogleApi\Google_Collection
   public $id;
   public $payload;
   public $removeWhenSelected;
-  protected $valuesType = 'Google_Service_Mirror_MenuValue';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Mirror_MenuValue';
   protected $valuesDataType = 'array';
 
   public function setAction($action)

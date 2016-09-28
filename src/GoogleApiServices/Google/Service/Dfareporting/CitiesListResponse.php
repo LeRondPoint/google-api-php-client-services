@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CitiesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'cities';
-  protected $citiesType = 'Google_Service_Dfareporting_City';
+  protected $citiesType = '\GoogleApiServices\Google_Service_Dfareporting_City';
   protected $citiesDataType = 'array';
   public $kind;
 

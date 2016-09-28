@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListMessagesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'messages';
-  protected $messagesType = 'Google_Service_Gmail_Message';
+  protected $messagesType = '\GoogleApiServices\Google_Service_Gmail_Message';
   protected $messagesDataType = 'array';
   public $nextPageToken;
   public $resultSizeEstimate;

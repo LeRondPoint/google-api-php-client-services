@@ -18,11 +18,11 @@
 class Google_Service_Customsearch_Promotion extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'bodyLines';
-  protected $bodyLinesType = 'Google_Service_Customsearch_PromotionBodyLines';
+  protected $bodyLinesType = '\GoogleApiServices\Google_Service_Customsearch_PromotionBodyLines';
   protected $bodyLinesDataType = 'array';
   public $displayLink;
   public $htmlTitle;
-  protected $imageType = 'Google_Service_Customsearch_PromotionImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_Customsearch_PromotionImage';
   protected $imageDataType = '';
   public $link;
   public $title;

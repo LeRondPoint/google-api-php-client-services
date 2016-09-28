@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_BrowsersListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'browsers';
-  protected $browsersType = 'Google_Service_Dfareporting_Browser';
+  protected $browsersType = '\GoogleApiServices\Google_Service_Dfareporting_Browser';
   protected $browsersDataType = 'array';
   public $kind;
 

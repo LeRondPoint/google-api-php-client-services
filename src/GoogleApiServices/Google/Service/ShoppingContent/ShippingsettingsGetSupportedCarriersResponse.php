@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_ShippingsettingsGetSupportedCarriersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'carriers';
-  protected $carriersType = 'Google_Service_ShoppingContent_CarriersCarrier';
+  protected $carriersType = '\GoogleApiServices\Google_Service_ShoppingContent_CarriersCarrier';
   protected $carriersDataType = 'array';
   public $kind;
 

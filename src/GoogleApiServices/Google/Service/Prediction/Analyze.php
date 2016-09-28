@@ -18,12 +18,12 @@
 class Google_Service_Prediction_Analyze extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $dataDescriptionType = 'Google_Service_Prediction_AnalyzeDataDescription';
+  protected $dataDescriptionType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescription';
   protected $dataDescriptionDataType = '';
   public $errors;
   public $id;
   public $kind;
-  protected $modelDescriptionType = 'Google_Service_Prediction_AnalyzeModelDescription';
+  protected $modelDescriptionType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeModelDescription';
   protected $modelDescriptionDataType = '';
   public $selfLink;
 

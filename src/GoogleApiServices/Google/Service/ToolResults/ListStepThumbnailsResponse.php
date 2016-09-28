@@ -19,7 +19,7 @@ class Google_Service_ToolResults_ListStepThumbnailsResponse extends \GoogleApi\G
 {
   protected $collection_key = 'thumbnails';
   public $nextPageToken;
-  protected $thumbnailsType = 'Google_Service_ToolResults_Image';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_ToolResults_Image';
   protected $thumbnailsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

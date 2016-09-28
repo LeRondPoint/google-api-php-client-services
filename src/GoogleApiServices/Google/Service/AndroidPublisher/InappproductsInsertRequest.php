@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_InappproductsInsertRequest extends \GoogleApi\Google_Model
 {
-  protected $inappproductType = 'Google_Service_AndroidPublisher_InAppProduct';
+  protected $inappproductType = '\GoogleApiServices\Google_Service_AndroidPublisher_InAppProduct';
   protected $inappproductDataType = '';
 
   public function setInappproduct(Google_Service_AndroidPublisher_InAppProduct $inappproduct)

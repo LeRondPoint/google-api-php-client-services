@@ -18,7 +18,7 @@
 class Google_Service_Spectrum_DbUpdateSpec extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'databases';
-  protected $databasesType = 'Google_Service_Spectrum_DatabaseSpec';
+  protected $databasesType = '\GoogleApiServices\Google_Service_Spectrum_DatabaseSpec';
   protected $databasesDataType = 'array';
 
   public function setDatabases($databases)

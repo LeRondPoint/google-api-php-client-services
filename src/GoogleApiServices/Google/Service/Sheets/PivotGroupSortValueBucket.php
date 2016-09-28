@@ -18,7 +18,7 @@
 class Google_Service_Sheets_PivotGroupSortValueBucket extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'buckets';
-  protected $bucketsType = 'Google_Service_Sheets_ExtendedValue';
+  protected $bucketsType = '\GoogleApiServices\Google_Service_Sheets_ExtendedValue';
   protected $bucketsDataType = 'array';
   public $valuesIndex;
 

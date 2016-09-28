@@ -29,7 +29,7 @@ class Google_Service_IdentityToolkit_UserInfo extends \GoogleApi\Google_Collecti
   public $passwordHash;
   public $passwordUpdatedAt;
   public $photoUrl;
-  protected $providerUserInfoType = 'Google_Service_IdentityToolkit_UserInfoProviderUserInfo';
+  protected $providerUserInfoType = '\GoogleApiServices\Google_Service_IdentityToolkit_UserInfoProviderUserInfo';
   protected $providerUserInfoDataType = 'array';
   public $salt;
   public $screenName;

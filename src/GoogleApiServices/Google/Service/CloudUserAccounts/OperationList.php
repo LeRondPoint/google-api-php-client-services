@@ -19,7 +19,7 @@ class Google_Service_CloudUserAccounts_OperationList extends \GoogleApi\Google_C
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_CloudUserAccounts_Operation';
+  protected $itemsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_Operation';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

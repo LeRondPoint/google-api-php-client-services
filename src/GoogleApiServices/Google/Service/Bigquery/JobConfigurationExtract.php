@@ -24,7 +24,7 @@ class Google_Service_Bigquery_JobConfigurationExtract extends \GoogleApi\Google_
   public $destinationUris;
   public $fieldDelimiter;
   public $printHeader;
-  protected $sourceTableType = 'Google_Service_Bigquery_TableReference';
+  protected $sourceTableType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $sourceTableDataType = '';
 
   public function setCompression($compression)

@@ -18,7 +18,7 @@
 class Google_Service_Monitoring_TypedValue extends \GoogleApi\Google_Model
 {
   public $boolValue;
-  protected $distributionValueType = 'Google_Service_Monitoring_Distribution';
+  protected $distributionValueType = '\GoogleApiServices\Google_Service_Monitoring_Distribution';
   protected $distributionValueDataType = '';
   public $doubleValue;
   public $int64Value;

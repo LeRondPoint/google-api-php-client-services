@@ -18,7 +18,7 @@
 class Google_Service_Books_Discoveryclusters extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'clusters';
-  protected $clustersType = 'Google_Service_Books_DiscoveryclustersClusters';
+  protected $clustersType = '\GoogleApiServices\Google_Service_Books_DiscoveryclustersClusters';
   protected $clustersDataType = 'array';
   public $kind;
   public $totalClusters;

@@ -18,7 +18,7 @@
 class Google_Service_Container_ListNodePoolsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'nodePools';
-  protected $nodePoolsType = 'Google_Service_Container_NodePool';
+  protected $nodePoolsType = '\GoogleApiServices\Google_Service_Container_NodePool';
   protected $nodePoolsDataType = 'array';
 
   public function setNodePools($nodePools)

@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_LeaseWorkItemResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'workItems';
-  protected $workItemsType = 'Google_Service_Dataflow_WorkItem';
+  protected $workItemsType = '\GoogleApiServices\Google_Service_Dataflow_WorkItem';
   protected $workItemsDataType = 'array';
 
   public function setWorkItems($workItems)

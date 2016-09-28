@@ -19,10 +19,10 @@ class Google_Service_Coordinate_Job extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'jobChange';
   public $id;
-  protected $jobChangeType = 'Google_Service_Coordinate_JobChange';
+  protected $jobChangeType = '\GoogleApiServices\Google_Service_Coordinate_JobChange';
   protected $jobChangeDataType = 'array';
   public $kind;
-  protected $stateType = 'Google_Service_Coordinate_JobState';
+  protected $stateType = '\GoogleApiServices\Google_Service_Coordinate_JobState';
   protected $stateDataType = '';
 
   public function setId($id)

@@ -17,9 +17,9 @@
 
 class Google_Service_Dataflow_SourceSplitRequest extends \GoogleApi\Google_Model
 {
-  protected $optionsType = 'Google_Service_Dataflow_SourceSplitOptions';
+  protected $optionsType = '\GoogleApiServices\Google_Service_Dataflow_SourceSplitOptions';
   protected $optionsDataType = '';
-  protected $sourceType = 'Google_Service_Dataflow_Source';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Dataflow_Source';
   protected $sourceDataType = '';
 
   public function setOptions(Google_Service_Dataflow_SourceSplitOptions $options)

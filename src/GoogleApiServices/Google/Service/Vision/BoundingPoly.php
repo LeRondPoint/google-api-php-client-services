@@ -18,7 +18,7 @@
 class Google_Service_Vision_BoundingPoly extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'vertices';
-  protected $verticesType = 'Google_Service_Vision_Vertex';
+  protected $verticesType = '\GoogleApiServices\Google_Service_Vision_Vertex';
   protected $verticesDataType = 'array';
 
   public function setVertices($vertices)

@@ -19,13 +19,13 @@ class Google_Service_Dfareporting_FloodlightActivityGroup extends \GoogleApi\Goo
 {
   public $accountId;
   public $advertiserId;
-  protected $advertiserIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $advertiserIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $advertiserIdDimensionValueDataType = '';
   public $floodlightConfigurationId;
-  protected $floodlightConfigurationIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $floodlightConfigurationIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $floodlightConfigurationIdDimensionValueDataType = '';
   public $id;
-  protected $idDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $idDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $idDimensionValueDataType = '';
   public $kind;
   public $name;

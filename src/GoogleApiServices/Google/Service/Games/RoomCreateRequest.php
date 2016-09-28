@@ -18,14 +18,14 @@
 class Google_Service_Games_RoomCreateRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'invitedPlayerIds';
-  protected $autoMatchingCriteriaType = 'Google_Service_Games_RoomAutoMatchingCriteria';
+  protected $autoMatchingCriteriaType = '\GoogleApiServices\Google_Service_Games_RoomAutoMatchingCriteria';
   protected $autoMatchingCriteriaDataType = '';
   public $capabilities;
-  protected $clientAddressType = 'Google_Service_Games_RoomClientAddress';
+  protected $clientAddressType = '\GoogleApiServices\Google_Service_Games_RoomClientAddress';
   protected $clientAddressDataType = '';
   public $invitedPlayerIds;
   public $kind;
-  protected $networkDiagnosticsType = 'Google_Service_Games_NetworkDiagnostics';
+  protected $networkDiagnosticsType = '\GoogleApiServices\Google_Service_Games_NetworkDiagnostics';
   protected $networkDiagnosticsDataType = '';
   public $requestId;
   public $variant;

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeSeller_Alerts extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_AdExchangeSeller_Alert';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeSeller_Alert';
   protected $itemsDataType = 'array';
   public $kind;
 

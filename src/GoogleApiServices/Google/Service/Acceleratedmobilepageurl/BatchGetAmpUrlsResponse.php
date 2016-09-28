@@ -18,9 +18,9 @@
 class Google_Service_Acceleratedmobilepageurl_BatchGetAmpUrlsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'urlErrors';
-  protected $ampUrlsType = 'Google_Service_Acceleratedmobilepageurl_AmpUrl';
+  protected $ampUrlsType = '\GoogleApiServices\Google_Service_Acceleratedmobilepageurl_AmpUrl';
   protected $ampUrlsDataType = 'array';
-  protected $urlErrorsType = 'Google_Service_Acceleratedmobilepageurl_AmpUrlError';
+  protected $urlErrorsType = '\GoogleApiServices\Google_Service_Acceleratedmobilepageurl_AmpUrlError';
   protected $urlErrorsDataType = 'array';
 
   public function setAmpUrls($ampUrls)

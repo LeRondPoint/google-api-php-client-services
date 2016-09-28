@@ -18,7 +18,7 @@
 class Google_Service_CloudSpeechAPI_SpeechRecognitionResult extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'alternatives';
-  protected $alternativesType = 'Google_Service_CloudSpeechAPI_SpeechRecognitionAlternative';
+  protected $alternativesType = '\GoogleApiServices\Google_Service_CloudSpeechAPI_SpeechRecognitionAlternative';
   protected $alternativesDataType = 'array';
 
   public function setAlternatives($alternatives)

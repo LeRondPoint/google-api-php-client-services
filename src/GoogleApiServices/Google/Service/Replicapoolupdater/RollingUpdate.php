@@ -20,7 +20,7 @@ class Google_Service_Replicapoolupdater_RollingUpdate extends \GoogleApi\Google_
   public $actionType;
   public $creationTimestamp;
   public $description;
-  protected $errorType = 'Google_Service_Replicapoolupdater_RollingUpdateError';
+  protected $errorType = '\GoogleApiServices\Google_Service_Replicapoolupdater_RollingUpdateError';
   protected $errorDataType = '';
   public $id;
   public $instanceGroup;
@@ -28,7 +28,7 @@ class Google_Service_Replicapoolupdater_RollingUpdate extends \GoogleApi\Google_
   public $instanceTemplate;
   public $kind;
   public $oldInstanceTemplate;
-  protected $policyType = 'Google_Service_Replicapoolupdater_RollingUpdatePolicy';
+  protected $policyType = '\GoogleApiServices\Google_Service_Replicapoolupdater_RollingUpdatePolicy';
   protected $policyDataType = '';
   public $progress;
   public $selfLink;

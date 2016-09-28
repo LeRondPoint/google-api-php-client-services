@@ -18,9 +18,9 @@
 class Google_Service_Bigquery_QueryParameter extends \GoogleApi\Google_Model
 {
   public $name;
-  protected $parameterTypeType = 'Google_Service_Bigquery_QueryParameterType';
+  protected $parameterTypeType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameterType';
   protected $parameterTypeDataType = '';
-  protected $parameterValueType = 'Google_Service_Bigquery_QueryParameterValue';
+  protected $parameterValueType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameterValue';
   protected $parameterValueDataType = '';
 
   public function setName($name)

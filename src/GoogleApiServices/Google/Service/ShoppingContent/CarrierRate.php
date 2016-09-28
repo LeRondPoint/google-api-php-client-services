@@ -19,7 +19,7 @@ class Google_Service_ShoppingContent_CarrierRate extends \GoogleApi\Google_Model
 {
   public $carrierName;
   public $carrierService;
-  protected $flatAdjustmentType = 'Google_Service_ShoppingContent_Price';
+  protected $flatAdjustmentType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $flatAdjustmentDataType = '';
   public $name;
   public $originPostalCode;

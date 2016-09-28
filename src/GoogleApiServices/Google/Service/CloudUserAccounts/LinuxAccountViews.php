@@ -18,10 +18,10 @@
 class Google_Service_CloudUserAccounts_LinuxAccountViews extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'userViews';
-  protected $groupViewsType = 'Google_Service_CloudUserAccounts_LinuxGroupView';
+  protected $groupViewsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_LinuxGroupView';
   protected $groupViewsDataType = 'array';
   public $kind;
-  protected $userViewsType = 'Google_Service_CloudUserAccounts_LinuxUserView';
+  protected $userViewsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_LinuxUserView';
   protected $userViewsDataType = 'array';
 
   public function setGroupViews($groupViews)

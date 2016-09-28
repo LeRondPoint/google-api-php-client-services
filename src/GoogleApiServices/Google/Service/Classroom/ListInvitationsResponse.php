@@ -18,7 +18,7 @@
 class Google_Service_Classroom_ListInvitationsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'invitations';
-  protected $invitationsType = 'Google_Service_Classroom_Invitation';
+  protected $invitationsType = '\GoogleApiServices\Google_Service_Classroom_Invitation';
   protected $invitationsDataType = 'array';
   public $nextPageToken;
 

@@ -18,7 +18,7 @@
 class Google_Service_Classroom_ListCourseAliasesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'aliases';
-  protected $aliasesType = 'Google_Service_Classroom_CourseAlias';
+  protected $aliasesType = '\GoogleApiServices\Google_Service_Classroom_CourseAlias';
   protected $aliasesDataType = 'array';
   public $nextPageToken;
 

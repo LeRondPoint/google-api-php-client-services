@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyerII_ListClientUserInvitationsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'invitations';
-  protected $invitationsType = 'Google_Service_AdExchangeBuyerII_ClientUserInvitation';
+  protected $invitationsType = '\GoogleApiServices\Google_Service_AdExchangeBuyerII_ClientUserInvitation';
   protected $invitationsDataType = 'array';
   public $nextPageToken;
 

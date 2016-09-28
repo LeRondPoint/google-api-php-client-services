@@ -17,9 +17,9 @@
 
 class Google_Service_CloudBuild_Source extends \GoogleApi\Google_Model
 {
-  protected $repoSourceType = 'Google_Service_CloudBuild_RepoSource';
+  protected $repoSourceType = '\GoogleApiServices\Google_Service_CloudBuild_RepoSource';
   protected $repoSourceDataType = '';
-  protected $storageSourceType = 'Google_Service_CloudBuild_StorageSource';
+  protected $storageSourceType = '\GoogleApiServices\Google_Service_CloudBuild_StorageSource';
   protected $storageSourceDataType = '';
 
   public function setRepoSource(Google_Service_CloudBuild_RepoSource $repoSource)
