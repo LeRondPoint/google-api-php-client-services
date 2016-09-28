@@ -18,14 +18,14 @@
 class Google_Service_DeploymentManager_ResourceUpdate extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'warnings';
-  protected $errorType = 'Google_Service_DeploymentManager_ResourceUpdateError';
+  protected $errorType = '\GoogleApiServices\Google_Service_DeploymentManager_ResourceUpdateError';
   protected $errorDataType = '';
   public $finalProperties;
   public $intent;
   public $manifest;
   public $properties;
   public $state;
-  protected $warningsType = 'Google_Service_DeploymentManager_ResourceUpdateWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_DeploymentManager_ResourceUpdateWarnings';
   protected $warningsDataType = 'array';
 
   public function setError(Google_Service_DeploymentManager_ResourceUpdateError $error)

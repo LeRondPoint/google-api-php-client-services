@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_DevicesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'device';
-  protected $deviceType = 'Google_Service_AndroidEnterprise_Device';
+  protected $deviceType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Device';
   protected $deviceDataType = 'array';
   public $kind;
 

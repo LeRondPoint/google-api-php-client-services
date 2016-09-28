@@ -22,7 +22,7 @@ class Google_Service_YouTube_VideoSuggestions extends \GoogleApi\Google_Collecti
   public $processingErrors;
   public $processingHints;
   public $processingWarnings;
-  protected $tagSuggestionsType = 'Google_Service_YouTube_VideoSuggestionsTagSuggestion';
+  protected $tagSuggestionsType = '\GoogleApiServices\Google_Service_YouTube_VideoSuggestionsTagSuggestion';
   protected $tagSuggestionsDataType = 'array';
 
   public function setEditorSuggestions($editorSuggestions)

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_GetOffersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'products';
-  protected $productsType = 'Google_Service_AdExchangeBuyer_Product';
+  protected $productsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Product';
   protected $productsDataType = 'array';
 
   public function setProducts($products)

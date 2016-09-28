@@ -19,7 +19,7 @@ class Google_Service_CloudBuild_ListOperationsResponse extends \GoogleApi\Google
 {
   protected $collection_key = 'operations';
   public $nextPageToken;
-  protected $operationsType = 'Google_Service_CloudBuild_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_CloudBuild_Operation';
   protected $operationsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

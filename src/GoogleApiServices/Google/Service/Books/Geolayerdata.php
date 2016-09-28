@@ -17,9 +17,9 @@
 
 class Google_Service_Books_Geolayerdata extends \GoogleApi\Google_Model
 {
-  protected $commonType = 'Google_Service_Books_GeolayerdataCommon';
+  protected $commonType = '\GoogleApiServices\Google_Service_Books_GeolayerdataCommon';
   protected $commonDataType = '';
-  protected $geoType = 'Google_Service_Books_GeolayerdataGeo';
+  protected $geoType = '\GoogleApiServices\Google_Service_Books_GeolayerdataGeo';
   protected $geoDataType = '';
   public $kind;
 

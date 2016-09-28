@@ -18,7 +18,7 @@
 class Google_Service_Webmasters_UrlCrawlErrorsSamplesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'urlCrawlErrorSample';
-  protected $urlCrawlErrorSampleType = 'Google_Service_Webmasters_UrlCrawlErrorsSample';
+  protected $urlCrawlErrorSampleType = '\GoogleApiServices\Google_Service_Webmasters_UrlCrawlErrorsSample';
   protected $urlCrawlErrorSampleDataType = 'array';
 
   public function setUrlCrawlErrorSample($urlCrawlErrorSample)

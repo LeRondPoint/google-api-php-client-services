@@ -19,9 +19,9 @@ class Google_Service_ShoppingContent_ShippingSettings extends \GoogleApi\Google_
 {
   protected $collection_key = 'services';
   public $accountId;
-  protected $postalCodeGroupsType = 'Google_Service_ShoppingContent_PostalCodeGroup';
+  protected $postalCodeGroupsType = '\GoogleApiServices\Google_Service_ShoppingContent_PostalCodeGroup';
   protected $postalCodeGroupsDataType = 'array';
-  protected $servicesType = 'Google_Service_ShoppingContent_Service';
+  protected $servicesType = '\GoogleApiServices\Google_Service_ShoppingContent_Service';
   protected $servicesDataType = 'array';
 
   public function setAccountId($accountId)

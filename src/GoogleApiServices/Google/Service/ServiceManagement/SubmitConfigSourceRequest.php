@@ -17,7 +17,7 @@
 
 class Google_Service_ServiceManagement_SubmitConfigSourceRequest extends \GoogleApi\Google_Model
 {
-  protected $configSourceType = 'Google_Service_ServiceManagement_ConfigSource';
+  protected $configSourceType = '\GoogleApiServices\Google_Service_ServiceManagement_ConfigSource';
   protected $configSourceDataType = '';
   public $validateOnly;
 

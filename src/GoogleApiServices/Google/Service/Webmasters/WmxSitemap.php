@@ -18,7 +18,7 @@
 class Google_Service_Webmasters_WmxSitemap extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'contents';
-  protected $contentsType = 'Google_Service_Webmasters_WmxSitemapContent';
+  protected $contentsType = '\GoogleApiServices\Google_Service_Webmasters_WmxSitemapContent';
   protected $contentsDataType = 'array';
   public $errors;
   public $isPending;

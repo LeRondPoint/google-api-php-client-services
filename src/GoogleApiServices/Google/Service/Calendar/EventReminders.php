@@ -18,7 +18,7 @@
 class Google_Service_Calendar_EventReminders extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'overrides';
-  protected $overridesType = 'Google_Service_Calendar_EventReminder';
+  protected $overridesType = '\GoogleApiServices\Google_Service_Calendar_EventReminder';
   protected $overridesDataType = 'array';
   public $useDefault;
 

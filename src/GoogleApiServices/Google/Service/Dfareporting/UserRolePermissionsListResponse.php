@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_UserRolePermissionsListResponse extends \Googl
 {
   protected $collection_key = 'userRolePermissions';
   public $kind;
-  protected $userRolePermissionsType = 'Google_Service_Dfareporting_UserRolePermission';
+  protected $userRolePermissionsType = '\GoogleApiServices\Google_Service_Dfareporting_UserRolePermission';
   protected $userRolePermissionsDataType = 'array';
 
   public function setKind($kind)

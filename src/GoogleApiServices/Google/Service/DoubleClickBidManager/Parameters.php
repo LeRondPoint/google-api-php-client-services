@@ -18,7 +18,7 @@
 class Google_Service_DoubleClickBidManager_Parameters extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metrics';
-  protected $filtersType = 'Google_Service_DoubleClickBidManager_FilterPair';
+  protected $filtersType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_FilterPair';
   protected $filtersDataType = 'array';
   public $groupBys;
   public $includeInviteData;

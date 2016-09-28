@@ -18,7 +18,7 @@
 class Google_Service_Drive_Reply extends \GoogleApi\Google_Model
 {
   public $action;
-  protected $authorType = 'Google_Service_Drive_User';
+  protected $authorType = '\GoogleApiServices\Google_Service_Drive_User';
   protected $authorDataType = '';
   public $content;
   public $createdTime;

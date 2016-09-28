@@ -19,7 +19,7 @@ class Google_Service_DeploymentManager_TypesListResponse extends \GoogleApi\Goog
 {
   protected $collection_key = 'types';
   public $nextPageToken;
-  protected $typesType = 'Google_Service_DeploymentManager_Type';
+  protected $typesType = '\GoogleApiServices\Google_Service_DeploymentManager_Type';
   protected $typesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

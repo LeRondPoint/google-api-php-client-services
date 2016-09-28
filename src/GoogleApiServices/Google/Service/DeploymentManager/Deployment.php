@@ -22,16 +22,16 @@ class Google_Service_DeploymentManager_Deployment extends \GoogleApi\Google_Coll
   public $fingerprint;
   public $id;
   public $insertTime;
-  protected $labelsType = 'Google_Service_DeploymentManager_DeploymentLabelEntry';
+  protected $labelsType = '\GoogleApiServices\Google_Service_DeploymentManager_DeploymentLabelEntry';
   protected $labelsDataType = 'array';
   public $manifest;
   public $name;
-  protected $operationType = 'Google_Service_DeploymentManager_Operation';
+  protected $operationType = '\GoogleApiServices\Google_Service_DeploymentManager_Operation';
   protected $operationDataType = '';
   public $selfLink;
-  protected $targetType = 'Google_Service_DeploymentManager_TargetConfiguration';
+  protected $targetType = '\GoogleApiServices\Google_Service_DeploymentManager_TargetConfiguration';
   protected $targetDataType = '';
-  protected $updateType = 'Google_Service_DeploymentManager_DeploymentUpdate';
+  protected $updateType = '\GoogleApiServices\Google_Service_DeploymentManager_DeploymentUpdate';
   protected $updateDataType = '';
 
   public function setDescription($description)

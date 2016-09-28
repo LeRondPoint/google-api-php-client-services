@@ -18,14 +18,14 @@
 class Google_Service_Fitness_DataSource extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dataQualityStandard';
-  protected $applicationType = 'Google_Service_Fitness_Application';
+  protected $applicationType = '\GoogleApiServices\Google_Service_Fitness_Application';
   protected $applicationDataType = '';
   public $dataQualityStandard;
   public $dataStreamId;
   public $dataStreamName;
-  protected $dataTypeType = 'Google_Service_Fitness_DataType';
+  protected $dataTypeType = '\GoogleApiServices\Google_Service_Fitness_DataType';
   protected $dataTypeDataType = '';
-  protected $deviceType = 'Google_Service_Fitness_Device';
+  protected $deviceType = '\GoogleApiServices\Google_Service_Fitness_Device';
   protected $deviceDataType = '';
   public $name;
   public $type;

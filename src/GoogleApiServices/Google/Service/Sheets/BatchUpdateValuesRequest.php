@@ -18,7 +18,7 @@
 class Google_Service_Sheets_BatchUpdateValuesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'data';
-  protected $dataType = 'Google_Service_Sheets_ValueRange';
+  protected $dataType = '\GoogleApiServices\Google_Service_Sheets_ValueRange';
   protected $dataDataType = 'array';
   public $valueInputOption;
 

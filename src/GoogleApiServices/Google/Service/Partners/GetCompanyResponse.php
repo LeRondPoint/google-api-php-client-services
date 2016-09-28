@@ -17,9 +17,9 @@
 
 class Google_Service_Partners_GetCompanyResponse extends \GoogleApi\Google_Model
 {
-  protected $companyType = 'Google_Service_Partners_Company';
+  protected $companyType = '\GoogleApiServices\Google_Service_Partners_Company';
   protected $companyDataType = '';
-  protected $responseMetadataType = 'Google_Service_Partners_ResponseMetadata';
+  protected $responseMetadataType = '\GoogleApiServices\Google_Service_Partners_ResponseMetadata';
   protected $responseMetadataDataType = '';
 
   public function setCompany(Google_Service_Partners_Company $company)

@@ -26,7 +26,7 @@ class Google_Service_TagManager_Macro extends \GoogleApi\Google_Collection
   public $macroId;
   public $name;
   public $notes;
-  protected $parameterType = 'Google_Service_TagManager_Parameter';
+  protected $parameterType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $parameterDataType = 'array';
   public $parentFolderId;
   public $scheduleEndMs;

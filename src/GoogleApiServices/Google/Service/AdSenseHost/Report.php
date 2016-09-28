@@ -19,7 +19,7 @@ class Google_Service_AdSenseHost_Report extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'warnings';
   public $averages;
-  protected $headersType = 'Google_Service_AdSenseHost_ReportHeaders';
+  protected $headersType = '\GoogleApiServices\Google_Service_AdSenseHost_ReportHeaders';
   protected $headersDataType = 'array';
   public $kind;
   public $rows;

@@ -21,7 +21,7 @@ class Google_Service_People_PersonMetadata extends \GoogleApi\Google_Collection
   public $deleted;
   public $objectType;
   public $previousResourceNames;
-  protected $sourcesType = 'Google_Service_People_Source';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_People_Source';
   protected $sourcesDataType = 'array';
 
   public function setDeleted($deleted)

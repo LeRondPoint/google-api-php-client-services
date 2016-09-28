@@ -18,15 +18,15 @@
 class Google_Service_AdSense_AdUnit extends \GoogleApi\Google_Model
 {
   public $code;
-  protected $contentAdsSettingsType = 'Google_Service_AdSense_AdUnitContentAdsSettings';
+  protected $contentAdsSettingsType = '\GoogleApiServices\Google_Service_AdSense_AdUnitContentAdsSettings';
   protected $contentAdsSettingsDataType = '';
-  protected $customStyleType = 'Google_Service_AdSense_AdStyle';
+  protected $customStyleType = '\GoogleApiServices\Google_Service_AdSense_AdStyle';
   protected $customStyleDataType = '';
-  protected $feedAdsSettingsType = 'Google_Service_AdSense_AdUnitFeedAdsSettings';
+  protected $feedAdsSettingsType = '\GoogleApiServices\Google_Service_AdSense_AdUnitFeedAdsSettings';
   protected $feedAdsSettingsDataType = '';
   public $id;
   public $kind;
-  protected $mobileContentAdsSettingsType = 'Google_Service_AdSense_AdUnitMobileContentAdsSettings';
+  protected $mobileContentAdsSettingsType = '\GoogleApiServices\Google_Service_AdSense_AdUnitMobileContentAdsSettings';
   protected $mobileContentAdsSettingsDataType = '';
   public $name;
   public $savedStyleId;

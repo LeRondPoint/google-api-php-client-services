@@ -17,11 +17,11 @@
 
 class Google_Service_Monitoring_BucketOptions extends \GoogleApi\Google_Model
 {
-  protected $explicitBucketsType = 'Google_Service_Monitoring_Explicit';
+  protected $explicitBucketsType = '\GoogleApiServices\Google_Service_Monitoring_Explicit';
   protected $explicitBucketsDataType = '';
-  protected $exponentialBucketsType = 'Google_Service_Monitoring_Exponential';
+  protected $exponentialBucketsType = '\GoogleApiServices\Google_Service_Monitoring_Exponential';
   protected $exponentialBucketsDataType = '';
-  protected $linearBucketsType = 'Google_Service_Monitoring_Linear';
+  protected $linearBucketsType = '\GoogleApiServices\Google_Service_Monitoring_Linear';
   protected $linearBucketsDataType = '';
 
   public function setExplicitBuckets(Google_Service_Monitoring_Explicit $explicitBuckets)

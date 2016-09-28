@@ -19,7 +19,7 @@ class Google_Service_Prediction_AnalyzeModelDescription extends \GoogleApi\Googl
 {
   public $confusionMatrix;
   public $confusionMatrixRowTotals;
-  protected $modelinfoType = 'Google_Service_Prediction_Insert2';
+  protected $modelinfoType = '\GoogleApiServices\Google_Service_Prediction_Insert2';
   protected $modelinfoDataType = '';
 
   public function setConfusionMatrix($confusionMatrix)

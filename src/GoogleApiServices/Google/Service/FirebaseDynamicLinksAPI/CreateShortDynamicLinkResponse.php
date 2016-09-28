@@ -20,7 +20,7 @@ class Google_Service_FirebaseDynamicLinksAPI_CreateShortDynamicLinkResponse exte
   protected $collection_key = 'warning';
   public $previewLink;
   public $shortLink;
-  protected $warningType = 'Google_Service_FirebaseDynamicLinksAPI_DynamicLinkWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_DynamicLinkWarning';
   protected $warningDataType = 'array';
 
   public function setPreviewLink($previewLink)

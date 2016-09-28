@@ -17,16 +17,16 @@
 
 class Google_Service_Proximitybeacon_Beacon extends \GoogleApi\Google_Model
 {
-  protected $advertisedIdType = 'Google_Service_Proximitybeacon_AdvertisedId';
+  protected $advertisedIdType = '\GoogleApiServices\Google_Service_Proximitybeacon_AdvertisedId';
   protected $advertisedIdDataType = '';
   public $beaconName;
   public $description;
-  protected $ephemeralIdRegistrationType = 'Google_Service_Proximitybeacon_EphemeralIdRegistration';
+  protected $ephemeralIdRegistrationType = '\GoogleApiServices\Google_Service_Proximitybeacon_EphemeralIdRegistration';
   protected $ephemeralIdRegistrationDataType = '';
   public $expectedStability;
-  protected $indoorLevelType = 'Google_Service_Proximitybeacon_IndoorLevel';
+  protected $indoorLevelType = '\GoogleApiServices\Google_Service_Proximitybeacon_IndoorLevel';
   protected $indoorLevelDataType = '';
-  protected $latLngType = 'Google_Service_Proximitybeacon_LatLng';
+  protected $latLngType = '\GoogleApiServices\Google_Service_Proximitybeacon_LatLng';
   protected $latLngDataType = '';
   public $placeId;
   public $properties;

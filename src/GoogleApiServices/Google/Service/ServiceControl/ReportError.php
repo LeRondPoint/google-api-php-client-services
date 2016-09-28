@@ -18,7 +18,7 @@
 class Google_Service_ServiceControl_ReportError extends \GoogleApi\Google_Model
 {
   public $operationId;
-  protected $statusType = 'Google_Service_ServiceControl_Status';
+  protected $statusType = '\GoogleApiServices\Google_Service_ServiceControl_Status';
   protected $statusDataType = '';
 
   public function setOperationId($operationId)

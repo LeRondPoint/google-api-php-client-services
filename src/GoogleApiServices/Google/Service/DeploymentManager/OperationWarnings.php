@@ -19,7 +19,7 @@ class Google_Service_DeploymentManager_OperationWarnings extends \GoogleApi\Goog
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_DeploymentManager_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_DeploymentManager_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

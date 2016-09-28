@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_StreamingConfigTask extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'streamingComputationConfigs';
-  protected $streamingComputationConfigsType = 'Google_Service_Dataflow_StreamingComputationConfig';
+  protected $streamingComputationConfigsType = '\GoogleApiServices\Google_Service_Dataflow_StreamingComputationConfig';
   protected $streamingComputationConfigsDataType = 'array';
   public $userStepToStateFamilyNameMap;
 

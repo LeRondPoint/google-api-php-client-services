@@ -18,7 +18,7 @@
 class Google_Service_Blogger_PostReplies extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Blogger_Comment';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Blogger_Comment';
   protected $itemsDataType = 'array';
   public $selfLink;
   public $totalItems;

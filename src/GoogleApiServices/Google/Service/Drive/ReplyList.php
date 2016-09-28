@@ -20,7 +20,7 @@ class Google_Service_Drive_ReplyList extends \GoogleApi\Google_Collection
   protected $collection_key = 'replies';
   public $kind;
   public $nextPageToken;
-  protected $repliesType = 'Google_Service_Drive_Reply';
+  protected $repliesType = '\GoogleApiServices\Google_Service_Drive_Reply';
   protected $repliesDataType = 'array';
 
   public function setKind($kind)

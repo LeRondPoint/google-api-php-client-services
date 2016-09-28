@@ -18,9 +18,9 @@
 class Google_Service_Pagespeedonline_ResultFormattedResultsRuleResultsElementUrlBlocksUrls extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'details';
-  protected $detailsType = 'Google_Service_Pagespeedonline_PagespeedApiFormatStringV2';
+  protected $detailsType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiFormatStringV2';
   protected $detailsDataType = 'array';
-  protected $resultType = 'Google_Service_Pagespeedonline_PagespeedApiFormatStringV2';
+  protected $resultType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiFormatStringV2';
   protected $resultDataType = '';
 
   public function setDetails($details)

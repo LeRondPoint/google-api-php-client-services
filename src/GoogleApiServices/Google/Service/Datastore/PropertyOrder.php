@@ -18,7 +18,7 @@
 class Google_Service_Datastore_PropertyOrder extends \GoogleApi\Google_Model
 {
   public $direction;
-  protected $propertyType = 'Google_Service_Datastore_PropertyReference';
+  protected $propertyType = '\GoogleApiServices\Google_Service_Datastore_PropertyReference';
   protected $propertyDataType = '';
 
   public function setDirection($direction)

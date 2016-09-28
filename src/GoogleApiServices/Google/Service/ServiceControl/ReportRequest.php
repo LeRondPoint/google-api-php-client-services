@@ -18,7 +18,7 @@
 class Google_Service_ServiceControl_ReportRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'operations';
-  protected $operationsType = 'Google_Service_ServiceControl_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_ServiceControl_Operation';
   protected $operationsDataType = 'array';
 
   public function setOperations($operations)

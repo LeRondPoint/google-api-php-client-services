@@ -19,9 +19,9 @@ class Google_Service_Dataflow_WorkerMessage extends \GoogleApi\Google_Model
 {
   public $labels;
   public $time;
-  protected $workerHealthReportType = 'Google_Service_Dataflow_WorkerHealthReport';
+  protected $workerHealthReportType = '\GoogleApiServices\Google_Service_Dataflow_WorkerHealthReport';
   protected $workerHealthReportDataType = '';
-  protected $workerMessageCodeType = 'Google_Service_Dataflow_WorkerMessageCode';
+  protected $workerMessageCodeType = '\GoogleApiServices\Google_Service_Dataflow_WorkerMessageCode';
   protected $workerMessageCodeDataType = '';
 
   public function setLabels($labels)

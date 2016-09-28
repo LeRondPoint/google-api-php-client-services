@@ -17,7 +17,7 @@
 
 class Google_Service_SQLAdmin_SslCertDetail extends \GoogleApi\Google_Model
 {
-  protected $certInfoType = 'Google_Service_SQLAdmin_SslCert';
+  protected $certInfoType = '\GoogleApiServices\Google_Service_SQLAdmin_SslCert';
   protected $certInfoDataType = '';
   public $certPrivateKey;
 

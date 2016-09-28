@@ -18,7 +18,7 @@
 class Google_Service_Monitoring_CreateTimeSeriesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'timeSeries';
-  protected $timeSeriesType = 'Google_Service_Monitoring_TimeSeries';
+  protected $timeSeriesType = '\GoogleApiServices\Google_Service_Monitoring_TimeSeries';
   protected $timeSeriesDataType = 'array';
 
   public function setTimeSeries($timeSeries)

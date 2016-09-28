@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_InventoryItemsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'inventoryItems';
-  protected $inventoryItemsType = 'Google_Service_Dfareporting_InventoryItem';
+  protected $inventoryItemsType = '\GoogleApiServices\Google_Service_Dfareporting_InventoryItem';
   protected $inventoryItemsDataType = 'array';
   public $kind;
   public $nextPageToken;

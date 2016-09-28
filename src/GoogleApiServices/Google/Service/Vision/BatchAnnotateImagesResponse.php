@@ -18,7 +18,7 @@
 class Google_Service_Vision_BatchAnnotateImagesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'responses';
-  protected $responsesType = 'Google_Service_Vision_AnnotateImageResponse';
+  protected $responsesType = '\GoogleApiServices\Google_Service_Vision_AnnotateImageResponse';
   protected $responsesDataType = 'array';
 
   public function setResponses($responses)

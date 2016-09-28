@@ -19,7 +19,7 @@ class Google_Service_Dataflow_StreamingComputationRanges extends \GoogleApi\Goog
 {
   protected $collection_key = 'rangeAssignments';
   public $computationId;
-  protected $rangeAssignmentsType = 'Google_Service_Dataflow_KeyRangeDataDiskAssignment';
+  protected $rangeAssignmentsType = '\GoogleApiServices\Google_Service_Dataflow_KeyRangeDataDiskAssignment';
   protected $rangeAssignmentsDataType = 'array';
 
   public function setComputationId($computationId)

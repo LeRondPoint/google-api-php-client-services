@@ -18,7 +18,7 @@
 class Google_Service_CloudTrace_Traces extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'traces';
-  protected $tracesType = 'Google_Service_CloudTrace_Trace';
+  protected $tracesType = '\GoogleApiServices\Google_Service_CloudTrace_Trace';
   protected $tracesDataType = 'array';
 
   public function setTraces($traces)

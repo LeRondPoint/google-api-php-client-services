@@ -19,35 +19,35 @@ class Google_Service_TagManager_Trigger extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filter';
   public $accountId;
-  protected $autoEventFilterType = 'Google_Service_TagManager_Condition';
+  protected $autoEventFilterType = '\GoogleApiServices\Google_Service_TagManager_Condition';
   protected $autoEventFilterDataType = 'array';
-  protected $checkValidationType = 'Google_Service_TagManager_Parameter';
+  protected $checkValidationType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $checkValidationDataType = '';
   public $containerId;
-  protected $customEventFilterType = 'Google_Service_TagManager_Condition';
+  protected $customEventFilterType = '\GoogleApiServices\Google_Service_TagManager_Condition';
   protected $customEventFilterDataType = 'array';
-  protected $enableAllVideosType = 'Google_Service_TagManager_Parameter';
+  protected $enableAllVideosType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $enableAllVideosDataType = '';
-  protected $eventNameType = 'Google_Service_TagManager_Parameter';
+  protected $eventNameType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $eventNameDataType = '';
-  protected $filterType = 'Google_Service_TagManager_Condition';
+  protected $filterType = '\GoogleApiServices\Google_Service_TagManager_Condition';
   protected $filterDataType = 'array';
   public $fingerprint;
-  protected $intervalType = 'Google_Service_TagManager_Parameter';
+  protected $intervalType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $intervalDataType = '';
-  protected $limitType = 'Google_Service_TagManager_Parameter';
+  protected $limitType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $limitDataType = '';
   public $name;
   public $parentFolderId;
   public $triggerId;
   public $type;
-  protected $uniqueTriggerIdType = 'Google_Service_TagManager_Parameter';
+  protected $uniqueTriggerIdType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $uniqueTriggerIdDataType = '';
-  protected $videoPercentageListType = 'Google_Service_TagManager_Parameter';
+  protected $videoPercentageListType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $videoPercentageListDataType = '';
-  protected $waitForTagsType = 'Google_Service_TagManager_Parameter';
+  protected $waitForTagsType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $waitForTagsDataType = '';
-  protected $waitForTagsTimeoutType = 'Google_Service_TagManager_Parameter';
+  protected $waitForTagsTimeoutType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $waitForTagsTimeoutDataType = '';
 
   public function setAccountId($accountId)

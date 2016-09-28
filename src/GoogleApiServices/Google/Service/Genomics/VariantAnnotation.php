@@ -20,7 +20,7 @@ class Google_Service_Genomics_VariantAnnotation extends \GoogleApi\Google_Collec
   protected $collection_key = 'transcriptIds';
   public $alternateBases;
   public $clinicalSignificance;
-  protected $conditionsType = 'Google_Service_Genomics_ClinicalCondition';
+  protected $conditionsType = '\GoogleApiServices\Google_Service_Genomics_ClinicalCondition';
   protected $conditionsDataType = 'array';
   public $effect;
   public $geneId;

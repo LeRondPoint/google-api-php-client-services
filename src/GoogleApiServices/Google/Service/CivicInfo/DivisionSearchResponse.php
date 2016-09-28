@@ -19,7 +19,7 @@ class Google_Service_CivicInfo_DivisionSearchResponse extends \GoogleApi\Google_
 {
   protected $collection_key = 'results';
   public $kind;
-  protected $resultsType = 'Google_Service_CivicInfo_DivisionSearchResult';
+  protected $resultsType = '\GoogleApiServices\Google_Service_CivicInfo_DivisionSearchResult';
   protected $resultsDataType = 'array';
 
   public function setKind($kind)

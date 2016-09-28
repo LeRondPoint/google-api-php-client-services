@@ -20,7 +20,7 @@ class Google_Service_Script_ExecutionError extends \GoogleApi\Google_Collection
   protected $collection_key = 'scriptStackTraceElements';
   public $errorMessage;
   public $errorType;
-  protected $scriptStackTraceElementsType = 'Google_Service_Script_ScriptStackTraceElement';
+  protected $scriptStackTraceElementsType = '\GoogleApiServices\Google_Service_Script_ScriptStackTraceElement';
   protected $scriptStackTraceElementsDataType = 'array';
 
   public function setErrorMessage($errorMessage)

@@ -19,7 +19,7 @@ class Google_Service_AdSenseHost_AdClients extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdSenseHost_AdClient';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdSenseHost_AdClient';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -19,7 +19,7 @@ class Google_Service_CloudResourceManager_ListProjectsResponse extends \GoogleAp
 {
   protected $collection_key = 'projects';
   public $nextPageToken;
-  protected $projectsType = 'Google_Service_CloudResourceManager_Project';
+  protected $projectsType = '\GoogleApiServices\Google_Service_CloudResourceManager_Project';
   protected $projectsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

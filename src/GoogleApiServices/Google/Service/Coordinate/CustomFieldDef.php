@@ -19,7 +19,7 @@ class Google_Service_Coordinate_CustomFieldDef extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'enumitems';
   public $enabled;
-  protected $enumitemsType = 'Google_Service_Coordinate_EnumItemDef';
+  protected $enumitemsType = '\GoogleApiServices\Google_Service_Coordinate_EnumItemDef';
   protected $enumitemsDataType = 'array';
   public $id;
   public $kind;

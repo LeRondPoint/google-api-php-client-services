@@ -22,7 +22,7 @@ class Google_Service_DataTransfer_Application extends \GoogleApi\Google_Collecti
   public $id;
   public $kind;
   public $name;
-  protected $transferParamsType = 'Google_Service_DataTransfer_ApplicationTransferParam';
+  protected $transferParamsType = '\GoogleApiServices\Google_Service_DataTransfer_ApplicationTransferParam';
   protected $transferParamsDataType = 'array';
 
   public function setEtag($etag)

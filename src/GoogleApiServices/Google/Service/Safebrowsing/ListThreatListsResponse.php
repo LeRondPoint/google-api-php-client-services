@@ -18,7 +18,7 @@
 class Google_Service_Safebrowsing_ListThreatListsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'threatLists';
-  protected $threatListsType = 'Google_Service_Safebrowsing_ThreatListDescriptor';
+  protected $threatListsType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatListDescriptor';
   protected $threatListsDataType = 'array';
 
   public function setThreatLists($threatLists)

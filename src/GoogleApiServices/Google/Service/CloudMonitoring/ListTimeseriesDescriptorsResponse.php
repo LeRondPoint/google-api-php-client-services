@@ -21,7 +21,7 @@ class Google_Service_CloudMonitoring_ListTimeseriesDescriptorsResponse extends \
   public $kind;
   public $nextPageToken;
   public $oldest;
-  protected $timeseriesType = 'Google_Service_CloudMonitoring_TimeseriesDescriptor';
+  protected $timeseriesType = '\GoogleApiServices\Google_Service_CloudMonitoring_TimeseriesDescriptor';
   protected $timeseriesDataType = 'array';
   public $youngest;
 

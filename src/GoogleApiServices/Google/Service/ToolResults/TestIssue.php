@@ -18,7 +18,7 @@
 class Google_Service_ToolResults_TestIssue extends \GoogleApi\Google_Model
 {
   public $errorMessage;
-  protected $stackTraceType = 'Google_Service_ToolResults_StackTrace';
+  protected $stackTraceType = '\GoogleApiServices\Google_Service_ToolResults_StackTrace';
   protected $stackTraceDataType = '';
 
   public function setErrorMessage($errorMessage)

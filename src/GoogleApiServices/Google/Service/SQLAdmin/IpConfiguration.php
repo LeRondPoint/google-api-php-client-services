@@ -18,7 +18,7 @@
 class Google_Service_SQLAdmin_IpConfiguration extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'authorizedNetworks';
-  protected $authorizedNetworksType = 'Google_Service_SQLAdmin_AclEntry';
+  protected $authorizedNetworksType = '\GoogleApiServices\Google_Service_SQLAdmin_AclEntry';
   protected $authorizedNetworksDataType = 'array';
   public $ipv4Enabled;
   public $requireSsl;

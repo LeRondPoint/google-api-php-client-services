@@ -18,9 +18,9 @@
 class Google_Service_Datastore_PropertyFilter extends \GoogleApi\Google_Model
 {
   public $op;
-  protected $propertyType = 'Google_Service_Datastore_PropertyReference';
+  protected $propertyType = '\GoogleApiServices\Google_Service_Datastore_PropertyReference';
   protected $propertyDataType = '';
-  protected $valueType = 'Google_Service_Datastore_Value';
+  protected $valueType = '\GoogleApiServices\Google_Service_Datastore_Value';
   protected $valueDataType = '';
 
   public function setOp($op)

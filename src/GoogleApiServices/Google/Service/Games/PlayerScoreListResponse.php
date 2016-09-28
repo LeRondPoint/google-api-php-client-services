@@ -19,7 +19,7 @@ class Google_Service_Games_PlayerScoreListResponse extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'submittedScores';
   public $kind;
-  protected $submittedScoresType = 'Google_Service_Games_PlayerScoreResponse';
+  protected $submittedScoresType = '\GoogleApiServices\Google_Service_Games_PlayerScoreResponse';
   protected $submittedScoresDataType = 'array';
 
   public function setKind($kind)

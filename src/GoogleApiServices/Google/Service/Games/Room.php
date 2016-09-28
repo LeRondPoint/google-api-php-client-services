@@ -19,18 +19,18 @@ class Google_Service_Games_Room extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'participants';
   public $applicationId;
-  protected $autoMatchingCriteriaType = 'Google_Service_Games_RoomAutoMatchingCriteria';
+  protected $autoMatchingCriteriaType = '\GoogleApiServices\Google_Service_Games_RoomAutoMatchingCriteria';
   protected $autoMatchingCriteriaDataType = '';
-  protected $autoMatchingStatusType = 'Google_Service_Games_RoomAutoMatchStatus';
+  protected $autoMatchingStatusType = '\GoogleApiServices\Google_Service_Games_RoomAutoMatchStatus';
   protected $autoMatchingStatusDataType = '';
-  protected $creationDetailsType = 'Google_Service_Games_RoomModification';
+  protected $creationDetailsType = '\GoogleApiServices\Google_Service_Games_RoomModification';
   protected $creationDetailsDataType = '';
   public $description;
   public $inviterId;
   public $kind;
-  protected $lastUpdateDetailsType = 'Google_Service_Games_RoomModification';
+  protected $lastUpdateDetailsType = '\GoogleApiServices\Google_Service_Games_RoomModification';
   protected $lastUpdateDetailsDataType = '';
-  protected $participantsType = 'Google_Service_Games_RoomParticipant';
+  protected $participantsType = '\GoogleApiServices\Google_Service_Games_RoomParticipant';
   protected $participantsDataType = 'array';
   public $roomId;
   public $roomStatusVersion;

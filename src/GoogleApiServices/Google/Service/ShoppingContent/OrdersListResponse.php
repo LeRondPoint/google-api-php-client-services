@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_OrdersListResponse extends \GoogleApi\Googl
   protected $collection_key = 'resources';
   public $kind;
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_ShoppingContent_Order';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ShoppingContent_Order';
   protected $resourcesDataType = 'array';
 
   public function setKind($kind)

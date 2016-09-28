@@ -30,7 +30,7 @@ class Google_Service_Dataflow_TaskRunnerSettings extends \GoogleApi\Google_Colle
   public $logToSerialconsole;
   public $logUploadLocation;
   public $oauthScopes;
-  protected $parallelWorkerSettingsType = 'Google_Service_Dataflow_WorkerSettings';
+  protected $parallelWorkerSettingsType = '\GoogleApiServices\Google_Service_Dataflow_WorkerSettings';
   protected $parallelWorkerSettingsDataType = '';
   public $streamingWorkerMainClass;
   public $taskGroup;

@@ -17,7 +17,7 @@
 
 class Google_Service_ShoppingContent_OrderPaymentMethod extends \GoogleApi\Google_Model
 {
-  protected $billingAddressType = 'Google_Service_ShoppingContent_OrderAddress';
+  protected $billingAddressType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderAddress';
   protected $billingAddressDataType = '';
   public $expirationMonth;
   public $expirationYear;

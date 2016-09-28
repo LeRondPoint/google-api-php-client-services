@@ -19,7 +19,7 @@ class Google_Service_Classroom_StudentSubmission extends \GoogleApi\Google_Model
 {
   public $alternateLink;
   public $assignedGrade;
-  protected $assignmentSubmissionType = 'Google_Service_Classroom_AssignmentSubmission';
+  protected $assignmentSubmissionType = '\GoogleApiServices\Google_Service_Classroom_AssignmentSubmission';
   protected $assignmentSubmissionDataType = '';
   public $associatedWithDeveloper;
   public $courseId;
@@ -29,9 +29,9 @@ class Google_Service_Classroom_StudentSubmission extends \GoogleApi\Google_Model
   public $draftGrade;
   public $id;
   public $late;
-  protected $multipleChoiceSubmissionType = 'Google_Service_Classroom_MultipleChoiceSubmission';
+  protected $multipleChoiceSubmissionType = '\GoogleApiServices\Google_Service_Classroom_MultipleChoiceSubmission';
   protected $multipleChoiceSubmissionDataType = '';
-  protected $shortAnswerSubmissionType = 'Google_Service_Classroom_ShortAnswerSubmission';
+  protected $shortAnswerSubmissionType = '\GoogleApiServices\Google_Service_Classroom_ShortAnswerSubmission';
   protected $shortAnswerSubmissionDataType = '';
   public $state;
   public $updateTime;

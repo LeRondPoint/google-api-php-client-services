@@ -18,13 +18,13 @@
 class Google_Service_Safebrowsing_ListUpdateResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'removals';
-  protected $additionsType = 'Google_Service_Safebrowsing_ThreatEntrySet';
+  protected $additionsType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatEntrySet';
   protected $additionsDataType = 'array';
-  protected $checksumType = 'Google_Service_Safebrowsing_Checksum';
+  protected $checksumType = '\GoogleApiServices\Google_Service_Safebrowsing_Checksum';
   protected $checksumDataType = '';
   public $newClientState;
   public $platformType;
-  protected $removalsType = 'Google_Service_Safebrowsing_ThreatEntrySet';
+  protected $removalsType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatEntrySet';
   protected $removalsDataType = 'array';
   public $responseType;
   public $threatEntryType;

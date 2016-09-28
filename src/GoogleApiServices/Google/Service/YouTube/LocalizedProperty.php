@@ -19,9 +19,9 @@ class Google_Service_YouTube_LocalizedProperty extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'localized';
   public $default;
-  protected $defaultLanguageType = 'Google_Service_YouTube_LanguageTag';
+  protected $defaultLanguageType = '\GoogleApiServices\Google_Service_YouTube_LanguageTag';
   protected $defaultLanguageDataType = '';
-  protected $localizedType = 'Google_Service_YouTube_LocalizedString';
+  protected $localizedType = '\GoogleApiServices\Google_Service_YouTube_LocalizedString';
   protected $localizedDataType = 'array';
 
   public function setDefault($default)

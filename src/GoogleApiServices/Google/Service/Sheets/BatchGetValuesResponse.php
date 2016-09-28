@@ -19,7 +19,7 @@ class Google_Service_Sheets_BatchGetValuesResponse extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'valueRanges';
   public $spreadsheetId;
-  protected $valueRangesType = 'Google_Service_Sheets_ValueRange';
+  protected $valueRangesType = '\GoogleApiServices\Google_Service_Sheets_ValueRange';
   protected $valueRangesDataType = 'array';
 
   public function setSpreadsheetId($spreadsheetId)

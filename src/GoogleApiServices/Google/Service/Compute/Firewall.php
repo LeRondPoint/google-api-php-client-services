@@ -18,7 +18,7 @@
 class Google_Service_Compute_Firewall extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'targetTags';
-  protected $allowedType = 'Google_Service_Compute_FirewallAllowed';
+  protected $allowedType = '\GoogleApiServices\Google_Service_Compute_FirewallAllowed';
   protected $allowedDataType = 'array';
   public $creationTimestamp;
   public $description;

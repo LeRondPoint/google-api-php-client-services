@@ -18,7 +18,7 @@
 class Google_Service_YouTube_CommentThreadReplies extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'comments';
-  protected $commentsType = 'Google_Service_YouTube_Comment';
+  protected $commentsType = '\GoogleApiServices\Google_Service_YouTube_Comment';
   protected $commentsDataType = 'array';
 
   public function setComments($comments)

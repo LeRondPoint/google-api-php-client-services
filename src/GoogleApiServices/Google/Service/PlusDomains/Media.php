@@ -18,11 +18,11 @@
 class Google_Service_PlusDomains_Media extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'streams';
-  protected $authorType = 'Google_Service_PlusDomains_MediaAuthor';
+  protected $authorType = '\GoogleApiServices\Google_Service_PlusDomains_MediaAuthor';
   protected $authorDataType = '';
   public $displayName;
   public $etag;
-  protected $exifType = 'Google_Service_PlusDomains_MediaExif';
+  protected $exifType = '\GoogleApiServices\Google_Service_PlusDomains_MediaExif';
   protected $exifDataType = '';
   public $height;
   public $id;
@@ -31,7 +31,7 @@ class Google_Service_PlusDomains_Media extends \GoogleApi\Google_Collection
   public $mediaUrl;
   public $published;
   public $sizeBytes;
-  protected $streamsType = 'Google_Service_PlusDomains_Videostream';
+  protected $streamsType = '\GoogleApiServices\Google_Service_PlusDomains_Videostream';
   protected $streamsDataType = 'array';
   public $summary;
   public $updated;

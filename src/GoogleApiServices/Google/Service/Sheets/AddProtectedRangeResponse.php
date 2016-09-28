@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_AddProtectedRangeResponse extends \GoogleApi\Google_Model
 {
-  protected $protectedRangeType = 'Google_Service_Sheets_ProtectedRange';
+  protected $protectedRangeType = '\GoogleApiServices\Google_Service_Sheets_ProtectedRange';
   protected $protectedRangeDataType = '';
 
   public function setProtectedRange(Google_Service_Sheets_ProtectedRange $protectedRange)

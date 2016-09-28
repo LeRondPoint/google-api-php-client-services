@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_GroupLicensesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'groupLicense';
-  protected $groupLicenseType = 'Google_Service_AndroidEnterprise_GroupLicense';
+  protected $groupLicenseType = '\GoogleApiServices\Google_Service_AndroidEnterprise_GroupLicense';
   protected $groupLicenseDataType = 'array';
   public $kind;
 

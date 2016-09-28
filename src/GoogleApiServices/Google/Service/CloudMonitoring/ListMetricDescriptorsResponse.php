@@ -19,7 +19,7 @@ class Google_Service_CloudMonitoring_ListMetricDescriptorsResponse extends \Goog
 {
   protected $collection_key = 'metrics';
   public $kind;
-  protected $metricsType = 'Google_Service_CloudMonitoring_MetricDescriptor';
+  protected $metricsType = '\GoogleApiServices\Google_Service_CloudMonitoring_MetricDescriptor';
   protected $metricsDataType = 'array';
   public $nextPageToken;
 

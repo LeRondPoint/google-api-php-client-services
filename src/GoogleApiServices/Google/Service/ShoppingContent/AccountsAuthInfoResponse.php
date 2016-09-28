@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_AccountsAuthInfoResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accountIdentifiers';
-  protected $accountIdentifiersType = 'Google_Service_ShoppingContent_AccountIdentifier';
+  protected $accountIdentifiersType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountIdentifier';
   protected $accountIdentifiersDataType = 'array';
   public $kind;
 

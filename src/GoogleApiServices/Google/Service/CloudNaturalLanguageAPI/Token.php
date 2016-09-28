@@ -17,12 +17,12 @@
 
 class Google_Service_CloudNaturalLanguageAPI_Token extends \GoogleApi\Google_Model
 {
-  protected $dependencyEdgeType = 'Google_Service_CloudNaturalLanguageAPI_DependencyEdge';
+  protected $dependencyEdgeType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_DependencyEdge';
   protected $dependencyEdgeDataType = '';
   public $lemma;
-  protected $partOfSpeechType = 'Google_Service_CloudNaturalLanguageAPI_PartOfSpeech';
+  protected $partOfSpeechType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_PartOfSpeech';
   protected $partOfSpeechDataType = '';
-  protected $textType = 'Google_Service_CloudNaturalLanguageAPI_TextSpan';
+  protected $textType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_TextSpan';
   protected $textDataType = '';
 
   public function setDependencyEdge(Google_Service_CloudNaturalLanguageAPI_DependencyEdge $dependencyEdge)

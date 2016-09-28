@@ -17,7 +17,7 @@
 
 class Google_Service_Safebrowsing_ListUpdateRequest extends \GoogleApi\Google_Model
 {
-  protected $constraintsType = 'Google_Service_Safebrowsing_Constraints';
+  protected $constraintsType = '\GoogleApiServices\Google_Service_Safebrowsing_Constraints';
   protected $constraintsDataType = '';
   public $platformType;
   public $state;

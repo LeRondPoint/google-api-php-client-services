@@ -18,9 +18,9 @@
 class Google_Service_ShoppingContent_DatafeedsCustomBatchResponseEntry extends \GoogleApi\Google_Model
 {
   public $batchId;
-  protected $datafeedType = 'Google_Service_ShoppingContent_Datafeed';
+  protected $datafeedType = '\GoogleApiServices\Google_Service_ShoppingContent_Datafeed';
   protected $datafeedDataType = '';
-  protected $errorsType = 'Google_Service_ShoppingContent_Errors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_Errors';
   protected $errorsDataType = '';
 
   public function setBatchId($batchId)

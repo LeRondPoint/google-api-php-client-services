@@ -17,9 +17,9 @@
 
 class Google_Service_Spectrum_DeviceOwner extends \GoogleApi\Google_Model
 {
-  protected $operatorType = 'Google_Service_Spectrum_Vcard';
+  protected $operatorType = '\GoogleApiServices\Google_Service_Spectrum_Vcard';
   protected $operatorDataType = '';
-  protected $ownerType = 'Google_Service_Spectrum_Vcard';
+  protected $ownerType = '\GoogleApiServices\Google_Service_Spectrum_Vcard';
   protected $ownerDataType = '';
 
   public function setOperator(Google_Service_Spectrum_Vcard $operator)

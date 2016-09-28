@@ -18,7 +18,7 @@
 class Google_Service_Drive_CommentList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'comments';
-  protected $commentsType = 'Google_Service_Drive_Comment';
+  protected $commentsType = '\GoogleApiServices\Google_Service_Drive_Comment';
   protected $commentsDataType = 'array';
   public $kind;
   public $nextPageToken;

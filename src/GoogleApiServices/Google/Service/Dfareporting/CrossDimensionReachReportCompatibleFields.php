@@ -18,14 +18,14 @@
 class Google_Service_Dfareporting_CrossDimensionReachReportCompatibleFields extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'overlapMetrics';
-  protected $breakdownType = 'Google_Service_Dfareporting_Dimension';
+  protected $breakdownType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $breakdownDataType = 'array';
-  protected $dimensionFiltersType = 'Google_Service_Dfareporting_Dimension';
+  protected $dimensionFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $dimensionFiltersDataType = 'array';
   public $kind;
-  protected $metricsType = 'Google_Service_Dfareporting_Metric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $metricsDataType = 'array';
-  protected $overlapMetricsType = 'Google_Service_Dfareporting_Metric';
+  protected $overlapMetricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $overlapMetricsDataType = 'array';
 
   public function setBreakdown($breakdown)

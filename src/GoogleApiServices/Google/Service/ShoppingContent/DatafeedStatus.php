@@ -19,14 +19,14 @@ class Google_Service_ShoppingContent_DatafeedStatus extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'warnings';
   public $datafeedId;
-  protected $errorsType = 'Google_Service_ShoppingContent_DatafeedStatusError';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_DatafeedStatusError';
   protected $errorsDataType = 'array';
   public $itemsTotal;
   public $itemsValid;
   public $kind;
   public $lastUploadDate;
   public $processingStatus;
-  protected $warningsType = 'Google_Service_ShoppingContent_DatafeedStatusError';
+  protected $warningsType = '\GoogleApiServices\Google_Service_ShoppingContent_DatafeedStatusError';
   protected $warningsDataType = 'array';
 
   public function setDatafeedId($datafeedId)

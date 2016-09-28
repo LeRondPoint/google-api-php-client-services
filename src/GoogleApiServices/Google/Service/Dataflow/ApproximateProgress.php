@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_ApproximateProgress extends \GoogleApi\Google_Model
 {
   public $percentComplete;
-  protected $positionType = 'Google_Service_Dataflow_Position';
+  protected $positionType = '\GoogleApiServices\Google_Service_Dataflow_Position';
   protected $positionDataType = '';
   public $remainingTime;
 

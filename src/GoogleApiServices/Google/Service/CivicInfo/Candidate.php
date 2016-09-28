@@ -19,7 +19,7 @@ class Google_Service_CivicInfo_Candidate extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'channels';
   public $candidateUrl;
-  protected $channelsType = 'Google_Service_CivicInfo_Channel';
+  protected $channelsType = '\GoogleApiServices\Google_Service_CivicInfo_Channel';
   protected $channelsDataType = 'array';
   public $email;
   public $name;

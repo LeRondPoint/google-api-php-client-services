@@ -17,9 +17,9 @@
 
 class Google_Service_Dataflow_DynamicSourceSplit extends \GoogleApi\Google_Model
 {
-  protected $primaryType = 'Google_Service_Dataflow_DerivedSource';
+  protected $primaryType = '\GoogleApiServices\Google_Service_Dataflow_DerivedSource';
   protected $primaryDataType = '';
-  protected $residualType = 'Google_Service_Dataflow_DerivedSource';
+  protected $residualType = '\GoogleApiServices\Google_Service_Dataflow_DerivedSource';
   protected $residualDataType = '';
 
   public function setPrimary(Google_Service_Dataflow_DerivedSource $primary)

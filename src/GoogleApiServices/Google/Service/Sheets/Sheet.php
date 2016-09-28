@@ -18,21 +18,21 @@
 class Google_Service_Sheets_Sheet extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'protectedRanges';
-  protected $basicFilterType = 'Google_Service_Sheets_BasicFilter';
+  protected $basicFilterType = '\GoogleApiServices\Google_Service_Sheets_BasicFilter';
   protected $basicFilterDataType = '';
-  protected $chartsType = 'Google_Service_Sheets_EmbeddedChart';
+  protected $chartsType = '\GoogleApiServices\Google_Service_Sheets_EmbeddedChart';
   protected $chartsDataType = 'array';
-  protected $conditionalFormatsType = 'Google_Service_Sheets_ConditionalFormatRule';
+  protected $conditionalFormatsType = '\GoogleApiServices\Google_Service_Sheets_ConditionalFormatRule';
   protected $conditionalFormatsDataType = 'array';
-  protected $dataType = 'Google_Service_Sheets_GridData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Sheets_GridData';
   protected $dataDataType = 'array';
-  protected $filterViewsType = 'Google_Service_Sheets_FilterView';
+  protected $filterViewsType = '\GoogleApiServices\Google_Service_Sheets_FilterView';
   protected $filterViewsDataType = 'array';
-  protected $mergesType = 'Google_Service_Sheets_GridRange';
+  protected $mergesType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $mergesDataType = 'array';
-  protected $propertiesType = 'Google_Service_Sheets_SheetProperties';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Sheets_SheetProperties';
   protected $propertiesDataType = '';
-  protected $protectedRangesType = 'Google_Service_Sheets_ProtectedRange';
+  protected $protectedRangesType = '\GoogleApiServices\Google_Service_Sheets_ProtectedRange';
   protected $protectedRangesDataType = 'array';
 
   public function setBasicFilter(Google_Service_Sheets_BasicFilter $basicFilter)

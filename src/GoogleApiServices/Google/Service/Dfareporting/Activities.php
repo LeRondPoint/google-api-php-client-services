@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_Activities extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metricNames';
-  protected $filtersType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $filtersType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $filtersDataType = 'array';
   public $kind;
   public $metricNames;

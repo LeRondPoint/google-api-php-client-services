@@ -18,9 +18,9 @@
 class Google_Service_Genomics_Transcript extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'exons';
-  protected $codingSequenceType = 'Google_Service_Genomics_CodingSequence';
+  protected $codingSequenceType = '\GoogleApiServices\Google_Service_Genomics_CodingSequence';
   protected $codingSequenceDataType = '';
-  protected $exonsType = 'Google_Service_Genomics_Exon';
+  protected $exonsType = '\GoogleApiServices\Google_Service_Genomics_Exon';
   protected $exonsDataType = 'array';
   public $geneId;
 

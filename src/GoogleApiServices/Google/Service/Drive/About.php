@@ -25,9 +25,9 @@ class Google_Service_Drive_About extends \GoogleApi\Google_Collection
   public $kind;
   public $maxImportSizes;
   public $maxUploadSize;
-  protected $storageQuotaType = 'Google_Service_Drive_AboutStorageQuota';
+  protected $storageQuotaType = '\GoogleApiServices\Google_Service_Drive_AboutStorageQuota';
   protected $storageQuotaDataType = '';
-  protected $userType = 'Google_Service_Drive_User';
+  protected $userType = '\GoogleApiServices\Google_Service_Drive_User';
   protected $userDataType = '';
 
   public function setAppInstalled($appInstalled)

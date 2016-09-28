@@ -18,7 +18,7 @@
 class Google_Service_Partners_ListUserStatesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'userStates';
-  protected $responseMetadataType = 'Google_Service_Partners_ResponseMetadata';
+  protected $responseMetadataType = '\GoogleApiServices\Google_Service_Partners_ResponseMetadata';
   protected $responseMetadataDataType = '';
   public $userStates;
 

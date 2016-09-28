@@ -18,7 +18,7 @@
 class Google_Service_Directory_Privilege extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'childPrivileges';
-  protected $childPrivilegesType = 'Google_Service_Directory_Privilege';
+  protected $childPrivilegesType = '\GoogleApiServices\Google_Service_Directory_Privilege';
   protected $childPrivilegesDataType = 'array';
   public $etag;
   public $isOuScopable;

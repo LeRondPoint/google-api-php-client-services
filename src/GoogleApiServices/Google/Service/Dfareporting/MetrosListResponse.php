@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_MetrosListResponse extends \GoogleApi\Google_C
 {
   protected $collection_key = 'metros';
   public $kind;
-  protected $metrosType = 'Google_Service_Dfareporting_Metro';
+  protected $metrosType = '\GoogleApiServices\Google_Service_Dfareporting_Metro';
   protected $metrosDataType = 'array';
 
   public function setKind($kind)

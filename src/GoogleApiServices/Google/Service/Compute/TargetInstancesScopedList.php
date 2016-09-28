@@ -18,9 +18,9 @@
 class Google_Service_Compute_TargetInstancesScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'targetInstances';
-  protected $targetInstancesType = 'Google_Service_Compute_TargetInstance';
+  protected $targetInstancesType = '\GoogleApiServices\Google_Service_Compute_TargetInstance';
   protected $targetInstancesDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_TargetInstancesScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_TargetInstancesScopedListWarning';
   protected $warningDataType = '';
 
   public function setTargetInstances($targetInstances)

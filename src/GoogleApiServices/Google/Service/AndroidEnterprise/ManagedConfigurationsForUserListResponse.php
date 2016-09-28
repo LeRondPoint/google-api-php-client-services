@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_ManagedConfigurationsForUserListResponse 
 {
   protected $collection_key = 'managedConfigurationForUser';
   public $kind;
-  protected $managedConfigurationForUserType = 'Google_Service_AndroidEnterprise_ManagedConfiguration';
+  protected $managedConfigurationForUserType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration';
   protected $managedConfigurationForUserDataType = 'array';
 
   public function setKind($kind)

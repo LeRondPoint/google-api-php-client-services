@@ -20,7 +20,7 @@ class Google_Service_YouTube_I18nRegionListResponse extends \GoogleApi\Google_Co
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_I18nRegion';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_I18nRegion';
   protected $itemsDataType = 'array';
   public $kind;
   public $visitorId;

@@ -18,14 +18,14 @@
 class Google_Service_Sheets_BasicChartSpec extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'series';
-  protected $axisType = 'Google_Service_Sheets_BasicChartAxis';
+  protected $axisType = '\GoogleApiServices\Google_Service_Sheets_BasicChartAxis';
   protected $axisDataType = 'array';
   public $chartType;
-  protected $domainsType = 'Google_Service_Sheets_BasicChartDomain';
+  protected $domainsType = '\GoogleApiServices\Google_Service_Sheets_BasicChartDomain';
   protected $domainsDataType = 'array';
   public $headerCount;
   public $legendPosition;
-  protected $seriesType = 'Google_Service_Sheets_BasicChartSeries';
+  protected $seriesType = '\GoogleApiServices\Google_Service_Sheets_BasicChartSeries';
   protected $seriesDataType = 'array';
 
   public function setAxis($axis)

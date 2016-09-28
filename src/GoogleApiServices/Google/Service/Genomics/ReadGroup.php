@@ -20,13 +20,13 @@ class Google_Service_Genomics_ReadGroup extends \GoogleApi\Google_Collection
   protected $collection_key = 'programs';
   public $datasetId;
   public $description;
-  protected $experimentType = 'Google_Service_Genomics_Experiment';
+  protected $experimentType = '\GoogleApiServices\Google_Service_Genomics_Experiment';
   protected $experimentDataType = '';
   public $id;
   public $info;
   public $name;
   public $predictedInsertSize;
-  protected $programsType = 'Google_Service_Genomics_Program';
+  protected $programsType = '\GoogleApiServices\Google_Service_Genomics_Program';
   protected $programsDataType = 'array';
   public $referenceSetId;
   public $sampleId;

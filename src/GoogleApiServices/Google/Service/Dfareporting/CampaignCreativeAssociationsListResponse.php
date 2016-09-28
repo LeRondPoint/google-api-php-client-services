@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CampaignCreativeAssociationsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'campaignCreativeAssociations';
-  protected $campaignCreativeAssociationsType = 'Google_Service_Dfareporting_CampaignCreativeAssociation';
+  protected $campaignCreativeAssociationsType = '\GoogleApiServices\Google_Service_Dfareporting_CampaignCreativeAssociation';
   protected $campaignCreativeAssociationsDataType = 'array';
   public $kind;
   public $nextPageToken;

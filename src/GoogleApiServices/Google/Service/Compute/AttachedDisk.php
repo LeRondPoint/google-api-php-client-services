@@ -21,10 +21,10 @@ class Google_Service_Compute_AttachedDisk extends \GoogleApi\Google_Collection
   public $autoDelete;
   public $boot;
   public $deviceName;
-  protected $diskEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $diskEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $diskEncryptionKeyDataType = '';
   public $index;
-  protected $initializeParamsType = 'Google_Service_Compute_AttachedDiskInitializeParams';
+  protected $initializeParamsType = '\GoogleApiServices\Google_Service_Compute_AttachedDiskInitializeParams';
   protected $initializeParamsDataType = '';
   public $interface;
   public $kind;

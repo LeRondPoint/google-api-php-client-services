@@ -20,7 +20,7 @@ class Google_Service_Partners_LogMessageRequest extends \GoogleApi\Google_Model
   public $clientInfo;
   public $details;
   public $level;
-  protected $requestMetadataType = 'Google_Service_Partners_RequestMetadata';
+  protected $requestMetadataType = '\GoogleApiServices\Google_Service_Partners_RequestMetadata';
   protected $requestMetadataDataType = '';
 
   public function setClientInfo($clientInfo)

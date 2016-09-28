@@ -18,11 +18,11 @@
 class Google_Service_Datastore_LookupResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'missing';
-  protected $deferredType = 'Google_Service_Datastore_Key';
+  protected $deferredType = '\GoogleApiServices\Google_Service_Datastore_Key';
   protected $deferredDataType = 'array';
-  protected $foundType = 'Google_Service_Datastore_EntityResult';
+  protected $foundType = '\GoogleApiServices\Google_Service_Datastore_EntityResult';
   protected $foundDataType = 'array';
-  protected $missingType = 'Google_Service_Datastore_EntityResult';
+  protected $missingType = '\GoogleApiServices\Google_Service_Datastore_EntityResult';
   protected $missingDataType = 'array';
 
   public function setDeferred($deferred)

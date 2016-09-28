@@ -21,18 +21,18 @@ class Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyGetProjectConfig
   public $allowPasswordUser;
   public $apiKey;
   public $authorizedDomains;
-  protected $changeEmailTemplateType = 'Google_Service_IdentityToolkit_EmailTemplate';
+  protected $changeEmailTemplateType = '\GoogleApiServices\Google_Service_IdentityToolkit_EmailTemplate';
   protected $changeEmailTemplateDataType = '';
   public $enableAnonymousUser;
-  protected $idpConfigType = 'Google_Service_IdentityToolkit_IdpConfig';
+  protected $idpConfigType = '\GoogleApiServices\Google_Service_IdentityToolkit_IdpConfig';
   protected $idpConfigDataType = 'array';
-  protected $legacyResetPasswordTemplateType = 'Google_Service_IdentityToolkit_EmailTemplate';
+  protected $legacyResetPasswordTemplateType = '\GoogleApiServices\Google_Service_IdentityToolkit_EmailTemplate';
   protected $legacyResetPasswordTemplateDataType = '';
   public $projectId;
-  protected $resetPasswordTemplateType = 'Google_Service_IdentityToolkit_EmailTemplate';
+  protected $resetPasswordTemplateType = '\GoogleApiServices\Google_Service_IdentityToolkit_EmailTemplate';
   protected $resetPasswordTemplateDataType = '';
   public $useEmailSending;
-  protected $verifyEmailTemplateType = 'Google_Service_IdentityToolkit_EmailTemplate';
+  protected $verifyEmailTemplateType = '\GoogleApiServices\Google_Service_IdentityToolkit_EmailTemplate';
   protected $verifyEmailTemplateDataType = '';
 
   public function setAllowPasswordUser($allowPasswordUser)

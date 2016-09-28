@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_ConfigSource extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'files';
-  protected $filesType = 'Google_Service_ServiceManagement_ConfigFile';
+  protected $filesType = '\GoogleApiServices\Google_Service_ServiceManagement_ConfigFile';
   protected $filesDataType = 'array';
   public $id;
 

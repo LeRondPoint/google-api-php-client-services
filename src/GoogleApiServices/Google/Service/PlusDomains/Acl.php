@@ -20,7 +20,7 @@ class Google_Service_PlusDomains_Acl extends \GoogleApi\Google_Collection
   protected $collection_key = 'items';
   public $description;
   public $domainRestricted;
-  protected $itemsType = 'Google_Service_PlusDomains_PlusDomainsAclentryResource';
+  protected $itemsType = '\GoogleApiServices\Google_Service_PlusDomains_PlusDomainsAclentryResource';
   protected $itemsDataType = 'array';
   public $kind;
 

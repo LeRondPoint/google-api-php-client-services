@@ -18,7 +18,7 @@
 class Google_Service_Classroom_ListCourseWorkResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'courseWork';
-  protected $courseWorkType = 'Google_Service_Classroom_CourseWork';
+  protected $courseWorkType = '\GoogleApiServices\Google_Service_Classroom_CourseWork';
   protected $courseWorkDataType = 'array';
   public $nextPageToken;
 

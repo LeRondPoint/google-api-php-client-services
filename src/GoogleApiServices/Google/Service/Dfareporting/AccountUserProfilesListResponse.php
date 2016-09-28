@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_AccountUserProfilesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accountUserProfiles';
-  protected $accountUserProfilesType = 'Google_Service_Dfareporting_AccountUserProfile';
+  protected $accountUserProfilesType = '\GoogleApiServices\Google_Service_Dfareporting_AccountUserProfile';
   protected $accountUserProfilesDataType = 'array';
   public $kind;
   public $nextPageToken;

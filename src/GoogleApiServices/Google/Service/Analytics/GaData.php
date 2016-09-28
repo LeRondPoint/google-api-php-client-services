@@ -18,19 +18,19 @@
 class Google_Service_Analytics_GaData extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $columnHeadersType = 'Google_Service_Analytics_GaDataColumnHeaders';
+  protected $columnHeadersType = '\GoogleApiServices\Google_Service_Analytics_GaDataColumnHeaders';
   protected $columnHeadersDataType = 'array';
   public $containsSampledData;
-  protected $dataTableType = 'Google_Service_Analytics_GaDataDataTable';
+  protected $dataTableType = '\GoogleApiServices\Google_Service_Analytics_GaDataDataTable';
   protected $dataTableDataType = '';
   public $id;
   public $itemsPerPage;
   public $kind;
   public $nextLink;
   public $previousLink;
-  protected $profileInfoType = 'Google_Service_Analytics_GaDataProfileInfo';
+  protected $profileInfoType = '\GoogleApiServices\Google_Service_Analytics_GaDataProfileInfo';
   protected $profileInfoDataType = '';
-  protected $queryType = 'Google_Service_Analytics_GaDataQuery';
+  protected $queryType = '\GoogleApiServices\Google_Service_Analytics_GaDataQuery';
   protected $queryDataType = '';
   public $rows;
   public $sampleSize;

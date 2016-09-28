@@ -30,7 +30,7 @@ class Google_Service_Logging_RequestLog extends \GoogleApi\Google_Collection
   public $instanceIndex;
   public $ip;
   public $latency;
-  protected $lineType = 'Google_Service_Logging_LogLine';
+  protected $lineType = '\GoogleApiServices\Google_Service_Logging_LogLine';
   protected $lineDataType = 'array';
   public $megaCycles;
   public $method;
@@ -41,7 +41,7 @@ class Google_Service_Logging_RequestLog extends \GoogleApi\Google_Collection
   public $requestId;
   public $resource;
   public $responseSize;
-  protected $sourceReferenceType = 'Google_Service_Logging_SourceReference';
+  protected $sourceReferenceType = '\GoogleApiServices\Google_Service_Logging_SourceReference';
   protected $sourceReferenceDataType = 'array';
   public $startTime;
   public $status;

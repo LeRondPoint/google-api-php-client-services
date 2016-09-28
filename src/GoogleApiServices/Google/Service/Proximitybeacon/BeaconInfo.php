@@ -18,9 +18,9 @@
 class Google_Service_Proximitybeacon_BeaconInfo extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'attachments';
-  protected $advertisedIdType = 'Google_Service_Proximitybeacon_AdvertisedId';
+  protected $advertisedIdType = '\GoogleApiServices\Google_Service_Proximitybeacon_AdvertisedId';
   protected $advertisedIdDataType = '';
-  protected $attachmentsType = 'Google_Service_Proximitybeacon_AttachmentInfo';
+  protected $attachmentsType = '\GoogleApiServices\Google_Service_Proximitybeacon_AttachmentInfo';
   protected $attachmentsDataType = 'array';
   public $beaconName;
 

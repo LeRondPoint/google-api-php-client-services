@@ -18,7 +18,7 @@
 class Google_Service_YouTube_ChannelConversionPings extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'pings';
-  protected $pingsType = 'Google_Service_YouTube_ChannelConversionPing';
+  protected $pingsType = '\GoogleApiServices\Google_Service_YouTube_ChannelConversionPing';
   protected $pingsDataType = 'array';
 
   public function setPings($pings)

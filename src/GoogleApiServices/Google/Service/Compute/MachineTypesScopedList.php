@@ -18,9 +18,9 @@
 class Google_Service_Compute_MachineTypesScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'machineTypes';
-  protected $machineTypesType = 'Google_Service_Compute_MachineType';
+  protected $machineTypesType = '\GoogleApiServices\Google_Service_Compute_MachineType';
   protected $machineTypesDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_MachineTypesScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_MachineTypesScopedListWarning';
   protected $warningDataType = '';
 
   public function setMachineTypes($machineTypes)

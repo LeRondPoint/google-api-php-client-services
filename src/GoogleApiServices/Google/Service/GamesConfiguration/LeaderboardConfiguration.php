@@ -17,11 +17,11 @@
 
 class Google_Service_GamesConfiguration_LeaderboardConfiguration extends \GoogleApi\Google_Model
 {
-  protected $draftType = 'Google_Service_GamesConfiguration_LeaderboardConfigurationDetail';
+  protected $draftType = '\GoogleApiServices\Google_Service_GamesConfiguration_LeaderboardConfigurationDetail';
   protected $draftDataType = '';
   public $id;
   public $kind;
-  protected $publishedType = 'Google_Service_GamesConfiguration_LeaderboardConfigurationDetail';
+  protected $publishedType = '\GoogleApiServices\Google_Service_GamesConfiguration_LeaderboardConfigurationDetail';
   protected $publishedDataType = '';
   public $scoreMax;
   public $scoreMin;

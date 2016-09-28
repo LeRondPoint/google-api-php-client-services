@@ -18,7 +18,7 @@
 class Google_Service_Sheets_ExtendedValue extends \GoogleApi\Google_Model
 {
   public $boolValue;
-  protected $errorValueType = 'Google_Service_Sheets_ErrorValue';
+  protected $errorValueType = '\GoogleApiServices\Google_Service_Sheets_ErrorValue';
   protected $errorValueDataType = '';
   public $formulaValue;
   public $numberValue;

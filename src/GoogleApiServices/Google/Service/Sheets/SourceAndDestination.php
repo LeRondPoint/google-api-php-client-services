@@ -19,7 +19,7 @@ class Google_Service_Sheets_SourceAndDestination extends \GoogleApi\Google_Model
 {
   public $dimension;
   public $fillLength;
-  protected $sourceType = 'Google_Service_Sheets_GridRange';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $sourceDataType = '';
 
   public function setDimension($dimension)

@@ -17,9 +17,9 @@
 
 class Google_Service_Gmail_Filter extends \GoogleApi\Google_Model
 {
-  protected $actionType = 'Google_Service_Gmail_FilterAction';
+  protected $actionType = '\GoogleApiServices\Google_Service_Gmail_FilterAction';
   protected $actionDataType = '';
-  protected $criteriaType = 'Google_Service_Gmail_FilterCriteria';
+  protected $criteriaType = '\GoogleApiServices\Google_Service_Gmail_FilterCriteria';
   protected $criteriaDataType = '';
   public $id;
 

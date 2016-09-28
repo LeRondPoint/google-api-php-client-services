@@ -18,14 +18,14 @@
 class Google_Service_Dfareporting_PathToConversionReportCompatibleFields extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'perInteractionDimensions';
-  protected $conversionDimensionsType = 'Google_Service_Dfareporting_Dimension';
+  protected $conversionDimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $conversionDimensionsDataType = 'array';
-  protected $customFloodlightVariablesType = 'Google_Service_Dfareporting_Dimension';
+  protected $customFloodlightVariablesType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $customFloodlightVariablesDataType = 'array';
   public $kind;
-  protected $metricsType = 'Google_Service_Dfareporting_Metric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $metricsDataType = 'array';
-  protected $perInteractionDimensionsType = 'Google_Service_Dfareporting_Dimension';
+  protected $perInteractionDimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $perInteractionDimensionsDataType = 'array';
 
   public function setConversionDimensions($conversionDimensions)

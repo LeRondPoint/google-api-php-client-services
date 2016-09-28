@@ -21,7 +21,7 @@ class Google_Service_ShoppingContent_ShippingsettingsCustomBatchRequestEntry ext
   public $batchId;
   public $merchantId;
   public $method;
-  protected $shippingSettingsType = 'Google_Service_ShoppingContent_ShippingSettings';
+  protected $shippingSettingsType = '\GoogleApiServices\Google_Service_ShoppingContent_ShippingSettings';
   protected $shippingSettingsDataType = '';
 
   public function setAccountId($accountId)

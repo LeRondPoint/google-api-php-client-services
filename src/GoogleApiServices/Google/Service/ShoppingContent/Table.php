@@ -18,12 +18,12 @@
 class Google_Service_ShoppingContent_Table extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $columnHeadersType = 'Google_Service_ShoppingContent_Headers';
+  protected $columnHeadersType = '\GoogleApiServices\Google_Service_ShoppingContent_Headers';
   protected $columnHeadersDataType = '';
   public $name;
-  protected $rowHeadersType = 'Google_Service_ShoppingContent_Headers';
+  protected $rowHeadersType = '\GoogleApiServices\Google_Service_ShoppingContent_Headers';
   protected $rowHeadersDataType = '';
-  protected $rowsType = 'Google_Service_ShoppingContent_Row';
+  protected $rowsType = '\GoogleApiServices\Google_Service_ShoppingContent_Row';
   protected $rowsDataType = 'array';
 
   public function setColumnHeaders(Google_Service_ShoppingContent_Headers $columnHeaders)

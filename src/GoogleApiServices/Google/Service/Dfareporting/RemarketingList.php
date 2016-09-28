@@ -20,13 +20,13 @@ class Google_Service_Dfareporting_RemarketingList extends \GoogleApi\Google_Mode
   public $accountId;
   public $active;
   public $advertiserId;
-  protected $advertiserIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $advertiserIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $advertiserIdDimensionValueDataType = '';
   public $description;
   public $id;
   public $kind;
   public $lifeSpan;
-  protected $listPopulationRuleType = 'Google_Service_Dfareporting_ListPopulationRule';
+  protected $listPopulationRuleType = '\GoogleApiServices\Google_Service_Dfareporting_ListPopulationRule';
   protected $listPopulationRuleDataType = '';
   public $listSize;
   public $listSource;

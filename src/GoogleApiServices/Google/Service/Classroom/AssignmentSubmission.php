@@ -18,7 +18,7 @@
 class Google_Service_Classroom_AssignmentSubmission extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'attachments';
-  protected $attachmentsType = 'Google_Service_Classroom_Attachment';
+  protected $attachmentsType = '\GoogleApiServices\Google_Service_Classroom_Attachment';
   protected $attachmentsDataType = 'array';
 
   public function setAttachments($attachments)

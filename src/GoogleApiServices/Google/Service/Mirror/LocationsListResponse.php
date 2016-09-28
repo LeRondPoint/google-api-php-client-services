@@ -18,7 +18,7 @@
 class Google_Service_Mirror_LocationsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Mirror_Location';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Mirror_Location';
   protected $itemsDataType = 'array';
   public $kind;
 

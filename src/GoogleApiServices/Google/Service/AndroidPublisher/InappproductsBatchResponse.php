@@ -18,7 +18,7 @@
 class Google_Service_AndroidPublisher_InappproductsBatchResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entrys';
-  protected $entrysType = 'Google_Service_AndroidPublisher_InappproductsBatchResponseEntry';
+  protected $entrysType = '\GoogleApiServices\Google_Service_AndroidPublisher_InappproductsBatchResponseEntry';
   protected $entrysDataType = 'array';
   public $kind;
 

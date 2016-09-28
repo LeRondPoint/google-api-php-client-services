@@ -19,7 +19,7 @@ class Google_Service_ServiceManagement_Method extends \GoogleApi\Google_Collecti
 {
   protected $collection_key = 'options';
   public $name;
-  protected $optionsType = 'Google_Service_ServiceManagement_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_ServiceManagement_Option';
   protected $optionsDataType = 'array';
   public $requestStreaming;
   public $requestTypeUrl;

@@ -20,10 +20,10 @@ class Google_Service_Dfareporting_EventTag extends \GoogleApi\Google_Collection
   protected $collection_key = 'siteIds';
   public $accountId;
   public $advertiserId;
-  protected $advertiserIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $advertiserIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $advertiserIdDimensionValueDataType = '';
   public $campaignId;
-  protected $campaignIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $campaignIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $campaignIdDimensionValueDataType = '';
   public $enabledByDefault;
   public $excludeFromAdxRequests;

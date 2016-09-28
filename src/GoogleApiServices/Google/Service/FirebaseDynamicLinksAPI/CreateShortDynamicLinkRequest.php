@@ -17,10 +17,10 @@
 
 class Google_Service_FirebaseDynamicLinksAPI_CreateShortDynamicLinkRequest extends \GoogleApi\Google_Model
 {
-  protected $dynamicLinkInfoType = 'Google_Service_FirebaseDynamicLinksAPI_DynamicLinkInfo';
+  protected $dynamicLinkInfoType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_DynamicLinkInfo';
   protected $dynamicLinkInfoDataType = '';
   public $longDynamicLink;
-  protected $suffixType = 'Google_Service_FirebaseDynamicLinksAPI_Suffix';
+  protected $suffixType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_Suffix';
   protected $suffixDataType = '';
 
   public function setDynamicLinkInfo(Google_Service_FirebaseDynamicLinksAPI_DynamicLinkInfo $dynamicLinkInfo)

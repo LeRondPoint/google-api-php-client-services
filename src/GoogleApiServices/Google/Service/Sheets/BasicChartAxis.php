@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_BasicChartAxis extends \GoogleApi\Google_Model
 {
-  protected $formatType = 'Google_Service_Sheets_TextFormat';
+  protected $formatType = '\GoogleApiServices\Google_Service_Sheets_TextFormat';
   protected $formatDataType = '';
   public $position;
   public $title;

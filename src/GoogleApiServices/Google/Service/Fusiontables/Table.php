@@ -22,7 +22,7 @@ class Google_Service_Fusiontables_Table extends \GoogleApi\Google_Collection
   public $attributionLink;
   public $baseTableIds;
   public $columnPropertiesJsonSchema;
-  protected $columnsType = 'Google_Service_Fusiontables_Column';
+  protected $columnsType = '\GoogleApiServices\Google_Service_Fusiontables_Column';
   protected $columnsDataType = 'array';
   public $description;
   public $isExportable;

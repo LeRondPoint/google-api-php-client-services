@@ -21,7 +21,7 @@ class Google_Service_Games_EventRecordRequest extends \GoogleApi\Google_Collecti
   public $currentTimeMillis;
   public $kind;
   public $requestId;
-  protected $timePeriodsType = 'Google_Service_Games_EventPeriodUpdate';
+  protected $timePeriodsType = '\GoogleApiServices\Google_Service_Games_EventPeriodUpdate';
   protected $timePeriodsDataType = 'array';
 
   public function setCurrentTimeMillis($currentTimeMillis)

@@ -18,7 +18,7 @@
 class Google_Service_YouTube_LiveStreamHealthStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'configurationIssues';
-  protected $configurationIssuesType = 'Google_Service_YouTube_LiveStreamConfigurationIssue';
+  protected $configurationIssuesType = '\GoogleApiServices\Google_Service_YouTube_LiveStreamConfigurationIssue';
   protected $configurationIssuesDataType = 'array';
   public $lastUpdateTimeSeconds;
   public $status;

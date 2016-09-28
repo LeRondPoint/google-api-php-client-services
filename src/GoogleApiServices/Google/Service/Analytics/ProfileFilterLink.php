@@ -17,11 +17,11 @@
 
 class Google_Service_Analytics_ProfileFilterLink extends \GoogleApi\Google_Model
 {
-  protected $filterRefType = 'Google_Service_Analytics_FilterRef';
+  protected $filterRefType = '\GoogleApiServices\Google_Service_Analytics_FilterRef';
   protected $filterRefDataType = '';
   public $id;
   public $kind;
-  protected $profileRefType = 'Google_Service_Analytics_ProfileRef';
+  protected $profileRefType = '\GoogleApiServices\Google_Service_Analytics_ProfileRef';
   protected $profileRefDataType = '';
   public $rank;
   public $selfLink;

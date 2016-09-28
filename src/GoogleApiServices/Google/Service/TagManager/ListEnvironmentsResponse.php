@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListEnvironmentsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'environments';
-  protected $environmentsType = 'Google_Service_TagManager_Environment';
+  protected $environmentsType = '\GoogleApiServices\Google_Service_TagManager_Environment';
   protected $environmentsDataType = 'array';
 
   public function setEnvironments($environments)

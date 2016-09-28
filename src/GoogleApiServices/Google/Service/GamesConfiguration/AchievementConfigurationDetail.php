@@ -17,11 +17,11 @@
 
 class Google_Service_GamesConfiguration_AchievementConfigurationDetail extends \GoogleApi\Google_Model
 {
-  protected $descriptionType = 'Google_Service_GamesConfiguration_LocalizedStringBundle';
+  protected $descriptionType = '\GoogleApiServices\Google_Service_GamesConfiguration_LocalizedStringBundle';
   protected $descriptionDataType = '';
   public $iconUrl;
   public $kind;
-  protected $nameType = 'Google_Service_GamesConfiguration_LocalizedStringBundle';
+  protected $nameType = '\GoogleApiServices\Google_Service_GamesConfiguration_LocalizedStringBundle';
   protected $nameDataType = '';
   public $pointValue;
   public $sortRank;

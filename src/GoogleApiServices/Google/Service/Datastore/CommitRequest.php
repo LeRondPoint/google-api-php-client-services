@@ -19,7 +19,7 @@ class Google_Service_Datastore_CommitRequest extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'mutations';
   public $mode;
-  protected $mutationsType = 'Google_Service_Datastore_Mutation';
+  protected $mutationsType = '\GoogleApiServices\Google_Service_Datastore_Mutation';
   protected $mutationsDataType = 'array';
   public $transaction;
 

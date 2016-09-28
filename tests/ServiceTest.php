@@ -25,10 +25,10 @@ class Google_Service_ServiceTest extends PHPUnit_Framework_TestCase
   public function setUp()
   {
     // ensure dependent classes exist
-    $this->getMock('Google_Service');
-    $this->getMock('Google_Model');
-    $this->getMock('Google_Collection');
-    $this->getMock('Google_Service_Resource');
+    $this->getMock('\GoogleApi\Google_Service');
+    $this->getMock('\GoogleApi\Google_Model');
+    $this->getMock('\GoogleApi\Google_Collection');
+    $this->getMock('\GoogleApi\Google_Service_Resource');
   }
   /**
    * @dataProvider serviceProvider
@@ -44,7 +44,7 @@ class Google_Service_ServiceTest extends PHPUnit_Framework_TestCase
   public function serviceProvider()
   {
     $classes = array();
-    $path = __DIR__ . '/../src/Google/Service/';
+    $path = __DIR__ . '/../src/GoogleApiServices/Google/Service/';
     foreach (glob($path . "*.php") as $file) {
       $service = basename($file, '.php');
       $classes[] = array('Google_Service_' . $service);

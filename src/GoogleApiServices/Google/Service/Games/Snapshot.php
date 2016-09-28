@@ -17,7 +17,7 @@
 
 class Google_Service_Games_Snapshot extends \GoogleApi\Google_Model
 {
-  protected $coverImageType = 'Google_Service_Games_SnapshotImage';
+  protected $coverImageType = '\GoogleApiServices\Google_Service_Games_SnapshotImage';
   protected $coverImageDataType = '';
   public $description;
   public $driveId;

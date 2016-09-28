@@ -18,12 +18,12 @@
 class Google_Service_Games_LeaderboardScores extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Games_LeaderboardEntry';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Games_LeaderboardEntry';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;
   public $numScores;
-  protected $playerScoreType = 'Google_Service_Games_LeaderboardEntry';
+  protected $playerScoreType = '\GoogleApiServices\Google_Service_Games_LeaderboardEntry';
   protected $playerScoreDataType = '';
   public $prevPageToken;
 

@@ -18,24 +18,24 @@
 class Google_Service_CivicInfo_VoterInfoResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'state';
-  protected $contestsType = 'Google_Service_CivicInfo_Contest';
+  protected $contestsType = '\GoogleApiServices\Google_Service_CivicInfo_Contest';
   protected $contestsDataType = 'array';
-  protected $dropOffLocationsType = 'Google_Service_CivicInfo_PollingLocation';
+  protected $dropOffLocationsType = '\GoogleApiServices\Google_Service_CivicInfo_PollingLocation';
   protected $dropOffLocationsDataType = 'array';
-  protected $earlyVoteSitesType = 'Google_Service_CivicInfo_PollingLocation';
+  protected $earlyVoteSitesType = '\GoogleApiServices\Google_Service_CivicInfo_PollingLocation';
   protected $earlyVoteSitesDataType = 'array';
-  protected $electionType = 'Google_Service_CivicInfo_Election';
+  protected $electionType = '\GoogleApiServices\Google_Service_CivicInfo_Election';
   protected $electionDataType = '';
   public $kind;
   public $mailOnly;
-  protected $normalizedInputType = 'Google_Service_CivicInfo_SimpleAddressType';
+  protected $normalizedInputType = '\GoogleApiServices\Google_Service_CivicInfo_SimpleAddressType';
   protected $normalizedInputDataType = '';
-  protected $otherElectionsType = 'Google_Service_CivicInfo_Election';
+  protected $otherElectionsType = '\GoogleApiServices\Google_Service_CivicInfo_Election';
   protected $otherElectionsDataType = 'array';
-  protected $pollingLocationsType = 'Google_Service_CivicInfo_PollingLocation';
+  protected $pollingLocationsType = '\GoogleApiServices\Google_Service_CivicInfo_PollingLocation';
   protected $pollingLocationsDataType = 'array';
   public $precinctId;
-  protected $stateType = 'Google_Service_CivicInfo_AdministrationRegion';
+  protected $stateType = '\GoogleApiServices\Google_Service_CivicInfo_AdministrationRegion';
   protected $stateDataType = 'array';
 
   public function setContests($contests)

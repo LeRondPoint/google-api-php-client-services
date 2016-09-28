@@ -18,10 +18,10 @@
 class Google_Service_Dataflow_SourceSplitResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'shards';
-  protected $bundlesType = 'Google_Service_Dataflow_DerivedSource';
+  protected $bundlesType = '\GoogleApiServices\Google_Service_Dataflow_DerivedSource';
   protected $bundlesDataType = 'array';
   public $outcome;
-  protected $shardsType = 'Google_Service_Dataflow_SourceSplitShard';
+  protected $shardsType = '\GoogleApiServices\Google_Service_Dataflow_SourceSplitShard';
   protected $shardsDataType = 'array';
 
   public function setBundles($bundles)

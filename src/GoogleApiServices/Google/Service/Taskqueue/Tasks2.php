@@ -18,7 +18,7 @@
 class Google_Service_Taskqueue_Tasks2 extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Taskqueue_Task';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Taskqueue_Task';
   protected $itemsDataType = 'array';
   public $kind;
 

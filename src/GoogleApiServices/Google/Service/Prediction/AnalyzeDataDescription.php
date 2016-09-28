@@ -18,9 +18,9 @@
 class Google_Service_Prediction_AnalyzeDataDescription extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'features';
-  protected $featuresType = 'Google_Service_Prediction_AnalyzeDataDescriptionFeatures';
+  protected $featuresType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionFeatures';
   protected $featuresDataType = 'array';
-  protected $outputFeatureType = 'Google_Service_Prediction_AnalyzeDataDescriptionOutputFeature';
+  protected $outputFeatureType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionOutputFeature';
   protected $outputFeatureDataType = '';
 
   public function setFeatures($features)

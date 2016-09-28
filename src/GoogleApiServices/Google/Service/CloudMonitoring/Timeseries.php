@@ -18,9 +18,9 @@
 class Google_Service_CloudMonitoring_Timeseries extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'points';
-  protected $pointsType = 'Google_Service_CloudMonitoring_Point';
+  protected $pointsType = '\GoogleApiServices\Google_Service_CloudMonitoring_Point';
   protected $pointsDataType = 'array';
-  protected $timeseriesDescType = 'Google_Service_CloudMonitoring_TimeseriesDescriptor';
+  protected $timeseriesDescType = '\GoogleApiServices\Google_Service_CloudMonitoring_TimeseriesDescriptor';
   protected $timeseriesDescDataType = '';
 
   public function setPoints($points)

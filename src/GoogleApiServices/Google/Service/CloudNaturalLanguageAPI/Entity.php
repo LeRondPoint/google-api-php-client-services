@@ -18,7 +18,7 @@
 class Google_Service_CloudNaturalLanguageAPI_Entity extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'mentions';
-  protected $mentionsType = 'Google_Service_CloudNaturalLanguageAPI_EntityMention';
+  protected $mentionsType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_EntityMention';
   protected $mentionsDataType = 'array';
   public $metadata;
   public $name;

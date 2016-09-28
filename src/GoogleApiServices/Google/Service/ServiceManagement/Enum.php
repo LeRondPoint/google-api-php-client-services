@@ -18,12 +18,12 @@
 class Google_Service_ServiceManagement_Enum extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'options';
-  protected $enumvalueType = 'Google_Service_ServiceManagement_EnumValue';
+  protected $enumvalueType = '\GoogleApiServices\Google_Service_ServiceManagement_EnumValue';
   protected $enumvalueDataType = 'array';
   public $name;
-  protected $optionsType = 'Google_Service_ServiceManagement_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_ServiceManagement_Option';
   protected $optionsDataType = 'array';
-  protected $sourceContextType = 'Google_Service_ServiceManagement_SourceContext';
+  protected $sourceContextType = '\GoogleApiServices\Google_Service_ServiceManagement_SourceContext';
   protected $sourceContextDataType = '';
   public $syntax;
 

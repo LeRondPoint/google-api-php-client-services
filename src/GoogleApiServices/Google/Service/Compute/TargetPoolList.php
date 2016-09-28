@@ -19,7 +19,7 @@ class Google_Service_Compute_TargetPoolList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_TargetPool';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_TargetPool';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

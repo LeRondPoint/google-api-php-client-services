@@ -19,11 +19,11 @@ class Google_Service_Books_VolumeSaleInfoOffers extends \GoogleApi\Google_Model
 {
   public $finskyOfferType;
   public $giftable;
-  protected $listPriceType = 'Google_Service_Books_VolumeSaleInfoOffersListPrice';
+  protected $listPriceType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfoOffersListPrice';
   protected $listPriceDataType = '';
-  protected $rentalDurationType = 'Google_Service_Books_VolumeSaleInfoOffersRentalDuration';
+  protected $rentalDurationType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfoOffersRentalDuration';
   protected $rentalDurationDataType = '';
-  protected $retailPriceType = 'Google_Service_Books_VolumeSaleInfoOffersRetailPrice';
+  protected $retailPriceType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfoOffersRetailPrice';
   protected $retailPriceDataType = '';
 
   public function setFinskyOfferType($finskyOfferType)

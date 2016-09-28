@@ -21,7 +21,7 @@ class Google_Service_Dataflow_Source extends \GoogleApi\Google_Collection
   public $baseSpecs;
   public $codec;
   public $doesNotNeedSplitting;
-  protected $metadataType = 'Google_Service_Dataflow_SourceMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_Dataflow_SourceMetadata';
   protected $metadataDataType = '';
   public $spec;
 

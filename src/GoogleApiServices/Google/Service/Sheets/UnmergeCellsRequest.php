@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_UnmergeCellsRequest extends \GoogleApi\Google_Model
 {
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
 
   public function setRange(Google_Service_Sheets_GridRange $range)

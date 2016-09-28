@@ -18,10 +18,10 @@
 class Google_Service_Safebrowsing_FindFullHashesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'clientStates';
-  protected $clientType = 'Google_Service_Safebrowsing_ClientInfo';
+  protected $clientType = '\GoogleApiServices\Google_Service_Safebrowsing_ClientInfo';
   protected $clientDataType = '';
   public $clientStates;
-  protected $threatInfoType = 'Google_Service_Safebrowsing_ThreatInfo';
+  protected $threatInfoType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatInfo';
   protected $threatInfoDataType = '';
 
   public function setClient(Google_Service_Safebrowsing_ClientInfo $client)

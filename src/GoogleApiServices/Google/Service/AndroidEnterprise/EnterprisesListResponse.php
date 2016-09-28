@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_EnterprisesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'enterprise';
-  protected $enterpriseType = 'Google_Service_AndroidEnterprise_Enterprise';
+  protected $enterpriseType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Enterprise';
   protected $enterpriseDataType = 'array';
   public $kind;
 

@@ -18,7 +18,7 @@
 class Google_Service_Spectrum_GeoLocationPolygon extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'exterior';
-  protected $exteriorType = 'Google_Service_Spectrum_GeoLocationPoint';
+  protected $exteriorType = '\GoogleApiServices\Google_Service_Spectrum_GeoLocationPoint';
   protected $exteriorDataType = 'array';
 
   public function setExterior($exterior)

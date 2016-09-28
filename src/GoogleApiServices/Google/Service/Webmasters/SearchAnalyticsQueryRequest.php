@@ -19,7 +19,7 @@ class Google_Service_Webmasters_SearchAnalyticsQueryRequest extends \GoogleApi\G
 {
   protected $collection_key = 'dimensions';
   public $aggregationType;
-  protected $dimensionFilterGroupsType = 'Google_Service_Webmasters_ApiDimensionFilterGroup';
+  protected $dimensionFilterGroupsType = '\GoogleApiServices\Google_Service_Webmasters_ApiDimensionFilterGroup';
   protected $dimensionFilterGroupsDataType = 'array';
   public $dimensions;
   public $endDate;

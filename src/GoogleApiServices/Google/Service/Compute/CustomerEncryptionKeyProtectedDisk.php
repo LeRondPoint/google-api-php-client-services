@@ -17,7 +17,7 @@
 
 class Google_Service_Compute_CustomerEncryptionKeyProtectedDisk extends \GoogleApi\Google_Model
 {
-  protected $diskEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $diskEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $diskEncryptionKeyDataType = '';
   public $source;
 

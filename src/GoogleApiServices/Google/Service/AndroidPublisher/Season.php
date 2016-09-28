@@ -18,11 +18,11 @@
 class Google_Service_AndroidPublisher_Season extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'prorations';
-  protected $endType = 'Google_Service_AndroidPublisher_MonthDay';
+  protected $endType = '\GoogleApiServices\Google_Service_AndroidPublisher_MonthDay';
   protected $endDataType = '';
-  protected $prorationsType = 'Google_Service_AndroidPublisher_Prorate';
+  protected $prorationsType = '\GoogleApiServices\Google_Service_AndroidPublisher_Prorate';
   protected $prorationsDataType = 'array';
-  protected $startType = 'Google_Service_AndroidPublisher_MonthDay';
+  protected $startType = '\GoogleApiServices\Google_Service_AndroidPublisher_MonthDay';
   protected $startDataType = '';
 
   public function setEnd(Google_Service_AndroidPublisher_MonthDay $end)

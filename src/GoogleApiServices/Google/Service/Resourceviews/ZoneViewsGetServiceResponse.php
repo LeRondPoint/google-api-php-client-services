@@ -18,7 +18,7 @@
 class Google_Service_Resourceviews_ZoneViewsGetServiceResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'endpoints';
-  protected $endpointsType = 'Google_Service_Resourceviews_ServiceEndpoint';
+  protected $endpointsType = '\GoogleApiServices\Google_Service_Resourceviews_ServiceEndpoint';
   protected $endpointsDataType = 'array';
   public $fingerprint;
 

@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_GroupLicenseUsersListResponse extends \Go
 {
   protected $collection_key = 'user';
   public $kind;
-  protected $userType = 'Google_Service_AndroidEnterprise_User';
+  protected $userType = '\GoogleApiServices\Google_Service_AndroidEnterprise_User';
   protected $userDataType = 'array';
 
   public function setKind($kind)

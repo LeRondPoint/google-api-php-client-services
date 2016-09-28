@@ -20,9 +20,9 @@ class Google_Service_ServiceManagement_Documentation extends \GoogleApi\Google_C
   protected $collection_key = 'rules';
   public $documentationRootUrl;
   public $overview;
-  protected $pagesType = 'Google_Service_ServiceManagement_Page';
+  protected $pagesType = '\GoogleApiServices\Google_Service_ServiceManagement_Page';
   protected $pagesDataType = 'array';
-  protected $rulesType = 'Google_Service_ServiceManagement_DocumentationRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_DocumentationRule';
   protected $rulesDataType = 'array';
   public $summary;
 

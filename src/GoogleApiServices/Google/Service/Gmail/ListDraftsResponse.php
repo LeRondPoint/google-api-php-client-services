@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListDraftsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'drafts';
-  protected $draftsType = 'Google_Service_Gmail_Draft';
+  protected $draftsType = '\GoogleApiServices\Google_Service_Gmail_Draft';
   protected $draftsDataType = 'array';
   public $nextPageToken;
   public $resultSizeEstimate;

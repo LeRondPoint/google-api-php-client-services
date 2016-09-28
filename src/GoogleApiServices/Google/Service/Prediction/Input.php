@@ -17,7 +17,7 @@
 
 class Google_Service_Prediction_Input extends \GoogleApi\Google_Model
 {
-  protected $inputType = 'Google_Service_Prediction_InputInput';
+  protected $inputType = '\GoogleApiServices\Google_Service_Prediction_InputInput';
   protected $inputDataType = '';
 
   public function setInput(Google_Service_Prediction_InputInput $input)

@@ -17,7 +17,7 @@
 
 class Google_Service_Vision_LocationInfo extends \GoogleApi\Google_Model
 {
-  protected $latLngType = 'Google_Service_Vision_LatLng';
+  protected $latLngType = '\GoogleApiServices\Google_Service_Vision_LatLng';
   protected $latLngDataType = '';
 
   public function setLatLng(Google_Service_Vision_LatLng $latLng)

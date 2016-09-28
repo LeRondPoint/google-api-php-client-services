@@ -17,7 +17,7 @@
 
 class Google_Service_CloudDebugger_RepoId extends \GoogleApi\Google_Model
 {
-  protected $projectRepoIdType = 'Google_Service_CloudDebugger_ProjectRepoId';
+  protected $projectRepoIdType = '\GoogleApiServices\Google_Service_CloudDebugger_ProjectRepoId';
   protected $projectRepoIdDataType = '';
   public $uid;
 

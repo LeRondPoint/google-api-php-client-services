@@ -19,7 +19,7 @@ class Google_Service_Sheets_AppendCellsRequest extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'rows';
   public $fields;
-  protected $rowsType = 'Google_Service_Sheets_RowData';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Sheets_RowData';
   protected $rowsDataType = 'array';
   public $sheetId;
 

@@ -18,7 +18,7 @@
 class Google_Service_Logging_ListLogMetricsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metrics';
-  protected $metricsType = 'Google_Service_Logging_LogMetric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_Logging_LogMetric';
   protected $metricsDataType = 'array';
   public $nextPageToken;
 

@@ -28,9 +28,9 @@ class Google_Service_Dataproc_OperationMetadata extends \GoogleApi\Google_Collec
   public $operationType;
   public $startTime;
   public $state;
-  protected $statusType = 'Google_Service_Dataproc_OperationStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_Dataproc_OperationStatus';
   protected $statusDataType = '';
-  protected $statusHistoryType = 'Google_Service_Dataproc_OperationStatus';
+  protected $statusHistoryType = '\GoogleApiServices\Google_Service_Dataproc_OperationStatus';
   protected $statusHistoryDataType = 'array';
 
   public function setClusterName($clusterName)

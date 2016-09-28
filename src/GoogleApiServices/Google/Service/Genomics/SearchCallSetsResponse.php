@@ -18,7 +18,7 @@
 class Google_Service_Genomics_SearchCallSetsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'callSets';
-  protected $callSetsType = 'Google_Service_Genomics_CallSet';
+  protected $callSetsType = '\GoogleApiServices\Google_Service_Genomics_CallSet';
   protected $callSetsDataType = 'array';
   public $nextPageToken;
 

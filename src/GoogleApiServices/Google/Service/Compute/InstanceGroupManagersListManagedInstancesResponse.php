@@ -18,7 +18,7 @@
 class Google_Service_Compute_InstanceGroupManagersListManagedInstancesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'managedInstances';
-  protected $managedInstancesType = 'Google_Service_Compute_ManagedInstance';
+  protected $managedInstancesType = '\GoogleApiServices\Google_Service_Compute_ManagedInstance';
   protected $managedInstancesDataType = 'array';
 
   public function setManagedInstances($managedInstances)

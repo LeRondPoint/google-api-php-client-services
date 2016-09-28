@@ -20,7 +20,7 @@ class Google_Service_Calendar_FreeBusyRequest extends \GoogleApi\Google_Collecti
   protected $collection_key = 'items';
   public $calendarExpansionMax;
   public $groupExpansionMax;
-  protected $itemsType = 'Google_Service_Calendar_FreeBusyRequestItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Calendar_FreeBusyRequestItem';
   protected $itemsDataType = 'array';
   public $timeMax;
   public $timeMin;

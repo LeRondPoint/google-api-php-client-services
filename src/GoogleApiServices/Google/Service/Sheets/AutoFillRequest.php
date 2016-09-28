@@ -17,9 +17,9 @@
 
 class Google_Service_Sheets_AutoFillRequest extends \GoogleApi\Google_Model
 {
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
-  protected $sourceAndDestinationType = 'Google_Service_Sheets_SourceAndDestination';
+  protected $sourceAndDestinationType = '\GoogleApiServices\Google_Service_Sheets_SourceAndDestination';
   protected $sourceAndDestinationDataType = '';
   public $useAlternateSeries;
 

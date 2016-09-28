@@ -19,7 +19,7 @@ class Google_Service_AnalyticsReporting_SegmentSequenceStep extends \GoogleApi\G
 {
   protected $collection_key = 'orFiltersForSegment';
   public $matchType;
-  protected $orFiltersForSegmentType = 'Google_Service_AnalyticsReporting_OrFiltersForSegment';
+  protected $orFiltersForSegmentType = '\GoogleApiServices\Google_Service_AnalyticsReporting_OrFiltersForSegment';
   protected $orFiltersForSegmentDataType = 'array';
 
   public function setMatchType($matchType)

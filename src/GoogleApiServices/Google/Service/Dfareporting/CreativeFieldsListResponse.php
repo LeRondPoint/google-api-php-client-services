@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CreativeFieldsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'creativeFields';
-  protected $creativeFieldsType = 'Google_Service_Dfareporting_CreativeField';
+  protected $creativeFieldsType = '\GoogleApiServices\Google_Service_Dfareporting_CreativeField';
   protected $creativeFieldsDataType = 'array';
   public $kind;
   public $nextPageToken;

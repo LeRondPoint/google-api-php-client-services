@@ -18,9 +18,9 @@
 class Google_Service_Datastore_Key extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'path';
-  protected $partitionIdType = 'Google_Service_Datastore_PartitionId';
+  protected $partitionIdType = '\GoogleApiServices\Google_Service_Datastore_PartitionId';
   protected $partitionIdDataType = '';
-  protected $pathType = 'Google_Service_Datastore_PathElement';
+  protected $pathType = '\GoogleApiServices\Google_Service_Datastore_PathElement';
   protected $pathDataType = 'array';
 
   public function setPartitionId(Google_Service_Datastore_PartitionId $partitionId)

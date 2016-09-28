@@ -21,9 +21,9 @@ class Google_Service_Blogger_PostUserInfo extends \GoogleApi\Google_Model
         "postUserInfo" => "post_user_info",
   );
   public $kind;
-  protected $postType = 'Google_Service_Blogger_Post';
+  protected $postType = '\GoogleApiServices\Google_Service_Blogger_Post';
   protected $postDataType = '';
-  protected $postUserInfoType = 'Google_Service_Blogger_PostPerUserInfo';
+  protected $postUserInfoType = '\GoogleApiServices\Google_Service_Blogger_PostPerUserInfo';
   protected $postUserInfoDataType = '';
 
   public function setKind($kind)

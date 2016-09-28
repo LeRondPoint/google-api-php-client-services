@@ -20,7 +20,7 @@ class Google_Service_Proximitybeacon_Diagnostics extends \GoogleApi\Google_Colle
   protected $collection_key = 'alerts';
   public $alerts;
   public $beaconName;
-  protected $estimatedLowBatteryDateType = 'Google_Service_Proximitybeacon_Date';
+  protected $estimatedLowBatteryDateType = '\GoogleApiServices\Google_Service_Proximitybeacon_Date';
   protected $estimatedLowBatteryDateDataType = '';
 
   public function setAlerts($alerts)

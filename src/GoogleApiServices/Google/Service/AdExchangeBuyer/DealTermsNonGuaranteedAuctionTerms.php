@@ -19,7 +19,7 @@ class Google_Service_AdExchangeBuyer_DealTermsNonGuaranteedAuctionTerms extends 
 {
   protected $collection_key = 'reservePricePerBuyers';
   public $autoOptimizePrivateAuction;
-  protected $reservePricePerBuyersType = 'Google_Service_AdExchangeBuyer_PricePerBuyer';
+  protected $reservePricePerBuyersType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PricePerBuyer';
   protected $reservePricePerBuyersDataType = 'array';
 
   public function setAutoOptimizePrivateAuction($autoOptimizePrivateAuction)

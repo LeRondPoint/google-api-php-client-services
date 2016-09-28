@@ -22,7 +22,7 @@ class Google_Service_Bigquery_DatasetAccess extends \GoogleApi\Google_Model
   public $role;
   public $specialGroup;
   public $userByEmail;
-  protected $viewType = 'Google_Service_Bigquery_TableReference';
+  protected $viewType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $viewDataType = '';
 
   public function setDomain($domain)

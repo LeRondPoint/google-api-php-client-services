@@ -21,7 +21,7 @@ class Google_Service_ServiceManagement_OperationMetadata extends \GoogleApi\Goog
   public $progressPercentage;
   public $resourceNames;
   public $startTime;
-  protected $stepsType = 'Google_Service_ServiceManagement_Step';
+  protected $stepsType = '\GoogleApiServices\Google_Service_ServiceManagement_Step';
   protected $stepsDataType = 'array';
 
   public function setProgressPercentage($progressPercentage)

@@ -18,9 +18,9 @@
 class Google_Service_TagManager_ListContainerVersionsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'containerVersionHeader';
-  protected $containerVersionType = 'Google_Service_TagManager_ContainerVersion';
+  protected $containerVersionType = '\GoogleApiServices\Google_Service_TagManager_ContainerVersion';
   protected $containerVersionDataType = 'array';
-  protected $containerVersionHeaderType = 'Google_Service_TagManager_ContainerVersionHeader';
+  protected $containerVersionHeaderType = '\GoogleApiServices\Google_Service_TagManager_ContainerVersionHeader';
   protected $containerVersionHeaderDataType = 'array';
 
   public function setContainerVersion($containerVersion)

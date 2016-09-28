@@ -17,7 +17,7 @@
 
 class Google_Service_CloudRuntimeConfig_EndCondition extends \GoogleApi\Google_Model
 {
-  protected $cardinalityType = 'Google_Service_CloudRuntimeConfig_Cardinality';
+  protected $cardinalityType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_Cardinality';
   protected $cardinalityDataType = '';
 
   public function setCardinality(Google_Service_CloudRuntimeConfig_Cardinality $cardinality)

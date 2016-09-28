@@ -18,15 +18,15 @@
 class Google_Service_AdExchangeBuyer_MarketplaceDeal extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sharedTargetings';
-  protected $buyerPrivateDataType = 'Google_Service_AdExchangeBuyer_PrivateData';
+  protected $buyerPrivateDataType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PrivateData';
   protected $buyerPrivateDataDataType = '';
   public $creationTimeMs;
   public $creativePreApprovalPolicy;
   public $creativeSafeFrameCompatibility;
   public $dealId;
-  protected $dealServingMetadataType = 'Google_Service_AdExchangeBuyer_DealServingMetadata';
+  protected $dealServingMetadataType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealServingMetadata';
   protected $dealServingMetadataDataType = '';
-  protected $deliveryControlType = 'Google_Service_AdExchangeBuyer_DeliveryControl';
+  protected $deliveryControlType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DeliveryControl';
   protected $deliveryControlDataType = '';
   public $externalDealId;
   public $flightEndTimeMs;
@@ -39,12 +39,12 @@ class Google_Service_AdExchangeBuyer_MarketplaceDeal extends \GoogleApi\Google_C
   public $productRevisionNumber;
   public $programmaticCreativeSource;
   public $proposalId;
-  protected $sellerContactsType = 'Google_Service_AdExchangeBuyer_ContactInformation';
+  protected $sellerContactsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_ContactInformation';
   protected $sellerContactsDataType = 'array';
-  protected $sharedTargetingsType = 'Google_Service_AdExchangeBuyer_SharedTargeting';
+  protected $sharedTargetingsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_SharedTargeting';
   protected $sharedTargetingsDataType = 'array';
   public $syndicationProduct;
-  protected $termsType = 'Google_Service_AdExchangeBuyer_DealTerms';
+  protected $termsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTerms';
   protected $termsDataType = '';
   public $webPropertyCode;
 

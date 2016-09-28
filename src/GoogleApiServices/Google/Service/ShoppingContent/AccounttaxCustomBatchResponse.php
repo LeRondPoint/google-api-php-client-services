@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_AccounttaxCustomBatchResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entries';
-  protected $entriesType = 'Google_Service_ShoppingContent_AccounttaxCustomBatchResponseEntry';
+  protected $entriesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccounttaxCustomBatchResponseEntry';
   protected $entriesDataType = 'array';
   public $kind;
 

@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_PlacementGroupsListResponse extends \GoogleApi
   protected $collection_key = 'placementGroups';
   public $kind;
   public $nextPageToken;
-  protected $placementGroupsType = 'Google_Service_Dfareporting_PlacementGroup';
+  protected $placementGroupsType = '\GoogleApiServices\Google_Service_Dfareporting_PlacementGroup';
   protected $placementGroupsDataType = 'array';
 
   public function setKind($kind)

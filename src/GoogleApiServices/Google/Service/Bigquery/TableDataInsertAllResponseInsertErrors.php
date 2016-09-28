@@ -18,7 +18,7 @@
 class Google_Service_Bigquery_TableDataInsertAllResponseInsertErrors extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorsType = 'Google_Service_Bigquery_ErrorProto';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Bigquery_ErrorProto';
   protected $errorsDataType = 'array';
   public $index;
 

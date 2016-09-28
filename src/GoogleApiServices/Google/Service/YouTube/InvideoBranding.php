@@ -19,10 +19,10 @@ class Google_Service_YouTube_InvideoBranding extends \GoogleApi\Google_Model
 {
   public $imageBytes;
   public $imageUrl;
-  protected $positionType = 'Google_Service_YouTube_InvideoPosition';
+  protected $positionType = '\GoogleApiServices\Google_Service_YouTube_InvideoPosition';
   protected $positionDataType = '';
   public $targetChannelId;
-  protected $timingType = 'Google_Service_YouTube_InvideoTiming';
+  protected $timingType = '\GoogleApiServices\Google_Service_YouTube_InvideoTiming';
   protected $timingDataType = '';
 
   public function setImageBytes($imageBytes)

@@ -19,7 +19,7 @@ class Google_Service_ServiceManagement_ListServicesResponse extends \GoogleApi\G
 {
   protected $collection_key = 'services';
   public $nextPageToken;
-  protected $servicesType = 'Google_Service_ServiceManagement_ManagedService';
+  protected $servicesType = '\GoogleApiServices\Google_Service_ServiceManagement_ManagedService';
   protected $servicesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

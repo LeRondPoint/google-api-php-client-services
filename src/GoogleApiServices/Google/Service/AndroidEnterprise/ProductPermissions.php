@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_ProductPermissions extends \GoogleApi\Goo
 {
   protected $collection_key = 'permission';
   public $kind;
-  protected $permissionType = 'Google_Service_AndroidEnterprise_ProductPermission';
+  protected $permissionType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ProductPermission';
   protected $permissionDataType = 'array';
   public $productId;
 

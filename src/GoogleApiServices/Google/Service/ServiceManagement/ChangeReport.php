@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_ChangeReport extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'configChanges';
-  protected $configChangesType = 'Google_Service_ServiceManagement_ConfigChange';
+  protected $configChangesType = '\GoogleApiServices\Google_Service_ServiceManagement_ConfigChange';
   protected $configChangesDataType = 'array';
 
   public function setConfigChanges($configChanges)

@@ -18,7 +18,7 @@
 class Google_Service_Appsactivity_ListActivitiesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'activities';
-  protected $activitiesType = 'Google_Service_Appsactivity_Activity';
+  protected $activitiesType = '\GoogleApiServices\Google_Service_Appsactivity_Activity';
   protected $activitiesDataType = 'array';
   public $nextPageToken;
 

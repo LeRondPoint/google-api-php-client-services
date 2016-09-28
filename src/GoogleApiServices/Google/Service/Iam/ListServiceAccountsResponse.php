@@ -18,7 +18,7 @@
 class Google_Service_Iam_ListServiceAccountsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'accounts';
-  protected $accountsType = 'Google_Service_Iam_ServiceAccount';
+  protected $accountsType = '\GoogleApiServices\Google_Service_Iam_ServiceAccount';
   protected $accountsDataType = 'array';
   public $nextPageToken;
 

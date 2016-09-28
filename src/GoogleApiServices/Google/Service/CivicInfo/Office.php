@@ -23,7 +23,7 @@ class Google_Service_CivicInfo_Office extends \GoogleApi\Google_Collection
   public $name;
   public $officialIndices;
   public $roles;
-  protected $sourcesType = 'Google_Service_CivicInfo_Source';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_CivicInfo_Source';
   protected $sourcesDataType = 'array';
 
   public function setDivisionId($divisionId)

@@ -19,7 +19,7 @@ class Google_Service_Compute_RoutersScopedListWarning extends \GoogleApi\Google_
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_RoutersScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_RoutersScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

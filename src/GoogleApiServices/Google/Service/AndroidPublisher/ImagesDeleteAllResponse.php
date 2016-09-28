@@ -18,7 +18,7 @@
 class Google_Service_AndroidPublisher_ImagesDeleteAllResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'deleted';
-  protected $deletedType = 'Google_Service_AndroidPublisher_Image';
+  protected $deletedType = '\GoogleApiServices\Google_Service_AndroidPublisher_Image';
   protected $deletedDataType = 'array';
 
   public function setDeleted($deleted)

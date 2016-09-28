@@ -22,12 +22,12 @@ class Google_Service_Analytics_UnsampledReport extends \GoogleApi\Google_Model
         "startDate" => "start-date",
   );
   public $accountId;
-  protected $cloudStorageDownloadDetailsType = 'Google_Service_Analytics_UnsampledReportCloudStorageDownloadDetails';
+  protected $cloudStorageDownloadDetailsType = '\GoogleApiServices\Google_Service_Analytics_UnsampledReportCloudStorageDownloadDetails';
   protected $cloudStorageDownloadDetailsDataType = '';
   public $created;
   public $dimensions;
   public $downloadType;
-  protected $driveDownloadDetailsType = 'Google_Service_Analytics_UnsampledReportDriveDownloadDetails';
+  protected $driveDownloadDetailsType = '\GoogleApiServices\Google_Service_Analytics_UnsampledReportDriveDownloadDetails';
   protected $driveDownloadDetailsDataType = '';
   public $endDate;
   public $filters;

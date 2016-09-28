@@ -19,7 +19,7 @@ class Google_Service_Cloudbilling_ListProjectBillingInfoResponse extends \Google
 {
   protected $collection_key = 'projectBillingInfo';
   public $nextPageToken;
-  protected $projectBillingInfoType = 'Google_Service_Cloudbilling_ProjectBillingInfo';
+  protected $projectBillingInfoType = '\GoogleApiServices\Google_Service_Cloudbilling_ProjectBillingInfo';
   protected $projectBillingInfoDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

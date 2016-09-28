@@ -18,7 +18,7 @@
 class Google_Service_Sheets_EmbeddedObjectPosition extends \GoogleApi\Google_Model
 {
   public $newSheet;
-  protected $overlayPositionType = 'Google_Service_Sheets_OverlayPosition';
+  protected $overlayPositionType = '\GoogleApiServices\Google_Service_Sheets_OverlayPosition';
   protected $overlayPositionDataType = '';
   public $sheetId;
 

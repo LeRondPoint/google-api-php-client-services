@@ -24,11 +24,11 @@ class Google_Service_Dfareporting_Order extends \GoogleApi\Google_Collection
   public $buyerInvoiceId;
   public $buyerOrganizationName;
   public $comments;
-  protected $contactsType = 'Google_Service_Dfareporting_OrderContact';
+  protected $contactsType = '\GoogleApiServices\Google_Service_Dfareporting_OrderContact';
   protected $contactsDataType = 'array';
   public $id;
   public $kind;
-  protected $lastModifiedInfoType = 'Google_Service_Dfareporting_LastModifiedInfo';
+  protected $lastModifiedInfoType = '\GoogleApiServices\Google_Service_Dfareporting_LastModifiedInfo';
   protected $lastModifiedInfoDataType = '';
   public $name;
   public $notes;

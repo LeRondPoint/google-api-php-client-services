@@ -22,7 +22,7 @@ class Google_Service_Bigquery_JobConfigurationLoad extends \GoogleApi\Google_Col
   public $allowQuotedNewlines;
   public $autodetect;
   public $createDisposition;
-  protected $destinationTableType = 'Google_Service_Bigquery_TableReference';
+  protected $destinationTableType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $destinationTableDataType = '';
   public $encoding;
   public $fieldDelimiter;
@@ -30,7 +30,7 @@ class Google_Service_Bigquery_JobConfigurationLoad extends \GoogleApi\Google_Col
   public $maxBadRecords;
   public $projectionFields;
   public $quote;
-  protected $schemaType = 'Google_Service_Bigquery_TableSchema';
+  protected $schemaType = '\GoogleApiServices\Google_Service_Bigquery_TableSchema';
   protected $schemaDataType = '';
   public $schemaInline;
   public $schemaInlineFormat;

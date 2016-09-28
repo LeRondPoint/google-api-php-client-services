@@ -17,7 +17,7 @@
 
 class Google_Service_Partners_LogMessageResponse extends \GoogleApi\Google_Model
 {
-  protected $responseMetadataType = 'Google_Service_Partners_ResponseMetadata';
+  protected $responseMetadataType = '\GoogleApiServices\Google_Service_Partners_ResponseMetadata';
   protected $responseMetadataDataType = '';
 
   public function setResponseMetadata(Google_Service_Partners_ResponseMetadata $responseMetadata)

@@ -20,7 +20,7 @@ class Google_Service_PlusDomains_ActivityFeed extends \GoogleApi\Google_Collecti
   protected $collection_key = 'items';
   public $etag;
   public $id;
-  protected $itemsType = 'Google_Service_PlusDomains_Activity';
+  protected $itemsType = '\GoogleApiServices\Google_Service_PlusDomains_Activity';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextLink;

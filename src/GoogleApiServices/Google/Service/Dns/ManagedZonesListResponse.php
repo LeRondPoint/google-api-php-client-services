@@ -19,7 +19,7 @@ class Google_Service_Dns_ManagedZonesListResponse extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'managedZones';
   public $kind;
-  protected $managedZonesType = 'Google_Service_Dns_ManagedZone';
+  protected $managedZonesType = '\GoogleApiServices\Google_Service_Dns_ManagedZone';
   protected $managedZonesDataType = 'array';
   public $nextPageToken;
 

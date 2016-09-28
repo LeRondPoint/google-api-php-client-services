@@ -17,10 +17,10 @@
 
 class Google_Service_ShoppingContent_AccountshippingCustomBatchResponseEntry extends \GoogleApi\Google_Model
 {
-  protected $accountShippingType = 'Google_Service_ShoppingContent_AccountShipping';
+  protected $accountShippingType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShipping';
   protected $accountShippingDataType = '';
   public $batchId;
-  protected $errorsType = 'Google_Service_ShoppingContent_Errors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_Errors';
   protected $errorsDataType = '';
   public $kind;
 

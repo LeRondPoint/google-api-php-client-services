@@ -18,7 +18,7 @@
 class Google_Service_ServiceControl_MetricValue extends \GoogleApi\Google_Model
 {
   public $boolValue;
-  protected $distributionValueType = 'Google_Service_ServiceControl_Distribution';
+  protected $distributionValueType = '\GoogleApiServices\Google_Service_ServiceControl_Distribution';
   protected $distributionValueDataType = '';
   public $doubleValue;
   public $endTime;

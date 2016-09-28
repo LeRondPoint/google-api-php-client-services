@@ -19,7 +19,7 @@ class Google_Service_AdExchangeSeller_Accounts extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdExchangeSeller_Account';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeSeller_Account';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,7 +18,7 @@
 class Google_Service_Datastore_CompositeFilter extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filters';
-  protected $filtersType = 'Google_Service_Datastore_Filter';
+  protected $filtersType = '\GoogleApiServices\Google_Service_Datastore_Filter';
   protected $filtersDataType = 'array';
   public $op;
 

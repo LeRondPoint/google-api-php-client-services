@@ -18,11 +18,11 @@
 class Google_Service_Sheets_ConditionalFormatRule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'ranges';
-  protected $booleanRuleType = 'Google_Service_Sheets_BooleanRule';
+  protected $booleanRuleType = '\GoogleApiServices\Google_Service_Sheets_BooleanRule';
   protected $booleanRuleDataType = '';
-  protected $gradientRuleType = 'Google_Service_Sheets_GradientRule';
+  protected $gradientRuleType = '\GoogleApiServices\Google_Service_Sheets_GradientRule';
   protected $gradientRuleDataType = '';
-  protected $rangesType = 'Google_Service_Sheets_GridRange';
+  protected $rangesType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangesDataType = 'array';
 
   public function setBooleanRule(Google_Service_Sheets_BooleanRule $booleanRule)

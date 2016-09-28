@@ -19,9 +19,9 @@ class Google_Service_Compute_BackendService extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'healthChecks';
   public $affinityCookieTtlSec;
-  protected $backendsType = 'Google_Service_Compute_Backend';
+  protected $backendsType = '\GoogleApiServices\Google_Service_Compute_Backend';
   protected $backendsDataType = 'array';
-  protected $connectionDrainingType = 'Google_Service_Compute_ConnectionDraining';
+  protected $connectionDrainingType = '\GoogleApiServices\Google_Service_Compute_ConnectionDraining';
   protected $connectionDrainingDataType = '';
   public $creationTimestamp;
   public $description;

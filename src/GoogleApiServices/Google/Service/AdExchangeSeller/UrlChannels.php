@@ -19,7 +19,7 @@ class Google_Service_AdExchangeSeller_UrlChannels extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdExchangeSeller_UrlChannel';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeSeller_UrlChannel';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

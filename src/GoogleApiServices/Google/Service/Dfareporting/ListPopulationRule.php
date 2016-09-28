@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_ListPopulationRule extends \GoogleApi\Google_C
   protected $collection_key = 'listPopulationClauses';
   public $floodlightActivityId;
   public $floodlightActivityName;
-  protected $listPopulationClausesType = 'Google_Service_Dfareporting_ListPopulationClause';
+  protected $listPopulationClausesType = '\GoogleApiServices\Google_Service_Dfareporting_ListPopulationClause';
   protected $listPopulationClausesDataType = 'array';
 
   public function setFloodlightActivityId($floodlightActivityId)

@@ -18,7 +18,7 @@
 class Google_Service_AnalyticsReporting_OrFiltersForSegment extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'segmentFilterClauses';
-  protected $segmentFilterClausesType = 'Google_Service_AnalyticsReporting_SegmentFilterClause';
+  protected $segmentFilterClausesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SegmentFilterClause';
   protected $segmentFilterClausesDataType = 'array';
 
   public function setSegmentFilterClauses($segmentFilterClauses)

@@ -17,15 +17,15 @@
 
 class Google_Service_Urlshortener_AnalyticsSummary extends \GoogleApi\Google_Model
 {
-  protected $allTimeType = 'Google_Service_Urlshortener_AnalyticsSnapshot';
+  protected $allTimeType = '\GoogleApiServices\Google_Service_Urlshortener_AnalyticsSnapshot';
   protected $allTimeDataType = '';
-  protected $dayType = 'Google_Service_Urlshortener_AnalyticsSnapshot';
+  protected $dayType = '\GoogleApiServices\Google_Service_Urlshortener_AnalyticsSnapshot';
   protected $dayDataType = '';
-  protected $monthType = 'Google_Service_Urlshortener_AnalyticsSnapshot';
+  protected $monthType = '\GoogleApiServices\Google_Service_Urlshortener_AnalyticsSnapshot';
   protected $monthDataType = '';
-  protected $twoHoursType = 'Google_Service_Urlshortener_AnalyticsSnapshot';
+  protected $twoHoursType = '\GoogleApiServices\Google_Service_Urlshortener_AnalyticsSnapshot';
   protected $twoHoursDataType = '';
-  protected $weekType = 'Google_Service_Urlshortener_AnalyticsSnapshot';
+  protected $weekType = '\GoogleApiServices\Google_Service_Urlshortener_AnalyticsSnapshot';
   protected $weekDataType = '';
 
   public function setAllTime(Google_Service_Urlshortener_AnalyticsSnapshot $allTime)

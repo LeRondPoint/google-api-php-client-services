@@ -17,7 +17,7 @@
 
 class Google_Service_CloudNaturalLanguageAPI_Sentence extends \GoogleApi\Google_Model
 {
-  protected $textType = 'Google_Service_CloudNaturalLanguageAPI_TextSpan';
+  protected $textType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_TextSpan';
   protected $textDataType = '';
 
   public function setText(Google_Service_CloudNaturalLanguageAPI_TextSpan $text)

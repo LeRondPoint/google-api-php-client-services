@@ -18,9 +18,9 @@
 class Google_Service_AdExchangeBuyer_SharedTargeting extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'inclusions';
-  protected $exclusionsType = 'Google_Service_AdExchangeBuyer_TargetingValue';
+  protected $exclusionsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_TargetingValue';
   protected $exclusionsDataType = 'array';
-  protected $inclusionsType = 'Google_Service_AdExchangeBuyer_TargetingValue';
+  protected $inclusionsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_TargetingValue';
   protected $inclusionsDataType = 'array';
   public $key;
 

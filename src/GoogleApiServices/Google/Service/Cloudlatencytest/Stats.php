@@ -18,11 +18,11 @@
 class Google_Service_Cloudlatencytest_Stats extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'stringValues';
-  protected $doubleValuesType = 'Google_Service_Cloudlatencytest_DoubleValue';
+  protected $doubleValuesType = '\GoogleApiServices\Google_Service_Cloudlatencytest_DoubleValue';
   protected $doubleValuesDataType = 'array';
-  protected $intValuesType = 'Google_Service_Cloudlatencytest_IntValue';
+  protected $intValuesType = '\GoogleApiServices\Google_Service_Cloudlatencytest_IntValue';
   protected $intValuesDataType = 'array';
-  protected $stringValuesType = 'Google_Service_Cloudlatencytest_StringValue';
+  protected $stringValuesType = '\GoogleApiServices\Google_Service_Cloudlatencytest_StringValue';
   protected $stringValuesDataType = 'array';
   public $time;
 

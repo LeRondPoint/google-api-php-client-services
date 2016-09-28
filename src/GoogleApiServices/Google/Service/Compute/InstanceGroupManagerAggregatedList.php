@@ -18,7 +18,7 @@
 class Google_Service_Compute_InstanceGroupManagerAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_InstanceGroupManagersScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_InstanceGroupManagersScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

@@ -19,7 +19,7 @@ class Google_Service_Compute_MachineType extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'scratchDisks';
   public $creationTimestamp;
-  protected $deprecatedType = 'Google_Service_Compute_DeprecationStatus';
+  protected $deprecatedType = '\GoogleApiServices\Google_Service_Compute_DeprecationStatus';
   protected $deprecatedDataType = '';
   public $description;
   public $guestCpus;
@@ -31,7 +31,7 @@ class Google_Service_Compute_MachineType extends \GoogleApi\Google_Collection
   public $maximumPersistentDisksSizeGb;
   public $memoryMb;
   public $name;
-  protected $scratchDisksType = 'Google_Service_Compute_MachineTypeScratchDisks';
+  protected $scratchDisksType = '\GoogleApiServices\Google_Service_Compute_MachineTypeScratchDisks';
   protected $scratchDisksDataType = 'array';
   public $selfLink;
   public $zone;

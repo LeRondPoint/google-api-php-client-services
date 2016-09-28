@@ -18,7 +18,7 @@
 class Google_Service_Classroom_ListCoursesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'courses';
-  protected $coursesType = 'Google_Service_Classroom_Course';
+  protected $coursesType = '\GoogleApiServices\Google_Service_Classroom_Course';
   protected $coursesDataType = 'array';
   public $nextPageToken;
 

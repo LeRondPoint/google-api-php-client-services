@@ -19,7 +19,7 @@ class Google_Service_Calendar_FreeBusyGroup extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
   public $calendars;
-  protected $errorsType = 'Google_Service_Calendar_Error';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Calendar_Error';
   protected $errorsDataType = 'array';
 
   public function setCalendars($calendars)

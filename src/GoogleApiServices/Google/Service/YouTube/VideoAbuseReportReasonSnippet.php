@@ -19,7 +19,7 @@ class Google_Service_YouTube_VideoAbuseReportReasonSnippet extends \GoogleApi\Go
 {
   protected $collection_key = 'secondaryReasons';
   public $label;
-  protected $secondaryReasonsType = 'Google_Service_YouTube_VideoAbuseReportSecondaryReason';
+  protected $secondaryReasonsType = '\GoogleApiServices\Google_Service_YouTube_VideoAbuseReportSecondaryReason';
   protected $secondaryReasonsDataType = 'array';
 
   public function setLabel($label)

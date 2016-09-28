@@ -20,9 +20,9 @@ class Google_Service_Bigquery_JobConfigurationQuery extends \GoogleApi\Google_Co
   protected $collection_key = 'userDefinedFunctionResources';
   public $allowLargeResults;
   public $createDisposition;
-  protected $defaultDatasetType = 'Google_Service_Bigquery_DatasetReference';
+  protected $defaultDatasetType = '\GoogleApiServices\Google_Service_Bigquery_DatasetReference';
   protected $defaultDatasetDataType = '';
-  protected $destinationTableType = 'Google_Service_Bigquery_TableReference';
+  protected $destinationTableType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $destinationTableDataType = '';
   public $flattenResults;
   public $maximumBillingTier;
@@ -31,14 +31,14 @@ class Google_Service_Bigquery_JobConfigurationQuery extends \GoogleApi\Google_Co
   public $preserveNulls;
   public $priority;
   public $query;
-  protected $queryParametersType = 'Google_Service_Bigquery_QueryParameter';
+  protected $queryParametersType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameter';
   protected $queryParametersDataType = 'array';
   public $schemaUpdateOptions;
-  protected $tableDefinitionsType = 'Google_Service_Bigquery_ExternalDataConfiguration';
+  protected $tableDefinitionsType = '\GoogleApiServices\Google_Service_Bigquery_ExternalDataConfiguration';
   protected $tableDefinitionsDataType = 'map';
   public $useLegacySql;
   public $useQueryCache;
-  protected $userDefinedFunctionResourcesType = 'Google_Service_Bigquery_UserDefinedFunctionResource';
+  protected $userDefinedFunctionResourcesType = '\GoogleApiServices\Google_Service_Bigquery_UserDefinedFunctionResource';
   protected $userDefinedFunctionResourcesDataType = 'array';
   public $writeDisposition;
 

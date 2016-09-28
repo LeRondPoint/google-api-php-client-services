@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_ListJobMessagesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'jobMessages';
-  protected $jobMessagesType = 'Google_Service_Dataflow_JobMessage';
+  protected $jobMessagesType = '\GoogleApiServices\Google_Service_Dataflow_JobMessage';
   protected $jobMessagesDataType = 'array';
   public $nextPageToken;
 

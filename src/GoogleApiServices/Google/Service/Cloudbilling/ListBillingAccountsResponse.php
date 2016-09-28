@@ -18,7 +18,7 @@
 class Google_Service_Cloudbilling_ListBillingAccountsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'billingAccounts';
-  protected $billingAccountsType = 'Google_Service_Cloudbilling_BillingAccount';
+  protected $billingAccountsType = '\GoogleApiServices\Google_Service_Cloudbilling_BillingAccount';
   protected $billingAccountsDataType = 'array';
   public $nextPageToken;
 

@@ -18,9 +18,9 @@
 class Google_Service_Calendar_FreeBusyCalendar extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $busyType = 'Google_Service_Calendar_TimePeriod';
+  protected $busyType = '\GoogleApiServices\Google_Service_Calendar_TimePeriod';
   protected $busyDataType = 'array';
-  protected $errorsType = 'Google_Service_Calendar_Error';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Calendar_Error';
   protected $errorsDataType = 'array';
 
   public function setBusy($busy)

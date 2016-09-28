@@ -17,10 +17,10 @@
 
 class Google_Service_CloudNaturalLanguageAPI_AnnotateTextRequest extends \GoogleApi\Google_Model
 {
-  protected $documentType = 'Google_Service_CloudNaturalLanguageAPI_Document';
+  protected $documentType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Document';
   protected $documentDataType = '';
   public $encodingType;
-  protected $featuresType = 'Google_Service_CloudNaturalLanguageAPI_Features';
+  protected $featuresType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Features';
   protected $featuresDataType = '';
 
   public function setDocument(Google_Service_CloudNaturalLanguageAPI_Document $document)

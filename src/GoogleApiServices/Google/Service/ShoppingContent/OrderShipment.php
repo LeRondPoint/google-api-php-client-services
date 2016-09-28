@@ -22,7 +22,7 @@ class Google_Service_ShoppingContent_OrderShipment extends \GoogleApi\Google_Col
   public $creationDate;
   public $deliveryDate;
   public $id;
-  protected $lineItemsType = 'Google_Service_ShoppingContent_OrderShipmentLineItemShipment';
+  protected $lineItemsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderShipmentLineItemShipment';
   protected $lineItemsDataType = 'array';
   public $status;
   public $trackingId;

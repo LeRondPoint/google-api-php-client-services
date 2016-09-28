@@ -22,7 +22,7 @@ class Google_Service_Dataflow_MetricUpdate extends \GoogleApi\Google_Model
   public $kind;
   public $meanCount;
   public $meanSum;
-  protected $nameType = 'Google_Service_Dataflow_MetricStructuredName';
+  protected $nameType = '\GoogleApiServices\Google_Service_Dataflow_MetricStructuredName';
   protected $nameDataType = '';
   public $scalar;
   public $set;

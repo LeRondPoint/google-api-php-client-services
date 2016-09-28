@@ -19,11 +19,11 @@ class Google_Service_Reports_UsageReport extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'parameters';
   public $date;
-  protected $entityType = 'Google_Service_Reports_UsageReportEntity';
+  protected $entityType = '\GoogleApiServices\Google_Service_Reports_UsageReportEntity';
   protected $entityDataType = '';
   public $etag;
   public $kind;
-  protected $parametersType = 'Google_Service_Reports_UsageReportParameters';
+  protected $parametersType = '\GoogleApiServices\Google_Service_Reports_UsageReportParameters';
   protected $parametersDataType = 'array';
 
   public function setDate($date)

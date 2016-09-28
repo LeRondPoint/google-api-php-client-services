@@ -18,14 +18,14 @@
 class Google_Service_Compute_Router extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'interfaces';
-  protected $bgpType = 'Google_Service_Compute_RouterBgp';
+  protected $bgpType = '\GoogleApiServices\Google_Service_Compute_RouterBgp';
   protected $bgpDataType = '';
-  protected $bgpPeersType = 'Google_Service_Compute_RouterBgpPeer';
+  protected $bgpPeersType = '\GoogleApiServices\Google_Service_Compute_RouterBgpPeer';
   protected $bgpPeersDataType = 'array';
   public $creationTimestamp;
   public $description;
   public $id;
-  protected $interfacesType = 'Google_Service_Compute_RouterInterface';
+  protected $interfacesType = '\GoogleApiServices\Google_Service_Compute_RouterInterface';
   protected $interfacesDataType = 'array';
   public $kind;
   public $name;

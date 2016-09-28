@@ -21,7 +21,7 @@ class Google_Service_Books_OffersItems extends \GoogleApi\Google_Collection
   public $artUrl;
   public $gservicesKey;
   public $id;
-  protected $itemsType = 'Google_Service_Books_OffersItemsItems';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Books_OffersItemsItems';
   protected $itemsDataType = 'array';
 
   public function setArtUrl($artUrl)

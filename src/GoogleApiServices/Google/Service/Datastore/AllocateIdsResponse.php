@@ -18,7 +18,7 @@
 class Google_Service_Datastore_AllocateIdsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'keys';
-  protected $keysType = 'Google_Service_Datastore_Key';
+  protected $keysType = '\GoogleApiServices\Google_Service_Datastore_Key';
   protected $keysDataType = 'array';
 
   public function setKeys($keys)

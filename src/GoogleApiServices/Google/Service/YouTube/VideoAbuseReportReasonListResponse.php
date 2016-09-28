@@ -20,7 +20,7 @@ class Google_Service_YouTube_VideoAbuseReportReasonListResponse extends \GoogleA
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_VideoAbuseReportReason';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_VideoAbuseReportReason';
   protected $itemsDataType = 'array';
   public $kind;
   public $visitorId;

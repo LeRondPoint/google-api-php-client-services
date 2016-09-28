@@ -18,7 +18,7 @@
 class Google_Service_People_EmailAddress extends \GoogleApi\Google_Model
 {
   public $formattedType;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $type;
   public $value;

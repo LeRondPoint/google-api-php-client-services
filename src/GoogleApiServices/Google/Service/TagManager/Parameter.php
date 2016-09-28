@@ -19,9 +19,9 @@ class Google_Service_TagManager_Parameter extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'map';
   public $key;
-  protected $listType = 'Google_Service_TagManager_Parameter';
+  protected $listType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $listDataType = 'array';
-  protected $mapType = 'Google_Service_TagManager_Parameter';
+  protected $mapType = '\GoogleApiServices\Google_Service_TagManager_Parameter';
   protected $mapDataType = 'array';
   public $type;
   public $value;

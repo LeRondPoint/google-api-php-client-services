@@ -18,9 +18,9 @@
 class Google_Service_Compute_InstanceGroupManagersScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instanceGroupManagers';
-  protected $instanceGroupManagersType = 'Google_Service_Compute_InstanceGroupManager';
+  protected $instanceGroupManagersType = '\GoogleApiServices\Google_Service_Compute_InstanceGroupManager';
   protected $instanceGroupManagersDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_InstanceGroupManagersScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_InstanceGroupManagersScopedListWarning';
   protected $warningDataType = '';
 
   public function setInstanceGroupManagers($instanceGroupManagers)

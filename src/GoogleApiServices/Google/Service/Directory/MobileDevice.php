@@ -19,7 +19,7 @@ class Google_Service_Directory_MobileDevice extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'otherAccountsInfo';
   public $adbStatus;
-  protected $applicationsType = 'Google_Service_Directory_MobileDeviceApplications';
+  protected $applicationsType = '\GoogleApiServices\Google_Service_Directory_MobileDeviceApplications';
   protected $applicationsDataType = 'array';
   public $basebandVersion;
   public $buildNumber;

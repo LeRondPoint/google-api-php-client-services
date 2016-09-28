@@ -17,9 +17,9 @@
 
 class Google_Service_PlusDomains_Activity extends \GoogleApi\Google_Model
 {
-  protected $accessType = 'Google_Service_PlusDomains_Acl';
+  protected $accessType = '\GoogleApiServices\Google_Service_PlusDomains_Acl';
   protected $accessDataType = '';
-  protected $actorType = 'Google_Service_PlusDomains_ActivityActor';
+  protected $actorType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityActor';
   protected $actorDataType = '';
   public $address;
   public $annotation;
@@ -28,13 +28,13 @@ class Google_Service_PlusDomains_Activity extends \GoogleApi\Google_Model
   public $geocode;
   public $id;
   public $kind;
-  protected $locationType = 'Google_Service_PlusDomains_Place';
+  protected $locationType = '\GoogleApiServices\Google_Service_PlusDomains_Place';
   protected $locationDataType = '';
-  protected $objectType = 'Google_Service_PlusDomains_ActivityObject';
+  protected $objectType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityObject';
   protected $objectDataType = '';
   public $placeId;
   public $placeName;
-  protected $providerType = 'Google_Service_PlusDomains_ActivityProvider';
+  protected $providerType = '\GoogleApiServices\Google_Service_PlusDomains_ActivityProvider';
   protected $providerDataType = '';
   public $published;
   public $radius;

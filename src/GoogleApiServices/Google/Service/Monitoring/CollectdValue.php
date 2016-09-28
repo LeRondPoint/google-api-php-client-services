@@ -19,7 +19,7 @@ class Google_Service_Monitoring_CollectdValue extends \GoogleApi\Google_Model
 {
   public $dataSourceName;
   public $dataSourceType;
-  protected $valueType = 'Google_Service_Monitoring_TypedValue';
+  protected $valueType = '\GoogleApiServices\Google_Service_Monitoring_TypedValue';
   protected $valueDataType = '';
 
   public function setDataSourceName($dataSourceName)

@@ -19,9 +19,9 @@ class Google_Service_ServiceManagement_AuthenticationRule extends \GoogleApi\Goo
 {
   protected $collection_key = 'requirements';
   public $allowWithoutCredential;
-  protected $oauthType = 'Google_Service_ServiceManagement_OAuthRequirements';
+  protected $oauthType = '\GoogleApiServices\Google_Service_ServiceManagement_OAuthRequirements';
   protected $oauthDataType = '';
-  protected $requirementsType = 'Google_Service_ServiceManagement_AuthRequirement';
+  protected $requirementsType = '\GoogleApiServices\Google_Service_ServiceManagement_AuthRequirement';
   protected $requirementsDataType = 'array';
   public $selector;
 

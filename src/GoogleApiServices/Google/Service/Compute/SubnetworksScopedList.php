@@ -18,9 +18,9 @@
 class Google_Service_Compute_SubnetworksScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'subnetworks';
-  protected $subnetworksType = 'Google_Service_Compute_Subnetwork';
+  protected $subnetworksType = '\GoogleApiServices\Google_Service_Compute_Subnetwork';
   protected $subnetworksDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_SubnetworksScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_SubnetworksScopedListWarning';
   protected $warningDataType = '';
 
   public function setSubnetworks($subnetworks)

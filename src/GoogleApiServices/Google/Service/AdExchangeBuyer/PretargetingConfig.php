@@ -22,11 +22,11 @@ class Google_Service_AdExchangeBuyer_PretargetingConfig extends \GoogleApi\Googl
   public $configId;
   public $configName;
   public $creativeType;
-  protected $dimensionsType = 'Google_Service_AdExchangeBuyer_PretargetingConfigDimensions';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PretargetingConfigDimensions';
   protected $dimensionsDataType = 'array';
   public $excludedContentLabels;
   public $excludedGeoCriteriaIds;
-  protected $excludedPlacementsType = 'Google_Service_AdExchangeBuyer_PretargetingConfigExcludedPlacements';
+  protected $excludedPlacementsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PretargetingConfigExcludedPlacements';
   protected $excludedPlacementsDataType = 'array';
   public $excludedUserLists;
   public $excludedVerticals;
@@ -37,14 +37,14 @@ class Google_Service_AdExchangeBuyer_PretargetingConfig extends \GoogleApi\Googl
   public $mobileCarriers;
   public $mobileDevices;
   public $mobileOperatingSystemVersions;
-  protected $placementsType = 'Google_Service_AdExchangeBuyer_PretargetingConfigPlacements';
+  protected $placementsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PretargetingConfigPlacements';
   protected $placementsDataType = 'array';
   public $platforms;
   public $supportedCreativeAttributes;
   public $userLists;
   public $vendorTypes;
   public $verticals;
-  protected $videoPlayerSizesType = 'Google_Service_AdExchangeBuyer_PretargetingConfigVideoPlayerSizes';
+  protected $videoPlayerSizesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PretargetingConfigVideoPlayerSizes';
   protected $videoPlayerSizesDataType = 'array';
 
   public function setBillingId($billingId)

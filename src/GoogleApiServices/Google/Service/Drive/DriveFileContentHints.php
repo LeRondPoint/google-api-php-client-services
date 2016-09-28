@@ -18,7 +18,7 @@
 class Google_Service_Drive_DriveFileContentHints extends \GoogleApi\Google_Model
 {
   public $indexableText;
-  protected $thumbnailType = 'Google_Service_Drive_DriveFileContentHintsThumbnail';
+  protected $thumbnailType = '\GoogleApiServices\Google_Service_Drive_DriveFileContentHintsThumbnail';
   protected $thumbnailDataType = '';
 
   public function setIndexableText($indexableText)

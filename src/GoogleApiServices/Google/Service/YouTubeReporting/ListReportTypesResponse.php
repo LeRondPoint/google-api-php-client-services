@@ -19,7 +19,7 @@ class Google_Service_YouTubeReporting_ListReportTypesResponse extends \GoogleApi
 {
   protected $collection_key = 'reportTypes';
   public $nextPageToken;
-  protected $reportTypesType = 'Google_Service_YouTubeReporting_ReportType';
+  protected $reportTypesType = '\GoogleApiServices\Google_Service_YouTubeReporting_ReportType';
   protected $reportTypesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

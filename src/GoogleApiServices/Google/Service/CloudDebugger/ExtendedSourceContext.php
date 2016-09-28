@@ -17,7 +17,7 @@
 
 class Google_Service_CloudDebugger_ExtendedSourceContext extends \GoogleApi\Google_Model
 {
-  protected $contextType = 'Google_Service_CloudDebugger_SourceContext';
+  protected $contextType = '\GoogleApiServices\Google_Service_CloudDebugger_SourceContext';
   protected $contextDataType = '';
   public $labels;
 

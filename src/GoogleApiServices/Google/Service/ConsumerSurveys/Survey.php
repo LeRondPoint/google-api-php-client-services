@@ -18,14 +18,14 @@
 class Google_Service_ConsumerSurveys_Survey extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'questions';
-  protected $audienceType = 'Google_Service_ConsumerSurveys_SurveyAudience';
+  protected $audienceType = '\GoogleApiServices\Google_Service_ConsumerSurveys_SurveyAudience';
   protected $audienceDataType = '';
-  protected $costType = 'Google_Service_ConsumerSurveys_SurveyCost';
+  protected $costType = '\GoogleApiServices\Google_Service_ConsumerSurveys_SurveyCost';
   protected $costDataType = '';
   public $customerData;
   public $description;
   public $owners;
-  protected $questionsType = 'Google_Service_ConsumerSurveys_SurveyQuestion';
+  protected $questionsType = '\GoogleApiServices\Google_Service_ConsumerSurveys_SurveyQuestion';
   protected $questionsDataType = 'array';
   public $state;
   public $surveyUrlId;

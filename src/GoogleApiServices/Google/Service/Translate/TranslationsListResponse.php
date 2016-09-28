@@ -18,7 +18,7 @@
 class Google_Service_Translate_TranslationsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'translations';
-  protected $translationsType = 'Google_Service_Translate_TranslationsResource';
+  protected $translationsType = '\GoogleApiServices\Google_Service_Translate_TranslationsResource';
   protected $translationsDataType = 'array';
 
   public function setTranslations($translations)

@@ -17,18 +17,18 @@
 
 class Google_Service_YouTube_Playlist extends \GoogleApi\Google_Model
 {
-  protected $contentDetailsType = 'Google_Service_YouTube_PlaylistContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_PlaylistContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $localizationsType = 'Google_Service_YouTube_PlaylistLocalization';
+  protected $localizationsType = '\GoogleApiServices\Google_Service_YouTube_PlaylistLocalization';
   protected $localizationsDataType = 'map';
-  protected $playerType = 'Google_Service_YouTube_PlaylistPlayer';
+  protected $playerType = '\GoogleApiServices\Google_Service_YouTube_PlaylistPlayer';
   protected $playerDataType = '';
-  protected $snippetType = 'Google_Service_YouTube_PlaylistSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_PlaylistSnippet';
   protected $snippetDataType = '';
-  protected $statusType = 'Google_Service_YouTube_PlaylistStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_YouTube_PlaylistStatus';
   protected $statusDataType = '';
 
   public function setContentDetails(Google_Service_YouTube_PlaylistContentDetails $contentDetails)

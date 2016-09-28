@@ -18,7 +18,7 @@
 class Google_Service_ServiceControl_ReportResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'reportErrors';
-  protected $reportErrorsType = 'Google_Service_ServiceControl_ReportError';
+  protected $reportErrorsType = '\GoogleApiServices\Google_Service_ServiceControl_ReportError';
   protected $reportErrorsDataType = 'array';
   public $serviceConfigId;
 

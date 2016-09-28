@@ -20,12 +20,12 @@ class Google_Service_Manager_Deployment extends \GoogleApi\Google_Collection
   protected $collection_key = 'overrides';
   public $creationDate;
   public $description;
-  protected $modulesType = 'Google_Service_Manager_ModuleStatus';
+  protected $modulesType = '\GoogleApiServices\Google_Service_Manager_ModuleStatus';
   protected $modulesDataType = 'map';
   public $name;
-  protected $overridesType = 'Google_Service_Manager_ParamOverride';
+  protected $overridesType = '\GoogleApiServices\Google_Service_Manager_ParamOverride';
   protected $overridesDataType = 'array';
-  protected $stateType = 'Google_Service_Manager_DeployState';
+  protected $stateType = '\GoogleApiServices\Google_Service_Manager_DeployState';
   protected $stateDataType = '';
   public $templateName;
 

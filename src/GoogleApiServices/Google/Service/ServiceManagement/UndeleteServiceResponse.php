@@ -17,7 +17,7 @@
 
 class Google_Service_ServiceManagement_UndeleteServiceResponse extends \GoogleApi\Google_Model
 {
-  protected $serviceType = 'Google_Service_ServiceManagement_ManagedService';
+  protected $serviceType = '\GoogleApiServices\Google_Service_ServiceManagement_ManagedService';
   protected $serviceDataType = '';
 
   public function setService(Google_Service_ServiceManagement_ManagedService $service)

@@ -20,7 +20,7 @@ class Google_Service_Dns_ResourceRecordSetsListResponse extends \GoogleApi\Googl
   protected $collection_key = 'rrsets';
   public $kind;
   public $nextPageToken;
-  protected $rrsetsType = 'Google_Service_Dns_ResourceRecordSet';
+  protected $rrsetsType = '\GoogleApiServices\Google_Service_Dns_ResourceRecordSet';
   protected $rrsetsDataType = 'array';
 
   public function setKind($kind)

@@ -18,7 +18,7 @@
 class Google_Service_People_Residence extends \GoogleApi\Google_Model
 {
   public $current;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $value;
 

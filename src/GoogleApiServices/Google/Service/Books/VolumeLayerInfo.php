@@ -18,7 +18,7 @@
 class Google_Service_Books_VolumeLayerInfo extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'layers';
-  protected $layersType = 'Google_Service_Books_VolumeLayerInfoLayers';
+  protected $layersType = '\GoogleApiServices\Google_Service_Books_VolumeLayerInfoLayers';
   protected $layersDataType = 'array';
 
   public function setLayers($layers)

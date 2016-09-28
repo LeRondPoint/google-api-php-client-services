@@ -17,9 +17,9 @@
 
 class Google_Service_Datastore_Entity extends \GoogleApi\Google_Model
 {
-  protected $keyType = 'Google_Service_Datastore_Key';
+  protected $keyType = '\GoogleApiServices\Google_Service_Datastore_Key';
   protected $keyDataType = '';
-  protected $propertiesType = 'Google_Service_Datastore_Value';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Datastore_Value';
   protected $propertiesDataType = 'map';
 
   public function setKey(Google_Service_Datastore_Key $key)

@@ -18,7 +18,7 @@
 class Google_Service_Pagespeedonline_PagespeedApiFormatStringV2 extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'args';
-  protected $argsType = 'Google_Service_Pagespeedonline_PagespeedApiFormatStringV2Args';
+  protected $argsType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiFormatStringV2Args';
   protected $argsDataType = 'array';
   public $format;
 

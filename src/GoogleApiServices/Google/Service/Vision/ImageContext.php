@@ -19,7 +19,7 @@ class Google_Service_Vision_ImageContext extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'languageHints';
   public $languageHints;
-  protected $latLongRectType = 'Google_Service_Vision_LatLongRect';
+  protected $latLongRectType = '\GoogleApiServices\Google_Service_Vision_LatLongRect';
   protected $latLongRectDataType = '';
 
   public function setLanguageHints($languageHints)

@@ -18,7 +18,7 @@
 class Google_Service_ConsumerSurveys_ResultsMask extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'fields';
-  protected $fieldsType = 'Google_Service_ConsumerSurveys_FieldMask';
+  protected $fieldsType = '\GoogleApiServices\Google_Service_ConsumerSurveys_FieldMask';
   protected $fieldsDataType = 'array';
   public $projection;
 

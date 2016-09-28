@@ -18,7 +18,7 @@
 class Google_Service_Mirror_AttachmentsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Mirror_Attachment';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Mirror_Attachment';
   protected $itemsDataType = 'array';
   public $kind;
 

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_PublisherProvidedForecast extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dimensions';
-  protected $dimensionsType = 'Google_Service_AdExchangeBuyer_Dimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Dimension';
   protected $dimensionsDataType = 'array';
   public $weeklyImpressions;
   public $weeklyUniques;

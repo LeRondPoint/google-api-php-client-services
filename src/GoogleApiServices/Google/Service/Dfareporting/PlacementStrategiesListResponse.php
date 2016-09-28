@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_PlacementStrategiesListResponse extends \Googl
   protected $collection_key = 'placementStrategies';
   public $kind;
   public $nextPageToken;
-  protected $placementStrategiesType = 'Google_Service_Dfareporting_PlacementStrategy';
+  protected $placementStrategiesType = '\GoogleApiServices\Google_Service_Dfareporting_PlacementStrategy';
   protected $placementStrategiesDataType = 'array';
 
   public function setKind($kind)

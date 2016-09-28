@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_Value extends \GoogleApi\Google_Model
 {
   public $carrierRateName;
-  protected $flatRateType = 'Google_Service_ShoppingContent_Price';
+  protected $flatRateType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $flatRateDataType = '';
   public $noShipping;
   public $pricePercentage;

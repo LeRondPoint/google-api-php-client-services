@@ -17,7 +17,7 @@
 
 class Google_Service_SQLAdmin_InstancesRestoreBackupRequest extends \GoogleApi\Google_Model
 {
-  protected $restoreBackupContextType = 'Google_Service_SQLAdmin_RestoreBackupContext';
+  protected $restoreBackupContextType = '\GoogleApiServices\Google_Service_SQLAdmin_RestoreBackupContext';
   protected $restoreBackupContextDataType = '';
 
   public function setRestoreBackupContext(Google_Service_SQLAdmin_RestoreBackupContext $restoreBackupContext)

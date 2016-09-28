@@ -18,7 +18,7 @@
 class Google_Service_Webmasters_SitesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'siteEntry';
-  protected $siteEntryType = 'Google_Service_Webmasters_WmxSite';
+  protected $siteEntryType = '\GoogleApiServices\Google_Service_Webmasters_WmxSite';
   protected $siteEntryDataType = 'array';
 
   public function setSiteEntry($siteEntry)

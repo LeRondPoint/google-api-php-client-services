@@ -21,7 +21,7 @@ class Google_Service_Freebase_ReconcileCandidate extends \GoogleApi\Google_Model
   public $lang;
   public $mid;
   public $name;
-  protected $notableType = 'Google_Service_Freebase_ReconcileCandidateNotable';
+  protected $notableType = '\GoogleApiServices\Google_Service_Freebase_ReconcileCandidateNotable';
   protected $notableDataType = '';
 
   public function setConfidence($confidence)

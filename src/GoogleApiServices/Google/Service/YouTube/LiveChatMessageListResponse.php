@@ -20,15 +20,15 @@ class Google_Service_YouTube_LiveChatMessageListResponse extends \GoogleApi\Goog
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_LiveChatMessage';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_LiveChatMessage';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;
   public $offlineAt;
-  protected $pageInfoType = 'Google_Service_YouTube_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_YouTube_PageInfo';
   protected $pageInfoDataType = '';
   public $pollingIntervalMillis;
-  protected $tokenPaginationType = 'Google_Service_YouTube_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_YouTube_TokenPagination';
   protected $tokenPaginationDataType = '';
   public $visitorId;
 

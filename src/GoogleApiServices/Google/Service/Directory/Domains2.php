@@ -18,7 +18,7 @@
 class Google_Service_Directory_Domains2 extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'domains';
-  protected $domainsType = 'Google_Service_Directory_Domains';
+  protected $domainsType = '\GoogleApiServices\Google_Service_Directory_Domains';
   protected $domainsDataType = 'array';
   public $etag;
   public $kind;

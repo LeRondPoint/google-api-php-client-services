@@ -19,14 +19,14 @@ class Google_Service_Sheets_ProtectedRange extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'unprotectedRanges';
   public $description;
-  protected $editorsType = 'Google_Service_Sheets_Editors';
+  protected $editorsType = '\GoogleApiServices\Google_Service_Sheets_Editors';
   protected $editorsDataType = '';
   public $namedRangeId;
   public $protectedRangeId;
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
   public $requestingUserCanEdit;
-  protected $unprotectedRangesType = 'Google_Service_Sheets_GridRange';
+  protected $unprotectedRangesType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $unprotectedRangesDataType = 'array';
   public $warningOnly;
 

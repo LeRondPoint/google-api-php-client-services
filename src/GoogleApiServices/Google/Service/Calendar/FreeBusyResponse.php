@@ -17,9 +17,9 @@
 
 class Google_Service_Calendar_FreeBusyResponse extends \GoogleApi\Google_Model
 {
-  protected $calendarsType = 'Google_Service_Calendar_FreeBusyCalendar';
+  protected $calendarsType = '\GoogleApiServices\Google_Service_Calendar_FreeBusyCalendar';
   protected $calendarsDataType = 'map';
-  protected $groupsType = 'Google_Service_Calendar_FreeBusyGroup';
+  protected $groupsType = '\GoogleApiServices\Google_Service_Calendar_FreeBusyGroup';
   protected $groupsDataType = 'map';
   public $kind;
   public $timeMax;

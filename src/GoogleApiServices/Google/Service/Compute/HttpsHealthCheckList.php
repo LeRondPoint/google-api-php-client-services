@@ -19,7 +19,7 @@ class Google_Service_Compute_HttpsHealthCheckList extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_HttpsHealthCheck';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_HttpsHealthCheck';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

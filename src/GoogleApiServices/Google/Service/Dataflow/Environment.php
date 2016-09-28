@@ -26,7 +26,7 @@ class Google_Service_Dataflow_Environment extends \GoogleApi\Google_Collection
   public $tempStoragePrefix;
   public $userAgent;
   public $version;
-  protected $workerPoolsType = 'Google_Service_Dataflow_WorkerPool';
+  protected $workerPoolsType = '\GoogleApiServices\Google_Service_Dataflow_WorkerPool';
   protected $workerPoolsDataType = 'array';
 
   public function setClusterManagerApiService($clusterManagerApiService)

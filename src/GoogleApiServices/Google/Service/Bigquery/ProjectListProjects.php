@@ -21,7 +21,7 @@ class Google_Service_Bigquery_ProjectListProjects extends \GoogleApi\Google_Mode
   public $id;
   public $kind;
   public $numericId;
-  protected $projectReferenceType = 'Google_Service_Bigquery_ProjectReference';
+  protected $projectReferenceType = '\GoogleApiServices\Google_Service_Bigquery_ProjectReference';
   protected $projectReferenceDataType = '';
 
   public function setFriendlyName($friendlyName)

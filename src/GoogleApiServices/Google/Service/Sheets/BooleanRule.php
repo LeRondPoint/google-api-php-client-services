@@ -17,9 +17,9 @@
 
 class Google_Service_Sheets_BooleanRule extends \GoogleApi\Google_Model
 {
-  protected $conditionType = 'Google_Service_Sheets_BooleanCondition';
+  protected $conditionType = '\GoogleApiServices\Google_Service_Sheets_BooleanCondition';
   protected $conditionDataType = '';
-  protected $formatType = 'Google_Service_Sheets_CellFormat';
+  protected $formatType = '\GoogleApiServices\Google_Service_Sheets_CellFormat';
   protected $formatDataType = '';
 
   public function setCondition(Google_Service_Sheets_BooleanCondition $condition)

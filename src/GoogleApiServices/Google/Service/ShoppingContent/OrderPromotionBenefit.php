@@ -18,11 +18,11 @@
 class Google_Service_ShoppingContent_OrderPromotionBenefit extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'offerIds';
-  protected $discountType = 'Google_Service_ShoppingContent_Price';
+  protected $discountType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $discountDataType = '';
   public $offerIds;
   public $subType;
-  protected $taxImpactType = 'Google_Service_ShoppingContent_Price';
+  protected $taxImpactType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $taxImpactDataType = '';
   public $type;
 

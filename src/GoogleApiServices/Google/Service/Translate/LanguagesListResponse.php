@@ -18,7 +18,7 @@
 class Google_Service_Translate_LanguagesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'languages';
-  protected $languagesType = 'Google_Service_Translate_LanguagesResource';
+  protected $languagesType = '\GoogleApiServices\Google_Service_Translate_LanguagesResource';
   protected $languagesDataType = 'array';
 
   public function setLanguages($languages)

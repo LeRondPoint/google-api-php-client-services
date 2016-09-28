@@ -26,7 +26,7 @@ class Google_Service_Bigquery_ExplainQueryStage extends \GoogleApi\Google_Collec
   public $readRatioMax;
   public $recordsRead;
   public $recordsWritten;
-  protected $stepsType = 'Google_Service_Bigquery_ExplainQueryStep';
+  protected $stepsType = '\GoogleApiServices\Google_Service_Bigquery_ExplainQueryStep';
   protected $stepsDataType = 'array';
   public $waitRatioAvg;
   public $waitRatioMax;

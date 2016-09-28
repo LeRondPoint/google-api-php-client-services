@@ -19,7 +19,7 @@ class Google_Service_AdExchangeSeller_Report extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'warnings';
   public $averages;
-  protected $headersType = 'Google_Service_AdExchangeSeller_ReportHeaders';
+  protected $headersType = '\GoogleApiServices\Google_Service_AdExchangeSeller_ReportHeaders';
   protected $headersDataType = 'array';
   public $kind;
   public $rows;

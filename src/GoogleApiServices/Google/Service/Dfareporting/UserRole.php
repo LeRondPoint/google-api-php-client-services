@@ -24,7 +24,7 @@ class Google_Service_Dfareporting_UserRole extends \GoogleApi\Google_Collection
   public $kind;
   public $name;
   public $parentUserRoleId;
-  protected $permissionsType = 'Google_Service_Dfareporting_UserRolePermission';
+  protected $permissionsType = '\GoogleApiServices\Google_Service_Dfareporting_UserRolePermission';
   protected $permissionsDataType = 'array';
   public $subaccountId;
 

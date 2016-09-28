@@ -19,9 +19,9 @@ class Google_Service_Games_EventPeriodUpdate extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'updates';
   public $kind;
-  protected $timePeriodType = 'Google_Service_Games_EventPeriodRange';
+  protected $timePeriodType = '\GoogleApiServices\Google_Service_Games_EventPeriodRange';
   protected $timePeriodDataType = '';
-  protected $updatesType = 'Google_Service_Games_EventUpdateRequest';
+  protected $updatesType = '\GoogleApiServices\Google_Service_Games_EventUpdateRequest';
   protected $updatesDataType = 'array';
 
   public function setKind($kind)

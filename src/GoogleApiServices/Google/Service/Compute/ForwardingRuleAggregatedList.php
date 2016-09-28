@@ -18,7 +18,7 @@
 class Google_Service_Compute_ForwardingRuleAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_ForwardingRulesScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_ForwardingRulesScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

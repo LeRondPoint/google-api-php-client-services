@@ -20,7 +20,7 @@ class Google_Service_Safebrowsing_ThreatMatch extends \GoogleApi\Google_Model
   public $cacheDuration;
   public $platformType;
   protected $threatDataType = '';
-  protected $threatEntryMetadataType = 'Google_Service_Safebrowsing_ThreatEntryMetadata';
+  protected $threatEntryMetadataType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatEntryMetadata';
   protected $threatEntryMetadataDataType = '';
   public $threatEntryType;
   public $threatType;

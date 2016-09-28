@@ -18,22 +18,22 @@
 class Google_Service_Partners_Company extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'services';
-  protected $certificationStatusesType = 'Google_Service_Partners_CertificationStatus';
+  protected $certificationStatusesType = '\GoogleApiServices\Google_Service_Partners_CertificationStatus';
   protected $certificationStatusesDataType = 'array';
-  protected $convertedMinMonthlyBudgetType = 'Google_Service_Partners_Money';
+  protected $convertedMinMonthlyBudgetType = '\GoogleApiServices\Google_Service_Partners_Money';
   protected $convertedMinMonthlyBudgetDataType = '';
   public $id;
   public $industries;
-  protected $localizedInfosType = 'Google_Service_Partners_LocalizedCompanyInfo';
+  protected $localizedInfosType = '\GoogleApiServices\Google_Service_Partners_LocalizedCompanyInfo';
   protected $localizedInfosDataType = 'array';
-  protected $locationsType = 'Google_Service_Partners_Location';
+  protected $locationsType = '\GoogleApiServices\Google_Service_Partners_Location';
   protected $locationsDataType = 'array';
   public $name;
-  protected $originalMinMonthlyBudgetType = 'Google_Service_Partners_Money';
+  protected $originalMinMonthlyBudgetType = '\GoogleApiServices\Google_Service_Partners_Money';
   protected $originalMinMonthlyBudgetDataType = '';
-  protected $publicProfileType = 'Google_Service_Partners_PublicProfile';
+  protected $publicProfileType = '\GoogleApiServices\Google_Service_Partners_PublicProfile';
   protected $publicProfileDataType = '';
-  protected $ranksType = 'Google_Service_Partners_Rank';
+  protected $ranksType = '\GoogleApiServices\Google_Service_Partners_Rank';
   protected $ranksDataType = 'array';
   public $services;
   public $websiteUrl;

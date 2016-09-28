@@ -19,7 +19,7 @@ class Google_Service_Storage_ComposeRequestSourceObjects extends \GoogleApi\Goog
 {
   public $generation;
   public $name;
-  protected $objectPreconditionsType = 'Google_Service_Storage_ComposeRequestSourceObjectsObjectPreconditions';
+  protected $objectPreconditionsType = '\GoogleApiServices\Google_Service_Storage_ComposeRequestSourceObjectsObjectPreconditions';
   protected $objectPreconditionsDataType = '';
 
   public function setGeneration($generation)

@@ -19,7 +19,7 @@ class Google_Service_ToolResults_ListStepsResponse extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'steps';
   public $nextPageToken;
-  protected $stepsType = 'Google_Service_ToolResults_Step';
+  protected $stepsType = '\GoogleApiServices\Google_Service_ToolResults_Step';
   protected $stepsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

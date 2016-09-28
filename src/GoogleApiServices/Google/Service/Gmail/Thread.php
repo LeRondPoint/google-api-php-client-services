@@ -20,7 +20,7 @@ class Google_Service_Gmail_Thread extends \GoogleApi\Google_Collection
   protected $collection_key = 'messages';
   public $historyId;
   public $id;
-  protected $messagesType = 'Google_Service_Gmail_Message';
+  protected $messagesType = '\GoogleApiServices\Google_Service_Gmail_Message';
   protected $messagesDataType = 'array';
   public $snippet;
 

@@ -17,19 +17,19 @@
 
 class Google_Service_Manager_ModuleStatus extends \GoogleApi\Google_Model
 {
-  protected $autoscalingModuleStatusType = 'Google_Service_Manager_AutoscalingModuleStatus';
+  protected $autoscalingModuleStatusType = '\GoogleApiServices\Google_Service_Manager_AutoscalingModuleStatus';
   protected $autoscalingModuleStatusDataType = '';
-  protected $firewallModuleStatusType = 'Google_Service_Manager_FirewallModuleStatus';
+  protected $firewallModuleStatusType = '\GoogleApiServices\Google_Service_Manager_FirewallModuleStatus';
   protected $firewallModuleStatusDataType = '';
-  protected $healthCheckModuleStatusType = 'Google_Service_Manager_HealthCheckModuleStatus';
+  protected $healthCheckModuleStatusType = '\GoogleApiServices\Google_Service_Manager_HealthCheckModuleStatus';
   protected $healthCheckModuleStatusDataType = '';
-  protected $lbModuleStatusType = 'Google_Service_Manager_LbModuleStatus';
+  protected $lbModuleStatusType = '\GoogleApiServices\Google_Service_Manager_LbModuleStatus';
   protected $lbModuleStatusDataType = '';
-  protected $networkModuleStatusType = 'Google_Service_Manager_NetworkModuleStatus';
+  protected $networkModuleStatusType = '\GoogleApiServices\Google_Service_Manager_NetworkModuleStatus';
   protected $networkModuleStatusDataType = '';
-  protected $replicaPoolModuleStatusType = 'Google_Service_Manager_ReplicaPoolModuleStatus';
+  protected $replicaPoolModuleStatusType = '\GoogleApiServices\Google_Service_Manager_ReplicaPoolModuleStatus';
   protected $replicaPoolModuleStatusDataType = '';
-  protected $stateType = 'Google_Service_Manager_DeployState';
+  protected $stateType = '\GoogleApiServices\Google_Service_Manager_DeployState';
   protected $stateDataType = '';
   public $type;
 

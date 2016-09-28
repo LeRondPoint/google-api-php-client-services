@@ -18,7 +18,7 @@
 class Google_Service_Genomics_SearchAnnotationsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'annotations';
-  protected $annotationsType = 'Google_Service_Genomics_Annotation';
+  protected $annotationsType = '\GoogleApiServices\Google_Service_Genomics_Annotation';
   protected $annotationsDataType = 'array';
   public $nextPageToken;
 

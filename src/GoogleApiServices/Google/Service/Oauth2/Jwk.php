@@ -18,7 +18,7 @@
 class Google_Service_Oauth2_Jwk extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'keys';
-  protected $keysType = 'Google_Service_Oauth2_JwkKeys';
+  protected $keysType = '\GoogleApiServices\Google_Service_Oauth2_JwkKeys';
   protected $keysDataType = 'array';
 
   public function setKeys($keys)

@@ -17,7 +17,7 @@
 
 class Google_Service_Vision_ImageProperties extends \GoogleApi\Google_Model
 {
-  protected $dominantColorsType = 'Google_Service_Vision_DominantColorsAnnotation';
+  protected $dominantColorsType = '\GoogleApiServices\Google_Service_Vision_DominantColorsAnnotation';
   protected $dominantColorsDataType = '';
 
   public function setDominantColors(Google_Service_Vision_DominantColorsAnnotation $dominantColors)

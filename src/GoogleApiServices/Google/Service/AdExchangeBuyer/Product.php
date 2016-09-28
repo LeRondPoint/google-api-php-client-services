@@ -19,16 +19,16 @@ class Google_Service_AdExchangeBuyer_Product extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'sharedTargetings';
   public $creationTimeMs;
-  protected $creatorContactsType = 'Google_Service_AdExchangeBuyer_ContactInformation';
+  protected $creatorContactsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_ContactInformation';
   protected $creatorContactsDataType = 'array';
-  protected $deliveryControlType = 'Google_Service_AdExchangeBuyer_DeliveryControl';
+  protected $deliveryControlType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DeliveryControl';
   protected $deliveryControlDataType = '';
   public $flightEndTimeMs;
   public $flightStartTimeMs;
   public $hasCreatorSignedOff;
   public $inventorySource;
   public $kind;
-  protected $labelsType = 'Google_Service_AdExchangeBuyer_MarketplaceLabel';
+  protected $labelsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_MarketplaceLabel';
   protected $labelsDataType = 'array';
   public $lastUpdateTimeMs;
   public $legacyOfferId;
@@ -36,16 +36,16 @@ class Google_Service_AdExchangeBuyer_Product extends \GoogleApi\Google_Collectio
   public $privateAuctionId;
   public $productId;
   public $publisherProfileId;
-  protected $publisherProvidedForecastType = 'Google_Service_AdExchangeBuyer_PublisherProvidedForecast';
+  protected $publisherProvidedForecastType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PublisherProvidedForecast';
   protected $publisherProvidedForecastDataType = '';
   public $revisionNumber;
-  protected $sellerType = 'Google_Service_AdExchangeBuyer_Seller';
+  protected $sellerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Seller';
   protected $sellerDataType = '';
-  protected $sharedTargetingsType = 'Google_Service_AdExchangeBuyer_SharedTargeting';
+  protected $sharedTargetingsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_SharedTargeting';
   protected $sharedTargetingsDataType = 'array';
   public $state;
   public $syndicationProduct;
-  protected $termsType = 'Google_Service_AdExchangeBuyer_DealTerms';
+  protected $termsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTerms';
   protected $termsDataType = '';
   public $webPropertyCode;
 

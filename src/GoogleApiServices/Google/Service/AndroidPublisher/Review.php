@@ -19,7 +19,7 @@ class Google_Service_AndroidPublisher_Review extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'comments';
   public $authorName;
-  protected $commentsType = 'Google_Service_AndroidPublisher_Comment';
+  protected $commentsType = '\GoogleApiServices\Google_Service_AndroidPublisher_Comment';
   protected $commentsDataType = 'array';
   public $reviewId;
 

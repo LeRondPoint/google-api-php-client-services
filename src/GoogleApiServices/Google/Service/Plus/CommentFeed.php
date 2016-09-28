@@ -20,7 +20,7 @@ class Google_Service_Plus_CommentFeed extends \GoogleApi\Google_Collection
   protected $collection_key = 'items';
   public $etag;
   public $id;
-  protected $itemsType = 'Google_Service_Plus_Comment';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Plus_Comment';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextLink;

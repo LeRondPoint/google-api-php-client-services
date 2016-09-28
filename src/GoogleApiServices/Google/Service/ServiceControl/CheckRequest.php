@@ -17,7 +17,7 @@
 
 class Google_Service_ServiceControl_CheckRequest extends \GoogleApi\Google_Model
 {
-  protected $operationType = 'Google_Service_ServiceControl_Operation';
+  protected $operationType = '\GoogleApiServices\Google_Service_ServiceControl_Operation';
   protected $operationDataType = '';
 
   public function setOperation(Google_Service_ServiceControl_Operation $operation)

@@ -19,11 +19,11 @@ class Google_Service_Bigquery_JobStatistics extends \GoogleApi\Google_Model
 {
   public $creationTime;
   public $endTime;
-  protected $extractType = 'Google_Service_Bigquery_JobStatistics4';
+  protected $extractType = '\GoogleApiServices\Google_Service_Bigquery_JobStatistics4';
   protected $extractDataType = '';
-  protected $loadType = 'Google_Service_Bigquery_JobStatistics3';
+  protected $loadType = '\GoogleApiServices\Google_Service_Bigquery_JobStatistics3';
   protected $loadDataType = '';
-  protected $queryType = 'Google_Service_Bigquery_JobStatistics2';
+  protected $queryType = '\GoogleApiServices\Google_Service_Bigquery_JobStatistics2';
   protected $queryDataType = '';
   public $startTime;
   public $totalBytesProcessed;

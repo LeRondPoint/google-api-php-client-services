@@ -19,7 +19,7 @@ class Google_Service_People_ImClient extends \GoogleApi\Google_Model
 {
   public $formattedProtocol;
   public $formattedType;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $protocol;
   public $type;

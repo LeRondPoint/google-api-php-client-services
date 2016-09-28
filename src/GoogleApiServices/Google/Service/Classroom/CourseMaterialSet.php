@@ -18,7 +18,7 @@
 class Google_Service_Classroom_CourseMaterialSet extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'materials';
-  protected $materialsType = 'Google_Service_Classroom_CourseMaterial';
+  protected $materialsType = '\GoogleApiServices\Google_Service_Classroom_CourseMaterial';
   protected $materialsDataType = 'array';
   public $title;
 

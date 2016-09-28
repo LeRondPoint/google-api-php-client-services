@@ -39,7 +39,7 @@ class Google_Service_Directory_User extends \GoogleApi\Google_Collection
   public $isMailboxSetup;
   public $kind;
   public $lastLoginTime;
-  protected $nameType = 'Google_Service_Directory_UserName';
+  protected $nameType = '\GoogleApiServices\Google_Service_Directory_UserName';
   protected $nameDataType = '';
   public $nonEditableAliases;
   public $notes;

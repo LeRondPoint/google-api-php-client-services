@@ -18,9 +18,9 @@
 class Google_Service_Compute_OperationsScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'operations';
-  protected $operationsType = 'Google_Service_Compute_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_Compute_Operation';
   protected $operationsDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_OperationsScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_OperationsScopedListWarning';
   protected $warningDataType = '';
 
   public function setOperations($operations)

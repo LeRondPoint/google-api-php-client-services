@@ -22,7 +22,7 @@ class Google_Service_Dataproc_HiveJob extends \GoogleApi\Google_Collection
   public $jarFileUris;
   public $properties;
   public $queryFileUri;
-  protected $queryListType = 'Google_Service_Dataproc_QueryList';
+  protected $queryListType = '\GoogleApiServices\Google_Service_Dataproc_QueryList';
   protected $queryListDataType = '';
   public $scriptVariables;
 

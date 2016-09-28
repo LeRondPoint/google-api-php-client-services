@@ -18,9 +18,9 @@
 class Google_Service_Compute_RoutersScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'routers';
-  protected $routersType = 'Google_Service_Compute_Router';
+  protected $routersType = '\GoogleApiServices\Google_Service_Compute_Router';
   protected $routersDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_RoutersScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_RoutersScopedListWarning';
   protected $warningDataType = '';
 
   public function setRouters($routers)

@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_ShippingsettingsListResponse extends \Googl
   protected $collection_key = 'resources';
   public $kind;
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_ShoppingContent_ShippingSettings';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ShoppingContent_ShippingSettings';
   protected $resourcesDataType = 'array';
 
   public function setKind($kind)

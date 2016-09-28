@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_UpdatePrivateAuctionProposalRequest extends \GoogleApi\Google_Model
 {
   public $externalDealId;
-  protected $noteType = 'Google_Service_AdExchangeBuyer_MarketplaceNote';
+  protected $noteType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_MarketplaceNote';
   protected $noteDataType = '';
   public $proposalRevisionNumber;
   public $updateAction;

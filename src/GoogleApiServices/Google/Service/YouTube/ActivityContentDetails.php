@@ -17,27 +17,27 @@
 
 class Google_Service_YouTube_ActivityContentDetails extends \GoogleApi\Google_Model
 {
-  protected $bulletinType = 'Google_Service_YouTube_ActivityContentDetailsBulletin';
+  protected $bulletinType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsBulletin';
   protected $bulletinDataType = '';
-  protected $channelItemType = 'Google_Service_YouTube_ActivityContentDetailsChannelItem';
+  protected $channelItemType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsChannelItem';
   protected $channelItemDataType = '';
-  protected $commentType = 'Google_Service_YouTube_ActivityContentDetailsComment';
+  protected $commentType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsComment';
   protected $commentDataType = '';
-  protected $favoriteType = 'Google_Service_YouTube_ActivityContentDetailsFavorite';
+  protected $favoriteType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsFavorite';
   protected $favoriteDataType = '';
-  protected $likeType = 'Google_Service_YouTube_ActivityContentDetailsLike';
+  protected $likeType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsLike';
   protected $likeDataType = '';
-  protected $playlistItemType = 'Google_Service_YouTube_ActivityContentDetailsPlaylistItem';
+  protected $playlistItemType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsPlaylistItem';
   protected $playlistItemDataType = '';
-  protected $promotedItemType = 'Google_Service_YouTube_ActivityContentDetailsPromotedItem';
+  protected $promotedItemType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsPromotedItem';
   protected $promotedItemDataType = '';
-  protected $recommendationType = 'Google_Service_YouTube_ActivityContentDetailsRecommendation';
+  protected $recommendationType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsRecommendation';
   protected $recommendationDataType = '';
-  protected $socialType = 'Google_Service_YouTube_ActivityContentDetailsSocial';
+  protected $socialType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsSocial';
   protected $socialDataType = '';
-  protected $subscriptionType = 'Google_Service_YouTube_ActivityContentDetailsSubscription';
+  protected $subscriptionType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsSubscription';
   protected $subscriptionDataType = '';
-  protected $uploadType = 'Google_Service_YouTube_ActivityContentDetailsUpload';
+  protected $uploadType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetailsUpload';
   protected $uploadDataType = '';
 
   public function setBulletin(Google_Service_YouTube_ActivityContentDetailsBulletin $bulletin)

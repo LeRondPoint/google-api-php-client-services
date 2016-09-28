@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_DynamicTargetingKeysListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dynamicTargetingKeys';
-  protected $dynamicTargetingKeysType = 'Google_Service_Dfareporting_DynamicTargetingKey';
+  protected $dynamicTargetingKeysType = '\GoogleApiServices\Google_Service_Dfareporting_DynamicTargetingKey';
   protected $dynamicTargetingKeysDataType = 'array';
   public $kind;
 

@@ -19,7 +19,7 @@ class Google_Service_DeploymentManager_OperationsListResponse extends \GoogleApi
 {
   protected $collection_key = 'operations';
   public $nextPageToken;
-  protected $operationsType = 'Google_Service_DeploymentManager_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_DeploymentManager_Operation';
   protected $operationsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

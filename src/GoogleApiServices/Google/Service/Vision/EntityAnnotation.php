@@ -18,15 +18,15 @@
 class Google_Service_Vision_EntityAnnotation extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'properties';
-  protected $boundingPolyType = 'Google_Service_Vision_BoundingPoly';
+  protected $boundingPolyType = '\GoogleApiServices\Google_Service_Vision_BoundingPoly';
   protected $boundingPolyDataType = '';
   public $confidence;
   public $description;
   public $locale;
-  protected $locationsType = 'Google_Service_Vision_LocationInfo';
+  protected $locationsType = '\GoogleApiServices\Google_Service_Vision_LocationInfo';
   protected $locationsDataType = 'array';
   public $mid;
-  protected $propertiesType = 'Google_Service_Vision_Property';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Vision_Property';
   protected $propertiesDataType = 'array';
   public $score;
   public $topicality;

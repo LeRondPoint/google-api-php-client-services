@@ -19,21 +19,21 @@ class Google_Service_Classroom_CourseWork extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'materials';
   public $alternateLink;
-  protected $assignmentType = 'Google_Service_Classroom_Assignment';
+  protected $assignmentType = '\GoogleApiServices\Google_Service_Classroom_Assignment';
   protected $assignmentDataType = '';
   public $associatedWithDeveloper;
   public $courseId;
   public $creationTime;
   public $description;
-  protected $dueDateType = 'Google_Service_Classroom_Date';
+  protected $dueDateType = '\GoogleApiServices\Google_Service_Classroom_Date';
   protected $dueDateDataType = '';
-  protected $dueTimeType = 'Google_Service_Classroom_TimeOfDay';
+  protected $dueTimeType = '\GoogleApiServices\Google_Service_Classroom_TimeOfDay';
   protected $dueTimeDataType = '';
   public $id;
-  protected $materialsType = 'Google_Service_Classroom_Material';
+  protected $materialsType = '\GoogleApiServices\Google_Service_Classroom_Material';
   protected $materialsDataType = 'array';
   public $maxPoints;
-  protected $multipleChoiceQuestionType = 'Google_Service_Classroom_MultipleChoiceQuestion';
+  protected $multipleChoiceQuestionType = '\GoogleApiServices\Google_Service_Classroom_MultipleChoiceQuestion';
   protected $multipleChoiceQuestionDataType = '';
   public $state;
   public $submissionModificationMode;

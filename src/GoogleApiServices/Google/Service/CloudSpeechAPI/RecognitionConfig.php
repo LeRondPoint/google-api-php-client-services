@@ -22,7 +22,7 @@ class Google_Service_CloudSpeechAPI_RecognitionConfig extends \GoogleApi\Google_
   public $maxAlternatives;
   public $profanityFilter;
   public $sampleRate;
-  protected $speechContextType = 'Google_Service_CloudSpeechAPI_SpeechContext';
+  protected $speechContextType = '\GoogleApiServices\Google_Service_CloudSpeechAPI_SpeechContext';
   protected $speechContextDataType = '';
 
   public function setEncoding($encoding)

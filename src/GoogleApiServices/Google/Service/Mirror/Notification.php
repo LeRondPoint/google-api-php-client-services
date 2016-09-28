@@ -21,7 +21,7 @@ class Google_Service_Mirror_Notification extends \GoogleApi\Google_Collection
   public $collection;
   public $itemId;
   public $operation;
-  protected $userActionsType = 'Google_Service_Mirror_UserAction';
+  protected $userActionsType = '\GoogleApiServices\Google_Service_Mirror_UserAction';
   protected $userActionsDataType = 'array';
   public $userToken;
   public $verifyToken;

@@ -20,7 +20,7 @@ class Google_Service_AdSense_AdsenseReportsGenerateResponse extends \GoogleApi\G
   protected $collection_key = 'warnings';
   public $averages;
   public $endDate;
-  protected $headersType = 'Google_Service_AdSense_AdsenseReportsGenerateResponseHeaders';
+  protected $headersType = '\GoogleApiServices\Google_Service_AdSense_AdsenseReportsGenerateResponseHeaders';
   protected $headersDataType = 'array';
   public $kind;
   public $rows;

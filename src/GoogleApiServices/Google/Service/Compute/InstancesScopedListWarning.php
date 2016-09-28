@@ -19,7 +19,7 @@ class Google_Service_Compute_InstancesScopedListWarning extends \GoogleApi\Googl
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_InstancesScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_InstancesScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

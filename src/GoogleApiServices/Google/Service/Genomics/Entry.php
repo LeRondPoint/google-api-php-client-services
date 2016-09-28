@@ -17,9 +17,9 @@
 
 class Google_Service_Genomics_Entry extends \GoogleApi\Google_Model
 {
-  protected $annotationType = 'Google_Service_Genomics_Annotation';
+  protected $annotationType = '\GoogleApiServices\Google_Service_Genomics_Annotation';
   protected $annotationDataType = '';
-  protected $statusType = 'Google_Service_Genomics_Status';
+  protected $statusType = '\GoogleApiServices\Google_Service_Genomics_Status';
   protected $statusDataType = '';
 
   public function setAnnotation(Google_Service_Genomics_Annotation $annotation)

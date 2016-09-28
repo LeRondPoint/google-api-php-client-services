@@ -17,16 +17,16 @@
 
 class Google_Service_Logging_LogEntry extends \GoogleApi\Google_Model
 {
-  protected $httpRequestType = 'Google_Service_Logging_HttpRequest';
+  protected $httpRequestType = '\GoogleApiServices\Google_Service_Logging_HttpRequest';
   protected $httpRequestDataType = '';
   public $insertId;
   public $jsonPayload;
   public $labels;
   public $logName;
-  protected $operationType = 'Google_Service_Logging_LogEntryOperation';
+  protected $operationType = '\GoogleApiServices\Google_Service_Logging_LogEntryOperation';
   protected $operationDataType = '';
   public $protoPayload;
-  protected $resourceType = 'Google_Service_Logging_MonitoredResource';
+  protected $resourceType = '\GoogleApiServices\Google_Service_Logging_MonitoredResource';
   protected $resourceDataType = '';
   public $severity;
   public $textPayload;

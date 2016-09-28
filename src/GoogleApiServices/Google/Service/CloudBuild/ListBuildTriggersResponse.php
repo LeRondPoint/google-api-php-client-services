@@ -18,7 +18,7 @@
 class Google_Service_CloudBuild_ListBuildTriggersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'triggers';
-  protected $triggersType = 'Google_Service_CloudBuild_BuildTrigger';
+  protected $triggersType = '\GoogleApiServices\Google_Service_CloudBuild_BuildTrigger';
   protected $triggersDataType = 'array';
 
   public function setTriggers($triggers)

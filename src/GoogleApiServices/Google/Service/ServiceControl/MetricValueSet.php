@@ -19,7 +19,7 @@ class Google_Service_ServiceControl_MetricValueSet extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'metricValues';
   public $metricName;
-  protected $metricValuesType = 'Google_Service_ServiceControl_MetricValue';
+  protected $metricValuesType = '\GoogleApiServices\Google_Service_ServiceControl_MetricValue';
   protected $metricValuesDataType = 'array';
 
   public function setMetricName($metricName)

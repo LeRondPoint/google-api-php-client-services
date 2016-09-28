@@ -25,7 +25,7 @@ class Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyUploadAccountReq
   public $saltSeparator;
   public $sanityCheck;
   public $signerKey;
-  protected $usersType = 'Google_Service_IdentityToolkit_UserInfo';
+  protected $usersType = '\GoogleApiServices\Google_Service_IdentityToolkit_UserInfo';
   protected $usersDataType = 'array';
 
   public function setDelegatedProjectNumber($delegatedProjectNumber)

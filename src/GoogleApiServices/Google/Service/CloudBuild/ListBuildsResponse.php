@@ -18,7 +18,7 @@
 class Google_Service_CloudBuild_ListBuildsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'builds';
-  protected $buildsType = 'Google_Service_CloudBuild_Build';
+  protected $buildsType = '\GoogleApiServices\Google_Service_CloudBuild_Build';
   protected $buildsDataType = 'array';
   public $nextPageToken;
 

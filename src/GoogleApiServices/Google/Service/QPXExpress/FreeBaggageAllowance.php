@@ -18,7 +18,7 @@
 class Google_Service_QPXExpress_FreeBaggageAllowance extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'bagDescriptor';
-  protected $bagDescriptorType = 'Google_Service_QPXExpress_BagDescriptor';
+  protected $bagDescriptorType = '\GoogleApiServices\Google_Service_QPXExpress_BagDescriptor';
   protected $bagDescriptorDataType = 'array';
   public $kilos;
   public $kilosPerPiece;

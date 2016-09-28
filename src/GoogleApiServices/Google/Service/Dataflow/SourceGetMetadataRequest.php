@@ -17,7 +17,7 @@
 
 class Google_Service_Dataflow_SourceGetMetadataRequest extends \GoogleApi\Google_Model
 {
-  protected $sourceType = 'Google_Service_Dataflow_Source';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Dataflow_Source';
   protected $sourceDataType = '';
 
   public function setSource(Google_Service_Dataflow_Source $source)

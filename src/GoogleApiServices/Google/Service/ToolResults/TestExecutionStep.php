@@ -18,13 +18,13 @@
 class Google_Service_ToolResults_TestExecutionStep extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'testSuiteOverviews';
-  protected $testIssuesType = 'Google_Service_ToolResults_TestIssue';
+  protected $testIssuesType = '\GoogleApiServices\Google_Service_ToolResults_TestIssue';
   protected $testIssuesDataType = 'array';
-  protected $testSuiteOverviewsType = 'Google_Service_ToolResults_TestSuiteOverview';
+  protected $testSuiteOverviewsType = '\GoogleApiServices\Google_Service_ToolResults_TestSuiteOverview';
   protected $testSuiteOverviewsDataType = 'array';
-  protected $testTimingType = 'Google_Service_ToolResults_TestTiming';
+  protected $testTimingType = '\GoogleApiServices\Google_Service_ToolResults_TestTiming';
   protected $testTimingDataType = '';
-  protected $toolExecutionType = 'Google_Service_ToolResults_ToolExecution';
+  protected $toolExecutionType = '\GoogleApiServices\Google_Service_ToolResults_ToolExecution';
   protected $toolExecutionDataType = '';
 
   public function setTestIssues($testIssues)

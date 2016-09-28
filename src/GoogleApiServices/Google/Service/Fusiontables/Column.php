@@ -18,7 +18,7 @@
 class Google_Service_Fusiontables_Column extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'validValues';
-  protected $baseColumnType = 'Google_Service_Fusiontables_ColumnBaseColumn';
+  protected $baseColumnType = '\GoogleApiServices\Google_Service_Fusiontables_ColumnBaseColumn';
   protected $baseColumnDataType = '';
   public $columnId;
   public $columnJsonSchema;

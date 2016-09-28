@@ -20,18 +20,18 @@ class Google_Service_Compute_InstanceProperties extends \GoogleApi\Google_Collec
   protected $collection_key = 'serviceAccounts';
   public $canIpForward;
   public $description;
-  protected $disksType = 'Google_Service_Compute_AttachedDisk';
+  protected $disksType = '\GoogleApiServices\Google_Service_Compute_AttachedDisk';
   protected $disksDataType = 'array';
   public $machineType;
-  protected $metadataType = 'Google_Service_Compute_Metadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_Compute_Metadata';
   protected $metadataDataType = '';
-  protected $networkInterfacesType = 'Google_Service_Compute_NetworkInterface';
+  protected $networkInterfacesType = '\GoogleApiServices\Google_Service_Compute_NetworkInterface';
   protected $networkInterfacesDataType = 'array';
-  protected $schedulingType = 'Google_Service_Compute_Scheduling';
+  protected $schedulingType = '\GoogleApiServices\Google_Service_Compute_Scheduling';
   protected $schedulingDataType = '';
-  protected $serviceAccountsType = 'Google_Service_Compute_ServiceAccount';
+  protected $serviceAccountsType = '\GoogleApiServices\Google_Service_Compute_ServiceAccount';
   protected $serviceAccountsDataType = 'array';
-  protected $tagsType = 'Google_Service_Compute_Tags';
+  protected $tagsType = '\GoogleApiServices\Google_Service_Compute_Tags';
   protected $tagsDataType = '';
 
   public function setCanIpForward($canIpForward)

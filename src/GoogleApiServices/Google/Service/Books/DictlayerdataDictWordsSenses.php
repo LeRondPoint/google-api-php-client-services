@@ -18,17 +18,17 @@
 class Google_Service_Books_DictlayerdataDictWordsSenses extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'synonyms';
-  protected $conjugationsType = 'Google_Service_Books_DictlayerdataDictWordsSensesConjugations';
+  protected $conjugationsType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSensesConjugations';
   protected $conjugationsDataType = 'array';
-  protected $definitionsType = 'Google_Service_Books_DictlayerdataDictWordsSensesDefinitions';
+  protected $definitionsType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSensesDefinitions';
   protected $definitionsDataType = 'array';
   public $partOfSpeech;
   public $pronunciation;
   public $pronunciationUrl;
-  protected $sourceType = 'Google_Service_Books_DictlayerdataDictWordsSensesSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSensesSource';
   protected $sourceDataType = '';
   public $syllabification;
-  protected $synonymsType = 'Google_Service_Books_DictlayerdataDictWordsSensesSynonyms';
+  protected $synonymsType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSensesSynonyms';
   protected $synonymsDataType = 'array';
 
   public function setConjugations($conjugations)

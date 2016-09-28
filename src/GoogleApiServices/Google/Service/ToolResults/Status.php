@@ -19,7 +19,7 @@ class Google_Service_ToolResults_Status extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'details';
   public $code;
-  protected $detailsType = 'Google_Service_ToolResults_Any';
+  protected $detailsType = '\GoogleApiServices\Google_Service_ToolResults_Any';
   protected $detailsDataType = 'array';
   public $message;
 

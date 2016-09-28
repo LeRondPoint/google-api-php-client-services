@@ -19,7 +19,7 @@ class Google_Service_Directory_Domains extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'domainAliases';
   public $creationTime;
-  protected $domainAliasesType = 'Google_Service_Directory_DomainAlias';
+  protected $domainAliasesType = '\GoogleApiServices\Google_Service_Directory_DomainAlias';
   protected $domainAliasesDataType = 'array';
   public $domainName;
   public $etag;

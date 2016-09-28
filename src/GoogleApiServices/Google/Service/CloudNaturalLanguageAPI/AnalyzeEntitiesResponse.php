@@ -18,7 +18,7 @@
 class Google_Service_CloudNaturalLanguageAPI_AnalyzeEntitiesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entities';
-  protected $entitiesType = 'Google_Service_CloudNaturalLanguageAPI_Entity';
+  protected $entitiesType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Entity';
   protected $entitiesDataType = 'array';
   public $language;
 

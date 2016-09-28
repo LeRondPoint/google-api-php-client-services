@@ -19,7 +19,7 @@ class Google_Service_Compute_InstanceGroupsListInstances extends \GoogleApi\Goog
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_InstanceWithNamedPorts';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_InstanceWithNamedPorts';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

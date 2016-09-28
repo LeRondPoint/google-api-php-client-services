@@ -18,11 +18,11 @@
 class Google_Service_Coordinate_LocationListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Coordinate_LocationRecord';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Coordinate_LocationRecord';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;
-  protected $tokenPaginationType = 'Google_Service_Coordinate_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_Coordinate_TokenPagination';
   protected $tokenPaginationDataType = '';
 
   public function setItems($items)

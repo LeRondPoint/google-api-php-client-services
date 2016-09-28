@@ -18,23 +18,23 @@
 class Google_Service_Blogger_Post extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'labels';
-  protected $authorType = 'Google_Service_Blogger_PostAuthor';
+  protected $authorType = '\GoogleApiServices\Google_Service_Blogger_PostAuthor';
   protected $authorDataType = '';
-  protected $blogType = 'Google_Service_Blogger_PostBlog';
+  protected $blogType = '\GoogleApiServices\Google_Service_Blogger_PostBlog';
   protected $blogDataType = '';
   public $content;
   public $customMetaData;
   public $etag;
   public $id;
-  protected $imagesType = 'Google_Service_Blogger_PostImages';
+  protected $imagesType = '\GoogleApiServices\Google_Service_Blogger_PostImages';
   protected $imagesDataType = 'array';
   public $kind;
   public $labels;
-  protected $locationType = 'Google_Service_Blogger_PostLocation';
+  protected $locationType = '\GoogleApiServices\Google_Service_Blogger_PostLocation';
   protected $locationDataType = '';
   public $published;
   public $readerComments;
-  protected $repliesType = 'Google_Service_Blogger_PostReplies';
+  protected $repliesType = '\GoogleApiServices\Google_Service_Blogger_PostReplies';
   protected $repliesDataType = '';
   public $selfLink;
   public $status;

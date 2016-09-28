@@ -17,14 +17,14 @@
 
 class Google_Service_Sheets_SheetProperties extends \GoogleApi\Google_Model
 {
-  protected $gridPropertiesType = 'Google_Service_Sheets_GridProperties';
+  protected $gridPropertiesType = '\GoogleApiServices\Google_Service_Sheets_GridProperties';
   protected $gridPropertiesDataType = '';
   public $hidden;
   public $index;
   public $rightToLeft;
   public $sheetId;
   public $sheetType;
-  protected $tabColorType = 'Google_Service_Sheets_Color';
+  protected $tabColorType = '\GoogleApiServices\Google_Service_Sheets_Color';
   protected $tabColorDataType = '';
   public $title;
 

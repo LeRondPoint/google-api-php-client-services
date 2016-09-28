@@ -22,9 +22,9 @@ class Google_Service_ServiceControl_Operation extends \GoogleApi\Google_Collecti
   public $endTime;
   public $importance;
   public $labels;
-  protected $logEntriesType = 'Google_Service_ServiceControl_LogEntry';
+  protected $logEntriesType = '\GoogleApiServices\Google_Service_ServiceControl_LogEntry';
   protected $logEntriesDataType = 'array';
-  protected $metricValueSetsType = 'Google_Service_ServiceControl_MetricValueSet';
+  protected $metricValueSetsType = '\GoogleApiServices\Google_Service_ServiceControl_MetricValueSet';
   protected $metricValueSetsDataType = 'array';
   public $operationId;
   public $operationName;

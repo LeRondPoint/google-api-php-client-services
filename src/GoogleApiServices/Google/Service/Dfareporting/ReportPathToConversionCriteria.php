@@ -18,22 +18,22 @@
 class Google_Service_Dfareporting_ReportPathToConversionCriteria extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'perInteractionDimensions';
-  protected $activityFiltersType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $activityFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $activityFiltersDataType = 'array';
-  protected $conversionDimensionsType = 'Google_Service_Dfareporting_SortedDimension';
+  protected $conversionDimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_SortedDimension';
   protected $conversionDimensionsDataType = 'array';
-  protected $customFloodlightVariablesType = 'Google_Service_Dfareporting_SortedDimension';
+  protected $customFloodlightVariablesType = '\GoogleApiServices\Google_Service_Dfareporting_SortedDimension';
   protected $customFloodlightVariablesDataType = 'array';
-  protected $customRichMediaEventsType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $customRichMediaEventsType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $customRichMediaEventsDataType = 'array';
-  protected $dateRangeType = 'Google_Service_Dfareporting_DateRange';
+  protected $dateRangeType = '\GoogleApiServices\Google_Service_Dfareporting_DateRange';
   protected $dateRangeDataType = '';
-  protected $floodlightConfigIdType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $floodlightConfigIdType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $floodlightConfigIdDataType = '';
   public $metricNames;
-  protected $perInteractionDimensionsType = 'Google_Service_Dfareporting_SortedDimension';
+  protected $perInteractionDimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_SortedDimension';
   protected $perInteractionDimensionsDataType = 'array';
-  protected $reportPropertiesType = 'Google_Service_Dfareporting_ReportPathToConversionCriteriaReportProperties';
+  protected $reportPropertiesType = '\GoogleApiServices\Google_Service_Dfareporting_ReportPathToConversionCriteriaReportProperties';
   protected $reportPropertiesDataType = '';
 
   public function setActivityFilters($activityFilters)

@@ -17,7 +17,7 @@
 
 class Google_Service_Partners_ResponseMetadata extends \GoogleApi\Google_Model
 {
-  protected $debugInfoType = 'Google_Service_Partners_DebugInfo';
+  protected $debugInfoType = '\GoogleApiServices\Google_Service_Partners_DebugInfo';
   protected $debugInfoDataType = '';
 
   public function setDebugInfo(Google_Service_Partners_DebugInfo $debugInfo)

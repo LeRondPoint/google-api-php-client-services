@@ -18,7 +18,7 @@
 class Google_Service_People_FieldMetadata extends \GoogleApi\Google_Model
 {
   public $primary;
-  protected $sourceType = 'Google_Service_People_Source';
+  protected $sourceType = '\GoogleApiServices\Google_Service_People_Source';
   protected $sourceDataType = '';
   public $verified;
 

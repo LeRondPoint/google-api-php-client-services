@@ -18,9 +18,9 @@
 class Google_Service_Dataflow_WorkerPool extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'packages';
-  protected $autoscalingSettingsType = 'Google_Service_Dataflow_AutoscalingSettings';
+  protected $autoscalingSettingsType = '\GoogleApiServices\Google_Service_Dataflow_AutoscalingSettings';
   protected $autoscalingSettingsDataType = '';
-  protected $dataDisksType = 'Google_Service_Dataflow_Disk';
+  protected $dataDisksType = '\GoogleApiServices\Google_Service_Dataflow_Disk';
   protected $dataDisksDataType = 'array';
   public $defaultPackageSet;
   public $diskSizeGb;
@@ -34,11 +34,11 @@ class Google_Service_Dataflow_WorkerPool extends \GoogleApi\Google_Collection
   public $numThreadsPerWorker;
   public $numWorkers;
   public $onHostMaintenance;
-  protected $packagesType = 'Google_Service_Dataflow_Package';
+  protected $packagesType = '\GoogleApiServices\Google_Service_Dataflow_Package';
   protected $packagesDataType = 'array';
   public $poolArgs;
   public $subnetwork;
-  protected $taskrunnerSettingsType = 'Google_Service_Dataflow_TaskRunnerSettings';
+  protected $taskrunnerSettingsType = '\GoogleApiServices\Google_Service_Dataflow_TaskRunnerSettings';
   protected $taskrunnerSettingsDataType = '';
   public $teardownPolicy;
   public $workerHarnessContainerImage;

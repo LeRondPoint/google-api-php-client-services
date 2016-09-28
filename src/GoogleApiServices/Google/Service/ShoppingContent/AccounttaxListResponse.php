@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_AccounttaxListResponse extends \GoogleApi\G
   protected $collection_key = 'resources';
   public $kind;
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_ShoppingContent_AccountTax';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountTax';
   protected $resourcesDataType = 'array';
 
   public function setKind($kind)

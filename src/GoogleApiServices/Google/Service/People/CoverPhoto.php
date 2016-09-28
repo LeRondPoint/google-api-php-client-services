@@ -18,7 +18,7 @@
 class Google_Service_People_CoverPhoto extends \GoogleApi\Google_Model
 {
   public $default;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $url;
 

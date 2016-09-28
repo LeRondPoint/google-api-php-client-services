@@ -18,15 +18,15 @@
 class Google_Service_Fitness_AggregateRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filteredDataQualityStandard';
-  protected $aggregateByType = 'Google_Service_Fitness_AggregateBy';
+  protected $aggregateByType = '\GoogleApiServices\Google_Service_Fitness_AggregateBy';
   protected $aggregateByDataType = 'array';
-  protected $bucketByActivitySegmentType = 'Google_Service_Fitness_BucketByActivity';
+  protected $bucketByActivitySegmentType = '\GoogleApiServices\Google_Service_Fitness_BucketByActivity';
   protected $bucketByActivitySegmentDataType = '';
-  protected $bucketByActivityTypeType = 'Google_Service_Fitness_BucketByActivity';
+  protected $bucketByActivityTypeType = '\GoogleApiServices\Google_Service_Fitness_BucketByActivity';
   protected $bucketByActivityTypeDataType = '';
-  protected $bucketBySessionType = 'Google_Service_Fitness_BucketBySession';
+  protected $bucketBySessionType = '\GoogleApiServices\Google_Service_Fitness_BucketBySession';
   protected $bucketBySessionDataType = '';
-  protected $bucketByTimeType = 'Google_Service_Fitness_BucketByTime';
+  protected $bucketByTimeType = '\GoogleApiServices\Google_Service_Fitness_BucketByTime';
   protected $bucketByTimeDataType = '';
   public $endTimeMillis;
   public $filteredDataQualityStandard;

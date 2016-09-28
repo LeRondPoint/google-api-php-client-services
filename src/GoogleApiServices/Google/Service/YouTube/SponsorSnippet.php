@@ -18,7 +18,7 @@
 class Google_Service_YouTube_SponsorSnippet extends \GoogleApi\Google_Model
 {
   public $channelId;
-  protected $sponsorDetailsType = 'Google_Service_YouTube_ChannelProfileDetails';
+  protected $sponsorDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelProfileDetails';
   protected $sponsorDetailsDataType = '';
   public $sponsorSince;
 

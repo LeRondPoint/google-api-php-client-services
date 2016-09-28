@@ -19,7 +19,7 @@ class Google_Service_GamesManagement_HiddenPlayer extends \GoogleApi\Google_Mode
 {
   public $hiddenTimeMillis;
   public $kind;
-  protected $playerType = 'Google_Service_GamesManagement_Player';
+  protected $playerType = '\GoogleApiServices\Google_Service_GamesManagement_Player';
   protected $playerDataType = '';
 
   public function setHiddenTimeMillis($hiddenTimeMillis)

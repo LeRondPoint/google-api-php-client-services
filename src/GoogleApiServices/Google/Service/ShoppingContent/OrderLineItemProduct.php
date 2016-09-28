@@ -28,12 +28,12 @@ class Google_Service_ShoppingContent_OrderLineItemProduct extends \GoogleApi\Goo
   public $itemGroupId;
   public $mpn;
   public $offerId;
-  protected $priceType = 'Google_Service_ShoppingContent_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $priceDataType = '';
   public $shownImage;
   public $targetCountry;
   public $title;
-  protected $variantAttributesType = 'Google_Service_ShoppingContent_OrderLineItemProductVariantAttribute';
+  protected $variantAttributesType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemProductVariantAttribute';
   protected $variantAttributesDataType = 'array';
 
   public function setBrand($brand)

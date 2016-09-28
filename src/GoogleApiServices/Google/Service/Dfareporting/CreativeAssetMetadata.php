@@ -18,13 +18,13 @@
 class Google_Service_Dfareporting_CreativeAssetMetadata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'warnedValidationRules';
-  protected $assetIdentifierType = 'Google_Service_Dfareporting_CreativeAssetId';
+  protected $assetIdentifierType = '\GoogleApiServices\Google_Service_Dfareporting_CreativeAssetId';
   protected $assetIdentifierDataType = '';
-  protected $clickTagsType = 'Google_Service_Dfareporting_ClickTag';
+  protected $clickTagsType = '\GoogleApiServices\Google_Service_Dfareporting_ClickTag';
   protected $clickTagsDataType = 'array';
   public $detectedFeatures;
   public $id;
-  protected $idDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $idDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $idDimensionValueDataType = '';
   public $kind;
   public $warnedValidationRules;

@@ -17,16 +17,16 @@
 
 class Google_Service_YouTube_LiveStream extends \GoogleApi\Google_Model
 {
-  protected $cdnType = 'Google_Service_YouTube_CdnSettings';
+  protected $cdnType = '\GoogleApiServices\Google_Service_YouTube_CdnSettings';
   protected $cdnDataType = '';
-  protected $contentDetailsType = 'Google_Service_YouTube_LiveStreamContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_LiveStreamContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_LiveStreamSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_LiveStreamSnippet';
   protected $snippetDataType = '';
-  protected $statusType = 'Google_Service_YouTube_LiveStreamStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_YouTube_LiveStreamStatus';
   protected $statusDataType = '';
 
   public function setCdn(Google_Service_YouTube_CdnSettings $cdn)

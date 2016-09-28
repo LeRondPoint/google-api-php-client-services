@@ -21,16 +21,16 @@ class Google_Service_GamesManagement_Player extends \GoogleApi\Google_Model
   public $bannerUrlLandscape;
   public $bannerUrlPortrait;
   public $displayName;
-  protected $experienceInfoType = 'Google_Service_GamesManagement_GamesPlayerExperienceInfoResource';
+  protected $experienceInfoType = '\GoogleApiServices\Google_Service_GamesManagement_GamesPlayerExperienceInfoResource';
   protected $experienceInfoDataType = '';
   public $kind;
-  protected $lastPlayedWithType = 'Google_Service_GamesManagement_GamesPlayedResource';
+  protected $lastPlayedWithType = '\GoogleApiServices\Google_Service_GamesManagement_GamesPlayedResource';
   protected $lastPlayedWithDataType = '';
-  protected $nameType = 'Google_Service_GamesManagement_PlayerName';
+  protected $nameType = '\GoogleApiServices\Google_Service_GamesManagement_PlayerName';
   protected $nameDataType = '';
   public $originalPlayerId;
   public $playerId;
-  protected $profileSettingsType = 'Google_Service_GamesManagement_ProfileSettings';
+  protected $profileSettingsType = '\GoogleApiServices\Google_Service_GamesManagement_ProfileSettings';
   protected $profileSettingsDataType = '';
   public $title;
 

@@ -18,7 +18,7 @@
 class Google_Service_Genomics_StreamReadsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'alignments';
-  protected $alignmentsType = 'Google_Service_Genomics_Read';
+  protected $alignmentsType = '\GoogleApiServices\Google_Service_Genomics_Read';
   protected $alignmentsDataType = 'array';
 
   public function setAlignments($alignments)

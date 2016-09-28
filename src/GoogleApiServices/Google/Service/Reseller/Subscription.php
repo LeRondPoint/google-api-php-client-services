@@ -24,21 +24,21 @@ class Google_Service_Reseller_Subscription extends \GoogleApi\Google_Collection
   public $customerId;
   public $dealCode;
   public $kind;
-  protected $planType = 'Google_Service_Reseller_SubscriptionPlan';
+  protected $planType = '\GoogleApiServices\Google_Service_Reseller_SubscriptionPlan';
   protected $planDataType = '';
   public $purchaseOrderId;
-  protected $renewalSettingsType = 'Google_Service_Reseller_RenewalSettings';
+  protected $renewalSettingsType = '\GoogleApiServices\Google_Service_Reseller_RenewalSettings';
   protected $renewalSettingsDataType = '';
   public $resourceUiUrl;
-  protected $seatsType = 'Google_Service_Reseller_Seats';
+  protected $seatsType = '\GoogleApiServices\Google_Service_Reseller_Seats';
   protected $seatsDataType = '';
   public $skuId;
   public $status;
   public $subscriptionId;
   public $suspensionReasons;
-  protected $transferInfoType = 'Google_Service_Reseller_SubscriptionTransferInfo';
+  protected $transferInfoType = '\GoogleApiServices\Google_Service_Reseller_SubscriptionTransferInfo';
   protected $transferInfoDataType = '';
-  protected $trialSettingsType = 'Google_Service_Reseller_SubscriptionTrialSettings';
+  protected $trialSettingsType = '\GoogleApiServices\Google_Service_Reseller_SubscriptionTrialSettings';
   protected $trialSettingsDataType = '';
 
   public function setBillingMethod($billingMethod)

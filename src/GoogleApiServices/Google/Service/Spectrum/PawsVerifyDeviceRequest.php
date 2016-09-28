@@ -18,7 +18,7 @@
 class Google_Service_Spectrum_PawsVerifyDeviceRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'deviceDescs';
-  protected $deviceDescsType = 'Google_Service_Spectrum_DeviceDescriptor';
+  protected $deviceDescsType = '\GoogleApiServices\Google_Service_Spectrum_DeviceDescriptor';
   protected $deviceDescsDataType = 'array';
   public $type;
   public $version;

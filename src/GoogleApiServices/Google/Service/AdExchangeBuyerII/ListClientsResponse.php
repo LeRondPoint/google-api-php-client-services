@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyerII_ListClientsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'clients';
-  protected $clientsType = 'Google_Service_AdExchangeBuyerII_Client';
+  protected $clientsType = '\GoogleApiServices\Google_Service_AdExchangeBuyerII_Client';
   protected $clientsDataType = 'array';
   public $nextPageToken;
 

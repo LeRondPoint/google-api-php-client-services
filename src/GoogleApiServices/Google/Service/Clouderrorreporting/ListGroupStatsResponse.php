@@ -18,7 +18,7 @@
 class Google_Service_Clouderrorreporting_ListGroupStatsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errorGroupStats';
-  protected $errorGroupStatsType = 'Google_Service_Clouderrorreporting_ErrorGroupStats';
+  protected $errorGroupStatsType = '\GoogleApiServices\Google_Service_Clouderrorreporting_ErrorGroupStats';
   protected $errorGroupStatsDataType = 'array';
   public $nextPageToken;
 

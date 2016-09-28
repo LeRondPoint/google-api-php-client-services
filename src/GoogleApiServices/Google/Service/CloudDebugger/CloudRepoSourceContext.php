@@ -17,10 +17,10 @@
 
 class Google_Service_CloudDebugger_CloudRepoSourceContext extends \GoogleApi\Google_Model
 {
-  protected $aliasContextType = 'Google_Service_CloudDebugger_AliasContext';
+  protected $aliasContextType = '\GoogleApiServices\Google_Service_CloudDebugger_AliasContext';
   protected $aliasContextDataType = '';
   public $aliasName;
-  protected $repoIdType = 'Google_Service_CloudDebugger_RepoId';
+  protected $repoIdType = '\GoogleApiServices\Google_Service_CloudDebugger_RepoId';
   protected $repoIdDataType = '';
   public $revisionId;
 

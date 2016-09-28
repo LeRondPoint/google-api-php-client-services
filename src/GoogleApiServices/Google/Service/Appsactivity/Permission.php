@@ -21,7 +21,7 @@ class Google_Service_Appsactivity_Permission extends \GoogleApi\Google_Model
   public $permissionId;
   public $role;
   public $type;
-  protected $userType = 'Google_Service_Appsactivity_User';
+  protected $userType = '\GoogleApiServices\Google_Service_Appsactivity_User';
   protected $userDataType = '';
   public $withLink;
 

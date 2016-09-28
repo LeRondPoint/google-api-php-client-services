@@ -20,7 +20,7 @@ class Google_Service_Bigquery_ViewDefinition extends \GoogleApi\Google_Collectio
   protected $collection_key = 'userDefinedFunctionResources';
   public $query;
   public $useLegacySql;
-  protected $userDefinedFunctionResourcesType = 'Google_Service_Bigquery_UserDefinedFunctionResource';
+  protected $userDefinedFunctionResourcesType = '\GoogleApiServices\Google_Service_Bigquery_UserDefinedFunctionResource';
   protected $userDefinedFunctionResourcesDataType = 'array';
 
   public function setQuery($query)

@@ -18,26 +18,26 @@
 class Google_Service_Analytics_Filter extends \GoogleApi\Google_Model
 {
   public $accountId;
-  protected $advancedDetailsType = 'Google_Service_Analytics_FilterAdvancedDetails';
+  protected $advancedDetailsType = '\GoogleApiServices\Google_Service_Analytics_FilterAdvancedDetails';
   protected $advancedDetailsDataType = '';
   public $created;
-  protected $excludeDetailsType = 'Google_Service_Analytics_FilterExpression';
+  protected $excludeDetailsType = '\GoogleApiServices\Google_Service_Analytics_FilterExpression';
   protected $excludeDetailsDataType = '';
   public $id;
-  protected $includeDetailsType = 'Google_Service_Analytics_FilterExpression';
+  protected $includeDetailsType = '\GoogleApiServices\Google_Service_Analytics_FilterExpression';
   protected $includeDetailsDataType = '';
   public $kind;
-  protected $lowercaseDetailsType = 'Google_Service_Analytics_FilterLowercaseDetails';
+  protected $lowercaseDetailsType = '\GoogleApiServices\Google_Service_Analytics_FilterLowercaseDetails';
   protected $lowercaseDetailsDataType = '';
   public $name;
-  protected $parentLinkType = 'Google_Service_Analytics_FilterParentLink';
+  protected $parentLinkType = '\GoogleApiServices\Google_Service_Analytics_FilterParentLink';
   protected $parentLinkDataType = '';
-  protected $searchAndReplaceDetailsType = 'Google_Service_Analytics_FilterSearchAndReplaceDetails';
+  protected $searchAndReplaceDetailsType = '\GoogleApiServices\Google_Service_Analytics_FilterSearchAndReplaceDetails';
   protected $searchAndReplaceDetailsDataType = '';
   public $selfLink;
   public $type;
   public $updated;
-  protected $uppercaseDetailsType = 'Google_Service_Analytics_FilterUppercaseDetails';
+  protected $uppercaseDetailsType = '\GoogleApiServices\Google_Service_Analytics_FilterUppercaseDetails';
   protected $uppercaseDetailsDataType = '';
 
   public function setAccountId($accountId)

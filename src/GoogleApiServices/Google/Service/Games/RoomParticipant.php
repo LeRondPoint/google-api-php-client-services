@@ -19,16 +19,16 @@ class Google_Service_Games_RoomParticipant extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'capabilities';
   public $autoMatched;
-  protected $autoMatchedPlayerType = 'Google_Service_Games_AnonymousPlayer';
+  protected $autoMatchedPlayerType = '\GoogleApiServices\Google_Service_Games_AnonymousPlayer';
   protected $autoMatchedPlayerDataType = '';
   public $capabilities;
-  protected $clientAddressType = 'Google_Service_Games_RoomClientAddress';
+  protected $clientAddressType = '\GoogleApiServices\Google_Service_Games_RoomClientAddress';
   protected $clientAddressDataType = '';
   public $connected;
   public $id;
   public $kind;
   public $leaveReason;
-  protected $playerType = 'Google_Service_Games_Player';
+  protected $playerType = '\GoogleApiServices\Google_Service_Games_Player';
   protected $playerDataType = '';
   public $status;
 

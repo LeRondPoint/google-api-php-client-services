@@ -21,9 +21,9 @@ class Google_Service_Reports_UsageReports extends \GoogleApi\Google_Collection
   public $etag;
   public $kind;
   public $nextPageToken;
-  protected $usageReportsType = 'Google_Service_Reports_UsageReport';
+  protected $usageReportsType = '\GoogleApiServices\Google_Service_Reports_UsageReport';
   protected $usageReportsDataType = 'array';
-  protected $warningsType = 'Google_Service_Reports_UsageReportsWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_Reports_UsageReportsWarnings';
   protected $warningsDataType = 'array';
 
   public function setEtag($etag)

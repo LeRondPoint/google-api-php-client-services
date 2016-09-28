@@ -20,17 +20,17 @@ class Google_Service_Bigquery_Job extends \GoogleApi\Google_Model
   protected $internal_gapi_mappings = array(
         "userEmail" => "user_email",
   );
-  protected $configurationType = 'Google_Service_Bigquery_JobConfiguration';
+  protected $configurationType = '\GoogleApiServices\Google_Service_Bigquery_JobConfiguration';
   protected $configurationDataType = '';
   public $etag;
   public $id;
-  protected $jobReferenceType = 'Google_Service_Bigquery_JobReference';
+  protected $jobReferenceType = '\GoogleApiServices\Google_Service_Bigquery_JobReference';
   protected $jobReferenceDataType = '';
   public $kind;
   public $selfLink;
-  protected $statisticsType = 'Google_Service_Bigquery_JobStatistics';
+  protected $statisticsType = '\GoogleApiServices\Google_Service_Bigquery_JobStatistics';
   protected $statisticsDataType = '';
-  protected $statusType = 'Google_Service_Bigquery_JobStatus';
+  protected $statusType = '\GoogleApiServices\Google_Service_Bigquery_JobStatus';
   protected $statusDataType = '';
   public $userEmail;
 

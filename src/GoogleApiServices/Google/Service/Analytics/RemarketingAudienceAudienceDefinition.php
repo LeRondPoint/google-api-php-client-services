@@ -17,7 +17,7 @@
 
 class Google_Service_Analytics_RemarketingAudienceAudienceDefinition extends \GoogleApi\Google_Model
 {
-  protected $includeConditionsType = 'Google_Service_Analytics_IncludeConditions';
+  protected $includeConditionsType = '\GoogleApiServices\Google_Service_Analytics_IncludeConditions';
   protected $includeConditionsDataType = '';
 
   public function setIncludeConditions(Google_Service_Analytics_IncludeConditions $includeConditions)

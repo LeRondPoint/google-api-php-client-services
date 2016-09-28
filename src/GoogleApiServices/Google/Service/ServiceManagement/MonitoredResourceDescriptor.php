@@ -20,7 +20,7 @@ class Google_Service_ServiceManagement_MonitoredResourceDescriptor extends \Goog
   protected $collection_key = 'labels';
   public $description;
   public $displayName;
-  protected $labelsType = 'Google_Service_ServiceManagement_LabelDescriptor';
+  protected $labelsType = '\GoogleApiServices\Google_Service_ServiceManagement_LabelDescriptor';
   protected $labelsDataType = 'array';
   public $name;
   public $type;

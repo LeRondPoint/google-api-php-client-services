@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_LanguagesListResponse extends \GoogleApi\Googl
 {
   protected $collection_key = 'languages';
   public $kind;
-  protected $languagesType = 'Google_Service_Dfareporting_Language';
+  protected $languagesType = '\GoogleApiServices\Google_Service_Dfareporting_Language';
   protected $languagesDataType = 'array';
 
   public function setKind($kind)

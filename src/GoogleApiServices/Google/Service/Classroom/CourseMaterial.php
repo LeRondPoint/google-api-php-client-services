@@ -17,13 +17,13 @@
 
 class Google_Service_Classroom_CourseMaterial extends \GoogleApi\Google_Model
 {
-  protected $driveFileType = 'Google_Service_Classroom_DriveFile';
+  protected $driveFileType = '\GoogleApiServices\Google_Service_Classroom_DriveFile';
   protected $driveFileDataType = '';
-  protected $formType = 'Google_Service_Classroom_Form';
+  protected $formType = '\GoogleApiServices\Google_Service_Classroom_Form';
   protected $formDataType = '';
-  protected $linkType = 'Google_Service_Classroom_Link';
+  protected $linkType = '\GoogleApiServices\Google_Service_Classroom_Link';
   protected $linkDataType = '';
-  protected $youTubeVideoType = 'Google_Service_Classroom_YouTubeVideo';
+  protected $youTubeVideoType = '\GoogleApiServices\Google_Service_Classroom_YouTubeVideo';
   protected $youTubeVideoDataType = '';
 
   public function setDriveFile(Google_Service_Classroom_DriveFile $driveFile)

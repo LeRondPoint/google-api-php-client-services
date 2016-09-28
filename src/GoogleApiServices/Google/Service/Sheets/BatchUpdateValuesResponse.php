@@ -18,7 +18,7 @@
 class Google_Service_Sheets_BatchUpdateValuesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'responses';
-  protected $responsesType = 'Google_Service_Sheets_UpdateValuesResponse';
+  protected $responsesType = '\GoogleApiServices\Google_Service_Sheets_UpdateValuesResponse';
   protected $responsesDataType = 'array';
   public $spreadsheetId;
   public $totalUpdatedCells;

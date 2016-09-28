@@ -19,7 +19,7 @@ class Google_Service_Books_Seriesmembership extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'member';
   public $kind;
-  protected $memberType = 'Google_Service_Books_Volume';
+  protected $memberType = '\GoogleApiServices\Google_Service_Books_Volume';
   protected $memberDataType = 'array';
   public $nextPageToken;
 

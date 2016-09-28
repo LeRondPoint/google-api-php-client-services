@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_CreativeOptimizationConfiguration extends \Goo
   protected $collection_key = 'optimizationActivitys';
   public $id;
   public $name;
-  protected $optimizationActivitysType = 'Google_Service_Dfareporting_OptimizationActivity';
+  protected $optimizationActivitysType = '\GoogleApiServices\Google_Service_Dfareporting_OptimizationActivity';
   protected $optimizationActivitysDataType = 'array';
   public $optimizationModel;
 

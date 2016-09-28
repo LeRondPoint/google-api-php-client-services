@@ -19,10 +19,10 @@ class Google_Service_Games_RoomJoinRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'capabilities';
   public $capabilities;
-  protected $clientAddressType = 'Google_Service_Games_RoomClientAddress';
+  protected $clientAddressType = '\GoogleApiServices\Google_Service_Games_RoomClientAddress';
   protected $clientAddressDataType = '';
   public $kind;
-  protected $networkDiagnosticsType = 'Google_Service_Games_NetworkDiagnostics';
+  protected $networkDiagnosticsType = '\GoogleApiServices\Google_Service_Games_NetworkDiagnostics';
   protected $networkDiagnosticsDataType = '';
 
   public function setCapabilities($capabilities)

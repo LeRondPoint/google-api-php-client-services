@@ -19,10 +19,10 @@ class Google_Service_Fitness_AggregateBucket extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'dataset';
   public $activity;
-  protected $datasetType = 'Google_Service_Fitness_Dataset';
+  protected $datasetType = '\GoogleApiServices\Google_Service_Fitness_Dataset';
   protected $datasetDataType = 'array';
   public $endTimeMillis;
-  protected $sessionType = 'Google_Service_Fitness_Session';
+  protected $sessionType = '\GoogleApiServices\Google_Service_Fitness_Session';
   protected $sessionDataType = '';
   public $startTimeMillis;
   public $type;

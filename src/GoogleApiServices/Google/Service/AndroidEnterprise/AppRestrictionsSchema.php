@@ -19,7 +19,7 @@ class Google_Service_AndroidEnterprise_AppRestrictionsSchema extends \GoogleApi\
 {
   protected $collection_key = 'restrictions';
   public $kind;
-  protected $restrictionsType = 'Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestriction';
+  protected $restrictionsType = '\GoogleApiServices\Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestriction';
   protected $restrictionsDataType = 'array';
 
   public function setKind($kind)

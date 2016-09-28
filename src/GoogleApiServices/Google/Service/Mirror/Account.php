@@ -18,11 +18,11 @@
 class Google_Service_Mirror_Account extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'userData';
-  protected $authTokensType = 'Google_Service_Mirror_AuthToken';
+  protected $authTokensType = '\GoogleApiServices\Google_Service_Mirror_AuthToken';
   protected $authTokensDataType = 'array';
   public $features;
   public $password;
-  protected $userDataType = 'Google_Service_Mirror_UserData';
+  protected $userDataType = '\GoogleApiServices\Google_Service_Mirror_UserData';
   protected $userDataDataType = 'array';
 
   public function setAuthTokens($authTokens)

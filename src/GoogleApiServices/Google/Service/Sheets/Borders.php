@@ -17,13 +17,13 @@
 
 class Google_Service_Sheets_Borders extends \GoogleApi\Google_Model
 {
-  protected $bottomType = 'Google_Service_Sheets_Border';
+  protected $bottomType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $bottomDataType = '';
-  protected $leftType = 'Google_Service_Sheets_Border';
+  protected $leftType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $leftDataType = '';
-  protected $rightType = 'Google_Service_Sheets_Border';
+  protected $rightType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $rightDataType = '';
-  protected $topType = 'Google_Service_Sheets_Border';
+  protected $topType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $topDataType = '';
 
   public function setBottom(Google_Service_Sheets_Border $bottom)

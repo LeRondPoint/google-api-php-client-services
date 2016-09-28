@@ -20,7 +20,7 @@ class Google_Service_Genomics_Read extends \GoogleApi\Google_Collection
   protected $collection_key = 'alignedQuality';
   public $alignedQuality;
   public $alignedSequence;
-  protected $alignmentType = 'Google_Service_Genomics_LinearAlignment';
+  protected $alignmentType = '\GoogleApiServices\Google_Service_Genomics_LinearAlignment';
   protected $alignmentDataType = '';
   public $duplicateFragment;
   public $failedVendorQualityChecks;
@@ -28,7 +28,7 @@ class Google_Service_Genomics_Read extends \GoogleApi\Google_Collection
   public $fragmentName;
   public $id;
   public $info;
-  protected $nextMatePositionType = 'Google_Service_Genomics_Position';
+  protected $nextMatePositionType = '\GoogleApiServices\Google_Service_Genomics_Position';
   protected $nextMatePositionDataType = '';
   public $numberReads;
   public $properPlacement;

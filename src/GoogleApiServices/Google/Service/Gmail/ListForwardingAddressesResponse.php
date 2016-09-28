@@ -18,7 +18,7 @@
 class Google_Service_Gmail_ListForwardingAddressesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'forwardingAddresses';
-  protected $forwardingAddressesType = 'Google_Service_Gmail_ForwardingAddress';
+  protected $forwardingAddressesType = '\GoogleApiServices\Google_Service_Gmail_ForwardingAddress';
   protected $forwardingAddressesDataType = 'array';
 
   public function setForwardingAddresses($forwardingAddresses)

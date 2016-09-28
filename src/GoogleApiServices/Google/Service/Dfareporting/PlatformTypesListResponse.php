@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_PlatformTypesListResponse extends \GoogleApi\G
 {
   protected $collection_key = 'platformTypes';
   public $kind;
-  protected $platformTypesType = 'Google_Service_Dfareporting_PlatformType';
+  protected $platformTypesType = '\GoogleApiServices\Google_Service_Dfareporting_PlatformType';
   protected $platformTypesDataType = 'array';
 
   public function setKind($kind)

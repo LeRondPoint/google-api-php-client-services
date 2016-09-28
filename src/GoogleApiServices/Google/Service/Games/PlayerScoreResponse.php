@@ -23,7 +23,7 @@ class Google_Service_Games_PlayerScoreResponse extends \GoogleApi\Google_Collect
   public $kind;
   public $leaderboardId;
   public $scoreTag;
-  protected $unbeatenScoresType = 'Google_Service_Games_PlayerScore';
+  protected $unbeatenScoresType = '\GoogleApiServices\Google_Service_Games_PlayerScore';
   protected $unbeatenScoresDataType = 'array';
 
   public function setBeatenScoreTimeSpans($beatenScoreTimeSpans)

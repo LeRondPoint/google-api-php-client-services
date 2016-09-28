@@ -18,7 +18,7 @@
 class Google_Service_FirebaseRulesAPI_TestRulesetResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'issues';
-  protected $issuesType = 'Google_Service_FirebaseRulesAPI_Issue';
+  protected $issuesType = '\GoogleApiServices\Google_Service_FirebaseRulesAPI_Issue';
   protected $issuesDataType = 'array';
 
   public function setIssues($issues)

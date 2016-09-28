@@ -19,7 +19,7 @@ class Google_Service_Storagetransfer_ListTransferJobsResponse extends \GoogleApi
 {
   protected $collection_key = 'transferJobs';
   public $nextPageToken;
-  protected $transferJobsType = 'Google_Service_Storagetransfer_TransferJob';
+  protected $transferJobsType = '\GoogleApiServices\Google_Service_Storagetransfer_TransferJob';
   protected $transferJobsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

@@ -17,11 +17,11 @@
 
 class Google_Service_Analytics_EntityUserLinkEntity extends \GoogleApi\Google_Model
 {
-  protected $accountRefType = 'Google_Service_Analytics_AccountRef';
+  protected $accountRefType = '\GoogleApiServices\Google_Service_Analytics_AccountRef';
   protected $accountRefDataType = '';
-  protected $profileRefType = 'Google_Service_Analytics_ProfileRef';
+  protected $profileRefType = '\GoogleApiServices\Google_Service_Analytics_ProfileRef';
   protected $profileRefDataType = '';
-  protected $webPropertyRefType = 'Google_Service_Analytics_WebPropertyRef';
+  protected $webPropertyRefType = '\GoogleApiServices\Google_Service_Analytics_WebPropertyRef';
   protected $webPropertyRefDataType = '';
 
   public function setAccountRef(Google_Service_Analytics_AccountRef $accountRef)

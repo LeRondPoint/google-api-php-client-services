@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidEnterprise_ServiceAccount extends \GoogleApi\Google_Model
 {
-  protected $keyType = 'Google_Service_AndroidEnterprise_ServiceAccountKey';
+  protected $keyType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ServiceAccountKey';
   protected $keyDataType = '';
   public $kind;
   public $name;

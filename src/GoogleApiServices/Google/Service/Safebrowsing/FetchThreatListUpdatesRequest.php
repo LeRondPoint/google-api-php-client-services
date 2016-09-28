@@ -18,9 +18,9 @@
 class Google_Service_Safebrowsing_FetchThreatListUpdatesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'listUpdateRequests';
-  protected $clientType = 'Google_Service_Safebrowsing_ClientInfo';
+  protected $clientType = '\GoogleApiServices\Google_Service_Safebrowsing_ClientInfo';
   protected $clientDataType = '';
-  protected $listUpdateRequestsType = 'Google_Service_Safebrowsing_ListUpdateRequest';
+  protected $listUpdateRequestsType = '\GoogleApiServices\Google_Service_Safebrowsing_ListUpdateRequest';
   protected $listUpdateRequestsDataType = 'array';
 
   public function setClient(Google_Service_Safebrowsing_ClientInfo $client)

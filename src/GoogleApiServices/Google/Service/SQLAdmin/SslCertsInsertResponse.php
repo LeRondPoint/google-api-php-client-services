@@ -17,12 +17,12 @@
 
 class Google_Service_SQLAdmin_SslCertsInsertResponse extends \GoogleApi\Google_Model
 {
-  protected $clientCertType = 'Google_Service_SQLAdmin_SslCertDetail';
+  protected $clientCertType = '\GoogleApiServices\Google_Service_SQLAdmin_SslCertDetail';
   protected $clientCertDataType = '';
   public $kind;
-  protected $operationType = 'Google_Service_SQLAdmin_Operation';
+  protected $operationType = '\GoogleApiServices\Google_Service_SQLAdmin_Operation';
   protected $operationDataType = '';
-  protected $serverCaCertType = 'Google_Service_SQLAdmin_SslCert';
+  protected $serverCaCertType = '\GoogleApiServices\Google_Service_SQLAdmin_SslCert';
   protected $serverCaCertDataType = '';
 
   public function setClientCert(Google_Service_SQLAdmin_SslCertDetail $clientCert)

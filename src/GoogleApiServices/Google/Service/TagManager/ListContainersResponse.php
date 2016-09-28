@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListContainersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'containers';
-  protected $containersType = 'Google_Service_TagManager_Container';
+  protected $containersType = '\GoogleApiServices\Google_Service_TagManager_Container';
   protected $containersDataType = 'array';
 
   public function setContainers($containers)

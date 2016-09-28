@@ -19,7 +19,7 @@ class Google_Service_AdExchangeSeller_SavedReports extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdExchangeSeller_SavedReport';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeSeller_SavedReport';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

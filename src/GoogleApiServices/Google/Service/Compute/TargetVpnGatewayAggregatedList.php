@@ -18,7 +18,7 @@
 class Google_Service_Compute_TargetVpnGatewayAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_TargetVpnGatewaysScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_TargetVpnGatewaysScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

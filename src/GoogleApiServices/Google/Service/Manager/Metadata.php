@@ -19,7 +19,7 @@ class Google_Service_Manager_Metadata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $fingerPrint;
-  protected $itemsType = 'Google_Service_Manager_MetadataItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Manager_MetadataItem';
   protected $itemsDataType = 'array';
 
   public function setFingerPrint($fingerPrint)

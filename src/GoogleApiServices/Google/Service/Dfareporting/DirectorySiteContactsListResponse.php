@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_DirectorySiteContactsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'directorySiteContacts';
-  protected $directorySiteContactsType = 'Google_Service_Dfareporting_DirectorySiteContact';
+  protected $directorySiteContactsType = '\GoogleApiServices\Google_Service_Dfareporting_DirectorySiteContact';
   protected $directorySiteContactsDataType = 'array';
   public $kind;
   public $nextPageToken;

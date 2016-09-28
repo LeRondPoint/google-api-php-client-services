@@ -19,7 +19,7 @@ class Google_Service_Directory_VerificationCodes extends \GoogleApi\Google_Colle
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Directory_VerificationCode';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Directory_VerificationCode';
   protected $itemsDataType = 'array';
   public $kind;
 

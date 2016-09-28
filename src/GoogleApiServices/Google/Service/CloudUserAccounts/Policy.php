@@ -18,13 +18,13 @@
 class Google_Service_CloudUserAccounts_Policy extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $auditConfigsType = 'Google_Service_CloudUserAccounts_AuditConfig';
+  protected $auditConfigsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_AuditConfig';
   protected $auditConfigsDataType = 'array';
-  protected $bindingsType = 'Google_Service_CloudUserAccounts_Binding';
+  protected $bindingsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_Binding';
   protected $bindingsDataType = 'array';
   public $etag;
   public $iamOwned;
-  protected $rulesType = 'Google_Service_CloudUserAccounts_Rule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_CloudUserAccounts_Rule';
   protected $rulesDataType = 'array';
   public $version;
 

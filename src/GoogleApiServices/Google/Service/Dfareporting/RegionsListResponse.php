@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_RegionsListResponse extends \GoogleApi\Google_
 {
   protected $collection_key = 'regions';
   public $kind;
-  protected $regionsType = 'Google_Service_Dfareporting_Region';
+  protected $regionsType = '\GoogleApiServices\Google_Service_Dfareporting_Region';
   protected $regionsDataType = 'array';
 
   public function setKind($kind)

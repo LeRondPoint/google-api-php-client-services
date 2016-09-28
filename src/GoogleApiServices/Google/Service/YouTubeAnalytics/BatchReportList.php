@@ -18,7 +18,7 @@
 class Google_Service_YouTubeAnalytics_BatchReportList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_YouTubeAnalytics_BatchReport';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_BatchReport';
   protected $itemsDataType = 'array';
   public $kind;
 

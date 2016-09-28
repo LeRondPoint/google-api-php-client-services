@@ -18,7 +18,7 @@
 class Google_Service_Compute_InstanceGroupsAddInstancesRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instances';
-  protected $instancesType = 'Google_Service_Compute_InstanceReference';
+  protected $instancesType = '\GoogleApiServices\Google_Service_Compute_InstanceReference';
   protected $instancesDataType = 'array';
 
   public function setInstances($instances)

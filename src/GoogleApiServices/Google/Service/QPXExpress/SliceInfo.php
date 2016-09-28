@@ -20,7 +20,7 @@ class Google_Service_QPXExpress_SliceInfo extends \GoogleApi\Google_Collection
   protected $collection_key = 'segment';
   public $duration;
   public $kind;
-  protected $segmentType = 'Google_Service_QPXExpress_SegmentInfo';
+  protected $segmentType = '\GoogleApiServices\Google_Service_QPXExpress_SegmentInfo';
   protected $segmentDataType = 'array';
 
   public function setDuration($duration)

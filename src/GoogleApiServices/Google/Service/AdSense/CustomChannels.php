@@ -19,7 +19,7 @@ class Google_Service_AdSense_CustomChannels extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdSense_CustomChannel';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdSense_CustomChannel';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

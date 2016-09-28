@@ -18,7 +18,7 @@
 class Google_Service_SQLAdmin_FlagsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_SQLAdmin_Flag';
+  protected $itemsType = '\GoogleApiServices\Google_Service_SQLAdmin_Flag';
   protected $itemsDataType = 'array';
   public $kind;
 

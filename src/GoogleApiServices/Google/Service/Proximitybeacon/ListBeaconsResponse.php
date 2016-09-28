@@ -18,7 +18,7 @@
 class Google_Service_Proximitybeacon_ListBeaconsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'beacons';
-  protected $beaconsType = 'Google_Service_Proximitybeacon_Beacon';
+  protected $beaconsType = '\GoogleApiServices\Google_Service_Proximitybeacon_Beacon';
   protected $beaconsDataType = 'array';
   public $nextPageToken;
   public $totalCount;

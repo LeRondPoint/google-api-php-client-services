@@ -18,7 +18,7 @@
 class Google_Service_AnalyticsReporting_CohortGroup extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'cohorts';
-  protected $cohortsType = 'Google_Service_AnalyticsReporting_Cohort';
+  protected $cohortsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Cohort';
   protected $cohortsDataType = 'array';
   public $lifetimeValue;
 

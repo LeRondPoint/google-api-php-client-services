@@ -18,12 +18,12 @@
 class Google_Service_AnalyticsReporting_Pivot extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metrics';
-  protected $dimensionFilterClausesType = 'Google_Service_AnalyticsReporting_DimensionFilterClause';
+  protected $dimensionFilterClausesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DimensionFilterClause';
   protected $dimensionFilterClausesDataType = 'array';
-  protected $dimensionsType = 'Google_Service_AnalyticsReporting_Dimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Dimension';
   protected $dimensionsDataType = 'array';
   public $maxGroupCount;
-  protected $metricsType = 'Google_Service_AnalyticsReporting_Metric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Metric';
   protected $metricsDataType = 'array';
   public $startGroup;
 

@@ -19,7 +19,7 @@ class Google_Service_Drive_PermissionList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'permissions';
   public $kind;
-  protected $permissionsType = 'Google_Service_Drive_Permission';
+  protected $permissionsType = '\GoogleApiServices\Google_Service_Drive_Permission';
   protected $permissionsDataType = 'array';
 
   public function setKind($kind)

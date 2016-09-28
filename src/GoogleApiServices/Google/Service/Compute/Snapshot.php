@@ -26,10 +26,10 @@ class Google_Service_Compute_Snapshot extends \GoogleApi\Google_Collection
   public $licenses;
   public $name;
   public $selfLink;
-  protected $snapshotEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $snapshotEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $snapshotEncryptionKeyDataType = '';
   public $sourceDisk;
-  protected $sourceDiskEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $sourceDiskEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $sourceDiskEncryptionKeyDataType = '';
   public $sourceDiskId;
   public $status;

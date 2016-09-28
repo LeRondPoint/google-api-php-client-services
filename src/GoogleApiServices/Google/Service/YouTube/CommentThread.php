@@ -20,9 +20,9 @@ class Google_Service_YouTube_CommentThread extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $repliesType = 'Google_Service_YouTube_CommentThreadReplies';
+  protected $repliesType = '\GoogleApiServices\Google_Service_YouTube_CommentThreadReplies';
   protected $repliesDataType = '';
-  protected $snippetType = 'Google_Service_YouTube_CommentThreadSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_CommentThreadSnippet';
   protected $snippetDataType = '';
 
   public function setEtag($etag)

@@ -20,7 +20,7 @@ class Google_Service_Directory_Members extends \GoogleApi\Google_Collection
   protected $collection_key = 'members';
   public $etag;
   public $kind;
-  protected $membersType = 'Google_Service_Directory_Member';
+  protected $membersType = '\GoogleApiServices\Google_Service_Directory_Member';
   protected $membersDataType = 'array';
   public $nextPageToken;
 

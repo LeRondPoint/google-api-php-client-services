@@ -19,13 +19,13 @@ class Google_Service_Dataflow_ComputationTopology extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'stateFamilies';
   public $computationId;
-  protected $inputsType = 'Google_Service_Dataflow_StreamLocation';
+  protected $inputsType = '\GoogleApiServices\Google_Service_Dataflow_StreamLocation';
   protected $inputsDataType = 'array';
-  protected $keyRangesType = 'Google_Service_Dataflow_KeyRangeLocation';
+  protected $keyRangesType = '\GoogleApiServices\Google_Service_Dataflow_KeyRangeLocation';
   protected $keyRangesDataType = 'array';
-  protected $outputsType = 'Google_Service_Dataflow_StreamLocation';
+  protected $outputsType = '\GoogleApiServices\Google_Service_Dataflow_StreamLocation';
   protected $outputsDataType = 'array';
-  protected $stateFamiliesType = 'Google_Service_Dataflow_StateFamilyConfig';
+  protected $stateFamiliesType = '\GoogleApiServices\Google_Service_Dataflow_StateFamilyConfig';
   protected $stateFamiliesDataType = 'array';
   public $systemStageName;
   public $userStageName;

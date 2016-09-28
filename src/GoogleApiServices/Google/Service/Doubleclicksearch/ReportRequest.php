@@ -18,23 +18,23 @@
 class Google_Service_Doubleclicksearch_ReportRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'orderBy';
-  protected $columnsType = 'Google_Service_Doubleclicksearch_ReportApiColumnSpec';
+  protected $columnsType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportApiColumnSpec';
   protected $columnsDataType = 'array';
   public $downloadFormat;
-  protected $filtersType = 'Google_Service_Doubleclicksearch_ReportRequestFilters';
+  protected $filtersType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportRequestFilters';
   protected $filtersDataType = 'array';
   public $includeDeletedEntities;
   public $includeRemovedEntities;
   public $maxRowsPerFile;
-  protected $orderByType = 'Google_Service_Doubleclicksearch_ReportRequestOrderBy';
+  protected $orderByType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportRequestOrderBy';
   protected $orderByDataType = 'array';
-  protected $reportScopeType = 'Google_Service_Doubleclicksearch_ReportRequestReportScope';
+  protected $reportScopeType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportRequestReportScope';
   protected $reportScopeDataType = '';
   public $reportType;
   public $rowCount;
   public $startRow;
   public $statisticsCurrency;
-  protected $timeRangeType = 'Google_Service_Doubleclicksearch_ReportRequestTimeRange';
+  protected $timeRangeType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportRequestTimeRange';
   protected $timeRangeDataType = '';
   public $verifySingleTimeZone;
 

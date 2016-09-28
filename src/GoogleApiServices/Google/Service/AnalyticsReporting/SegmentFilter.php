@@ -18,9 +18,9 @@
 class Google_Service_AnalyticsReporting_SegmentFilter extends \GoogleApi\Google_Model
 {
   public $not;
-  protected $sequenceSegmentType = 'Google_Service_AnalyticsReporting_SequenceSegment';
+  protected $sequenceSegmentType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SequenceSegment';
   protected $sequenceSegmentDataType = '';
-  protected $simpleSegmentType = 'Google_Service_AnalyticsReporting_SimpleSegment';
+  protected $simpleSegmentType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SimpleSegment';
   protected $simpleSegmentDataType = '';
 
   public function setNot($not)

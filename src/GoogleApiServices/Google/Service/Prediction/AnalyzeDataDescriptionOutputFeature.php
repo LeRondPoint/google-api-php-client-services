@@ -18,9 +18,9 @@
 class Google_Service_Prediction_AnalyzeDataDescriptionOutputFeature extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'text';
-  protected $numericType = 'Google_Service_Prediction_AnalyzeDataDescriptionOutputFeatureNumeric';
+  protected $numericType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionOutputFeatureNumeric';
   protected $numericDataType = '';
-  protected $textType = 'Google_Service_Prediction_AnalyzeDataDescriptionOutputFeatureText';
+  protected $textType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionOutputFeatureText';
   protected $textDataType = 'array';
 
   public function setNumeric(Google_Service_Prediction_AnalyzeDataDescriptionOutputFeatureNumeric $numeric)

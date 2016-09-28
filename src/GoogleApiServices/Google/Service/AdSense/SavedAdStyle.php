@@ -17,7 +17,7 @@
 
 class Google_Service_AdSense_SavedAdStyle extends \GoogleApi\Google_Model
 {
-  protected $adStyleType = 'Google_Service_AdSense_AdStyle';
+  protected $adStyleType = '\GoogleApiServices\Google_Service_AdSense_AdStyle';
   protected $adStyleDataType = '';
   public $id;
   public $kind;

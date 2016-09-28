@@ -18,7 +18,7 @@
 class Google_Service_Bigquery_QueryRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'queryParameters';
-  protected $defaultDatasetType = 'Google_Service_Bigquery_DatasetReference';
+  protected $defaultDatasetType = '\GoogleApiServices\Google_Service_Bigquery_DatasetReference';
   protected $defaultDatasetDataType = '';
   public $dryRun;
   public $kind;
@@ -26,7 +26,7 @@ class Google_Service_Bigquery_QueryRequest extends \GoogleApi\Google_Collection
   public $parameterMode;
   public $preserveNulls;
   public $query;
-  protected $queryParametersType = 'Google_Service_Bigquery_QueryParameter';
+  protected $queryParametersType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameter';
   protected $queryParametersDataType = 'array';
   public $timeoutMs;
   public $useLegacySql;

@@ -25,7 +25,7 @@ class Google_Service_ServiceManagement_Field extends \GoogleApi\Google_Collectio
   public $name;
   public $number;
   public $oneofIndex;
-  protected $optionsType = 'Google_Service_ServiceManagement_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_ServiceManagement_Option';
   protected $optionsDataType = 'array';
   public $packed;
   public $typeUrl;

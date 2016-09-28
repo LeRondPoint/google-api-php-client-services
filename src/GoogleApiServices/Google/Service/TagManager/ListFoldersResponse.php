@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListFoldersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'folders';
-  protected $foldersType = 'Google_Service_TagManager_Folder';
+  protected $foldersType = '\GoogleApiServices\Google_Service_TagManager_Folder';
   protected $foldersDataType = 'array';
 
   public function setFolders($folders)

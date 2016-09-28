@@ -21,10 +21,10 @@ class Google_Service_ShoppingContent_Service extends \GoogleApi\Google_Collectio
   public $active;
   public $currency;
   public $deliveryCountry;
-  protected $deliveryTimeType = 'Google_Service_ShoppingContent_DeliveryTime';
+  protected $deliveryTimeType = '\GoogleApiServices\Google_Service_ShoppingContent_DeliveryTime';
   protected $deliveryTimeDataType = '';
   public $name;
-  protected $rateGroupsType = 'Google_Service_ShoppingContent_RateGroup';
+  protected $rateGroupsType = '\GoogleApiServices\Google_Service_ShoppingContent_RateGroup';
   protected $rateGroupsDataType = 'array';
 
   public function setActive($active)

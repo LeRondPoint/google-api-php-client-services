@@ -17,7 +17,7 @@
 
 class Google_Service_CloudDebugger_RegisterDebuggeeResponse extends \GoogleApi\Google_Model
 {
-  protected $debuggeeType = 'Google_Service_CloudDebugger_Debuggee';
+  protected $debuggeeType = '\GoogleApiServices\Google_Service_CloudDebugger_Debuggee';
   protected $debuggeeDataType = '';
 
   public function setDebuggee(Google_Service_CloudDebugger_Debuggee $debuggee)

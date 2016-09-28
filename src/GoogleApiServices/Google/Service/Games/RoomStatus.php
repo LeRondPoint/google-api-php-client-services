@@ -18,10 +18,10 @@
 class Google_Service_Games_RoomStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'participants';
-  protected $autoMatchingStatusType = 'Google_Service_Games_RoomAutoMatchStatus';
+  protected $autoMatchingStatusType = '\GoogleApiServices\Google_Service_Games_RoomAutoMatchStatus';
   protected $autoMatchingStatusDataType = '';
   public $kind;
-  protected $participantsType = 'Google_Service_Games_RoomParticipant';
+  protected $participantsType = '\GoogleApiServices\Google_Service_Games_RoomParticipant';
   protected $participantsDataType = 'array';
   public $roomId;
   public $status;

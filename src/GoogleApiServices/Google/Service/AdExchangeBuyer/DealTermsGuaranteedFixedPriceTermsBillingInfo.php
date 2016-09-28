@@ -20,7 +20,7 @@ class Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTermsBillingIn
   public $currencyConversionTimeMs;
   public $dfpLineItemId;
   public $originalContractedQuantity;
-  protected $priceType = 'Google_Service_AdExchangeBuyer_Price';
+  protected $priceType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Price';
   protected $priceDataType = '';
 
   public function setCurrencyConversionTimeMs($currencyConversionTimeMs)

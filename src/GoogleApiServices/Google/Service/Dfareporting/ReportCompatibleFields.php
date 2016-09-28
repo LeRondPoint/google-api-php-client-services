@@ -18,14 +18,14 @@
 class Google_Service_Dfareporting_ReportCompatibleFields extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'pivotedActivityMetrics';
-  protected $dimensionFiltersType = 'Google_Service_Dfareporting_Dimension';
+  protected $dimensionFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $dimensionFiltersDataType = 'array';
-  protected $dimensionsType = 'Google_Service_Dfareporting_Dimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_Dimension';
   protected $dimensionsDataType = 'array';
   public $kind;
-  protected $metricsType = 'Google_Service_Dfareporting_Metric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $metricsDataType = 'array';
-  protected $pivotedActivityMetricsType = 'Google_Service_Dfareporting_Metric';
+  protected $pivotedActivityMetricsType = '\GoogleApiServices\Google_Service_Dfareporting_Metric';
   protected $pivotedActivityMetricsDataType = 'array';
 
   public function setDimensionFilters($dimensionFilters)

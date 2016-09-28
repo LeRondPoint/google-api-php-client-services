@@ -18,9 +18,9 @@
 class Google_Service_ServiceManagement_Authentication extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $providersType = 'Google_Service_ServiceManagement_AuthProvider';
+  protected $providersType = '\GoogleApiServices\Google_Service_ServiceManagement_AuthProvider';
   protected $providersDataType = 'array';
-  protected $rulesType = 'Google_Service_ServiceManagement_AuthenticationRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_AuthenticationRule';
   protected $rulesDataType = 'array';
 
   public function setProviders($providers)

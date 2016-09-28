@@ -17,7 +17,7 @@
 
 class Google_Service_Genomics_RuntimeMetadata extends \GoogleApi\Google_Model
 {
-  protected $computeEngineType = 'Google_Service_Genomics_ComputeEngine';
+  protected $computeEngineType = '\GoogleApiServices\Google_Service_Genomics_ComputeEngine';
   protected $computeEngineDataType = '';
 
   public function setComputeEngine(Google_Service_Genomics_ComputeEngine $computeEngine)

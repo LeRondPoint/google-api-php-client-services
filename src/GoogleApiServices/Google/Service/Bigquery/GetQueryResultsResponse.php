@@ -19,18 +19,18 @@ class Google_Service_Bigquery_GetQueryResultsResponse extends \GoogleApi\Google_
 {
   protected $collection_key = 'rows';
   public $cacheHit;
-  protected $errorsType = 'Google_Service_Bigquery_ErrorProto';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Bigquery_ErrorProto';
   protected $errorsDataType = 'array';
   public $etag;
   public $jobComplete;
-  protected $jobReferenceType = 'Google_Service_Bigquery_JobReference';
+  protected $jobReferenceType = '\GoogleApiServices\Google_Service_Bigquery_JobReference';
   protected $jobReferenceDataType = '';
   public $kind;
   public $numDmlAffectedRows;
   public $pageToken;
-  protected $rowsType = 'Google_Service_Bigquery_TableRow';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Bigquery_TableRow';
   protected $rowsDataType = 'array';
-  protected $schemaType = 'Google_Service_Bigquery_TableSchema';
+  protected $schemaType = '\GoogleApiServices\Google_Service_Bigquery_TableSchema';
   protected $schemaDataType = '';
   public $totalBytesProcessed;
   public $totalRows;

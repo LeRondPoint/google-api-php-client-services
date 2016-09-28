@@ -21,7 +21,7 @@ class Google_Service_Bigquery_Table extends \GoogleApi\Google_Model
   public $description;
   public $etag;
   public $expirationTime;
-  protected $externalDataConfigurationType = 'Google_Service_Bigquery_ExternalDataConfiguration';
+  protected $externalDataConfigurationType = '\GoogleApiServices\Google_Service_Bigquery_ExternalDataConfiguration';
   protected $externalDataConfigurationDataType = '';
   public $friendlyName;
   public $id;
@@ -31,17 +31,17 @@ class Google_Service_Bigquery_Table extends \GoogleApi\Google_Model
   public $numBytes;
   public $numLongTermBytes;
   public $numRows;
-  protected $schemaType = 'Google_Service_Bigquery_TableSchema';
+  protected $schemaType = '\GoogleApiServices\Google_Service_Bigquery_TableSchema';
   protected $schemaDataType = '';
   public $selfLink;
-  protected $streamingBufferType = 'Google_Service_Bigquery_Streamingbuffer';
+  protected $streamingBufferType = '\GoogleApiServices\Google_Service_Bigquery_Streamingbuffer';
   protected $streamingBufferDataType = '';
-  protected $tableReferenceType = 'Google_Service_Bigquery_TableReference';
+  protected $tableReferenceType = '\GoogleApiServices\Google_Service_Bigquery_TableReference';
   protected $tableReferenceDataType = '';
-  protected $timePartitioningType = 'Google_Service_Bigquery_TimePartitioning';
+  protected $timePartitioningType = '\GoogleApiServices\Google_Service_Bigquery_TimePartitioning';
   protected $timePartitioningDataType = '';
   public $type;
-  protected $viewType = 'Google_Service_Bigquery_ViewDefinition';
+  protected $viewType = '\GoogleApiServices\Google_Service_Bigquery_ViewDefinition';
   protected $viewDataType = '';
 
   public function setCreationTime($creationTime)

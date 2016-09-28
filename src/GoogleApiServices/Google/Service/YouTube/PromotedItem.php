@@ -18,10 +18,10 @@
 class Google_Service_YouTube_PromotedItem extends \GoogleApi\Google_Model
 {
   public $customMessage;
-  protected $idType = 'Google_Service_YouTube_PromotedItemId';
+  protected $idType = '\GoogleApiServices\Google_Service_YouTube_PromotedItemId';
   protected $idDataType = '';
   public $promotedByContentOwner;
-  protected $timingType = 'Google_Service_YouTube_InvideoTiming';
+  protected $timingType = '\GoogleApiServices\Google_Service_YouTube_InvideoTiming';
   protected $timingDataType = '';
 
   public function setCustomMessage($customMessage)

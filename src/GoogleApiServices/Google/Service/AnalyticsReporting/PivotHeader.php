@@ -18,7 +18,7 @@
 class Google_Service_AnalyticsReporting_PivotHeader extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'pivotHeaderEntries';
-  protected $pivotHeaderEntriesType = 'Google_Service_AnalyticsReporting_PivotHeaderEntry';
+  protected $pivotHeaderEntriesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_PivotHeaderEntry';
   protected $pivotHeaderEntriesDataType = 'array';
   public $totalPivotGroupsCount;
 

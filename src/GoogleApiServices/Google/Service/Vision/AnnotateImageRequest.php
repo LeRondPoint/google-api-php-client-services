@@ -18,11 +18,11 @@
 class Google_Service_Vision_AnnotateImageRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'features';
-  protected $featuresType = 'Google_Service_Vision_Feature';
+  protected $featuresType = '\GoogleApiServices\Google_Service_Vision_Feature';
   protected $featuresDataType = 'array';
-  protected $imageType = 'Google_Service_Vision_Image';
+  protected $imageType = '\GoogleApiServices\Google_Service_Vision_Image';
   protected $imageDataType = '';
-  protected $imageContextType = 'Google_Service_Vision_ImageContext';
+  protected $imageContextType = '\GoogleApiServices\Google_Service_Vision_ImageContext';
   protected $imageContextDataType = '';
 
   public function setFeatures($features)

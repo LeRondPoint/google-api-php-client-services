@@ -17,7 +17,7 @@
 
 class Google_Service_Storagetransfer_AwsS3Data extends \GoogleApi\Google_Model
 {
-  protected $awsAccessKeyType = 'Google_Service_Storagetransfer_AwsAccessKey';
+  protected $awsAccessKeyType = '\GoogleApiServices\Google_Service_Storagetransfer_AwsAccessKey';
   protected $awsAccessKeyDataType = '';
   public $bucketName;
 

@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_ReportWorkItemStatusResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'workItemServiceStates';
-  protected $workItemServiceStatesType = 'Google_Service_Dataflow_WorkItemServiceState';
+  protected $workItemServiceStatesType = '\GoogleApiServices\Google_Service_Dataflow_WorkItemServiceState';
   protected $workItemServiceStatesDataType = 'array';
 
   public function setWorkItemServiceStates($workItemServiceStates)

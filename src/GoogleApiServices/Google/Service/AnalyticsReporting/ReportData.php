@@ -19,16 +19,16 @@ class Google_Service_AnalyticsReporting_ReportData extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'totals';
   public $isDataGolden;
-  protected $maximumsType = 'Google_Service_AnalyticsReporting_DateRangeValues';
+  protected $maximumsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DateRangeValues';
   protected $maximumsDataType = 'array';
-  protected $minimumsType = 'Google_Service_AnalyticsReporting_DateRangeValues';
+  protected $minimumsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DateRangeValues';
   protected $minimumsDataType = 'array';
   public $rowCount;
-  protected $rowsType = 'Google_Service_AnalyticsReporting_ReportRow';
+  protected $rowsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_ReportRow';
   protected $rowsDataType = 'array';
   public $samplesReadCounts;
   public $samplingSpaceSizes;
-  protected $totalsType = 'Google_Service_AnalyticsReporting_DateRangeValues';
+  protected $totalsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DateRangeValues';
   protected $totalsDataType = 'array';
 
   public function setIsDataGolden($isDataGolden)

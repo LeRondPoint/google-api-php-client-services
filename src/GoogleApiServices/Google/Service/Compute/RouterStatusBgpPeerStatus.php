@@ -18,7 +18,7 @@
 class Google_Service_Compute_RouterStatusBgpPeerStatus extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'advertisedRoutes';
-  protected $advertisedRoutesType = 'Google_Service_Compute_Route';
+  protected $advertisedRoutesType = '\GoogleApiServices\Google_Service_Compute_Route';
   protected $advertisedRoutesDataType = 'array';
   public $ipAddress;
   public $linkedVpnTunnel;

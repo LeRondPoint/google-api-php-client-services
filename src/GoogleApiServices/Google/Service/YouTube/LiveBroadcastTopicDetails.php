@@ -18,7 +18,7 @@
 class Google_Service_YouTube_LiveBroadcastTopicDetails extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'topics';
-  protected $topicsType = 'Google_Service_YouTube_LiveBroadcastTopic';
+  protected $topicsType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastTopic';
   protected $topicsDataType = 'array';
 
   public function setTopics($topics)

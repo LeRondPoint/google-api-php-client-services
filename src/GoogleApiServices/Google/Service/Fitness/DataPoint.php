@@ -25,7 +25,7 @@ class Google_Service_Fitness_DataPoint extends \GoogleApi\Google_Collection
   public $originDataSourceId;
   public $rawTimestampNanos;
   public $startTimeNanos;
-  protected $valueType = 'Google_Service_Fitness_Value';
+  protected $valueType = '\GoogleApiServices\Google_Service_Fitness_Value';
   protected $valueDataType = 'array';
 
   public function setComputationTimeMillis($computationTimeMillis)

@@ -18,7 +18,7 @@
 class Google_Service_Genomics_ListDatasetsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'datasets';
-  protected $datasetsType = 'Google_Service_Genomics_Dataset';
+  protected $datasetsType = '\GoogleApiServices\Google_Service_Genomics_Dataset';
   protected $datasetsDataType = 'array';
   public $nextPageToken;
 

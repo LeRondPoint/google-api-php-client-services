@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_StoreLayoutClustersListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'cluster';
-  protected $clusterType = 'Google_Service_AndroidEnterprise_StoreCluster';
+  protected $clusterType = '\GoogleApiServices\Google_Service_AndroidEnterprise_StoreCluster';
   protected $clusterDataType = 'array';
   public $kind;
 

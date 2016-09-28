@@ -19,7 +19,7 @@ class Google_Service_AdExchangeBuyer_PerformanceReportList extends \GoogleApi\Go
 {
   protected $collection_key = 'performanceReport';
   public $kind;
-  protected $performanceReportType = 'Google_Service_AdExchangeBuyer_PerformanceReport';
+  protected $performanceReportType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_PerformanceReport';
   protected $performanceReportDataType = 'array';
 
   public function setKind($kind)

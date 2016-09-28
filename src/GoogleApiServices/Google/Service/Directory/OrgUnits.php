@@ -20,7 +20,7 @@ class Google_Service_Directory_OrgUnits extends \GoogleApi\Google_Collection
   protected $collection_key = 'organizationUnits';
   public $etag;
   public $kind;
-  protected $organizationUnitsType = 'Google_Service_Directory_OrgUnit';
+  protected $organizationUnitsType = '\GoogleApiServices\Google_Service_Directory_OrgUnit';
   protected $organizationUnitsDataType = 'array';
 
   public function setEtag($etag)

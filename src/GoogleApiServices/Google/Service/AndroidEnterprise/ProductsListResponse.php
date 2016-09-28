@@ -19,11 +19,11 @@ class Google_Service_AndroidEnterprise_ProductsListResponse extends \GoogleApi\G
 {
   protected $collection_key = 'product';
   public $kind;
-  protected $pageInfoType = 'Google_Service_AndroidEnterprise_PageInfo';
+  protected $pageInfoType = '\GoogleApiServices\Google_Service_AndroidEnterprise_PageInfo';
   protected $pageInfoDataType = '';
-  protected $productType = 'Google_Service_AndroidEnterprise_Product';
+  protected $productType = '\GoogleApiServices\Google_Service_AndroidEnterprise_Product';
   protected $productDataType = 'array';
-  protected $tokenPaginationType = 'Google_Service_AndroidEnterprise_TokenPagination';
+  protected $tokenPaginationType = '\GoogleApiServices\Google_Service_AndroidEnterprise_TokenPagination';
   protected $tokenPaginationDataType = '';
 
   public function setKind($kind)

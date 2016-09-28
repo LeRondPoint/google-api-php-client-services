@@ -18,7 +18,7 @@
 class Google_Service_Books_Volumes extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Books_Volume';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Books_Volume';
   protected $itemsDataType = 'array';
   public $kind;
   public $totalItems;

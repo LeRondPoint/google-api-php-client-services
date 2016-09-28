@@ -19,7 +19,7 @@ class Google_Service_Books_AnnotationsSummary extends \GoogleApi\Google_Collecti
 {
   protected $collection_key = 'layers';
   public $kind;
-  protected $layersType = 'Google_Service_Books_AnnotationsSummaryLayers';
+  protected $layersType = '\GoogleApiServices\Google_Service_Books_AnnotationsSummaryLayers';
   protected $layersDataType = 'array';
 
   public function setKind($kind)

@@ -18,7 +18,7 @@
 class Google_Service_YouTubeAnalytics_ResultTable extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $columnHeadersType = 'Google_Service_YouTubeAnalytics_ResultTableColumnHeaders';
+  protected $columnHeadersType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_ResultTableColumnHeaders';
   protected $columnHeadersDataType = 'array';
   public $kind;
   public $rows;

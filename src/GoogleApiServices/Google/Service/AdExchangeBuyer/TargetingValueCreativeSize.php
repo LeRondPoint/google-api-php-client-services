@@ -18,10 +18,10 @@
 class Google_Service_AdExchangeBuyer_TargetingValueCreativeSize extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'companionSizes';
-  protected $companionSizesType = 'Google_Service_AdExchangeBuyer_TargetingValueSize';
+  protected $companionSizesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_TargetingValueSize';
   protected $companionSizesDataType = 'array';
   public $creativeSizeType;
-  protected $sizeType = 'Google_Service_AdExchangeBuyer_TargetingValueSize';
+  protected $sizeType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_TargetingValueSize';
   protected $sizeDataType = '';
   public $skippableAdType;
 

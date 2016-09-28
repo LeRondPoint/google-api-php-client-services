@@ -18,9 +18,9 @@
 class Google_Service_Compute_AutoscalersScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'autoscalers';
-  protected $autoscalersType = 'Google_Service_Compute_Autoscaler';
+  protected $autoscalersType = '\GoogleApiServices\Google_Service_Compute_Autoscaler';
   protected $autoscalersDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_AutoscalersScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_AutoscalersScopedListWarning';
   protected $warningDataType = '';
 
   public function setAutoscalers($autoscalers)

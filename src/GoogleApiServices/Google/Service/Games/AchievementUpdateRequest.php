@@ -18,10 +18,10 @@
 class Google_Service_Games_AchievementUpdateRequest extends \GoogleApi\Google_Model
 {
   public $achievementId;
-  protected $incrementPayloadType = 'Google_Service_Games_GamesAchievementIncrement';
+  protected $incrementPayloadType = '\GoogleApiServices\Google_Service_Games_GamesAchievementIncrement';
   protected $incrementPayloadDataType = '';
   public $kind;
-  protected $setStepsAtLeastPayloadType = 'Google_Service_Games_GamesAchievementSetStepsAtLeast';
+  protected $setStepsAtLeastPayloadType = '\GoogleApiServices\Google_Service_Games_GamesAchievementSetStepsAtLeast';
   protected $setStepsAtLeastPayloadDataType = '';
   public $updateType;
 

@@ -19,7 +19,7 @@ class Google_Service_SQLAdmin_ReplicaConfiguration extends \GoogleApi\Google_Mod
 {
   public $failoverTarget;
   public $kind;
-  protected $mysqlReplicaConfigurationType = 'Google_Service_SQLAdmin_MySqlReplicaConfiguration';
+  protected $mysqlReplicaConfigurationType = '\GoogleApiServices\Google_Service_SQLAdmin_MySqlReplicaConfiguration';
   protected $mysqlReplicaConfigurationDataType = '';
 
   public function setFailoverTarget($failoverTarget)

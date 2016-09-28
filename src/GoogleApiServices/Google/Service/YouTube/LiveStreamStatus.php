@@ -17,7 +17,7 @@
 
 class Google_Service_YouTube_LiveStreamStatus extends \GoogleApi\Google_Model
 {
-  protected $healthStatusType = 'Google_Service_YouTube_LiveStreamHealthStatus';
+  protected $healthStatusType = '\GoogleApiServices\Google_Service_YouTube_LiveStreamHealthStatus';
   protected $healthStatusDataType = '';
   public $streamStatus;
 

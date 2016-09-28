@@ -18,7 +18,7 @@
 class Google_Service_Compute_TargetPoolAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_TargetPoolsScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_TargetPoolsScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

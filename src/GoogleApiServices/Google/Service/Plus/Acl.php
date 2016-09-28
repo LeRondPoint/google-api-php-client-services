@@ -19,7 +19,7 @@ class Google_Service_Plus_Acl extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $description;
-  protected $itemsType = 'Google_Service_Plus_PlusAclentryResource';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Plus_PlusAclentryResource';
   protected $itemsDataType = 'array';
   public $kind;
 

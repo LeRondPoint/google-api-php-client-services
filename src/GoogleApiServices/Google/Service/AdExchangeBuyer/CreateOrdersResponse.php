@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_CreateOrdersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'proposals';
-  protected $proposalsType = 'Google_Service_AdExchangeBuyer_Proposal';
+  protected $proposalsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Proposal';
   protected $proposalsDataType = 'array';
 
   public function setProposals($proposals)

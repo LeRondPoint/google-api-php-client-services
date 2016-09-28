@@ -19,7 +19,7 @@ class Google_Service_Compute_TargetInstanceList extends \GoogleApi\Google_Collec
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_TargetInstance';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_TargetInstance';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

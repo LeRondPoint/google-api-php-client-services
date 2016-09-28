@@ -17,13 +17,13 @@
 
 class Google_Service_CloudDebugger_SourceContext extends \GoogleApi\Google_Model
 {
-  protected $cloudRepoType = 'Google_Service_CloudDebugger_CloudRepoSourceContext';
+  protected $cloudRepoType = '\GoogleApiServices\Google_Service_CloudDebugger_CloudRepoSourceContext';
   protected $cloudRepoDataType = '';
-  protected $cloudWorkspaceType = 'Google_Service_CloudDebugger_CloudWorkspaceSourceContext';
+  protected $cloudWorkspaceType = '\GoogleApiServices\Google_Service_CloudDebugger_CloudWorkspaceSourceContext';
   protected $cloudWorkspaceDataType = '';
-  protected $gerritType = 'Google_Service_CloudDebugger_GerritSourceContext';
+  protected $gerritType = '\GoogleApiServices\Google_Service_CloudDebugger_GerritSourceContext';
   protected $gerritDataType = '';
-  protected $gitType = 'Google_Service_CloudDebugger_GitSourceContext';
+  protected $gitType = '\GoogleApiServices\Google_Service_CloudDebugger_GitSourceContext';
   protected $gitDataType = '';
 
   public function setCloudRepo(Google_Service_CloudDebugger_CloudRepoSourceContext $cloudRepo)

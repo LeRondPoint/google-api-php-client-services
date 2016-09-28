@@ -18,7 +18,7 @@
 class Google_Service_Fitness_AggregateResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'bucket';
-  protected $bucketType = 'Google_Service_Fitness_AggregateBucket';
+  protected $bucketType = '\GoogleApiServices\Google_Service_Fitness_AggregateBucket';
   protected $bucketDataType = 'array';
 
   public function setBucket($bucket)

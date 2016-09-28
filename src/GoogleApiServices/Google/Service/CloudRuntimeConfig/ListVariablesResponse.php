@@ -19,7 +19,7 @@ class Google_Service_CloudRuntimeConfig_ListVariablesResponse extends \GoogleApi
 {
   protected $collection_key = 'variables';
   public $nextPageToken;
-  protected $variablesType = 'Google_Service_CloudRuntimeConfig_Variable';
+  protected $variablesType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_Variable';
   protected $variablesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

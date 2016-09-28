@@ -19,15 +19,15 @@ class Google_Service_Gmail_History extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'messagesDeleted';
   public $id;
-  protected $labelsAddedType = 'Google_Service_Gmail_HistoryLabelAdded';
+  protected $labelsAddedType = '\GoogleApiServices\Google_Service_Gmail_HistoryLabelAdded';
   protected $labelsAddedDataType = 'array';
-  protected $labelsRemovedType = 'Google_Service_Gmail_HistoryLabelRemoved';
+  protected $labelsRemovedType = '\GoogleApiServices\Google_Service_Gmail_HistoryLabelRemoved';
   protected $labelsRemovedDataType = 'array';
-  protected $messagesType = 'Google_Service_Gmail_Message';
+  protected $messagesType = '\GoogleApiServices\Google_Service_Gmail_Message';
   protected $messagesDataType = 'array';
-  protected $messagesAddedType = 'Google_Service_Gmail_HistoryMessageAdded';
+  protected $messagesAddedType = '\GoogleApiServices\Google_Service_Gmail_HistoryMessageAdded';
   protected $messagesAddedDataType = 'array';
-  protected $messagesDeletedType = 'Google_Service_Gmail_HistoryMessageDeleted';
+  protected $messagesDeletedType = '\GoogleApiServices\Google_Service_Gmail_HistoryMessageDeleted';
   protected $messagesDeletedDataType = 'array';
 
   public function setId($id)

@@ -19,7 +19,7 @@ class Google_Service_Reports_ActivityEvents extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'parameters';
   public $name;
-  protected $parametersType = 'Google_Service_Reports_ActivityEventsParameters';
+  protected $parametersType = '\GoogleApiServices\Google_Service_Reports_ActivityEventsParameters';
   protected $parametersDataType = 'array';
   public $type;
 

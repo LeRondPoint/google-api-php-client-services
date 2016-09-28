@@ -18,7 +18,7 @@
 class Google_Service_AdSense_Payments extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_AdSense_Payment';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdSense_Payment';
   protected $itemsDataType = 'array';
   public $kind;
 

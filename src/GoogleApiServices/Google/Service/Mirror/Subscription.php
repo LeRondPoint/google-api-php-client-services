@@ -22,7 +22,7 @@ class Google_Service_Mirror_Subscription extends \GoogleApi\Google_Collection
   public $collection;
   public $id;
   public $kind;
-  protected $notificationType = 'Google_Service_Mirror_Notification';
+  protected $notificationType = '\GoogleApiServices\Google_Service_Mirror_Notification';
   protected $notificationDataType = '';
   public $operation;
   public $updated;

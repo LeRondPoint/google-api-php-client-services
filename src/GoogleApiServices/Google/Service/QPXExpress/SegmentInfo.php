@@ -23,11 +23,11 @@ class Google_Service_QPXExpress_SegmentInfo extends \GoogleApi\Google_Collection
   public $cabin;
   public $connectionDuration;
   public $duration;
-  protected $flightType = 'Google_Service_QPXExpress_FlightInfo';
+  protected $flightType = '\GoogleApiServices\Google_Service_QPXExpress_FlightInfo';
   protected $flightDataType = '';
   public $id;
   public $kind;
-  protected $legType = 'Google_Service_QPXExpress_LegInfo';
+  protected $legType = '\GoogleApiServices\Google_Service_QPXExpress_LegInfo';
   protected $legDataType = 'array';
   public $marriedSegmentGroup;
   public $subjectToGovernmentApproval;

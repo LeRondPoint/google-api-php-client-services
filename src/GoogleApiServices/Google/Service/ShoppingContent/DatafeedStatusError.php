@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_DatafeedStatusError extends \GoogleApi\Goog
   protected $collection_key = 'examples';
   public $code;
   public $count;
-  protected $examplesType = 'Google_Service_ShoppingContent_DatafeedStatusExample';
+  protected $examplesType = '\GoogleApiServices\Google_Service_ShoppingContent_DatafeedStatusExample';
   protected $examplesDataType = 'array';
   public $message;
 

@@ -17,7 +17,7 @@
 
 class Google_Service_AnalyticsReporting_Cohort extends \GoogleApi\Google_Model
 {
-  protected $dateRangeType = 'Google_Service_AnalyticsReporting_DateRange';
+  protected $dateRangeType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DateRange';
   protected $dateRangeDataType = '';
   public $name;
   public $type;

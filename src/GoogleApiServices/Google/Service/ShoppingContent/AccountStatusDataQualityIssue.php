@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_AccountStatusDataQualityIssue extends \Goog
   protected $collection_key = 'exampleItems';
   public $country;
   public $displayedValue;
-  protected $exampleItemsType = 'Google_Service_ShoppingContent_AccountStatusExampleItem';
+  protected $exampleItemsType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountStatusExampleItem';
   protected $exampleItemsDataType = 'array';
   public $id;
   public $lastChecked;

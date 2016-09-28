@@ -18,7 +18,7 @@
 class Google_Service_Storage_StorageObject extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'acl';
-  protected $aclType = 'Google_Service_Storage_ObjectAccessControl';
+  protected $aclType = '\GoogleApiServices\Google_Service_Storage_ObjectAccessControl';
   protected $aclDataType = 'array';
   public $bucket;
   public $cacheControl;
@@ -28,7 +28,7 @@ class Google_Service_Storage_StorageObject extends \GoogleApi\Google_Collection
   public $contentLanguage;
   public $contentType;
   public $crc32c;
-  protected $customerEncryptionType = 'Google_Service_Storage_StorageObjectCustomerEncryption';
+  protected $customerEncryptionType = '\GoogleApiServices\Google_Service_Storage_StorageObjectCustomerEncryption';
   protected $customerEncryptionDataType = '';
   public $etag;
   public $generation;
@@ -40,7 +40,7 @@ class Google_Service_Storage_StorageObject extends \GoogleApi\Google_Collection
   public $metadata;
   public $metageneration;
   public $name;
-  protected $ownerType = 'Google_Service_Storage_StorageObjectOwner';
+  protected $ownerType = '\GoogleApiServices\Google_Service_Storage_StorageObjectOwner';
   protected $ownerDataType = '';
   public $selfLink;
   public $size;

@@ -19,7 +19,7 @@ class Google_Service_Books_DictlayerdataDictWordsSensesDefinitions extends \Goog
 {
   protected $collection_key = 'examples';
   public $definition;
-  protected $examplesType = 'Google_Service_Books_DictlayerdataDictWordsSensesDefinitionsExamples';
+  protected $examplesType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWordsSensesDefinitionsExamples';
   protected $examplesDataType = 'array';
 
   public function setDefinition($definition)

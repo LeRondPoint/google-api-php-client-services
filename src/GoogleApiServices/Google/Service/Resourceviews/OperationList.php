@@ -19,7 +19,7 @@ class Google_Service_Resourceviews_OperationList extends \GoogleApi\Google_Colle
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Resourceviews_Operation';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Resourceviews_Operation';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

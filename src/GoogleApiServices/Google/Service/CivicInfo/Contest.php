@@ -19,9 +19,9 @@ class Google_Service_CivicInfo_Contest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sources';
   public $ballotPlacement;
-  protected $candidatesType = 'Google_Service_CivicInfo_Candidate';
+  protected $candidatesType = '\GoogleApiServices\Google_Service_CivicInfo_Candidate';
   protected $candidatesDataType = 'array';
-  protected $districtType = 'Google_Service_CivicInfo_ElectoralDistrict';
+  protected $districtType = '\GoogleApiServices\Google_Service_CivicInfo_ElectoralDistrict';
   protected $districtDataType = '';
   public $electorateSpecifications;
   public $id;
@@ -41,7 +41,7 @@ class Google_Service_CivicInfo_Contest extends \GoogleApi\Google_Collection
   public $referendumTitle;
   public $referendumUrl;
   public $roles;
-  protected $sourcesType = 'Google_Service_CivicInfo_Source';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_CivicInfo_Source';
   protected $sourcesDataType = 'array';
   public $special;
   public $type;

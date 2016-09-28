@@ -18,7 +18,7 @@
 class Google_Service_Genomics_BatchCreateAnnotationsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'entries';
-  protected $entriesType = 'Google_Service_Genomics_Entry';
+  protected $entriesType = '\GoogleApiServices\Google_Service_Genomics_Entry';
   protected $entriesDataType = 'array';
 
   public function setEntries($entries)

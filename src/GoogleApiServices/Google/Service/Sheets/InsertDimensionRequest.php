@@ -18,7 +18,7 @@
 class Google_Service_Sheets_InsertDimensionRequest extends \GoogleApi\Google_Model
 {
   public $inheritFromBefore;
-  protected $rangeType = 'Google_Service_Sheets_DimensionRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_DimensionRange';
   protected $rangeDataType = '';
 
   public function setInheritFromBefore($inheritFromBefore)

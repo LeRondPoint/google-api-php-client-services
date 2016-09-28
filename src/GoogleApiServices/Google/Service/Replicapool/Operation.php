@@ -21,7 +21,7 @@ class Google_Service_Replicapool_Operation extends \GoogleApi\Google_Collection
   public $clientOperationId;
   public $creationTimestamp;
   public $endTime;
-  protected $errorType = 'Google_Service_Replicapool_OperationError';
+  protected $errorType = '\GoogleApiServices\Google_Service_Replicapool_OperationError';
   protected $errorDataType = '';
   public $httpErrorMessage;
   public $httpErrorStatusCode;
@@ -39,7 +39,7 @@ class Google_Service_Replicapool_Operation extends \GoogleApi\Google_Collection
   public $targetId;
   public $targetLink;
   public $user;
-  protected $warningsType = 'Google_Service_Replicapool_OperationWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_Replicapool_OperationWarnings';
   protected $warningsDataType = 'array';
   public $zone;
 

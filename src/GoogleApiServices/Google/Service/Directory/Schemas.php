@@ -20,7 +20,7 @@ class Google_Service_Directory_Schemas extends \GoogleApi\Google_Collection
   protected $collection_key = 'schemas';
   public $etag;
   public $kind;
-  protected $schemasType = 'Google_Service_Directory_Schema';
+  protected $schemasType = '\GoogleApiServices\Google_Service_Directory_Schema';
   protected $schemasDataType = 'array';
 
   public function setEtag($etag)

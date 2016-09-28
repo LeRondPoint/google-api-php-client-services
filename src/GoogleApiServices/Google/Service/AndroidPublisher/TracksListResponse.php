@@ -19,7 +19,7 @@ class Google_Service_AndroidPublisher_TracksListResponse extends \GoogleApi\Goog
 {
   protected $collection_key = 'tracks';
   public $kind;
-  protected $tracksType = 'Google_Service_AndroidPublisher_Track';
+  protected $tracksType = '\GoogleApiServices\Google_Service_AndroidPublisher_Track';
   protected $tracksDataType = 'array';
 
   public function setKind($kind)

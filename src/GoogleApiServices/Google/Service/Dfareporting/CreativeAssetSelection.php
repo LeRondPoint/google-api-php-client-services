@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_CreativeAssetSelection extends \GoogleApi\Goog
 {
   protected $collection_key = 'rules';
   public $defaultAssetId;
-  protected $rulesType = 'Google_Service_Dfareporting_Rule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_Dfareporting_Rule';
   protected $rulesDataType = 'array';
 
   public function setDefaultAssetId($defaultAssetId)

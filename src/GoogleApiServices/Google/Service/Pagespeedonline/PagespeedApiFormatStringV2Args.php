@@ -22,9 +22,9 @@ class Google_Service_Pagespeedonline_PagespeedApiFormatStringV2Args extends \Goo
         "secondaryRects" => "secondary_rects",
   );
   public $key;
-  protected $rectsType = 'Google_Service_Pagespeedonline_PagespeedApiFormatStringV2ArgsRects';
+  protected $rectsType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiFormatStringV2ArgsRects';
   protected $rectsDataType = 'array';
-  protected $secondaryRectsType = 'Google_Service_Pagespeedonline_PagespeedApiFormatStringV2ArgsSecondaryRects';
+  protected $secondaryRectsType = '\GoogleApiServices\Google_Service_Pagespeedonline_PagespeedApiFormatStringV2ArgsSecondaryRects';
   protected $secondaryRectsDataType = 'array';
   public $type;
   public $value;

@@ -17,9 +17,9 @@
 
 class Google_Service_FirebaseDynamicLinksAPI_AnalyticsInfo extends \GoogleApi\Google_Model
 {
-  protected $googlePlayAnalyticsType = 'Google_Service_FirebaseDynamicLinksAPI_GooglePlayAnalytics';
+  protected $googlePlayAnalyticsType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_GooglePlayAnalytics';
   protected $googlePlayAnalyticsDataType = '';
-  protected $itunesConnectAnalyticsType = 'Google_Service_FirebaseDynamicLinksAPI_ITunesConnectAnalytics';
+  protected $itunesConnectAnalyticsType = '\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_ITunesConnectAnalytics';
   protected $itunesConnectAnalyticsDataType = '';
 
   public function setGooglePlayAnalytics(Google_Service_FirebaseDynamicLinksAPI_GooglePlayAnalytics $googlePlayAnalytics)

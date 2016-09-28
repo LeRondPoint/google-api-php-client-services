@@ -18,7 +18,7 @@
 class Google_Service_Datastore_EntityResult extends \GoogleApi\Google_Model
 {
   public $cursor;
-  protected $entityType = 'Google_Service_Datastore_Entity';
+  protected $entityType = '\GoogleApiServices\Google_Service_Datastore_Entity';
   protected $entityDataType = '';
   public $version;
 

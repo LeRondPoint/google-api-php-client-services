@@ -20,10 +20,10 @@ class Google_Service_YouTubeAnalytics_BatchReport extends \GoogleApi\Google_Coll
   protected $collection_key = 'outputs';
   public $id;
   public $kind;
-  protected $outputsType = 'Google_Service_YouTubeAnalytics_BatchReportOutputs';
+  protected $outputsType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_BatchReportOutputs';
   protected $outputsDataType = 'array';
   public $reportId;
-  protected $timeSpanType = 'Google_Service_YouTubeAnalytics_BatchReportTimeSpan';
+  protected $timeSpanType = '\GoogleApiServices\Google_Service_YouTubeAnalytics_BatchReportTimeSpan';
   protected $timeSpanDataType = '';
   public $timeUpdated;
 

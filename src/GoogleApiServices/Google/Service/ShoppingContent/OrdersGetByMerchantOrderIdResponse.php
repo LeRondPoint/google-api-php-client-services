@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_OrdersGetByMerchantOrderIdResponse extends \GoogleApi\Google_Model
 {
   public $kind;
-  protected $orderType = 'Google_Service_ShoppingContent_Order';
+  protected $orderType = '\GoogleApiServices\Google_Service_ShoppingContent_Order';
   protected $orderDataType = '';
 
   public function setKind($kind)

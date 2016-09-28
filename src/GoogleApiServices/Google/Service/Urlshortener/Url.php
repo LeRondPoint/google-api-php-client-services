@@ -17,7 +17,7 @@
 
 class Google_Service_Urlshortener_Url extends \GoogleApi\Google_Model
 {
-  protected $analyticsType = 'Google_Service_Urlshortener_AnalyticsSummary';
+  protected $analyticsType = '\GoogleApiServices\Google_Service_Urlshortener_AnalyticsSummary';
   protected $analyticsDataType = '';
   public $created;
   public $id;

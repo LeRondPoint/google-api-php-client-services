@@ -18,7 +18,7 @@
 class Google_Service_Games_SnapshotListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Games_Snapshot';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Games_Snapshot';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,12 +18,12 @@
 class Google_Service_Games_EventUpdateResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'playerEvents';
-  protected $batchFailuresType = 'Google_Service_Games_EventBatchRecordFailure';
+  protected $batchFailuresType = '\GoogleApiServices\Google_Service_Games_EventBatchRecordFailure';
   protected $batchFailuresDataType = 'array';
-  protected $eventFailuresType = 'Google_Service_Games_EventRecordFailure';
+  protected $eventFailuresType = '\GoogleApiServices\Google_Service_Games_EventRecordFailure';
   protected $eventFailuresDataType = 'array';
   public $kind;
-  protected $playerEventsType = 'Google_Service_Games_PlayerEvent';
+  protected $playerEventsType = '\GoogleApiServices\Google_Service_Games_PlayerEvent';
   protected $playerEventsDataType = 'array';
 
   public function setBatchFailures($batchFailures)

@@ -18,9 +18,9 @@
 class Google_Service_Spectrum_SpectrumSchedule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'spectra';
-  protected $eventTimeType = 'Google_Service_Spectrum_EventTime';
+  protected $eventTimeType = '\GoogleApiServices\Google_Service_Spectrum_EventTime';
   protected $eventTimeDataType = '';
-  protected $spectraType = 'Google_Service_Spectrum_SpectrumMessage';
+  protected $spectraType = '\GoogleApiServices\Google_Service_Spectrum_SpectrumMessage';
   protected $spectraDataType = 'array';
 
   public function setEventTime(Google_Service_Spectrum_EventTime $eventTime)

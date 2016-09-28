@@ -17,19 +17,19 @@
 
 class Google_Service_Sheets_UpdateBordersRequest extends \GoogleApi\Google_Model
 {
-  protected $bottomType = 'Google_Service_Sheets_Border';
+  protected $bottomType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $bottomDataType = '';
-  protected $innerHorizontalType = 'Google_Service_Sheets_Border';
+  protected $innerHorizontalType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $innerHorizontalDataType = '';
-  protected $innerVerticalType = 'Google_Service_Sheets_Border';
+  protected $innerVerticalType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $innerVerticalDataType = '';
-  protected $leftType = 'Google_Service_Sheets_Border';
+  protected $leftType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $leftDataType = '';
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
-  protected $rightType = 'Google_Service_Sheets_Border';
+  protected $rightType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $rightDataType = '';
-  protected $topType = 'Google_Service_Sheets_Border';
+  protected $topType = '\GoogleApiServices\Google_Service_Sheets_Border';
   protected $topDataType = '';
 
   public function setBottom(Google_Service_Sheets_Border $bottom)

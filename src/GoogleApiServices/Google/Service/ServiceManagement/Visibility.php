@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_Visibility extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $rulesType = 'Google_Service_ServiceManagement_VisibilityRule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_ServiceManagement_VisibilityRule';
   protected $rulesDataType = 'array';
 
   public function setRules($rules)

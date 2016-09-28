@@ -18,7 +18,7 @@
 class Google_Service_Resourceviews_OperationError extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorsType = 'Google_Service_Resourceviews_OperationErrorErrors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Resourceviews_OperationErrorErrors';
   protected $errorsDataType = 'array';
 
   public function setErrors($errors)

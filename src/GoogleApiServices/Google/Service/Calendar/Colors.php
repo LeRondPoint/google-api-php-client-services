@@ -17,9 +17,9 @@
 
 class Google_Service_Calendar_Colors extends \GoogleApi\Google_Model
 {
-  protected $calendarType = 'Google_Service_Calendar_ColorDefinition';
+  protected $calendarType = '\GoogleApiServices\Google_Service_Calendar_ColorDefinition';
   protected $calendarDataType = 'map';
-  protected $eventType = 'Google_Service_Calendar_ColorDefinition';
+  protected $eventType = '\GoogleApiServices\Google_Service_Calendar_ColorDefinition';
   protected $eventDataType = 'map';
   public $kind;
   public $updated;

@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_CreativeCorrections extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'details';
-  protected $contextsType = 'Google_Service_AdExchangeBuyer_CreativeCorrectionsContexts';
+  protected $contextsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeCorrectionsContexts';
   protected $contextsDataType = 'array';
   public $details;
   public $reason;

@@ -18,9 +18,9 @@
 class Google_Service_AdExchangeBuyer_CreativeServingRestrictions extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'disapprovalReasons';
-  protected $contextsType = 'Google_Service_AdExchangeBuyer_CreativeServingRestrictionsContexts';
+  protected $contextsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeServingRestrictionsContexts';
   protected $contextsDataType = 'array';
-  protected $disapprovalReasonsType = 'Google_Service_AdExchangeBuyer_CreativeServingRestrictionsDisapprovalReasons';
+  protected $disapprovalReasonsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_CreativeServingRestrictionsDisapprovalReasons';
   protected $disapprovalReasonsDataType = 'array';
   public $reason;
 

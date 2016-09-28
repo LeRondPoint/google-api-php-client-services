@@ -23,10 +23,10 @@ class Google_Service_Storagetransfer_TransferJob extends \GoogleApi\Google_Model
   public $lastModificationTime;
   public $name;
   public $projectId;
-  protected $scheduleType = 'Google_Service_Storagetransfer_Schedule';
+  protected $scheduleType = '\GoogleApiServices\Google_Service_Storagetransfer_Schedule';
   protected $scheduleDataType = '';
   public $status;
-  protected $transferSpecType = 'Google_Service_Storagetransfer_TransferSpec';
+  protected $transferSpecType = '\GoogleApiServices\Google_Service_Storagetransfer_TransferSpec';
   protected $transferSpecDataType = '';
 
   public function setCreationTime($creationTime)

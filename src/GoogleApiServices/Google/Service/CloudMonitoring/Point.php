@@ -18,7 +18,7 @@
 class Google_Service_CloudMonitoring_Point extends \GoogleApi\Google_Model
 {
   public $boolValue;
-  protected $distributionValueType = 'Google_Service_CloudMonitoring_PointDistribution';
+  protected $distributionValueType = '\GoogleApiServices\Google_Service_CloudMonitoring_PointDistribution';
   protected $distributionValueDataType = '';
   public $doubleValue;
   public $end;

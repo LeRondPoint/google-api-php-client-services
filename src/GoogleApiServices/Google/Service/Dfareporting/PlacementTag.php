@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_PlacementTag extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'tagDatas';
   public $placementId;
-  protected $tagDatasType = 'Google_Service_Dfareporting_TagData';
+  protected $tagDatasType = '\GoogleApiServices\Google_Service_Dfareporting_TagData';
   protected $tagDatasDataType = 'array';
 
   public function setPlacementId($placementId)

@@ -18,7 +18,7 @@
 class Google_Service_Games_EventDefinition extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'childEvents';
-  protected $childEventsType = 'Google_Service_Games_EventChild';
+  protected $childEventsType = '\GoogleApiServices\Google_Service_Games_EventChild';
   protected $childEventsDataType = 'array';
   public $description;
   public $displayName;

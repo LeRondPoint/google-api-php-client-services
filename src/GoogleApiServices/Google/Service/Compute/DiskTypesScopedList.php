@@ -18,9 +18,9 @@
 class Google_Service_Compute_DiskTypesScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'diskTypes';
-  protected $diskTypesType = 'Google_Service_Compute_DiskType';
+  protected $diskTypesType = '\GoogleApiServices\Google_Service_Compute_DiskType';
   protected $diskTypesDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_DiskTypesScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_DiskTypesScopedListWarning';
   protected $warningDataType = '';
 
   public function setDiskTypes($diskTypes)

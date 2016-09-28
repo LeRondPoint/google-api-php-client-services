@@ -18,11 +18,11 @@
 class Google_Service_Spectrum_PawsNotifySpectrumUseRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'spectra';
-  protected $deviceDescType = 'Google_Service_Spectrum_DeviceDescriptor';
+  protected $deviceDescType = '\GoogleApiServices\Google_Service_Spectrum_DeviceDescriptor';
   protected $deviceDescDataType = '';
-  protected $locationType = 'Google_Service_Spectrum_GeoLocation';
+  protected $locationType = '\GoogleApiServices\Google_Service_Spectrum_GeoLocation';
   protected $locationDataType = '';
-  protected $spectraType = 'Google_Service_Spectrum_SpectrumMessage';
+  protected $spectraType = '\GoogleApiServices\Google_Service_Spectrum_SpectrumMessage';
   protected $spectraDataType = 'array';
   public $type;
   public $version;

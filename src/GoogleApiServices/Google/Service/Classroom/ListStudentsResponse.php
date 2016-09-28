@@ -19,7 +19,7 @@ class Google_Service_Classroom_ListStudentsResponse extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'students';
   public $nextPageToken;
-  protected $studentsType = 'Google_Service_Classroom_Student';
+  protected $studentsType = '\GoogleApiServices\Google_Service_Classroom_Student';
   protected $studentsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

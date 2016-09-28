@@ -20,11 +20,11 @@ class Google_Service_Dataproc_PigJob extends \GoogleApi\Google_Collection
   protected $collection_key = 'jarFileUris';
   public $continueOnFailure;
   public $jarFileUris;
-  protected $loggingConfigType = 'Google_Service_Dataproc_LoggingConfig';
+  protected $loggingConfigType = '\GoogleApiServices\Google_Service_Dataproc_LoggingConfig';
   protected $loggingConfigDataType = '';
   public $properties;
   public $queryFileUri;
-  protected $queryListType = 'Google_Service_Dataproc_QueryList';
+  protected $queryListType = '\GoogleApiServices\Google_Service_Dataproc_QueryList';
   protected $queryListDataType = '';
   public $scriptVariables;
 

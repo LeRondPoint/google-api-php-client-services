@@ -29,7 +29,7 @@ class Google_Service_Drive_DriveFileImageMediaMetadata extends \GoogleApi\Google
   public $height;
   public $isoSpeed;
   public $lens;
-  protected $locationType = 'Google_Service_Drive_DriveFileImageMediaMetadataLocation';
+  protected $locationType = '\GoogleApiServices\Google_Service_Drive_DriveFileImageMediaMetadataLocation';
   protected $locationDataType = '';
   public $maxApertureValue;
   public $meteringMode;

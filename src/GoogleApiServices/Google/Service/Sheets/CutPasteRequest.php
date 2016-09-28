@@ -17,10 +17,10 @@
 
 class Google_Service_Sheets_CutPasteRequest extends \GoogleApi\Google_Model
 {
-  protected $destinationType = 'Google_Service_Sheets_GridCoordinate';
+  protected $destinationType = '\GoogleApiServices\Google_Service_Sheets_GridCoordinate';
   protected $destinationDataType = '';
   public $pasteType;
-  protected $sourceType = 'Google_Service_Sheets_GridRange';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $sourceDataType = '';
 
   public function setDestination(Google_Service_Sheets_GridCoordinate $destination)

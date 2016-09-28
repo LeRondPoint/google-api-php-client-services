@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_ApksAddExternallyHostedResponse extends \GoogleApi\Google_Model
 {
-  protected $externallyHostedApkType = 'Google_Service_AndroidPublisher_ExternallyHostedApk';
+  protected $externallyHostedApkType = '\GoogleApiServices\Google_Service_AndroidPublisher_ExternallyHostedApk';
   protected $externallyHostedApkDataType = '';
 
   public function setExternallyHostedApk(Google_Service_AndroidPublisher_ExternallyHostedApk $externallyHostedApk)

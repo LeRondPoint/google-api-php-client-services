@@ -20,7 +20,7 @@ class Google_Service_YouTube_VideoCategory extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_VideoCategorySnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_VideoCategorySnippet';
   protected $snippetDataType = '';
 
   public function setEtag($etag)

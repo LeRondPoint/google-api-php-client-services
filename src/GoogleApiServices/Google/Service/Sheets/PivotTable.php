@@ -18,16 +18,16 @@
 class Google_Service_Sheets_PivotTable extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'values';
-  protected $columnsType = 'Google_Service_Sheets_PivotGroup';
+  protected $columnsType = '\GoogleApiServices\Google_Service_Sheets_PivotGroup';
   protected $columnsDataType = 'array';
-  protected $criteriaType = 'Google_Service_Sheets_PivotFilterCriteria';
+  protected $criteriaType = '\GoogleApiServices\Google_Service_Sheets_PivotFilterCriteria';
   protected $criteriaDataType = 'map';
-  protected $rowsType = 'Google_Service_Sheets_PivotGroup';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Sheets_PivotGroup';
   protected $rowsDataType = 'array';
-  protected $sourceType = 'Google_Service_Sheets_GridRange';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $sourceDataType = '';
   public $valueLayout;
-  protected $valuesType = 'Google_Service_Sheets_PivotValue';
+  protected $valuesType = '\GoogleApiServices\Google_Service_Sheets_PivotValue';
   protected $valuesDataType = 'array';
 
   public function setColumns($columns)

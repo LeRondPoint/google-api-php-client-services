@@ -20,7 +20,7 @@ class Google_Service_AndroidEnterprise_StoreCluster extends \GoogleApi\Google_Co
   protected $collection_key = 'productId';
   public $id;
   public $kind;
-  protected $nameType = 'Google_Service_AndroidEnterprise_LocalizedText';
+  protected $nameType = '\GoogleApiServices\Google_Service_AndroidEnterprise_LocalizedText';
   protected $nameDataType = 'array';
   public $orderInPage;
   public $productId;

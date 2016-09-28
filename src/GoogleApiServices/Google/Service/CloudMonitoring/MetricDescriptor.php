@@ -19,11 +19,11 @@ class Google_Service_CloudMonitoring_MetricDescriptor extends \GoogleApi\Google_
 {
   protected $collection_key = 'labels';
   public $description;
-  protected $labelsType = 'Google_Service_CloudMonitoring_MetricDescriptorLabelDescriptor';
+  protected $labelsType = '\GoogleApiServices\Google_Service_CloudMonitoring_MetricDescriptorLabelDescriptor';
   protected $labelsDataType = 'array';
   public $name;
   public $project;
-  protected $typeDescriptorType = 'Google_Service_CloudMonitoring_MetricDescriptorTypeDescriptor';
+  protected $typeDescriptorType = '\GoogleApiServices\Google_Service_CloudMonitoring_MetricDescriptorTypeDescriptor';
   protected $typeDescriptorDataType = '';
 
   public function setDescription($description)

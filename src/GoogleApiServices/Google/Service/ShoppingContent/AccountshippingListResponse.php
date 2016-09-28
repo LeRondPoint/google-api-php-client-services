@@ -20,7 +20,7 @@ class Google_Service_ShoppingContent_AccountshippingListResponse extends \Google
   protected $collection_key = 'resources';
   public $kind;
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_ShoppingContent_AccountShipping';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShipping';
   protected $resourcesDataType = 'array';
 
   public function setKind($kind)

@@ -19,7 +19,7 @@ class Google_Service_Manager_TemplatesListResponse extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'resources';
   public $nextPageToken;
-  protected $resourcesType = 'Google_Service_Manager_Template';
+  protected $resourcesType = '\GoogleApiServices\Google_Service_Manager_Template';
   protected $resourcesDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

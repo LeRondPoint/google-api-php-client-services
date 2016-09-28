@@ -25,11 +25,11 @@ class Google_Service_DeploymentManager_DeploymentmanagerResource extends \Google
   public $name;
   public $properties;
   public $type;
-  protected $updateType = 'Google_Service_DeploymentManager_ResourceUpdate';
+  protected $updateType = '\GoogleApiServices\Google_Service_DeploymentManager_ResourceUpdate';
   protected $updateDataType = '';
   public $updateTime;
   public $url;
-  protected $warningsType = 'Google_Service_DeploymentManager_DeploymentmanagerResourceWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_DeploymentManager_DeploymentmanagerResourceWarnings';
   protected $warningsDataType = 'array';
 
   public function setFinalProperties($finalProperties)

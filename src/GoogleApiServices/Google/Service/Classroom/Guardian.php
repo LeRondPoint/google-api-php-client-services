@@ -18,7 +18,7 @@
 class Google_Service_Classroom_Guardian extends \GoogleApi\Google_Model
 {
   public $guardianId;
-  protected $guardianProfileType = 'Google_Service_Classroom_UserProfile';
+  protected $guardianProfileType = '\GoogleApiServices\Google_Service_Classroom_UserProfile';
   protected $guardianProfileDataType = '';
   public $invitedEmailAddress;
   public $studentId;

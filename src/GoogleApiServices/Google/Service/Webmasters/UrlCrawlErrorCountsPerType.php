@@ -19,7 +19,7 @@ class Google_Service_Webmasters_UrlCrawlErrorCountsPerType extends \GoogleApi\Go
 {
   protected $collection_key = 'entries';
   public $category;
-  protected $entriesType = 'Google_Service_Webmasters_UrlCrawlErrorCount';
+  protected $entriesType = '\GoogleApiServices\Google_Service_Webmasters_UrlCrawlErrorCount';
   protected $entriesDataType = 'array';
   public $platform;
 

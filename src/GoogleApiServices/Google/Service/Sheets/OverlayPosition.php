@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_OverlayPosition extends \GoogleApi\Google_Model
 {
-  protected $anchorCellType = 'Google_Service_Sheets_GridCoordinate';
+  protected $anchorCellType = '\GoogleApiServices\Google_Service_Sheets_GridCoordinate';
   protected $anchorCellDataType = '';
   public $heightPixels;
   public $offsetXPixels;

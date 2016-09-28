@@ -18,7 +18,7 @@
 class Google_Service_Datastore_GqlQueryParameter extends \GoogleApi\Google_Model
 {
   public $cursor;
-  protected $valueType = 'Google_Service_Datastore_Value';
+  protected $valueType = '\GoogleApiServices\Google_Service_Datastore_Value';
   protected $valueDataType = '';
 
   public function setCursor($cursor)

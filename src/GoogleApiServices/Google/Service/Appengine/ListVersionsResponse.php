@@ -19,7 +19,7 @@ class Google_Service_Appengine_ListVersionsResponse extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'versions';
   public $nextPageToken;
-  protected $versionsType = 'Google_Service_Appengine_Version';
+  protected $versionsType = '\GoogleApiServices\Google_Service_Appengine_Version';
   protected $versionsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

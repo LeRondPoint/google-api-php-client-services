@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_PlacementsGenerateTagsResponse extends \Google
 {
   protected $collection_key = 'placementTags';
   public $kind;
-  protected $placementTagsType = 'Google_Service_Dfareporting_PlacementTag';
+  protected $placementTagsType = '\GoogleApiServices\Google_Service_Dfareporting_PlacementTag';
   protected $placementTagsDataType = 'array';
 
   public function setKind($kind)

@@ -18,7 +18,7 @@
 class Google_Service_ServiceRegistry_EndpointsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'endpoints';
-  protected $endpointsType = 'Google_Service_ServiceRegistry_Endpoint';
+  protected $endpointsType = '\GoogleApiServices\Google_Service_ServiceRegistry_Endpoint';
   protected $endpointsDataType = 'array';
   public $nextPageToken;
 

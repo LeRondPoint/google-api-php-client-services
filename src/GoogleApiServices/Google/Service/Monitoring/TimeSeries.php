@@ -18,12 +18,12 @@
 class Google_Service_Monitoring_TimeSeries extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'points';
-  protected $metricType = 'Google_Service_Monitoring_Metric';
+  protected $metricType = '\GoogleApiServices\Google_Service_Monitoring_Metric';
   protected $metricDataType = '';
   public $metricKind;
-  protected $pointsType = 'Google_Service_Monitoring_Point';
+  protected $pointsType = '\GoogleApiServices\Google_Service_Monitoring_Point';
   protected $pointsDataType = 'array';
-  protected $resourceType = 'Google_Service_Monitoring_MonitoredResource';
+  protected $resourceType = '\GoogleApiServices\Google_Service_Monitoring_MonitoredResource';
   protected $resourceDataType = '';
   public $valueType;
 

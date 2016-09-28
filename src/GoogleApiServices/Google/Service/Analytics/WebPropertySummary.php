@@ -23,7 +23,7 @@ class Google_Service_Analytics_WebPropertySummary extends \GoogleApi\Google_Coll
   public $kind;
   public $level;
   public $name;
-  protected $profilesType = 'Google_Service_Analytics_ProfileSummary';
+  protected $profilesType = '\GoogleApiServices\Google_Service_Analytics_ProfileSummary';
   protected $profilesDataType = 'array';
   public $starred;
   public $websiteUrl;

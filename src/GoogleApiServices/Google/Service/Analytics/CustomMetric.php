@@ -30,7 +30,7 @@ class Google_Service_Analytics_CustomMetric extends \GoogleApi\Google_Model
   public $maxValue;
   public $minValue;
   public $name;
-  protected $parentLinkType = 'Google_Service_Analytics_CustomMetricParentLink';
+  protected $parentLinkType = '\GoogleApiServices\Google_Service_Analytics_CustomMetricParentLink';
   protected $parentLinkDataType = '';
   public $scope;
   public $selfLink;

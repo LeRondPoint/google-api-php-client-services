@@ -20,7 +20,7 @@ class Google_Service_Directory_MobileDevices extends \GoogleApi\Google_Collectio
   protected $collection_key = 'mobiledevices';
   public $etag;
   public $kind;
-  protected $mobiledevicesType = 'Google_Service_Directory_MobileDevice';
+  protected $mobiledevicesType = '\GoogleApiServices\Google_Service_Directory_MobileDevice';
   protected $mobiledevicesDataType = 'array';
   public $nextPageToken;
 

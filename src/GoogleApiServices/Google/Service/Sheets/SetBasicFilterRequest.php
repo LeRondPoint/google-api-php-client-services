@@ -17,7 +17,7 @@
 
 class Google_Service_Sheets_SetBasicFilterRequest extends \GoogleApi\Google_Model
 {
-  protected $filterType = 'Google_Service_Sheets_BasicFilter';
+  protected $filterType = '\GoogleApiServices\Google_Service_Sheets_BasicFilter';
   protected $filterDataType = '';
 
   public function setFilter(Google_Service_Sheets_BasicFilter $filter)

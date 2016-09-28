@@ -19,17 +19,17 @@ class Google_Service_Dataproc_ClusterConfig extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'initializationActions';
   public $configBucket;
-  protected $gceClusterConfigType = 'Google_Service_Dataproc_GceClusterConfig';
+  protected $gceClusterConfigType = '\GoogleApiServices\Google_Service_Dataproc_GceClusterConfig';
   protected $gceClusterConfigDataType = '';
-  protected $initializationActionsType = 'Google_Service_Dataproc_NodeInitializationAction';
+  protected $initializationActionsType = '\GoogleApiServices\Google_Service_Dataproc_NodeInitializationAction';
   protected $initializationActionsDataType = 'array';
-  protected $masterConfigType = 'Google_Service_Dataproc_InstanceGroupConfig';
+  protected $masterConfigType = '\GoogleApiServices\Google_Service_Dataproc_InstanceGroupConfig';
   protected $masterConfigDataType = '';
-  protected $secondaryWorkerConfigType = 'Google_Service_Dataproc_InstanceGroupConfig';
+  protected $secondaryWorkerConfigType = '\GoogleApiServices\Google_Service_Dataproc_InstanceGroupConfig';
   protected $secondaryWorkerConfigDataType = '';
-  protected $softwareConfigType = 'Google_Service_Dataproc_SoftwareConfig';
+  protected $softwareConfigType = '\GoogleApiServices\Google_Service_Dataproc_SoftwareConfig';
   protected $softwareConfigDataType = '';
-  protected $workerConfigType = 'Google_Service_Dataproc_InstanceGroupConfig';
+  protected $workerConfigType = '\GoogleApiServices\Google_Service_Dataproc_InstanceGroupConfig';
   protected $workerConfigDataType = '';
 
   public function setConfigBucket($configBucket)

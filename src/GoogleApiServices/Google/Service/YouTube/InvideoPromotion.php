@@ -18,11 +18,11 @@
 class Google_Service_YouTube_InvideoPromotion extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $defaultTimingType = 'Google_Service_YouTube_InvideoTiming';
+  protected $defaultTimingType = '\GoogleApiServices\Google_Service_YouTube_InvideoTiming';
   protected $defaultTimingDataType = '';
-  protected $itemsType = 'Google_Service_YouTube_PromotedItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_PromotedItem';
   protected $itemsDataType = 'array';
-  protected $positionType = 'Google_Service_YouTube_InvideoPosition';
+  protected $positionType = '\GoogleApiServices\Google_Service_YouTube_InvideoPosition';
   protected $positionDataType = '';
   public $useSmartTiming;
 

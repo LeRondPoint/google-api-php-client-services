@@ -18,7 +18,7 @@
 class Google_Service_Bigquery_DatasetList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'datasets';
-  protected $datasetsType = 'Google_Service_Bigquery_DatasetListDatasets';
+  protected $datasetsType = '\GoogleApiServices\Google_Service_Bigquery_DatasetListDatasets';
   protected $datasetsDataType = 'array';
   public $etag;
   public $kind;

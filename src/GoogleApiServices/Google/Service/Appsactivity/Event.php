@@ -21,16 +21,16 @@ class Google_Service_Appsactivity_Event extends \GoogleApi\Google_Collection
   public $additionalEventTypes;
   public $eventTimeMillis;
   public $fromUserDeletion;
-  protected $moveType = 'Google_Service_Appsactivity_Move';
+  protected $moveType = '\GoogleApiServices\Google_Service_Appsactivity_Move';
   protected $moveDataType = '';
-  protected $permissionChangesType = 'Google_Service_Appsactivity_PermissionChange';
+  protected $permissionChangesType = '\GoogleApiServices\Google_Service_Appsactivity_PermissionChange';
   protected $permissionChangesDataType = 'array';
   public $primaryEventType;
-  protected $renameType = 'Google_Service_Appsactivity_Rename';
+  protected $renameType = '\GoogleApiServices\Google_Service_Appsactivity_Rename';
   protected $renameDataType = '';
-  protected $targetType = 'Google_Service_Appsactivity_Target';
+  protected $targetType = '\GoogleApiServices\Google_Service_Appsactivity_Target';
   protected $targetDataType = '';
-  protected $userType = 'Google_Service_Appsactivity_User';
+  protected $userType = '\GoogleApiServices\Google_Service_Appsactivity_User';
   protected $userDataType = '';
 
   public function setAdditionalEventTypes($additionalEventTypes)

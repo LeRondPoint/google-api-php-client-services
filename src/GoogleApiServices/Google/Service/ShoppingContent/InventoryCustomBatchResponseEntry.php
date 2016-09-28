@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_InventoryCustomBatchResponseEntry extends \GoogleApi\Google_Model
 {
   public $batchId;
-  protected $errorsType = 'Google_Service_ShoppingContent_Errors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_ShoppingContent_Errors';
   protected $errorsDataType = '';
   public $kind;
 

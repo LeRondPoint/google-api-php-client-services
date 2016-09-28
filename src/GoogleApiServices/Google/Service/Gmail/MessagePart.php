@@ -18,14 +18,14 @@
 class Google_Service_Gmail_MessagePart extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'parts';
-  protected $bodyType = 'Google_Service_Gmail_MessagePartBody';
+  protected $bodyType = '\GoogleApiServices\Google_Service_Gmail_MessagePartBody';
   protected $bodyDataType = '';
   public $filename;
-  protected $headersType = 'Google_Service_Gmail_MessagePartHeader';
+  protected $headersType = '\GoogleApiServices\Google_Service_Gmail_MessagePartHeader';
   protected $headersDataType = 'array';
   public $mimeType;
   public $partId;
-  protected $partsType = 'Google_Service_Gmail_MessagePart';
+  protected $partsType = '\GoogleApiServices\Google_Service_Gmail_MessagePart';
   protected $partsDataType = 'array';
 
   public function setBody(Google_Service_Gmail_MessagePartBody $body)

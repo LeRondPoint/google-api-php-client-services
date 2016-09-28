@@ -19,7 +19,7 @@ class Google_Service_Genomics_ListCoverageBucketsResponse extends \GoogleApi\Goo
 {
   protected $collection_key = 'coverageBuckets';
   public $bucketWidth;
-  protected $coverageBucketsType = 'Google_Service_Genomics_CoverageBucket';
+  protected $coverageBucketsType = '\GoogleApiServices\Google_Service_Genomics_CoverageBucket';
   protected $coverageBucketsDataType = 'array';
   public $nextPageToken;
 

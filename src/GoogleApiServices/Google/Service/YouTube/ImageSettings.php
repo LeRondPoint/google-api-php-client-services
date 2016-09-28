@@ -17,7 +17,7 @@
 
 class Google_Service_YouTube_ImageSettings extends \GoogleApi\Google_Model
 {
-  protected $backgroundImageUrlType = 'Google_Service_YouTube_LocalizedProperty';
+  protected $backgroundImageUrlType = '\GoogleApiServices\Google_Service_YouTube_LocalizedProperty';
   protected $backgroundImageUrlDataType = '';
   public $bannerExternalUrl;
   public $bannerImageUrl;
@@ -34,13 +34,13 @@ class Google_Service_YouTube_ImageSettings extends \GoogleApi\Google_Model
   public $bannerTvImageUrl;
   public $bannerTvLowImageUrl;
   public $bannerTvMediumImageUrl;
-  protected $largeBrandedBannerImageImapScriptType = 'Google_Service_YouTube_LocalizedProperty';
+  protected $largeBrandedBannerImageImapScriptType = '\GoogleApiServices\Google_Service_YouTube_LocalizedProperty';
   protected $largeBrandedBannerImageImapScriptDataType = '';
-  protected $largeBrandedBannerImageUrlType = 'Google_Service_YouTube_LocalizedProperty';
+  protected $largeBrandedBannerImageUrlType = '\GoogleApiServices\Google_Service_YouTube_LocalizedProperty';
   protected $largeBrandedBannerImageUrlDataType = '';
-  protected $smallBrandedBannerImageImapScriptType = 'Google_Service_YouTube_LocalizedProperty';
+  protected $smallBrandedBannerImageImapScriptType = '\GoogleApiServices\Google_Service_YouTube_LocalizedProperty';
   protected $smallBrandedBannerImageImapScriptDataType = '';
-  protected $smallBrandedBannerImageUrlType = 'Google_Service_YouTube_LocalizedProperty';
+  protected $smallBrandedBannerImageUrlType = '\GoogleApiServices\Google_Service_YouTube_LocalizedProperty';
   protected $smallBrandedBannerImageUrlDataType = '';
   public $trackingImageUrl;
   public $watchIconImageUrl;

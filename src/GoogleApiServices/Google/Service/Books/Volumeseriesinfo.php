@@ -21,7 +21,7 @@ class Google_Service_Books_Volumeseriesinfo extends \GoogleApi\Google_Collection
   public $bookDisplayNumber;
   public $kind;
   public $shortSeriesBookTitle;
-  protected $volumeSeriesType = 'Google_Service_Books_VolumeseriesinfoVolumeSeries';
+  protected $volumeSeriesType = '\GoogleApiServices\Google_Service_Books_VolumeseriesinfoVolumeSeries';
   protected $volumeSeriesDataType = 'array';
 
   public function setBookDisplayNumber($bookDisplayNumber)

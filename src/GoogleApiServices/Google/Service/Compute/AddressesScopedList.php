@@ -18,9 +18,9 @@
 class Google_Service_Compute_AddressesScopedList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'addresses';
-  protected $addressesType = 'Google_Service_Compute_Address';
+  protected $addressesType = '\GoogleApiServices\Google_Service_Compute_Address';
   protected $addressesDataType = 'array';
-  protected $warningType = 'Google_Service_Compute_AddressesScopedListWarning';
+  protected $warningType = '\GoogleApiServices\Google_Service_Compute_AddressesScopedListWarning';
   protected $warningDataType = '';
 
   public function setAddresses($addresses)

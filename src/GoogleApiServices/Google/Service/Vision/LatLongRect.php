@@ -17,9 +17,9 @@
 
 class Google_Service_Vision_LatLongRect extends \GoogleApi\Google_Model
 {
-  protected $maxLatLngType = 'Google_Service_Vision_LatLng';
+  protected $maxLatLngType = '\GoogleApiServices\Google_Service_Vision_LatLng';
   protected $maxLatLngDataType = '';
-  protected $minLatLngType = 'Google_Service_Vision_LatLng';
+  protected $minLatLngType = '\GoogleApiServices\Google_Service_Vision_LatLng';
   protected $minLatLngDataType = '';
 
   public function setMaxLatLng(Google_Service_Vision_LatLng $maxLatLng)

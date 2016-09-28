@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_AccounttaxCustomBatchRequestEntry extends \GoogleApi\Google_Model
 {
   public $accountId;
-  protected $accountTaxType = 'Google_Service_ShoppingContent_AccountTax';
+  protected $accountTaxType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountTax';
   protected $accountTaxDataType = '';
   public $batchId;
   public $merchantId;

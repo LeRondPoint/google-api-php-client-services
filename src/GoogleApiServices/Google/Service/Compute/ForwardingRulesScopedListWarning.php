@@ -19,7 +19,7 @@ class Google_Service_Compute_ForwardingRulesScopedListWarning extends \GoogleApi
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_ForwardingRulesScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_ForwardingRulesScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

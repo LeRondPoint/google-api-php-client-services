@@ -19,7 +19,7 @@ class Google_Service_Storagetransfer_ListOperationsResponse extends \GoogleApi\G
 {
   protected $collection_key = 'operations';
   public $nextPageToken;
-  protected $operationsType = 'Google_Service_Storagetransfer_Operation';
+  protected $operationsType = '\GoogleApiServices\Google_Service_Storagetransfer_Operation';
   protected $operationsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

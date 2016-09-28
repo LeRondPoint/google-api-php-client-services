@@ -18,14 +18,14 @@
 class Google_Service_CloudNaturalLanguageAPI_AnnotateTextResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'tokens';
-  protected $documentSentimentType = 'Google_Service_CloudNaturalLanguageAPI_Sentiment';
+  protected $documentSentimentType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Sentiment';
   protected $documentSentimentDataType = '';
-  protected $entitiesType = 'Google_Service_CloudNaturalLanguageAPI_Entity';
+  protected $entitiesType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Entity';
   protected $entitiesDataType = 'array';
   public $language;
-  protected $sentencesType = 'Google_Service_CloudNaturalLanguageAPI_Sentence';
+  protected $sentencesType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Sentence';
   protected $sentencesDataType = 'array';
-  protected $tokensType = 'Google_Service_CloudNaturalLanguageAPI_Token';
+  protected $tokensType = '\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_Token';
   protected $tokensDataType = 'array';
 
   public function setDocumentSentiment(Google_Service_CloudNaturalLanguageAPI_Sentiment $documentSentiment)

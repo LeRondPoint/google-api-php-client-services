@@ -17,16 +17,16 @@
 
 class Google_Service_YouTube_ChannelSection extends \GoogleApi\Google_Model
 {
-  protected $contentDetailsType = 'Google_Service_YouTube_ChannelSectionContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_ChannelSectionContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $localizationsType = 'Google_Service_YouTube_ChannelSectionLocalization';
+  protected $localizationsType = '\GoogleApiServices\Google_Service_YouTube_ChannelSectionLocalization';
   protected $localizationsDataType = 'map';
-  protected $snippetType = 'Google_Service_YouTube_ChannelSectionSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_ChannelSectionSnippet';
   protected $snippetDataType = '';
-  protected $targetingType = 'Google_Service_YouTube_ChannelSectionTargeting';
+  protected $targetingType = '\GoogleApiServices\Google_Service_YouTube_ChannelSectionTargeting';
   protected $targetingDataType = '';
 
   public function setContentDetails(Google_Service_YouTube_ChannelSectionContentDetails $contentDetails)

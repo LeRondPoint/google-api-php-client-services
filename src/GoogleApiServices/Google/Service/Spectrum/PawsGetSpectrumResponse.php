@@ -18,17 +18,17 @@
 class Google_Service_Spectrum_PawsGetSpectrumResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'spectrumSchedules';
-  protected $databaseChangeType = 'Google_Service_Spectrum_DbUpdateSpec';
+  protected $databaseChangeType = '\GoogleApiServices\Google_Service_Spectrum_DbUpdateSpec';
   protected $databaseChangeDataType = '';
-  protected $deviceDescType = 'Google_Service_Spectrum_DeviceDescriptor';
+  protected $deviceDescType = '\GoogleApiServices\Google_Service_Spectrum_DeviceDescriptor';
   protected $deviceDescDataType = '';
   public $kind;
   public $maxContiguousBwHz;
   public $maxTotalBwHz;
   public $needsSpectrumReport;
-  protected $rulesetInfoType = 'Google_Service_Spectrum_RulesetInfo';
+  protected $rulesetInfoType = '\GoogleApiServices\Google_Service_Spectrum_RulesetInfo';
   protected $rulesetInfoDataType = '';
-  protected $spectrumSchedulesType = 'Google_Service_Spectrum_SpectrumSchedule';
+  protected $spectrumSchedulesType = '\GoogleApiServices\Google_Service_Spectrum_SpectrumSchedule';
   protected $spectrumSchedulesDataType = 'array';
   public $timestamp;
   public $type;

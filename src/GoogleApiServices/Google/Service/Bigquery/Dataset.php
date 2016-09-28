@@ -18,10 +18,10 @@
 class Google_Service_Bigquery_Dataset extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'access';
-  protected $accessType = 'Google_Service_Bigquery_DatasetAccess';
+  protected $accessType = '\GoogleApiServices\Google_Service_Bigquery_DatasetAccess';
   protected $accessDataType = 'array';
   public $creationTime;
-  protected $datasetReferenceType = 'Google_Service_Bigquery_DatasetReference';
+  protected $datasetReferenceType = '\GoogleApiServices\Google_Service_Bigquery_DatasetReference';
   protected $datasetReferenceDataType = '';
   public $defaultTableExpirationMs;
   public $description;

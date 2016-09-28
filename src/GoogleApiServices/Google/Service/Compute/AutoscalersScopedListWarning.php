@@ -19,7 +19,7 @@ class Google_Service_Compute_AutoscalersScopedListWarning extends \GoogleApi\Goo
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_AutoscalersScopedListWarningData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_AutoscalersScopedListWarningData';
   protected $dataDataType = 'array';
   public $message;
 

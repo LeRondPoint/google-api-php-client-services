@@ -18,7 +18,7 @@
 class Google_Service_Doubleclicksearch_ReportRequestFilters extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'values';
-  protected $columnType = 'Google_Service_Doubleclicksearch_ReportApiColumnSpec';
+  protected $columnType = '\GoogleApiServices\Google_Service_Doubleclicksearch_ReportApiColumnSpec';
   protected $columnDataType = '';
   public $operator;
   public $values;

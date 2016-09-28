@@ -18,13 +18,13 @@
 class Google_Service_Sheets_FilterView extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sortSpecs';
-  protected $criteriaType = 'Google_Service_Sheets_FilterCriteria';
+  protected $criteriaType = '\GoogleApiServices\Google_Service_Sheets_FilterCriteria';
   protected $criteriaDataType = 'map';
   public $filterViewId;
   public $namedRangeId;
-  protected $rangeType = 'Google_Service_Sheets_GridRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Sheets_GridRange';
   protected $rangeDataType = '';
-  protected $sortSpecsType = 'Google_Service_Sheets_SortSpec';
+  protected $sortSpecsType = '\GoogleApiServices\Google_Service_Sheets_SortSpec';
   protected $sortSpecsDataType = 'array';
   public $title;
 

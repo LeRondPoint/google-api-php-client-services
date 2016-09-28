@@ -19,7 +19,7 @@ class Google_Service_AdExchangeBuyer_Dimension extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'dimensionValues';
   public $dimensionType;
-  protected $dimensionValuesType = 'Google_Service_AdExchangeBuyer_DimensionDimensionValue';
+  protected $dimensionValuesType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DimensionDimensionValue';
   protected $dimensionValuesDataType = 'array';
 
   public function setDimensionType($dimensionType)

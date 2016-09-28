@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListAccountUsersResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'userAccess';
-  protected $userAccessType = 'Google_Service_TagManager_UserAccess';
+  protected $userAccessType = '\GoogleApiServices\Google_Service_TagManager_UserAccess';
   protected $userAccessDataType = 'array';
 
   public function setUserAccess($userAccess)

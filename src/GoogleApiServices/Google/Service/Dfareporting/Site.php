@@ -21,17 +21,17 @@ class Google_Service_Dfareporting_Site extends \GoogleApi\Google_Collection
   public $accountId;
   public $approved;
   public $directorySiteId;
-  protected $directorySiteIdDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $directorySiteIdDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $directorySiteIdDimensionValueDataType = '';
   public $id;
-  protected $idDimensionValueType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $idDimensionValueType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $idDimensionValueDataType = '';
   public $keyName;
   public $kind;
   public $name;
-  protected $siteContactsType = 'Google_Service_Dfareporting_SiteContact';
+  protected $siteContactsType = '\GoogleApiServices\Google_Service_Dfareporting_SiteContact';
   protected $siteContactsDataType = 'array';
-  protected $siteSettingsType = 'Google_Service_Dfareporting_SiteSettings';
+  protected $siteSettingsType = '\GoogleApiServices\Google_Service_Dfareporting_SiteSettings';
   protected $siteSettingsDataType = '';
   public $subaccountId;
 

@@ -19,11 +19,11 @@ class Google_Service_ToolResults_ToolExecution extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'toolOutputs';
   public $commandLineArguments;
-  protected $exitCodeType = 'Google_Service_ToolResults_ToolExitCode';
+  protected $exitCodeType = '\GoogleApiServices\Google_Service_ToolResults_ToolExitCode';
   protected $exitCodeDataType = '';
-  protected $toolLogsType = 'Google_Service_ToolResults_FileReference';
+  protected $toolLogsType = '\GoogleApiServices\Google_Service_ToolResults_FileReference';
   protected $toolLogsDataType = 'array';
-  protected $toolOutputsType = 'Google_Service_ToolResults_ToolOutputReference';
+  protected $toolOutputsType = '\GoogleApiServices\Google_Service_ToolResults_ToolOutputReference';
   protected $toolOutputsDataType = 'array';
 
   public function setCommandLineArguments($commandLineArguments)

@@ -18,18 +18,18 @@
 class Google_Service_Dfareporting_ReportFloodlightCriteria extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'metricNames';
-  protected $customRichMediaEventsType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $customRichMediaEventsType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $customRichMediaEventsDataType = 'array';
-  protected $dateRangeType = 'Google_Service_Dfareporting_DateRange';
+  protected $dateRangeType = '\GoogleApiServices\Google_Service_Dfareporting_DateRange';
   protected $dateRangeDataType = '';
-  protected $dimensionFiltersType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $dimensionFiltersType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $dimensionFiltersDataType = 'array';
-  protected $dimensionsType = 'Google_Service_Dfareporting_SortedDimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_Dfareporting_SortedDimension';
   protected $dimensionsDataType = 'array';
-  protected $floodlightConfigIdType = 'Google_Service_Dfareporting_DimensionValue';
+  protected $floodlightConfigIdType = '\GoogleApiServices\Google_Service_Dfareporting_DimensionValue';
   protected $floodlightConfigIdDataType = '';
   public $metricNames;
-  protected $reportPropertiesType = 'Google_Service_Dfareporting_ReportFloodlightCriteriaReportProperties';
+  protected $reportPropertiesType = '\GoogleApiServices\Google_Service_Dfareporting_ReportFloodlightCriteriaReportProperties';
   protected $reportPropertiesDataType = '';
 
   public function setCustomRichMediaEvents($customRichMediaEvents)

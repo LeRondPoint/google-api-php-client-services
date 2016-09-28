@@ -21,7 +21,7 @@ class Google_Service_Resourceviews_Operation extends \GoogleApi\Google_Collectio
   public $clientOperationId;
   public $creationTimestamp;
   public $endTime;
-  protected $errorType = 'Google_Service_Resourceviews_OperationError';
+  protected $errorType = '\GoogleApiServices\Google_Service_Resourceviews_OperationError';
   protected $errorDataType = '';
   public $httpErrorMessage;
   public $httpErrorStatusCode;
@@ -39,7 +39,7 @@ class Google_Service_Resourceviews_Operation extends \GoogleApi\Google_Collectio
   public $targetId;
   public $targetLink;
   public $user;
-  protected $warningsType = 'Google_Service_Resourceviews_OperationWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_Resourceviews_OperationWarnings';
   protected $warningsDataType = 'array';
   public $zone;
 

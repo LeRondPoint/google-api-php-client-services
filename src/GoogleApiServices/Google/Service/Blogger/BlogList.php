@@ -18,9 +18,9 @@
 class Google_Service_Blogger_BlogList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $blogUserInfosType = 'Google_Service_Blogger_BlogUserInfo';
+  protected $blogUserInfosType = '\GoogleApiServices\Google_Service_Blogger_BlogUserInfo';
   protected $blogUserInfosDataType = 'array';
-  protected $itemsType = 'Google_Service_Blogger_Blog';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Blogger_Blog';
   protected $itemsDataType = 'array';
   public $kind;
 

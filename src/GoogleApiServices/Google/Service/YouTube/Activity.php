@@ -17,12 +17,12 @@
 
 class Google_Service_YouTube_Activity extends \GoogleApi\Google_Model
 {
-  protected $contentDetailsType = 'Google_Service_YouTube_ActivityContentDetails';
+  protected $contentDetailsType = '\GoogleApiServices\Google_Service_YouTube_ActivityContentDetails';
   protected $contentDetailsDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_ActivitySnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_ActivitySnippet';
   protected $snippetDataType = '';
 
   public function setContentDetails(Google_Service_YouTube_ActivityContentDetails $contentDetails)

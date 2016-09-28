@@ -17,7 +17,7 @@
 
 class Google_Service_Classroom_SharedDriveFile extends \GoogleApi\Google_Model
 {
-  protected $driveFileType = 'Google_Service_Classroom_DriveFile';
+  protected $driveFileType = '\GoogleApiServices\Google_Service_Classroom_DriveFile';
   protected $driveFileDataType = '';
   public $shareMode;
 

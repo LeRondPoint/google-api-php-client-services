@@ -18,7 +18,7 @@
 class Google_Service_ServiceManagement_ConfigChange extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'advices';
-  protected $advicesType = 'Google_Service_ServiceManagement_Advice';
+  protected $advicesType = '\GoogleApiServices\Google_Service_ServiceManagement_Advice';
   protected $advicesDataType = 'array';
   public $changeType;
   public $element;

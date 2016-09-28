@@ -20,7 +20,7 @@ class Google_Service_Datastore_QueryResultBatch extends \GoogleApi\Google_Collec
   protected $collection_key = 'entityResults';
   public $endCursor;
   public $entityResultType;
-  protected $entityResultsType = 'Google_Service_Datastore_EntityResult';
+  protected $entityResultsType = '\GoogleApiServices\Google_Service_Datastore_EntityResult';
   protected $entityResultsDataType = 'array';
   public $moreResults;
   public $skippedCursor;

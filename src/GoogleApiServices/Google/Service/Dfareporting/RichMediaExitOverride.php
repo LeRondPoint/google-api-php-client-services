@@ -17,7 +17,7 @@
 
 class Google_Service_Dfareporting_RichMediaExitOverride extends \GoogleApi\Google_Model
 {
-  protected $clickThroughUrlType = 'Google_Service_Dfareporting_ClickThroughUrl';
+  protected $clickThroughUrlType = '\GoogleApiServices\Google_Service_Dfareporting_ClickThroughUrl';
   protected $clickThroughUrlDataType = '';
   public $enabled;
   public $exitId;

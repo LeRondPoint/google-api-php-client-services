@@ -20,7 +20,7 @@ class Google_Service_AnalyticsReporting_PivotHeaderEntry extends \GoogleApi\Goog
   protected $collection_key = 'dimensionValues';
   public $dimensionNames;
   public $dimensionValues;
-  protected $metricType = 'Google_Service_AnalyticsReporting_MetricHeaderEntry';
+  protected $metricType = '\GoogleApiServices\Google_Service_AnalyticsReporting_MetricHeaderEntry';
   protected $metricDataType = '';
 
   public function setDimensionNames($dimensionNames)

@@ -19,7 +19,7 @@ class Google_Service_Directory_Notifications extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Directory_Notification';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Directory_Notification';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

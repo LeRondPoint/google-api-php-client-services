@@ -18,7 +18,7 @@
 class Google_Service_ConsumerSurveys_SurveysStopResponse extends \GoogleApi\Google_Model
 {
   public $requestId;
-  protected $resourceType = 'Google_Service_ConsumerSurveys_Survey';
+  protected $resourceType = '\GoogleApiServices\Google_Service_ConsumerSurveys_Survey';
   protected $resourceDataType = '';
 
   public function setRequestId($requestId)

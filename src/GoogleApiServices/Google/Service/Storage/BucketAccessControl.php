@@ -25,7 +25,7 @@ class Google_Service_Storage_BucketAccessControl extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $projectTeamType = 'Google_Service_Storage_BucketAccessControlProjectTeam';
+  protected $projectTeamType = '\GoogleApiServices\Google_Service_Storage_BucketAccessControlProjectTeam';
   protected $projectTeamDataType = '';
   public $role;
   public $selfLink;

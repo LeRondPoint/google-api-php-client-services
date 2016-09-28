@@ -19,7 +19,7 @@ class Google_Service_Compute_InstanceGroupsSetNamedPortsRequest extends \GoogleA
 {
   protected $collection_key = 'namedPorts';
   public $fingerprint;
-  protected $namedPortsType = 'Google_Service_Compute_NamedPort';
+  protected $namedPortsType = '\GoogleApiServices\Google_Service_Compute_NamedPort';
   protected $namedPortsDataType = 'array';
 
   public function setFingerprint($fingerprint)

@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_DirectorySitesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'directorySites';
-  protected $directorySitesType = 'Google_Service_Dfareporting_DirectorySite';
+  protected $directorySitesType = '\GoogleApiServices\Google_Service_Dfareporting_DirectorySite';
   protected $directorySitesDataType = 'array';
   public $kind;
   public $nextPageToken;

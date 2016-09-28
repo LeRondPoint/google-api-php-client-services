@@ -19,7 +19,7 @@ class Google_Service_AdSenseHost_UrlChannels extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_AdSenseHost_UrlChannel';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdSenseHost_UrlChannel';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

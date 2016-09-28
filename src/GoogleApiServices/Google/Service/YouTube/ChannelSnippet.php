@@ -21,10 +21,10 @@ class Google_Service_YouTube_ChannelSnippet extends \GoogleApi\Google_Model
   public $customUrl;
   public $defaultLanguage;
   public $description;
-  protected $localizedType = 'Google_Service_YouTube_ChannelLocalization';
+  protected $localizedType = '\GoogleApiServices\Google_Service_YouTube_ChannelLocalization';
   protected $localizedDataType = '';
   public $publishedAt;
-  protected $thumbnailsType = 'Google_Service_YouTube_ThumbnailDetails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_YouTube_ThumbnailDetails';
   protected $thumbnailsDataType = '';
   public $title;
 

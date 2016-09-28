@@ -17,10 +17,10 @@
 
 class Google_Service_Spectrum_PawsInitResponse extends \GoogleApi\Google_Model
 {
-  protected $databaseChangeType = 'Google_Service_Spectrum_DbUpdateSpec';
+  protected $databaseChangeType = '\GoogleApiServices\Google_Service_Spectrum_DbUpdateSpec';
   protected $databaseChangeDataType = '';
   public $kind;
-  protected $rulesetInfoType = 'Google_Service_Spectrum_RulesetInfo';
+  protected $rulesetInfoType = '\GoogleApiServices\Google_Service_Spectrum_RulesetInfo';
   protected $rulesetInfoDataType = '';
   public $type;
   public $version;

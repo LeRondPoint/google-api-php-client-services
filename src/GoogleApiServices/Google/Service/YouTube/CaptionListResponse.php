@@ -20,7 +20,7 @@ class Google_Service_YouTube_CaptionListResponse extends \GoogleApi\Google_Colle
   protected $collection_key = 'items';
   public $etag;
   public $eventId;
-  protected $itemsType = 'Google_Service_YouTube_Caption';
+  protected $itemsType = '\GoogleApiServices\Google_Service_YouTube_Caption';
   protected $itemsDataType = 'array';
   public $kind;
   public $visitorId;

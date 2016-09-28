@@ -22,12 +22,12 @@ class Google_Service_Games_PlayerLeaderboardScore extends \GoogleApi\Google_Mode
   );
   public $kind;
   public $leaderboardId;
-  protected $publicRankType = 'Google_Service_Games_LeaderboardScoreRank';
+  protected $publicRankType = '\GoogleApiServices\Google_Service_Games_LeaderboardScoreRank';
   protected $publicRankDataType = '';
   public $scoreString;
   public $scoreTag;
   public $scoreValue;
-  protected $socialRankType = 'Google_Service_Games_LeaderboardScoreRank';
+  protected $socialRankType = '\GoogleApiServices\Google_Service_Games_LeaderboardScoreRank';
   protected $socialRankDataType = '';
   public $timeSpan;
   public $writeTimestamp;

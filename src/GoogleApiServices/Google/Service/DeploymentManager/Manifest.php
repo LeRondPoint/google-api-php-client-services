@@ -18,11 +18,11 @@
 class Google_Service_DeploymentManager_Manifest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'imports';
-  protected $configType = 'Google_Service_DeploymentManager_ConfigFile';
+  protected $configType = '\GoogleApiServices\Google_Service_DeploymentManager_ConfigFile';
   protected $configDataType = '';
   public $expandedConfig;
   public $id;
-  protected $importsType = 'Google_Service_DeploymentManager_ImportFile';
+  protected $importsType = '\GoogleApiServices\Google_Service_DeploymentManager_ImportFile';
   protected $importsDataType = 'array';
   public $insertTime;
   public $layout;

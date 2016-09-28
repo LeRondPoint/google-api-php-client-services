@@ -17,7 +17,7 @@
 
 class Google_Service_SQLAdmin_InstancesExportRequest extends \GoogleApi\Google_Model
 {
-  protected $exportContextType = 'Google_Service_SQLAdmin_ExportContext';
+  protected $exportContextType = '\GoogleApiServices\Google_Service_SQLAdmin_ExportContext';
   protected $exportContextDataType = '';
 
   public function setExportContext(Google_Service_SQLAdmin_ExportContext $exportContext)

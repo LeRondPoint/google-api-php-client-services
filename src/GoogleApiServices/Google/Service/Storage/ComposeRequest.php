@@ -18,10 +18,10 @@
 class Google_Service_Storage_ComposeRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sourceObjects';
-  protected $destinationType = 'Google_Service_Storage_StorageObject';
+  protected $destinationType = '\GoogleApiServices\Google_Service_Storage_StorageObject';
   protected $destinationDataType = '';
   public $kind;
-  protected $sourceObjectsType = 'Google_Service_Storage_ComposeRequestSourceObjects';
+  protected $sourceObjectsType = '\GoogleApiServices\Google_Service_Storage_ComposeRequestSourceObjects';
   protected $sourceObjectsDataType = 'array';
 
   public function setDestination(Google_Service_Storage_StorageObject $destination)

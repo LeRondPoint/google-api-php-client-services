@@ -17,9 +17,9 @@
 
 class Google_Service_Analytics_RemarketingAudienceStateBasedAudienceDefinition extends \GoogleApi\Google_Model
 {
-  protected $excludeConditionsType = 'Google_Service_Analytics_RemarketingAudienceStateBasedAudienceDefinitionExcludeConditions';
+  protected $excludeConditionsType = '\GoogleApiServices\Google_Service_Analytics_RemarketingAudienceStateBasedAudienceDefinitionExcludeConditions';
   protected $excludeConditionsDataType = '';
-  protected $includeConditionsType = 'Google_Service_Analytics_IncludeConditions';
+  protected $includeConditionsType = '\GoogleApiServices\Google_Service_Analytics_IncludeConditions';
   protected $includeConditionsDataType = '';
 
   public function setExcludeConditions(Google_Service_Analytics_RemarketingAudienceStateBasedAudienceDefinitionExcludeConditions $excludeConditions)

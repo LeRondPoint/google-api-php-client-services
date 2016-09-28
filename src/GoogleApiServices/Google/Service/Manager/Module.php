@@ -17,17 +17,17 @@
 
 class Google_Service_Manager_Module extends \GoogleApi\Google_Model
 {
-  protected $autoscalingModuleType = 'Google_Service_Manager_AutoscalingModule';
+  protected $autoscalingModuleType = '\GoogleApiServices\Google_Service_Manager_AutoscalingModule';
   protected $autoscalingModuleDataType = '';
-  protected $firewallModuleType = 'Google_Service_Manager_FirewallModule';
+  protected $firewallModuleType = '\GoogleApiServices\Google_Service_Manager_FirewallModule';
   protected $firewallModuleDataType = '';
-  protected $healthCheckModuleType = 'Google_Service_Manager_HealthCheckModule';
+  protected $healthCheckModuleType = '\GoogleApiServices\Google_Service_Manager_HealthCheckModule';
   protected $healthCheckModuleDataType = '';
-  protected $lbModuleType = 'Google_Service_Manager_LbModule';
+  protected $lbModuleType = '\GoogleApiServices\Google_Service_Manager_LbModule';
   protected $lbModuleDataType = '';
-  protected $networkModuleType = 'Google_Service_Manager_NetworkModule';
+  protected $networkModuleType = '\GoogleApiServices\Google_Service_Manager_NetworkModule';
   protected $networkModuleDataType = '';
-  protected $replicaPoolModuleType = 'Google_Service_Manager_ReplicaPoolModule';
+  protected $replicaPoolModuleType = '\GoogleApiServices\Google_Service_Manager_ReplicaPoolModule';
   protected $replicaPoolModuleDataType = '';
   public $type;
 

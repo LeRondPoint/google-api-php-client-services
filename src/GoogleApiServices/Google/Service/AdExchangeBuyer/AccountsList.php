@@ -18,7 +18,7 @@
 class Google_Service_AdExchangeBuyer_AccountsList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_AdExchangeBuyer_Account';
+  protected $itemsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Account';
   protected $itemsDataType = 'array';
   public $kind;
 

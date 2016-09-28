@@ -18,7 +18,7 @@
 class Google_Service_Manager_FirewallModule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'targetTags';
-  protected $allowedType = 'Google_Service_Manager_AllowedRule';
+  protected $allowedType = '\GoogleApiServices\Google_Service_Manager_AllowedRule';
   protected $allowedDataType = 'array';
   public $description;
   public $network;

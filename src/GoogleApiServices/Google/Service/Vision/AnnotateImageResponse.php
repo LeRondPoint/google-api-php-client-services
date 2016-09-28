@@ -18,21 +18,21 @@
 class Google_Service_Vision_AnnotateImageResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'textAnnotations';
-  protected $errorType = 'Google_Service_Vision_Status';
+  protected $errorType = '\GoogleApiServices\Google_Service_Vision_Status';
   protected $errorDataType = '';
-  protected $faceAnnotationsType = 'Google_Service_Vision_FaceAnnotation';
+  protected $faceAnnotationsType = '\GoogleApiServices\Google_Service_Vision_FaceAnnotation';
   protected $faceAnnotationsDataType = 'array';
-  protected $imagePropertiesAnnotationType = 'Google_Service_Vision_ImageProperties';
+  protected $imagePropertiesAnnotationType = '\GoogleApiServices\Google_Service_Vision_ImageProperties';
   protected $imagePropertiesAnnotationDataType = '';
-  protected $labelAnnotationsType = 'Google_Service_Vision_EntityAnnotation';
+  protected $labelAnnotationsType = '\GoogleApiServices\Google_Service_Vision_EntityAnnotation';
   protected $labelAnnotationsDataType = 'array';
-  protected $landmarkAnnotationsType = 'Google_Service_Vision_EntityAnnotation';
+  protected $landmarkAnnotationsType = '\GoogleApiServices\Google_Service_Vision_EntityAnnotation';
   protected $landmarkAnnotationsDataType = 'array';
-  protected $logoAnnotationsType = 'Google_Service_Vision_EntityAnnotation';
+  protected $logoAnnotationsType = '\GoogleApiServices\Google_Service_Vision_EntityAnnotation';
   protected $logoAnnotationsDataType = 'array';
-  protected $safeSearchAnnotationType = 'Google_Service_Vision_SafeSearchAnnotation';
+  protected $safeSearchAnnotationType = '\GoogleApiServices\Google_Service_Vision_SafeSearchAnnotation';
   protected $safeSearchAnnotationDataType = '';
-  protected $textAnnotationsType = 'Google_Service_Vision_EntityAnnotation';
+  protected $textAnnotationsType = '\GoogleApiServices\Google_Service_Vision_EntityAnnotation';
   protected $textAnnotationsDataType = 'array';
 
   public function setError(Google_Service_Vision_Status $error)

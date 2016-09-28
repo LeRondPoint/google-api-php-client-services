@@ -20,7 +20,7 @@ class Google_Service_YouTube_LiveChatBan extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_LiveChatBanSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_LiveChatBanSnippet';
   protected $snippetDataType = '';
 
   public function setEtag($etag)

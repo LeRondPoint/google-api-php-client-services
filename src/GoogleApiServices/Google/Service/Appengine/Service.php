@@ -19,7 +19,7 @@ class Google_Service_Appengine_Service extends \GoogleApi\Google_Model
 {
   public $id;
   public $name;
-  protected $splitType = 'Google_Service_Appengine_TrafficSplit';
+  protected $splitType = '\GoogleApiServices\Google_Service_Appengine_TrafficSplit';
   protected $splitDataType = '';
 
   public function setId($id)

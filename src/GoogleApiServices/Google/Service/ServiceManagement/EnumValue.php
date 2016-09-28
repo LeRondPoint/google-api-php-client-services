@@ -20,7 +20,7 @@ class Google_Service_ServiceManagement_EnumValue extends \GoogleApi\Google_Colle
   protected $collection_key = 'options';
   public $name;
   public $number;
-  protected $optionsType = 'Google_Service_ServiceManagement_Option';
+  protected $optionsType = '\GoogleApiServices\Google_Service_ServiceManagement_Option';
   protected $optionsDataType = 'array';
 
   public function setName($name)

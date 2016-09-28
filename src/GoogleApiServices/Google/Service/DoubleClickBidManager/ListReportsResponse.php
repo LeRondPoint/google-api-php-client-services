@@ -19,7 +19,7 @@ class Google_Service_DoubleClickBidManager_ListReportsResponse extends \GoogleAp
 {
   protected $collection_key = 'reports';
   public $kind;
-  protected $reportsType = 'Google_Service_DoubleClickBidManager_Report';
+  protected $reportsType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_Report';
   protected $reportsDataType = 'array';
 
   public function setKind($kind)

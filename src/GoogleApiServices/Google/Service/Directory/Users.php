@@ -25,7 +25,7 @@ class Google_Service_Directory_Users extends \GoogleApi\Google_Collection
   public $kind;
   public $nextPageToken;
   public $triggerEvent;
-  protected $usersType = 'Google_Service_Directory_User';
+  protected $usersType = '\GoogleApiServices\Google_Service_Directory_User';
   protected $usersDataType = 'array';
 
   public function setEtag($etag)

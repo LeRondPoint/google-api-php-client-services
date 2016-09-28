@@ -22,7 +22,7 @@ class Google_Service_Fitness_Dataset extends \GoogleApi\Google_Collection
   public $maxEndTimeNs;
   public $minStartTimeNs;
   public $nextPageToken;
-  protected $pointType = 'Google_Service_Fitness_DataPoint';
+  protected $pointType = '\GoogleApiServices\Google_Service_Fitness_DataPoint';
   protected $pointDataType = 'array';
 
   public function setDataSourceId($dataSourceId)

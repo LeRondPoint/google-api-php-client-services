@@ -17,7 +17,7 @@
 
 class Google_Service_People_Interest extends \GoogleApi\Google_Model
 {
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $value;
 

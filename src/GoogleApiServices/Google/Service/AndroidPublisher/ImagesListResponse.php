@@ -18,7 +18,7 @@
 class Google_Service_AndroidPublisher_ImagesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'images';
-  protected $imagesType = 'Google_Service_AndroidPublisher_Image';
+  protected $imagesType = '\GoogleApiServices\Google_Service_AndroidPublisher_Image';
   protected $imagesDataType = 'array';
 
   public function setImages($images)

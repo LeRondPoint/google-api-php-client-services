@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_OrdersCreateTestOrderRequest extends \GoogleApi\Google_Model
 {
   public $templateName;
-  protected $testOrderType = 'Google_Service_ShoppingContent_TestOrder';
+  protected $testOrderType = '\GoogleApiServices\Google_Service_ShoppingContent_TestOrder';
   protected $testOrderDataType = '';
 
   public function setTemplateName($templateName)

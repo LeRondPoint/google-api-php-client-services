@@ -17,9 +17,9 @@
 
 class Google_Service_Books_RequestAccess extends \GoogleApi\Google_Model
 {
-  protected $concurrentAccessType = 'Google_Service_Books_ConcurrentAccessRestriction';
+  protected $concurrentAccessType = '\GoogleApiServices\Google_Service_Books_ConcurrentAccessRestriction';
   protected $concurrentAccessDataType = '';
-  protected $downloadAccessType = 'Google_Service_Books_DownloadAccessRestriction';
+  protected $downloadAccessType = '\GoogleApiServices\Google_Service_Books_DownloadAccessRestriction';
   protected $downloadAccessDataType = '';
   public $kind;
 

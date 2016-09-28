@@ -19,7 +19,7 @@ class Google_Service_Compute_SubnetworkList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_Subnetwork';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_Subnetwork';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

@@ -18,7 +18,7 @@
 class Google_Service_Webmasters_ApiDimensionFilterGroup extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'filters';
-  protected $filtersType = 'Google_Service_Webmasters_ApiDimensionFilter';
+  protected $filtersType = '\GoogleApiServices\Google_Service_Webmasters_ApiDimensionFilter';
   protected $filtersDataType = 'array';
   public $groupType;
 

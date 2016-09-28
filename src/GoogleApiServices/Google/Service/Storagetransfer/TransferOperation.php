@@ -18,17 +18,17 @@
 class Google_Service_Storagetransfer_TransferOperation extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errorBreakdowns';
-  protected $countersType = 'Google_Service_Storagetransfer_TransferCounters';
+  protected $countersType = '\GoogleApiServices\Google_Service_Storagetransfer_TransferCounters';
   protected $countersDataType = '';
   public $endTime;
-  protected $errorBreakdownsType = 'Google_Service_Storagetransfer_ErrorSummary';
+  protected $errorBreakdownsType = '\GoogleApiServices\Google_Service_Storagetransfer_ErrorSummary';
   protected $errorBreakdownsDataType = 'array';
   public $name;
   public $projectId;
   public $startTime;
   public $status;
   public $transferJobName;
-  protected $transferSpecType = 'Google_Service_Storagetransfer_TransferSpec';
+  protected $transferSpecType = '\GoogleApiServices\Google_Service_Storagetransfer_TransferSpec';
   protected $transferSpecDataType = '';
 
   public function setCounters(Google_Service_Storagetransfer_TransferCounters $counters)

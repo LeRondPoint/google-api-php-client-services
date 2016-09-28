@@ -18,9 +18,9 @@
 class Google_Service_AdExchangeBuyer_EditAllOrderDealsRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'deals';
-  protected $dealsType = 'Google_Service_AdExchangeBuyer_MarketplaceDeal';
+  protected $dealsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_MarketplaceDeal';
   protected $dealsDataType = 'array';
-  protected $proposalType = 'Google_Service_AdExchangeBuyer_Proposal';
+  protected $proposalType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Proposal';
   protected $proposalDataType = '';
   public $proposalRevisionNumber;
   public $updateAction;

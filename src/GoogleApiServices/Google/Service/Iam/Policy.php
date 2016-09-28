@@ -18,10 +18,10 @@
 class Google_Service_Iam_Policy extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rules';
-  protected $bindingsType = 'Google_Service_Iam_Binding';
+  protected $bindingsType = '\GoogleApiServices\Google_Service_Iam_Binding';
   protected $bindingsDataType = 'array';
   public $etag;
-  protected $rulesType = 'Google_Service_Iam_Rule';
+  protected $rulesType = '\GoogleApiServices\Google_Service_Iam_Rule';
   protected $rulesDataType = 'array';
   public $version;
 

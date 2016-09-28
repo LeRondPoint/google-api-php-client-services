@@ -18,7 +18,7 @@
 class Google_Service_Sheets_SpreadsheetProperties extends \GoogleApi\Google_Model
 {
   public $autoRecalc;
-  protected $defaultFormatType = 'Google_Service_Sheets_CellFormat';
+  protected $defaultFormatType = '\GoogleApiServices\Google_Service_Sheets_CellFormat';
   protected $defaultFormatDataType = '';
   public $locale;
   public $timeZone;

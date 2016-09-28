@@ -19,7 +19,7 @@ class Google_Service_Bigquery_JobList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'jobs';
   public $etag;
-  protected $jobsType = 'Google_Service_Bigquery_JobListJobs';
+  protected $jobsType = '\GoogleApiServices\Google_Service_Bigquery_JobListJobs';
   protected $jobsDataType = 'array';
   public $kind;
   public $nextPageToken;

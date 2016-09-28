@@ -17,13 +17,13 @@
 
 class Google_Service_Spectrum_PawsRegisterRequest extends \GoogleApi\Google_Model
 {
-  protected $antennaType = 'Google_Service_Spectrum_AntennaCharacteristics';
+  protected $antennaType = '\GoogleApiServices\Google_Service_Spectrum_AntennaCharacteristics';
   protected $antennaDataType = '';
-  protected $deviceDescType = 'Google_Service_Spectrum_DeviceDescriptor';
+  protected $deviceDescType = '\GoogleApiServices\Google_Service_Spectrum_DeviceDescriptor';
   protected $deviceDescDataType = '';
-  protected $deviceOwnerType = 'Google_Service_Spectrum_DeviceOwner';
+  protected $deviceOwnerType = '\GoogleApiServices\Google_Service_Spectrum_DeviceOwner';
   protected $deviceOwnerDataType = '';
-  protected $locationType = 'Google_Service_Spectrum_GeoLocation';
+  protected $locationType = '\GoogleApiServices\Google_Service_Spectrum_GeoLocation';
   protected $locationDataType = '';
   public $type;
   public $version;

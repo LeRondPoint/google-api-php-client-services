@@ -18,7 +18,7 @@
 class Google_Service_AnalyticsReporting_DateRangeValues extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'values';
-  protected $pivotValueRegionsType = 'Google_Service_AnalyticsReporting_PivotValueRegion';
+  protected $pivotValueRegionsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_PivotValueRegion';
   protected $pivotValueRegionsDataType = 'array';
   public $values;
 

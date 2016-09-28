@@ -20,15 +20,15 @@ class Google_Service_Plus_ActivityObjectAttachments extends \GoogleApi\Google_Co
   protected $collection_key = 'thumbnails';
   public $content;
   public $displayName;
-  protected $embedType = 'Google_Service_Plus_ActivityObjectAttachmentsEmbed';
+  protected $embedType = '\GoogleApiServices\Google_Service_Plus_ActivityObjectAttachmentsEmbed';
   protected $embedDataType = '';
-  protected $fullImageType = 'Google_Service_Plus_ActivityObjectAttachmentsFullImage';
+  protected $fullImageType = '\GoogleApiServices\Google_Service_Plus_ActivityObjectAttachmentsFullImage';
   protected $fullImageDataType = '';
   public $id;
-  protected $imageType = 'Google_Service_Plus_ActivityObjectAttachmentsImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_Plus_ActivityObjectAttachmentsImage';
   protected $imageDataType = '';
   public $objectType;
-  protected $thumbnailsType = 'Google_Service_Plus_ActivityObjectAttachmentsThumbnails';
+  protected $thumbnailsType = '\GoogleApiServices\Google_Service_Plus_ActivityObjectAttachmentsThumbnails';
   protected $thumbnailsDataType = 'array';
   public $url;
 

@@ -17,7 +17,7 @@
 
 class Google_Service_YouTube_LiveBroadcastTopic extends \GoogleApi\Google_Model
 {
-  protected $snippetType = 'Google_Service_YouTube_LiveBroadcastTopicSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_LiveBroadcastTopicSnippet';
   protected $snippetDataType = '';
   public $type;
   public $unmatched;

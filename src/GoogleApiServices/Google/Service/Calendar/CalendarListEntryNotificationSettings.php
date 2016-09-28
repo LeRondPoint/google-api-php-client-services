@@ -18,7 +18,7 @@
 class Google_Service_Calendar_CalendarListEntryNotificationSettings extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'notifications';
-  protected $notificationsType = 'Google_Service_Calendar_CalendarNotification';
+  protected $notificationsType = '\GoogleApiServices\Google_Service_Calendar_CalendarNotification';
   protected $notificationsDataType = 'array';
 
   public function setNotifications($notifications)

@@ -18,7 +18,7 @@
 class Google_Service_Safebrowsing_FindFullHashesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'matches';
-  protected $matchesType = 'Google_Service_Safebrowsing_ThreatMatch';
+  protected $matchesType = '\GoogleApiServices\Google_Service_Safebrowsing_ThreatMatch';
   protected $matchesDataType = 'array';
   public $minimumWaitDuration;
   public $negativeCacheDuration;

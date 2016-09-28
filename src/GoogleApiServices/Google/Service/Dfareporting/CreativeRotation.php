@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CreativeRotation extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'creativeAssignments';
-  protected $creativeAssignmentsType = 'Google_Service_Dfareporting_CreativeAssignment';
+  protected $creativeAssignmentsType = '\GoogleApiServices\Google_Service_Dfareporting_CreativeAssignment';
   protected $creativeAssignmentsDataType = 'array';
   public $creativeOptimizationConfigurationId;
   public $type;

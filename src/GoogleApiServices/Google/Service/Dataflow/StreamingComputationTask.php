@@ -18,9 +18,9 @@
 class Google_Service_Dataflow_StreamingComputationTask extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'dataDisks';
-  protected $computationRangesType = 'Google_Service_Dataflow_StreamingComputationRanges';
+  protected $computationRangesType = '\GoogleApiServices\Google_Service_Dataflow_StreamingComputationRanges';
   protected $computationRangesDataType = 'array';
-  protected $dataDisksType = 'Google_Service_Dataflow_MountedDataDisk';
+  protected $dataDisksType = '\GoogleApiServices\Google_Service_Dataflow_MountedDataDisk';
   protected $dataDisksDataType = 'array';
   public $taskType;
 

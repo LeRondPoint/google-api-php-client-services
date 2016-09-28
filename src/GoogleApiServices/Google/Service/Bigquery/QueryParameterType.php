@@ -18,9 +18,9 @@
 class Google_Service_Bigquery_QueryParameterType extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'structTypes';
-  protected $arrayTypeType = 'Google_Service_Bigquery_QueryParameterType';
+  protected $arrayTypeType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameterType';
   protected $arrayTypeDataType = '';
-  protected $structTypesType = 'Google_Service_Bigquery_QueryParameterTypeStructTypes';
+  protected $structTypesType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameterTypeStructTypes';
   protected $structTypesDataType = 'array';
   public $type;
 

@@ -21,7 +21,7 @@ class Google_Service_ShoppingContent_AccountShippingLocationGroup extends \Googl
   public $country;
   public $locationIds;
   public $name;
-  protected $postalCodeRangesType = 'Google_Service_ShoppingContent_AccountShippingPostalCodeRange';
+  protected $postalCodeRangesType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingPostalCodeRange';
   protected $postalCodeRangesDataType = 'array';
   public $postalCodes;
 

@@ -18,7 +18,7 @@
 class Google_Service_Analytics_GaDataDataTableRows extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'c';
-  protected $cType = 'Google_Service_Analytics_GaDataDataTableRowsC';
+  protected $cType = '\GoogleApiServices\Google_Service_Analytics_GaDataDataTableRowsC';
   protected $cDataType = 'array';
 
   public function setC($c)

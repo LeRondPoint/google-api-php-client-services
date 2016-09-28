@@ -18,7 +18,7 @@
 class Google_Service_Resourceviews_ZoneViewsListResourcesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Resourceviews_ListResourceResponseItem';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Resourceviews_ListResourceResponseItem';
   protected $itemsDataType = 'array';
   public $network;
   public $nextPageToken;

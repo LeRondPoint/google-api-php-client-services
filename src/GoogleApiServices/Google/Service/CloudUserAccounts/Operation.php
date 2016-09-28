@@ -22,7 +22,7 @@ class Google_Service_CloudUserAccounts_Operation extends \GoogleApi\Google_Colle
   public $creationTimestamp;
   public $description;
   public $endTime;
-  protected $errorType = 'Google_Service_CloudUserAccounts_OperationError';
+  protected $errorType = '\GoogleApiServices\Google_Service_CloudUserAccounts_OperationError';
   protected $errorDataType = '';
   public $httpErrorMessage;
   public $httpErrorStatusCode;
@@ -40,7 +40,7 @@ class Google_Service_CloudUserAccounts_Operation extends \GoogleApi\Google_Colle
   public $targetId;
   public $targetLink;
   public $user;
-  protected $warningsType = 'Google_Service_CloudUserAccounts_OperationWarnings';
+  protected $warningsType = '\GoogleApiServices\Google_Service_CloudUserAccounts_OperationWarnings';
   protected $warningsDataType = 'array';
   public $zone;
 

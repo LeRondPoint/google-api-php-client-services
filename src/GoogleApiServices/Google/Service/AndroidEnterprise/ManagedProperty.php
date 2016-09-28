@@ -20,9 +20,9 @@ class Google_Service_AndroidEnterprise_ManagedProperty extends \GoogleApi\Google
   protected $collection_key = 'valueStringArray';
   public $key;
   public $valueBool;
-  protected $valueBundleType = 'Google_Service_AndroidEnterprise_ManagedPropertyBundle';
+  protected $valueBundleType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedPropertyBundle';
   protected $valueBundleDataType = '';
-  protected $valueBundleArrayType = 'Google_Service_AndroidEnterprise_ManagedPropertyBundle';
+  protected $valueBundleArrayType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedPropertyBundle';
   protected $valueBundleArrayDataType = 'array';
   public $valueInteger;
   public $valueString;

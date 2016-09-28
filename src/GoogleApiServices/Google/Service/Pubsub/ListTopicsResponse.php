@@ -19,7 +19,7 @@ class Google_Service_Pubsub_ListTopicsResponse extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'topics';
   public $nextPageToken;
-  protected $topicsType = 'Google_Service_Pubsub_Topic';
+  protected $topicsType = '\GoogleApiServices\Google_Service_Pubsub_Topic';
   protected $topicsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

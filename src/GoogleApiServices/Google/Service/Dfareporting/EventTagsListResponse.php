@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_EventTagsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'eventTags';
-  protected $eventTagsType = 'Google_Service_Dfareporting_EventTag';
+  protected $eventTagsType = '\GoogleApiServices\Google_Service_Dfareporting_EventTag';
   protected $eventTagsDataType = 'array';
   public $kind;
 

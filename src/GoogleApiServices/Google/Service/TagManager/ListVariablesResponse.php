@@ -18,7 +18,7 @@
 class Google_Service_TagManager_ListVariablesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'variables';
-  protected $variablesType = 'Google_Service_TagManager_Variable';
+  protected $variablesType = '\GoogleApiServices\Google_Service_TagManager_Variable';
   protected $variablesDataType = 'array';
 
   public function setVariables($variables)

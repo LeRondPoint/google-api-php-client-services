@@ -17,23 +17,23 @@
 
 class Google_Service_Books_Volume extends \GoogleApi\Google_Model
 {
-  protected $accessInfoType = 'Google_Service_Books_VolumeAccessInfo';
+  protected $accessInfoType = '\GoogleApiServices\Google_Service_Books_VolumeAccessInfo';
   protected $accessInfoDataType = '';
   public $etag;
   public $id;
   public $kind;
-  protected $layerInfoType = 'Google_Service_Books_VolumeLayerInfo';
+  protected $layerInfoType = '\GoogleApiServices\Google_Service_Books_VolumeLayerInfo';
   protected $layerInfoDataType = '';
-  protected $recommendedInfoType = 'Google_Service_Books_VolumeRecommendedInfo';
+  protected $recommendedInfoType = '\GoogleApiServices\Google_Service_Books_VolumeRecommendedInfo';
   protected $recommendedInfoDataType = '';
-  protected $saleInfoType = 'Google_Service_Books_VolumeSaleInfo';
+  protected $saleInfoType = '\GoogleApiServices\Google_Service_Books_VolumeSaleInfo';
   protected $saleInfoDataType = '';
-  protected $searchInfoType = 'Google_Service_Books_VolumeSearchInfo';
+  protected $searchInfoType = '\GoogleApiServices\Google_Service_Books_VolumeSearchInfo';
   protected $searchInfoDataType = '';
   public $selfLink;
-  protected $userInfoType = 'Google_Service_Books_VolumeUserInfo';
+  protected $userInfoType = '\GoogleApiServices\Google_Service_Books_VolumeUserInfo';
   protected $userInfoDataType = '';
-  protected $volumeInfoType = 'Google_Service_Books_VolumeVolumeInfo';
+  protected $volumeInfoType = '\GoogleApiServices\Google_Service_Books_VolumeVolumeInfo';
   protected $volumeInfoDataType = '';
 
   public function setAccessInfo(Google_Service_Books_VolumeAccessInfo $accessInfo)

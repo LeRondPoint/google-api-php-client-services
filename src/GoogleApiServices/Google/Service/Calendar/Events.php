@@ -19,11 +19,11 @@ class Google_Service_Calendar_Events extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $accessRole;
-  protected $defaultRemindersType = 'Google_Service_Calendar_EventReminder';
+  protected $defaultRemindersType = '\GoogleApiServices\Google_Service_Calendar_EventReminder';
   protected $defaultRemindersDataType = 'array';
   public $description;
   public $etag;
-  protected $itemsType = 'Google_Service_Calendar_Event';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Calendar_Event';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

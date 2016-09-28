@@ -20,16 +20,16 @@ class Google_Service_AdExchangeBuyer_DealTerms extends \GoogleApi\Google_Model
   public $brandingType;
   public $crossListedExternalDealIdType;
   public $description;
-  protected $estimatedGrossSpendType = 'Google_Service_AdExchangeBuyer_Price';
+  protected $estimatedGrossSpendType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Price';
   protected $estimatedGrossSpendDataType = '';
   public $estimatedImpressionsPerDay;
-  protected $guaranteedFixedPriceTermsType = 'Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTerms';
+  protected $guaranteedFixedPriceTermsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTerms';
   protected $guaranteedFixedPriceTermsDataType = '';
-  protected $nonGuaranteedAuctionTermsType = 'Google_Service_AdExchangeBuyer_DealTermsNonGuaranteedAuctionTerms';
+  protected $nonGuaranteedAuctionTermsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTermsNonGuaranteedAuctionTerms';
   protected $nonGuaranteedAuctionTermsDataType = '';
-  protected $nonGuaranteedFixedPriceTermsType = 'Google_Service_AdExchangeBuyer_DealTermsNonGuaranteedFixedPriceTerms';
+  protected $nonGuaranteedFixedPriceTermsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTermsNonGuaranteedFixedPriceTerms';
   protected $nonGuaranteedFixedPriceTermsDataType = '';
-  protected $rubiconNonGuaranteedTermsType = 'Google_Service_AdExchangeBuyer_DealTermsRubiconNonGuaranteedTerms';
+  protected $rubiconNonGuaranteedTermsType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_DealTermsRubiconNonGuaranteedTerms';
   protected $rubiconNonGuaranteedTermsDataType = '';
   public $sellerTimeZone;
 

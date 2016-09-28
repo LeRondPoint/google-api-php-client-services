@@ -17,7 +17,7 @@
 
 class Google_Service_Autoscaler_Autoscaler extends \GoogleApi\Google_Model
 {
-  protected $autoscalingPolicyType = 'Google_Service_Autoscaler_AutoscalingPolicy';
+  protected $autoscalingPolicyType = '\GoogleApiServices\Google_Service_Autoscaler_AutoscalingPolicy';
   protected $autoscalingPolicyDataType = '';
   public $creationTimestamp;
   public $description;

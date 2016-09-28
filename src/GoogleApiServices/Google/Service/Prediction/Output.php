@@ -21,7 +21,7 @@ class Google_Service_Prediction_Output extends \GoogleApi\Google_Collection
   public $id;
   public $kind;
   public $outputLabel;
-  protected $outputMultiType = 'Google_Service_Prediction_OutputOutputMulti';
+  protected $outputMultiType = '\GoogleApiServices\Google_Service_Prediction_OutputOutputMulti';
   protected $outputMultiDataType = 'array';
   public $outputValue;
   public $selfLink;

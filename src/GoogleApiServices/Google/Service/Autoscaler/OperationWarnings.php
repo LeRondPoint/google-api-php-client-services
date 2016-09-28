@@ -19,7 +19,7 @@ class Google_Service_Autoscaler_OperationWarnings extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Autoscaler_OperationWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Autoscaler_OperationWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

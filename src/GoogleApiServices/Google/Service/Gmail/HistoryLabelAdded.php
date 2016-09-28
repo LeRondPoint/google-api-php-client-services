@@ -19,7 +19,7 @@ class Google_Service_Gmail_HistoryLabelAdded extends \GoogleApi\Google_Collectio
 {
   protected $collection_key = 'labelIds';
   public $labelIds;
-  protected $messageType = 'Google_Service_Gmail_Message';
+  protected $messageType = '\GoogleApiServices\Google_Service_Gmail_Message';
   protected $messageDataType = '';
 
   public function setLabelIds($labelIds)

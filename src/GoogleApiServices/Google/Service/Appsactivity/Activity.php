@@ -18,9 +18,9 @@
 class Google_Service_Appsactivity_Activity extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'singleEvents';
-  protected $combinedEventType = 'Google_Service_Appsactivity_Event';
+  protected $combinedEventType = '\GoogleApiServices\Google_Service_Appsactivity_Event';
   protected $combinedEventDataType = '';
-  protected $singleEventsType = 'Google_Service_Appsactivity_Event';
+  protected $singleEventsType = '\GoogleApiServices\Google_Service_Appsactivity_Event';
   protected $singleEventsDataType = 'array';
 
   public function setCombinedEvent(Google_Service_Appsactivity_Event $combinedEvent)

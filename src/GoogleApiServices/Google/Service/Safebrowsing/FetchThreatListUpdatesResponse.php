@@ -18,7 +18,7 @@
 class Google_Service_Safebrowsing_FetchThreatListUpdatesResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'listUpdateResponses';
-  protected $listUpdateResponsesType = 'Google_Service_Safebrowsing_ListUpdateResponse';
+  protected $listUpdateResponsesType = '\GoogleApiServices\Google_Service_Safebrowsing_ListUpdateResponse';
   protected $listUpdateResponsesDataType = 'array';
   public $minimumWaitDuration;
 

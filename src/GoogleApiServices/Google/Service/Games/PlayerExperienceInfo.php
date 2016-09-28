@@ -18,11 +18,11 @@
 class Google_Service_Games_PlayerExperienceInfo extends \GoogleApi\Google_Model
 {
   public $currentExperiencePoints;
-  protected $currentLevelType = 'Google_Service_Games_PlayerLevel';
+  protected $currentLevelType = '\GoogleApiServices\Google_Service_Games_PlayerLevel';
   protected $currentLevelDataType = '';
   public $kind;
   public $lastLevelUpTimestampMillis;
-  protected $nextLevelType = 'Google_Service_Games_PlayerLevel';
+  protected $nextLevelType = '\GoogleApiServices\Google_Service_Games_PlayerLevel';
   protected $nextLevelDataType = '';
 
   public function setCurrentExperiencePoints($currentExperiencePoints)

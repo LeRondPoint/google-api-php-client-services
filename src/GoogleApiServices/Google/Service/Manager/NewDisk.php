@@ -17,11 +17,11 @@
 
 class Google_Service_Manager_NewDisk extends \GoogleApi\Google_Model
 {
-  protected $attachmentType = 'Google_Service_Manager_DiskAttachment';
+  protected $attachmentType = '\GoogleApiServices\Google_Service_Manager_DiskAttachment';
   protected $attachmentDataType = '';
   public $autoDelete;
   public $boot;
-  protected $initializeParamsType = 'Google_Service_Manager_NewDiskInitializeParams';
+  protected $initializeParamsType = '\GoogleApiServices\Google_Service_Manager_NewDiskInitializeParams';
   protected $initializeParamsDataType = '';
 
   public function setAttachment(Google_Service_Manager_DiskAttachment $attachment)

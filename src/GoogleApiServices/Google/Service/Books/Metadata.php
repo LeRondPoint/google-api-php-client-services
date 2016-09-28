@@ -18,7 +18,7 @@
 class Google_Service_Books_Metadata extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_Books_MetadataItems';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Books_MetadataItems';
   protected $itemsDataType = 'array';
   public $kind;
 

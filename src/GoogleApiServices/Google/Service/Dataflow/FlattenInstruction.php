@@ -18,7 +18,7 @@
 class Google_Service_Dataflow_FlattenInstruction extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'inputs';
-  protected $inputsType = 'Google_Service_Dataflow_InstructionInput';
+  protected $inputsType = '\GoogleApiServices\Google_Service_Dataflow_InstructionInput';
   protected $inputsDataType = 'array';
 
   public function setInputs($inputs)

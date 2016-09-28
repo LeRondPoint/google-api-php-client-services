@@ -18,7 +18,7 @@
 class Google_Service_Doubleclicksearch_ConversionList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'conversion';
-  protected $conversionType = 'Google_Service_Doubleclicksearch_Conversion';
+  protected $conversionType = '\GoogleApiServices\Google_Service_Doubleclicksearch_Conversion';
   protected $conversionDataType = 'array';
   public $kind;
 

@@ -19,7 +19,7 @@ class Google_Service_FirebaseRulesAPI_Issue extends \GoogleApi\Google_Model
 {
   public $description;
   public $severity;
-  protected $sourcePositionType = 'Google_Service_FirebaseRulesAPI_SourcePosition';
+  protected $sourcePositionType = '\GoogleApiServices\Google_Service_FirebaseRulesAPI_SourcePosition';
   protected $sourcePositionDataType = '';
 
   public function setDescription($description)

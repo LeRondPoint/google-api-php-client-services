@@ -19,7 +19,7 @@ class Google_Service_Dataflow_ReportWorkItemStatusRequest extends \GoogleApi\Goo
 {
   protected $collection_key = 'workItemStatuses';
   public $currentWorkerTime;
-  protected $workItemStatusesType = 'Google_Service_Dataflow_WorkItemStatus';
+  protected $workItemStatusesType = '\GoogleApiServices\Google_Service_Dataflow_WorkItemStatus';
   protected $workItemStatusesDataType = 'array';
   public $workerId;
 

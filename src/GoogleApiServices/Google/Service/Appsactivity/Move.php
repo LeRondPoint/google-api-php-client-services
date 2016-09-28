@@ -18,9 +18,9 @@
 class Google_Service_Appsactivity_Move extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'removedParents';
-  protected $addedParentsType = 'Google_Service_Appsactivity_AppsactivityParent';
+  protected $addedParentsType = '\GoogleApiServices\Google_Service_Appsactivity_AppsactivityParent';
   protected $addedParentsDataType = 'array';
-  protected $removedParentsType = 'Google_Service_Appsactivity_AppsactivityParent';
+  protected $removedParentsType = '\GoogleApiServices\Google_Service_Appsactivity_AppsactivityParent';
   protected $removedParentsDataType = 'array';
 
   public function setAddedParents($addedParents)

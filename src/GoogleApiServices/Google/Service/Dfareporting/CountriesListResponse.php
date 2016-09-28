@@ -18,7 +18,7 @@
 class Google_Service_Dfareporting_CountriesListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'countries';
-  protected $countriesType = 'Google_Service_Dfareporting_Country';
+  protected $countriesType = '\GoogleApiServices\Google_Service_Dfareporting_Country';
   protected $countriesDataType = 'array';
   public $kind;
 

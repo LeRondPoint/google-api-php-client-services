@@ -18,9 +18,9 @@
 class Google_Service_AnalyticsReporting_DynamicSegment extends \GoogleApi\Google_Model
 {
   public $name;
-  protected $sessionSegmentType = 'Google_Service_AnalyticsReporting_SegmentDefinition';
+  protected $sessionSegmentType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SegmentDefinition';
   protected $sessionSegmentDataType = '';
-  protected $userSegmentType = 'Google_Service_AnalyticsReporting_SegmentDefinition';
+  protected $userSegmentType = '\GoogleApiServices\Google_Service_AnalyticsReporting_SegmentDefinition';
   protected $userSegmentDataType = '';
 
   public function setName($name)

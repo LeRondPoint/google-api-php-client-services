@@ -19,7 +19,7 @@ class Google_Service_Webmasters_SearchAnalyticsQueryResponse extends \GoogleApi\
 {
   protected $collection_key = 'rows';
   public $responseAggregationType;
-  protected $rowsType = 'Google_Service_Webmasters_ApiDataRow';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Webmasters_ApiDataRow';
   protected $rowsDataType = 'array';
 
   public function setResponseAggregationType($responseAggregationType)

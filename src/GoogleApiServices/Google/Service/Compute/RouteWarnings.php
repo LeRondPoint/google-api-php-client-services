@@ -19,7 +19,7 @@ class Google_Service_Compute_RouteWarnings extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'data';
   public $code;
-  protected $dataType = 'Google_Service_Compute_RouteWarningsData';
+  protected $dataType = '\GoogleApiServices\Google_Service_Compute_RouteWarningsData';
   protected $dataDataType = 'array';
   public $message;
 

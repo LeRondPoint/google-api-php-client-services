@@ -20,7 +20,7 @@ class Google_Service_YouTube_Comment extends \GoogleApi\Google_Model
   public $etag;
   public $id;
   public $kind;
-  protected $snippetType = 'Google_Service_YouTube_CommentSnippet';
+  protected $snippetType = '\GoogleApiServices\Google_Service_YouTube_CommentSnippet';
   protected $snippetDataType = '';
 
   public function setEtag($etag)

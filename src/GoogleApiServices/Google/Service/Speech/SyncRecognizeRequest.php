@@ -17,9 +17,9 @@
 
 class Google_Service_Speech_SyncRecognizeRequest extends \GoogleApi\Google_Model
 {
-  protected $audioType = 'Google_Service_Speech_RecognitionAudio';
+  protected $audioType = '\GoogleApiServices\Google_Service_Speech_RecognitionAudio';
   protected $audioDataType = '';
-  protected $configType = 'Google_Service_Speech_RecognitionConfig';
+  protected $configType = '\GoogleApiServices\Google_Service_Speech_RecognitionConfig';
   protected $configDataType = '';
 
   public function setAudio(Google_Service_Speech_RecognitionAudio $audio)

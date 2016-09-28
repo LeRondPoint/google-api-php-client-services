@@ -18,7 +18,7 @@
 class Google_Service_Compute_RouterAggregatedList extends \GoogleApi\Google_Model
 {
   public $id;
-  protected $itemsType = 'Google_Service_Compute_RoutersScopedList';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Compute_RoutersScopedList';
   protected $itemsDataType = 'map';
   public $kind;
   public $nextPageToken;

@@ -18,9 +18,9 @@
 class Google_Service_Dfareporting_ConversionsBatchInsertRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'conversions';
-  protected $conversionsType = 'Google_Service_Dfareporting_Conversion';
+  protected $conversionsType = '\GoogleApiServices\Google_Service_Dfareporting_Conversion';
   protected $conversionsDataType = 'array';
-  protected $encryptionInfoType = 'Google_Service_Dfareporting_EncryptionInfo';
+  protected $encryptionInfoType = '\GoogleApiServices\Google_Service_Dfareporting_EncryptionInfo';
   protected $encryptionInfoDataType = '';
   public $kind;
 

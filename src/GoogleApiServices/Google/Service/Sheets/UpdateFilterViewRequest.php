@@ -18,7 +18,7 @@
 class Google_Service_Sheets_UpdateFilterViewRequest extends \GoogleApi\Google_Model
 {
   public $fields;
-  protected $filterType = 'Google_Service_Sheets_FilterView';
+  protected $filterType = '\GoogleApiServices\Google_Service_Sheets_FilterView';
   protected $filterDataType = '';
 
   public function setFields($fields)

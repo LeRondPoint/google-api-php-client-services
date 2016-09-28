@@ -17,7 +17,7 @@
 
 class Google_Service_AndroidPublisher_SubscriptionPurchasesDeferRequest extends \GoogleApi\Google_Model
 {
-  protected $deferralInfoType = 'Google_Service_AndroidPublisher_SubscriptionDeferralInfo';
+  protected $deferralInfoType = '\GoogleApiServices\Google_Service_AndroidPublisher_SubscriptionDeferralInfo';
   protected $deferralInfoDataType = '';
 
   public function setDeferralInfo(Google_Service_AndroidPublisher_SubscriptionDeferralInfo $deferralInfo)

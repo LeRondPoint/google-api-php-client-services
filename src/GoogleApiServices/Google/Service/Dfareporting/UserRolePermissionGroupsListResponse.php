@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_UserRolePermissionGroupsListResponse extends \
 {
   protected $collection_key = 'userRolePermissionGroups';
   public $kind;
-  protected $userRolePermissionGroupsType = 'Google_Service_Dfareporting_UserRolePermissionGroup';
+  protected $userRolePermissionGroupsType = '\GoogleApiServices\Google_Service_Dfareporting_UserRolePermissionGroup';
   protected $userRolePermissionGroupsDataType = 'array';
 
   public function setKind($kind)

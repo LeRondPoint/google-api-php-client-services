@@ -18,7 +18,7 @@
 class Google_Service_Pubsub_PublishRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'messages';
-  protected $messagesType = 'Google_Service_Pubsub_PubsubMessage';
+  protected $messagesType = '\GoogleApiServices\Google_Service_Pubsub_PubsubMessage';
   protected $messagesDataType = 'array';
 
   public function setMessages($messages)

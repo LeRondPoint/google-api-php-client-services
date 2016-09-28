@@ -17,15 +17,15 @@
 
 class Google_Service_Appengine_UrlMap extends \GoogleApi\Google_Model
 {
-  protected $apiEndpointType = 'Google_Service_Appengine_ApiEndpointHandler';
+  protected $apiEndpointType = '\GoogleApiServices\Google_Service_Appengine_ApiEndpointHandler';
   protected $apiEndpointDataType = '';
   public $authFailAction;
   public $login;
   public $redirectHttpResponseCode;
-  protected $scriptType = 'Google_Service_Appengine_ScriptHandler';
+  protected $scriptType = '\GoogleApiServices\Google_Service_Appengine_ScriptHandler';
   protected $scriptDataType = '';
   public $securityLevel;
-  protected $staticFilesType = 'Google_Service_Appengine_StaticFilesHandler';
+  protected $staticFilesType = '\GoogleApiServices\Google_Service_Appengine_StaticFilesHandler';
   protected $staticFilesDataType = '';
   public $urlRegex;
 

@@ -19,7 +19,7 @@ class Google_Service_PlayMovies_ListOrdersResponse extends \GoogleApi\Google_Col
 {
   protected $collection_key = 'orders';
   public $nextPageToken;
-  protected $ordersType = 'Google_Service_PlayMovies_Order';
+  protected $ordersType = '\GoogleApiServices\Google_Service_PlayMovies_Order';
   protected $ordersDataType = 'array';
   public $totalSize;
 

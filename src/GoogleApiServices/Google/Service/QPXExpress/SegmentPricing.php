@@ -19,7 +19,7 @@ class Google_Service_QPXExpress_SegmentPricing extends \GoogleApi\Google_Collect
 {
   protected $collection_key = 'freeBaggageOption';
   public $fareId;
-  protected $freeBaggageOptionType = 'Google_Service_QPXExpress_FreeBaggageAllowance';
+  protected $freeBaggageOptionType = '\GoogleApiServices\Google_Service_QPXExpress_FreeBaggageAllowance';
   protected $freeBaggageOptionDataType = 'array';
   public $kind;
   public $segmentId;

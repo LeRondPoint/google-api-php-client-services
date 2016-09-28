@@ -18,7 +18,7 @@
 class Google_Service_AndroidEnterprise_ServiceAccountKeysListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'serviceAccountKey';
-  protected $serviceAccountKeyType = 'Google_Service_AndroidEnterprise_ServiceAccountKey';
+  protected $serviceAccountKeyType = '\GoogleApiServices\Google_Service_AndroidEnterprise_ServiceAccountKey';
   protected $serviceAccountKeyDataType = 'array';
 
   public function setServiceAccountKey($serviceAccountKey)

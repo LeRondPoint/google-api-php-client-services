@@ -18,7 +18,7 @@
 class Google_Service_Plus_ActivityObjectAttachmentsThumbnails extends \GoogleApi\Google_Model
 {
   public $description;
-  protected $imageType = 'Google_Service_Plus_ActivityObjectAttachmentsThumbnailsImage';
+  protected $imageType = '\GoogleApiServices\Google_Service_Plus_ActivityObjectAttachmentsThumbnailsImage';
   protected $imageDataType = '';
   public $url;
 

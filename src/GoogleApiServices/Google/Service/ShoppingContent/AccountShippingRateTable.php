@@ -18,7 +18,7 @@
 class Google_Service_ShoppingContent_AccountShippingRateTable extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'content';
-  protected $contentType = 'Google_Service_ShoppingContent_AccountShippingRateTableCell';
+  protected $contentType = '\GoogleApiServices\Google_Service_ShoppingContent_AccountShippingRateTableCell';
   protected $contentDataType = 'array';
   public $name;
   public $saleCountry;

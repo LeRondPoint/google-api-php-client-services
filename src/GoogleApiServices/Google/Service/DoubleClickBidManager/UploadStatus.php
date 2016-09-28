@@ -19,7 +19,7 @@ class Google_Service_DoubleClickBidManager_UploadStatus extends \GoogleApi\Googl
 {
   protected $collection_key = 'rowStatus';
   public $errors;
-  protected $rowStatusType = 'Google_Service_DoubleClickBidManager_RowStatus';
+  protected $rowStatusType = '\GoogleApiServices\Google_Service_DoubleClickBidManager_RowStatus';
   protected $rowStatusDataType = 'array';
 
   public function setErrors($errors)

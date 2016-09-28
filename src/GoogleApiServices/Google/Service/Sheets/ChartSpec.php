@@ -17,10 +17,10 @@
 
 class Google_Service_Sheets_ChartSpec extends \GoogleApi\Google_Model
 {
-  protected $basicChartType = 'Google_Service_Sheets_BasicChartSpec';
+  protected $basicChartType = '\GoogleApiServices\Google_Service_Sheets_BasicChartSpec';
   protected $basicChartDataType = '';
   public $hiddenDimensionStrategy;
-  protected $pieChartType = 'Google_Service_Sheets_PieChartSpec';
+  protected $pieChartType = '\GoogleApiServices\Google_Service_Sheets_PieChartSpec';
   protected $pieChartDataType = '';
   public $title;
 

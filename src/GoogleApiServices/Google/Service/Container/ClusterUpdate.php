@@ -17,7 +17,7 @@
 
 class Google_Service_Container_ClusterUpdate extends \GoogleApi\Google_Model
 {
-  protected $desiredAddonsConfigType = 'Google_Service_Container_AddonsConfig';
+  protected $desiredAddonsConfigType = '\GoogleApiServices\Google_Service_Container_AddonsConfig';
   protected $desiredAddonsConfigDataType = '';
   public $desiredMasterVersion;
   public $desiredMonitoringService;

@@ -20,7 +20,7 @@ class Google_Service_IdentityToolkit_DownloadAccountResponse extends \GoogleApi\
   protected $collection_key = 'users';
   public $kind;
   public $nextPageToken;
-  protected $usersType = 'Google_Service_IdentityToolkit_UserInfo';
+  protected $usersType = '\GoogleApiServices\Google_Service_IdentityToolkit_UserInfo';
   protected $usersDataType = 'array';
 
   public function setKind($kind)

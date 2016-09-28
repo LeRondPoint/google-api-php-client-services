@@ -19,7 +19,7 @@ class Google_Service_Bigquery_QueryParameterTypeStructTypes extends \GoogleApi\G
 {
   public $description;
   public $name;
-  protected $typeType = 'Google_Service_Bigquery_QueryParameterType';
+  protected $typeType = '\GoogleApiServices\Google_Service_Bigquery_QueryParameterType';
   protected $typeDataType = '';
 
   public function setDescription($description)

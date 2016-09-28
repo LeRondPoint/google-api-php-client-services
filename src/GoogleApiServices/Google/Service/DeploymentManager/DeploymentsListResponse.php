@@ -18,7 +18,7 @@
 class Google_Service_DeploymentManager_DeploymentsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'deployments';
-  protected $deploymentsType = 'Google_Service_DeploymentManager_Deployment';
+  protected $deploymentsType = '\GoogleApiServices\Google_Service_DeploymentManager_Deployment';
   protected $deploymentsDataType = 'array';
   public $nextPageToken;
 

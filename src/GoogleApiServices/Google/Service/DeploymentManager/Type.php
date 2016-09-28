@@ -20,7 +20,7 @@ class Google_Service_DeploymentManager_Type extends \GoogleApi\Google_Model
   public $id;
   public $insertTime;
   public $name;
-  protected $operationType = 'Google_Service_DeploymentManager_Operation';
+  protected $operationType = '\GoogleApiServices\Google_Service_DeploymentManager_Operation';
   protected $operationDataType = '';
   public $selfLink;
 

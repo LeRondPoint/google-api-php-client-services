@@ -18,7 +18,7 @@
 class Google_Service_DeploymentManager_ManifestsListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'manifests';
-  protected $manifestsType = 'Google_Service_DeploymentManager_Manifest';
+  protected $manifestsType = '\GoogleApiServices\Google_Service_DeploymentManager_Manifest';
   protected $manifestsDataType = 'array';
   public $nextPageToken;
 

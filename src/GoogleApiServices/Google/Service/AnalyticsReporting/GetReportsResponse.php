@@ -18,7 +18,7 @@
 class Google_Service_AnalyticsReporting_GetReportsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'reports';
-  protected $reportsType = 'Google_Service_AnalyticsReporting_Report';
+  protected $reportsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Report';
   protected $reportsDataType = 'array';
 
   public function setReports($reports)

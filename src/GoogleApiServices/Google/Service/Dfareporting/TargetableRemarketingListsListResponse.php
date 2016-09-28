@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_TargetableRemarketingListsListResponse extends
   protected $collection_key = 'targetableRemarketingLists';
   public $kind;
   public $nextPageToken;
-  protected $targetableRemarketingListsType = 'Google_Service_Dfareporting_TargetableRemarketingList';
+  protected $targetableRemarketingListsType = '\GoogleApiServices\Google_Service_Dfareporting_TargetableRemarketingList';
   protected $targetableRemarketingListsDataType = 'array';
 
   public function setKind($kind)

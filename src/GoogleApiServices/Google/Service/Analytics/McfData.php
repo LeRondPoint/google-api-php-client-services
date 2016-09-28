@@ -18,7 +18,7 @@
 class Google_Service_Analytics_McfData extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'rows';
-  protected $columnHeadersType = 'Google_Service_Analytics_McfDataColumnHeaders';
+  protected $columnHeadersType = '\GoogleApiServices\Google_Service_Analytics_McfDataColumnHeaders';
   protected $columnHeadersDataType = 'array';
   public $containsSampledData;
   public $id;
@@ -26,11 +26,11 @@ class Google_Service_Analytics_McfData extends \GoogleApi\Google_Collection
   public $kind;
   public $nextLink;
   public $previousLink;
-  protected $profileInfoType = 'Google_Service_Analytics_McfDataProfileInfo';
+  protected $profileInfoType = '\GoogleApiServices\Google_Service_Analytics_McfDataProfileInfo';
   protected $profileInfoDataType = '';
-  protected $queryType = 'Google_Service_Analytics_McfDataQuery';
+  protected $queryType = '\GoogleApiServices\Google_Service_Analytics_McfDataQuery';
   protected $queryDataType = '';
-  protected $rowsType = 'Google_Service_Analytics_McfDataRows';
+  protected $rowsType = '\GoogleApiServices\Google_Service_Analytics_McfDataRows';
   protected $rowsDataType = 'array';
   public $sampleSize;
   public $sampleSpace;

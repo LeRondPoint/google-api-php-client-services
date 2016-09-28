@@ -18,11 +18,11 @@
 class Google_Service_Sheets_Spreadsheet extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sheets';
-  protected $namedRangesType = 'Google_Service_Sheets_NamedRange';
+  protected $namedRangesType = '\GoogleApiServices\Google_Service_Sheets_NamedRange';
   protected $namedRangesDataType = 'array';
-  protected $propertiesType = 'Google_Service_Sheets_SpreadsheetProperties';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Sheets_SpreadsheetProperties';
   protected $propertiesDataType = '';
-  protected $sheetsType = 'Google_Service_Sheets_Sheet';
+  protected $sheetsType = '\GoogleApiServices\Google_Service_Sheets_Sheet';
   protected $sheetsDataType = 'array';
   public $spreadsheetId;
 

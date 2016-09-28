@@ -20,23 +20,23 @@ class Google_Service_Dataflow_CounterUpdate extends \GoogleApi\Google_Model
   public $boolean;
   public $cumulative;
   public $floatingPoint;
-  protected $floatingPointListType = 'Google_Service_Dataflow_FloatingPointList';
+  protected $floatingPointListType = '\GoogleApiServices\Google_Service_Dataflow_FloatingPointList';
   protected $floatingPointListDataType = '';
-  protected $floatingPointMeanType = 'Google_Service_Dataflow_FloatingPointMean';
+  protected $floatingPointMeanType = '\GoogleApiServices\Google_Service_Dataflow_FloatingPointMean';
   protected $floatingPointMeanDataType = '';
-  protected $integerType = 'Google_Service_Dataflow_SplitInt64';
+  protected $integerType = '\GoogleApiServices\Google_Service_Dataflow_SplitInt64';
   protected $integerDataType = '';
-  protected $integerListType = 'Google_Service_Dataflow_IntegerList';
+  protected $integerListType = '\GoogleApiServices\Google_Service_Dataflow_IntegerList';
   protected $integerListDataType = '';
-  protected $integerMeanType = 'Google_Service_Dataflow_IntegerMean';
+  protected $integerMeanType = '\GoogleApiServices\Google_Service_Dataflow_IntegerMean';
   protected $integerMeanDataType = '';
   public $internal;
-  protected $nameAndKindType = 'Google_Service_Dataflow_NameAndKind';
+  protected $nameAndKindType = '\GoogleApiServices\Google_Service_Dataflow_NameAndKind';
   protected $nameAndKindDataType = '';
   public $shortId;
-  protected $stringListType = 'Google_Service_Dataflow_StringList';
+  protected $stringListType = '\GoogleApiServices\Google_Service_Dataflow_StringList';
   protected $stringListDataType = '';
-  protected $structuredNameAndMetadataType = 'Google_Service_Dataflow_CounterStructuredNameAndMetadata';
+  protected $structuredNameAndMetadataType = '\GoogleApiServices\Google_Service_Dataflow_CounterStructuredNameAndMetadata';
   protected $structuredNameAndMetadataDataType = '';
 
   public function setBoolean($boolean)

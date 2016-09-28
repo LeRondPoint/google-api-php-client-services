@@ -18,11 +18,11 @@
 class Google_Service_QPXExpress_TripOptionsResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'tripOption';
-  protected $dataType = 'Google_Service_QPXExpress_Data';
+  protected $dataType = '\GoogleApiServices\Google_Service_QPXExpress_Data';
   protected $dataDataType = '';
   public $kind;
   public $requestId;
-  protected $tripOptionType = 'Google_Service_QPXExpress_TripOption';
+  protected $tripOptionType = '\GoogleApiServices\Google_Service_QPXExpress_TripOption';
   protected $tripOptionDataType = 'array';
 
   public function setData(Google_Service_QPXExpress_Data $data)

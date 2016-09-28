@@ -18,9 +18,9 @@
 class Google_Service_Spectrum_GeoSpectrumSchedule extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'spectrumSchedules';
-  protected $locationType = 'Google_Service_Spectrum_GeoLocation';
+  protected $locationType = '\GoogleApiServices\Google_Service_Spectrum_GeoLocation';
   protected $locationDataType = '';
-  protected $spectrumSchedulesType = 'Google_Service_Spectrum_SpectrumSchedule';
+  protected $spectrumSchedulesType = '\GoogleApiServices\Google_Service_Spectrum_SpectrumSchedule';
   protected $spectrumSchedulesDataType = 'array';
 
   public function setLocation(Google_Service_Spectrum_GeoLocation $location)

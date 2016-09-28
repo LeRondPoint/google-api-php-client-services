@@ -21,7 +21,7 @@ class Google_Service_Bigquery_ProjectList extends \GoogleApi\Google_Collection
   public $etag;
   public $kind;
   public $nextPageToken;
-  protected $projectsType = 'Google_Service_Bigquery_ProjectListProjects';
+  protected $projectsType = '\GoogleApiServices\Google_Service_Bigquery_ProjectListProjects';
   protected $projectsDataType = 'array';
   public $totalItems;
 

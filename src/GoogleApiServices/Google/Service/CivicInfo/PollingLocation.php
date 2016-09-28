@@ -18,14 +18,14 @@
 class Google_Service_CivicInfo_PollingLocation extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sources';
-  protected $addressType = 'Google_Service_CivicInfo_SimpleAddressType';
+  protected $addressType = '\GoogleApiServices\Google_Service_CivicInfo_SimpleAddressType';
   protected $addressDataType = '';
   public $endDate;
   public $id;
   public $name;
   public $notes;
   public $pollingHours;
-  protected $sourcesType = 'Google_Service_CivicInfo_Source';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_CivicInfo_Source';
   protected $sourcesDataType = 'array';
   public $startDate;
   public $voterServices;

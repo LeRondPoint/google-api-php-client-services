@@ -17,7 +17,7 @@
 
 class Google_Service_Analytics_EntityAdWordsLinkEntity extends \GoogleApi\Google_Model
 {
-  protected $webPropertyRefType = 'Google_Service_Analytics_WebPropertyRef';
+  protected $webPropertyRefType = '\GoogleApiServices\Google_Service_Analytics_WebPropertyRef';
   protected $webPropertyRefDataType = '';
 
   public function setWebPropertyRef(Google_Service_Analytics_WebPropertyRef $webPropertyRef)

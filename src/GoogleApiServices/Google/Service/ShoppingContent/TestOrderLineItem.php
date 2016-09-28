@@ -17,14 +17,14 @@
 
 class Google_Service_ShoppingContent_TestOrderLineItem extends \GoogleApi\Google_Model
 {
-  protected $productType = 'Google_Service_ShoppingContent_TestOrderLineItemProduct';
+  protected $productType = '\GoogleApiServices\Google_Service_ShoppingContent_TestOrderLineItemProduct';
   protected $productDataType = '';
   public $quantityOrdered;
-  protected $returnInfoType = 'Google_Service_ShoppingContent_OrderLineItemReturnInfo';
+  protected $returnInfoType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemReturnInfo';
   protected $returnInfoDataType = '';
-  protected $shippingDetailsType = 'Google_Service_ShoppingContent_OrderLineItemShippingDetails';
+  protected $shippingDetailsType = '\GoogleApiServices\Google_Service_ShoppingContent_OrderLineItemShippingDetails';
   protected $shippingDetailsDataType = '';
-  protected $unitTaxType = 'Google_Service_ShoppingContent_Price';
+  protected $unitTaxType = '\GoogleApiServices\Google_Service_ShoppingContent_Price';
   protected $unitTaxDataType = '';
 
   public function setProduct(Google_Service_ShoppingContent_TestOrderLineItemProduct $product)

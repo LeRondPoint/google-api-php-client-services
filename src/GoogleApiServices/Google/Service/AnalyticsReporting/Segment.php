@@ -17,7 +17,7 @@
 
 class Google_Service_AnalyticsReporting_Segment extends \GoogleApi\Google_Model
 {
-  protected $dynamicSegmentType = 'Google_Service_AnalyticsReporting_DynamicSegment';
+  protected $dynamicSegmentType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DynamicSegment';
   protected $dynamicSegmentDataType = '';
   public $segmentId;
 

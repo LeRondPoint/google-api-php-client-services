@@ -20,7 +20,7 @@ class Google_Service_Gmail_ListThreadsResponse extends \GoogleApi\Google_Collect
   protected $collection_key = 'threads';
   public $nextPageToken;
   public $resultSizeEstimate;
-  protected $threadsType = 'Google_Service_Gmail_Thread';
+  protected $threadsType = '\GoogleApiServices\Google_Service_Gmail_Thread';
   protected $threadsDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

@@ -19,7 +19,7 @@ class Google_Service_Games_EventBatchRecordFailure extends \GoogleApi\Google_Mod
 {
   public $failureCause;
   public $kind;
-  protected $rangeType = 'Google_Service_Games_EventPeriodRange';
+  protected $rangeType = '\GoogleApiServices\Google_Service_Games_EventPeriodRange';
   protected $rangeDataType = '';
 
   public function setFailureCause($failureCause)

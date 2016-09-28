@@ -18,7 +18,7 @@
 class Google_Service_SQLAdmin_UsersListResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
-  protected $itemsType = 'Google_Service_SQLAdmin_User';
+  protected $itemsType = '\GoogleApiServices\Google_Service_SQLAdmin_User';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

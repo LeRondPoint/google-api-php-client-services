@@ -19,7 +19,7 @@ class Google_Service_CloudMonitoring_WriteTimeseriesRequest extends \GoogleApi\G
 {
   protected $collection_key = 'timeseries';
   public $commonLabels;
-  protected $timeseriesType = 'Google_Service_CloudMonitoring_TimeseriesPoint';
+  protected $timeseriesType = '\GoogleApiServices\Google_Service_CloudMonitoring_TimeseriesPoint';
   protected $timeseriesDataType = 'array';
 
   public function setCommonLabels($commonLabels)

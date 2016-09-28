@@ -21,7 +21,7 @@ class Google_Service_Calendar_AclRule extends \GoogleApi\Google_Model
   public $id;
   public $kind;
   public $role;
-  protected $scopeType = 'Google_Service_Calendar_AclRuleScope';
+  protected $scopeType = '\GoogleApiServices\Google_Service_Calendar_AclRuleScope';
   protected $scopeDataType = '';
 
   public function setEtag($etag)

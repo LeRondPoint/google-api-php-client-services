@@ -18,7 +18,7 @@
 class Google_Service_People_RelationshipStatus extends \GoogleApi\Google_Model
 {
   public $formattedValue;
-  protected $metadataType = 'Google_Service_People_FieldMetadata';
+  protected $metadataType = '\GoogleApiServices\Google_Service_People_FieldMetadata';
   protected $metadataDataType = '';
   public $value;
 

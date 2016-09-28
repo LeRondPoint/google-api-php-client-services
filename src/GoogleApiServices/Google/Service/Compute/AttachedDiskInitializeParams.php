@@ -21,7 +21,7 @@ class Google_Service_Compute_AttachedDiskInitializeParams extends \GoogleApi\Goo
   public $diskSizeGb;
   public $diskType;
   public $sourceImage;
-  protected $sourceImageEncryptionKeyType = 'Google_Service_Compute_CustomerEncryptionKey';
+  protected $sourceImageEncryptionKeyType = '\GoogleApiServices\Google_Service_Compute_CustomerEncryptionKey';
   protected $sourceImageEncryptionKeyDataType = '';
 
   public function setDiskName($diskName)

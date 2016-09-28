@@ -18,7 +18,7 @@
 class Google_Service_CivicInfo_ElectionsQueryResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'elections';
-  protected $electionsType = 'Google_Service_CivicInfo_Election';
+  protected $electionsType = '\GoogleApiServices\Google_Service_CivicInfo_Election';
   protected $electionsDataType = 'array';
   public $kind;
 

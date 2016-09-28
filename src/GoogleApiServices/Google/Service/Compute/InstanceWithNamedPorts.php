@@ -19,7 +19,7 @@ class Google_Service_Compute_InstanceWithNamedPorts extends \GoogleApi\Google_Co
 {
   protected $collection_key = 'namedPorts';
   public $instance;
-  protected $namedPortsType = 'Google_Service_Compute_NamedPort';
+  protected $namedPortsType = '\GoogleApiServices\Google_Service_Compute_NamedPort';
   protected $namedPortsDataType = 'array';
   public $status;
 

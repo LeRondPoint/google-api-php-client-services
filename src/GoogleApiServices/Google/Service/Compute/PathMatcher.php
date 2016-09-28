@@ -21,7 +21,7 @@ class Google_Service_Compute_PathMatcher extends \GoogleApi\Google_Collection
   public $defaultService;
   public $description;
   public $name;
-  protected $pathRulesType = 'Google_Service_Compute_PathRule';
+  protected $pathRulesType = '\GoogleApiServices\Google_Service_Compute_PathRule';
   protected $pathRulesDataType = 'array';
 
   public function setDefaultService($defaultService)

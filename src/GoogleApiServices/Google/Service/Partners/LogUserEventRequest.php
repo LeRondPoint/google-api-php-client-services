@@ -20,12 +20,12 @@ class Google_Service_Partners_LogUserEventRequest extends \GoogleApi\Google_Coll
   protected $collection_key = 'eventDatas';
   public $eventAction;
   public $eventCategory;
-  protected $eventDatasType = 'Google_Service_Partners_EventData';
+  protected $eventDatasType = '\GoogleApiServices\Google_Service_Partners_EventData';
   protected $eventDatasDataType = 'array';
   public $eventScope;
-  protected $leadType = 'Google_Service_Partners_Lead';
+  protected $leadType = '\GoogleApiServices\Google_Service_Partners_Lead';
   protected $leadDataType = '';
-  protected $requestMetadataType = 'Google_Service_Partners_RequestMetadata';
+  protected $requestMetadataType = '\GoogleApiServices\Google_Service_Partners_RequestMetadata';
   protected $requestMetadataDataType = '';
   public $url;
 

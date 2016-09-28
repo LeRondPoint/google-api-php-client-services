@@ -20,7 +20,7 @@ class Google_Service_Dfareporting_OrdersListResponse extends \GoogleApi\Google_C
   protected $collection_key = 'orders';
   public $kind;
   public $nextPageToken;
-  protected $ordersType = 'Google_Service_Dfareporting_Order';
+  protected $ordersType = '\GoogleApiServices\Google_Service_Dfareporting_Order';
   protected $ordersDataType = 'array';
 
   public function setKind($kind)

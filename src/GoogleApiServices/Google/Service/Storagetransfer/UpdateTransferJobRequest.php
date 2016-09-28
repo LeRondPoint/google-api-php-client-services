@@ -18,7 +18,7 @@
 class Google_Service_Storagetransfer_UpdateTransferJobRequest extends \GoogleApi\Google_Model
 {
   public $projectId;
-  protected $transferJobType = 'Google_Service_Storagetransfer_TransferJob';
+  protected $transferJobType = '\GoogleApiServices\Google_Service_Storagetransfer_TransferJob';
   protected $transferJobDataType = '';
   public $updateTransferJobFieldMask;
 

@@ -19,7 +19,7 @@ class Google_Service_Dataflow_SideInputInfo extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'sources';
   public $kind;
-  protected $sourcesType = 'Google_Service_Dataflow_Source';
+  protected $sourcesType = '\GoogleApiServices\Google_Service_Dataflow_Source';
   protected $sourcesDataType = 'array';
   public $tag;
 

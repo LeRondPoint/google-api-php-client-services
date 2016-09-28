@@ -18,9 +18,9 @@
 class Google_Service_Appsactivity_PermissionChange extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'removedPermissions';
-  protected $addedPermissionsType = 'Google_Service_Appsactivity_Permission';
+  protected $addedPermissionsType = '\GoogleApiServices\Google_Service_Appsactivity_Permission';
   protected $addedPermissionsDataType = 'array';
-  protected $removedPermissionsType = 'Google_Service_Appsactivity_Permission';
+  protected $removedPermissionsType = '\GoogleApiServices\Google_Service_Appsactivity_Permission';
   protected $removedPermissionsDataType = 'array';
 
   public function setAddedPermissions($addedPermissions)

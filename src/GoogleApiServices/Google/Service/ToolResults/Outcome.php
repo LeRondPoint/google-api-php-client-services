@@ -17,13 +17,13 @@
 
 class Google_Service_ToolResults_Outcome extends \GoogleApi\Google_Model
 {
-  protected $failureDetailType = 'Google_Service_ToolResults_FailureDetail';
+  protected $failureDetailType = '\GoogleApiServices\Google_Service_ToolResults_FailureDetail';
   protected $failureDetailDataType = '';
-  protected $inconclusiveDetailType = 'Google_Service_ToolResults_InconclusiveDetail';
+  protected $inconclusiveDetailType = '\GoogleApiServices\Google_Service_ToolResults_InconclusiveDetail';
   protected $inconclusiveDetailDataType = '';
-  protected $skippedDetailType = 'Google_Service_ToolResults_SkippedDetail';
+  protected $skippedDetailType = '\GoogleApiServices\Google_Service_ToolResults_SkippedDetail';
   protected $skippedDetailDataType = '';
-  protected $successDetailType = 'Google_Service_ToolResults_SuccessDetail';
+  protected $successDetailType = '\GoogleApiServices\Google_Service_ToolResults_SuccessDetail';
   protected $successDetailDataType = '';
   public $summary;
 

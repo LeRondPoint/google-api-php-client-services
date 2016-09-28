@@ -17,12 +17,12 @@
 
 class Google_Service_Prediction_AnalyzeDataDescriptionFeatures extends \GoogleApi\Google_Model
 {
-  protected $categoricalType = 'Google_Service_Prediction_AnalyzeDataDescriptionFeaturesCategorical';
+  protected $categoricalType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionFeaturesCategorical';
   protected $categoricalDataType = '';
   public $index;
-  protected $numericType = 'Google_Service_Prediction_AnalyzeDataDescriptionFeaturesNumeric';
+  protected $numericType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionFeaturesNumeric';
   protected $numericDataType = '';
-  protected $textType = 'Google_Service_Prediction_AnalyzeDataDescriptionFeaturesText';
+  protected $textType = '\GoogleApiServices\Google_Service_Prediction_AnalyzeDataDescriptionFeaturesText';
   protected $textDataType = '';
 
   public function setCategorical(Google_Service_Prediction_AnalyzeDataDescriptionFeaturesCategorical $categorical)

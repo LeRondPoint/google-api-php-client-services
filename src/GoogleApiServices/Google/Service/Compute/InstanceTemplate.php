@@ -22,7 +22,7 @@ class Google_Service_Compute_InstanceTemplate extends \GoogleApi\Google_Model
   public $id;
   public $kind;
   public $name;
-  protected $propertiesType = 'Google_Service_Compute_InstanceProperties';
+  protected $propertiesType = '\GoogleApiServices\Google_Service_Compute_InstanceProperties';
   protected $propertiesDataType = '';
   public $selfLink;
 

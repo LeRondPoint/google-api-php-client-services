@@ -19,7 +19,7 @@ class Google_Service_Dfareporting_UserProfileList extends \GoogleApi\Google_Coll
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Dfareporting_UserProfile';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Dfareporting_UserProfile';
   protected $itemsDataType = 'array';
   public $kind;
 

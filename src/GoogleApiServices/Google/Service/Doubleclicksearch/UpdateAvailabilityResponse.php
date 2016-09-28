@@ -18,7 +18,7 @@
 class Google_Service_Doubleclicksearch_UpdateAvailabilityResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'availabilities';
-  protected $availabilitiesType = 'Google_Service_Doubleclicksearch_Availability';
+  protected $availabilitiesType = '\GoogleApiServices\Google_Service_Doubleclicksearch_Availability';
   protected $availabilitiesDataType = 'array';
 
   public function setAvailabilities($availabilities)

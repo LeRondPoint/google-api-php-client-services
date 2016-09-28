@@ -18,7 +18,7 @@
 class Google_Service_Compute_ManagedInstanceLastAttemptErrors extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'errors';
-  protected $errorsType = 'Google_Service_Compute_ManagedInstanceLastAttemptErrorsErrors';
+  protected $errorsType = '\GoogleApiServices\Google_Service_Compute_ManagedInstanceLastAttemptErrorsErrors';
   protected $errorsDataType = 'array';
 
   public function setErrors($errors)

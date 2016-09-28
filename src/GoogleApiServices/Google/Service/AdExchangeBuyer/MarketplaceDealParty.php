@@ -17,9 +17,9 @@
 
 class Google_Service_AdExchangeBuyer_MarketplaceDealParty extends \GoogleApi\Google_Model
 {
-  protected $buyerType = 'Google_Service_AdExchangeBuyer_Buyer';
+  protected $buyerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Buyer';
   protected $buyerDataType = '';
-  protected $sellerType = 'Google_Service_AdExchangeBuyer_Seller';
+  protected $sellerType = '\GoogleApiServices\Google_Service_AdExchangeBuyer_Seller';
   protected $sellerDataType = '';
 
   public function setBuyer(Google_Service_AdExchangeBuyer_Buyer $buyer)

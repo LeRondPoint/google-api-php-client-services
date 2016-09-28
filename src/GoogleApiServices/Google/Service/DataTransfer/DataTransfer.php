@@ -18,7 +18,7 @@
 class Google_Service_DataTransfer_DataTransfer extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'applicationDataTransfers';
-  protected $applicationDataTransfersType = 'Google_Service_DataTransfer_ApplicationDataTransfer';
+  protected $applicationDataTransfersType = '\GoogleApiServices\Google_Service_DataTransfer_ApplicationDataTransfer';
   protected $applicationDataTransfersDataType = 'array';
   public $etag;
   public $id;

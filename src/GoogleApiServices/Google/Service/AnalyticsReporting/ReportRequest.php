@@ -18,30 +18,30 @@
 class Google_Service_AnalyticsReporting_ReportRequest extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'segments';
-  protected $cohortGroupType = 'Google_Service_AnalyticsReporting_CohortGroup';
+  protected $cohortGroupType = '\GoogleApiServices\Google_Service_AnalyticsReporting_CohortGroup';
   protected $cohortGroupDataType = '';
-  protected $dateRangesType = 'Google_Service_AnalyticsReporting_DateRange';
+  protected $dateRangesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DateRange';
   protected $dateRangesDataType = 'array';
-  protected $dimensionFilterClausesType = 'Google_Service_AnalyticsReporting_DimensionFilterClause';
+  protected $dimensionFilterClausesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_DimensionFilterClause';
   protected $dimensionFilterClausesDataType = 'array';
-  protected $dimensionsType = 'Google_Service_AnalyticsReporting_Dimension';
+  protected $dimensionsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Dimension';
   protected $dimensionsDataType = 'array';
   public $filtersExpression;
   public $hideTotals;
   public $hideValueRanges;
   public $includeEmptyRows;
-  protected $metricFilterClausesType = 'Google_Service_AnalyticsReporting_MetricFilterClause';
+  protected $metricFilterClausesType = '\GoogleApiServices\Google_Service_AnalyticsReporting_MetricFilterClause';
   protected $metricFilterClausesDataType = 'array';
-  protected $metricsType = 'Google_Service_AnalyticsReporting_Metric';
+  protected $metricsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Metric';
   protected $metricsDataType = 'array';
-  protected $orderBysType = 'Google_Service_AnalyticsReporting_OrderBy';
+  protected $orderBysType = '\GoogleApiServices\Google_Service_AnalyticsReporting_OrderBy';
   protected $orderBysDataType = 'array';
   public $pageSize;
   public $pageToken;
-  protected $pivotsType = 'Google_Service_AnalyticsReporting_Pivot';
+  protected $pivotsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Pivot';
   protected $pivotsDataType = 'array';
   public $samplingLevel;
-  protected $segmentsType = 'Google_Service_AnalyticsReporting_Segment';
+  protected $segmentsType = '\GoogleApiServices\Google_Service_AnalyticsReporting_Segment';
   protected $segmentsDataType = 'array';
   public $viewId;
 

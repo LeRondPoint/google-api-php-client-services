@@ -26,10 +26,10 @@ class Google_Service_Genomics_Annotation extends \GoogleApi\Google_Model
   public $referenceName;
   public $reverseStrand;
   public $start;
-  protected $transcriptType = 'Google_Service_Genomics_Transcript';
+  protected $transcriptType = '\GoogleApiServices\Google_Service_Genomics_Transcript';
   protected $transcriptDataType = '';
   public $type;
-  protected $variantType = 'Google_Service_Genomics_VariantAnnotation';
+  protected $variantType = '\GoogleApiServices\Google_Service_Genomics_VariantAnnotation';
   protected $variantDataType = '';
 
   public function setAnnotationSetId($annotationSetId)

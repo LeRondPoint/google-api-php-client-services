@@ -18,7 +18,7 @@
 class Google_Service_Container_NodePool extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'instanceGroupUrls';
-  protected $configType = 'Google_Service_Container_NodeConfig';
+  protected $configType = '\GoogleApiServices\Google_Service_Container_NodeConfig';
   protected $configDataType = '';
   public $initialNodeCount;
   public $instanceGroupUrls;

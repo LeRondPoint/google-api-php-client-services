@@ -19,7 +19,7 @@ class Google_Service_Blogger_PostList extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'items';
   public $etag;
-  protected $itemsType = 'Google_Service_Blogger_Post';
+  protected $itemsType = '\GoogleApiServices\Google_Service_Blogger_Post';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;

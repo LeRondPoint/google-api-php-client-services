@@ -18,7 +18,7 @@
 class Google_Service_Classroom_ListGuardiansResponse extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'guardians';
-  protected $guardiansType = 'Google_Service_Classroom_Guardian';
+  protected $guardiansType = '\GoogleApiServices\Google_Service_Classroom_Guardian';
   protected $guardiansDataType = 'array';
   public $nextPageToken;
 

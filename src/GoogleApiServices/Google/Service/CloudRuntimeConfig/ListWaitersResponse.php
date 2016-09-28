@@ -19,7 +19,7 @@ class Google_Service_CloudRuntimeConfig_ListWaitersResponse extends \GoogleApi\G
 {
   protected $collection_key = 'waiters';
   public $nextPageToken;
-  protected $waitersType = 'Google_Service_CloudRuntimeConfig_Waiter';
+  protected $waitersType = '\GoogleApiServices\Google_Service_CloudRuntimeConfig_Waiter';
   protected $waitersDataType = 'array';
 
   public function setNextPageToken($nextPageToken)

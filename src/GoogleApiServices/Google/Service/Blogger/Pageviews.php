@@ -19,7 +19,7 @@ class Google_Service_Blogger_Pageviews extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'counts';
   public $blogId;
-  protected $countsType = 'Google_Service_Blogger_PageviewsCounts';
+  protected $countsType = '\GoogleApiServices\Google_Service_Blogger_PageviewsCounts';
   protected $countsDataType = 'array';
   public $kind;
 

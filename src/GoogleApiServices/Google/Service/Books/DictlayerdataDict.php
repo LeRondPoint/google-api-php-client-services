@@ -18,9 +18,9 @@
 class Google_Service_Books_DictlayerdataDict extends \GoogleApi\Google_Collection
 {
   protected $collection_key = 'words';
-  protected $sourceType = 'Google_Service_Books_DictlayerdataDictSource';
+  protected $sourceType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictSource';
   protected $sourceDataType = '';
-  protected $wordsType = 'Google_Service_Books_DictlayerdataDictWords';
+  protected $wordsType = '\GoogleApiServices\Google_Service_Books_DictlayerdataDictWords';
   protected $wordsDataType = 'array';
 
   public function setSource(Google_Service_Books_DictlayerdataDictSource $source)
