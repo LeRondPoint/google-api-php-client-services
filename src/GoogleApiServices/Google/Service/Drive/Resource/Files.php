@@ -172,19 +172,19 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
    * for Files" guide for supported syntax.
    * @opt_param string spaces A comma-separated list of spaces to query within the
    * corpus. Supported values are 'drive', 'appDataFolder' and 'photos'.
-   * @return Google_Service_Drive_FileList
+   * @return \GoogleApiServices\Google_Service_Drive_FileList
    */
   public function listFiles($optParams = array())
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Drive_FileList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Drive_FileList");
   }
   /**
    * Updates a file's metadata and/or content with patch semantics. (files.update)
    *
    * @param string $fileId The ID of the file.
-   * @param Google_Service_Drive_DriveFile $postBody
+   * @param \GoogleApiServices\Google_Service_Drive_DriveFile $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string addParents A comma-separated list of parent IDs to add.

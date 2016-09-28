@@ -52,12 +52,12 @@ class Google_Service_Dfareporting_Resource_ReportsFiles extends \GoogleApi\Googl
    * result page.
    * @opt_param string sortField The field by which to sort the list.
    * @opt_param string sortOrder Order of sorted results, default is 'DESCENDING'.
-   * @return Google_Service_Dfareporting_FileList
+   * @return \GoogleApiServices\Google_Service_Dfareporting_FileList
    */
   public function listReportsFiles($profileId, $reportId, $optParams = array())
   {
     $params = array('profileId' => $profileId, 'reportId' => $reportId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_FileList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FileList");
   }
 }
