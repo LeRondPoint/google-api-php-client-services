@@ -47,12 +47,12 @@ class Google_Service_ServiceTest extends PHPUnit_Framework_TestCase
     $path = __DIR__ . '/../src/GoogleApiServices/Google/Service/';
     foreach (glob($path . "*.php") as $file) {
       $service = basename($file, '.php');
-      $classes[] = array('Google_Service_' . $service);
+      $classes[] = array('\GoogleApiServices\Google_Service_' . $service);
       foreach (glob($path . "{$service}/*.php") as $file) {
-        $classes[] = array("Google_Service_{$service}_" . basename($file, '.php'));
+        $classes[] = array("\GoogleApiServices\Google_Service_{$service}_" . basename($file, '.php'));
       }
       foreach (glob($path . "{$service}/Resource/*.php") as $file) {
-        $classes[] = array("Google_Service_{$service}_Resource_" . basename($file, '.php'));
+        $classes[] = array("\GoogleApiServices\Google_Service_{$service}_Resource_" . basename($file, '.php'));
       }
     }
 
