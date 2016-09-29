@@ -49,6 +49,6 @@ class Google_Service_Kgsearch_Resource_Entities extends \GoogleApi\Google_Servic
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_Kgsearch_SearchResponse");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_Kgsearch_SearchResponse");
   }
 }

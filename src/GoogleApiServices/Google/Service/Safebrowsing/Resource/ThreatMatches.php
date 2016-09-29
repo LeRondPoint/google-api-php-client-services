@@ -37,6 +37,6 @@ class Google_Service_Safebrowsing_Resource_ThreatMatches extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('find', array($params), "Google_Service_Safebrowsing_FindThreatMatchesResponse");
+    return $this->call('find', array($params), "\GoogleApiServices\Google_Service_Safebrowsing_FindThreatMatchesResponse");
   }
 }

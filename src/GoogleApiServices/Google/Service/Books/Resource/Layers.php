@@ -41,7 +41,7 @@ class Google_Service_Books_Resource_Layers extends \GoogleApi\Google_Service_Res
   {
     $params = array('volumeId' => $volumeId, 'summaryId' => $summaryId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Layersummary");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Layersummary");
   }
   /**
    * List the layer summaries for a volume. (layers.listLayers)
@@ -61,6 +61,6 @@ class Google_Service_Books_Resource_Layers extends \GoogleApi\Google_Service_Res
   {
     $params = array('volumeId' => $volumeId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Layersummaries");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Layersummaries");
   }
 }

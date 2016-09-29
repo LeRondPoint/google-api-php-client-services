@@ -55,7 +55,7 @@ class Google_Service_Games_Resource_Scores extends \GoogleApi\Google_Service_Res
   {
     $params = array('playerId' => $playerId, 'leaderboardId' => $leaderboardId, 'timeSpan' => $timeSpan);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Games_PlayerLeaderboardScoreListResponse");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Games_PlayerLeaderboardScoreListResponse");
   }
   /**
    * Lists the scores in a leaderboard, starting from the top. (scores.listScores)
@@ -79,7 +79,7 @@ class Google_Service_Games_Resource_Scores extends \GoogleApi\Google_Service_Res
   {
     $params = array('leaderboardId' => $leaderboardId, 'collection' => $collection, 'timeSpan' => $timeSpan);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_LeaderboardScores");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_LeaderboardScores");
   }
   /**
    * Lists the scores in a leaderboard around (and including) a player's score.
@@ -110,7 +110,7 @@ class Google_Service_Games_Resource_Scores extends \GoogleApi\Google_Service_Res
   {
     $params = array('leaderboardId' => $leaderboardId, 'collection' => $collection, 'timeSpan' => $timeSpan);
     $params = array_merge($params, $optParams);
-    return $this->call('listWindow', array($params), "Google_Service_Games_LeaderboardScores");
+    return $this->call('listWindow', array($params), "\GoogleApiServices\Google_Service_Games_LeaderboardScores");
   }
   /**
    * Submits a score to the specified leaderboard. (scores.submit)
@@ -136,7 +136,7 @@ class Google_Service_Games_Resource_Scores extends \GoogleApi\Google_Service_Res
   {
     $params = array('leaderboardId' => $leaderboardId, 'score' => $score);
     $params = array_merge($params, $optParams);
-    return $this->call('submit', array($params), "Google_Service_Games_PlayerScoreResponse");
+    return $this->call('submit', array($params), "\GoogleApiServices\Google_Service_Games_PlayerScoreResponse");
   }
   /**
    * Submits multiple scores to leaderboards. (scores.submitMultiple)
@@ -153,6 +153,6 @@ class Google_Service_Games_Resource_Scores extends \GoogleApi\Google_Service_Res
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('submitMultiple', array($params), "Google_Service_Games_PlayerScoreListResponse");
+    return $this->call('submitMultiple', array($params), "\GoogleApiServices\Google_Service_Games_PlayerScoreListResponse");
   }
 }

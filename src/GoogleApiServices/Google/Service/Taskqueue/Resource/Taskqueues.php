@@ -39,6 +39,6 @@ class Google_Service_Taskqueue_Resource_Taskqueues extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Taskqueue_TaskQueue");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Taskqueue_TaskQueue");
   }
 }

@@ -39,6 +39,6 @@ class Google_Service_Clouderrorreporting_Resource_Projects extends \GoogleApi\Go
   {
     $params = array('projectName' => $projectName);
     $params = array_merge($params, $optParams);
-    return $this->call('deleteEvents', array($params), "Google_Service_Clouderrorreporting_DeleteEventsResponse");
+    return $this->call('deleteEvents', array($params), "\GoogleApiServices\Google_Service_Clouderrorreporting_DeleteEventsResponse");
   }
 }

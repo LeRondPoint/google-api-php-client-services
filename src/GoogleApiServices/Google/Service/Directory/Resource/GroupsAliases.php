@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_GroupsAliases extends \GoogleApi\Google_
   {
     $params = array('groupKey' => $groupKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Alias");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Alias");
   }
   /**
    * List all aliases for a group (aliases.listGroupsAliases)
@@ -63,6 +63,6 @@ class Google_Service_Directory_Resource_GroupsAliases extends \GoogleApi\Google_
   {
     $params = array('groupKey' => $groupKey);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Aliases");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Aliases");
   }
 }

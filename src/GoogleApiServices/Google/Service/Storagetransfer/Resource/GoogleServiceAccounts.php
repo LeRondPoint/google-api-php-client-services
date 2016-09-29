@@ -43,6 +43,6 @@ class Google_Service_Storagetransfer_Resource_GoogleServiceAccounts extends \Goo
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Storagetransfer_GoogleServiceAccount");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Storagetransfer_GoogleServiceAccount");
   }
 }

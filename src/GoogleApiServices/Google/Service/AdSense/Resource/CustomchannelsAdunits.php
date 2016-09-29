@@ -46,6 +46,6 @@ class Google_Service_AdSense_Resource_CustomchannelsAdunits extends \GoogleApi\G
   {
     $params = array('adClientId' => $adClientId, 'customChannelId' => $customChannelId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_AdUnits");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_AdUnits");
   }
 }

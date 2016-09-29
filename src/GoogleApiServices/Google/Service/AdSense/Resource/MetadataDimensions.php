@@ -36,6 +36,6 @@ class Google_Service_AdSense_Resource_MetadataDimensions extends \GoogleApi\Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_Metadata");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_Metadata");
   }
 }

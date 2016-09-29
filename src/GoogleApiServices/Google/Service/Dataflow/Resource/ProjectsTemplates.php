@@ -37,6 +37,6 @@ class Google_Service_Dataflow_Resource_ProjectsTemplates extends \GoogleApi\Goog
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Dataflow_Job");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Dataflow_Job");
   }
 }

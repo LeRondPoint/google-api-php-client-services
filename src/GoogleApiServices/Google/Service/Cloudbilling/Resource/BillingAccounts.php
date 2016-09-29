@@ -40,7 +40,7 @@ class Google_Service_Cloudbilling_Resource_BillingAccounts extends \GoogleApi\Go
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Cloudbilling_BillingAccount");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Cloudbilling_BillingAccount");
   }
   /**
    * Lists the billing accounts that the current authenticated user
@@ -61,6 +61,6 @@ class Google_Service_Cloudbilling_Resource_BillingAccounts extends \GoogleApi\Go
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Cloudbilling_ListBillingAccountsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Cloudbilling_ListBillingAccountsResponse");
   }
 }

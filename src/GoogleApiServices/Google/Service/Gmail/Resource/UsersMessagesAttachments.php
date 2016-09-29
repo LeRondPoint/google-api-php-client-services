@@ -39,6 +39,6 @@ class Google_Service_Gmail_Resource_UsersMessagesAttachments extends \GoogleApi\
   {
     $params = array('userId' => $userId, 'messageId' => $messageId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_MessagePartBody");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_MessagePartBody");
   }
 }

@@ -47,7 +47,7 @@ class Google_Service_Drive_Resource_Permissions extends \GoogleApi\Google_Servic
   {
     $params = array('fileId' => $fileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Drive_Permission");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Drive_Permission");
   }
   /**
    * Deletes a permission. (permissions.delete)
@@ -74,7 +74,7 @@ class Google_Service_Drive_Resource_Permissions extends \GoogleApi\Google_Servic
   {
     $params = array('fileId' => $fileId, 'permissionId' => $permissionId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Drive_Permission");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Drive_Permission");
   }
   /**
    * Lists a file's permissions. (permissions.listPermissions)
@@ -87,7 +87,7 @@ class Google_Service_Drive_Resource_Permissions extends \GoogleApi\Google_Servic
   {
     $params = array('fileId' => $fileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Drive_PermissionList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Drive_PermissionList");
   }
   /**
    * Updates a permission with patch semantics. (permissions.update)
@@ -107,6 +107,6 @@ class Google_Service_Drive_Resource_Permissions extends \GoogleApi\Google_Servic
   {
     $params = array('fileId' => $fileId, 'permissionId' => $permissionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Drive_Permission");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Drive_Permission");
   }
 }

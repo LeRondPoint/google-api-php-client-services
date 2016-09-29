@@ -47,7 +47,7 @@ class Google_Service_Container_Resource_ProjectsZonesClusters extends \GoogleApi
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Container_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Container_Operation");
   }
   /**
    * Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
@@ -68,7 +68,7 @@ class Google_Service_Container_Resource_ProjectsZonesClusters extends \GoogleApi
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Container_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Container_Operation");
   }
   /**
    * Gets the details of a specific cluster. (clusters.get)
@@ -85,7 +85,7 @@ class Google_Service_Container_Resource_ProjectsZonesClusters extends \GoogleApi
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Container_Cluster");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Container_Cluster");
   }
   /**
    * Lists all clusters owned by a project in either the specified zone or all
@@ -103,7 +103,7 @@ class Google_Service_Container_Resource_ProjectsZonesClusters extends \GoogleApi
   {
     $params = array('projectId' => $projectId, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Container_ListClustersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Container_ListClustersResponse");
   }
   /**
    * Updates the settings of a specific cluster. (clusters.update)
@@ -121,6 +121,6 @@ class Google_Service_Container_Resource_ProjectsZonesClusters extends \GoogleApi
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Container_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Container_Operation");
   }
 }

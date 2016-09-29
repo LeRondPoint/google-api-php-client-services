@@ -70,7 +70,7 @@ class Google_Service_Books_Resource_MylibraryBookshelves extends \GoogleApi\Goog
   {
     $params = array('shelf' => $shelf);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Bookshelf");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Bookshelf");
   }
   /**
    * Retrieves a list of bookshelves belonging to the authenticated user.
@@ -85,7 +85,7 @@ class Google_Service_Books_Resource_MylibraryBookshelves extends \GoogleApi\Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Bookshelves");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Bookshelves");
   }
   /**
    * Moves a volume within a bookshelf. (bookshelves.moveVolume)

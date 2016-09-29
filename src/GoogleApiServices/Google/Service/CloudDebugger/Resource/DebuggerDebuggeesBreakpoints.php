@@ -40,7 +40,7 @@ class Google_Service_CloudDebugger_Resource_DebuggerDebuggeesBreakpoints extends
   {
     $params = array('debuggeeId' => $debuggeeId, 'breakpointId' => $breakpointId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudDebugger_ClouddebuggerEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_ClouddebuggerEmpty");
   }
   /**
    * Gets breakpoint information. (breakpoints.get)
@@ -57,7 +57,7 @@ class Google_Service_CloudDebugger_Resource_DebuggerDebuggeesBreakpoints extends
   {
     $params = array('debuggeeId' => $debuggeeId, 'breakpointId' => $breakpointId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudDebugger_GetBreakpointResponse");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_GetBreakpointResponse");
   }
   /**
    * Lists all breakpoints for the debuggee.
@@ -90,7 +90,7 @@ class Google_Service_CloudDebugger_Resource_DebuggerDebuggeesBreakpoints extends
   {
     $params = array('debuggeeId' => $debuggeeId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudDebugger_ListBreakpointsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_ListBreakpointsResponse");
   }
   /**
    * Sets the breakpoint to the debuggee. (breakpoints.set)
@@ -108,6 +108,6 @@ class Google_Service_CloudDebugger_Resource_DebuggerDebuggeesBreakpoints extends
   {
     $params = array('debuggeeId' => $debuggeeId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('set', array($params), "Google_Service_CloudDebugger_SetBreakpointResponse");
+    return $this->call('set', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_SetBreakpointResponse");
   }
 }

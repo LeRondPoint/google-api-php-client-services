@@ -38,7 +38,7 @@ class Google_Service_CloudTrace_Resource_ProjectsTraces extends \GoogleApi\Googl
   {
     $params = array('projectId' => $projectId, 'traceId' => $traceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudTrace_Trace");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudTrace_Trace");
   }
   /**
    * Returns of a list of traces that match the specified filter conditions.
@@ -73,6 +73,6 @@ class Google_Service_CloudTrace_Resource_ProjectsTraces extends \GoogleApi\Googl
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudTrace_ListTracesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudTrace_ListTracesResponse");
   }
 }

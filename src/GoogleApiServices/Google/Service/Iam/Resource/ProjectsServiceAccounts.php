@@ -38,7 +38,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Iam_ServiceAccount");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Iam_ServiceAccount");
   }
   /**
    * Deletes a service acount. (serviceAccounts.delete)
@@ -54,7 +54,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Iam_IamEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Iam_IamEmpty");
   }
   /**
    * Gets a ServiceAccount (serviceAccounts.get)
@@ -70,7 +70,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Iam_ServiceAccount");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Iam_ServiceAccount");
   }
   /**
    * Returns the IAM access control policy for specified IAM resource.
@@ -88,7 +88,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('resource' => $resource);
     $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', array($params), "Google_Service_Iam_Policy");
+    return $this->call('getIamPolicy', array($params), "\GoogleApiServices\Google_Service_Iam_Policy");
   }
   /**
    * Lists service accounts for a project.
@@ -110,7 +110,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Iam_ListServiceAccountsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Iam_ListServiceAccountsResponse");
   }
   /**
    * Sets the IAM access control policy for the specified IAM resource.
@@ -129,7 +129,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', array($params), "Google_Service_Iam_Policy");
+    return $this->call('setIamPolicy', array($params), "\GoogleApiServices\Google_Service_Iam_Policy");
   }
   /**
    * Signs a blob using a service account. (serviceAccounts.signBlob)
@@ -146,7 +146,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('signBlob', array($params), "Google_Service_Iam_SignBlobResponse");
+    return $this->call('signBlob', array($params), "\GoogleApiServices\Google_Service_Iam_SignBlobResponse");
   }
   /**
    * Tests the specified permissions against the IAM access control policy for the
@@ -165,7 +165,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', array($params), "Google_Service_Iam_TestIamPermissionsResponse");
+    return $this->call('testIamPermissions', array($params), "\GoogleApiServices\Google_Service_Iam_TestIamPermissionsResponse");
   }
   /**
    * Updates a service account. Currently, only the following fields are
@@ -185,6 +185,6 @@ class Google_Service_Iam_Resource_ProjectsServiceAccounts extends \GoogleApi\Goo
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Iam_ServiceAccount");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Iam_ServiceAccount");
   }
 }

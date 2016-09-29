@@ -38,6 +38,6 @@ class Google_Service_Doubleclicksearch_Resource_SavedColumns extends \GoogleApi\
   {
     $params = array('agencyId' => $agencyId, 'advertiserId' => $advertiserId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Doubleclicksearch_SavedColumnList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Doubleclicksearch_SavedColumnList");
   }
 }

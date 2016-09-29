@@ -38,7 +38,7 @@ class Google_Service_PlayMovies_Resource_AccountsAvails extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'availId' => $availId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_PlayMovies_Avail");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_PlayMovies_Avail");
   }
   /**
    * List Avails owned or managed by the partner. See _Authentication and
@@ -76,6 +76,6 @@ class Google_Service_PlayMovies_Resource_AccountsAvails extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_PlayMovies_ListAvailsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_PlayMovies_ListAvailsResponse");
   }
 }

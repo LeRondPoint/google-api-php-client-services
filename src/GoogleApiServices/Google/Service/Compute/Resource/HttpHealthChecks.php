@@ -38,7 +38,7 @@ class Google_Service_Compute_Resource_HttpHealthChecks extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'httpHealthCheck' => $httpHealthCheck);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified HttpHealthCheck resource. Get a list of available HTTP
@@ -54,7 +54,7 @@ class Google_Service_Compute_Resource_HttpHealthChecks extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'httpHealthCheck' => $httpHealthCheck);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_HttpHealthCheck");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_HttpHealthCheck");
   }
   /**
    * Creates a HttpHealthCheck resource in the specified project using the data
@@ -69,7 +69,7 @@ class Google_Service_Compute_Resource_HttpHealthChecks extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of HttpHealthCheck resources available to the specified
@@ -115,7 +115,7 @@ class Google_Service_Compute_Resource_HttpHealthChecks extends \GoogleApi\Google
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_HttpHealthCheckList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_HttpHealthCheckList");
   }
   /**
    * Updates a HttpHealthCheck resource in the specified project using the data
@@ -133,7 +133,7 @@ class Google_Service_Compute_Resource_HttpHealthChecks extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'httpHealthCheck' => $httpHealthCheck, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Compute_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Updates a HttpHealthCheck resource in the specified project using the data
@@ -150,6 +150,6 @@ class Google_Service_Compute_Resource_HttpHealthChecks extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'httpHealthCheck' => $httpHealthCheck, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Compute_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

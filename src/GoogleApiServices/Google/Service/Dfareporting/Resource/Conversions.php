@@ -37,6 +37,6 @@ class Google_Service_Dfareporting_Resource_Conversions extends \GoogleApi\Google
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('batchinsert', array($params), "Google_Service_Dfareporting_ConversionsBatchInsertResponse");
+    return $this->call('batchinsert', array($params), "\GoogleApiServices\Google_Service_Dfareporting_ConversionsBatchInsertResponse");
   }
 }

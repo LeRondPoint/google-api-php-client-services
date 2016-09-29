@@ -38,6 +38,6 @@ class Google_Service_Logging_Resource_ProjectsLogs extends \GoogleApi\Google_Ser
   {
     $params = array('logName' => $logName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Logging_LoggingEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Logging_LoggingEmpty");
   }
 }

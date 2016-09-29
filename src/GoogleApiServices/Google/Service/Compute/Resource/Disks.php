@@ -68,7 +68,7 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_DiskAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_DiskAggregatedList");
   }
   /**
    * Creates a snapshot of a specified persistent disk. (disks.createSnapshot)
@@ -84,7 +84,7 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project, 'zone' => $zone, 'disk' => $disk, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('createSnapshot', array($params), "Google_Service_Compute_Operation");
+    return $this->call('createSnapshot', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Deletes the specified persistent disk. Deleting a disk removes its data
@@ -102,7 +102,7 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project, 'zone' => $zone, 'disk' => $disk);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns a specified persistent disk. Get a list of available persistent disks
@@ -118,7 +118,7 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project, 'zone' => $zone, 'disk' => $disk);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Disk");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Disk");
   }
   /**
    * Creates a persistent disk in the specified project using the data in the
@@ -139,7 +139,7 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of persistent disks contained within the specified zone.
@@ -186,7 +186,7 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_DiskList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_DiskList");
   }
   /**
    * Resizes the specified persistent disk. (disks.resize)
@@ -202,6 +202,6 @@ class Google_Service_Compute_Resource_Disks extends \GoogleApi\Google_Service_Re
   {
     $params = array('project' => $project, 'zone' => $zone, 'disk' => $disk, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('resize', array($params), "Google_Service_Compute_Operation");
+    return $this->call('resize', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

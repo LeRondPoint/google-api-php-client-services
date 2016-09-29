@@ -67,6 +67,6 @@ class Google_Service_Genomics_Resource_ReadgroupsetsCoveragebuckets extends \Goo
   {
     $params = array('readGroupSetId' => $readGroupSetId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Genomics_ListCoverageBucketsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Genomics_ListCoverageBucketsResponse");
   }
 }

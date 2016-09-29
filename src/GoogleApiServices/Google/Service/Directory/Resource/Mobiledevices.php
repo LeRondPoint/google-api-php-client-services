@@ -67,7 +67,7 @@ class Google_Service_Directory_Resource_Mobiledevices extends \GoogleApi\Google_
   {
     $params = array('customerId' => $customerId, 'resourceId' => $resourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_MobileDevice");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_MobileDevice");
   }
   /**
    * Retrieve all Mobile Devices of a customer (paginated)
@@ -91,6 +91,6 @@ class Google_Service_Directory_Resource_Mobiledevices extends \GoogleApi\Google_
   {
     $params = array('customerId' => $customerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_MobileDevices");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_MobileDevices");
   }
 }

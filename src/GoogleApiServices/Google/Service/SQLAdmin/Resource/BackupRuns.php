@@ -40,7 +40,7 @@ class Google_Service_SQLAdmin_Resource_BackupRuns extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'instance' => $instance, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Retrieves a resource containing information about a backup run.
@@ -57,7 +57,7 @@ class Google_Service_SQLAdmin_Resource_BackupRuns extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'instance' => $instance, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_SQLAdmin_BackupRun");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_BackupRun");
   }
   /**
    * Creates a new backup run on demand. This method is applicable only to Second
@@ -74,7 +74,7 @@ class Google_Service_SQLAdmin_Resource_BackupRuns extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Lists all backup runs associated with a given instance and configuration in
@@ -95,6 +95,6 @@ class Google_Service_SQLAdmin_Resource_BackupRuns extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_SQLAdmin_BackupRunsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_BackupRunsListResponse");
   }
 }

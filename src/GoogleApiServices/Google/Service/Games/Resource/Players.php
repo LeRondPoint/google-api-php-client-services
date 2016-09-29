@@ -42,7 +42,7 @@ class Google_Service_Games_Resource_Players extends \GoogleApi\Google_Service_Re
   {
     $params = array('playerId' => $playerId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Games_Player");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Games_Player");
   }
   /**
    * Get the collection of players for the currently authenticated user.
@@ -64,6 +64,6 @@ class Google_Service_Games_Resource_Players extends \GoogleApi\Google_Service_Re
   {
     $params = array('collection' => $collection);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_PlayerListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_PlayerListResponse");
   }
 }

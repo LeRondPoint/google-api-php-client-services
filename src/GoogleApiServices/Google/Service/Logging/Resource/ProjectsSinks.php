@@ -39,7 +39,7 @@ class Google_Service_Logging_Resource_ProjectsSinks extends \GoogleApi\Google_Se
   {
     $params = array('projectName' => $projectName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Logging_LogSink");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Logging_LogSink");
   }
   /**
    * Deletes a sink. (sinks.delete)
@@ -53,7 +53,7 @@ class Google_Service_Logging_Resource_ProjectsSinks extends \GoogleApi\Google_Se
   {
     $params = array('sinkName' => $sinkName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Logging_LoggingEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Logging_LoggingEmpty");
   }
   /**
    * Gets a sink. (sinks.get)
@@ -67,7 +67,7 @@ class Google_Service_Logging_Resource_ProjectsSinks extends \GoogleApi\Google_Se
   {
     $params = array('sinkName' => $sinkName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Logging_LogSink");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Logging_LogSink");
   }
   /**
    * Lists sinks. (sinks.listProjectsSinks)
@@ -92,7 +92,7 @@ class Google_Service_Logging_Resource_ProjectsSinks extends \GoogleApi\Google_Se
   {
     $params = array('projectName' => $projectName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Logging_ListSinksResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Logging_ListSinksResponse");
   }
   /**
    * Creates or updates a sink. (sinks.update)
@@ -109,6 +109,6 @@ class Google_Service_Logging_Resource_ProjectsSinks extends \GoogleApi\Google_Se
   {
     $params = array('sinkName' => $sinkName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Logging_LogSink");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Logging_LogSink");
   }
 }

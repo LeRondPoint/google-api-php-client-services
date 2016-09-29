@@ -39,7 +39,7 @@ class Google_Service_CloudSpeechAPI_Resource_Speech extends \GoogleApi\Google_Se
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('asyncrecognize', array($params), "Google_Service_CloudSpeechAPI_Operation");
+    return $this->call('asyncrecognize', array($params), "\GoogleApiServices\Google_Service_CloudSpeechAPI_Operation");
   }
   /**
    * Perform synchronous speech-recognition: receive results after all audio has
@@ -53,6 +53,6 @@ class Google_Service_CloudSpeechAPI_Resource_Speech extends \GoogleApi\Google_Se
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('syncrecognize', array($params), "Google_Service_CloudSpeechAPI_SyncRecognizeResponse");
+    return $this->call('syncrecognize', array($params), "\GoogleApiServices\Google_Service_CloudSpeechAPI_SyncRecognizeResponse");
   }
 }

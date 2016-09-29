@@ -38,7 +38,7 @@ class Google_Service_DeploymentManager_Resource_Resources extends \GoogleApi\Goo
   {
     $params = array('project' => $project, 'deployment' => $deployment, 'resource' => $resource);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_DeploymentManager_DeploymentmanagerResource");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_DeploymentManager_DeploymentmanagerResource");
   }
   /**
    * Lists all resources in a given deployment. (resources.listResources)
@@ -84,6 +84,6 @@ class Google_Service_DeploymentManager_Resource_Resources extends \GoogleApi\Goo
   {
     $params = array('project' => $project, 'deployment' => $deployment);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_DeploymentManager_ResourcesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_DeploymentManager_ResourcesListResponse");
   }
 }

@@ -43,7 +43,7 @@ class Google_Service_Games_Resource_Achievements extends \GoogleApi\Google_Servi
   {
     $params = array('achievementId' => $achievementId, 'stepsToIncrement' => $stepsToIncrement);
     $params = array_merge($params, $optParams);
-    return $this->call('increment', array($params), "Google_Service_Games_AchievementIncrementResponse");
+    return $this->call('increment', array($params), "\GoogleApiServices\Google_Service_Games_AchievementIncrementResponse");
   }
   /**
    * Lists the progress for all your application's achievements for the currently
@@ -69,7 +69,7 @@ class Google_Service_Games_Resource_Achievements extends \GoogleApi\Google_Servi
   {
     $params = array('playerId' => $playerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_PlayerAchievementListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_PlayerAchievementListResponse");
   }
   /**
    * Sets the state of the achievement with the given ID to REVEALED for the
@@ -85,7 +85,7 @@ class Google_Service_Games_Resource_Achievements extends \GoogleApi\Google_Servi
   {
     $params = array('achievementId' => $achievementId);
     $params = array_merge($params, $optParams);
-    return $this->call('reveal', array($params), "Google_Service_Games_AchievementRevealResponse");
+    return $this->call('reveal', array($params), "\GoogleApiServices\Google_Service_Games_AchievementRevealResponse");
   }
   /**
    * Sets the steps for the currently authenticated player towards unlocking an
@@ -104,7 +104,7 @@ class Google_Service_Games_Resource_Achievements extends \GoogleApi\Google_Servi
   {
     $params = array('achievementId' => $achievementId, 'steps' => $steps);
     $params = array_merge($params, $optParams);
-    return $this->call('setStepsAtLeast', array($params), "Google_Service_Games_AchievementSetStepsAtLeastResponse");
+    return $this->call('setStepsAtLeast', array($params), "\GoogleApiServices\Google_Service_Games_AchievementSetStepsAtLeastResponse");
   }
   /**
    * Unlocks this achievement for the currently authenticated player.
@@ -120,7 +120,7 @@ class Google_Service_Games_Resource_Achievements extends \GoogleApi\Google_Servi
   {
     $params = array('achievementId' => $achievementId);
     $params = array_merge($params, $optParams);
-    return $this->call('unlock', array($params), "Google_Service_Games_AchievementUnlockResponse");
+    return $this->call('unlock', array($params), "\GoogleApiServices\Google_Service_Games_AchievementUnlockResponse");
   }
   /**
    * Updates multiple achievements for the currently authenticated player.
@@ -136,6 +136,6 @@ class Google_Service_Games_Resource_Achievements extends \GoogleApi\Google_Servi
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateMultiple', array($params), "Google_Service_Games_AchievementUpdateMultipleResponse");
+    return $this->call('updateMultiple', array($params), "\GoogleApiServices\Google_Service_Games_AchievementUpdateMultipleResponse");
   }
 }

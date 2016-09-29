@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_Orgunits extends \GoogleApi\Google_Servi
   {
     $params = array('customerId' => $customerId, 'orgUnitPath' => $orgUnitPath);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_OrgUnit");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_OrgUnit");
   }
   /**
    * Add Organization Unit (orgunits.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_Orgunits extends \GoogleApi\Google_Servi
   {
     $params = array('customerId' => $customerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_OrgUnit");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_OrgUnit");
   }
   /**
    * Retrieve all Organization Units (orgunits.listOrgunits)
@@ -82,7 +82,7 @@ class Google_Service_Directory_Resource_Orgunits extends \GoogleApi\Google_Servi
   {
     $params = array('customerId' => $customerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_OrgUnits");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_OrgUnits");
   }
   /**
    * Update Organization Unit. This method supports patch semantics.
@@ -98,7 +98,7 @@ class Google_Service_Directory_Resource_Orgunits extends \GoogleApi\Google_Servi
   {
     $params = array('customerId' => $customerId, 'orgUnitPath' => $orgUnitPath, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_OrgUnit");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_OrgUnit");
   }
   /**
    * Update Organization Unit (orgunits.update)
@@ -113,6 +113,6 @@ class Google_Service_Directory_Resource_Orgunits extends \GoogleApi\Google_Servi
   {
     $params = array('customerId' => $customerId, 'orgUnitPath' => $orgUnitPath, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_OrgUnit");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_OrgUnit");
   }
 }

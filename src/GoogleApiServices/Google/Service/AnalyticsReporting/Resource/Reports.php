@@ -36,6 +36,6 @@ class Google_Service_AnalyticsReporting_Resource_Reports extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('batchGet', array($params), "Google_Service_AnalyticsReporting_GetReportsResponse");
+    return $this->call('batchGet', array($params), "\GoogleApiServices\Google_Service_AnalyticsReporting_GetReportsResponse");
   }
 }

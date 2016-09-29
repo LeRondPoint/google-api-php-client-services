@@ -62,6 +62,6 @@ class Google_Service_Analytics_Resource_DataGa extends \GoogleApi\Google_Service
   {
     $params = array('ids' => $ids, 'start-date' => $startDate, 'end-date' => $endDate, 'metrics' => $metrics);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_GaData");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_GaData");
   }
 }

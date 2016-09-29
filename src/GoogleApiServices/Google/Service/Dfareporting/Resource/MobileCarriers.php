@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_MobileCarriers extends \GoogleApi\Goo
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_MobileCarrier");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_MobileCarrier");
   }
   /**
    * Retrieves a list of mobile carriers. (mobileCarriers.listMobileCarriers)
@@ -50,6 +50,6 @@ class Google_Service_Dfareporting_Resource_MobileCarriers extends \GoogleApi\Goo
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_MobileCarriersListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_MobileCarriersListResponse");
   }
 }

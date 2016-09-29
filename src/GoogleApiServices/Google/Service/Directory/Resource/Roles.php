@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_Roles extends \GoogleApi\Google_Service_
   {
     $params = array('customer' => $customer, 'roleId' => $roleId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Role");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Role");
   }
   /**
    * Creates a role. (roles.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_Roles extends \GoogleApi\Google_Service_
   {
     $params = array('customer' => $customer, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Role");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Role");
   }
   /**
    * Retrieves a paginated list of all the roles in a domain. (roles.listRoles)
@@ -80,7 +80,7 @@ class Google_Service_Directory_Resource_Roles extends \GoogleApi\Google_Service_
   {
     $params = array('customer' => $customer);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Roles");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Roles");
   }
   /**
    * Updates a role. This method supports patch semantics. (roles.patch)
@@ -95,7 +95,7 @@ class Google_Service_Directory_Resource_Roles extends \GoogleApi\Google_Service_
   {
     $params = array('customer' => $customer, 'roleId' => $roleId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_Role");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_Role");
   }
   /**
    * Updates a role. (roles.update)
@@ -110,6 +110,6 @@ class Google_Service_Directory_Resource_Roles extends \GoogleApi\Google_Service_
   {
     $params = array('customer' => $customer, 'roleId' => $roleId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_Role");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_Role");
   }
 }

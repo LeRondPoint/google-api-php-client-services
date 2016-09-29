@@ -42,6 +42,6 @@ class Google_Service_CivicInfo_Resource_Divisions extends \GoogleApi\Google_Serv
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_CivicInfo_DivisionSearchResponse");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_CivicInfo_DivisionSearchResponse");
   }
 }

@@ -40,6 +40,6 @@ class Google_Service_Sheets_Resource_SpreadsheetsSheets extends \GoogleApi\Googl
   {
     $params = array('spreadsheetId' => $spreadsheetId, 'sheetId' => $sheetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('copyTo', array($params), "Google_Service_Sheets_SheetProperties");
+    return $this->call('copyTo', array($params), "\GoogleApiServices\Google_Service_Sheets_SheetProperties");
   }
 }

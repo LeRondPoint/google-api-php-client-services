@@ -41,7 +41,7 @@ class Google_Service_Clouderrorreporting_Resource_ProjectsGroups extends \Google
   {
     $params = array('groupName' => $groupName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Clouderrorreporting_ErrorGroup");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Clouderrorreporting_ErrorGroup");
   }
   /**
    * Replace the data for the specified group. Fails if the group does not exist.
@@ -57,6 +57,6 @@ class Google_Service_Clouderrorreporting_Resource_ProjectsGroups extends \Google
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Clouderrorreporting_ErrorGroup");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Clouderrorreporting_ErrorGroup");
   }
 }

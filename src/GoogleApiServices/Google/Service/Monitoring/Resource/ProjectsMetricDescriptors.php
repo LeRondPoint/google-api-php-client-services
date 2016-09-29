@@ -39,7 +39,7 @@ class Google_Service_Monitoring_Resource_ProjectsMetricDescriptors extends \Goog
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Monitoring_MetricDescriptor");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Monitoring_MetricDescriptor");
   }
   /**
    * Deletes a metric descriptor. Only user-created [custom metrics](/monitoring
@@ -56,7 +56,7 @@ class Google_Service_Monitoring_Resource_ProjectsMetricDescriptors extends \Goog
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Monitoring_MonitoringEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Monitoring_MonitoringEmpty");
   }
   /**
    * Gets a single metric descriptor. This method does not require a Stackdriver
@@ -74,7 +74,7 @@ class Google_Service_Monitoring_Resource_ProjectsMetricDescriptors extends \Goog
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Monitoring_MetricDescriptor");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Monitoring_MetricDescriptor");
   }
   /**
    * Lists metric descriptors that match a filter. This method does not require a
@@ -102,6 +102,6 @@ class Google_Service_Monitoring_Resource_ProjectsMetricDescriptors extends \Goog
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Monitoring_ListMetricDescriptorsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Monitoring_ListMetricDescriptorsResponse");
   }
 }

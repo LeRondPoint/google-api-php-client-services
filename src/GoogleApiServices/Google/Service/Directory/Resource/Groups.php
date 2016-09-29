@@ -48,7 +48,7 @@ class Google_Service_Directory_Resource_Groups extends \GoogleApi\Google_Service
   {
     $params = array('groupKey' => $groupKey);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Group");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Group");
   }
   /**
    * Create Group (groups.insert)
@@ -61,7 +61,7 @@ class Google_Service_Directory_Resource_Groups extends \GoogleApi\Google_Service
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Group");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Group");
   }
   /**
    * Retrieve all groups in a domain (paginated) (groups.listGroups)
@@ -85,7 +85,7 @@ class Google_Service_Directory_Resource_Groups extends \GoogleApi\Google_Service
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Groups");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Groups");
   }
   /**
    * Update Group. This method supports patch semantics. (groups.patch)
@@ -100,7 +100,7 @@ class Google_Service_Directory_Resource_Groups extends \GoogleApi\Google_Service
   {
     $params = array('groupKey' => $groupKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_Group");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_Group");
   }
   /**
    * Update Group (groups.update)
@@ -115,6 +115,6 @@ class Google_Service_Directory_Resource_Groups extends \GoogleApi\Google_Service
   {
     $params = array('groupKey' => $groupKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_Group");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_Group");
   }
 }

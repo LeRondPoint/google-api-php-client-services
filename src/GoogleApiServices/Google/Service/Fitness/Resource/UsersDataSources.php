@@ -45,7 +45,7 @@ class Google_Service_Fitness_Resource_UsersDataSources extends \GoogleApi\Google
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Fitness_DataSource");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Fitness_DataSource");
   }
   /**
    * Deletes the specified data source. The request will fail if the data source
@@ -61,7 +61,7 @@ class Google_Service_Fitness_Resource_UsersDataSources extends \GoogleApi\Google
   {
     $params = array('userId' => $userId, 'dataSourceId' => $dataSourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Fitness_DataSource");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Fitness_DataSource");
   }
   /**
    * Returns the specified data source. (dataSources.get)
@@ -77,7 +77,7 @@ class Google_Service_Fitness_Resource_UsersDataSources extends \GoogleApi\Google
   {
     $params = array('userId' => $userId, 'dataSourceId' => $dataSourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Fitness_DataSource");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Fitness_DataSource");
   }
   /**
    * Lists all data sources that are visible to the developer, using the OAuth
@@ -97,7 +97,7 @@ class Google_Service_Fitness_Resource_UsersDataSources extends \GoogleApi\Google
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Fitness_ListDataSourcesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Fitness_ListDataSourcesResponse");
   }
   /**
    * Updates the specified data source. The dataStreamId, dataType, type,
@@ -118,7 +118,7 @@ class Google_Service_Fitness_Resource_UsersDataSources extends \GoogleApi\Google
   {
     $params = array('userId' => $userId, 'dataSourceId' => $dataSourceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Fitness_DataSource");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Fitness_DataSource");
   }
   /**
    * Updates the specified data source. The dataStreamId, dataType, type,
@@ -138,6 +138,6 @@ class Google_Service_Fitness_Resource_UsersDataSources extends \GoogleApi\Google
   {
     $params = array('userId' => $userId, 'dataSourceId' => $dataSourceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Fitness_DataSource");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Fitness_DataSource");
   }
 }

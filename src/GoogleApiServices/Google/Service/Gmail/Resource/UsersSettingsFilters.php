@@ -38,7 +38,7 @@ class Google_Service_Gmail_Resource_UsersSettingsFilters extends \GoogleApi\Goog
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Gmail_Filter");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Gmail_Filter");
   }
   /**
    * Deletes a filter. (filters.delete)
@@ -67,7 +67,7 @@ class Google_Service_Gmail_Resource_UsersSettingsFilters extends \GoogleApi\Goog
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_Filter");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_Filter");
   }
   /**
    * Lists the message filters of a Gmail user. (filters.listUsersSettingsFilters)
@@ -81,6 +81,6 @@ class Google_Service_Gmail_Resource_UsersSettingsFilters extends \GoogleApi\Goog
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListFiltersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListFiltersResponse");
   }
 }

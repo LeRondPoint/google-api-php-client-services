@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_Schemas extends \GoogleApi\Google_Servic
   {
     $params = array('customerId' => $customerId, 'schemaKey' => $schemaKey);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Schema");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Schema");
   }
   /**
    * Create schema. (schemas.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_Schemas extends \GoogleApi\Google_Servic
   {
     $params = array('customerId' => $customerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Schema");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Schema");
   }
   /**
    * Retrieve all schemas for a customer (schemas.listSchemas)
@@ -77,7 +77,7 @@ class Google_Service_Directory_Resource_Schemas extends \GoogleApi\Google_Servic
   {
     $params = array('customerId' => $customerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Schemas");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Schemas");
   }
   /**
    * Update schema. This method supports patch semantics. (schemas.patch)
@@ -92,7 +92,7 @@ class Google_Service_Directory_Resource_Schemas extends \GoogleApi\Google_Servic
   {
     $params = array('customerId' => $customerId, 'schemaKey' => $schemaKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_Schema");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_Schema");
   }
   /**
    * Update schema (schemas.update)
@@ -107,6 +107,6 @@ class Google_Service_Directory_Resource_Schemas extends \GoogleApi\Google_Servic
   {
     $params = array('customerId' => $customerId, 'schemaKey' => $schemaKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_Schema");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_Schema");
   }
 }

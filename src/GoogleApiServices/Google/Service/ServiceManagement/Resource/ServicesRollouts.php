@@ -48,7 +48,7 @@ class Google_Service_ServiceManagement_Resource_ServicesRollouts extends \Google
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
   /**
    * Gets a service configuration rollout. (rollouts.get)
@@ -64,7 +64,7 @@ class Google_Service_ServiceManagement_Resource_ServicesRollouts extends \Google
   {
     $params = array('serviceName' => $serviceName, 'rolloutId' => $rolloutId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ServiceManagement_Rollout");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Rollout");
   }
   /**
    * Lists the history of the service configuration rollouts for a managed
@@ -84,6 +84,6 @@ class Google_Service_ServiceManagement_Resource_ServicesRollouts extends \Google
   {
     $params = array('serviceName' => $serviceName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ServiceManagement_ListServiceRolloutsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_ListServiceRolloutsResponse");
   }
 }

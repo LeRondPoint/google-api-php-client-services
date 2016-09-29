@@ -39,7 +39,7 @@ class Google_Service_Datastore_Resource_Projects extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('allocateIds', array($params), "Google_Service_Datastore_AllocateIdsResponse");
+    return $this->call('allocateIds', array($params), "\GoogleApiServices\Google_Service_Datastore_AllocateIdsResponse");
   }
   /**
    * Begins a new transaction. (projects.beginTransaction)
@@ -54,7 +54,7 @@ class Google_Service_Datastore_Resource_Projects extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('beginTransaction', array($params), "Google_Service_Datastore_BeginTransactionResponse");
+    return $this->call('beginTransaction', array($params), "\GoogleApiServices\Google_Service_Datastore_BeginTransactionResponse");
   }
   /**
    * Commits a transaction, optionally creating, deleting or modifying some
@@ -70,7 +70,7 @@ class Google_Service_Datastore_Resource_Projects extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('commit', array($params), "Google_Service_Datastore_CommitResponse");
+    return $this->call('commit', array($params), "\GoogleApiServices\Google_Service_Datastore_CommitResponse");
   }
   /**
    * Looks up entities by key. (projects.lookup)
@@ -85,7 +85,7 @@ class Google_Service_Datastore_Resource_Projects extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('lookup', array($params), "Google_Service_Datastore_LookupResponse");
+    return $this->call('lookup', array($params), "\GoogleApiServices\Google_Service_Datastore_LookupResponse");
   }
   /**
    * Rolls back a transaction. (projects.rollback)
@@ -100,7 +100,7 @@ class Google_Service_Datastore_Resource_Projects extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('rollback', array($params), "Google_Service_Datastore_RollbackResponse");
+    return $this->call('rollback', array($params), "\GoogleApiServices\Google_Service_Datastore_RollbackResponse");
   }
   /**
    * Queries for entities. (projects.runQuery)
@@ -115,6 +115,6 @@ class Google_Service_Datastore_Resource_Projects extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('runQuery', array($params), "Google_Service_Datastore_RunQueryResponse");
+    return $this->call('runQuery', array($params), "\GoogleApiServices\Google_Service_Datastore_RunQueryResponse");
   }
 }

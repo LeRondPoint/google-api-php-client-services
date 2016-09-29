@@ -57,7 +57,7 @@ class Google_Service_Proximitybeacon_Resource_BeaconsAttachments extends \Google
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('batchDelete', array($params), "Google_Service_Proximitybeacon_DeleteAttachmentsResponse");
+    return $this->call('batchDelete', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_DeleteAttachmentsResponse");
   }
   /**
    * Associates the given data with the specified beacon. Attachment data must
@@ -89,7 +89,7 @@ class Google_Service_Proximitybeacon_Resource_BeaconsAttachments extends \Google
   {
     $params = array('beaconName' => $beaconName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Proximitybeacon_BeaconAttachment");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_BeaconAttachment");
   }
   /**
    * Deletes the specified attachment for the given beacon. Each attachment has a
@@ -116,7 +116,7 @@ class Google_Service_Proximitybeacon_Resource_BeaconsAttachments extends \Google
   {
     $params = array('attachmentName' => $attachmentName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Proximitybeacon_ProximitybeaconEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ProximitybeaconEmpty");
   }
   /**
    * Returns the attachments for the specified beacon that match the specified
@@ -150,6 +150,6 @@ class Google_Service_Proximitybeacon_Resource_BeaconsAttachments extends \Google
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Proximitybeacon_ListBeaconAttachmentsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ListBeaconAttachmentsResponse");
   }
 }

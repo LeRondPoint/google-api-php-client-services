@@ -37,7 +37,7 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'targetSslProxy' => $targetSslProxy);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified TargetSslProxy resource. Get a list of available target
@@ -52,7 +52,7 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'targetSslProxy' => $targetSslProxy);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_TargetSslProxy");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_TargetSslProxy");
   }
   /**
    * Creates a TargetSslProxy resource in the specified project using the data
@@ -67,7 +67,7 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of TargetSslProxy resources available to the specified
@@ -113,7 +113,7 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_TargetSslProxyList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_TargetSslProxyList");
   }
   /**
    * Changes the BackendService for TargetSslProxy.
@@ -130,7 +130,7 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'targetSslProxy' => $targetSslProxy, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setBackendService', array($params), "Google_Service_Compute_Operation");
+    return $this->call('setBackendService', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Changes the ProxyHeaderType for TargetSslProxy.
@@ -147,7 +147,7 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'targetSslProxy' => $targetSslProxy, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setProxyHeader', array($params), "Google_Service_Compute_Operation");
+    return $this->call('setProxyHeader', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Changes SslCertificates for TargetSslProxy.
@@ -164,6 +164,6 @@ class Google_Service_Compute_Resource_TargetSslProxies extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'targetSslProxy' => $targetSslProxy, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setSslCertificates', array($params), "Google_Service_Compute_Operation");
+    return $this->call('setSslCertificates', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

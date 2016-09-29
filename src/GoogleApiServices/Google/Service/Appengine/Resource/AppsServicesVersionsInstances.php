@@ -46,7 +46,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersionsInstances extends \G
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'instancesId' => $instancesId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('debug', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('debug', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
   /**
    * Stops a running instance. (instances.delete)
@@ -63,7 +63,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersionsInstances extends \G
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'instancesId' => $instancesId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
   /**
    * Gets instance information. (instances.get)
@@ -80,7 +80,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersionsInstances extends \G
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'instancesId' => $instancesId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Appengine_Instance");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Appengine_Instance");
   }
   /**
    * Lists the instances of a version.
@@ -101,6 +101,6 @@ class Google_Service_Appengine_Resource_AppsServicesVersionsInstances extends \G
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Appengine_ListInstancesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Appengine_ListInstancesResponse");
   }
 }

@@ -41,7 +41,7 @@ class Google_Service_Games_Resource_Quests extends \GoogleApi\Google_Service_Res
   {
     $params = array('questId' => $questId);
     $params = array_merge($params, $optParams);
-    return $this->call('accept', array($params), "Google_Service_Games_Quest");
+    return $this->call('accept', array($params), "\GoogleApiServices\Google_Service_Games_Quest");
   }
   /**
    * Get a list of quests for your application and the currently authenticated
@@ -65,6 +65,6 @@ class Google_Service_Games_Resource_Quests extends \GoogleApi\Google_Service_Res
   {
     $params = array('playerId' => $playerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_QuestListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_QuestListResponse");
   }
 }

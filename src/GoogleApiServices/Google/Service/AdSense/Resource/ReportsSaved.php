@@ -43,7 +43,7 @@ class Google_Service_AdSense_Resource_ReportsSaved extends \GoogleApi\Google_Ser
   {
     $params = array('savedReportId' => $savedReportId);
     $params = array_merge($params, $optParams);
-    return $this->call('generate', array($params), "Google_Service_AdSense_AdsenseReportsGenerateResponse");
+    return $this->call('generate', array($params), "\GoogleApiServices\Google_Service_AdSense_AdsenseReportsGenerateResponse");
   }
   /**
    * List all saved reports in this AdSense account. (saved.listReportsSaved)
@@ -61,6 +61,6 @@ class Google_Service_AdSense_Resource_ReportsSaved extends \GoogleApi\Google_Ser
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_SavedReports");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_SavedReports");
   }
 }

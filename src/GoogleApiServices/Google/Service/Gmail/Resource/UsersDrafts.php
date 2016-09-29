@@ -38,7 +38,7 @@ class Google_Service_Gmail_Resource_UsersDrafts extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Gmail_Draft");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Gmail_Draft");
   }
   /**
    * Immediately and permanently deletes the specified draft. Does not simply
@@ -70,7 +70,7 @@ class Google_Service_Gmail_Resource_UsersDrafts extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_Draft");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_Draft");
   }
   /**
    * Lists the drafts in the user's mailbox. (drafts.listUsersDrafts)
@@ -93,7 +93,7 @@ class Google_Service_Gmail_Resource_UsersDrafts extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListDraftsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListDraftsResponse");
   }
   /**
    * Sends the specified, existing draft to the recipients in the To, Cc, and Bcc
@@ -109,7 +109,7 @@ class Google_Service_Gmail_Resource_UsersDrafts extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('send', array($params), "Google_Service_Gmail_Message");
+    return $this->call('send', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Replaces a draft's content. (drafts.update)
@@ -125,6 +125,6 @@ class Google_Service_Gmail_Resource_UsersDrafts extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Gmail_Draft");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Gmail_Draft");
   }
 }

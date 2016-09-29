@@ -40,7 +40,7 @@ class Google_Service_ShoppingContent_Resource_Inventory extends \GoogleApi\Googl
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('custombatch', array($params), "Google_Service_ShoppingContent_InventoryCustomBatchResponse");
+    return $this->call('custombatch', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_InventoryCustomBatchResponse");
   }
   /**
    * Updates price and availability of a product in your Merchant Center account.
@@ -63,6 +63,6 @@ class Google_Service_ShoppingContent_Resource_Inventory extends \GoogleApi\Googl
   {
     $params = array('merchantId' => $merchantId, 'storeCode' => $storeCode, 'productId' => $productId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('set', array($params), "Google_Service_ShoppingContent_InventorySetResponse");
+    return $this->call('set', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_InventorySetResponse");
   }
 }

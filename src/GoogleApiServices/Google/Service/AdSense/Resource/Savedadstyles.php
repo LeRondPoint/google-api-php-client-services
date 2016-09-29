@@ -36,7 +36,7 @@ class Google_Service_AdSense_Resource_Savedadstyles extends \GoogleApi\Google_Se
   {
     $params = array('savedAdStyleId' => $savedAdStyleId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdSense_SavedAdStyle");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdSense_SavedAdStyle");
   }
   /**
    * List all saved ad styles in the user's account.
@@ -55,6 +55,6 @@ class Google_Service_AdSense_Resource_Savedadstyles extends \GoogleApi\Google_Se
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_SavedAdStyles");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_SavedAdStyles");
   }
 }

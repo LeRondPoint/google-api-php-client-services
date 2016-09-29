@@ -40,6 +40,6 @@ class Google_Service_Autoscaler_Resource_Zones extends \GoogleApi\Google_Service
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Autoscaler_ZoneList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Autoscaler_ZoneList");
   }
 }

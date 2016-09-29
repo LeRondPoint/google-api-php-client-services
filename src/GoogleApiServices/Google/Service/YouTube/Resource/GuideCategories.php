@@ -49,6 +49,6 @@ class Google_Service_YouTube_Resource_GuideCategories extends \GoogleApi\Google_
   {
     $params = array('part' => $part);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTube_GuideCategoryListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTube_GuideCategoryListResponse");
   }
 }

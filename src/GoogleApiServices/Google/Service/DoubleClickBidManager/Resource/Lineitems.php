@@ -36,7 +36,7 @@ class Google_Service_DoubleClickBidManager_Resource_Lineitems extends \GoogleApi
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('downloadlineitems', array($params), "Google_Service_DoubleClickBidManager_DownloadLineItemsResponse");
+    return $this->call('downloadlineitems', array($params), "\GoogleApiServices\Google_Service_DoubleClickBidManager_DownloadLineItemsResponse");
   }
   /**
    * Uploads line items in CSV format. (lineitems.uploadlineitems)
@@ -49,6 +49,6 @@ class Google_Service_DoubleClickBidManager_Resource_Lineitems extends \GoogleApi
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('uploadlineitems', array($params), "Google_Service_DoubleClickBidManager_UploadLineItemsResponse");
+    return $this->call('uploadlineitems', array($params), "\GoogleApiServices\Google_Service_DoubleClickBidManager_UploadLineItemsResponse");
   }
 }

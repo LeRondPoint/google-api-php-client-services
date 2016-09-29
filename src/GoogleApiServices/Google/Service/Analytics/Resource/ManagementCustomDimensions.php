@@ -39,7 +39,7 @@ class Google_Service_Analytics_Resource_ManagementCustomDimensions extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDimensionId' => $customDimensionId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_CustomDimension");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomDimension");
   }
   /**
    * Create a new custom dimension. (customDimensions.insert)
@@ -55,7 +55,7 @@ class Google_Service_Analytics_Resource_ManagementCustomDimensions extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_CustomDimension");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomDimension");
   }
   /**
    * Lists custom dimensions to which the user has access.
@@ -76,7 +76,7 @@ class Google_Service_Analytics_Resource_ManagementCustomDimensions extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_CustomDimensions");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomDimensions");
   }
   /**
    * Updates an existing custom dimension. This method supports patch semantics.
@@ -99,7 +99,7 @@ class Google_Service_Analytics_Resource_ManagementCustomDimensions extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDimensionId' => $customDimensionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_CustomDimension");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomDimension");
   }
   /**
    * Updates an existing custom dimension. (customDimensions.update)
@@ -121,6 +121,6 @@ class Google_Service_Analytics_Resource_ManagementCustomDimensions extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDimensionId' => $customDimensionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_CustomDimension");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomDimension");
   }
 }

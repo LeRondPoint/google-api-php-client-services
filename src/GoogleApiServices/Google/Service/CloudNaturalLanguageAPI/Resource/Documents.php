@@ -38,7 +38,7 @@ class Google_Service_CloudNaturalLanguageAPI_Resource_Documents extends \GoogleA
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('analyzeEntities', array($params), "Google_Service_CloudNaturalLanguageAPI_AnalyzeEntitiesResponse");
+    return $this->call('analyzeEntities', array($params), "\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_AnalyzeEntitiesResponse");
   }
   /**
    * Analyzes the sentiment of the provided text. (documents.analyzeSentiment)
@@ -51,7 +51,7 @@ class Google_Service_CloudNaturalLanguageAPI_Resource_Documents extends \GoogleA
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('analyzeSentiment', array($params), "Google_Service_CloudNaturalLanguageAPI_AnalyzeSentimentResponse");
+    return $this->call('analyzeSentiment', array($params), "\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_AnalyzeSentimentResponse");
   }
   /**
    * Advanced API that analyzes the document and provides a full set of text
@@ -67,6 +67,6 @@ class Google_Service_CloudNaturalLanguageAPI_Resource_Documents extends \GoogleA
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('annotateText', array($params), "Google_Service_CloudNaturalLanguageAPI_AnnotateTextResponse");
+    return $this->call('annotateText', array($params), "\GoogleApiServices\Google_Service_CloudNaturalLanguageAPI_AnnotateTextResponse");
   }
 }

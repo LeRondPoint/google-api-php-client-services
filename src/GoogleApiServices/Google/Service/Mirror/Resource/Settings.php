@@ -40,6 +40,6 @@ class Google_Service_Mirror_Resource_Settings extends \GoogleApi\Google_Service_
   {
     $params = array('id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Mirror_Setting");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Mirror_Setting");
   }
 }

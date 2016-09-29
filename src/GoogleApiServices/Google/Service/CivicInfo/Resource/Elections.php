@@ -35,7 +35,7 @@ class Google_Service_CivicInfo_Resource_Elections extends \GoogleApi\Google_Serv
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('electionQuery', array($params), "Google_Service_CivicInfo_ElectionsQueryResponse");
+    return $this->call('electionQuery', array($params), "\GoogleApiServices\Google_Service_CivicInfo_ElectionsQueryResponse");
   }
   /**
    * Looks up information relevant to a voter based on the voter's registered
@@ -59,6 +59,6 @@ class Google_Service_CivicInfo_Resource_Elections extends \GoogleApi\Google_Serv
   {
     $params = array('address' => $address);
     $params = array_merge($params, $optParams);
-    return $this->call('voterInfoQuery', array($params), "Google_Service_CivicInfo_VoterInfoResponse");
+    return $this->call('voterInfoQuery', array($params), "\GoogleApiServices\Google_Service_CivicInfo_VoterInfoResponse");
   }
 }

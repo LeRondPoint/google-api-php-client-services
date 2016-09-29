@@ -38,7 +38,7 @@ class Google_Service_TagManager_Resource_AccountsContainersTags extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_TagManager_Tag");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_TagManager_Tag");
   }
   /**
    * Deletes a GTM Tag. (tags.delete)
@@ -67,7 +67,7 @@ class Google_Service_TagManager_Resource_AccountsContainersTags extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'tagId' => $tagId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_Tag");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_Tag");
   }
   /**
    * Lists all GTM Tags of a Container. (tags.listAccountsContainersTags)
@@ -81,7 +81,7 @@ class Google_Service_TagManager_Resource_AccountsContainersTags extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListTagsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListTagsResponse");
   }
   /**
    * Updates a GTM Tag. (tags.update)
@@ -100,6 +100,6 @@ class Google_Service_TagManager_Resource_AccountsContainersTags extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'tagId' => $tagId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Tag");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Tag");
   }
 }

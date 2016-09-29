@@ -64,6 +64,6 @@ class Google_Service_Directory_Resource_VerificationCodes extends \GoogleApi\Goo
   {
     $params = array('userKey' => $userKey);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_VerificationCodes");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_VerificationCodes");
   }
 }

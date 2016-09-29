@@ -46,7 +46,7 @@ class Google_Service_ServiceControl_Resource_Services extends \GoogleApi\Google_
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('check', array($params), "Google_Service_ServiceControl_CheckResponse");
+    return $this->call('check', array($params), "\GoogleApiServices\Google_Service_ServiceControl_CheckResponse");
   }
   /**
    * Reports operations to Google Service Control. It should be called after the
@@ -68,6 +68,6 @@ class Google_Service_ServiceControl_Resource_Services extends \GoogleApi\Google_
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('report', array($params), "Google_Service_ServiceControl_ReportResponse");
+    return $this->call('report', array($params), "\GoogleApiServices\Google_Service_ServiceControl_ReportResponse");
   }
 }

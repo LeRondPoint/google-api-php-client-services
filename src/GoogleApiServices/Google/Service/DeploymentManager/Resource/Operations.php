@@ -37,7 +37,7 @@ class Google_Service_DeploymentManager_Resource_Operations extends \GoogleApi\Go
   {
     $params = array('project' => $project, 'operation' => $operation);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_DeploymentManager_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_DeploymentManager_Operation");
   }
   /**
    * Lists all operations for a project. (operations.listOperations)
@@ -82,6 +82,6 @@ class Google_Service_DeploymentManager_Resource_Operations extends \GoogleApi\Go
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_DeploymentManager_OperationsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_DeploymentManager_OperationsListResponse");
   }
 }

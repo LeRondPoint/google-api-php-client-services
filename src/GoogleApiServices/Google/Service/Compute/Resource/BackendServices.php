@@ -37,7 +37,7 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'backendService' => $backendService);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified BackendService resource. Get a list of available
@@ -52,7 +52,7 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'backendService' => $backendService);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_BackendService");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_BackendService");
   }
   /**
    * Gets the most recent health check results for this BackendService.
@@ -69,7 +69,7 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'backendService' => $backendService, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('getHealth', array($params), "Google_Service_Compute_BackendServiceGroupHealth");
+    return $this->call('getHealth', array($params), "\GoogleApiServices\Google_Service_Compute_BackendServiceGroupHealth");
   }
   /**
    * Creates a BackendService resource in the specified project using the data
@@ -86,7 +86,7 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of BackendService resources available to the specified
@@ -132,7 +132,7 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_BackendServiceList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_BackendServiceList");
   }
   /**
    * Updates the entire content of the BackendService resource. There are several
@@ -150,7 +150,7 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'backendService' => $backendService, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Compute_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Updates the entire content of the BackendService resource. There are several
@@ -168,6 +168,6 @@ class Google_Service_Compute_Resource_BackendServices extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'backendService' => $backendService, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Compute_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

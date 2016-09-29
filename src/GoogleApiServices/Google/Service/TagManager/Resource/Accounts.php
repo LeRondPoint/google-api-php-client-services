@@ -36,7 +36,7 @@ class Google_Service_TagManager_Resource_Accounts extends \GoogleApi\Google_Serv
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_Account");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_Account");
   }
   /**
    * Lists all GTM Accounts that a user has access to. (accounts.listAccounts)
@@ -48,7 +48,7 @@ class Google_Service_TagManager_Resource_Accounts extends \GoogleApi\Google_Serv
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListAccountsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListAccountsResponse");
   }
   /**
    * Updates a GTM Account. (accounts.update)
@@ -65,6 +65,6 @@ class Google_Service_TagManager_Resource_Accounts extends \GoogleApi\Google_Serv
   {
     $params = array('accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Account");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Account");
   }
 }

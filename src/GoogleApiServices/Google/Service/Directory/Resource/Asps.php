@@ -52,7 +52,7 @@ class Google_Service_Directory_Resource_Asps extends \GoogleApi\Google_Service_R
   {
     $params = array('userKey' => $userKey, 'codeId' => $codeId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Asp");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Asp");
   }
   /**
    * List the ASPs issued by a user. (asps.listAsps)
@@ -66,6 +66,6 @@ class Google_Service_Directory_Resource_Asps extends \GoogleApi\Google_Service_R
   {
     $params = array('userKey' => $userKey);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Asps");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Asps");
   }
 }

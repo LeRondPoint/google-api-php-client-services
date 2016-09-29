@@ -40,6 +40,6 @@ class Google_Service_AndroidEnterprise_Resource_Permissions extends \GoogleApi\G
   {
     $params = array('permissionId' => $permissionId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_Permission");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_Permission");
   }
 }

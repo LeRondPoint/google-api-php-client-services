@@ -36,6 +36,6 @@ class Google_Service_Blogger_Resource_Users extends \GoogleApi\Google_Service_Re
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Blogger_User");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Blogger_User");
   }
 }

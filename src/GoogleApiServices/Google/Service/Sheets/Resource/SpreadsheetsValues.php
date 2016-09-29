@@ -52,7 +52,7 @@ class Google_Service_Sheets_Resource_SpreadsheetsValues extends \GoogleApi\Googl
   {
     $params = array('spreadsheetId' => $spreadsheetId, 'range' => $range, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('append', array($params), "Google_Service_Sheets_AppendValuesResponse");
+    return $this->call('append', array($params), "\GoogleApiServices\Google_Service_Sheets_AppendValuesResponse");
   }
   /**
    * Returns one or more ranges of values from a spreadsheet. The caller must
@@ -79,7 +79,7 @@ class Google_Service_Sheets_Resource_SpreadsheetsValues extends \GoogleApi\Googl
   {
     $params = array('spreadsheetId' => $spreadsheetId);
     $params = array_merge($params, $optParams);
-    return $this->call('batchGet', array($params), "Google_Service_Sheets_BatchGetValuesResponse");
+    return $this->call('batchGet', array($params), "\GoogleApiServices\Google_Service_Sheets_BatchGetValuesResponse");
   }
   /**
    * Sets values in one or more ranges of a spreadsheet. The caller must specify
@@ -95,7 +95,7 @@ class Google_Service_Sheets_Resource_SpreadsheetsValues extends \GoogleApi\Googl
   {
     $params = array('spreadsheetId' => $spreadsheetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('batchUpdate', array($params), "Google_Service_Sheets_BatchUpdateValuesResponse");
+    return $this->call('batchUpdate', array($params), "\GoogleApiServices\Google_Service_Sheets_BatchUpdateValuesResponse");
   }
   /**
    * Returns a range of values from a spreadsheet. The caller must specify the
@@ -122,7 +122,7 @@ class Google_Service_Sheets_Resource_SpreadsheetsValues extends \GoogleApi\Googl
   {
     $params = array('spreadsheetId' => $spreadsheetId, 'range' => $range);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Sheets_ValueRange");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Sheets_ValueRange");
   }
   /**
    * Sets values in a range of a spreadsheet. The caller must specify the
@@ -140,6 +140,6 @@ class Google_Service_Sheets_Resource_SpreadsheetsValues extends \GoogleApi\Googl
   {
     $params = array('spreadsheetId' => $spreadsheetId, 'range' => $range, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Sheets_UpdateValuesResponse");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Sheets_UpdateValuesResponse");
   }
 }

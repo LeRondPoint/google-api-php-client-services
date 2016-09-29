@@ -42,6 +42,6 @@ class Google_Service_Coordinate_Resource_Location extends \GoogleApi\Google_Serv
   {
     $params = array('teamId' => $teamId, 'workerEmail' => $workerEmail, 'startTimestampMs' => $startTimestampMs);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Coordinate_LocationListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Coordinate_LocationListResponse");
   }
 }

@@ -59,6 +59,6 @@ class Google_Service_AdSense_Resource_Reports extends \GoogleApi\Google_Service_
   {
     $params = array('startDate' => $startDate, 'endDate' => $endDate);
     $params = array_merge($params, $optParams);
-    return $this->call('generate', array($params), "Google_Service_AdSense_AdsenseReportsGenerateResponse");
+    return $this->call('generate', array($params), "\GoogleApiServices\Google_Service_AdSense_AdsenseReportsGenerateResponse");
   }
 }

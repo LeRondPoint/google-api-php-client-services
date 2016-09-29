@@ -51,7 +51,7 @@ class Google_Service_Mirror_Resource_TimelineAttachments extends \GoogleApi\Goog
   {
     $params = array('itemId' => $itemId, 'attachmentId' => $attachmentId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Mirror_Attachment");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Mirror_Attachment");
   }
   /**
    * Adds a new attachment to a timeline item. (attachments.insert)
@@ -64,7 +64,7 @@ class Google_Service_Mirror_Resource_TimelineAttachments extends \GoogleApi\Goog
   {
     $params = array('itemId' => $itemId);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Mirror_Attachment");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Mirror_Attachment");
   }
   /**
    * Returns a list of attachments for a timeline item.
@@ -79,6 +79,6 @@ class Google_Service_Mirror_Resource_TimelineAttachments extends \GoogleApi\Goog
   {
     $params = array('itemId' => $itemId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Mirror_AttachmentsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Mirror_AttachmentsListResponse");
   }
 }

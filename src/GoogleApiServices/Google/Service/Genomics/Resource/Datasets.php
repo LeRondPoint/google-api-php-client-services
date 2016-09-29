@@ -39,7 +39,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Genomics_Dataset");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Genomics_Dataset");
   }
   /**
    * Deletes a dataset and all of its contents (all read group sets, reference
@@ -57,7 +57,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('datasetId' => $datasetId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Genomics_GenomicsEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Genomics_GenomicsEmpty");
   }
   /**
    * Gets a dataset by ID. For the definitions of datasets and other genomics
@@ -73,7 +73,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('datasetId' => $datasetId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Genomics_Dataset");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Genomics_Dataset");
   }
   /**
    * Gets the access control policy for the dataset. This is empty if the policy
@@ -92,7 +92,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', array($params), "Google_Service_Genomics_Policy");
+    return $this->call('getIamPolicy', array($params), "\GoogleApiServices\Google_Service_Genomics_Policy");
   }
   /**
    * Lists datasets within a project. For the definitions of datasets and other
@@ -115,7 +115,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Genomics_ListDatasetsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Genomics_ListDatasetsResponse");
   }
   /**
    * Updates a dataset. For the definitions of datasets and other genomics
@@ -136,7 +136,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('datasetId' => $datasetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Genomics_Dataset");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Genomics_Dataset");
   }
   /**
    * Sets the access control policy on the specified dataset. Replaces any
@@ -155,7 +155,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', array($params), "Google_Service_Genomics_Policy");
+    return $this->call('setIamPolicy', array($params), "\GoogleApiServices\Google_Service_Genomics_Policy");
   }
   /**
    * Returns permissions that a caller has on the specified resource. See Testing
@@ -174,7 +174,7 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', array($params), "Google_Service_Genomics_TestIamPermissionsResponse");
+    return $this->call('testIamPermissions', array($params), "\GoogleApiServices\Google_Service_Genomics_TestIamPermissionsResponse");
   }
   /**
    * Undeletes a dataset by restoring a dataset which was deleted via this API.
@@ -192,6 +192,6 @@ class Google_Service_Genomics_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('datasetId' => $datasetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('undelete', array($params), "Google_Service_Genomics_Dataset");
+    return $this->call('undelete', array($params), "\GoogleApiServices\Google_Service_Genomics_Dataset");
   }
 }

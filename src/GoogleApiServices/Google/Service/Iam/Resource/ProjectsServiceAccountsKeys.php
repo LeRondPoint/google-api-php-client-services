@@ -40,7 +40,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccountsKeys extends \GoogleApi
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Iam_ServiceAccountKey");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Iam_ServiceAccountKey");
   }
   /**
    * Deletes a service account key. (keys.delete)
@@ -57,7 +57,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccountsKeys extends \GoogleApi
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Iam_IamEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Iam_IamEmpty");
   }
   /**
    * Gets the ServiceAccountKey by key id. (keys.get)
@@ -74,7 +74,7 @@ class Google_Service_Iam_Resource_ProjectsServiceAccountsKeys extends \GoogleApi
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Iam_ServiceAccountKey");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Iam_ServiceAccountKey");
   }
   /**
    * Lists service account keys (keys.listProjectsServiceAccountsKeys)
@@ -94,6 +94,6 @@ class Google_Service_Iam_Resource_ProjectsServiceAccountsKeys extends \GoogleApi
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Iam_ListServiceAccountKeysResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Iam_ListServiceAccountKeysResponse");
   }
 }

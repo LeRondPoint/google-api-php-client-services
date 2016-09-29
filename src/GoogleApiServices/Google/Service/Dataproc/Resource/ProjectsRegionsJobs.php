@@ -44,7 +44,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsJobs extends \GoogleApi\Go
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'jobId' => $jobId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('cancel', array($params), "Google_Service_Dataproc_Job");
+    return $this->call('cancel', array($params), "\GoogleApiServices\Google_Service_Dataproc_Job");
   }
   /**
    * Deletes the job from the project. If the job is active, the delete fails, and
@@ -62,7 +62,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsJobs extends \GoogleApi\Go
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Dataproc_DataprocEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Dataproc_DataprocEmpty");
   }
   /**
    * Gets the resource representation for a job in a project. (jobs.get)
@@ -79,7 +79,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsJobs extends \GoogleApi\Go
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dataproc_Job");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dataproc_Job");
   }
   /**
    * Lists regions/{region}/jobs in a project. (jobs.listProjectsRegionsJobs)
@@ -104,7 +104,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsJobs extends \GoogleApi\Go
   {
     $params = array('projectId' => $projectId, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dataproc_ListJobsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dataproc_ListJobsResponse");
   }
   /**
    * Submits a job to a cluster. (jobs.submit)
@@ -121,6 +121,6 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsJobs extends \GoogleApi\Go
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('submit', array($params), "Google_Service_Dataproc_Job");
+    return $this->call('submit', array($params), "\GoogleApiServices\Google_Service_Dataproc_Job");
   }
 }

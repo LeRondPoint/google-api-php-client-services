@@ -41,6 +41,6 @@ class Google_Service_PlusDomains_Resource_Media extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'collection' => $collection, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_PlusDomains_Media");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_PlusDomains_Media");
   }
 }

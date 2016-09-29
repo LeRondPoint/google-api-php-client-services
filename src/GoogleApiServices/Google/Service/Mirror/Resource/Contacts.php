@@ -48,7 +48,7 @@ class Google_Service_Mirror_Resource_Contacts extends \GoogleApi\Google_Service_
   {
     $params = array('id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Mirror_Contact");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Mirror_Contact");
   }
   /**
    * Inserts a new contact. (contacts.insert)
@@ -61,7 +61,7 @@ class Google_Service_Mirror_Resource_Contacts extends \GoogleApi\Google_Service_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Mirror_Contact");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Mirror_Contact");
   }
   /**
    * Retrieves a list of contacts for the authenticated user.
@@ -74,7 +74,7 @@ class Google_Service_Mirror_Resource_Contacts extends \GoogleApi\Google_Service_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Mirror_ContactsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Mirror_ContactsListResponse");
   }
   /**
    * Updates a contact in place. This method supports patch semantics.
@@ -89,7 +89,7 @@ class Google_Service_Mirror_Resource_Contacts extends \GoogleApi\Google_Service_
   {
     $params = array('id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Mirror_Contact");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Mirror_Contact");
   }
   /**
    * Updates a contact in place. (contacts.update)
@@ -103,6 +103,6 @@ class Google_Service_Mirror_Resource_Contacts extends \GoogleApi\Google_Service_
   {
     $params = array('id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Mirror_Contact");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Mirror_Contact");
   }
 }

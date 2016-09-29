@@ -41,7 +41,7 @@ class Google_Service_Blogger_Resource_Blogs extends \GoogleApi\Google_Service_Re
   {
     $params = array('blogId' => $blogId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Blogger_Blog");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Blogger_Blog");
   }
   /**
    * Retrieve a Blog by URL. (blogs.getByUrl)
@@ -57,7 +57,7 @@ class Google_Service_Blogger_Resource_Blogs extends \GoogleApi\Google_Service_Re
   {
     $params = array('url' => $url);
     $params = array_merge($params, $optParams);
-    return $this->call('getByUrl', array($params), "Google_Service_Blogger_Blog");
+    return $this->call('getByUrl', array($params), "\GoogleApiServices\Google_Service_Blogger_Blog");
   }
   /**
    * Retrieves a list of blogs, possibly filtered. (blogs.listByUser)
@@ -81,6 +81,6 @@ class Google_Service_Blogger_Resource_Blogs extends \GoogleApi\Google_Service_Re
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('listByUser', array($params), "Google_Service_Blogger_BlogList");
+    return $this->call('listByUser', array($params), "\GoogleApiServices\Google_Service_Blogger_BlogList");
   }
 }

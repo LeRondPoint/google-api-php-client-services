@@ -39,6 +39,6 @@ class Google_Service_Proximitybeacon_Resource_Beaconinfo extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('getforobserved', array($params), "Google_Service_Proximitybeacon_GetInfoForObservedBeaconsResponse");
+    return $this->call('getforobserved', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_GetInfoForObservedBeaconsResponse");
   }
 }

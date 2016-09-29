@@ -55,7 +55,7 @@ class Google_Service_Books_Resource_MylibraryAnnotations extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Books_Annotation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Books_Annotation");
   }
   /**
    * Retrieves a list of annotations, possibly filtered.
@@ -84,7 +84,7 @@ class Google_Service_Books_Resource_MylibraryAnnotations extends \GoogleApi\Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Annotations");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Annotations");
   }
   /**
    * Gets the summary of specified layers. (annotations.summary)
@@ -98,7 +98,7 @@ class Google_Service_Books_Resource_MylibraryAnnotations extends \GoogleApi\Goog
   {
     $params = array('layerIds' => $layerIds, 'volumeId' => $volumeId);
     $params = array_merge($params, $optParams);
-    return $this->call('summary', array($params), "Google_Service_Books_AnnotationsSummary");
+    return $this->call('summary', array($params), "\GoogleApiServices\Google_Service_Books_AnnotationsSummary");
   }
   /**
    * Updates an existing annotation. (annotations.update)
@@ -114,6 +114,6 @@ class Google_Service_Books_Resource_MylibraryAnnotations extends \GoogleApi\Goog
   {
     $params = array('annotationId' => $annotationId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Books_Annotation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Books_Annotation");
   }
 }

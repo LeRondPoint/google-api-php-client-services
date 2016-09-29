@@ -43,7 +43,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Classroom_StudentSubmission");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Classroom_StudentSubmission");
   }
   /**
    * Returns a list of student submissions that the requester is permitted to
@@ -87,7 +87,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Classroom_ListStudentSubmissionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Classroom_ListStudentSubmissionsResponse");
   }
   /**
    * Modifies attachments of student submission. Attachments may only be added to
@@ -114,7 +114,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('modifyAttachments', array($params), "Google_Service_Classroom_StudentSubmission");
+    return $this->call('modifyAttachments', array($params), "\GoogleApiServices\Google_Service_Classroom_StudentSubmission");
   }
   /**
    * Updates one or more fields of a student submission. See
@@ -147,7 +147,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Classroom_StudentSubmission");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Classroom_StudentSubmission");
   }
   /**
    * Reclaims a student submission on behalf of the student that owns it.
@@ -177,7 +177,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('reclaim', array($params), "Google_Service_Classroom_ClassroomEmpty");
+    return $this->call('reclaim', array($params), "\GoogleApiServices\Google_Service_Classroom_ClassroomEmpty");
   }
   /**
    * Returns a student submission. Returning a student submission transfers
@@ -207,7 +207,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('return', array($params), "Google_Service_Classroom_ClassroomEmpty");
+    return $this->call('return', array($params), "\GoogleApiServices\Google_Service_Classroom_ClassroomEmpty");
   }
   /**
    * Turns in a student submission. Turning in a student submission transfers
@@ -235,6 +235,6 @@ class Google_Service_Classroom_Resource_CoursesCourseWorkStudentSubmissions exte
   {
     $params = array('courseId' => $courseId, 'courseWorkId' => $courseWorkId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('turnIn', array($params), "Google_Service_Classroom_ClassroomEmpty");
+    return $this->call('turnIn', array($params), "\GoogleApiServices\Google_Service_Classroom_ClassroomEmpty");
   }
 }

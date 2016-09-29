@@ -36,7 +36,7 @@ class Google_Service_Plus_Resource_Comments extends \GoogleApi\Google_Service_Re
   {
     $params = array('commentId' => $commentId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Plus_Comment");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Plus_Comment");
   }
   /**
    * List all of the comments for an activity. (comments.listComments)
@@ -57,6 +57,6 @@ class Google_Service_Plus_Resource_Comments extends \GoogleApi\Google_Service_Re
   {
     $params = array('activityId' => $activityId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Plus_CommentFeed");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Plus_CommentFeed");
   }
 }

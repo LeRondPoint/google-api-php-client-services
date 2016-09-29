@@ -38,7 +38,7 @@ class Google_Service_Autoscaler_Resource_Autoscalers extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Autoscaler_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Autoscaler_Operation");
   }
   /**
    * Gets the specified Autoscaler resource. (autoscalers.get)
@@ -53,7 +53,7 @@ class Google_Service_Autoscaler_Resource_Autoscalers extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Autoscaler_Autoscaler");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Autoscaler_Autoscaler");
   }
   /**
    * Adds new Autoscaler resource. (autoscalers.insert)
@@ -68,7 +68,7 @@ class Google_Service_Autoscaler_Resource_Autoscalers extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Autoscaler_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Autoscaler_Operation");
   }
   /**
    * Lists all Autoscaler resources in this zone. (autoscalers.listAutoscalers)
@@ -86,7 +86,7 @@ class Google_Service_Autoscaler_Resource_Autoscalers extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Autoscaler_AutoscalerListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Autoscaler_AutoscalerListResponse");
   }
   /**
    * Update the entire content of the Autoscaler resource. This method supports
@@ -103,7 +103,7 @@ class Google_Service_Autoscaler_Resource_Autoscalers extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Autoscaler_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Autoscaler_Operation");
   }
   /**
    * Update the entire content of the Autoscaler resource. (autoscalers.update)
@@ -119,6 +119,6 @@ class Google_Service_Autoscaler_Resource_Autoscalers extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Autoscaler_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Autoscaler_Operation");
   }
 }

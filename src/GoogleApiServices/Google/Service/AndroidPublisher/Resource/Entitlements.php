@@ -44,6 +44,6 @@ class Google_Service_AndroidPublisher_Resource_Entitlements extends \GoogleApi\G
   {
     $params = array('packageName' => $packageName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_EntitlementsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_EntitlementsListResponse");
   }
 }

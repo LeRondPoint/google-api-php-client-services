@@ -41,7 +41,7 @@ class Google_Service_Dataflow_Resource_ProjectsJobs extends \GoogleApi\Google_Se
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Dataflow_Job");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Dataflow_Job");
   }
   /**
    * Gets the state of the specified dataflow job. (jobs.get)
@@ -57,7 +57,7 @@ class Google_Service_Dataflow_Resource_ProjectsJobs extends \GoogleApi\Google_Se
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dataflow_Job");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dataflow_Job");
   }
   /**
    * Request the job status. (jobs.getMetrics)
@@ -75,7 +75,7 @@ class Google_Service_Dataflow_Resource_ProjectsJobs extends \GoogleApi\Google_Se
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('getMetrics', array($params), "Google_Service_Dataflow_JobMetrics");
+    return $this->call('getMetrics', array($params), "\GoogleApiServices\Google_Service_Dataflow_JobMetrics");
   }
   /**
    * List the jobs of a project (jobs.listProjectsJobs)
@@ -97,7 +97,7 @@ class Google_Service_Dataflow_Resource_ProjectsJobs extends \GoogleApi\Google_Se
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dataflow_ListJobsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dataflow_ListJobsResponse");
   }
   /**
    * Updates the state of an existing dataflow job. (jobs.update)
@@ -112,6 +112,6 @@ class Google_Service_Dataflow_Resource_ProjectsJobs extends \GoogleApi\Google_Se
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Dataflow_Job");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Dataflow_Job");
   }
 }

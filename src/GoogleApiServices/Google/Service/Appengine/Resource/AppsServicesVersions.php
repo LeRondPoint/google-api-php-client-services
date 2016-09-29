@@ -39,7 +39,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersions extends \GoogleApi\
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
   /**
    * Deletes an existing Version resource. (versions.delete)
@@ -55,7 +55,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersions extends \GoogleApi\
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
   /**
    * Gets the specified Version resource. By default, only a `BASIC_VIEW` will be
@@ -76,7 +76,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersions extends \GoogleApi\
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Appengine_Version");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Appengine_Version");
   }
   /**
    * Lists the versions of a service. (versions.listAppsServicesVersions)
@@ -97,7 +97,7 @@ class Google_Service_Appengine_Resource_AppsServicesVersions extends \GoogleApi\
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Appengine_ListVersionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Appengine_ListVersionsResponse");
   }
   /**
    * Updates the specified Version resource. You can specify the following fields
@@ -134,6 +134,6 @@ class Google_Service_Appengine_Resource_AppsServicesVersions extends \GoogleApi\
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
 }

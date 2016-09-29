@@ -40,7 +40,7 @@ class Google_Service_Container_Resource_ProjectsZonesOperations extends \GoogleA
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'operationId' => $operationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Container_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Container_Operation");
   }
   /**
    * Lists all operations in a project in a specific zone or all zones.
@@ -58,6 +58,6 @@ class Google_Service_Container_Resource_ProjectsZonesOperations extends \GoogleA
   {
     $params = array('projectId' => $projectId, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Container_ListOperationsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Container_ListOperationsResponse");
   }
 }

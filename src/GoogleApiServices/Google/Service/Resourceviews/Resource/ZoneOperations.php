@@ -39,7 +39,7 @@ class Google_Service_Resourceviews_Resource_ZoneOperations extends \GoogleApi\Go
   {
     $params = array('project' => $project, 'zone' => $zone, 'operation' => $operation);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Resourceviews_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Resourceviews_Operation");
   }
   /**
    * Retrieves the list of operation resources contained within the specified
@@ -61,6 +61,6 @@ class Google_Service_Resourceviews_Resource_ZoneOperations extends \GoogleApi\Go
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Resourceviews_OperationList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Resourceviews_OperationList");
   }
 }

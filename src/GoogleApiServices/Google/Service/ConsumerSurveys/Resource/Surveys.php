@@ -36,7 +36,7 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array('surveyUrlId' => $surveyUrlId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_ConsumerSurveys_SurveysDeleteResponse");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_SurveysDeleteResponse");
   }
   /**
    * Retrieves information about the specified survey. (surveys.get)
@@ -49,7 +49,7 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array('surveyUrlId' => $surveyUrlId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ConsumerSurveys_Survey");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_Survey");
   }
   /**
    * Creates a survey. (surveys.insert)
@@ -62,7 +62,7 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_ConsumerSurveys_Survey");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_Survey");
   }
   /**
    * Lists the surveys owned by the authenticated user. (surveys.listSurveys)
@@ -78,7 +78,7 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ConsumerSurveys_SurveysListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_SurveysListResponse");
   }
   /**
    * Begins running a survey. (surveys.start)
@@ -92,7 +92,7 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('start', array($params), "Google_Service_ConsumerSurveys_SurveysStartResponse");
+    return $this->call('start', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_SurveysStartResponse");
   }
   /**
    * Stops a running survey. (surveys.stop)
@@ -105,7 +105,7 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array('resourceId' => $resourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('stop', array($params), "Google_Service_ConsumerSurveys_SurveysStopResponse");
+    return $this->call('stop', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_SurveysStopResponse");
   }
   /**
    * Updates a survey. Currently the only property that can be updated is the
@@ -120,6 +120,6 @@ class Google_Service_ConsumerSurveys_Resource_Surveys extends \GoogleApi\Google_
   {
     $params = array('surveyUrlId' => $surveyUrlId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_ConsumerSurveys_Survey");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_Survey");
   }
 }

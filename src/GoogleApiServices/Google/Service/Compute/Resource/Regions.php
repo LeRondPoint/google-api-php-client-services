@@ -38,7 +38,7 @@ class Google_Service_Compute_Resource_Regions extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Region");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Region");
   }
   /**
    * Retrieves the list of region resources available to the specified project.
@@ -84,6 +84,6 @@ class Google_Service_Compute_Resource_Regions extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_RegionList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_RegionList");
   }
 }

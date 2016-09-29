@@ -58,7 +58,7 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsfordevice e
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'managedConfigurationForDeviceId' => $managedConfigurationForDeviceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_ManagedConfiguration");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration");
   }
   /**
    * Lists all the per-device managed configurations for the specified device.
@@ -75,7 +75,7 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsfordevice e
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_ManagedConfigurationsForDeviceListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfigurationsForDeviceListResponse");
   }
   /**
    * Adds or updates a per-device managed configuration for an app for the
@@ -95,7 +95,7 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsfordevice e
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'managedConfigurationForDeviceId' => $managedConfigurationForDeviceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidEnterprise_ManagedConfiguration");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration");
   }
   /**
    * Adds or updates a per-device managed configuration for an app for the
@@ -114,6 +114,6 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsfordevice e
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'managedConfigurationForDeviceId' => $managedConfigurationForDeviceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidEnterprise_ManagedConfiguration");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration");
   }
 }

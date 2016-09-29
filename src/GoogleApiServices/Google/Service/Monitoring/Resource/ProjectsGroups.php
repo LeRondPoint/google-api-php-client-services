@@ -41,7 +41,7 @@ class Google_Service_Monitoring_Resource_ProjectsGroups extends \GoogleApi\Googl
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Monitoring_Group");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Monitoring_Group");
   }
   /**
    * Deletes an existing group. (groups.delete)
@@ -55,7 +55,7 @@ class Google_Service_Monitoring_Resource_ProjectsGroups extends \GoogleApi\Googl
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Monitoring_MonitoringEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Monitoring_MonitoringEmpty");
   }
   /**
    * Gets a single group. (groups.get)
@@ -69,7 +69,7 @@ class Google_Service_Monitoring_Resource_ProjectsGroups extends \GoogleApi\Googl
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Monitoring_Group");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Monitoring_Group");
   }
   /**
    * Lists the existing groups. (groups.listProjectsGroups)
@@ -104,7 +104,7 @@ class Google_Service_Monitoring_Resource_ProjectsGroups extends \GoogleApi\Googl
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Monitoring_ListGroupsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Monitoring_ListGroupsResponse");
   }
   /**
    * Updates an existing group. You can change any group attributes except `name`.
@@ -126,6 +126,6 @@ class Google_Service_Monitoring_Resource_ProjectsGroups extends \GoogleApi\Googl
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Monitoring_Group");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Monitoring_Group");
   }
 }

@@ -38,7 +38,7 @@ class Google_Service_TagManager_Resource_AccountsContainersFolders extends \Goog
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_TagManager_Folder");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_TagManager_Folder");
   }
   /**
    * Deletes a GTM Folder. (folders.delete)
@@ -67,7 +67,7 @@ class Google_Service_TagManager_Resource_AccountsContainersFolders extends \Goog
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'folderId' => $folderId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_Folder");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_Folder");
   }
   /**
    * Lists all GTM Folders of a Container. (folders.listAccountsContainersFolders)
@@ -81,7 +81,7 @@ class Google_Service_TagManager_Resource_AccountsContainersFolders extends \Goog
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListFoldersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListFoldersResponse");
   }
   /**
    * Updates a GTM Folder. (folders.update)
@@ -100,6 +100,6 @@ class Google_Service_TagManager_Resource_AccountsContainersFolders extends \Goog
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'folderId' => $folderId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Folder");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Folder");
   }
 }

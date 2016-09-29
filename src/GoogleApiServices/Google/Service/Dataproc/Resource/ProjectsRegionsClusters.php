@@ -40,7 +40,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsClusters extends \GoogleAp
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Dataproc_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Dataproc_Operation");
   }
   /**
    * Deletes a cluster in a project. (clusters.delete)
@@ -57,7 +57,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsClusters extends \GoogleAp
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Dataproc_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Dataproc_Operation");
   }
   /**
    * Gets cluster diagnostic information. After the operation completes, the
@@ -77,7 +77,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsClusters extends \GoogleAp
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('diagnose', array($params), "Google_Service_Dataproc_Operation");
+    return $this->call('diagnose', array($params), "\GoogleApiServices\Google_Service_Dataproc_Operation");
   }
   /**
    * Gets the resource representation for a cluster in a project. (clusters.get)
@@ -94,7 +94,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsClusters extends \GoogleAp
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dataproc_Cluster");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dataproc_Cluster");
   }
   /**
    * Lists all regions/{region}/clusters in a project.
@@ -114,7 +114,7 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsClusters extends \GoogleAp
   {
     $params = array('projectId' => $projectId, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dataproc_ListClustersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dataproc_ListClustersResponse");
   }
   /**
    * Updates a cluster in a project. (clusters.patch)
@@ -145,6 +145,6 @@ class Google_Service_Dataproc_Resource_ProjectsRegionsClusters extends \GoogleAp
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Dataproc_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Dataproc_Operation");
   }
 }

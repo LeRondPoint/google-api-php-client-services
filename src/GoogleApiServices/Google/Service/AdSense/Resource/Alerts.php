@@ -52,6 +52,6 @@ class Google_Service_AdSense_Resource_Alerts extends \GoogleApi\Google_Service_R
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_Alerts");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_Alerts");
   }
 }

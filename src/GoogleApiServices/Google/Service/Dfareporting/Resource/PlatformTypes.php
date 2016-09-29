@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_PlatformTypes extends \GoogleApi\Goog
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_PlatformType");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_PlatformType");
   }
   /**
    * Retrieves a list of platform types. (platformTypes.listPlatformTypes)
@@ -50,6 +50,6 @@ class Google_Service_Dfareporting_Resource_PlatformTypes extends \GoogleApi\Goog
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_PlatformTypesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_PlatformTypesListResponse");
   }
 }

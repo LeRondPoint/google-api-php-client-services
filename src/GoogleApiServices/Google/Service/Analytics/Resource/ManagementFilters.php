@@ -37,7 +37,7 @@ class Google_Service_Analytics_Resource_ManagementFilters extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'filterId' => $filterId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Analytics_Filter");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Analytics_Filter");
   }
   /**
    * Returns a filters to which the user has access. (filters.get)
@@ -51,7 +51,7 @@ class Google_Service_Analytics_Resource_ManagementFilters extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'filterId' => $filterId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_Filter");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_Filter");
   }
   /**
    * Create a new filter. (filters.insert)
@@ -65,7 +65,7 @@ class Google_Service_Analytics_Resource_ManagementFilters extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_Filter");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_Filter");
   }
   /**
    * Lists all filters for an account (filters.listManagementFilters)
@@ -83,7 +83,7 @@ class Google_Service_Analytics_Resource_ManagementFilters extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_Filters");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_Filters");
   }
   /**
    * Updates an existing filter. This method supports patch semantics.
@@ -99,7 +99,7 @@ class Google_Service_Analytics_Resource_ManagementFilters extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'filterId' => $filterId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_Filter");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_Filter");
   }
   /**
    * Updates an existing filter. (filters.update)
@@ -114,6 +114,6 @@ class Google_Service_Analytics_Resource_ManagementFilters extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'filterId' => $filterId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_Filter");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_Filter");
   }
 }

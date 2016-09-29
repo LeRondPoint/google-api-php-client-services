@@ -39,7 +39,7 @@ class Google_Service_Dataflow_Resource_ProjectsJobsDebug extends \GoogleApi\Goog
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('getConfig', array($params), "Google_Service_Dataflow_GetDebugConfigResponse");
+    return $this->call('getConfig', array($params), "\GoogleApiServices\Google_Service_Dataflow_GetDebugConfigResponse");
   }
   /**
    * Send encoded debug capture data for component. (debug.sendCapture)
@@ -54,6 +54,6 @@ class Google_Service_Dataflow_Resource_ProjectsJobsDebug extends \GoogleApi\Goog
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('sendCapture', array($params), "Google_Service_Dataflow_SendDebugCaptureResponse");
+    return $this->call('sendCapture', array($params), "\GoogleApiServices\Google_Service_Dataflow_SendDebugCaptureResponse");
   }
 }

@@ -40,7 +40,7 @@ class Google_Service_Directory_Resource_Chromeosdevices extends \GoogleApi\Googl
   {
     $params = array('customerId' => $customerId, 'deviceId' => $deviceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_ChromeOsDevice");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_ChromeOsDevice");
   }
   /**
    * Retrieve all Chrome OS Devices of a customer (paginated)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_Chromeosdevices extends \GoogleApi\Googl
   {
     $params = array('customerId' => $customerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_ChromeOsDevices");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_ChromeOsDevices");
   }
   /**
    * Update Chrome OS Device. This method supports patch semantics.
@@ -83,7 +83,7 @@ class Google_Service_Directory_Resource_Chromeosdevices extends \GoogleApi\Googl
   {
     $params = array('customerId' => $customerId, 'deviceId' => $deviceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_ChromeOsDevice");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_ChromeOsDevice");
   }
   /**
    * Update Chrome OS Device (chromeosdevices.update)
@@ -101,6 +101,6 @@ class Google_Service_Directory_Resource_Chromeosdevices extends \GoogleApi\Googl
   {
     $params = array('customerId' => $customerId, 'deviceId' => $deviceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_ChromeOsDevice");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_ChromeOsDevice");
   }
 }

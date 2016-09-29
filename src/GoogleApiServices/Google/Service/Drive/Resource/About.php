@@ -36,6 +36,6 @@ class Google_Service_Drive_Resource_About extends \GoogleApi\Google_Service_Reso
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Drive_About");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Drive_About");
   }
 }

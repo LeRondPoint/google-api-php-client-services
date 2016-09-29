@@ -37,7 +37,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'urlMap' => $urlMap);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified UrlMap resource. Get a list of available URL maps by
@@ -52,7 +52,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'urlMap' => $urlMap);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_UrlMap");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_UrlMap");
   }
   /**
    * Creates a UrlMap resource in the specified project using the data included in
@@ -67,7 +67,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Initiates a cache invalidation operation, invalidating the specified path,
@@ -83,7 +83,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('invalidateCache', array($params), "Google_Service_Compute_Operation");
+    return $this->call('invalidateCache', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of UrlMap resources available to the specified project.
@@ -129,7 +129,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_UrlMapList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_UrlMapList");
   }
   /**
    * Updates the entire content of the UrlMap resource. This method supports patch
@@ -145,7 +145,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Compute_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Updates the entire content of the UrlMap resource. (urlMaps.update)
@@ -160,7 +160,7 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Compute_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Runs static validation for the UrlMap. In particular, the tests of the
@@ -177,6 +177,6 @@ class Google_Service_Compute_Resource_UrlMaps extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('validate', array($params), "Google_Service_Compute_UrlMapsValidateResponse");
+    return $this->call('validate', array($params), "\GoogleApiServices\Google_Service_Compute_UrlMapsValidateResponse");
   }
 }

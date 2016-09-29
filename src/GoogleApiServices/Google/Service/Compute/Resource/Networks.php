@@ -37,7 +37,7 @@ class Google_Service_Compute_Resource_Networks extends \GoogleApi\Google_Service
   {
     $params = array('project' => $project, 'network' => $network);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified network. Get a list of available networks by making a
@@ -52,7 +52,7 @@ class Google_Service_Compute_Resource_Networks extends \GoogleApi\Google_Service
   {
     $params = array('project' => $project, 'network' => $network);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Network");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Network");
   }
   /**
    * Creates a network in the specified project using the data included in the
@@ -67,7 +67,7 @@ class Google_Service_Compute_Resource_Networks extends \GoogleApi\Google_Service
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of networks available to the specified project.
@@ -113,6 +113,6 @@ class Google_Service_Compute_Resource_Networks extends \GoogleApi\Google_Service
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_NetworkList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_NetworkList");
   }
 }

@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_Members extends \GoogleApi\Google_Servic
   {
     $params = array('groupKey' => $groupKey, 'memberKey' => $memberKey);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Member");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Member");
   }
   /**
    * Add user to the specified group. (members.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_Members extends \GoogleApi\Google_Servic
   {
     $params = array('groupKey' => $groupKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Member");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Member");
   }
   /**
    * Retrieve all members in a group (paginated) (members.listMembers)
@@ -82,7 +82,7 @@ class Google_Service_Directory_Resource_Members extends \GoogleApi\Google_Servic
   {
     $params = array('groupKey' => $groupKey);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Members");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Members");
   }
   /**
    * Update membership of a user in the specified group. This method supports
@@ -100,7 +100,7 @@ class Google_Service_Directory_Resource_Members extends \GoogleApi\Google_Servic
   {
     $params = array('groupKey' => $groupKey, 'memberKey' => $memberKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_Member");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_Member");
   }
   /**
    * Update membership of a user in the specified group. (members.update)
@@ -117,6 +117,6 @@ class Google_Service_Directory_Resource_Members extends \GoogleApi\Google_Servic
   {
     $params = array('groupKey' => $groupKey, 'memberKey' => $memberKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_Member");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_Member");
   }
 }

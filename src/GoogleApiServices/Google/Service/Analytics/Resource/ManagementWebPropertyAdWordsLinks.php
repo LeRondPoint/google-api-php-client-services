@@ -56,7 +56,7 @@ class Google_Service_Analytics_Resource_ManagementWebPropertyAdWordsLinks extend
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_EntityAdWordsLink");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityAdWordsLink");
   }
   /**
    * Creates a webProperty-AdWords link. (webPropertyAdWordsLinks.insert)
@@ -72,7 +72,7 @@ class Google_Service_Analytics_Resource_ManagementWebPropertyAdWordsLinks extend
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_EntityAdWordsLink");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityAdWordsLink");
   }
   /**
    * Lists webProperty-AdWords links for a given web property.
@@ -95,7 +95,7 @@ class Google_Service_Analytics_Resource_ManagementWebPropertyAdWordsLinks extend
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_EntityAdWordsLinks");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityAdWordsLinks");
   }
   /**
    * Updates an existing webProperty-AdWords link. This method supports patch
@@ -114,7 +114,7 @@ class Google_Service_Analytics_Resource_ManagementWebPropertyAdWordsLinks extend
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_EntityAdWordsLink");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityAdWordsLink");
   }
   /**
    * Updates an existing webProperty-AdWords link.
@@ -133,6 +133,6 @@ class Google_Service_Analytics_Resource_ManagementWebPropertyAdWordsLinks extend
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_EntityAdWordsLink");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityAdWordsLink");
   }
 }

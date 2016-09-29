@@ -39,7 +39,7 @@ class Google_Service_AndroidPublisher_Resource_EditsDetails extends \GoogleApi\G
   {
     $params = array('packageName' => $packageName, 'editId' => $editId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_AppDetails");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_AppDetails");
   }
   /**
    * Updates app details for this edit. This method supports patch semantics.
@@ -56,7 +56,7 @@ class Google_Service_AndroidPublisher_Resource_EditsDetails extends \GoogleApi\G
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidPublisher_AppDetails");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_AppDetails");
   }
   /**
    * Updates app details for this edit. (details.update)
@@ -72,6 +72,6 @@ class Google_Service_AndroidPublisher_Resource_EditsDetails extends \GoogleApi\G
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidPublisher_AppDetails");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_AppDetails");
   }
 }

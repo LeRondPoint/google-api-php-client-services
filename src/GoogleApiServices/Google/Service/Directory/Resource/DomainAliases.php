@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_DomainAliases extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer, 'domainAliasName' => $domainAliasName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_DomainAlias");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_DomainAlias");
   }
   /**
    * Inserts a Domain alias of the customer. (domainAliases.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_DomainAliases extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_DomainAlias");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_DomainAlias");
   }
   /**
    * Lists the domain aliases of the customer. (domainAliases.listDomainAliases)
@@ -80,6 +80,6 @@ class Google_Service_Directory_Resource_DomainAliases extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_DomainAliases");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_DomainAliases");
   }
 }

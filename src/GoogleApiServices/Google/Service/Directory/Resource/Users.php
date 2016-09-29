@@ -55,7 +55,7 @@ class Google_Service_Directory_Resource_Users extends \GoogleApi\Google_Service_
   {
     $params = array('userKey' => $userKey);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_User");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_User");
   }
   /**
    * create user. (users.insert)
@@ -68,7 +68,7 @@ class Google_Service_Directory_Resource_Users extends \GoogleApi\Google_Service_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_User");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_User");
   }
   /**
    * Retrieve either deleted users or all users in a domain (paginated)
@@ -107,7 +107,7 @@ class Google_Service_Directory_Resource_Users extends \GoogleApi\Google_Service_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Users");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Users");
   }
   /**
    * change admin status of a user (users.makeAdmin)
@@ -135,7 +135,7 @@ class Google_Service_Directory_Resource_Users extends \GoogleApi\Google_Service_
   {
     $params = array('userKey' => $userKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_User");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_User");
   }
   /**
    * Undelete a deleted user (users.undelete)
@@ -163,7 +163,7 @@ class Google_Service_Directory_Resource_Users extends \GoogleApi\Google_Service_
   {
     $params = array('userKey' => $userKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_User");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_User");
   }
   /**
    * Watch for changes in users list (users.watch)
@@ -202,6 +202,6 @@ class Google_Service_Directory_Resource_Users extends \GoogleApi\Google_Service_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('watch', array($params), "Google_Service_Directory_Channel");
+    return $this->call('watch', array($params), "\GoogleApiServices\Google_Service_Directory_Channel");
   }
 }

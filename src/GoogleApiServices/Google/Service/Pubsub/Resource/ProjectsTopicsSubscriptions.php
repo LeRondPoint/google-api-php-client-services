@@ -44,6 +44,6 @@ class Google_Service_Pubsub_Resource_ProjectsTopicsSubscriptions extends \Google
   {
     $params = array('topic' => $topic);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Pubsub_ListTopicSubscriptionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Pubsub_ListTopicSubscriptionsResponse");
   }
 }

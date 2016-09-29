@@ -38,7 +38,7 @@ class Google_Service_TagManager_Resource_AccountsContainersTriggers extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_TagManager_Trigger");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_TagManager_Trigger");
   }
   /**
    * Deletes a GTM Trigger. (triggers.delete)
@@ -67,7 +67,7 @@ class Google_Service_TagManager_Resource_AccountsContainersTriggers extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'triggerId' => $triggerId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_Trigger");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_Trigger");
   }
   /**
    * Lists all GTM Triggers of a Container.
@@ -82,7 +82,7 @@ class Google_Service_TagManager_Resource_AccountsContainersTriggers extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListTriggersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListTriggersResponse");
   }
   /**
    * Updates a GTM Trigger. (triggers.update)
@@ -101,6 +101,6 @@ class Google_Service_TagManager_Resource_AccountsContainersTriggers extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'triggerId' => $triggerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Trigger");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Trigger");
   }
 }

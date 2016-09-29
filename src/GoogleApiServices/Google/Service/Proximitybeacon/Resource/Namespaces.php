@@ -44,7 +44,7 @@ class Google_Service_Proximitybeacon_Resource_Namespaces extends \GoogleApi\Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Proximitybeacon_ListNamespacesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ListNamespacesResponse");
   }
   /**
    * Updates the information about the specified namespace. Only the namespace
@@ -64,6 +64,6 @@ class Google_Service_Proximitybeacon_Resource_Namespaces extends \GoogleApi\Goog
   {
     $params = array('namespaceName' => $namespaceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Proximitybeacon_ProximitybeaconNamespace");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ProximitybeaconNamespace");
   }
 }

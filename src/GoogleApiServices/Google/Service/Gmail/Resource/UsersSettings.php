@@ -38,7 +38,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('getAutoForwarding', array($params), "Google_Service_Gmail_AutoForwarding");
+    return $this->call('getAutoForwarding', array($params), "\GoogleApiServices\Google_Service_Gmail_AutoForwarding");
   }
   /**
    * Gets IMAP settings. (settings.getImap)
@@ -52,7 +52,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('getImap', array($params), "Google_Service_Gmail_ImapSettings");
+    return $this->call('getImap', array($params), "\GoogleApiServices\Google_Service_Gmail_ImapSettings");
   }
   /**
    * Gets POP settings. (settings.getPop)
@@ -66,7 +66,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('getPop', array($params), "Google_Service_Gmail_PopSettings");
+    return $this->call('getPop', array($params), "\GoogleApiServices\Google_Service_Gmail_PopSettings");
   }
   /**
    * Gets vacation responder settings. (settings.getVacation)
@@ -80,7 +80,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('getVacation', array($params), "Google_Service_Gmail_VacationSettings");
+    return $this->call('getVacation', array($params), "\GoogleApiServices\Google_Service_Gmail_VacationSettings");
   }
   /**
    * Updates the auto-forwarding setting for the specified account. A verified
@@ -97,7 +97,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateAutoForwarding', array($params), "Google_Service_Gmail_AutoForwarding");
+    return $this->call('updateAutoForwarding', array($params), "\GoogleApiServices\Google_Service_Gmail_AutoForwarding");
   }
   /**
    * Updates IMAP settings. (settings.updateImap)
@@ -112,7 +112,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateImap', array($params), "Google_Service_Gmail_ImapSettings");
+    return $this->call('updateImap', array($params), "\GoogleApiServices\Google_Service_Gmail_ImapSettings");
   }
   /**
    * Updates POP settings. (settings.updatePop)
@@ -127,7 +127,7 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updatePop', array($params), "Google_Service_Gmail_PopSettings");
+    return $this->call('updatePop', array($params), "\GoogleApiServices\Google_Service_Gmail_PopSettings");
   }
   /**
    * Updates vacation responder settings. (settings.updateVacation)
@@ -142,6 +142,6 @@ class Google_Service_Gmail_Resource_UsersSettings extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateVacation', array($params), "Google_Service_Gmail_VacationSettings");
+    return $this->call('updateVacation', array($params), "\GoogleApiServices\Google_Service_Gmail_VacationSettings");
   }
 }

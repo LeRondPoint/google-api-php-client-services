@@ -41,6 +41,6 @@ class Google_Service_AndroidPublisher_Resource_PurchasesProducts extends \Google
   {
     $params = array('packageName' => $packageName, 'productId' => $productId, 'token' => $token);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_ProductPurchase");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ProductPurchase");
   }
 }

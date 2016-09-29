@@ -63,7 +63,7 @@ class Google_Service_AndroidPublisher_Resource_EditsImages extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType);
     $params = array_merge($params, $optParams);
-    return $this->call('deleteall', array($params), "Google_Service_AndroidPublisher_ImagesDeleteAllResponse");
+    return $this->call('deleteall', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ImagesDeleteAllResponse");
   }
   /**
    * Lists all images for the specified language and image type.
@@ -83,7 +83,7 @@ class Google_Service_AndroidPublisher_Resource_EditsImages extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_ImagesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ImagesListResponse");
   }
   /**
    * Uploads a new image and adds it to the list of images for the specified
@@ -103,6 +103,6 @@ class Google_Service_AndroidPublisher_Resource_EditsImages extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType);
     $params = array_merge($params, $optParams);
-    return $this->call('upload', array($params), "Google_Service_AndroidPublisher_ImagesUploadResponse");
+    return $this->call('upload', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ImagesUploadResponse");
   }
 }

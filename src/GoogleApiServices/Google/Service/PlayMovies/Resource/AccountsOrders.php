@@ -39,7 +39,7 @@ class Google_Service_PlayMovies_Resource_AccountsOrders extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'orderId' => $orderId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_PlayMovies_Order");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_PlayMovies_Order");
   }
   /**
    * List Orders owned or managed by the partner. See _Authentication and
@@ -70,6 +70,6 @@ class Google_Service_PlayMovies_Resource_AccountsOrders extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_PlayMovies_ListOrdersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_PlayMovies_ListOrdersResponse");
   }
 }

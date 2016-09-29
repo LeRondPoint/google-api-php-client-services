@@ -39,7 +39,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Genomics_Variant");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Genomics_Variant");
   }
   /**
    * Deletes a variant. For the definitions of variants and other genomics
@@ -55,7 +55,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('variantId' => $variantId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Genomics_GenomicsEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Genomics_GenomicsEmpty");
   }
   /**
    * Gets a variant by ID. For the definitions of variants and other genomics
@@ -71,7 +71,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('variantId' => $variantId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Genomics_Variant");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Genomics_Variant");
   }
   /**
    * Creates variant data by asynchronously importing the provided information.
@@ -95,7 +95,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('import', array($params), "Google_Service_Genomics_Operation");
+    return $this->call('import', array($params), "\GoogleApiServices\Google_Service_Genomics_Operation");
   }
   /**
    * Merges the given variants with existing variants. For the definitions of
@@ -134,7 +134,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('merge', array($params), "Google_Service_Genomics_GenomicsEmpty");
+    return $this->call('merge', array($params), "\GoogleApiServices\Google_Service_Genomics_GenomicsEmpty");
   }
   /**
    * Updates a variant. For the definitions of variants and other genomics
@@ -156,7 +156,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('variantId' => $variantId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Genomics_Variant");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Genomics_Variant");
   }
   /**
    * Gets a list of variants matching the criteria. For the definitions of
@@ -174,7 +174,7 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_Genomics_SearchVariantsResponse");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_Genomics_SearchVariantsResponse");
   }
   /**
    * Returns a stream of all the variants matching the search request, ordered by
@@ -188,6 +188,6 @@ class Google_Service_Genomics_Resource_Variants extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('stream', array($params), "Google_Service_Genomics_StreamVariantsResponse");
+    return $this->call('stream', array($params), "\GoogleApiServices\Google_Service_Genomics_StreamVariantsResponse");
   }
 }

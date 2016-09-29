@@ -65,7 +65,7 @@ class Google_Service_Partners_Resource_Companies extends \GoogleApi\Google_Servi
   {
     $params = array('companyId' => $companyId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Partners_GetCompanyResponse");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Partners_GetCompanyResponse");
   }
   /**
    * Lists companies. (companies.listCompanies)
@@ -139,6 +139,6 @@ class Google_Service_Partners_Resource_Companies extends \GoogleApi\Google_Servi
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Partners_ListCompaniesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Partners_ListCompaniesResponse");
   }
 }

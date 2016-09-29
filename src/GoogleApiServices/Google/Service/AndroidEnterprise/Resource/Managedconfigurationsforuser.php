@@ -56,7 +56,7 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsforuser ext
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'managedConfigurationForUserId' => $managedConfigurationForUserId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_ManagedConfiguration");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration");
   }
   /**
    * Lists all the per-user managed configurations for the specified user. Only
@@ -72,7 +72,7 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsforuser ext
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_ManagedConfigurationsForUserListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfigurationsForUserListResponse");
   }
   /**
    * Adds or updates a per-user managed configuration for an app for the specified
@@ -91,7 +91,7 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsforuser ext
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'managedConfigurationForUserId' => $managedConfigurationForUserId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidEnterprise_ManagedConfiguration");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration");
   }
   /**
    * Adds or updates a per-user managed configuration for an app for the specified
@@ -109,6 +109,6 @@ class Google_Service_AndroidEnterprise_Resource_Managedconfigurationsforuser ext
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'managedConfigurationForUserId' => $managedConfigurationForUserId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidEnterprise_ManagedConfiguration");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ManagedConfiguration");
   }
 }

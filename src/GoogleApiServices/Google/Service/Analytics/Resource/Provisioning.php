@@ -36,6 +36,6 @@ class Google_Service_Analytics_Resource_Provisioning extends \GoogleApi\Google_S
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('createAccountTicket', array($params), "Google_Service_Analytics_AccountTicket");
+    return $this->call('createAccountTicket', array($params), "\GoogleApiServices\Google_Service_Analytics_AccountTicket");
   }
 }

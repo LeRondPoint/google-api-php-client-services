@@ -68,7 +68,7 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_AutoscalerAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_AutoscalerAggregatedList");
   }
   /**
    * Deletes the specified autoscaler. (autoscalers.delete)
@@ -83,7 +83,7 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified autoscaler resource. Get a list of available
@@ -99,7 +99,7 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Autoscaler");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Autoscaler");
   }
   /**
    * Creates an autoscaler in the specified project using the data included in the
@@ -115,7 +115,7 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of autoscalers contained within the specified zone.
@@ -162,7 +162,7 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_AutoscalerList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_AutoscalerList");
   }
   /**
    * Updates an autoscaler in the specified project using the data included in the
@@ -179,7 +179,7 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'zone' => $zone, 'autoscaler' => $autoscaler, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Compute_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Updates an autoscaler in the specified project using the data included in the
@@ -197,6 +197,6 @@ class Google_Service_Compute_Resource_Autoscalers extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Compute_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

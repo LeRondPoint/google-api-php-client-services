@@ -42,7 +42,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Pubsub_Topic");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Pubsub_Topic");
   }
   /**
    * Deletes the topic with the given name. Returns `NOT_FOUND` if the topic does
@@ -59,7 +59,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('topic' => $topic);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Pubsub_PubsubEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Pubsub_PubsubEmpty");
   }
   /**
    * Gets the configuration of a topic. (topics.get)
@@ -72,7 +72,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('topic' => $topic);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Pubsub_Topic");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Pubsub_Topic");
   }
   /**
    * Gets the access control policy for a `resource`. Returns an empty policy if
@@ -90,7 +90,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('resource' => $resource);
     $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', array($params), "Google_Service_Pubsub_Policy");
+    return $this->call('getIamPolicy', array($params), "\GoogleApiServices\Google_Service_Pubsub_Policy");
   }
   /**
    * Lists matching topics. (topics.listProjectsTopics)
@@ -108,7 +108,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Pubsub_ListTopicsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Pubsub_ListTopicsResponse");
   }
   /**
    * Adds one or more messages to the topic. Returns `NOT_FOUND` if the topic does
@@ -125,7 +125,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('topic' => $topic, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('publish', array($params), "Google_Service_Pubsub_PublishResponse");
+    return $this->call('publish', array($params), "\GoogleApiServices\Google_Service_Pubsub_PublishResponse");
   }
   /**
    * Sets the access control policy on the specified resource. Replaces any
@@ -144,7 +144,7 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', array($params), "Google_Service_Pubsub_Policy");
+    return $this->call('setIamPolicy', array($params), "\GoogleApiServices\Google_Service_Pubsub_Policy");
   }
   /**
    * Returns permissions that a caller has on the specified resource.
@@ -163,6 +163,6 @@ class Google_Service_Pubsub_Resource_ProjectsTopics extends \GoogleApi\Google_Se
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', array($params), "Google_Service_Pubsub_TestIamPermissionsResponse");
+    return $this->call('testIamPermissions', array($params), "\GoogleApiServices\Google_Service_Pubsub_TestIamPermissionsResponse");
   }
 }

@@ -50,7 +50,7 @@ class Google_Service_Classroom_Resource_CoursesStudents extends \GoogleApi\Googl
   {
     $params = array('courseId' => $courseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Classroom_Student");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Classroom_Student");
   }
   /**
    * Deletes a student of a course. This method returns the following error codes:
@@ -72,7 +72,7 @@ class Google_Service_Classroom_Resource_CoursesStudents extends \GoogleApi\Googl
   {
     $params = array('courseId' => $courseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Classroom_ClassroomEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Classroom_ClassroomEmpty");
   }
   /**
    * Returns a student of a course. This method returns the following error codes:
@@ -94,7 +94,7 @@ class Google_Service_Classroom_Resource_CoursesStudents extends \GoogleApi\Googl
   {
     $params = array('courseId' => $courseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Classroom_Student");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Classroom_Student");
   }
   /**
    * Returns a list of students of this course that the requester is permitted to
@@ -118,6 +118,6 @@ class Google_Service_Classroom_Resource_CoursesStudents extends \GoogleApi\Googl
   {
     $params = array('courseId' => $courseId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Classroom_ListStudentsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Classroom_ListStudentsResponse");
   }
 }

@@ -46,6 +46,6 @@ class Google_Service_Logging_Resource_MonitoredResourceDescriptors extends \Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Logging_ListMonitoredResourceDescriptorsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Logging_ListMonitoredResourceDescriptorsResponse");
   }
 }

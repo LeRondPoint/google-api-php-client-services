@@ -38,7 +38,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'groupName' => $groupName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('addMember', array($params), "Google_Service_CloudUserAccounts_Operation");
+    return $this->call('addMember', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Operation");
   }
   /**
    * Deletes the specified Group resource. (groups.delete)
@@ -52,7 +52,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'groupName' => $groupName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudUserAccounts_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Operation");
   }
   /**
    * Returns the specified Group resource. (groups.get)
@@ -66,7 +66,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'groupName' => $groupName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudUserAccounts_Group");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Group");
   }
   /**
    * Gets the access control policy for a resource. May be empty if no such policy
@@ -81,7 +81,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'resource' => $resource);
     $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', array($params), "Google_Service_CloudUserAccounts_Policy");
+    return $this->call('getIamPolicy', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Policy");
   }
   /**
    * Creates a Group resource in the specified project using the data included in
@@ -96,7 +96,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_CloudUserAccounts_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Operation");
   }
   /**
    * Retrieves the list of groups contained within the specified project.
@@ -154,7 +154,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudUserAccounts_GroupList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_GroupList");
   }
   /**
    * Removes users from the specified group. (groups.removeMember)
@@ -169,7 +169,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'groupName' => $groupName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('removeMember', array($params), "Google_Service_CloudUserAccounts_Operation");
+    return $this->call('removeMember', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Operation");
   }
   /**
    * Sets the access control policy on the specified resource. Replaces any
@@ -185,7 +185,7 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', array($params), "Google_Service_CloudUserAccounts_Policy");
+    return $this->call('setIamPolicy', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Policy");
   }
   /**
    * Returns permissions that a caller has on the specified resource.
@@ -201,6 +201,6 @@ class Google_Service_CloudUserAccounts_Resource_Groups extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', array($params), "Google_Service_CloudUserAccounts_TestPermissionsResponse");
+    return $this->call('testIamPermissions', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_TestPermissionsResponse");
   }
 }

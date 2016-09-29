@@ -35,6 +35,6 @@ class Google_Service_Calendar_Resource_Colors extends \GoogleApi\Google_Service_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Calendar_Colors");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Calendar_Colors");
   }
 }

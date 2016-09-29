@@ -51,7 +51,7 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('activate', array($params), "Google_Service_Proximitybeacon_ProximitybeaconEmpty");
+    return $this->call('activate', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ProximitybeaconEmpty");
   }
   /**
    * Deactivates a beacon. Once deactivated, the API will not return information
@@ -80,7 +80,7 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('deactivate', array($params), "Google_Service_Proximitybeacon_ProximitybeaconEmpty");
+    return $this->call('deactivate', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ProximitybeaconEmpty");
   }
   /**
    * Decommissions the specified beacon in the service. This beacon will no longer
@@ -108,7 +108,7 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('decommission', array($params), "Google_Service_Proximitybeacon_ProximitybeaconEmpty");
+    return $this->call('decommission', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ProximitybeaconEmpty");
   }
   /**
    * Returns detailed information about the specified beacon. Authenticate using
@@ -139,7 +139,7 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Proximitybeacon_Beacon");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_Beacon");
   }
   /**
    * Searches the beacon registry for beacons that match the given search
@@ -206,7 +206,7 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Proximitybeacon_ListBeaconsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ListBeaconsResponse");
   }
   /**
    * Registers a previously unregistered beacon given its `advertisedId`. These
@@ -228,7 +228,7 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('register', array($params), "Google_Service_Proximitybeacon_Beacon");
+    return $this->call('register', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_Beacon");
   }
   /**
    * Updates the information about the specified beacon. **Any field that you do
@@ -259,6 +259,6 @@ class Google_Service_Proximitybeacon_Resource_Beacons extends \GoogleApi\Google_
   {
     $params = array('beaconName' => $beaconName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Proximitybeacon_Beacon");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_Beacon");
   }
 }

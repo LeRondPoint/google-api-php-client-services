@@ -40,7 +40,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'rollingUpdate' => $rollingUpdate);
     $params = array_merge($params, $optParams);
-    return $this->call('cancel', array($params), "Google_Service_Replicapoolupdater_Operation");
+    return $this->call('cancel', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_Operation");
   }
   /**
    * Returns information about an update. (rollingUpdates.get)
@@ -56,7 +56,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'rollingUpdate' => $rollingUpdate);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Replicapoolupdater_RollingUpdate");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_RollingUpdate");
   }
   /**
    * Inserts and starts a new update. (rollingUpdates.insert)
@@ -72,7 +72,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Replicapoolupdater_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_Operation");
   }
   /**
    * Lists recent updates for a given managed instance group, in reverse
@@ -95,7 +95,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Replicapoolupdater_RollingUpdateList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_RollingUpdateList");
   }
   /**
    * Lists the current status for each instance within a given update.
@@ -119,7 +119,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'rollingUpdate' => $rollingUpdate);
     $params = array_merge($params, $optParams);
-    return $this->call('listInstanceUpdates', array($params), "Google_Service_Replicapoolupdater_InstanceUpdateList");
+    return $this->call('listInstanceUpdates', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_InstanceUpdateList");
   }
   /**
    * Pauses the update in state from ROLLING_FORWARD or ROLLING_BACK. Has no
@@ -137,7 +137,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'rollingUpdate' => $rollingUpdate);
     $params = array_merge($params, $optParams);
-    return $this->call('pause', array($params), "Google_Service_Replicapoolupdater_Operation");
+    return $this->call('pause', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_Operation");
   }
   /**
    * Continues an update in PAUSED state. Has no effect if invoked when the state
@@ -154,7 +154,7 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'rollingUpdate' => $rollingUpdate);
     $params = array_merge($params, $optParams);
-    return $this->call('resume', array($params), "Google_Service_Replicapoolupdater_Operation");
+    return $this->call('resume', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_Operation");
   }
   /**
    * Rolls back the update in state from ROLLING_FORWARD or PAUSED. Has no effect
@@ -172,6 +172,6 @@ class Google_Service_Replicapoolupdater_Resource_RollingUpdates extends \GoogleA
   {
     $params = array('project' => $project, 'zone' => $zone, 'rollingUpdate' => $rollingUpdate);
     $params = array_merge($params, $optParams);
-    return $this->call('rollback', array($params), "Google_Service_Replicapoolupdater_Operation");
+    return $this->call('rollback', array($params), "\GoogleApiServices\Google_Service_Replicapoolupdater_Operation");
   }
 }

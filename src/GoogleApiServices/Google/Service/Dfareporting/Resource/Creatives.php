@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_Creatives extends \GoogleApi\Google_S
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_Creative");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_Creative");
   }
   /**
    * Inserts a new creative. (creatives.insert)
@@ -51,7 +51,7 @@ class Google_Service_Dfareporting_Resource_Creatives extends \GoogleApi\Google_S
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Dfareporting_Creative");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Dfareporting_Creative");
   }
   /**
    * Retrieves a list of creatives, possibly filtered. (creatives.listCreatives)
@@ -94,7 +94,7 @@ class Google_Service_Dfareporting_Resource_Creatives extends \GoogleApi\Google_S
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_CreativesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_CreativesListResponse");
   }
   /**
    * Updates an existing creative. This method supports patch semantics.
@@ -110,7 +110,7 @@ class Google_Service_Dfareporting_Resource_Creatives extends \GoogleApi\Google_S
   {
     $params = array('profileId' => $profileId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Dfareporting_Creative");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Dfareporting_Creative");
   }
   /**
    * Updates an existing creative. (creatives.update)
@@ -124,6 +124,6 @@ class Google_Service_Dfareporting_Resource_Creatives extends \GoogleApi\Google_S
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Dfareporting_Creative");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Dfareporting_Creative");
   }
 }

@@ -53,7 +53,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('destinationBucket' => $destinationBucket, 'destinationObject' => $destinationObject, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('compose', array($params), "Google_Service_Storage_StorageObject");
+    return $this->call('compose', array($params), "\GoogleApiServices\Google_Service_Storage_StorageObject");
   }
   /**
    * Copies a source object to a destination object. Optionally overrides
@@ -107,7 +107,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('sourceBucket' => $sourceBucket, 'sourceObject' => $sourceObject, 'destinationBucket' => $destinationBucket, 'destinationObject' => $destinationObject, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('copy', array($params), "Google_Service_Storage_StorageObject");
+    return $this->call('copy', array($params), "\GoogleApiServices\Google_Service_Storage_StorageObject");
   }
   /**
    * Deletes an object and its metadata. Deletions are permanent if versioning is
@@ -161,7 +161,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('bucket' => $bucket, 'object' => $object);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Storage_StorageObject");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Storage_StorageObject");
   }
   /**
    * Stores a new object and metadata. (objects.insert)
@@ -203,7 +203,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('bucket' => $bucket, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Storage_StorageObject");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Storage_StorageObject");
   }
   /**
    * Retrieves a list of objects matching the criteria. (objects.listObjects)
@@ -232,7 +232,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('bucket' => $bucket);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Storage_Objects");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Storage_Objects");
   }
   /**
    * Updates an object's metadata. This method supports patch semantics.
@@ -263,7 +263,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('bucket' => $bucket, 'object' => $object, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Storage_StorageObject");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Storage_StorageObject");
   }
   /**
    * Rewrites a source object to a destination object. Optionally overrides
@@ -332,7 +332,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('sourceBucket' => $sourceBucket, 'sourceObject' => $sourceObject, 'destinationBucket' => $destinationBucket, 'destinationObject' => $destinationObject, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('rewrite', array($params), "Google_Service_Storage_RewriteResponse");
+    return $this->call('rewrite', array($params), "\GoogleApiServices\Google_Service_Storage_RewriteResponse");
   }
   /**
    * Updates an object's metadata. (objects.update)
@@ -362,7 +362,7 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('bucket' => $bucket, 'object' => $object, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Storage_StorageObject");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Storage_StorageObject");
   }
   /**
    * Watch for changes on all objects in a bucket. (objects.watchAll)
@@ -392,6 +392,6 @@ class Google_Service_Storage_Resource_Objects extends \GoogleApi\Google_Service_
   {
     $params = array('bucket' => $bucket, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('watchAll', array($params), "Google_Service_Storage_Channel");
+    return $this->call('watchAll', array($params), "\GoogleApiServices\Google_Service_Storage_Channel");
   }
 }

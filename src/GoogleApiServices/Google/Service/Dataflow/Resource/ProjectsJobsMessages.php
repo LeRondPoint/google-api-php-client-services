@@ -51,6 +51,6 @@ class Google_Service_Dataflow_Resource_ProjectsJobsMessages extends \GoogleApi\G
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dataflow_ListJobMessagesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dataflow_ListJobMessagesResponse");
   }
 }

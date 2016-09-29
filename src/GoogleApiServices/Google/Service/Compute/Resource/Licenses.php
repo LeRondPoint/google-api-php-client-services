@@ -38,6 +38,6 @@ class Google_Service_Compute_Resource_Licenses extends \GoogleApi\Google_Service
   {
     $params = array('project' => $project, 'license' => $license);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_License");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_License");
   }
 }

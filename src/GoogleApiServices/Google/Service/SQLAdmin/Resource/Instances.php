@@ -41,7 +41,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('clone', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('clone', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Deletes a Cloud SQL instance. (instances.delete)
@@ -57,7 +57,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Exports data from a Cloud SQL instance to a Google Cloud Storage bucket as a
@@ -75,7 +75,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('export', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('export', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Failover the instance to its failover replica instance. (instances.failover)
@@ -91,7 +91,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('failover', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('failover', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Retrieves a resource containing information about a Cloud SQL instance.
@@ -107,7 +107,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_SQLAdmin_DatabaseInstance");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_DatabaseInstance");
   }
   /**
    * Imports data into a Cloud SQL instance from a MySQL dump file in Google Cloud
@@ -124,7 +124,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('import', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('import', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Creates a new Cloud SQL instance. (instances.insert)
@@ -139,7 +139,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Lists instances under a given project in the alphabetical order of the
@@ -159,7 +159,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_SQLAdmin_InstancesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_InstancesListResponse");
   }
   /**
    * Updates settings of a Cloud SQL instance. Caution: This is not a partial
@@ -178,7 +178,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Promotes the read replica instance to be a stand-alone Cloud SQL instance.
@@ -193,7 +193,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('promoteReplica', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('promoteReplica', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Deletes all client certificates and generates a new server SSL certificate
@@ -211,7 +211,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('resetSslConfig', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('resetSslConfig', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Restarts a Cloud SQL instance. (instances.restart)
@@ -227,7 +227,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('restart', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('restart', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Restores a backup of a Cloud SQL instance. (instances.restoreBackup)
@@ -243,7 +243,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('restoreBackup', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('restoreBackup', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Starts the replication in the read replica instance. (instances.startReplica)
@@ -257,7 +257,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('startReplica', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('startReplica', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Stops the replication in the read replica instance. (instances.stopReplica)
@@ -271,7 +271,7 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('stopReplica', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('stopReplica', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Updates settings of a Cloud SQL instance. Caution: This is not a partial
@@ -289,6 +289,6 @@ class Google_Service_SQLAdmin_Resource_Instances extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
 }

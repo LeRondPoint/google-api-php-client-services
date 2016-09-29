@@ -38,7 +38,7 @@ class Google_Service_TagManager_Resource_AccountsContainersEnvironments extends 
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_TagManager_Environment");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_TagManager_Environment");
   }
   /**
    * Deletes a GTM Environment. (environments.delete)
@@ -67,7 +67,7 @@ class Google_Service_TagManager_Resource_AccountsContainersEnvironments extends 
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'environmentId' => $environmentId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_Environment");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_Environment");
   }
   /**
    * Lists all GTM Environments of a GTM Container.
@@ -82,7 +82,7 @@ class Google_Service_TagManager_Resource_AccountsContainersEnvironments extends 
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListEnvironmentsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListEnvironmentsResponse");
   }
   /**
    * Updates a GTM Environment. This method supports patch semantics.
@@ -102,7 +102,7 @@ class Google_Service_TagManager_Resource_AccountsContainersEnvironments extends 
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'environmentId' => $environmentId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_TagManager_Environment");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_TagManager_Environment");
   }
   /**
    * Updates a GTM Environment. (environments.update)
@@ -121,6 +121,6 @@ class Google_Service_TagManager_Resource_AccountsContainersEnvironments extends 
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'environmentId' => $environmentId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Environment");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Environment");
   }
 }

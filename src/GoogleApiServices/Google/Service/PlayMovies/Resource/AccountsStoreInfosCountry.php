@@ -41,6 +41,6 @@ class Google_Service_PlayMovies_Resource_AccountsStoreInfosCountry extends \Goog
   {
     $params = array('accountId' => $accountId, 'videoId' => $videoId, 'country' => $country);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_PlayMovies_StoreInfo");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_PlayMovies_StoreInfo");
   }
 }

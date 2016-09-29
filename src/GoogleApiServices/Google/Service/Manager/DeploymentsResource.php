@@ -52,7 +52,7 @@ class Google_Service_Manager_DeploymentsResource extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'deploymentName' => $deploymentName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Manager_Deployment");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Manager_Deployment");
   }
   /**
    * (deployments.insert)
@@ -67,7 +67,7 @@ class Google_Service_Manager_DeploymentsResource extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'region' => $region, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Manager_Deployment");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Manager_Deployment");
   }
   /**
    * (deployments.listDeployments)
@@ -87,6 +87,6 @@ class Google_Service_Manager_DeploymentsResource extends \GoogleApi\Google_Servi
   {
     $params = array('projectId' => $projectId, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Manager_DeploymentsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Manager_DeploymentsListResponse");
   }
 }

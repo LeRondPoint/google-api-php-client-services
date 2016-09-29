@@ -50,7 +50,7 @@ class Google_Service_Manager_TemplatesResource extends \GoogleApi\Google_Service
   {
     $params = array('projectId' => $projectId, 'templateName' => $templateName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Manager_Template");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Manager_Template");
   }
   /**
    * (templates.insert)
@@ -64,7 +64,7 @@ class Google_Service_Manager_TemplatesResource extends \GoogleApi\Google_Service
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Manager_Template");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Manager_Template");
   }
   /**
    * (templates.listTemplates)
@@ -83,6 +83,6 @@ class Google_Service_Manager_TemplatesResource extends \GoogleApi\Google_Service
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Manager_TemplatesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Manager_TemplatesListResponse");
   }
 }

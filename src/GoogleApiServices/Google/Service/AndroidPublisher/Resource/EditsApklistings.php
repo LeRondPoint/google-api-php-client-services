@@ -81,7 +81,7 @@ class Google_Service_AndroidPublisher_Resource_EditsApklistings extends \GoogleA
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'language' => $language);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_ApkListing");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ApkListing");
   }
   /**
    * Lists all the APK-specific localized listings for a specified APK.
@@ -99,7 +99,7 @@ class Google_Service_AndroidPublisher_Resource_EditsApklistings extends \GoogleA
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_ApkListingsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ApkListingsListResponse");
   }
   /**
    * Updates or creates the APK-specific localized listing for a specified APK and
@@ -121,7 +121,7 @@ class Google_Service_AndroidPublisher_Resource_EditsApklistings extends \GoogleA
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'language' => $language, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidPublisher_ApkListing");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ApkListing");
   }
   /**
    * Updates or creates the APK-specific localized listing for a specified APK and
@@ -143,6 +143,6 @@ class Google_Service_AndroidPublisher_Resource_EditsApklistings extends \GoogleA
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'language' => $language, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidPublisher_ApkListing");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ApkListing");
   }
 }

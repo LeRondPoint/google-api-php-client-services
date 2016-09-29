@@ -52,7 +52,7 @@ class Google_Service_YouTube_Resource_LiveChatMessages extends \GoogleApi\Google
   {
     $params = array('part' => $part, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_YouTube_LiveChatMessage");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_YouTube_LiveChatMessage");
   }
   /**
    * Lists live chat messages for a specific chat.
@@ -88,6 +88,6 @@ class Google_Service_YouTube_Resource_LiveChatMessages extends \GoogleApi\Google
   {
     $params = array('liveChatId' => $liveChatId, 'part' => $part);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTube_LiveChatMessageListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTube_LiveChatMessageListResponse");
   }
 }

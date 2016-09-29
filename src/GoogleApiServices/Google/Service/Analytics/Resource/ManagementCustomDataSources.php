@@ -45,6 +45,6 @@ class Google_Service_Analytics_Resource_ManagementCustomDataSources extends \Goo
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_CustomDataSources");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomDataSources");
   }
 }

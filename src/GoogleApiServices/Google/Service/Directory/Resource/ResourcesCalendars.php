@@ -56,7 +56,7 @@ class Google_Service_Directory_Resource_ResourcesCalendars extends \GoogleApi\Go
   {
     $params = array('customer' => $customer, 'calendarResourceId' => $calendarResourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_CalendarResource");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_CalendarResource");
   }
   /**
    * Inserts a calendar resource. (calendars.insert)
@@ -72,7 +72,7 @@ class Google_Service_Directory_Resource_ResourcesCalendars extends \GoogleApi\Go
   {
     $params = array('customer' => $customer, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_CalendarResource");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_CalendarResource");
   }
   /**
    * Retrieves a list of calendar resources for an account.
@@ -91,7 +91,7 @@ class Google_Service_Directory_Resource_ResourcesCalendars extends \GoogleApi\Go
   {
     $params = array('customer' => $customer);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_CalendarResources");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_CalendarResources");
   }
   /**
    * Updates a calendar resource. This method supports patch semantics.
@@ -110,7 +110,7 @@ class Google_Service_Directory_Resource_ResourcesCalendars extends \GoogleApi\Go
   {
     $params = array('customer' => $customer, 'calendarResourceId' => $calendarResourceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_CalendarResource");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_CalendarResource");
   }
   /**
    * Updates a calendar resource. (calendars.update)
@@ -128,6 +128,6 @@ class Google_Service_Directory_Resource_ResourcesCalendars extends \GoogleApi\Go
   {
     $params = array('customer' => $customer, 'calendarResourceId' => $calendarResourceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_CalendarResource");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_CalendarResource");
   }
 }

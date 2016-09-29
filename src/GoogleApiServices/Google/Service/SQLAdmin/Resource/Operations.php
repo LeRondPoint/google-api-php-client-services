@@ -38,7 +38,7 @@ class Google_Service_SQLAdmin_Resource_Operations extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'operation' => $operation);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Lists all instance operations that have been performed on the given Cloud SQL
@@ -59,6 +59,6 @@ class Google_Service_SQLAdmin_Resource_Operations extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_SQLAdmin_OperationsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_OperationsListResponse");
   }
 }

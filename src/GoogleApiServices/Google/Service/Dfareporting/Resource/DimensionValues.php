@@ -42,6 +42,6 @@ class Google_Service_Dfareporting_Resource_DimensionValues extends \GoogleApi\Go
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('query', array($params), "Google_Service_Dfareporting_DimensionValueList");
+    return $this->call('query', array($params), "\GoogleApiServices\Google_Service_Dfareporting_DimensionValueList");
   }
 }

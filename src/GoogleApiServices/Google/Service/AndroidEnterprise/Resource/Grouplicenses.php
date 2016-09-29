@@ -39,7 +39,7 @@ class Google_Service_AndroidEnterprise_Resource_Grouplicenses extends \GoogleApi
   {
     $params = array('enterpriseId' => $enterpriseId, 'groupLicenseId' => $groupLicenseId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_GroupLicense");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_GroupLicense");
   }
   /**
    * Retrieves IDs of all products for which the enterprise has a group license.
@@ -53,6 +53,6 @@ class Google_Service_AndroidEnterprise_Resource_Grouplicenses extends \GoogleApi
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_GroupLicensesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_GroupLicensesListResponse");
   }
 }

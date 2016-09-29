@@ -54,7 +54,7 @@ class Google_Service_Analytics_Resource_ManagementProfileUserLinks extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_EntityUserLink");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityUserLink");
   }
   /**
    * Lists profile-user links for a given view (profile).
@@ -81,7 +81,7 @@ class Google_Service_Analytics_Resource_ManagementProfileUserLinks extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_EntityUserLinks");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityUserLinks");
   }
   /**
    * Updates permissions for an existing user on the given view (profile).
@@ -99,6 +99,6 @@ class Google_Service_Analytics_Resource_ManagementProfileUserLinks extends \Goog
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'linkId' => $linkId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_EntityUserLink");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_EntityUserLink");
   }
 }

@@ -50,7 +50,7 @@ class Google_Service_Fusiontables_Resource_Style extends \GoogleApi\Google_Servi
   {
     $params = array('tableId' => $tableId, 'styleId' => $styleId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Fusiontables_StyleSetting");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Fusiontables_StyleSetting");
   }
   /**
    * Adds a new style for the table. (style.insert)
@@ -64,7 +64,7 @@ class Google_Service_Fusiontables_Resource_Style extends \GoogleApi\Google_Servi
   {
     $params = array('tableId' => $tableId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Fusiontables_StyleSetting");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Fusiontables_StyleSetting");
   }
   /**
    * Retrieves a list of styles. (style.listStyle)
@@ -82,7 +82,7 @@ class Google_Service_Fusiontables_Resource_Style extends \GoogleApi\Google_Servi
   {
     $params = array('tableId' => $tableId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Fusiontables_StyleSettingList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Fusiontables_StyleSettingList");
   }
   /**
    * Updates an existing style. This method supports patch semantics.
@@ -98,7 +98,7 @@ class Google_Service_Fusiontables_Resource_Style extends \GoogleApi\Google_Servi
   {
     $params = array('tableId' => $tableId, 'styleId' => $styleId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Fusiontables_StyleSetting");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Fusiontables_StyleSetting");
   }
   /**
    * Updates an existing style. (style.update)
@@ -113,6 +113,6 @@ class Google_Service_Fusiontables_Resource_Style extends \GoogleApi\Google_Servi
   {
     $params = array('tableId' => $tableId, 'styleId' => $styleId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Fusiontables_StyleSetting");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Fusiontables_StyleSetting");
   }
 }

@@ -47,7 +47,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWork extends \GoogleApi\Goo
   {
     $params = array('courseId' => $courseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Classroom_CourseWork");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Classroom_CourseWork");
   }
   /**
    * Returns course work. This method returns the following error codes: *
@@ -66,7 +66,7 @@ class Google_Service_Classroom_Resource_CoursesCourseWork extends \GoogleApi\Goo
   {
     $params = array('courseId' => $courseId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Classroom_CourseWork");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Classroom_CourseWork");
   }
   /**
    * Returns a list of course work that the requester is permitted to view. Course
@@ -102,6 +102,6 @@ class Google_Service_Classroom_Resource_CoursesCourseWork extends \GoogleApi\Goo
   {
     $params = array('courseId' => $courseId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Classroom_ListCourseWorkResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Classroom_ListCourseWorkResponse");
   }
 }

@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_AccountPermissions extends \GoogleApi
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_AccountPermission");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_AccountPermission");
   }
   /**
    * Retrieves the list of account permissions.
@@ -51,6 +51,6 @@ class Google_Service_Dfareporting_Resource_AccountPermissions extends \GoogleApi
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_AccountPermissionsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_AccountPermissionsListResponse");
   }
 }

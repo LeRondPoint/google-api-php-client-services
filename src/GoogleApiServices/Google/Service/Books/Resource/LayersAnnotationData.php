@@ -51,7 +51,7 @@ class Google_Service_Books_Resource_LayersAnnotationData extends \GoogleApi\Goog
   {
     $params = array('volumeId' => $volumeId, 'layerId' => $layerId, 'annotationDataId' => $annotationDataId, 'contentVersion' => $contentVersion);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Annotationdata");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Annotationdata");
   }
   /**
    * Gets the annotation data for a volume and layer.
@@ -85,6 +85,6 @@ class Google_Service_Books_Resource_LayersAnnotationData extends \GoogleApi\Goog
   {
     $params = array('volumeId' => $volumeId, 'layerId' => $layerId, 'contentVersion' => $contentVersion);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Annotationsdata");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Annotationsdata");
   }
 }

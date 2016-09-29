@@ -52,7 +52,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistories extends \GoogleApi\G
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_ToolResults_History");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_ToolResults_History");
   }
   /**
    * Gets a History.
@@ -76,7 +76,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistories extends \GoogleApi\G
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ToolResults_History");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ToolResults_History");
   }
   /**
    * Lists Histories for a given Project.
@@ -116,6 +116,6 @@ class Google_Service_ToolResults_Resource_ProjectsHistories extends \GoogleApi\G
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ToolResults_ListHistoriesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ToolResults_ListHistoriesResponse");
   }
 }

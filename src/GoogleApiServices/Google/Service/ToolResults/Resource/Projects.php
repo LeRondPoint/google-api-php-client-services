@@ -43,7 +43,7 @@ class Google_Service_ToolResults_Resource_Projects extends \GoogleApi\Google_Ser
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('getSettings', array($params), "Google_Service_ToolResults_ProjectSettings");
+    return $this->call('getSettings', array($params), "\GoogleApiServices\Google_Service_ToolResults_ProjectSettings");
   }
   /**
    * Creates resources for settings which have not yet been set.
@@ -81,6 +81,6 @@ class Google_Service_ToolResults_Resource_Projects extends \GoogleApi\Google_Ser
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('initializeSettings', array($params), "Google_Service_ToolResults_ProjectSettings");
+    return $this->call('initializeSettings', array($params), "\GoogleApiServices\Google_Service_ToolResults_ProjectSettings");
   }
 }

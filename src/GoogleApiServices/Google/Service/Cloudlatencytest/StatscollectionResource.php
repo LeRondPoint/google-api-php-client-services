@@ -36,7 +36,7 @@ class Google_Service_Cloudlatencytest_StatscollectionResource extends \GoogleApi
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateaggregatedstats', array($params), "Google_Service_Cloudlatencytest_AggregatedStatsReply");
+    return $this->call('updateaggregatedstats', array($params), "\GoogleApiServices\Google_Service_Cloudlatencytest_AggregatedStatsReply");
   }
   /**
    * RPC to update the new TCP stats. (statscollection.updatestats)
@@ -49,6 +49,6 @@ class Google_Service_Cloudlatencytest_StatscollectionResource extends \GoogleApi
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updatestats', array($params), "Google_Service_Cloudlatencytest_StatsReply");
+    return $this->call('updatestats', array($params), "\GoogleApiServices\Google_Service_Cloudlatencytest_StatsReply");
   }
 }

@@ -39,6 +39,6 @@ class Google_Service_Dfareporting_Resource_CreativeAssets extends \GoogleApi\Goo
   {
     $params = array('profileId' => $profileId, 'advertiserId' => $advertiserId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Dfareporting_CreativeAssetMetadata");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Dfareporting_CreativeAssetMetadata");
   }
 }

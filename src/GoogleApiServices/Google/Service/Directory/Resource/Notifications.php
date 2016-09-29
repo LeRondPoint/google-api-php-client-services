@@ -52,7 +52,7 @@ class Google_Service_Directory_Resource_Notifications extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer, 'notificationId' => $notificationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Notification");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Notification");
   }
   /**
    * Retrieves a list of notifications. (notifications.listNotifications)
@@ -72,7 +72,7 @@ class Google_Service_Directory_Resource_Notifications extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Notifications");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Notifications");
   }
   /**
    * Updates a notification. This method supports patch semantics.
@@ -88,7 +88,7 @@ class Google_Service_Directory_Resource_Notifications extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer, 'notificationId' => $notificationId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_Notification");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_Notification");
   }
   /**
    * Updates a notification. (notifications.update)
@@ -103,6 +103,6 @@ class Google_Service_Directory_Resource_Notifications extends \GoogleApi\Google_
   {
     $params = array('customer' => $customer, 'notificationId' => $notificationId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_Notification");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_Notification");
   }
 }

@@ -49,6 +49,6 @@ class Google_Service_Dns_Resource_ResourceRecordSets extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'managedZone' => $managedZone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dns_ResourceRecordSetsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dns_ResourceRecordSetsListResponse");
   }
 }

@@ -46,6 +46,6 @@ class Google_Service_Webmasters_Resource_Urlcrawlerrorscounts extends \GoogleApi
   {
     $params = array('siteUrl' => $siteUrl);
     $params = array_merge($params, $optParams);
-    return $this->call('query', array($params), "Google_Service_Webmasters_UrlCrawlErrorsCountsQueryResponse");
+    return $this->call('query', array($params), "\GoogleApiServices\Google_Service_Webmasters_UrlCrawlErrorsCountsQueryResponse");
   }
 }

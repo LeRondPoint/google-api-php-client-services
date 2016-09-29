@@ -38,7 +38,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVariables extends \Go
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_TagManager_Variable");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_TagManager_Variable");
   }
   /**
    * Deletes a GTM Variable. (variables.delete)
@@ -67,7 +67,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVariables extends \Go
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'variableId' => $variableId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_Variable");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_Variable");
   }
   /**
    * Lists all GTM Variables of a Container.
@@ -82,7 +82,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVariables extends \Go
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListVariablesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListVariablesResponse");
   }
   /**
    * Updates a GTM Variable. (variables.update)
@@ -101,6 +101,6 @@ class Google_Service_TagManager_Resource_AccountsContainersVariables extends \Go
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'variableId' => $variableId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Variable");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Variable");
   }
 }

@@ -39,7 +39,7 @@ class Google_Service_Monitoring_Resource_ProjectsMonitoredResourceDescriptors ex
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Monitoring_MonitoredResourceDescriptor");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Monitoring_MonitoredResourceDescriptor");
   }
   /**
    * Lists monitored resource descriptors that match a filter. This method does
@@ -67,6 +67,6 @@ class Google_Service_Monitoring_Resource_ProjectsMonitoredResourceDescriptors ex
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Monitoring_ListMonitoredResourceDescriptorsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Monitoring_ListMonitoredResourceDescriptorsResponse");
   }
 }

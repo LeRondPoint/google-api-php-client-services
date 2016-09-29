@@ -37,7 +37,7 @@ class Google_Service_AdExchangeSeller_Resource_Accounts extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeSeller_Account");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeSeller_Account");
   }
   /**
    * List all accounts available to this Ad Exchange account.
@@ -56,6 +56,6 @@ class Google_Service_AdExchangeSeller_Resource_Accounts extends \GoogleApi\Googl
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeSeller_Accounts");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeSeller_Accounts");
   }
 }

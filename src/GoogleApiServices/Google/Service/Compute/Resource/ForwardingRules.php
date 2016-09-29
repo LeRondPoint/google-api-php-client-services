@@ -69,7 +69,7 @@ class Google_Service_Compute_Resource_ForwardingRules extends \GoogleApi\Google_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_ForwardingRuleAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_ForwardingRuleAggregatedList");
   }
   /**
    * Deletes the specified ForwardingRule resource. (forwardingRules.delete)
@@ -84,7 +84,7 @@ class Google_Service_Compute_Resource_ForwardingRules extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified ForwardingRule resource. (forwardingRules.get)
@@ -99,7 +99,7 @@ class Google_Service_Compute_Resource_ForwardingRules extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_ForwardingRule");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_ForwardingRule");
   }
   /**
    * Creates a ForwardingRule resource in the specified project and region using
@@ -115,7 +115,7 @@ class Google_Service_Compute_Resource_ForwardingRules extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'region' => $region, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of ForwardingRule resources available to the specified
@@ -162,7 +162,7 @@ class Google_Service_Compute_Resource_ForwardingRules extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_ForwardingRuleList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_ForwardingRuleList");
   }
   /**
    * Changes target URL for forwarding rule. The new target should be of the same
@@ -180,6 +180,6 @@ class Google_Service_Compute_Resource_ForwardingRules extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setTarget', array($params), "Google_Service_Compute_Operation");
+    return $this->call('setTarget', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

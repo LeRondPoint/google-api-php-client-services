@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_ChangeLogs extends \GoogleApi\Google_
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_ChangeLog");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_ChangeLog");
   }
   /**
    * Retrieves a list of change logs. (changeLogs.listChangeLogs)
@@ -75,6 +75,6 @@ class Google_Service_Dfareporting_Resource_ChangeLogs extends \GoogleApi\Google_
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_ChangeLogsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_ChangeLogsListResponse");
   }
 }

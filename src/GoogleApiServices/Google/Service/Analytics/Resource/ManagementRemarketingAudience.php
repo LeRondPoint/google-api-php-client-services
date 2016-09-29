@@ -41,7 +41,7 @@ class Google_Service_Analytics_Resource_ManagementRemarketingAudience extends \G
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_RemarketingAudience");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_RemarketingAudience");
   }
   /**
    * Creates a new remarketing audiences. (remarketingAudience.insert)
@@ -57,7 +57,7 @@ class Google_Service_Analytics_Resource_ManagementRemarketingAudience extends \G
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_RemarketingAudience");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_RemarketingAudience");
   }
   /**
    * Lists remarketing audiences to which the user has access.
@@ -79,7 +79,7 @@ class Google_Service_Analytics_Resource_ManagementRemarketingAudience extends \G
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_RemarketingAudiences");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_RemarketingAudiences");
   }
   /**
    * Updates an existing remarketing audiences. This method supports patch
@@ -98,7 +98,7 @@ class Google_Service_Analytics_Resource_ManagementRemarketingAudience extends \G
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_RemarketingAudience");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_RemarketingAudience");
   }
   /**
    * Updates an existing remarketing audiences. (remarketingAudience.update)
@@ -116,6 +116,6 @@ class Google_Service_Analytics_Resource_ManagementRemarketingAudience extends \G
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_RemarketingAudience");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_RemarketingAudience");
   }
 }

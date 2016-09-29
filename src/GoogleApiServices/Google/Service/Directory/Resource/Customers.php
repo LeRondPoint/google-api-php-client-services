@@ -36,7 +36,7 @@ class Google_Service_Directory_Resource_Customers extends \GoogleApi\Google_Serv
   {
     $params = array('customerKey' => $customerKey);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Customer");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Customer");
   }
   /**
    * Updates a customer. This method supports patch semantics. (customers.patch)
@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_Customers extends \GoogleApi\Google_Serv
   {
     $params = array('customerKey' => $customerKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_Customer");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_Customer");
   }
   /**
    * Updates a customer. (customers.update)
@@ -64,6 +64,6 @@ class Google_Service_Directory_Resource_Customers extends \GoogleApi\Google_Serv
   {
     $params = array('customerKey' => $customerKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_Customer");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_Customer");
   }
 }

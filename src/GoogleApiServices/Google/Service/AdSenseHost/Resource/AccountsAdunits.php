@@ -39,7 +39,7 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_AdSenseHost_AdUnit");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdUnit");
   }
   /**
    * Get the specified host ad unit in this AdSense account. (adunits.get)
@@ -54,7 +54,7 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdSenseHost_AdUnit");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdUnit");
   }
   /**
    * Get ad code for the specified ad unit, attaching the specified host custom
@@ -73,7 +73,7 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId);
     $params = array_merge($params, $optParams);
-    return $this->call('getAdCode', array($params), "Google_Service_AdSenseHost_AdCode");
+    return $this->call('getAdCode', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdCode");
   }
   /**
    * Insert the supplied ad unit into the specified publisher AdSense account.
@@ -89,7 +89,7 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_AdSenseHost_AdUnit");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdUnit");
   }
   /**
    * List all ad units in the specified publisher's AdSense account.
@@ -112,7 +112,7 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSenseHost_AdUnits");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdUnits");
   }
   /**
    * Update the supplied ad unit in the specified publisher AdSense account. This
@@ -129,7 +129,7 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AdSenseHost_AdUnit");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdUnit");
   }
   /**
    * Update the supplied ad unit in the specified publisher AdSense account.
@@ -145,6 +145,6 @@ class Google_Service_AdSenseHost_Resource_AccountsAdunits extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AdSenseHost_AdUnit");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_AdUnit");
   }
 }

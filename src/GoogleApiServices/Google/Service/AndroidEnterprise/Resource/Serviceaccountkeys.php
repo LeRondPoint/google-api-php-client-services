@@ -60,7 +60,7 @@ class Google_Service_AndroidEnterprise_Resource_Serviceaccountkeys extends \Goog
   {
     $params = array('enterpriseId' => $enterpriseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_AndroidEnterprise_ServiceAccountKey");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ServiceAccountKey");
   }
   /**
    * Lists all active credentials for the service account associated with this
@@ -77,6 +77,6 @@ class Google_Service_AndroidEnterprise_Resource_Serviceaccountkeys extends \Goog
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_ServiceAccountKeysListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ServiceAccountKeysListResponse");
   }
 }

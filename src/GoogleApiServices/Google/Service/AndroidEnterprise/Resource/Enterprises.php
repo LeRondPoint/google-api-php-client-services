@@ -58,7 +58,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('completeSignup', array($params), "Google_Service_AndroidEnterprise_Enterprise");
+    return $this->call('completeSignup', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_Enterprise");
   }
   /**
    * Deletes the binding between the EMM and enterprise. This is now deprecated;
@@ -88,7 +88,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('token' => $token, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('enroll', array($params), "Google_Service_AndroidEnterprise_Enterprise");
+    return $this->call('enroll', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_Enterprise");
   }
   /**
    * Generates a sign-up URL. (enterprises.generateSignupUrl)
@@ -109,7 +109,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('generateSignupUrl', array($params), "Google_Service_AndroidEnterprise_SignupInfo");
+    return $this->call('generateSignupUrl', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_SignupInfo");
   }
   /**
    * Retrieves the name and domain of an enterprise. (enterprises.get)
@@ -122,7 +122,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_Enterprise");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_Enterprise");
   }
   /**
    * Returns a service account and credentials. The service account can be bound
@@ -151,7 +151,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('getServiceAccount', array($params), "Google_Service_AndroidEnterprise_ServiceAccount");
+    return $this->call('getServiceAccount', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ServiceAccount");
   }
   /**
    * Returns the store layout for the enterprise. If the store layout has not been
@@ -166,7 +166,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('getStoreLayout', array($params), "Google_Service_AndroidEnterprise_StoreLayout");
+    return $this->call('getStoreLayout', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_StoreLayout");
   }
   /**
    * Establishes the binding between the EMM and an enterprise. This is now
@@ -182,7 +182,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('token' => $token, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_AndroidEnterprise_Enterprise");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_Enterprise");
   }
   /**
    * Looks up an enterprise by domain name. This is only supported for enterprises
@@ -200,7 +200,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('domain' => $domain);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_EnterprisesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_EnterprisesListResponse");
   }
   /**
    * Pulls and returns a notification set for the enterprises associated with the
@@ -228,7 +228,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('pullNotificationSet', array($params), "Google_Service_AndroidEnterprise_NotificationSet");
+    return $this->call('pullNotificationSet', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_NotificationSet");
   }
   /**
    * Sends a test push notification to validate the EMM integration with the
@@ -243,7 +243,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('sendTestPushNotification', array($params), "Google_Service_AndroidEnterprise_EnterprisesSendTestPushNotificationResponse");
+    return $this->call('sendTestPushNotification', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_EnterprisesSendTestPushNotificationResponse");
   }
   /**
    * Set the account that will be used to authenticate to the API as the
@@ -258,7 +258,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('enterpriseId' => $enterpriseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setAccount', array($params), "Google_Service_AndroidEnterprise_EnterpriseAccount");
+    return $this->call('setAccount', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_EnterpriseAccount");
   }
   /**
    * Sets the store layout for the enterprise. (enterprises.setStoreLayout)
@@ -272,7 +272,7 @@ class Google_Service_AndroidEnterprise_Resource_Enterprises extends \GoogleApi\G
   {
     $params = array('enterpriseId' => $enterpriseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setStoreLayout', array($params), "Google_Service_AndroidEnterprise_StoreLayout");
+    return $this->call('setStoreLayout', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_StoreLayout");
   }
   /**
    * Unenrolls an enterprise from the calling EMM. (enterprises.unenroll)

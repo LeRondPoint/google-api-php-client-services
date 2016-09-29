@@ -38,7 +38,7 @@ class Google_Service_AdExchangeBuyer_Resource_Budget extends \GoogleApi\Google_S
   {
     $params = array('accountId' => $accountId, 'billingId' => $billingId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeBuyer_Budget");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_Budget");
   }
   /**
    * Updates the budget amount for the budget of the adgroup specified by the
@@ -57,7 +57,7 @@ class Google_Service_AdExchangeBuyer_Resource_Budget extends \GoogleApi\Google_S
   {
     $params = array('accountId' => $accountId, 'billingId' => $billingId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AdExchangeBuyer_Budget");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_Budget");
   }
   /**
    * Updates the budget amount for the budget of the adgroup specified by the
@@ -76,6 +76,6 @@ class Google_Service_AdExchangeBuyer_Resource_Budget extends \GoogleApi\Google_S
   {
     $params = array('accountId' => $accountId, 'billingId' => $billingId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AdExchangeBuyer_Budget");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_Budget");
   }
 }

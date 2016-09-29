@@ -39,7 +39,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('addResources', array($params), "Google_Service_Resourceviews_Operation");
+    return $this->call('addResources', array($params), "\GoogleApiServices\Google_Service_Resourceviews_Operation");
   }
   /**
    * Delete a resource view. (zoneViews.delete)
@@ -54,7 +54,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Resourceviews_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Resourceviews_Operation");
   }
   /**
    * Get the information of a zonal resource view. (zoneViews.get)
@@ -69,7 +69,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Resourceviews_ResourceView");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Resourceviews_ResourceView");
   }
   /**
    * Get the service information of a resource view or a resource.
@@ -88,7 +88,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView);
     $params = array_merge($params, $optParams);
-    return $this->call('getService', array($params), "Google_Service_Resourceviews_ZoneViewsGetServiceResponse");
+    return $this->call('getService', array($params), "\GoogleApiServices\Google_Service_Resourceviews_ZoneViewsGetServiceResponse");
   }
   /**
    * Create a resource view. (zoneViews.insert)
@@ -103,7 +103,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Resourceviews_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Resourceviews_Operation");
   }
   /**
    * List resource views. (zoneViews.listZoneViews)
@@ -123,7 +123,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Resourceviews_ZoneViewsList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Resourceviews_ZoneViewsList");
   }
   /**
    * List the resources of the resource view. (zoneViews.listResources)
@@ -152,7 +152,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView);
     $params = array_merge($params, $optParams);
-    return $this->call('listResources', array($params), "Google_Service_Resourceviews_ZoneViewsListResourcesResponse");
+    return $this->call('listResources', array($params), "\GoogleApiServices\Google_Service_Resourceviews_ZoneViewsListResourcesResponse");
   }
   /**
    * Remove resources from the view. (zoneViews.removeResources)
@@ -168,7 +168,7 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('removeResources', array($params), "Google_Service_Resourceviews_Operation");
+    return $this->call('removeResources', array($params), "\GoogleApiServices\Google_Service_Resourceviews_Operation");
   }
   /**
    * Update the service information of a resource view or a resource.
@@ -185,6 +185,6 @@ class Google_Service_Resourceviews_Resource_ZoneViews extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'resourceView' => $resourceView, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setService', array($params), "Google_Service_Resourceviews_Operation");
+    return $this->call('setService', array($params), "\GoogleApiServices\Google_Service_Resourceviews_Operation");
   }
 }

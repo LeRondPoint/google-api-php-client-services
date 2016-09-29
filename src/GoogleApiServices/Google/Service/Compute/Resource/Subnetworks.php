@@ -68,7 +68,7 @@ class Google_Service_Compute_Resource_Subnetworks extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_SubnetworkAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_SubnetworkAggregatedList");
   }
   /**
    * Deletes the specified subnetwork. (subnetworks.delete)
@@ -83,7 +83,7 @@ class Google_Service_Compute_Resource_Subnetworks extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'region' => $region, 'subnetwork' => $subnetwork);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified subnetwork. Get a list of available subnetworks list()
@@ -99,7 +99,7 @@ class Google_Service_Compute_Resource_Subnetworks extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'region' => $region, 'subnetwork' => $subnetwork);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Subnetwork");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Subnetwork");
   }
   /**
    * Creates a subnetwork in the specified project using the data included in the
@@ -115,7 +115,7 @@ class Google_Service_Compute_Resource_Subnetworks extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'region' => $region, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of subnetworks available to the specified project.
@@ -162,6 +162,6 @@ class Google_Service_Compute_Resource_Subnetworks extends \GoogleApi\Google_Serv
   {
     $params = array('project' => $project, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_SubnetworkList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_SubnetworkList");
   }
 }

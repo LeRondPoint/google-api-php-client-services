@@ -42,6 +42,6 @@ class Google_Service_CloudDebugger_Resource_ControllerDebuggees extends \GoogleA
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('register', array($params), "Google_Service_CloudDebugger_RegisterDebuggeeResponse");
+    return $this->call('register', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_RegisterDebuggeeResponse");
   }
 }

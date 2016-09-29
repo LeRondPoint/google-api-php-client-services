@@ -39,6 +39,6 @@ class Google_Service_Translate_Resource_Languages extends \GoogleApi\Google_Serv
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Translate_LanguagesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Translate_LanguagesListResponse");
   }
 }

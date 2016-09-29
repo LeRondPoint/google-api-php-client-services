@@ -41,6 +41,6 @@ class Google_Service_Fitness_Resource_UsersDataset extends \GoogleApi\Google_Ser
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregate', array($params), "Google_Service_Fitness_AggregateResponse");
+    return $this->call('aggregate', array($params), "\GoogleApiServices\Google_Service_Fitness_AggregateResponse");
   }
 }

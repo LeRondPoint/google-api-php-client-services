@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_RoleAssignments extends \GoogleApi\Googl
   {
     $params = array('customer' => $customer, 'roleAssignmentId' => $roleAssignmentId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_RoleAssignment");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_RoleAssignment");
   }
   /**
    * Creates a role assignment. (roleAssignments.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_RoleAssignments extends \GoogleApi\Googl
   {
     $params = array('customer' => $customer, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_RoleAssignment");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_RoleAssignment");
   }
   /**
    * Retrieves a paginated list of all roleAssignments.
@@ -86,6 +86,6 @@ class Google_Service_Directory_Resource_RoleAssignments extends \GoogleApi\Googl
   {
     $params = array('customer' => $customer);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_RoleAssignments");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_RoleAssignments");
   }
 }

@@ -38,7 +38,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_TagManager_CreateContainerVersionResponse");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_TagManager_CreateContainerVersionResponse");
   }
   /**
    * Deletes a Container Version. (versions.delete)
@@ -68,7 +68,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'containerVersionId' => $containerVersionId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_TagManager_ContainerVersion");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_TagManager_ContainerVersion");
   }
   /**
    * Lists all Container Versions of a GTM Container.
@@ -87,7 +87,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_TagManager_ListContainerVersionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_TagManager_ListContainerVersionsResponse");
   }
   /**
    * Publishes a Container Version. (versions.publish)
@@ -105,7 +105,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'containerVersionId' => $containerVersionId);
     $params = array_merge($params, $optParams);
-    return $this->call('publish', array($params), "Google_Service_TagManager_PublishContainerVersionResponse");
+    return $this->call('publish', array($params), "\GoogleApiServices\Google_Service_TagManager_PublishContainerVersionResponse");
   }
   /**
    * Restores a Container Version. This will overwrite the container's current
@@ -123,7 +123,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'containerVersionId' => $containerVersionId);
     $params = array_merge($params, $optParams);
-    return $this->call('restore', array($params), "Google_Service_TagManager_ContainerVersion");
+    return $this->call('restore', array($params), "\GoogleApiServices\Google_Service_TagManager_ContainerVersion");
   }
   /**
    * Undeletes a Container Version. (versions.undelete)
@@ -138,7 +138,7 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'containerVersionId' => $containerVersionId);
     $params = array_merge($params, $optParams);
-    return $this->call('undelete', array($params), "Google_Service_TagManager_ContainerVersion");
+    return $this->call('undelete', array($params), "\GoogleApiServices\Google_Service_TagManager_ContainerVersion");
   }
   /**
    * Updates a Container Version. (versions.update)
@@ -157,6 +157,6 @@ class Google_Service_TagManager_Resource_AccountsContainersVersions extends \Goo
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'containerVersionId' => $containerVersionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_ContainerVersion");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_ContainerVersion");
   }
 }

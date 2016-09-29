@@ -62,7 +62,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsReleases extends \GoogleA
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_FirebaseRulesAPI_Release");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_Release");
   }
   /**
    * Delete a `Release` by resource name. (releases.delete)
@@ -77,7 +77,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsReleases extends \GoogleA
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_FirebaseRulesAPI_FirebaserulesEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_FirebaserulesEmpty");
   }
   /**
    * Get a `Release` by name. (releases.get)
@@ -92,7 +92,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsReleases extends \GoogleA
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_FirebaseRulesAPI_Release");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_Release");
   }
   /**
    * List the `Release` values for a project. This list may optionally be filtered
@@ -141,7 +141,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsReleases extends \GoogleA
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_FirebaseRulesAPI_ListReleasesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_ListReleasesResponse");
   }
   /**
    * Update a `Release`.
@@ -181,6 +181,6 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsReleases extends \GoogleA
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_FirebaseRulesAPI_Release");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_Release");
   }
 }

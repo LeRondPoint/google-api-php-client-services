@@ -37,6 +37,6 @@ class Google_Service_Partners_Resource_CompaniesLeads extends \GoogleApi\Google_
   {
     $params = array('companyId' => $companyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Partners_CreateLeadResponse");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Partners_CreateLeadResponse");
   }
 }

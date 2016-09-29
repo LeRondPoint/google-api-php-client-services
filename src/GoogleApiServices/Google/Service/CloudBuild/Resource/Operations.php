@@ -38,7 +38,7 @@ class Google_Service_CloudBuild_Resource_Operations extends \GoogleApi\Google_Se
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudBuild_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudBuild_Operation");
   }
   /**
    * Lists operations that match the specified filter in the request. If the
@@ -60,6 +60,6 @@ class Google_Service_CloudBuild_Resource_Operations extends \GoogleApi\Google_Se
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudBuild_ListOperationsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudBuild_ListOperationsResponse");
   }
 }

@@ -42,7 +42,7 @@ class Google_Service_Books_Resource_LayersVolumeAnnotations extends \GoogleApi\G
   {
     $params = array('volumeId' => $volumeId, 'layerId' => $layerId, 'annotationId' => $annotationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Volumeannotation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Volumeannotation");
   }
   /**
    * Gets the volume annotations for a volume and layer.
@@ -78,6 +78,6 @@ class Google_Service_Books_Resource_LayersVolumeAnnotations extends \GoogleApi\G
   {
     $params = array('volumeId' => $volumeId, 'layerId' => $layerId, 'contentVersion' => $contentVersion);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Volumeannotations");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Volumeannotations");
   }
 }

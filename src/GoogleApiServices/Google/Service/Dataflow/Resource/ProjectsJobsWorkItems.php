@@ -38,7 +38,7 @@ class Google_Service_Dataflow_Resource_ProjectsJobsWorkItems extends \GoogleApi\
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('lease', array($params), "Google_Service_Dataflow_LeaseWorkItemResponse");
+    return $this->call('lease', array($params), "\GoogleApiServices\Google_Service_Dataflow_LeaseWorkItemResponse");
   }
   /**
    * Reports the status of dataflow WorkItems leased by a worker.
@@ -54,6 +54,6 @@ class Google_Service_Dataflow_Resource_ProjectsJobsWorkItems extends \GoogleApi\
   {
     $params = array('projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('reportStatus', array($params), "Google_Service_Dataflow_ReportWorkItemStatusResponse");
+    return $this->call('reportStatus', array($params), "\GoogleApiServices\Google_Service_Dataflow_ReportWorkItemStatusResponse");
   }
 }

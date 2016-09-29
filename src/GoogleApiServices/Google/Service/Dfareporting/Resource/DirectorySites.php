@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_DirectorySites extends \GoogleApi\Goo
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_DirectorySite");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_DirectorySite");
   }
   /**
    * Inserts a new directory site. (directorySites.insert)
@@ -51,7 +51,7 @@ class Google_Service_Dfareporting_Resource_DirectorySites extends \GoogleApi\Goo
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Dfareporting_DirectorySite");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Dfareporting_DirectorySite");
   }
   /**
    * Retrieves a list of directory sites, possibly filtered.
@@ -91,6 +91,6 @@ class Google_Service_Dfareporting_Resource_DirectorySites extends \GoogleApi\Goo
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_DirectorySitesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_DirectorySitesListResponse");
   }
 }

@@ -41,7 +41,7 @@ class Google_Service_Container_Resource_ProjectsZonesClustersNodePools extends \
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Container_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Container_Operation");
   }
   /**
    * Deletes a node pool from a cluster. (nodePools.delete)
@@ -59,7 +59,7 @@ class Google_Service_Container_Resource_ProjectsZonesClustersNodePools extends \
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'nodePoolId' => $nodePoolId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Container_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Container_Operation");
   }
   /**
    * Retrieves the node pool requested. (nodePools.get)
@@ -77,7 +77,7 @@ class Google_Service_Container_Resource_ProjectsZonesClustersNodePools extends \
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'nodePoolId' => $nodePoolId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Container_NodePool");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Container_NodePool");
   }
   /**
    * Lists the node pools for a cluster.
@@ -95,6 +95,6 @@ class Google_Service_Container_Resource_ProjectsZonesClustersNodePools extends \
   {
     $params = array('projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Container_ListNodePoolsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Container_ListNodePoolsResponse");
   }
 }

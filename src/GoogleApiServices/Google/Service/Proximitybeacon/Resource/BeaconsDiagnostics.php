@@ -52,6 +52,6 @@ class Google_Service_Proximitybeacon_Resource_BeaconsDiagnostics extends \Google
   {
     $params = array('beaconName' => $beaconName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Proximitybeacon_ListDiagnosticsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_ListDiagnosticsResponse");
   }
 }

@@ -39,7 +39,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClients extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_AdExchangeBuyerII_Client");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_Client");
   }
   /**
    * Gets a client buyer with a given client account ID. (clients.get)
@@ -55,7 +55,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClients extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeBuyerII_Client");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_Client");
   }
   /**
    * Lists all the clients for the current sponsor buyer.
@@ -78,7 +78,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClients extends \GoogleA
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeBuyerII_ListClientsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ListClientsResponse");
   }
   /**
    * Updates an existing client buyer. (clients.update)
@@ -96,6 +96,6 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClients extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AdExchangeBuyerII_Client");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_Client");
   }
 }

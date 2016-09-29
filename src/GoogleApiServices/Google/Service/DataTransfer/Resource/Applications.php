@@ -37,7 +37,7 @@ class Google_Service_DataTransfer_Resource_Applications extends \GoogleApi\Googl
   {
     $params = array('applicationId' => $applicationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_DataTransfer_Application");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_DataTransfer_Application");
   }
   /**
    * Lists the applications available for data transfer for a customer.
@@ -55,6 +55,6 @@ class Google_Service_DataTransfer_Resource_Applications extends \GoogleApi\Googl
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_DataTransfer_ApplicationsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_DataTransfer_ApplicationsListResponse");
   }
 }

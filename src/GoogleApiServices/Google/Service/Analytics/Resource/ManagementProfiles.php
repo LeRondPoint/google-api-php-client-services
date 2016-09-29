@@ -55,7 +55,7 @@ class Google_Service_Analytics_Resource_ManagementProfiles extends \GoogleApi\Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_Profile");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_Profile");
   }
   /**
    * Create a new view (profile). (profiles.insert)
@@ -71,7 +71,7 @@ class Google_Service_Analytics_Resource_ManagementProfiles extends \GoogleApi\Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_Profile");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_Profile");
   }
   /**
    * Lists views (profiles) to which the user has access.
@@ -95,7 +95,7 @@ class Google_Service_Analytics_Resource_ManagementProfiles extends \GoogleApi\Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_Profiles");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_Profiles");
   }
   /**
    * Updates an existing view (profile). This method supports patch semantics.
@@ -113,7 +113,7 @@ class Google_Service_Analytics_Resource_ManagementProfiles extends \GoogleApi\Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_Profile");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_Profile");
   }
   /**
    * Updates an existing view (profile). (profiles.update)
@@ -130,6 +130,6 @@ class Google_Service_Analytics_Resource_ManagementProfiles extends \GoogleApi\Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_Profile");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_Profile");
   }
 }

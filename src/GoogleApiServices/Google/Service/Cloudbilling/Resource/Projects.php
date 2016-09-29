@@ -39,7 +39,7 @@ class Google_Service_Cloudbilling_Resource_Projects extends \GoogleApi\Google_Se
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('getBillingInfo', array($params), "Google_Service_Cloudbilling_ProjectBillingInfo");
+    return $this->call('getBillingInfo', array($params), "\GoogleApiServices\Google_Service_Cloudbilling_ProjectBillingInfo");
   }
   /**
    * Sets or updates the billing account associated with a project. You specify
@@ -78,6 +78,6 @@ class Google_Service_Cloudbilling_Resource_Projects extends \GoogleApi\Google_Se
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateBillingInfo', array($params), "Google_Service_Cloudbilling_ProjectBillingInfo");
+    return $this->call('updateBillingInfo', array($params), "\GoogleApiServices\Google_Service_Cloudbilling_ProjectBillingInfo");
   }
 }

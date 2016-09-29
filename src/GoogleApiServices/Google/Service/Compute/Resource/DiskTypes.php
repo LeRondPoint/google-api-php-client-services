@@ -68,7 +68,7 @@ class Google_Service_Compute_Resource_DiskTypes extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_DiskTypeAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_DiskTypeAggregatedList");
   }
   /**
    * Returns the specified disk type. Get a list of available disk types by making
@@ -84,7 +84,7 @@ class Google_Service_Compute_Resource_DiskTypes extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'zone' => $zone, 'diskType' => $diskType);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_DiskType");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_DiskType");
   }
   /**
    * Retrieves a list of disk types available to the specified project.
@@ -131,6 +131,6 @@ class Google_Service_Compute_Resource_DiskTypes extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_DiskTypeList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_DiskTypeList");
   }
 }

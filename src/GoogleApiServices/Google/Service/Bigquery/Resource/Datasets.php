@@ -57,7 +57,7 @@ class Google_Service_Bigquery_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('projectId' => $projectId, 'datasetId' => $datasetId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Bigquery_Dataset");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Bigquery_Dataset");
   }
   /**
    * Creates a new empty dataset. (datasets.insert)
@@ -71,7 +71,7 @@ class Google_Service_Bigquery_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Bigquery_Dataset");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Bigquery_Dataset");
   }
   /**
    * Lists all datasets in the specified project to which you have been granted
@@ -94,7 +94,7 @@ class Google_Service_Bigquery_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Bigquery_DatasetList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Bigquery_DatasetList");
   }
   /**
    * Updates information in an existing dataset. The update method replaces the
@@ -112,7 +112,7 @@ class Google_Service_Bigquery_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('projectId' => $projectId, 'datasetId' => $datasetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Bigquery_Dataset");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Bigquery_Dataset");
   }
   /**
    * Updates information in an existing dataset. The update method replaces the
@@ -129,6 +129,6 @@ class Google_Service_Bigquery_Resource_Datasets extends \GoogleApi\Google_Servic
   {
     $params = array('projectId' => $projectId, 'datasetId' => $datasetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Bigquery_Dataset");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Bigquery_Dataset");
   }
 }

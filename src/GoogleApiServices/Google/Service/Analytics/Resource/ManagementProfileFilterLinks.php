@@ -56,7 +56,7 @@ class Google_Service_Analytics_Resource_ManagementProfileFilterLinks extends \Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'linkId' => $linkId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_ProfileFilterLink");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_ProfileFilterLink");
   }
   /**
    * Create a new profile filter link. (profileFilterLinks.insert)
@@ -73,7 +73,7 @@ class Google_Service_Analytics_Resource_ManagementProfileFilterLinks extends \Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_ProfileFilterLink");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_ProfileFilterLink");
   }
   /**
    * Lists all profile filter links for a profile.
@@ -98,7 +98,7 @@ class Google_Service_Analytics_Resource_ManagementProfileFilterLinks extends \Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_ProfileFilterLinks");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_ProfileFilterLinks");
   }
   /**
    * Update an existing profile filter link. This method supports patch semantics.
@@ -117,7 +117,7 @@ class Google_Service_Analytics_Resource_ManagementProfileFilterLinks extends \Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'linkId' => $linkId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_ProfileFilterLink");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_ProfileFilterLink");
   }
   /**
    * Update an existing profile filter link. (profileFilterLinks.update)
@@ -135,6 +135,6 @@ class Google_Service_Analytics_Resource_ManagementProfileFilterLinks extends \Go
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'linkId' => $linkId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_ProfileFilterLink");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_ProfileFilterLink");
   }
 }

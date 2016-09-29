@@ -39,7 +39,7 @@ class Google_Service_Dns_Resource_Changes extends \GoogleApi\Google_Service_Reso
   {
     $params = array('project' => $project, 'managedZone' => $managedZone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Dns_Change");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Dns_Change");
   }
   /**
    * Fetch the representation of an existing Change. (changes.get)
@@ -56,7 +56,7 @@ class Google_Service_Dns_Resource_Changes extends \GoogleApi\Google_Service_Reso
   {
     $params = array('project' => $project, 'managedZone' => $managedZone, 'changeId' => $changeId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dns_Change");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dns_Change");
   }
   /**
    * Enumerate Changes to a ResourceRecordSet collection. (changes.listChanges)
@@ -81,6 +81,6 @@ class Google_Service_Dns_Resource_Changes extends \GoogleApi\Google_Service_Reso
   {
     $params = array('project' => $project, 'managedZone' => $managedZone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dns_ChangesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dns_ChangesListResponse");
   }
 }

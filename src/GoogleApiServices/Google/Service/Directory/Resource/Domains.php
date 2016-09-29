@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_Domains extends \GoogleApi\Google_Servic
   {
     $params = array('customer' => $customer, 'domainName' => $domainName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Domains");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Domains");
   }
   /**
    * Inserts a domain of the customer. (domains.insert)
@@ -64,7 +64,7 @@ class Google_Service_Directory_Resource_Domains extends \GoogleApi\Google_Servic
   {
     $params = array('customer' => $customer, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Domains");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Domains");
   }
   /**
    * Lists the domains of the customer. (domains.listDomains)
@@ -77,6 +77,6 @@ class Google_Service_Directory_Resource_Domains extends \GoogleApi\Google_Servic
   {
     $params = array('customer' => $customer);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Domains2");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Domains2");
   }
 }

@@ -68,6 +68,6 @@ class Google_Service_DeploymentManager_Resource_Types extends \GoogleApi\Google_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_DeploymentManager_TypesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_DeploymentManager_TypesListResponse");
   }
 }

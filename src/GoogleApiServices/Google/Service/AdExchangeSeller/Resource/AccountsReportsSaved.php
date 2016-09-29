@@ -44,7 +44,7 @@ class Google_Service_AdExchangeSeller_Resource_AccountsReportsSaved extends \Goo
   {
     $params = array('accountId' => $accountId, 'savedReportId' => $savedReportId);
     $params = array_merge($params, $optParams);
-    return $this->call('generate', array($params), "Google_Service_AdExchangeSeller_Report");
+    return $this->call('generate', array($params), "\GoogleApiServices\Google_Service_AdExchangeSeller_Report");
   }
   /**
    * List all saved reports in this Ad Exchange account.
@@ -64,6 +64,6 @@ class Google_Service_AdExchangeSeller_Resource_AccountsReportsSaved extends \Goo
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeSeller_SavedReports");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeSeller_SavedReports");
   }
 }

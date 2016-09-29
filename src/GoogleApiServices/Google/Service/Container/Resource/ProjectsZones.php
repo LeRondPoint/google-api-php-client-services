@@ -40,6 +40,6 @@ class Google_Service_Container_Resource_ProjectsZones extends \GoogleApi\Google_
   {
     $params = array('projectId' => $projectId, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('getServerconfig', array($params), "Google_Service_Container_ServerConfig");
+    return $this->call('getServerconfig', array($params), "\GoogleApiServices\Google_Service_Container_ServerConfig");
   }
 }

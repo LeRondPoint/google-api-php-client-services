@@ -41,7 +41,7 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Games_Room");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Games_Room");
   }
   /**
    * Decline an invitation to join a room. For internal use by the Games SDK only.
@@ -59,7 +59,7 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array('roomId' => $roomId);
     $params = array_merge($params, $optParams);
-    return $this->call('decline', array($params), "Google_Service_Games_Room");
+    return $this->call('decline', array($params), "\GoogleApiServices\Google_Service_Games_Room");
   }
   /**
    * Dismiss an invitation to join a room. For internal use by the Games SDK only.
@@ -91,7 +91,7 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array('roomId' => $roomId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Games_Room");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Games_Room");
   }
   /**
    * Join a room. For internal use by the Games SDK only. Calling this method
@@ -110,7 +110,7 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array('roomId' => $roomId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('join', array($params), "Google_Service_Games_Room");
+    return $this->call('join', array($params), "\GoogleApiServices\Google_Service_Games_Room");
   }
   /**
    * Leave a room. For internal use by the Games SDK only. Calling this method
@@ -129,7 +129,7 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array('roomId' => $roomId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('leave', array($params), "Google_Service_Games_Room");
+    return $this->call('leave', array($params), "\GoogleApiServices\Google_Service_Games_Room");
   }
   /**
    * Returns invitations to join rooms. (rooms.listRooms)
@@ -149,7 +149,7 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_RoomList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_RoomList");
   }
   /**
    * Updates sent by a client reporting the status of peers in a room. For
@@ -169,6 +169,6 @@ class Google_Service_Games_Resource_Rooms extends \GoogleApi\Google_Service_Reso
   {
     $params = array('roomId' => $roomId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('reportStatus', array($params), "Google_Service_Games_RoomStatus");
+    return $this->call('reportStatus', array($params), "\GoogleApiServices\Google_Service_Games_RoomStatus");
   }
 }

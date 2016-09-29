@@ -40,7 +40,7 @@ class Google_Service_Games_Resource_Snapshots extends \GoogleApi\Google_Service_
   {
     $params = array('snapshotId' => $snapshotId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Games_Snapshot");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Games_Snapshot");
   }
   /**
    * Retrieves a list of snapshots created by your application for the player
@@ -63,6 +63,6 @@ class Google_Service_Games_Resource_Snapshots extends \GoogleApi\Google_Service_
   {
     $params = array('playerId' => $playerId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_SnapshotListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_SnapshotListResponse");
   }
 }

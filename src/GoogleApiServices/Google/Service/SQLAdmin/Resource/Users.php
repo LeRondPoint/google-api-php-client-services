@@ -40,7 +40,7 @@ class Google_Service_SQLAdmin_Resource_Users extends \GoogleApi\Google_Service_R
   {
     $params = array('project' => $project, 'instance' => $instance, 'host' => $host, 'name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Creates a new user in a Cloud SQL instance. (users.insert)
@@ -56,7 +56,7 @@ class Google_Service_SQLAdmin_Resource_Users extends \GoogleApi\Google_Service_R
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Lists users in the specified Cloud SQL instance. (users.listUsers)
@@ -71,7 +71,7 @@ class Google_Service_SQLAdmin_Resource_Users extends \GoogleApi\Google_Service_R
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_SQLAdmin_UsersListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_UsersListResponse");
   }
   /**
    * Updates an existing user in a Cloud SQL instance. (users.update)
@@ -89,6 +89,6 @@ class Google_Service_SQLAdmin_Resource_Users extends \GoogleApi\Google_Service_R
   {
     $params = array('project' => $project, 'instance' => $instance, 'host' => $host, 'name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
 }

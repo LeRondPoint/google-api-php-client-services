@@ -54,7 +54,7 @@ class Google_Service_Analytics_Resource_ManagementExperiments extends \GoogleApi
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_Experiment");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_Experiment");
   }
   /**
    * Create a new experiment. (experiments.insert)
@@ -70,7 +70,7 @@ class Google_Service_Analytics_Resource_ManagementExperiments extends \GoogleApi
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_Experiment");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_Experiment");
   }
   /**
    * Lists experiments to which the user has access.
@@ -92,7 +92,7 @@ class Google_Service_Analytics_Resource_ManagementExperiments extends \GoogleApi
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_Experiments");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_Experiments");
   }
   /**
    * Update an existing experiment. This method supports patch semantics.
@@ -110,7 +110,7 @@ class Google_Service_Analytics_Resource_ManagementExperiments extends \GoogleApi
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_Experiment");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_Experiment");
   }
   /**
    * Update an existing experiment. (experiments.update)
@@ -127,6 +127,6 @@ class Google_Service_Analytics_Resource_ManagementExperiments extends \GoogleApi
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_Experiment");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_Experiment");
   }
 }

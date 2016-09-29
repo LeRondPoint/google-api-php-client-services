@@ -36,6 +36,6 @@ class Google_Service_Partners_Resource_UserEvents extends \GoogleApi\Google_Serv
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('log', array($params), "Google_Service_Partners_LogUserEventResponse");
+    return $this->call('log', array($params), "\GoogleApiServices\Google_Service_Partners_LogUserEventResponse");
   }
 }

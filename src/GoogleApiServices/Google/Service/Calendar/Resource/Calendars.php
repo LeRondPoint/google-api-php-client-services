@@ -68,7 +68,7 @@ class Google_Service_Calendar_Resource_Calendars extends \GoogleApi\Google_Servi
   {
     $params = array('calendarId' => $calendarId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Calendar_Calendar");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Calendar_Calendar");
   }
   /**
    * Creates a secondary calendar. (calendars.insert)
@@ -81,7 +81,7 @@ class Google_Service_Calendar_Resource_Calendars extends \GoogleApi\Google_Servi
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Calendar_Calendar");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Calendar_Calendar");
   }
   /**
    * Updates metadata for a calendar. This method supports patch semantics.
@@ -98,7 +98,7 @@ class Google_Service_Calendar_Resource_Calendars extends \GoogleApi\Google_Servi
   {
     $params = array('calendarId' => $calendarId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Calendar_Calendar");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Calendar_Calendar");
   }
   /**
    * Updates metadata for a calendar. (calendars.update)
@@ -114,6 +114,6 @@ class Google_Service_Calendar_Resource_Calendars extends \GoogleApi\Google_Servi
   {
     $params = array('calendarId' => $calendarId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Calendar_Calendar");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Calendar_Calendar");
   }
 }

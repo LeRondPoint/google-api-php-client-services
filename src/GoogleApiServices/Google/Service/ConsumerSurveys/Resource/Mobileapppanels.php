@@ -37,7 +37,7 @@ class Google_Service_ConsumerSurveys_Resource_Mobileapppanels extends \GoogleApi
   {
     $params = array('panelId' => $panelId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ConsumerSurveys_MobileAppPanel");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_MobileAppPanel");
   }
   /**
    * Lists the MobileAppPanels available to the authenticated user.
@@ -54,7 +54,7 @@ class Google_Service_ConsumerSurveys_Resource_Mobileapppanels extends \GoogleApi
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ConsumerSurveys_MobileAppPanelsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_MobileAppPanelsListResponse");
   }
   /**
    * Updates a MobileAppPanel. Currently the only property that can be updated is
@@ -69,6 +69,6 @@ class Google_Service_ConsumerSurveys_Resource_Mobileapppanels extends \GoogleApi
   {
     $params = array('panelId' => $panelId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_ConsumerSurveys_MobileAppPanel");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_MobileAppPanel");
   }
 }

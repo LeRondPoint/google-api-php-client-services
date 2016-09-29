@@ -41,6 +41,6 @@ class Google_Service_Books_Resource_SeriesMembership extends \GoogleApi\Google_S
   {
     $params = array('series_id' => $seriesId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Seriesmembership");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Seriesmembership");
   }
 }

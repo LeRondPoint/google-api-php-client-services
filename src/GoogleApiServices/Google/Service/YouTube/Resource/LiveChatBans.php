@@ -52,6 +52,6 @@ class Google_Service_YouTube_Resource_LiveChatBans extends \GoogleApi\Google_Ser
   {
     $params = array('part' => $part, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_YouTube_LiveChatBan");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_YouTube_LiveChatBan");
   }
 }

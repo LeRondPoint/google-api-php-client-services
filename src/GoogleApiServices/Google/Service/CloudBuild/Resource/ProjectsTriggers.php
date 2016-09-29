@@ -40,7 +40,7 @@ class Google_Service_CloudBuild_Resource_ProjectsTriggers extends \GoogleApi\Goo
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_CloudBuild_BuildTrigger");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_CloudBuild_BuildTrigger");
   }
   /**
    * Deletes an BuildTrigger by its project ID and trigger ID.
@@ -56,7 +56,7 @@ class Google_Service_CloudBuild_Resource_ProjectsTriggers extends \GoogleApi\Goo
   {
     $params = array('projectId' => $projectId, 'triggerId' => $triggerId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudBuild_CloudbuildEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudBuild_CloudbuildEmpty");
   }
   /**
    * Gets information about a BuildTrigger.
@@ -72,7 +72,7 @@ class Google_Service_CloudBuild_Resource_ProjectsTriggers extends \GoogleApi\Goo
   {
     $params = array('projectId' => $projectId, 'triggerId' => $triggerId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudBuild_BuildTrigger");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudBuild_BuildTrigger");
   }
   /**
    * Lists existing BuildTrigger.
@@ -87,7 +87,7 @@ class Google_Service_CloudBuild_Resource_ProjectsTriggers extends \GoogleApi\Goo
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudBuild_ListBuildTriggersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudBuild_ListBuildTriggersResponse");
   }
   /**
    * Updates an BuildTrigger by its project ID and trigger ID.
@@ -104,6 +104,6 @@ class Google_Service_CloudBuild_Resource_ProjectsTriggers extends \GoogleApi\Goo
   {
     $params = array('projectId' => $projectId, 'triggerId' => $triggerId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_CloudBuild_BuildTrigger");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_CloudBuild_BuildTrigger");
   }
 }

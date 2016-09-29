@@ -36,6 +36,6 @@ class Google_Service_Vision_Resource_Images extends \GoogleApi\Google_Service_Re
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('annotate', array($params), "Google_Service_Vision_BatchAnnotateImagesResponse");
+    return $this->call('annotate', array($params), "\GoogleApiServices\Google_Service_Vision_BatchAnnotateImagesResponse");
   }
 }

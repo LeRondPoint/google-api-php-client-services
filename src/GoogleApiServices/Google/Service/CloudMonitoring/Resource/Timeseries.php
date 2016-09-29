@@ -78,7 +78,7 @@ class Google_Service_CloudMonitoring_Resource_Timeseries extends \GoogleApi\Goog
   {
     $params = array('project' => $project, 'metric' => $metric, 'youngest' => $youngest);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudMonitoring_ListTimeseriesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudMonitoring_ListTimeseriesResponse");
   }
   /**
    * Put data points to one or more time series for one or more metrics. If a time
@@ -99,6 +99,6 @@ class Google_Service_CloudMonitoring_Resource_Timeseries extends \GoogleApi\Goog
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('write', array($params), "Google_Service_CloudMonitoring_WriteTimeseriesResponse");
+    return $this->call('write', array($params), "\GoogleApiServices\Google_Service_CloudMonitoring_WriteTimeseriesResponse");
   }
 }

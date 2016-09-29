@@ -40,6 +40,6 @@ class Google_Service_TagManager_Resource_AccountsContainersReauthorizeEnvironmen
   {
     $params = array('accountId' => $accountId, 'containerId' => $containerId, 'environmentId' => $environmentId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_TagManager_Environment");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_TagManager_Environment");
   }
 }

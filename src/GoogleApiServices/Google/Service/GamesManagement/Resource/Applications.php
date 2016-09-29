@@ -44,6 +44,6 @@ class Google_Service_GamesManagement_Resource_Applications extends \GoogleApi\Go
   {
     $params = array('applicationId' => $applicationId);
     $params = array_merge($params, $optParams);
-    return $this->call('listHidden', array($params), "Google_Service_GamesManagement_HiddenPlayerList");
+    return $this->call('listHidden', array($params), "\GoogleApiServices\Google_Service_GamesManagement_HiddenPlayerList");
   }
 }

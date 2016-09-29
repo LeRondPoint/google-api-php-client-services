@@ -40,6 +40,6 @@ class Google_Service_YouTubeAnalytics_Resource_BatchReports extends \GoogleApi\G
   {
     $params = array('batchReportDefinitionId' => $batchReportDefinitionId, 'onBehalfOfContentOwner' => $onBehalfOfContentOwner);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTubeAnalytics_BatchReportList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTubeAnalytics_BatchReportList");
   }
 }

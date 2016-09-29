@@ -52,6 +52,6 @@ class Google_Service_Partners_Resource_UserStates extends \GoogleApi\Google_Serv
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Partners_ListUserStatesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Partners_ListUserStatesResponse");
   }
 }

@@ -36,7 +36,7 @@ class Google_Service_ShoppingContent_Resource_Datafeedstatuses extends \GoogleAp
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('custombatch', array($params), "Google_Service_ShoppingContent_DatafeedstatusesCustomBatchResponse");
+    return $this->call('custombatch', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_DatafeedstatusesCustomBatchResponse");
   }
   /**
    * Retrieves the status of a datafeed from your Merchant Center account.
@@ -51,7 +51,7 @@ class Google_Service_ShoppingContent_Resource_Datafeedstatuses extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId, 'datafeedId' => $datafeedId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ShoppingContent_DatafeedStatus");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_DatafeedStatus");
   }
   /**
    * Lists the statuses of the datafeeds in your Merchant Center account.
@@ -69,6 +69,6 @@ class Google_Service_ShoppingContent_Resource_Datafeedstatuses extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ShoppingContent_DatafeedstatusesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_DatafeedstatusesListResponse");
   }
 }

@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_ConnectionTypes extends \GoogleApi\Go
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_ConnectionType");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_ConnectionType");
   }
   /**
    * Retrieves a list of connection types. (connectionTypes.listConnectionTypes)
@@ -50,6 +50,6 @@ class Google_Service_Dfareporting_Resource_ConnectionTypes extends \GoogleApi\Go
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_ConnectionTypesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_ConnectionTypesListResponse");
   }
 }

@@ -36,7 +36,7 @@ class Google_Service_Doubleclicksearch_Resource_Reports extends \GoogleApi\Googl
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('generate', array($params), "Google_Service_Doubleclicksearch_Report");
+    return $this->call('generate', array($params), "\GoogleApiServices\Google_Service_Doubleclicksearch_Report");
   }
   /**
    * Polls for the status of a report request. (reports.get)
@@ -49,7 +49,7 @@ class Google_Service_Doubleclicksearch_Resource_Reports extends \GoogleApi\Googl
   {
     $params = array('reportId' => $reportId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Doubleclicksearch_Report");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Doubleclicksearch_Report");
   }
   /**
    * Downloads a report file encoded in UTF-8. (reports.getFile)
@@ -75,6 +75,6 @@ class Google_Service_Doubleclicksearch_Resource_Reports extends \GoogleApi\Googl
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('request', array($params), "Google_Service_Doubleclicksearch_Report");
+    return $this->call('request', array($params), "\GoogleApiServices\Google_Service_Doubleclicksearch_Report");
   }
 }

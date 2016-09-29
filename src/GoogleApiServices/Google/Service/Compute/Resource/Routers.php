@@ -68,7 +68,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_RouterAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_RouterAggregatedList");
   }
   /**
    * Deletes the specified Router resource. (routers.delete)
@@ -83,7 +83,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'router' => $router);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified Router resource. Get a list of available routers by
@@ -99,7 +99,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'router' => $router);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Router");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Router");
   }
   /**
    * Retrieves runtime information of the specified router.
@@ -115,7 +115,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'router' => $router);
     $params = array_merge($params, $optParams);
-    return $this->call('getRouterStatus', array($params), "Google_Service_Compute_RouterStatusResponse");
+    return $this->call('getRouterStatus', array($params), "\GoogleApiServices\Google_Service_Compute_RouterStatusResponse");
   }
   /**
    * Creates a Router resource in the specified project and region using the data
@@ -131,7 +131,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of Router resources available to the specified project.
@@ -178,7 +178,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_RouterList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_RouterList");
   }
   /**
    * Updates the entire content of the Router resource. This method supports patch
@@ -195,7 +195,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'router' => $router, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Compute_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Preview fields auto-generated during router create and update operations.
@@ -212,7 +212,7 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'router' => $router, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('preview', array($params), "Google_Service_Compute_RoutersPreviewResponse");
+    return $this->call('preview', array($params), "\GoogleApiServices\Google_Service_Compute_RoutersPreviewResponse");
   }
   /**
    * Updates the entire content of the Router resource. (routers.update)
@@ -228,6 +228,6 @@ class Google_Service_Compute_Resource_Routers extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'region' => $region, 'router' => $router, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Compute_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

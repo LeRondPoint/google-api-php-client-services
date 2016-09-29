@@ -54,7 +54,7 @@ class Google_Service_Directory_Resource_Tokens extends \GoogleApi\Google_Service
   {
     $params = array('userKey' => $userKey, 'clientId' => $clientId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_Token");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_Token");
   }
   /**
    * Returns the set of tokens specified user has issued to 3rd party
@@ -69,6 +69,6 @@ class Google_Service_Directory_Resource_Tokens extends \GoogleApi\Google_Service
   {
     $params = array('userKey' => $userKey);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Tokens");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Tokens");
   }
 }

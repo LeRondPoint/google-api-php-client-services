@@ -43,7 +43,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('subscription' => $subscription, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('acknowledge', array($params), "Google_Service_Pubsub_PubsubEmpty");
+    return $this->call('acknowledge', array($params), "\GoogleApiServices\Google_Service_Pubsub_PubsubEmpty");
   }
   /**
    * Creates a subscription to a given topic. If the subscription already exists,
@@ -66,7 +66,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Pubsub_Subscription");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Pubsub_Subscription");
   }
   /**
    * Deletes an existing subscription. All pending messages in the subscription
@@ -83,7 +83,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('subscription' => $subscription);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Pubsub_PubsubEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Pubsub_PubsubEmpty");
   }
   /**
    * Gets the configuration details of a subscription. (subscriptions.get)
@@ -96,7 +96,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('subscription' => $subscription);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Pubsub_Subscription");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Pubsub_Subscription");
   }
   /**
    * Gets the access control policy for a `resource`. Returns an empty policy if
@@ -115,7 +115,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('resource' => $resource);
     $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', array($params), "Google_Service_Pubsub_Policy");
+    return $this->call('getIamPolicy', array($params), "\GoogleApiServices\Google_Service_Pubsub_Policy");
   }
   /**
    * Lists matching subscriptions. (subscriptions.listProjectsSubscriptions)
@@ -135,7 +135,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Pubsub_ListSubscriptionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Pubsub_ListSubscriptionsResponse");
   }
   /**
    * Modifies the ack deadline for a specific message. This method is useful to
@@ -152,7 +152,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('subscription' => $subscription, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('modifyAckDeadline', array($params), "Google_Service_Pubsub_PubsubEmpty");
+    return $this->call('modifyAckDeadline', array($params), "\GoogleApiServices\Google_Service_Pubsub_PubsubEmpty");
   }
   /**
    * Modifies the `PushConfig` for a specified subscription. This may be used to
@@ -171,7 +171,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('subscription' => $subscription, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('modifyPushConfig', array($params), "Google_Service_Pubsub_PubsubEmpty");
+    return $this->call('modifyPushConfig', array($params), "\GoogleApiServices\Google_Service_Pubsub_PubsubEmpty");
   }
   /**
    * Pulls messages from the server. Returns an empty list if there are no
@@ -189,7 +189,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('subscription' => $subscription, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('pull', array($params), "Google_Service_Pubsub_PullResponse");
+    return $this->call('pull', array($params), "\GoogleApiServices\Google_Service_Pubsub_PullResponse");
   }
   /**
    * Sets the access control policy on the specified resource. Replaces any
@@ -208,7 +208,7 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', array($params), "Google_Service_Pubsub_Policy");
+    return $this->call('setIamPolicy', array($params), "\GoogleApiServices\Google_Service_Pubsub_Policy");
   }
   /**
    * Returns permissions that a caller has on the specified resource.
@@ -227,6 +227,6 @@ class Google_Service_Pubsub_Resource_ProjectsSubscriptions extends \GoogleApi\Go
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', array($params), "Google_Service_Pubsub_TestIamPermissionsResponse");
+    return $this->call('testIamPermissions', array($params), "\GoogleApiServices\Google_Service_Pubsub_TestIamPermissionsResponse");
   }
 }

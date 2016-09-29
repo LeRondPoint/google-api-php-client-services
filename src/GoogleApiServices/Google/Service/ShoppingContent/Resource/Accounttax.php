@@ -39,7 +39,7 @@ class Google_Service_ShoppingContent_Resource_Accounttax extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('custombatch', array($params), "Google_Service_ShoppingContent_AccounttaxCustomBatchResponse");
+    return $this->call('custombatch', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_AccounttaxCustomBatchResponse");
   }
   /**
    * Retrieves the tax settings of the account. (accounttax.get)
@@ -54,7 +54,7 @@ class Google_Service_ShoppingContent_Resource_Accounttax extends \GoogleApi\Goog
   {
     $params = array('merchantId' => $merchantId, 'accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ShoppingContent_AccountTax");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_AccountTax");
   }
   /**
    * Lists the tax settings of the sub-accounts in your Merchant Center account.
@@ -72,7 +72,7 @@ class Google_Service_ShoppingContent_Resource_Accounttax extends \GoogleApi\Goog
   {
     $params = array('merchantId' => $merchantId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ShoppingContent_AccounttaxListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_AccounttaxListResponse");
   }
   /**
    * Updates the tax settings of the account. This method supports patch
@@ -91,7 +91,7 @@ class Google_Service_ShoppingContent_Resource_Accounttax extends \GoogleApi\Goog
   {
     $params = array('merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_ShoppingContent_AccountTax");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_AccountTax");
   }
   /**
    * Updates the tax settings of the account. (accounttax.update)
@@ -109,6 +109,6 @@ class Google_Service_ShoppingContent_Resource_Accounttax extends \GoogleApi\Goog
   {
     $params = array('merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_ShoppingContent_AccountTax");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_AccountTax");
   }
 }

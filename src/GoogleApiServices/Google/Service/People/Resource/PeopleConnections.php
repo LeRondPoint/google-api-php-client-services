@@ -51,6 +51,6 @@ class Google_Service_People_Resource_PeopleConnections extends \GoogleApi\Google
   {
     $params = array('resourceName' => $resourceName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_People_ListConnectionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_People_ListConnectionsResponse");
   }
 }

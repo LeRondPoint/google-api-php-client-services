@@ -41,6 +41,6 @@ class Google_Service_AdSense_Resource_Adclients extends \GoogleApi\Google_Servic
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_AdClients");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_AdClients");
   }
 }

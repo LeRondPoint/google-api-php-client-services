@@ -39,7 +39,7 @@ class Google_Service_Analytics_Resource_ManagementCustomMetrics extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customMetricId' => $customMetricId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_CustomMetric");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomMetric");
   }
   /**
    * Create a new custom metric. (customMetrics.insert)
@@ -55,7 +55,7 @@ class Google_Service_Analytics_Resource_ManagementCustomMetrics extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_CustomMetric");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomMetric");
   }
   /**
    * Lists custom metrics to which the user has access.
@@ -76,7 +76,7 @@ class Google_Service_Analytics_Resource_ManagementCustomMetrics extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_CustomMetrics");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomMetrics");
   }
   /**
    * Updates an existing custom metric. This method supports patch semantics.
@@ -98,7 +98,7 @@ class Google_Service_Analytics_Resource_ManagementCustomMetrics extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customMetricId' => $customMetricId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_CustomMetric");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomMetric");
   }
   /**
    * Updates an existing custom metric. (customMetrics.update)
@@ -119,6 +119,6 @@ class Google_Service_Analytics_Resource_ManagementCustomMetrics extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customMetricId' => $customMetricId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_CustomMetric");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_CustomMetric");
   }
 }

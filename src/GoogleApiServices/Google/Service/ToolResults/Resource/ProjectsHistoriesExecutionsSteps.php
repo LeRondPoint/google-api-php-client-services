@@ -59,7 +59,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsSteps exten
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_ToolResults_Step");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_ToolResults_Step");
   }
   /**
    * Gets a Step.
@@ -89,7 +89,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsSteps exten
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ToolResults_Step");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ToolResults_Step");
   }
   /**
    * Lists Steps for a given Execution.
@@ -132,7 +132,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsSteps exten
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ToolResults_ListStepsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ToolResults_ListStepsResponse");
   }
   /**
    * Updates an existing Step with the supplied partial entity.
@@ -170,7 +170,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsSteps exten
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_ToolResults_Step");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_ToolResults_Step");
   }
   /**
    * Publish xml files to an existing Step.
@@ -204,6 +204,6 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsSteps exten
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('publishXunitXmlFiles', array($params), "Google_Service_ToolResults_Step");
+    return $this->call('publishXunitXmlFiles', array($params), "\GoogleApiServices\Google_Service_ToolResults_Step");
   }
 }

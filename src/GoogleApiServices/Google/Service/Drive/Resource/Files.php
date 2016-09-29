@@ -49,7 +49,7 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
   {
     $params = array('fileId' => $fileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('copy', array($params), "Google_Service_Drive_DriveFile");
+    return $this->call('copy', array($params), "\GoogleApiServices\Google_Service_Drive_DriveFile");
   }
   /**
    * Creates a new file. (files.create)
@@ -75,7 +75,7 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Drive_DriveFile");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Drive_DriveFile");
   }
   /**
    * Permanently deletes a file owned by the user without moving it to the trash.
@@ -132,7 +132,7 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('generateIds', array($params), "Google_Service_Drive_GeneratedIds");
+    return $this->call('generateIds', array($params), "\GoogleApiServices\Google_Service_Drive_GeneratedIds");
   }
   /**
    * Gets a file's metadata or content by ID. (files.get)
@@ -149,7 +149,7 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
   {
     $params = array('fileId' => $fileId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Drive_DriveFile");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Drive_DriveFile");
   }
   /**
    * Lists or searches files. (files.listFiles)
@@ -203,7 +203,7 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
   {
     $params = array('fileId' => $fileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Drive_DriveFile");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Drive_DriveFile");
   }
   /**
    * Subscribes to changes to a file (files.watch)
@@ -221,6 +221,6 @@ class Google_Service_Drive_Resource_Files extends \GoogleApi\Google_Service_Reso
   {
     $params = array('fileId' => $fileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('watch', array($params), "Google_Service_Drive_Channel");
+    return $this->call('watch', array($params), "\GoogleApiServices\Google_Service_Drive_Channel");
   }
 }

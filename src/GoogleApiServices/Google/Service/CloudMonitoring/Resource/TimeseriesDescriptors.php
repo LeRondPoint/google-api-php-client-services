@@ -78,6 +78,6 @@ class Google_Service_CloudMonitoring_Resource_TimeseriesDescriptors extends \Goo
   {
     $params = array('project' => $project, 'metric' => $metric, 'youngest' => $youngest);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudMonitoring_ListTimeseriesDescriptorsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudMonitoring_ListTimeseriesDescriptorsResponse");
   }
 }

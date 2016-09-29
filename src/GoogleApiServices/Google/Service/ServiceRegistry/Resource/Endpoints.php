@@ -37,7 +37,7 @@ class Google_Service_ServiceRegistry_Resource_Endpoints extends \GoogleApi\Googl
   {
     $params = array('project' => $project, 'endpoint' => $endpoint);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_ServiceRegistry_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_ServiceRegistry_Operation");
   }
   /**
    * Gets an endpoint. (endpoints.get)
@@ -51,7 +51,7 @@ class Google_Service_ServiceRegistry_Resource_Endpoints extends \GoogleApi\Googl
   {
     $params = array('project' => $project, 'endpoint' => $endpoint);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ServiceRegistry_Endpoint");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ServiceRegistry_Endpoint");
   }
   /**
    * Creates an endpoint. (endpoints.insert)
@@ -65,7 +65,7 @@ class Google_Service_ServiceRegistry_Resource_Endpoints extends \GoogleApi\Googl
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_ServiceRegistry_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_ServiceRegistry_Operation");
   }
   /**
    * Lists endpoints for a project. (endpoints.listEndpoints)
@@ -122,7 +122,7 @@ class Google_Service_ServiceRegistry_Resource_Endpoints extends \GoogleApi\Googl
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ServiceRegistry_EndpointsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ServiceRegistry_EndpointsListResponse");
   }
   /**
    * Updates an endpoint. This method supports patch semantics. (endpoints.patch)
@@ -137,7 +137,7 @@ class Google_Service_ServiceRegistry_Resource_Endpoints extends \GoogleApi\Googl
   {
     $params = array('project' => $project, 'endpoint' => $endpoint, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_ServiceRegistry_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_ServiceRegistry_Operation");
   }
   /**
    * Updates an endpoint. (endpoints.update)
@@ -152,6 +152,6 @@ class Google_Service_ServiceRegistry_Resource_Endpoints extends \GoogleApi\Googl
   {
     $params = array('project' => $project, 'endpoint' => $endpoint, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_ServiceRegistry_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_ServiceRegistry_Operation");
   }
 }

@@ -41,7 +41,7 @@ class Google_Service_Gmail_Resource_UsersSettingsForwardingAddresses extends \Go
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Gmail_ForwardingAddress");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Gmail_ForwardingAddress");
   }
   /**
    * Deletes the specified forwarding address and revokes any verification that
@@ -71,7 +71,7 @@ class Google_Service_Gmail_Resource_UsersSettingsForwardingAddresses extends \Go
   {
     $params = array('userId' => $userId, 'forwardingEmail' => $forwardingEmail);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_ForwardingAddress");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_ForwardingAddress");
   }
   /**
    * Lists the forwarding addresses for the specified account.
@@ -86,6 +86,6 @@ class Google_Service_Gmail_Resource_UsersSettingsForwardingAddresses extends \Go
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListForwardingAddressesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListForwardingAddressesResponse");
   }
 }

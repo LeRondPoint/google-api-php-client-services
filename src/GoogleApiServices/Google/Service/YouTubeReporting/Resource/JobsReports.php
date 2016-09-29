@@ -41,7 +41,7 @@ class Google_Service_YouTubeReporting_Resource_JobsReports extends \GoogleApi\Go
   {
     $params = array('jobId' => $jobId, 'reportId' => $reportId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_YouTubeReporting_Report");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_YouTubeReporting_Report");
   }
   /**
    * Lists reports created by a specific job. Returns NOT_FOUND if the job does
@@ -72,6 +72,6 @@ class Google_Service_YouTubeReporting_Resource_JobsReports extends \GoogleApi\Go
   {
     $params = array('jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTubeReporting_ListReportsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTubeReporting_ListReportsResponse");
   }
 }

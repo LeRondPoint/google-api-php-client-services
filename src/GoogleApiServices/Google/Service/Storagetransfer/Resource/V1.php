@@ -44,6 +44,6 @@ class Google_Service_Storagetransfer_Resource_V1 extends \GoogleApi\Google_Servi
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('getGoogleServiceAccount', array($params), "Google_Service_Storagetransfer_GoogleServiceAccount");
+    return $this->call('getGoogleServiceAccount', array($params), "\GoogleApiServices\Google_Service_Storagetransfer_GoogleServiceAccount");
   }
 }

@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_FloodlightConfigurations extends \Goo
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_FloodlightConfiguration");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightConfiguration");
   }
   /**
    * Retrieves a list of floodlight configurations, possibly filtered.
@@ -54,7 +54,7 @@ class Google_Service_Dfareporting_Resource_FloodlightConfigurations extends \Goo
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_FloodlightConfigurationsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightConfigurationsListResponse");
   }
   /**
    * Updates an existing floodlight configuration. This method supports patch
@@ -70,7 +70,7 @@ class Google_Service_Dfareporting_Resource_FloodlightConfigurations extends \Goo
   {
     $params = array('profileId' => $profileId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Dfareporting_FloodlightConfiguration");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightConfiguration");
   }
   /**
    * Updates an existing floodlight configuration.
@@ -85,6 +85,6 @@ class Google_Service_Dfareporting_Resource_FloodlightConfigurations extends \Goo
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Dfareporting_FloodlightConfiguration");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightConfiguration");
   }
 }

@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_PostalCodes extends \GoogleApi\Google
   {
     $params = array('profileId' => $profileId, 'code' => $code);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_PostalCode");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_PostalCode");
   }
   /**
    * Retrieves a list of postal codes. (postalCodes.listPostalCodes)
@@ -50,6 +50,6 @@ class Google_Service_Dfareporting_Resource_PostalCodes extends \GoogleApi\Google
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_PostalCodesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_PostalCodesListResponse");
   }
 }

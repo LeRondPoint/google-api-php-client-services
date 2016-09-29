@@ -41,6 +41,6 @@ class Google_Service_Proximitybeacon_Resource_V1beta1 extends \GoogleApi\Google_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('getEidparams', array($params), "Google_Service_Proximitybeacon_EphemeralIdRegistrationParams");
+    return $this->call('getEidparams', array($params), "\GoogleApiServices\Google_Service_Proximitybeacon_EphemeralIdRegistrationParams");
   }
 }

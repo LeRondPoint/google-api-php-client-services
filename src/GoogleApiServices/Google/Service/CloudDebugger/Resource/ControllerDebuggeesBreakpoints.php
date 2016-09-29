@@ -55,7 +55,7 @@ class Google_Service_CloudDebugger_Resource_ControllerDebuggeesBreakpoints exten
   {
     $params = array('debuggeeId' => $debuggeeId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudDebugger_ListActiveBreakpointsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_ListActiveBreakpointsResponse");
   }
   /**
    * Updates the breakpoint state or mutable fields. The entire Breakpoint message
@@ -76,6 +76,6 @@ class Google_Service_CloudDebugger_Resource_ControllerDebuggeesBreakpoints exten
   {
     $params = array('debuggeeId' => $debuggeeId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_CloudDebugger_UpdateActiveBreakpointResponse");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_UpdateActiveBreakpointResponse");
   }
 }

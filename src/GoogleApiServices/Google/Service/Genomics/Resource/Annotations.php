@@ -45,7 +45,7 @@ class Google_Service_Genomics_Resource_Annotations extends \GoogleApi\Google_Ser
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('batchCreate', array($params), "Google_Service_Genomics_BatchCreateAnnotationsResponse");
+    return $this->call('batchCreate', array($params), "\GoogleApiServices\Google_Service_Genomics_BatchCreateAnnotationsResponse");
   }
   /**
    * Creates a new annotation. Caller must have WRITE permission for the
@@ -66,7 +66,7 @@ class Google_Service_Genomics_Resource_Annotations extends \GoogleApi\Google_Ser
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Genomics_Annotation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Genomics_Annotation");
   }
   /**
    * Deletes an annotation. Caller must have WRITE permission for the associated
@@ -80,7 +80,7 @@ class Google_Service_Genomics_Resource_Annotations extends \GoogleApi\Google_Ser
   {
     $params = array('annotationId' => $annotationId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Genomics_GenomicsEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Genomics_GenomicsEmpty");
   }
   /**
    * Gets an annotation. Caller must have READ permission for the associated
@@ -94,7 +94,7 @@ class Google_Service_Genomics_Resource_Annotations extends \GoogleApi\Google_Ser
   {
     $params = array('annotationId' => $annotationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Genomics_Annotation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Genomics_Annotation");
   }
   /**
    * Searches for annotations that match the given criteria. Results are ordered
@@ -113,7 +113,7 @@ class Google_Service_Genomics_Resource_Annotations extends \GoogleApi\Google_Ser
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_Genomics_SearchAnnotationsResponse");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_Genomics_SearchAnnotationsResponse");
   }
   /**
    * Updates an annotation. Caller must have WRITE permission for the associated
@@ -132,6 +132,6 @@ class Google_Service_Genomics_Resource_Annotations extends \GoogleApi\Google_Ser
   {
     $params = array('annotationId' => $annotationId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Genomics_Annotation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Genomics_Annotation");
   }
 }

@@ -64,6 +64,6 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsStepsThumbn
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ToolResults_ListStepThumbnailsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ToolResults_ListStepThumbnailsResponse");
   }
 }

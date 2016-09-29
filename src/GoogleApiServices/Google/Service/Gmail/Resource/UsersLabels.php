@@ -38,7 +38,7 @@ class Google_Service_Gmail_Resource_UsersLabels extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Gmail_Label");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Gmail_Label");
   }
   /**
    * Immediately and permanently deletes the specified label and removes it from
@@ -68,7 +68,7 @@ class Google_Service_Gmail_Resource_UsersLabels extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_Label");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_Label");
   }
   /**
    * Lists all labels in the user's mailbox. (labels.listUsersLabels)
@@ -82,7 +82,7 @@ class Google_Service_Gmail_Resource_UsersLabels extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListLabelsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListLabelsResponse");
   }
   /**
    * Updates the specified label. This method supports patch semantics.
@@ -99,7 +99,7 @@ class Google_Service_Gmail_Resource_UsersLabels extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Gmail_Label");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Gmail_Label");
   }
   /**
    * Updates the specified label. (labels.update)
@@ -115,6 +115,6 @@ class Google_Service_Gmail_Resource_UsersLabels extends \GoogleApi\Google_Servic
   {
     $params = array('userId' => $userId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Gmail_Label");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Gmail_Label");
   }
 }

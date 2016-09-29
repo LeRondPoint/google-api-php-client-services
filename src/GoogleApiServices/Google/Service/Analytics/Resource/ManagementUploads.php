@@ -56,7 +56,7 @@ class Google_Service_Analytics_Resource_ManagementUploads extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId, 'uploadId' => $uploadId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_Upload");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_Upload");
   }
   /**
    * List uploads to which the user has access. (uploads.listManagementUploads)
@@ -78,7 +78,7 @@ class Google_Service_Analytics_Resource_ManagementUploads extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_Uploads");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_Uploads");
   }
   /**
    * Upload data for a custom data source. (uploads.uploadData)
@@ -95,6 +95,6 @@ class Google_Service_Analytics_Resource_ManagementUploads extends \GoogleApi\Goo
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId);
     $params = array_merge($params, $optParams);
-    return $this->call('uploadData', array($params), "Google_Service_Analytics_Upload");
+    return $this->call('uploadData', array($params), "\GoogleApiServices\Google_Service_Analytics_Upload");
   }
 }

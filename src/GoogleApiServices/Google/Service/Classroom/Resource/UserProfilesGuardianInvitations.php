@@ -58,7 +58,7 @@ class Google_Service_Classroom_Resource_UserProfilesGuardianInvitations extends 
   {
     $params = array('studentId' => $studentId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Classroom_GuardianInvitation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Classroom_GuardianInvitation");
   }
   /**
    * Returns a specific guardian invitation. This method returns the following
@@ -83,7 +83,7 @@ class Google_Service_Classroom_Resource_UserProfilesGuardianInvitations extends 
   {
     $params = array('studentId' => $studentId, 'invitationId' => $invitationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Classroom_GuardianInvitation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Classroom_GuardianInvitation");
   }
   /**
    * Returns a list of guardian invitations that the requesting user is permitted
@@ -123,7 +123,7 @@ class Google_Service_Classroom_Resource_UserProfilesGuardianInvitations extends 
   {
     $params = array('studentId' => $studentId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Classroom_ListGuardianInvitationsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Classroom_ListGuardianInvitationsResponse");
   }
   /**
    * Modifies a guardian invitation. Currently, the only valid modification is to
@@ -158,6 +158,6 @@ class Google_Service_Classroom_Resource_UserProfilesGuardianInvitations extends 
   {
     $params = array('studentId' => $studentId, 'invitationId' => $invitationId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Classroom_GuardianInvitation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Classroom_GuardianInvitation");
   }
 }

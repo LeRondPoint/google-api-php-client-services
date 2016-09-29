@@ -75,6 +75,6 @@ class Google_Service_YouTubeAnalytics_Resource_Reports extends \GoogleApi\Google
   {
     $params = array('ids' => $ids, 'start-date' => $startDate, 'end-date' => $endDate, 'metrics' => $metrics);
     $params = array_merge($params, $optParams);
-    return $this->call('query', array($params), "Google_Service_YouTubeAnalytics_ResultTable");
+    return $this->call('query', array($params), "\GoogleApiServices\Google_Service_YouTubeAnalytics_ResultTable");
   }
 }

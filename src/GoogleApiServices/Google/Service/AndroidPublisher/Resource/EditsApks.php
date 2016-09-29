@@ -42,7 +42,7 @@ class Google_Service_AndroidPublisher_Resource_EditsApks extends \GoogleApi\Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('addexternallyhosted', array($params), "Google_Service_AndroidPublisher_ApksAddExternallyHostedResponse");
+    return $this->call('addexternallyhosted', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ApksAddExternallyHostedResponse");
   }
   /**
    * (apks.listEditsApks)
@@ -57,7 +57,7 @@ class Google_Service_AndroidPublisher_Resource_EditsApks extends \GoogleApi\Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_ApksListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ApksListResponse");
   }
   /**
    * (apks.upload)
@@ -72,6 +72,6 @@ class Google_Service_AndroidPublisher_Resource_EditsApks extends \GoogleApi\Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId);
     $params = array_merge($params, $optParams);
-    return $this->call('upload', array($params), "Google_Service_AndroidPublisher_Apk");
+    return $this->call('upload', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Apk");
   }
 }

@@ -39,7 +39,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
   /**
    * Deletes a managed service. This method will change the serivce in the `Soft-
@@ -59,7 +59,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('serviceName' => $serviceName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
   /**
    * Disable a managed service for a project.
@@ -76,7 +76,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('disable', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('disable', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
   /**
    * Enable a managed service for a project with default setting.
@@ -96,7 +96,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('enable', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('enable', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
   /**
    * Generates and returns a report (errors, warnings and changes from existing
@@ -118,7 +118,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('generateConfigReport', array($params), "Google_Service_ServiceManagement_GenerateConfigReportResponse");
+    return $this->call('generateConfigReport', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_GenerateConfigReportResponse");
   }
   /**
    * Gets a managed service. (services.get)
@@ -132,7 +132,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('serviceName' => $serviceName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ServiceManagement_ManagedService");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_ManagedService");
   }
   /**
    * Gets a service configuration (version) for a managed service.
@@ -150,7 +150,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('serviceName' => $serviceName);
     $params = array_merge($params, $optParams);
-    return $this->call('getConfig', array($params), "Google_Service_ServiceManagement_Service");
+    return $this->call('getConfig', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Service");
   }
   /**
    * Gets the access control policy for a resource. Returns an empty policy if the
@@ -167,7 +167,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', array($params), "Google_Service_ServiceManagement_Policy");
+    return $this->call('getIamPolicy', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Policy");
   }
   /**
    * Lists all managed services. (services.listServices)
@@ -185,7 +185,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ServiceManagement_ListServicesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_ListServicesResponse");
   }
   /**
    * Sets the access control policy on the specified resource. Replaces any
@@ -202,7 +202,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', array($params), "Google_Service_ServiceManagement_Policy");
+    return $this->call('setIamPolicy', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Policy");
   }
   /**
    * Returns permissions that a caller has on the specified resource.
@@ -219,7 +219,7 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('resource' => $resource, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', array($params), "Google_Service_ServiceManagement_TestIamPermissionsResponse");
+    return $this->call('testIamPermissions', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_TestIamPermissionsResponse");
   }
   /**
    * Revives a previously deleted managed service. The method restores the service
@@ -238,6 +238,6 @@ class Google_Service_ServiceManagement_Resource_Services extends \GoogleApi\Goog
   {
     $params = array('serviceName' => $serviceName);
     $params = array_merge($params, $optParams);
-    return $this->call('undelete', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('undelete', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
 }

@@ -42,6 +42,6 @@ class Google_Service_Analytics_Resource_ManagementAccountSummaries extends \Goog
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_AccountSummaries");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_AccountSummaries");
   }
 }

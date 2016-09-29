@@ -42,7 +42,7 @@ class Google_Service_Books_Resource_MylibraryReadingpositions extends \GoogleApi
   {
     $params = array('volumeId' => $volumeId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_ReadingPosition");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_ReadingPosition");
   }
   /**
    * Sets my reading position information for a volume.

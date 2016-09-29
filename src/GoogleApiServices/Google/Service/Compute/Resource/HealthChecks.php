@@ -37,7 +37,7 @@ class Google_Service_Compute_Resource_HealthChecks extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project, 'healthCheck' => $healthCheck);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified HealthCheck resource. Get a list of available health
@@ -52,7 +52,7 @@ class Google_Service_Compute_Resource_HealthChecks extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project, 'healthCheck' => $healthCheck);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_HealthCheck");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_HealthCheck");
   }
   /**
    * Creates a HealthCheck resource in the specified project using the data
@@ -67,7 +67,7 @@ class Google_Service_Compute_Resource_HealthChecks extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of HealthCheck resources available to the specified
@@ -113,7 +113,7 @@ class Google_Service_Compute_Resource_HealthChecks extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_HealthCheckList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_HealthCheckList");
   }
   /**
    * Updates a HealthCheck resource in the specified project using the data
@@ -130,7 +130,7 @@ class Google_Service_Compute_Resource_HealthChecks extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project, 'healthCheck' => $healthCheck, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Compute_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Updates a HealthCheck resource in the specified project using the data
@@ -146,6 +146,6 @@ class Google_Service_Compute_Resource_HealthChecks extends \GoogleApi\Google_Ser
   {
     $params = array('project' => $project, 'healthCheck' => $healthCheck, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Compute_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

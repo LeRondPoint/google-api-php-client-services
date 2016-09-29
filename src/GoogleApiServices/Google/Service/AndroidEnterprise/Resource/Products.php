@@ -68,7 +68,7 @@ class Google_Service_AndroidEnterprise_Resource_Products extends \GoogleApi\Goog
   {
     $params = array('enterpriseId' => $enterpriseId, 'productId' => $productId);
     $params = array_merge($params, $optParams);
-    return $this->call('generateApprovalUrl', array($params), "Google_Service_AndroidEnterprise_ProductsGenerateApprovalUrlResponse");
+    return $this->call('generateApprovalUrl', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ProductsGenerateApprovalUrlResponse");
   }
   /**
    * Retrieves details of a product for display to an enterprise admin.
@@ -87,7 +87,7 @@ class Google_Service_AndroidEnterprise_Resource_Products extends \GoogleApi\Goog
   {
     $params = array('enterpriseId' => $enterpriseId, 'productId' => $productId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_Product");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_Product");
   }
   /**
    * Retrieves the schema that defines the configurable properties for this
@@ -109,7 +109,7 @@ class Google_Service_AndroidEnterprise_Resource_Products extends \GoogleApi\Goog
   {
     $params = array('enterpriseId' => $enterpriseId, 'productId' => $productId);
     $params = array_merge($params, $optParams);
-    return $this->call('getAppRestrictionsSchema', array($params), "Google_Service_AndroidEnterprise_AppRestrictionsSchema");
+    return $this->call('getAppRestrictionsSchema', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_AppRestrictionsSchema");
   }
   /**
    * Retrieves the Android app permissions required by this app.
@@ -124,7 +124,7 @@ class Google_Service_AndroidEnterprise_Resource_Products extends \GoogleApi\Goog
   {
     $params = array('enterpriseId' => $enterpriseId, 'productId' => $productId);
     $params = array_merge($params, $optParams);
-    return $this->call('getPermissions', array($params), "Google_Service_AndroidEnterprise_ProductPermissions");
+    return $this->call('getPermissions', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ProductPermissions");
   }
   /**
    * Finds approved products that match a query, or all approved products if there
@@ -156,7 +156,7 @@ class Google_Service_AndroidEnterprise_Resource_Products extends \GoogleApi\Goog
   {
     $params = array('enterpriseId' => $enterpriseId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_ProductsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ProductsListResponse");
   }
   /**
    * Unapproves the specified product (and the relevant app permissions, if any)
@@ -192,6 +192,6 @@ class Google_Service_AndroidEnterprise_Resource_Products extends \GoogleApi\Goog
   {
     $params = array('enterpriseId' => $enterpriseId, 'productId' => $productId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updatePermissions', array($params), "Google_Service_AndroidEnterprise_ProductPermissions");
+    return $this->call('updatePermissions', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ProductPermissions");
   }
 }

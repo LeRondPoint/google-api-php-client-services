@@ -37,7 +37,7 @@ class Google_Service_Appengine_Resource_Apps extends \GoogleApi\Google_Service_R
   {
     $params = array('appsId' => $appsId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Appengine_Application");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Appengine_Application");
   }
   /**
    * Recreates the required App Engine features for the application in your
@@ -55,6 +55,6 @@ class Google_Service_Appengine_Resource_Apps extends \GoogleApi\Google_Service_R
   {
     $params = array('appsId' => $appsId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('repair', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('repair', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
 }

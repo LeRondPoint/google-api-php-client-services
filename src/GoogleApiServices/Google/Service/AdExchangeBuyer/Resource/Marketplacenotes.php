@@ -37,7 +37,7 @@ class Google_Service_AdExchangeBuyer_Resource_Marketplacenotes extends \GoogleAp
   {
     $params = array('proposalId' => $proposalId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_AdExchangeBuyer_AddOrderNotesResponse");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_AddOrderNotesResponse");
   }
   /**
    * Get all the notes associated with a proposal
@@ -56,6 +56,6 @@ class Google_Service_AdExchangeBuyer_Resource_Marketplacenotes extends \GoogleAp
   {
     $params = array('proposalId' => $proposalId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeBuyer_GetOrderNotesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_GetOrderNotesResponse");
   }
 }

@@ -37,6 +37,6 @@ class Google_Service_Dataflow_Resource_Projects extends \GoogleApi\Google_Servic
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('workerMessages', array($params), "Google_Service_Dataflow_SendWorkerMessagesResponse");
+    return $this->call('workerMessages', array($params), "\GoogleApiServices\Google_Service_Dataflow_SendWorkerMessagesResponse");
   }
 }

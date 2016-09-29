@@ -55,7 +55,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('generateAuthenticationToken', array($params), "Google_Service_AndroidEnterprise_AuthenticationToken");
+    return $this->call('generateAuthenticationToken', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_AuthenticationToken");
   }
   /**
    * Generates a token (activation code) to allow this user to configure their
@@ -73,7 +73,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('generateToken', array($params), "Google_Service_AndroidEnterprise_UserToken");
+    return $this->call('generateToken', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_UserToken");
   }
   /**
    * Retrieves a user's details. (users.get)
@@ -87,7 +87,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidEnterprise_User");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_User");
   }
   /**
    * Retrieves the set of products a user is entitled to access.
@@ -102,7 +102,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('getAvailableProductSet', array($params), "Google_Service_AndroidEnterprise_ProductSet");
+    return $this->call('getAvailableProductSet', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ProductSet");
   }
   /**
    * Creates a new EMM-managed user.
@@ -119,7 +119,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_AndroidEnterprise_User");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_User");
   }
   /**
    * Looks up a user by primary email address. This is only supported for Google-
@@ -136,7 +136,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'email' => $email);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidEnterprise_UsersListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_UsersListResponse");
   }
   /**
    * Updates the details of an EMM-managed user.
@@ -156,7 +156,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidEnterprise_User");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_User");
   }
   /**
    * Revokes a previously generated token (activation code) for the user.
@@ -186,7 +186,7 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setAvailableProductSet', array($params), "Google_Service_AndroidEnterprise_ProductSet");
+    return $this->call('setAvailableProductSet', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_ProductSet");
   }
   /**
    * Updates the details of an EMM-managed user.
@@ -206,6 +206,6 @@ class Google_Service_AndroidEnterprise_Resource_Users extends \GoogleApi\Google_
   {
     $params = array('enterpriseId' => $enterpriseId, 'userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidEnterprise_User");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidEnterprise_User");
   }
 }

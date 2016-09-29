@@ -37,6 +37,6 @@ class Google_Service_ConsumerSurveys_Resource_Results extends \GoogleApi\Google_
   {
     $params = array('surveyUrlId' => $surveyUrlId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ConsumerSurveys_SurveyResults");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ConsumerSurveys_SurveyResults");
   }
 }

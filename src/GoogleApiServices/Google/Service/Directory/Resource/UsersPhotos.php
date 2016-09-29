@@ -48,7 +48,7 @@ class Google_Service_Directory_Resource_UsersPhotos extends \GoogleApi\Google_Se
   {
     $params = array('userKey' => $userKey);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Directory_UserPhoto");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Directory_UserPhoto");
   }
   /**
    * Add a photo for the user. This method supports patch semantics.
@@ -63,7 +63,7 @@ class Google_Service_Directory_Resource_UsersPhotos extends \GoogleApi\Google_Se
   {
     $params = array('userKey' => $userKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Directory_UserPhoto");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Directory_UserPhoto");
   }
   /**
    * Add a photo for the user (photos.update)
@@ -77,6 +77,6 @@ class Google_Service_Directory_Resource_UsersPhotos extends \GoogleApi\Google_Se
   {
     $params = array('userKey' => $userKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Directory_UserPhoto");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Directory_UserPhoto");
   }
 }

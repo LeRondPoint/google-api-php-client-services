@@ -42,6 +42,6 @@ class Google_Service_Books_Resource_Personalizedstream extends \GoogleApi\Google
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Discoveryclusters");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Discoveryclusters");
   }
 }

@@ -65,7 +65,7 @@ class Google_Service_Fitness_Resource_UsersSessions extends \GoogleApi\Google_Se
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Fitness_ListSessionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Fitness_ListSessionsResponse");
   }
   /**
    * Updates or insert a given session. (sessions.update)
@@ -84,6 +84,6 @@ class Google_Service_Fitness_Resource_UsersSessions extends \GoogleApi\Google_Se
   {
     $params = array('userId' => $userId, 'sessionId' => $sessionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Fitness_Session");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Fitness_Session");
   }
 }

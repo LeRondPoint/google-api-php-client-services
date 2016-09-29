@@ -40,7 +40,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigs extends \Google
   {
     $params = array('parent' => $parent, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_CloudRuntimeConfig_RuntimeConfig");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeConfig");
   }
   /**
    * Deletes a RuntimeConfig resource. (configs.delete)
@@ -55,7 +55,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigs extends \Google
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudRuntimeConfig_RuntimeconfigEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeconfigEmpty");
   }
   /**
    * Gets information about a RuntimeConfig resource. (configs.get)
@@ -71,7 +71,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigs extends \Google
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudRuntimeConfig_RuntimeConfig");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeConfig");
   }
   /**
    * Lists all the RuntimeConfig resources within project.
@@ -93,7 +93,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigs extends \Google
   {
     $params = array('parent' => $parent);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudRuntimeConfig_ListConfigsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_ListConfigsResponse");
   }
   /**
    * Updates a RuntimeConfig resource. The configuration must exist beforehand.
@@ -111,6 +111,6 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigs extends \Google
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_CloudRuntimeConfig_RuntimeConfig");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeConfig");
   }
 }

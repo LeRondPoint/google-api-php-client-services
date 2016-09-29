@@ -41,6 +41,6 @@ class Google_Service_Monitoring_Resource_ProjectsCollectdTimeSeries extends \Goo
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Monitoring_MonitoringEmpty");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Monitoring_MonitoringEmpty");
   }
 }

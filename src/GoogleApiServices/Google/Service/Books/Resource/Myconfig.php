@@ -35,7 +35,7 @@ class Google_Service_Books_Resource_Myconfig extends \GoogleApi\Google_Service_R
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('getUserSettings', array($params), "Google_Service_Books_Usersettings");
+    return $this->call('getUserSettings', array($params), "\GoogleApiServices\Google_Service_Books_Usersettings");
   }
   /**
    * Release downloaded content access restriction.
@@ -55,7 +55,7 @@ class Google_Service_Books_Resource_Myconfig extends \GoogleApi\Google_Service_R
   {
     $params = array('volumeIds' => $volumeIds, 'cpksver' => $cpksver);
     $params = array_merge($params, $optParams);
-    return $this->call('releaseDownloadAccess', array($params), "Google_Service_Books_DownloadAccesses");
+    return $this->call('releaseDownloadAccess', array($params), "\GoogleApiServices\Google_Service_Books_DownloadAccesses");
   }
   /**
    * Request concurrent and download access restrictions. (myconfig.requestAccess)
@@ -78,7 +78,7 @@ class Google_Service_Books_Resource_Myconfig extends \GoogleApi\Google_Service_R
   {
     $params = array('source' => $source, 'volumeId' => $volumeId, 'nonce' => $nonce, 'cpksver' => $cpksver);
     $params = array_merge($params, $optParams);
-    return $this->call('requestAccess', array($params), "Google_Service_Books_RequestAccess");
+    return $this->call('requestAccess', array($params), "\GoogleApiServices\Google_Service_Books_RequestAccess");
   }
   /**
    * Request downloaded content access for specified volumes on the My eBooks
@@ -106,7 +106,7 @@ class Google_Service_Books_Resource_Myconfig extends \GoogleApi\Google_Service_R
   {
     $params = array('source' => $source, 'nonce' => $nonce, 'cpksver' => $cpksver);
     $params = array_merge($params, $optParams);
-    return $this->call('syncVolumeLicenses', array($params), "Google_Service_Books_Volumes");
+    return $this->call('syncVolumeLicenses', array($params), "\GoogleApiServices\Google_Service_Books_Volumes");
   }
   /**
    * Sets the settings for the user. If a sub-object is specified, it will
@@ -121,6 +121,6 @@ class Google_Service_Books_Resource_Myconfig extends \GoogleApi\Google_Service_R
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('updateUserSettings', array($params), "Google_Service_Books_Usersettings");
+    return $this->call('updateUserSettings', array($params), "\GoogleApiServices\Google_Service_Books_Usersettings");
   }
 }

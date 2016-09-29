@@ -42,7 +42,7 @@ class Google_Service_AndroidPublisher_Resource_EditsExpansionfiles extends \Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_ExpansionFile");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ExpansionFile");
   }
   /**
    * Updates the APK's Expansion File configuration to reference another APK's
@@ -63,7 +63,7 @@ class Google_Service_AndroidPublisher_Resource_EditsExpansionfiles extends \Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidPublisher_ExpansionFile");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ExpansionFile");
   }
   /**
    * Updates the APK's Expansion File configuration to reference another APK's
@@ -84,7 +84,7 @@ class Google_Service_AndroidPublisher_Resource_EditsExpansionfiles extends \Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidPublisher_ExpansionFile");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ExpansionFile");
   }
   /**
    * Uploads and attaches a new Expansion File to the APK specified.
@@ -103,6 +103,6 @@ class Google_Service_AndroidPublisher_Resource_EditsExpansionfiles extends \Goog
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType);
     $params = array_merge($params, $optParams);
-    return $this->call('upload', array($params), "Google_Service_AndroidPublisher_ExpansionFilesUploadResponse");
+    return $this->call('upload', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ExpansionFilesUploadResponse");
   }
 }

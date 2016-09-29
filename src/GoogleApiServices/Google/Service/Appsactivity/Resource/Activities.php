@@ -54,6 +54,6 @@ class Google_Service_Appsactivity_Resource_Activities extends \GoogleApi\Google_
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Appsactivity_ListActivitiesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Appsactivity_ListActivitiesResponse");
   }
 }

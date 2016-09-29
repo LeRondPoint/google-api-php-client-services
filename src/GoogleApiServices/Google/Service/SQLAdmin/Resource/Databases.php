@@ -39,7 +39,7 @@ class Google_Service_SQLAdmin_Resource_Databases extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'database' => $database);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Retrieves a resource containing information about a database inside a Cloud
@@ -56,7 +56,7 @@ class Google_Service_SQLAdmin_Resource_Databases extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'database' => $database);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_SQLAdmin_Database");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Database");
   }
   /**
    * Inserts a resource containing information about a database inside a Cloud SQL
@@ -73,7 +73,7 @@ class Google_Service_SQLAdmin_Resource_Databases extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Lists databases in the specified Cloud SQL instance.
@@ -90,7 +90,7 @@ class Google_Service_SQLAdmin_Resource_Databases extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_SQLAdmin_DatabasesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_DatabasesListResponse");
   }
   /**
    * Updates a resource containing information about a database inside a Cloud SQL
@@ -108,7 +108,7 @@ class Google_Service_SQLAdmin_Resource_Databases extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'database' => $database, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Updates a resource containing information about a database inside a Cloud SQL
@@ -126,6 +126,6 @@ class Google_Service_SQLAdmin_Resource_Databases extends \GoogleApi\Google_Servi
   {
     $params = array('project' => $project, 'instance' => $instance, 'database' => $database, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
 }

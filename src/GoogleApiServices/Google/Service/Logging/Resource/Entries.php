@@ -38,7 +38,7 @@ class Google_Service_Logging_Resource_Entries extends \GoogleApi\Google_Service_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Logging_ListLogEntriesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Logging_ListLogEntriesResponse");
   }
   /**
    * Writes log entries to Cloud Logging. All log entries in Cloud Logging are
@@ -52,6 +52,6 @@ class Google_Service_Logging_Resource_Entries extends \GoogleApi\Google_Service_
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('write', array($params), "Google_Service_Logging_WriteLogEntriesResponse");
+    return $this->call('write', array($params), "\GoogleApiServices\Google_Service_Logging_WriteLogEntriesResponse");
   }
 }

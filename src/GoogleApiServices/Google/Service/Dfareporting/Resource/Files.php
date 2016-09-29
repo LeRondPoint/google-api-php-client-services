@@ -37,7 +37,7 @@ class Google_Service_Dfareporting_Resource_Files extends \GoogleApi\Google_Servi
   {
     $params = array('reportId' => $reportId, 'fileId' => $fileId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_DfareportingFile");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_DfareportingFile");
   }
   /**
    * Lists files for a user profile. (files.listFiles)

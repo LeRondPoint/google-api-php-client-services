@@ -44,7 +44,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsRulesets extends \GoogleA
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_FirebaseRulesAPI_Ruleset");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_Ruleset");
   }
   /**
    * Delete a `Ruleset` by resource name.
@@ -62,7 +62,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsRulesets extends \GoogleA
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_FirebaseRulesAPI_FirebaserulesEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_FirebaserulesEmpty");
   }
   /**
    * Get a `Ruleset` by name including the full `Source` contents. (rulesets.get)
@@ -77,7 +77,7 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsRulesets extends \GoogleA
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_FirebaseRulesAPI_Ruleset");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_Ruleset");
   }
   /**
    * List `Ruleset` metadata only and optionally filter the results by Ruleset
@@ -103,6 +103,6 @@ class Google_Service_FirebaseRulesAPI_Resource_ProjectsRulesets extends \GoogleA
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_FirebaseRulesAPI_ListRulesetsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_ListRulesetsResponse");
   }
 }

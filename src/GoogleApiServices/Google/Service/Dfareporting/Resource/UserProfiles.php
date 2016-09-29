@@ -36,7 +36,7 @@ class Google_Service_Dfareporting_Resource_UserProfiles extends \GoogleApi\Googl
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_UserProfile");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_UserProfile");
   }
   /**
    * Retrieves list of user profiles for a user. (userProfiles.listUserProfiles)
@@ -48,6 +48,6 @@ class Google_Service_Dfareporting_Resource_UserProfiles extends \GoogleApi\Googl
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_UserProfileList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_UserProfileList");
   }
 }

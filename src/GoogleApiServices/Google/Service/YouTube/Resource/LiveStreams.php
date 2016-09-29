@@ -120,7 +120,7 @@ class Google_Service_YouTube_Resource_LiveStreams extends \GoogleApi\Google_Serv
   {
     $params = array('part' => $part, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_YouTube_LiveStream");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_YouTube_LiveStream");
   }
   /**
    * Returns a list of video streams that match the API request parameters.
@@ -181,7 +181,7 @@ class Google_Service_YouTube_Resource_LiveStreams extends \GoogleApi\Google_Serv
   {
     $params = array('part' => $part);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTube_LiveStreamListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTube_LiveStreamListResponse");
   }
   /**
    * Updates a video stream. If the properties that you want to change cannot be
@@ -239,6 +239,6 @@ class Google_Service_YouTube_Resource_LiveStreams extends \GoogleApi\Google_Serv
   {
     $params = array('part' => $part, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_YouTube_LiveStream");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_YouTube_LiveStream");
   }
 }

@@ -41,7 +41,7 @@ class Google_Service_Classroom_Resource_CoursesAliases extends \GoogleApi\Google
   {
     $params = array('courseId' => $courseId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Classroom_CourseAlias");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Classroom_CourseAlias");
   }
   /**
    * Deletes an alias of a course. This method returns the following error codes:
@@ -61,7 +61,7 @@ class Google_Service_Classroom_Resource_CoursesAliases extends \GoogleApi\Google
   {
     $params = array('courseId' => $courseId, 'alias' => $alias);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Classroom_ClassroomEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Classroom_ClassroomEmpty");
   }
   /**
    * Returns a list of aliases for a course. This method returns the following
@@ -86,6 +86,6 @@ class Google_Service_Classroom_Resource_CoursesAliases extends \GoogleApi\Google
   {
     $params = array('courseId' => $courseId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Classroom_ListCourseAliasesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Classroom_ListCourseAliasesResponse");
   }
 }

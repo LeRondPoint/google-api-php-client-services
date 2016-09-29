@@ -38,7 +38,7 @@ class Google_Service_AndroidPublisher_Resource_Reviews extends \GoogleApi\Google
   {
     $params = array('packageName' => $packageName, 'reviewId' => $reviewId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_Review");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Review");
   }
   /**
    * Returns a list of reviews. (reviews.listReviews)
@@ -56,7 +56,7 @@ class Google_Service_AndroidPublisher_Resource_Reviews extends \GoogleApi\Google
   {
     $params = array('packageName' => $packageName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_ReviewsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ReviewsListResponse");
   }
   /**
    * Reply to a single review, or update an existing reply. (reviews.reply)
@@ -72,6 +72,6 @@ class Google_Service_AndroidPublisher_Resource_Reviews extends \GoogleApi\Google
   {
     $params = array('packageName' => $packageName, 'reviewId' => $reviewId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('reply', array($params), "Google_Service_AndroidPublisher_ReviewsReplyResponse");
+    return $this->call('reply', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ReviewsReplyResponse");
   }
 }

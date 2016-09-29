@@ -57,6 +57,6 @@ class Google_Service_Monitoring_Resource_ProjectsGroupsMembers extends \GoogleAp
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Monitoring_ListGroupMembersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Monitoring_ListGroupMembersResponse");
   }
 }

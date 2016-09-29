@@ -44,6 +44,6 @@ class Google_Service_FirebaseDynamicLinksAPI_Resource_ShortDynamicLinks extends 
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_FirebaseDynamicLinksAPI_CreateShortDynamicLinkResponse");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_FirebaseDynamicLinksAPI_CreateShortDynamicLinkResponse");
   }
 }

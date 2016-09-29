@@ -40,7 +40,7 @@ class Google_Service_YouTubeReporting_Resource_Jobs extends \GoogleApi\Google_Se
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_YouTubeReporting_Job");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_YouTubeReporting_Job");
   }
   /**
    * Deletes a job. (jobs.delete)
@@ -57,7 +57,7 @@ class Google_Service_YouTubeReporting_Resource_Jobs extends \GoogleApi\Google_Se
   {
     $params = array('jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_YouTubeReporting_YoutubereportingEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_YouTubeReporting_YoutubereportingEmpty");
   }
   /**
    * Gets a job. (jobs.get)
@@ -74,7 +74,7 @@ class Google_Service_YouTubeReporting_Resource_Jobs extends \GoogleApi\Google_Se
   {
     $params = array('jobId' => $jobId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_YouTubeReporting_Job");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_YouTubeReporting_Job");
   }
   /**
    * Lists jobs. (jobs.listJobs)
@@ -99,6 +99,6 @@ class Google_Service_YouTubeReporting_Resource_Jobs extends \GoogleApi\Google_Se
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTubeReporting_ListJobsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTubeReporting_ListJobsResponse");
   }
 }

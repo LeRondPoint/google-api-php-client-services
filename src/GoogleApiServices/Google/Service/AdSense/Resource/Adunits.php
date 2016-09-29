@@ -37,7 +37,7 @@ class Google_Service_AdSense_Resource_Adunits extends \GoogleApi\Google_Service_
   {
     $params = array('adClientId' => $adClientId, 'adUnitId' => $adUnitId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdSense_AdUnit");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdSense_AdUnit");
   }
   /**
    * Get ad code for the specified ad unit. (adunits.getAdCode)
@@ -51,7 +51,7 @@ class Google_Service_AdSense_Resource_Adunits extends \GoogleApi\Google_Service_
   {
     $params = array('adClientId' => $adClientId, 'adUnitId' => $adUnitId);
     $params = array_merge($params, $optParams);
-    return $this->call('getAdCode', array($params), "Google_Service_AdSense_AdCode");
+    return $this->call('getAdCode', array($params), "\GoogleApiServices\Google_Service_AdSense_AdCode");
   }
   /**
    * List all ad units in the specified ad client for this AdSense account.
@@ -73,6 +73,6 @@ class Google_Service_AdSense_Resource_Adunits extends \GoogleApi\Google_Service_
   {
     $params = array('adClientId' => $adClientId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_AdUnits");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_AdUnits");
   }
 }

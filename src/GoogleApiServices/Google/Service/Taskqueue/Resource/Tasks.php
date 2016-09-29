@@ -52,7 +52,7 @@ class Google_Service_Taskqueue_Resource_Tasks extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue, 'task' => $task);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Taskqueue_Task");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Taskqueue_Task");
   }
   /**
    * Insert a new task in a TaskQueue (tasks.insert)
@@ -67,7 +67,7 @@ class Google_Service_Taskqueue_Resource_Tasks extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Taskqueue_Task");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Taskqueue_Task");
   }
   /**
    * Lease 1 or more tasks from a TaskQueue. (tasks.lease)
@@ -90,7 +90,7 @@ class Google_Service_Taskqueue_Resource_Tasks extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue, 'numTasks' => $numTasks, 'leaseSecs' => $leaseSecs);
     $params = array_merge($params, $optParams);
-    return $this->call('lease', array($params), "Google_Service_Taskqueue_Tasks");
+    return $this->call('lease', array($params), "\GoogleApiServices\Google_Service_Taskqueue_Tasks");
   }
   /**
    * List Tasks in a TaskQueue (tasks.listTasks)
@@ -104,7 +104,7 @@ class Google_Service_Taskqueue_Resource_Tasks extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Taskqueue_Tasks2");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Taskqueue_Tasks2");
   }
   /**
    * Update tasks that are leased out of a TaskQueue. This method supports patch
@@ -122,7 +122,7 @@ class Google_Service_Taskqueue_Resource_Tasks extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue, 'task' => $task, 'newLeaseSeconds' => $newLeaseSeconds, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Taskqueue_Task");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Taskqueue_Task");
   }
   /**
    * Update tasks that are leased out of a TaskQueue. (tasks.update)
@@ -139,6 +139,6 @@ class Google_Service_Taskqueue_Resource_Tasks extends \GoogleApi\Google_Service_
   {
     $params = array('project' => $project, 'taskqueue' => $taskqueue, 'task' => $task, 'newLeaseSeconds' => $newLeaseSeconds, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Taskqueue_Task");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Taskqueue_Task");
   }
 }

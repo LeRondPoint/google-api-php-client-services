@@ -45,6 +45,6 @@ class Google_Service_AdSense_Resource_AccountsAdunitsCustomchannels extends \Goo
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_CustomChannels");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_CustomChannels");
   }
 }

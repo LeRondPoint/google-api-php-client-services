@@ -102,7 +102,7 @@ class Google_Service_YouTube_Resource_ChannelSections extends \GoogleApi\Google_
   {
     $params = array('part' => $part, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_YouTube_ChannelSection");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_YouTube_ChannelSection");
   }
   /**
    * Returns channelSection resources that match the API request criteria.
@@ -153,7 +153,7 @@ class Google_Service_YouTube_Resource_ChannelSections extends \GoogleApi\Google_
   {
     $params = array('part' => $part);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTube_ChannelSectionListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTube_ChannelSectionListResponse");
   }
   /**
    * Update a channelSection. (channelSections.update)
@@ -185,6 +185,6 @@ class Google_Service_YouTube_Resource_ChannelSections extends \GoogleApi\Google_
   {
     $params = array('part' => $part, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_YouTube_ChannelSection");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_YouTube_ChannelSection");
   }
 }

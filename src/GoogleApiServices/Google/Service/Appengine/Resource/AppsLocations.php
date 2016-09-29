@@ -37,7 +37,7 @@ class Google_Service_Appengine_Resource_AppsLocations extends \GoogleApi\Google_
   {
     $params = array('appsId' => $appsId, 'locationsId' => $locationsId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Appengine_Location");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Appengine_Location");
   }
   /**
    * Lists information about the supported locations for this service.
@@ -56,6 +56,6 @@ class Google_Service_Appengine_Resource_AppsLocations extends \GoogleApi\Google_
   {
     $params = array('appsId' => $appsId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Appengine_ListLocationsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Appengine_ListLocationsResponse");
   }
 }

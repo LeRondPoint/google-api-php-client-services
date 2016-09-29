@@ -41,7 +41,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClientsInvitations exten
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_AdExchangeBuyerII_ClientUserInvitation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ClientUserInvitation");
   }
   /**
    * Retrieves an existing client user invitation. (invitations.get)
@@ -59,7 +59,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClientsInvitations exten
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'invitationId' => $invitationId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeBuyerII_ClientUserInvitation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ClientUserInvitation");
   }
   /**
    * Lists all the client users invitations for a client with a given account ID.
@@ -85,6 +85,6 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClientsInvitations exten
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeBuyerII_ListClientUserInvitationsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ListClientUserInvitationsResponse");
   }
 }

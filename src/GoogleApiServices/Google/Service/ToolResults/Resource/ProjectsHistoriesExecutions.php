@@ -55,7 +55,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutions extends \G
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_ToolResults_Execution");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_ToolResults_Execution");
   }
   /**
    * Gets an Execution.
@@ -82,7 +82,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutions extends \G
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ToolResults_Execution");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ToolResults_Execution");
   }
   /**
    * Lists Histories for a given Project.
@@ -122,7 +122,7 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutions extends \G
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ToolResults_ListExecutionsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ToolResults_ListExecutionsResponse");
   }
   /**
    * Updates an existing Execution with the supplied partial entity.
@@ -150,6 +150,6 @@ class Google_Service_ToolResults_Resource_ProjectsHistoriesExecutions extends \G
   {
     $params = array('projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_ToolResults_Execution");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_ToolResults_Execution");
   }
 }

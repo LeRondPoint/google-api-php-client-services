@@ -39,7 +39,7 @@ class Google_Service_AdSense_Resource_AccountsCustomchannels extends \GoogleApi\
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId, 'customChannelId' => $customChannelId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdSense_CustomChannel");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdSense_CustomChannel");
   }
   /**
    * List all custom channels in the specified ad client for the specified
@@ -60,6 +60,6 @@ class Google_Service_AdSense_Resource_AccountsCustomchannels extends \GoogleApi\
   {
     $params = array('accountId' => $accountId, 'adClientId' => $adClientId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdSense_CustomChannels");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdSense_CustomChannels");
   }
 }

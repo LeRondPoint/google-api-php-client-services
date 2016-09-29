@@ -38,7 +38,7 @@ class Google_Service_CloudBuild_Resource_ProjectsBuilds extends \GoogleApi\Googl
   {
     $params = array('projectId' => $projectId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('cancel', array($params), "Google_Service_CloudBuild_Build");
+    return $this->call('cancel', array($params), "\GoogleApiServices\Google_Service_CloudBuild_Build");
   }
   /**
    * Starts a build with the specified configuration.
@@ -56,7 +56,7 @@ class Google_Service_CloudBuild_Resource_ProjectsBuilds extends \GoogleApi\Googl
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_CloudBuild_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_CloudBuild_Operation");
   }
   /**
    * Returns information about a previously requested build.
@@ -73,7 +73,7 @@ class Google_Service_CloudBuild_Resource_ProjectsBuilds extends \GoogleApi\Googl
   {
     $params = array('projectId' => $projectId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudBuild_Build");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudBuild_Build");
   }
   /**
    * Lists previously requested builds.
@@ -94,6 +94,6 @@ class Google_Service_CloudBuild_Resource_ProjectsBuilds extends \GoogleApi\Googl
   {
     $params = array('projectId' => $projectId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudBuild_ListBuildsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudBuild_ListBuildsResponse");
   }
 }

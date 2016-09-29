@@ -45,7 +45,7 @@ class Google_Service_Blogger_Resource_PostUserInfos extends \GoogleApi\Google_Se
   {
     $params = array('userId' => $userId, 'blogId' => $blogId, 'postId' => $postId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Blogger_PostUserInfo");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Blogger_PostUserInfo");
   }
   /**
    * Retrieves a list of post and post user info pairs, possibly filtered. The
@@ -78,6 +78,6 @@ class Google_Service_Blogger_Resource_PostUserInfos extends \GoogleApi\Google_Se
   {
     $params = array('userId' => $userId, 'blogId' => $blogId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Blogger_PostUserInfosList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Blogger_PostUserInfosList");
   }
 }

@@ -38,7 +38,7 @@ class Google_Service_Appengine_Resource_AppsServices extends \GoogleApi\Google_S
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
   /**
    * Gets the current configuration of the specified service. (services.get)
@@ -53,7 +53,7 @@ class Google_Service_Appengine_Resource_AppsServices extends \GoogleApi\Google_S
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Appengine_Service");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Appengine_Service");
   }
   /**
    * Lists all the services in the application. (services.listAppsServices)
@@ -71,7 +71,7 @@ class Google_Service_Appengine_Resource_AppsServices extends \GoogleApi\Google_S
   {
     $params = array('appsId' => $appsId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Appengine_ListServicesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Appengine_ListServicesResponse");
   }
   /**
    * Updates the configuration of the specified service. (services.patch)
@@ -104,6 +104,6 @@ class Google_Service_Appengine_Resource_AppsServices extends \GoogleApi\Google_S
   {
     $params = array('appsId' => $appsId, 'servicesId' => $servicesId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Appengine_Operation");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Appengine_Operation");
   }
 }

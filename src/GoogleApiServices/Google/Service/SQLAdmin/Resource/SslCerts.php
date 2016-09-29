@@ -42,7 +42,7 @@ class Google_Service_SQLAdmin_Resource_SslCerts extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('createEphemeral', array($params), "Google_Service_SQLAdmin_SslCert");
+    return $this->call('createEphemeral', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_SslCert");
   }
   /**
    * Deletes the SSL certificate. The change will not take effect until the
@@ -60,7 +60,7 @@ class Google_Service_SQLAdmin_Resource_SslCerts extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'instance' => $instance, 'sha1Fingerprint' => $sha1Fingerprint);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_SQLAdmin_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_Operation");
   }
   /**
    * Retrieves a particular SSL certificate. Does not include the private key
@@ -78,7 +78,7 @@ class Google_Service_SQLAdmin_Resource_SslCerts extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'instance' => $instance, 'sha1Fingerprint' => $sha1Fingerprint);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_SQLAdmin_SslCert");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_SslCert");
   }
   /**
    * Creates an SSL certificate and returns it along with the private key and
@@ -97,7 +97,7 @@ class Google_Service_SQLAdmin_Resource_SslCerts extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'instance' => $instance, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_SQLAdmin_SslCertsInsertResponse");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_SslCertsInsertResponse");
   }
   /**
    * Lists all of the current SSL certificates for the instance.
@@ -114,6 +114,6 @@ class Google_Service_SQLAdmin_Resource_SslCerts extends \GoogleApi\Google_Servic
   {
     $params = array('project' => $project, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_SQLAdmin_SslCertsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_SQLAdmin_SslCertsListResponse");
   }
 }

@@ -42,7 +42,7 @@ class Google_Service_ServiceManagement_Resource_ServicesConfigs extends \GoogleA
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_ServiceManagement_Service");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Service");
   }
   /**
    * Gets a service configuration (version) for a managed service. (configs.get)
@@ -58,7 +58,7 @@ class Google_Service_ServiceManagement_Resource_ServicesConfigs extends \GoogleA
   {
     $params = array('serviceName' => $serviceName, 'configId' => $configId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ServiceManagement_Service");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Service");
   }
   /**
    * Lists the history of the service configuration for a managed service, from
@@ -78,7 +78,7 @@ class Google_Service_ServiceManagement_Resource_ServicesConfigs extends \GoogleA
   {
     $params = array('serviceName' => $serviceName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ServiceManagement_ListServiceConfigsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_ListServiceConfigsResponse");
   }
   /**
    * Creates a new service configuration (version) for a managed service based on
@@ -100,6 +100,6 @@ class Google_Service_ServiceManagement_Resource_ServicesConfigs extends \GoogleA
   {
     $params = array('serviceName' => $serviceName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('submit', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('submit', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
 }

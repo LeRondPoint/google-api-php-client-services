@@ -42,6 +42,6 @@ class Google_Service_CloudTrace_Resource_Projects extends \GoogleApi\Google_Serv
   {
     $params = array('projectId' => $projectId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patchTraces', array($params), "Google_Service_CloudTrace_CloudtraceEmpty");
+    return $this->call('patchTraces', array($params), "\GoogleApiServices\Google_Service_CloudTrace_CloudtraceEmpty");
   }
 }

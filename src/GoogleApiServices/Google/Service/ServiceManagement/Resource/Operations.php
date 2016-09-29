@@ -38,6 +38,6 @@ class Google_Service_ServiceManagement_Resource_Operations extends \GoogleApi\Go
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ServiceManagement_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ServiceManagement_Operation");
   }
 }

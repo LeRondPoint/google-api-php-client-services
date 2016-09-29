@@ -57,6 +57,6 @@ class Google_Service_FirebaseRulesAPI_Resource_Projects extends \GoogleApi\Googl
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('test', array($params), "Google_Service_FirebaseRulesAPI_TestRulesetResponse");
+    return $this->call('test', array($params), "\GoogleApiServices\Google_Service_FirebaseRulesAPI_TestRulesetResponse");
   }
 }

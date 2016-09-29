@@ -48,7 +48,7 @@ class Google_Service_Classroom_Resource_UserProfilesGuardians extends \GoogleApi
   {
     $params = array('studentId' => $studentId, 'guardianId' => $guardianId);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Classroom_ClassroomEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Classroom_ClassroomEmpty");
   }
   /**
    * Returns a specific guardian. This method returns the following error codes: *
@@ -72,7 +72,7 @@ class Google_Service_Classroom_Resource_UserProfilesGuardians extends \GoogleApi
   {
     $params = array('studentId' => $studentId, 'guardianId' => $guardianId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Classroom_Guardian");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Classroom_Guardian");
   }
   /**
    * Returns a list of guardians that the requesting user is permitted to view,
@@ -110,6 +110,6 @@ class Google_Service_Classroom_Resource_UserProfilesGuardians extends \GoogleApi
   {
     $params = array('studentId' => $studentId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Classroom_ListGuardiansResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Classroom_ListGuardiansResponse");
   }
 }

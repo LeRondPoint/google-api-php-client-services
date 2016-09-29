@@ -37,6 +37,6 @@ class Google_Service_Acceleratedmobilepageurl_Resource_AmpUrls extends \GoogleAp
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('batchGet', array($params), "Google_Service_Acceleratedmobilepageurl_BatchGetAmpUrlsResponse");
+    return $this->call('batchGet', array($params), "\GoogleApiServices\Google_Service_Acceleratedmobilepageurl_BatchGetAmpUrlsResponse");
   }
 }

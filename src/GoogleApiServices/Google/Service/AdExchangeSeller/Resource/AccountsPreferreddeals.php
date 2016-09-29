@@ -38,7 +38,7 @@ class Google_Service_AdExchangeSeller_Resource_AccountsPreferreddeals extends \G
   {
     $params = array('accountId' => $accountId, 'dealId' => $dealId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeSeller_PreferredDeal");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeSeller_PreferredDeal");
   }
   /**
    * List the preferred deals for this Ad Exchange account.
@@ -52,6 +52,6 @@ class Google_Service_AdExchangeSeller_Resource_AccountsPreferreddeals extends \G
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeSeller_PreferredDeals");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeSeller_PreferredDeals");
   }
 }

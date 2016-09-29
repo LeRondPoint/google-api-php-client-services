@@ -180,6 +180,6 @@ class Google_Service_YouTube_Resource_Search extends \GoogleApi\Google_Service_R
   {
     $params = array('part' => $part);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_YouTube_SearchListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_YouTube_SearchListResponse");
   }
 }

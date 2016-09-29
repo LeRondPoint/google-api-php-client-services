@@ -55,6 +55,6 @@ class Google_Service_Gmail_Resource_UsersHistory extends \GoogleApi\Google_Servi
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListHistoryResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListHistoryResponse");
   }
 }

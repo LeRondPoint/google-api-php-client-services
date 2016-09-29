@@ -57,7 +57,7 @@ class Google_Service_Gmail_Resource_UsersThreads extends \GoogleApi\Google_Servi
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_Thread");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_Thread");
   }
   /**
    * Lists the threads in the user's mailbox. (threads.listUsersThreads)
@@ -82,7 +82,7 @@ class Google_Service_Gmail_Resource_UsersThreads extends \GoogleApi\Google_Servi
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListThreadsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListThreadsResponse");
   }
   /**
    * Modifies the labels applied to the thread. This applies to all messages in
@@ -99,7 +99,7 @@ class Google_Service_Gmail_Resource_UsersThreads extends \GoogleApi\Google_Servi
   {
     $params = array('userId' => $userId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('modify', array($params), "Google_Service_Gmail_Thread");
+    return $this->call('modify', array($params), "\GoogleApiServices\Google_Service_Gmail_Thread");
   }
   /**
    * Moves the specified thread to the trash. (threads.trash)
@@ -114,7 +114,7 @@ class Google_Service_Gmail_Resource_UsersThreads extends \GoogleApi\Google_Servi
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('trash', array($params), "Google_Service_Gmail_Thread");
+    return $this->call('trash', array($params), "\GoogleApiServices\Google_Service_Gmail_Thread");
   }
   /**
    * Removes the specified thread from the trash. (threads.untrash)
@@ -129,6 +129,6 @@ class Google_Service_Gmail_Resource_UsersThreads extends \GoogleApi\Google_Servi
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('untrash', array($params), "Google_Service_Gmail_Thread");
+    return $this->call('untrash', array($params), "\GoogleApiServices\Google_Service_Gmail_Thread");
   }
 }

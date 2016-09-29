@@ -52,7 +52,7 @@ class Google_Service_Dfareporting_Resource_FloodlightActivities extends \GoogleA
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('generatetag', array($params), "Google_Service_Dfareporting_FloodlightActivitiesGenerateTagResponse");
+    return $this->call('generatetag', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivitiesGenerateTagResponse");
   }
   /**
    * Gets one floodlight activity by ID. (floodlightActivities.get)
@@ -66,7 +66,7 @@ class Google_Service_Dfareporting_Resource_FloodlightActivities extends \GoogleA
   {
     $params = array('profileId' => $profileId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Dfareporting_FloodlightActivity");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivity");
   }
   /**
    * Inserts a new floodlight activity. (floodlightActivities.insert)
@@ -80,7 +80,7 @@ class Google_Service_Dfareporting_Resource_FloodlightActivities extends \GoogleA
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Dfareporting_FloodlightActivity");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivity");
   }
   /**
    * Retrieves a list of floodlight activities, possibly filtered.
@@ -127,7 +127,7 @@ class Google_Service_Dfareporting_Resource_FloodlightActivities extends \GoogleA
   {
     $params = array('profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Dfareporting_FloodlightActivitiesListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivitiesListResponse");
   }
   /**
    * Updates an existing floodlight activity. This method supports patch
@@ -143,7 +143,7 @@ class Google_Service_Dfareporting_Resource_FloodlightActivities extends \GoogleA
   {
     $params = array('profileId' => $profileId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Dfareporting_FloodlightActivity");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivity");
   }
   /**
    * Updates an existing floodlight activity. (floodlightActivities.update)
@@ -157,6 +157,6 @@ class Google_Service_Dfareporting_Resource_FloodlightActivities extends \GoogleA
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Dfareporting_FloodlightActivity");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Dfareporting_FloodlightActivity");
   }
 }

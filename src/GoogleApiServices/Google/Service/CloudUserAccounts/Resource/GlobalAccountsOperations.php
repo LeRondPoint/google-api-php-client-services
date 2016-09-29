@@ -50,7 +50,7 @@ class Google_Service_CloudUserAccounts_Resource_GlobalAccountsOperations extends
   {
     $params = array('project' => $project, 'operation' => $operation);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudUserAccounts_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_Operation");
   }
   /**
    * Retrieves the list of operation resources contained within the specified
@@ -108,6 +108,6 @@ class Google_Service_CloudUserAccounts_Resource_GlobalAccountsOperations extends
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudUserAccounts_OperationList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_OperationList");
   }
 }

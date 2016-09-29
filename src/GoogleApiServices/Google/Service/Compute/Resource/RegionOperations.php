@@ -54,7 +54,7 @@ class Google_Service_Compute_Resource_RegionOperations extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'region' => $region, 'operation' => $operation);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Operation");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of Operation resources contained within the specified
@@ -101,6 +101,6 @@ class Google_Service_Compute_Resource_RegionOperations extends \GoogleApi\Google
   {
     $params = array('project' => $project, 'region' => $region);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_OperationList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_OperationList");
   }
 }

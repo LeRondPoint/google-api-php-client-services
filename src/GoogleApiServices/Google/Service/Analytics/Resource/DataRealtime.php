@@ -48,6 +48,6 @@ class Google_Service_Analytics_Resource_DataRealtime extends \GoogleApi\Google_S
   {
     $params = array('ids' => $ids, 'metrics' => $metrics);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_RealtimeData");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_RealtimeData");
   }
 }

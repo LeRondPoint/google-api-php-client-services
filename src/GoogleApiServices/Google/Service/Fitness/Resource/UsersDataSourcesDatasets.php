@@ -86,7 +86,7 @@ class Google_Service_Fitness_Resource_UsersDataSourcesDatasets extends \GoogleAp
   {
     $params = array('userId' => $userId, 'dataSourceId' => $dataSourceId, 'datasetId' => $datasetId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Fitness_Dataset");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Fitness_Dataset");
   }
   /**
    * Adds data points to a dataset. The dataset need not be previously created.
@@ -114,6 +114,6 @@ class Google_Service_Fitness_Resource_UsersDataSourcesDatasets extends \GoogleAp
   {
     $params = array('userId' => $userId, 'dataSourceId' => $dataSourceId, 'datasetId' => $datasetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Fitness_Dataset");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Fitness_Dataset");
   }
 }

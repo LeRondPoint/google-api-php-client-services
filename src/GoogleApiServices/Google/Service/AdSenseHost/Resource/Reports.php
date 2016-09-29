@@ -53,6 +53,6 @@ class Google_Service_AdSenseHost_Resource_Reports extends \GoogleApi\Google_Serv
   {
     $params = array('startDate' => $startDate, 'endDate' => $endDate);
     $params = array_merge($params, $optParams);
-    return $this->call('generate', array($params), "Google_Service_AdSenseHost_Report");
+    return $this->call('generate', array($params), "\GoogleApiServices\Google_Service_AdSenseHost_Report");
   }
 }

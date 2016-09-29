@@ -72,7 +72,7 @@ class Google_Service_AndroidPublisher_Resource_EditsListings extends \GoogleApi\
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'language' => $language);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_Listing");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Listing");
   }
   /**
    * Returns all of the localized store listings attached to this edit.
@@ -88,7 +88,7 @@ class Google_Service_AndroidPublisher_Resource_EditsListings extends \GoogleApi\
   {
     $params = array('packageName' => $packageName, 'editId' => $editId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_ListingsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_ListingsListResponse");
   }
   /**
    * Creates or updates a localized store listing. This method supports patch
@@ -108,7 +108,7 @@ class Google_Service_AndroidPublisher_Resource_EditsListings extends \GoogleApi\
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidPublisher_Listing");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Listing");
   }
   /**
    * Creates or updates a localized store listing. (listings.update)
@@ -127,6 +127,6 @@ class Google_Service_AndroidPublisher_Resource_EditsListings extends \GoogleApi\
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidPublisher_Listing");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Listing");
   }
 }

@@ -37,7 +37,7 @@ class Google_Service_DataTransfer_Resource_Transfers extends \GoogleApi\Google_S
   {
     $params = array('dataTransferId' => $dataTransferId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_DataTransfer_DataTransfer");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_DataTransfer_DataTransfer");
   }
   /**
    * Inserts a data transfer request. (transfers.insert)
@@ -50,7 +50,7 @@ class Google_Service_DataTransfer_Resource_Transfers extends \GoogleApi\Google_S
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_DataTransfer_DataTransfer");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_DataTransfer_DataTransfer");
   }
   /**
    * Lists the transfers for a customer by source user, destination user, or
@@ -71,6 +71,6 @@ class Google_Service_DataTransfer_Resource_Transfers extends \GoogleApi\Google_S
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_DataTransfer_DataTransfersListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_DataTransfer_DataTransfersListResponse");
   }
 }

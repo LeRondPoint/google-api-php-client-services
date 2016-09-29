@@ -48,6 +48,6 @@ class Google_Service_Cloudbilling_Resource_BillingAccountsProjects extends \Goog
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Cloudbilling_ListProjectBillingInfoResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Cloudbilling_ListProjectBillingInfoResponse");
   }
 }

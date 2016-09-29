@@ -52,7 +52,7 @@ class Google_Service_Sheets_Resource_Spreadsheets extends \GoogleApi\Google_Serv
   {
     $params = array('spreadsheetId' => $spreadsheetId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('batchUpdate', array($params), "Google_Service_Sheets_BatchUpdateSpreadsheetResponse");
+    return $this->call('batchUpdate', array($params), "\GoogleApiServices\Google_Service_Sheets_BatchUpdateSpreadsheetResponse");
   }
   /**
    * Creates a spreadsheet, returning the newly created spreadsheet.
@@ -66,7 +66,7 @@ class Google_Service_Sheets_Resource_Spreadsheets extends \GoogleApi\Google_Serv
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Sheets_Spreadsheet");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Sheets_Spreadsheet");
   }
   /**
    * Returns the spreadsheet at the given ID. The caller must specify the
@@ -101,6 +101,6 @@ class Google_Service_Sheets_Resource_Spreadsheets extends \GoogleApi\Google_Serv
   {
     $params = array('spreadsheetId' => $spreadsheetId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Sheets_Spreadsheet");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Sheets_Spreadsheet");
   }
 }

@@ -36,6 +36,6 @@ class Google_Service_Safebrowsing_Resource_ThreatLists extends \GoogleApi\Google
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Safebrowsing_ListThreatListsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Safebrowsing_ListThreatListsResponse");
   }
 }

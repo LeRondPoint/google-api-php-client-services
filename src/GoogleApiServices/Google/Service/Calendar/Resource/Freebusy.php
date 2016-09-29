@@ -36,6 +36,6 @@ class Google_Service_Calendar_Resource_Freebusy extends \GoogleApi\Google_Servic
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('query', array($params), "Google_Service_Calendar_FreeBusyResponse");
+    return $this->call('query', array($params), "\GoogleApiServices\Google_Service_Calendar_FreeBusyResponse");
   }
 }

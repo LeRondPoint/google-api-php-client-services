@@ -44,7 +44,7 @@ class Google_Service_Gmail_Resource_UsersSettingsSendAs extends \GoogleApi\Googl
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Gmail_SendAs");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Gmail_SendAs");
   }
   /**
    * Deletes the specified send-as alias. Revokes any verification that may have
@@ -75,7 +75,7 @@ class Google_Service_Gmail_Resource_UsersSettingsSendAs extends \GoogleApi\Googl
   {
     $params = array('userId' => $userId, 'sendAsEmail' => $sendAsEmail);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_SendAs");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_SendAs");
   }
   /**
    * Lists the send-as aliases for the specified account. The result includes the
@@ -91,7 +91,7 @@ class Google_Service_Gmail_Resource_UsersSettingsSendAs extends \GoogleApi\Googl
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListSendAsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListSendAsResponse");
   }
   /**
    * Updates a send-as alias. If a signature is provided, Gmail will sanitize the
@@ -109,7 +109,7 @@ class Google_Service_Gmail_Resource_UsersSettingsSendAs extends \GoogleApi\Googl
   {
     $params = array('userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Gmail_SendAs");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Gmail_SendAs");
   }
   /**
    * Updates a send-as alias. If a signature is provided, Gmail will sanitize the
@@ -126,7 +126,7 @@ class Google_Service_Gmail_Resource_UsersSettingsSendAs extends \GoogleApi\Googl
   {
     $params = array('userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Gmail_SendAs");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Gmail_SendAs");
   }
   /**
    * Sends a verification email to the specified send-as alias address. The

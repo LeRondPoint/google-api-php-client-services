@@ -39,7 +39,7 @@ class Google_Service_Analytics_Resource_ManagementGoals extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_Goal");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_Goal");
   }
   /**
    * Create a new goal. (goals.insert)
@@ -55,7 +55,7 @@ class Google_Service_Analytics_Resource_ManagementGoals extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_Goal");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_Goal");
   }
   /**
    * Lists goals to which the user has access. (goals.listManagementGoals)
@@ -81,7 +81,7 @@ class Google_Service_Analytics_Resource_ManagementGoals extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_Goals");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_Goals");
   }
   /**
    * Updates an existing goal. This method supports patch semantics. (goals.patch)
@@ -98,7 +98,7 @@ class Google_Service_Analytics_Resource_ManagementGoals extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_Goal");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_Goal");
   }
   /**
    * Updates an existing goal. (goals.update)
@@ -115,6 +115,6 @@ class Google_Service_Analytics_Resource_ManagementGoals extends \GoogleApi\Googl
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_Goal");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_Goal");
   }
 }

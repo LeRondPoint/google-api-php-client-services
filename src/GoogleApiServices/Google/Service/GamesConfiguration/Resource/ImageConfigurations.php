@@ -38,6 +38,6 @@ class Google_Service_GamesConfiguration_Resource_ImageConfigurations extends \Go
   {
     $params = array('resourceId' => $resourceId, 'imageType' => $imageType);
     $params = array_merge($params, $optParams);
-    return $this->call('upload', array($params), "Google_Service_GamesConfiguration_ImageConfiguration");
+    return $this->call('upload', array($params), "\GoogleApiServices\Google_Service_GamesConfiguration_ImageConfiguration");
   }
 }

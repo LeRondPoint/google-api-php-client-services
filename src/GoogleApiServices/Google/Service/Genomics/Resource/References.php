@@ -41,7 +41,7 @@ class Google_Service_Genomics_Resource_References extends \GoogleApi\Google_Serv
   {
     $params = array('referenceId' => $referenceId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Genomics_Reference");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Genomics_Reference");
   }
   /**
    * Searches for references which match the given criteria. For the definitions
@@ -59,6 +59,6 @@ class Google_Service_Genomics_Resource_References extends \GoogleApi\Google_Serv
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_Genomics_SearchReferencesResponse");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_Genomics_SearchReferencesResponse");
   }
 }

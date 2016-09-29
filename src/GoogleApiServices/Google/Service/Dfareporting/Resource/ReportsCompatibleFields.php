@@ -39,6 +39,6 @@ class Google_Service_Dfareporting_Resource_ReportsCompatibleFields extends \Goog
   {
     $params = array('profileId' => $profileId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('query', array($params), "Google_Service_Dfareporting_CompatibleFields");
+    return $this->call('query', array($params), "\GoogleApiServices\Google_Service_Dfareporting_CompatibleFields");
   }
 }

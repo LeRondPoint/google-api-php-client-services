@@ -45,7 +45,7 @@ class Google_Service_CloudUserAccounts_Resource_Linux extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'user' => $user, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('getAuthorizedKeysView', array($params), "Google_Service_CloudUserAccounts_LinuxGetAuthorizedKeysViewResponse");
+    return $this->call('getAuthorizedKeysView', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_LinuxGetAuthorizedKeysViewResponse");
   }
   /**
    * Retrieves a list of user accounts for an instance within a specific project.
@@ -106,6 +106,6 @@ class Google_Service_CloudUserAccounts_Resource_Linux extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'instance' => $instance);
     $params = array_merge($params, $optParams);
-    return $this->call('getLinuxAccountViews', array($params), "Google_Service_CloudUserAccounts_LinuxGetLinuxAccountViewsResponse");
+    return $this->call('getLinuxAccountViews', array($params), "\GoogleApiServices\Google_Service_CloudUserAccounts_LinuxGetLinuxAccountViewsResponse");
   }
 }

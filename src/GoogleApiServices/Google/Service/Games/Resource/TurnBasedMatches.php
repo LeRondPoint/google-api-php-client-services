@@ -54,7 +54,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Decline an invitation to play a turn-based match. (turnBasedMatches.decline)
@@ -71,7 +71,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId);
     $params = array_merge($params, $optParams);
-    return $this->call('decline', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('decline', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Dismiss a turn-based match from the match list. The match will no longer show
@@ -107,7 +107,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('finish', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('finish', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Get the data for a turn-based match. (turnBasedMatches.get)
@@ -125,7 +125,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Join a turn-based match. (turnBasedMatches.join)
@@ -142,7 +142,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId);
     $params = array_merge($params, $optParams);
-    return $this->call('join', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('join', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Leave a turn-based match when it is not the current player's turn, without
@@ -160,7 +160,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId);
     $params = array_merge($params, $optParams);
-    return $this->call('leave', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('leave', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Leave a turn-based match during the current player's turn, without canceling
@@ -183,7 +183,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId, 'matchVersion' => $matchVersion);
     $params = array_merge($params, $optParams);
-    return $this->call('leaveTurn', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('leaveTurn', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
   /**
    * Returns turn-based matches the player is or was involved in.
@@ -212,7 +212,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Games_TurnBasedMatchList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatchList");
   }
   /**
    * Create a rematch of a match that was previously completed, with the same
@@ -235,7 +235,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId);
     $params = array_merge($params, $optParams);
-    return $this->call('rematch', array($params), "Google_Service_Games_TurnBasedMatchRematch");
+    return $this->call('rematch', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatchRematch");
   }
   /**
    * Returns turn-based matches the player is or was involved in that changed
@@ -266,7 +266,7 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('sync', array($params), "Google_Service_Games_TurnBasedMatchSync");
+    return $this->call('sync', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatchSync");
   }
   /**
    * Commit the results of a player turn. (turnBasedMatches.takeTurn)
@@ -284,6 +284,6 @@ class Google_Service_Games_Resource_TurnBasedMatches extends \GoogleApi\Google_S
   {
     $params = array('matchId' => $matchId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('takeTurn', array($params), "Google_Service_Games_TurnBasedMatch");
+    return $this->call('takeTurn', array($params), "\GoogleApiServices\Google_Service_Games_TurnBasedMatch");
   }
 }

@@ -41,7 +41,7 @@ class Google_Service_Monitoring_Resource_ProjectsTimeSeries extends \GoogleApi\G
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Monitoring_MonitoringEmpty");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Monitoring_MonitoringEmpty");
   }
   /**
    * Lists time series that match a filter. This method does not require a
@@ -115,6 +115,6 @@ class Google_Service_Monitoring_Resource_ProjectsTimeSeries extends \GoogleApi\G
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Monitoring_ListTimeSeriesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Monitoring_ListTimeSeriesResponse");
   }
 }

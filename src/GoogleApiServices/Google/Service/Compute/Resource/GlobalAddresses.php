@@ -37,7 +37,7 @@ class Google_Service_Compute_Resource_GlobalAddresses extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'address' => $address);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified address resource. Get a list of available addresses by
@@ -52,7 +52,7 @@ class Google_Service_Compute_Resource_GlobalAddresses extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'address' => $address);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_Address");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_Address");
   }
   /**
    * Creates an address resource in the specified project using the data included
@@ -67,7 +67,7 @@ class Google_Service_Compute_Resource_GlobalAddresses extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of global addresses. (globalAddresses.listGlobalAddresses)
@@ -112,6 +112,6 @@ class Google_Service_Compute_Resource_GlobalAddresses extends \GoogleApi\Google_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_AddressList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_AddressList");
   }
 }

@@ -36,7 +36,7 @@ class Google_Service_AdExchangeBuyer_Resource_Proposals extends \GoogleApi\Googl
   {
     $params = array('proposalId' => $proposalId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeBuyer_Proposal");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_Proposal");
   }
   /**
    * Create the given list of proposals (proposals.insert)
@@ -49,7 +49,7 @@ class Google_Service_AdExchangeBuyer_Resource_Proposals extends \GoogleApi\Googl
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_AdExchangeBuyer_CreateOrdersResponse");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_CreateOrdersResponse");
   }
   /**
    * Update the given proposal. This method supports patch semantics.
@@ -70,7 +70,7 @@ class Google_Service_AdExchangeBuyer_Resource_Proposals extends \GoogleApi\Googl
   {
     $params = array('proposalId' => $proposalId, 'revisionNumber' => $revisionNumber, 'updateAction' => $updateAction, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AdExchangeBuyer_Proposal");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_Proposal");
   }
   /**
    * Search for proposals using pql query (proposals.search)
@@ -84,7 +84,7 @@ class Google_Service_AdExchangeBuyer_Resource_Proposals extends \GoogleApi\Googl
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_AdExchangeBuyer_GetOrdersResponse");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_GetOrdersResponse");
   }
   /**
    * Update the given proposal to indicate that setup has been completed.
@@ -117,6 +117,6 @@ class Google_Service_AdExchangeBuyer_Resource_Proposals extends \GoogleApi\Googl
   {
     $params = array('proposalId' => $proposalId, 'revisionNumber' => $revisionNumber, 'updateAction' => $updateAction, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AdExchangeBuyer_Proposal");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyer_Proposal");
   }
 }

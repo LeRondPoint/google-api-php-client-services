@@ -38,7 +38,7 @@ class Google_Service_CloudMonitoring_Resource_MetricDescriptors extends \GoogleA
   {
     $params = array('project' => $project, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_CloudMonitoring_MetricDescriptor");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_CloudMonitoring_MetricDescriptor");
   }
   /**
    * Delete an existing metric. (metricDescriptors.delete)
@@ -52,7 +52,7 @@ class Google_Service_CloudMonitoring_Resource_MetricDescriptors extends \GoogleA
   {
     $params = array('project' => $project, 'metric' => $metric);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudMonitoring_DeleteMetricDescriptorResponse");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudMonitoring_DeleteMetricDescriptorResponse");
   }
   /**
    * List metric descriptors that match the query. If the query is not set, then
@@ -81,6 +81,6 @@ class Google_Service_CloudMonitoring_Resource_MetricDescriptors extends \GoogleA
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudMonitoring_ListMetricDescriptorsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudMonitoring_ListMetricDescriptorsResponse");
   }
 }

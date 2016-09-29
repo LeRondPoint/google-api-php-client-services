@@ -42,7 +42,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('addInstances', array($params), "Google_Service_Compute_Operation");
+    return $this->call('addInstances', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of instance groups and sorts them by zone.
@@ -88,7 +88,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_InstanceGroupAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_InstanceGroupAggregatedList");
   }
   /**
    * Deletes the specified instance group. The instances in the group are not
@@ -105,7 +105,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified instance group. Get a list of available instance groups
@@ -121,7 +121,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_InstanceGroup");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_InstanceGroup");
   }
   /**
    * Creates an instance group in the specified project using the parameters that
@@ -138,7 +138,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves the list of instance groups that are located in the specified
@@ -185,7 +185,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_InstanceGroupList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_InstanceGroupList");
   }
   /**
    * Lists the instances in the specified instance group.
@@ -235,7 +235,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('listInstances', array($params), "Google_Service_Compute_InstanceGroupsListInstances");
+    return $this->call('listInstances', array($params), "\GoogleApiServices\Google_Service_Compute_InstanceGroupsListInstances");
   }
   /**
    * Removes one or more instances from the specified instance group, but does not
@@ -253,7 +253,7 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('removeInstances', array($params), "Google_Service_Compute_Operation");
+    return $this->call('removeInstances', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Sets the named ports for the specified instance group.
@@ -271,6 +271,6 @@ class Google_Service_Compute_Resource_InstanceGroups extends \GoogleApi\Google_S
   {
     $params = array('project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('setNamedPorts', array($params), "Google_Service_Compute_Operation");
+    return $this->call('setNamedPorts', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
 }

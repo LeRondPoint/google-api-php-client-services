@@ -40,7 +40,7 @@ class Google_Service_AndroidPublisher_Resource_EditsTracks extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'track' => $track);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_Track");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Track");
   }
   /**
    * Lists all the track configurations for this edit. (tracks.listEditsTracks)
@@ -55,7 +55,7 @@ class Google_Service_AndroidPublisher_Resource_EditsTracks extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AndroidPublisher_TracksListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_TracksListResponse");
   }
   /**
    * Updates the track configuration for the specified track type. When halted,
@@ -75,7 +75,7 @@ class Google_Service_AndroidPublisher_Resource_EditsTracks extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_AndroidPublisher_Track");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Track");
   }
   /**
    * Updates the track configuration for the specified track type. When halted,
@@ -94,6 +94,6 @@ class Google_Service_AndroidPublisher_Resource_EditsTracks extends \GoogleApi\Go
   {
     $params = array('packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AndroidPublisher_Track");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_Track");
   }
 }

@@ -39,7 +39,7 @@ class Google_Service_ShoppingContent_Resource_Shippingsettings extends \GoogleAp
   {
     $params = array('postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('custombatch', array($params), "Google_Service_ShoppingContent_ShippingsettingsCustomBatchResponse");
+    return $this->call('custombatch', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_ShippingsettingsCustomBatchResponse");
   }
   /**
    * Retrieves the shipping settings of the account. (shippingsettings.get)
@@ -54,7 +54,7 @@ class Google_Service_ShoppingContent_Resource_Shippingsettings extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId, 'accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_ShoppingContent_ShippingSettings");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_ShippingSettings");
   }
   /**
    * Retrieves supported carriers and carrier services for an account.
@@ -69,7 +69,7 @@ class Google_Service_ShoppingContent_Resource_Shippingsettings extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId);
     $params = array_merge($params, $optParams);
-    return $this->call('getsupportedcarriers', array($params), "Google_Service_ShoppingContent_ShippingsettingsGetSupportedCarriersResponse");
+    return $this->call('getsupportedcarriers', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_ShippingsettingsGetSupportedCarriersResponse");
   }
   /**
    * Lists the shipping settings of the sub-accounts in your Merchant Center
@@ -87,7 +87,7 @@ class Google_Service_ShoppingContent_Resource_Shippingsettings extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_ShoppingContent_ShippingsettingsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_ShippingsettingsListResponse");
   }
   /**
    * Updates the shipping settings of the account. This method supports patch
@@ -106,7 +106,7 @@ class Google_Service_ShoppingContent_Resource_Shippingsettings extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_ShoppingContent_ShippingSettings");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_ShippingSettings");
   }
   /**
    * Updates the shipping settings of the account. (shippingsettings.update)
@@ -124,6 +124,6 @@ class Google_Service_ShoppingContent_Resource_Shippingsettings extends \GoogleAp
   {
     $params = array('merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_ShoppingContent_ShippingSettings");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_ShoppingContent_ShippingSettings");
   }
 }

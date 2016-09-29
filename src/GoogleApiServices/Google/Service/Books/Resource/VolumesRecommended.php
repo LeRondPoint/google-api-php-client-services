@@ -43,7 +43,7 @@ class Google_Service_Books_Resource_VolumesRecommended extends \GoogleApi\Google
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Volumes");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Volumes");
   }
   /**
    * Rate a recommended book for the current user. (recommended.rate)
@@ -61,6 +61,6 @@ class Google_Service_Books_Resource_VolumesRecommended extends \GoogleApi\Google
   {
     $params = array('rating' => $rating, 'volumeId' => $volumeId);
     $params = array_merge($params, $optParams);
-    return $this->call('rate', array($params), "Google_Service_Books_BooksVolumesRecommendedRateResponse");
+    return $this->call('rate', array($params), "\GoogleApiServices\Google_Service_Books_BooksVolumesRecommendedRateResponse");
   }
 }

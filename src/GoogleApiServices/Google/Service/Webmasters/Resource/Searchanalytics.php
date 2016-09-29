@@ -45,6 +45,6 @@ class Google_Service_Webmasters_Resource_Searchanalytics extends \GoogleApi\Goog
   {
     $params = array('siteUrl' => $siteUrl, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('query', array($params), "Google_Service_Webmasters_SearchAnalyticsQueryResponse");
+    return $this->call('query', array($params), "\GoogleApiServices\Google_Service_Webmasters_SearchAnalyticsQueryResponse");
   }
 }

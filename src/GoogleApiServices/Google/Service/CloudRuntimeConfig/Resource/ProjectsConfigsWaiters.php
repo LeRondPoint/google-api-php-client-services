@@ -44,7 +44,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsWaiters extends 
   {
     $params = array('parent' => $parent, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_CloudRuntimeConfig_Operation");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_Operation");
   }
   /**
    * Deletes the waiter with the specified name. (waiters.delete)
@@ -59,7 +59,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsWaiters extends 
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudRuntimeConfig_RuntimeconfigEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeconfigEmpty");
   }
   /**
    * Gets information about a single waiter. (waiters.get)
@@ -75,7 +75,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsWaiters extends 
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudRuntimeConfig_Waiter");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_Waiter");
   }
   /**
    * List waiters within the given configuration.
@@ -99,6 +99,6 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsWaiters extends 
   {
     $params = array('parent' => $parent);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudRuntimeConfig_ListWaitersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_ListWaitersResponse");
   }
 }

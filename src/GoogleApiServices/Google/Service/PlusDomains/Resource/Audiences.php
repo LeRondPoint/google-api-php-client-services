@@ -45,6 +45,6 @@ class Google_Service_PlusDomains_Resource_Audiences extends \GoogleApi\Google_Se
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_PlusDomains_AudiencesFeed");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_PlusDomains_AudiencesFeed");
   }
 }

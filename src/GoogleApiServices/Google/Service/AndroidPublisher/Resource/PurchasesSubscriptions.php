@@ -61,7 +61,7 @@ class Google_Service_AndroidPublisher_Resource_PurchasesSubscriptions extends \G
   {
     $params = array('packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('defer', array($params), "Google_Service_AndroidPublisher_SubscriptionPurchasesDeferResponse");
+    return $this->call('defer', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_SubscriptionPurchasesDeferResponse");
   }
   /**
    * Checks whether a user's subscription purchase is valid and returns its expiry
@@ -80,7 +80,7 @@ class Google_Service_AndroidPublisher_Resource_PurchasesSubscriptions extends \G
   {
     $params = array('packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AndroidPublisher_SubscriptionPurchase");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AndroidPublisher_SubscriptionPurchase");
   }
   /**
    * Refunds a user's subscription purchase, but the subscription remains valid

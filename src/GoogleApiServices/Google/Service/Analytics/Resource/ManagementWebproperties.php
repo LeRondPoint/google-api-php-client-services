@@ -37,7 +37,7 @@ class Google_Service_Analytics_Resource_ManagementWebproperties extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Analytics_Webproperty");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Analytics_Webproperty");
   }
   /**
    * Create a new property if the account has fewer than 20 properties. Web
@@ -53,7 +53,7 @@ class Google_Service_Analytics_Resource_ManagementWebproperties extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Analytics_Webproperty");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Analytics_Webproperty");
   }
   /**
    * Lists web properties to which the user has access.
@@ -74,7 +74,7 @@ class Google_Service_Analytics_Resource_ManagementWebproperties extends \GoogleA
   {
     $params = array('accountId' => $accountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Analytics_Webproperties");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Analytics_Webproperties");
   }
   /**
    * Updates an existing web property. This method supports patch semantics.
@@ -90,7 +90,7 @@ class Google_Service_Analytics_Resource_ManagementWebproperties extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('patch', array($params), "Google_Service_Analytics_Webproperty");
+    return $this->call('patch', array($params), "\GoogleApiServices\Google_Service_Analytics_Webproperty");
   }
   /**
    * Updates an existing web property. (webproperties.update)
@@ -105,6 +105,6 @@ class Google_Service_Analytics_Resource_ManagementWebproperties extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Analytics_Webproperty");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Analytics_Webproperty");
   }
 }

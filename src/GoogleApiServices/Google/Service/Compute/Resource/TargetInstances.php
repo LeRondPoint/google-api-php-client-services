@@ -69,7 +69,7 @@ class Google_Service_Compute_Resource_TargetInstances extends \GoogleApi\Google_
   {
     $params = array('project' => $project);
     $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', array($params), "Google_Service_Compute_TargetInstanceAggregatedList");
+    return $this->call('aggregatedList', array($params), "\GoogleApiServices\Google_Service_Compute_TargetInstanceAggregatedList");
   }
   /**
    * Deletes the specified TargetInstance resource. (targetInstances.delete)
@@ -84,7 +84,7 @@ class Google_Service_Compute_Resource_TargetInstances extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'targetInstance' => $targetInstance);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Returns the specified TargetInstance resource. Get a list of available target
@@ -100,7 +100,7 @@ class Google_Service_Compute_Resource_TargetInstances extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'targetInstance' => $targetInstance);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Compute_TargetInstance");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Compute_TargetInstance");
   }
   /**
    * Creates a TargetInstance resource in the specified project and zone using the
@@ -116,7 +116,7 @@ class Google_Service_Compute_Resource_TargetInstances extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Compute_Operation");
   }
   /**
    * Retrieves a list of TargetInstance resources available to the specified
@@ -163,6 +163,6 @@ class Google_Service_Compute_Resource_TargetInstances extends \GoogleApi\Google_
   {
     $params = array('project' => $project, 'zone' => $zone);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Compute_TargetInstanceList");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Compute_TargetInstanceList");
   }
 }

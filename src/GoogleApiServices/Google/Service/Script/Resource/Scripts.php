@@ -46,6 +46,6 @@ class Google_Service_Script_Resource_Scripts extends \GoogleApi\Google_Service_R
   {
     $params = array('scriptId' => $scriptId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('run', array($params), "Google_Service_Script_Operation");
+    return $this->call('run', array($params), "\GoogleApiServices\Google_Service_Script_Operation");
   }
 }

@@ -37,6 +37,6 @@ class Google_Service_Books_Resource_Dictionary extends \GoogleApi\Google_Service
   {
     $params = array('cpksver' => $cpksver);
     $params = array_merge($params, $optParams);
-    return $this->call('listOfflineMetadata', array($params), "Google_Service_Books_Metadata");
+    return $this->call('listOfflineMetadata', array($params), "\GoogleApiServices\Google_Service_Books_Metadata");
   }
 }

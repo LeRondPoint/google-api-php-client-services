@@ -45,7 +45,7 @@ class Google_Service_Books_Resource_Volumes extends \GoogleApi\Google_Service_Re
   {
     $params = array('volumeId' => $volumeId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Books_Volume");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Books_Volume");
   }
   /**
    * Performs a book search. (volumes.listVolumes)
@@ -78,6 +78,6 @@ class Google_Service_Books_Resource_Volumes extends \GoogleApi\Google_Service_Re
   {
     $params = array('q' => $q);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Books_Volumes");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Books_Volumes");
   }
 }

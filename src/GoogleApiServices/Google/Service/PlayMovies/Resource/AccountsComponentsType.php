@@ -39,6 +39,6 @@ class Google_Service_PlayMovies_Resource_AccountsComponentsType extends \GoogleA
   {
     $params = array('accountId' => $accountId, 'componentId' => $componentId, 'type' => $type);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_PlayMovies_Component");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_PlayMovies_Component");
   }
 }

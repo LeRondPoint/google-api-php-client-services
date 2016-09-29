@@ -54,7 +54,7 @@ class Google_Service_Webmasters_Resource_Sitemaps extends \GoogleApi\Google_Serv
   {
     $params = array('siteUrl' => $siteUrl, 'feedpath' => $feedpath);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Webmasters_WmxSitemap");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Webmasters_WmxSitemap");
   }
   /**
    * Lists the sitemaps-entries submitted for this site, or included in the
@@ -73,7 +73,7 @@ class Google_Service_Webmasters_Resource_Sitemaps extends \GoogleApi\Google_Serv
   {
     $params = array('siteUrl' => $siteUrl);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Webmasters_SitemapsListResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Webmasters_SitemapsListResponse");
   }
   /**
    * Submits a sitemap for a site. (sitemaps.submit)

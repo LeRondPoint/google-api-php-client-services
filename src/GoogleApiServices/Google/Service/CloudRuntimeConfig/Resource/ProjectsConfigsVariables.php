@@ -47,7 +47,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsVariables extend
   {
     $params = array('parent' => $parent, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_CloudRuntimeConfig_Variable");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_Variable");
   }
   /**
    * Deletes a variable or multiple variables.
@@ -70,7 +70,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsVariables extend
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_CloudRuntimeConfig_RuntimeconfigEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_RuntimeconfigEmpty");
   }
   /**
    * Gets information about a single variable. (variables.get)
@@ -85,7 +85,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsVariables extend
   {
     $params = array('name' => $name);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_CloudRuntimeConfig_Variable");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_Variable");
   }
   /**
    * Lists variables within given a configuration, matching any provided filters.
@@ -114,7 +114,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsVariables extend
   {
     $params = array('parent' => $parent);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudRuntimeConfig_ListVariablesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_ListVariablesResponse");
   }
   /**
    * Updates an existing variable with a new value. (variables.update)
@@ -130,7 +130,7 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsVariables extend
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_CloudRuntimeConfig_Variable");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_Variable");
   }
   /**
    * Watches a specific variable and waits for a change in the variable's value.
@@ -158,6 +158,6 @@ class Google_Service_CloudRuntimeConfig_Resource_ProjectsConfigsVariables extend
   {
     $params = array('name' => $name, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('watch', array($params), "Google_Service_CloudRuntimeConfig_Variable");
+    return $this->call('watch', array($params), "\GoogleApiServices\Google_Service_CloudRuntimeConfig_Variable");
   }
 }

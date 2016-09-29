@@ -50,7 +50,7 @@ class Google_Service_Directory_Resource_UsersAliases extends \GoogleApi\Google_S
   {
     $params = array('userKey' => $userKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Directory_Alias");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Directory_Alias");
   }
   /**
    * List all aliases for a user (aliases.listUsersAliases)
@@ -66,7 +66,7 @@ class Google_Service_Directory_Resource_UsersAliases extends \GoogleApi\Google_S
   {
     $params = array('userKey' => $userKey);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Directory_Aliases");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Directory_Aliases");
   }
   /**
    * Watch for changes in user aliases list (aliases.watch)
@@ -83,6 +83,6 @@ class Google_Service_Directory_Resource_UsersAliases extends \GoogleApi\Google_S
   {
     $params = array('userKey' => $userKey, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('watch', array($params), "Google_Service_Directory_Channel");
+    return $this->call('watch', array($params), "\GoogleApiServices\Google_Service_Directory_Channel");
   }
 }

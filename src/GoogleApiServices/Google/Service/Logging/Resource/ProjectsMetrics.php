@@ -39,7 +39,7 @@ class Google_Service_Logging_Resource_ProjectsMetrics extends \GoogleApi\Google_
   {
     $params = array('projectName' => $projectName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('create', array($params), "Google_Service_Logging_LogMetric");
+    return $this->call('create', array($params), "\GoogleApiServices\Google_Service_Logging_LogMetric");
   }
   /**
    * Deletes a logs-based metric. (metrics.delete)
@@ -53,7 +53,7 @@ class Google_Service_Logging_Resource_ProjectsMetrics extends \GoogleApi\Google_
   {
     $params = array('metricName' => $metricName);
     $params = array_merge($params, $optParams);
-    return $this->call('delete', array($params), "Google_Service_Logging_LoggingEmpty");
+    return $this->call('delete', array($params), "\GoogleApiServices\Google_Service_Logging_LoggingEmpty");
   }
   /**
    * Gets a logs-based metric. (metrics.get)
@@ -67,7 +67,7 @@ class Google_Service_Logging_Resource_ProjectsMetrics extends \GoogleApi\Google_
   {
     $params = array('metricName' => $metricName);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Logging_LogMetric");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Logging_LogMetric");
   }
   /**
    * Lists logs-based metrics. (metrics.listProjectsMetrics)
@@ -92,7 +92,7 @@ class Google_Service_Logging_Resource_ProjectsMetrics extends \GoogleApi\Google_
   {
     $params = array('projectName' => $projectName);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Logging_ListLogMetricsResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Logging_ListLogMetricsResponse");
   }
   /**
    * Creates or updates a logs-based metric. (metrics.update)
@@ -109,6 +109,6 @@ class Google_Service_Logging_Resource_ProjectsMetrics extends \GoogleApi\Google_
   {
     $params = array('metricName' => $metricName, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_Logging_LogMetric");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_Logging_LogMetric");
   }
 }

@@ -36,7 +36,7 @@ class Google_Service_Plus_Resource_Activities extends \GoogleApi\Google_Service_
   {
     $params = array('activityId' => $activityId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Plus_Activity");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Plus_Activity");
   }
   /**
    * List all of the activities in the specified collection for a particular user.
@@ -59,7 +59,7 @@ class Google_Service_Plus_Resource_Activities extends \GoogleApi\Google_Service_
   {
     $params = array('userId' => $userId, 'collection' => $collection);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Plus_ActivityFeed");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Plus_ActivityFeed");
   }
   /**
    * Search public activities. (activities.search)
@@ -83,6 +83,6 @@ class Google_Service_Plus_Resource_Activities extends \GoogleApi\Google_Service_
   {
     $params = array('query' => $query);
     $params = array_merge($params, $optParams);
-    return $this->call('search', array($params), "Google_Service_Plus_ActivityFeed");
+    return $this->call('search', array($params), "\GoogleApiServices\Google_Service_Plus_ActivityFeed");
   }
 }

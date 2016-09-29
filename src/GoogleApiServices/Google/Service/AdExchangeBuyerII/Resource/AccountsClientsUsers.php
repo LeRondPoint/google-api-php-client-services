@@ -41,7 +41,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClientsUsers extends \Go
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_AdExchangeBuyerII_ClientUser");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ClientUser");
   }
   /**
    * Lists all the known client users for a specified sponsor buyer account ID.
@@ -68,7 +68,7 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClientsUsers extends \Go
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_AdExchangeBuyerII_ListClientUsersResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ListClientUsersResponse");
   }
   /**
    * Updates an existing client user. Only the user status can be changed on
@@ -88,6 +88,6 @@ class Google_Service_AdExchangeBuyerII_Resource_AccountsClientsUsers extends \Go
   {
     $params = array('accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('update', array($params), "Google_Service_AdExchangeBuyerII_ClientUser");
+    return $this->call('update', array($params), "\GoogleApiServices\Google_Service_AdExchangeBuyerII_ClientUser");
   }
 }

@@ -72,7 +72,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('get', array($params), "Google_Service_Gmail_Message");
+    return $this->call('get', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Imports a message into only this user's mailbox, with standard email delivery
@@ -99,7 +99,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('import', array($params), "Google_Service_Gmail_Message");
+    return $this->call('import', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Directly inserts a message into only this user's mailbox similar to IMAP
@@ -122,7 +122,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('insert', array($params), "Google_Service_Gmail_Message");
+    return $this->call('insert', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Lists the messages in the user's mailbox. (messages.listUsersMessages)
@@ -147,7 +147,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId);
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_Gmail_ListMessagesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_Gmail_ListMessagesResponse");
   }
   /**
    * Modifies the labels on the specified message. (messages.modify)
@@ -163,7 +163,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'id' => $id, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('modify', array($params), "Google_Service_Gmail_Message");
+    return $this->call('modify', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Sends the specified message to the recipients in the To, Cc, and Bcc headers.
@@ -179,7 +179,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'postBody' => $postBody);
     $params = array_merge($params, $optParams);
-    return $this->call('send', array($params), "Google_Service_Gmail_Message");
+    return $this->call('send', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Moves the specified message to the trash. (messages.trash)
@@ -194,7 +194,7 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('trash', array($params), "Google_Service_Gmail_Message");
+    return $this->call('trash', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
   /**
    * Removes the specified message from the trash. (messages.untrash)
@@ -209,6 +209,6 @@ class Google_Service_Gmail_Resource_UsersMessages extends \GoogleApi\Google_Serv
   {
     $params = array('userId' => $userId, 'id' => $id);
     $params = array_merge($params, $optParams);
-    return $this->call('untrash', array($params), "Google_Service_Gmail_Message");
+    return $this->call('untrash', array($params), "\GoogleApiServices\Google_Service_Gmail_Message");
   }
 }

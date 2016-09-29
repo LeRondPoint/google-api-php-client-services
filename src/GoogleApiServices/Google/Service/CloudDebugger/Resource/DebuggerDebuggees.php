@@ -43,6 +43,6 @@ class Google_Service_CloudDebugger_Resource_DebuggerDebuggees extends \GoogleApi
   {
     $params = array();
     $params = array_merge($params, $optParams);
-    return $this->call('list', array($params), "Google_Service_CloudDebugger_ListDebuggeesResponse");
+    return $this->call('list', array($params), "\GoogleApiServices\Google_Service_CloudDebugger_ListDebuggeesResponse");
   }
 }
